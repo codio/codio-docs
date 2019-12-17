@@ -33,7 +33,7 @@ If you want to create your own Crunch files in a Codio project, create a new fil
 
 A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
 
-<img alt="authtoken" src="/img/new-file.png" class="simple"/>
+![authtoken](/img/new-file.png)
 
 
 ## Saving changes
@@ -42,7 +42,7 @@ All changes are changed automatically, so you don't have to explicitly save.
 ## Source Code Editing
 Editing source code is done by hovering over a line until the popup button bar appears.
 
-<img alt="authtoken" src="/img/crunch-insert.png" class="simple"/>
+![authtoken](/img/crunch-insert.png)
 
 If you have not yet added any code, then you should see the button bar already there in the top of the code area.
 
@@ -71,14 +71,14 @@ You can access the full instruction list from the dropdown when you add a new in
 ## Adding labels
 Instructions such as `BEQ`, `BNE`, `BLT`, `BLE`, `BGT`, `BGE`, `JMP` require that you jump to a specific label if the condition is met. You can add such a label by pressing the add label button from the floating toolbar.
 
-<img alt="authtoken" src="/img/crunch-label.png" class="simple"/>
+![authtoken](/img/crunch-label.png)
 
 Enter a label name that can be used as a target for the above listed instructions.
 
 ## Comments
 If you want to add comments to your code, click the comment button, circled below, and you can add a comment description into the code.
 
-<img alt="authtoken" src="/img/crunch-comment.png" class="simple"/>
+![authtoken](/img/crunch-comment.png)
 
 
 ## Selecting lines of code - deleting or moving
@@ -96,7 +96,7 @@ One very nice way of running your code is to step through it line by line so you
 
 At any time, you can press the **Run** button to run to completion at full speed.
 
-<img alt="authtoken" src="/img/crunch-step.png" class="simple"/>
+![authtoken](/img/crunch-step.png)
 
 # Run mode
 This runs your program at full speed.

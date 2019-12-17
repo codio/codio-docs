@@ -12,14 +12,14 @@ Setting up a free text assessment is very simple. The configuration fields for a
 
 # General
 
-<img alt="" src="/img/guides/assessment_free_general.png" class="simple"/>
+![](/img/guides/assessment_free_general.png)
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
 # Grading
 
-<img alt="" src="/img/guides/assessment_free_grading.png" class="simple"/>
+![](/img/guides/assessment_free_grading.png)
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. LaTeX is also supported. Please refer to the **Preview type** section below for details.
@@ -28,7 +28,7 @@ Setting up a free text assessment is very simple. The configuration fields for a
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -40,7 +40,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.
 
@@ -65,21 +65,21 @@ If **One Attempt Only** is enabled, students will only be able to submit their a
 
 To review and grade answers given by student, select the student and a list of all the assessments in the unit are shown.
 
-<img alt="Free Text Grading" src="/img/guides/freetext-grading.png" class="simple"/>
+![Free Text Grading](/img/guides/freetext-grading.png)
 
 Free text assessments are identifiable from the icon
 
-<img alt="authtoken" src="/img/guides/freetexticon.png" class="simple"/>
+![authtoken](/img/guides/freetexticon.png)
 
 Click one line and you will then see the question asked of the student and the answer they submitted.
 
 If the question was not set to **Allow Partial Points**, the teacher can select **Correct** or **Incorrect**
 
-<img alt="Partial points not allowed" src="/img/guides/notpartial.png" class="simple"/>
+![Partial points not allowed](/img/guides/notpartial.png)
 
 If the question was set to use **Allow Partial Points** the teacher can select the points to give to the answer up to the maximum **Points**.
 
-<img alt="Partial points allowed" src="/img/guides/partial.png" class="simple"/>
+![Partial points allowed](/img/guides/partial.png)
 
 Comments can also be added and will be shown to the student when grades are released. The comment field supports [LATex](/content/authoring/page-edit/latex/) and [markdown](/content/authoring/page-edit/edit/) with a preview area below the text area to allow the grader review the input. The comment field will autoexpand as required
 
@@ -88,11 +88,11 @@ Comments can also be added and will be shown to the student when grades are rele
 
 Using the **<** and **>** buttons at the top of the assessments grading dialog you can quickly navigate either to the same assessment for other students or to other assessments for the select student
 
-<img alt="Navigate assessments" src="/img/guides/freetext_navigate.png" class="simple"/>
+![Navigate assessments](/img/guides/freetext_navigate.png)
 
 ## Viewing graded free text assessments
 
 For any free text assessments that have been graded by a teacher in a unit, you will see the points given and the field in the **Correct** column checked.
 
-<img alt="authtoken" src="/img/guides/freetextanswer.png" class="simple"/>
+![authtoken](/img/guides/freetextanswer.png)
 

@@ -6,13 +6,13 @@ title: "Play Mode"
 
 To see your content running, you need to *Play* it. If the content does not automatically start or of you have closed it, go to **Tools->Guide->Play** menu option or click the **Start Guide** icon in the file tree:
 
-<img alt="StartGuides" src="/img/guides/startguides.png" class="simple"/>
+![StartGuides](/img/guides/startguides.png)
 
 At this point the panel layout is set up automatically according to the layout specified in the first section and it will be displayed.
 
 
 ## Player Options
-<img alt="Play Mode" src="/img/guides/playmode.png" class="simple"/>
+![Play Mode](/img/guides/playmode.png)
 
 
 Within the player various options can be controlled by the user
@@ -27,7 +27,7 @@ Within the player various options can be controlled by the user
 ## Restore Current Files
 The Restore Current Files feature is a great way for students to reset/restore any files on that page to its initial state after hacking sample code around. Students can restore their files from the menu as shown below.
 
-<img alt="authtoken" src="/img/guides/reset.png" class="simple"/>
+![authtoken](/img/guides/reset.png)
 
 
 

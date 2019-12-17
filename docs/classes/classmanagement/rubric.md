@@ -6,14 +6,14 @@ title: Grading rubric templates
 
 The Grading Rubric feature provides a two dimensional grid that provides grading guidance for manually assessing a coding project.
 
-<img alt="rubric example" src="/img/class_administration/grading/template-example.png" class="simple"/>
+![rubric example](/img/class_administration/grading/template-example.png)
 
 # Grading Rubric templates
 You will only have access to this feature if you are a member of the [owners group](/dashboard/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.
 
 You should see a **Grading Templates** tab item. There will be fewer tabs visible if you are not an organization owner.
 
-<img alt="rubric setup" src="/img/class_administration/grading/templates.png" class="simple"/>
+![rubric setup](/img/class_administration/grading/templates.png)
 
 Click the **New** button in the to right to create a new template. You should then add rows and columns.
 
@@ -29,13 +29,13 @@ A final score is calculated based on your selections and is re-based to the maxi
 # Applying a grading template to a unit
 To use a grading template you should select the classroom so you see the full unit listing. Press the button with the 3 dots to bring up the menu. Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
-<img alt="rubric template apply" src="/img/class_administration/grading/set-template.png" class="simple"/>
-<img alt="rubric template set" src="/img/class_administration/grading/grading-template.png" class="simple"/>
+![rubric template apply](/img/class_administration/grading/set-template.png)
+![rubric template set](/img/class_administration/grading/grading-template.png)
 
 # Grading student work
 You perform the actual grading from the classroom. Select a unit to grade so you see the students listed.
 
-<img alt="grading with rubric" src="/img/class_administration/grading/classroom.png" class="simple"/>
+![grading with rubric](/img/class_administration/grading/classroom.png)
 
 You can then grade in the usual two ways.
 

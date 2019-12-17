@@ -6,7 +6,7 @@ title: "Permissions"
 
 You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
-<img alt="authtoken" src="/img/permissions-dlg.png" class="simple"/>
+![authtoken](/img/permissions-dlg.png)
 
 By default:
 

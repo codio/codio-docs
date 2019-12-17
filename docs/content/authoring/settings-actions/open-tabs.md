@@ -17,12 +17,12 @@ You should also be aware that you can achieve the same actions from Markdown dir
 # Page - Close Tabs
 Enable this to close all panels open from the previous page.
 
-<img alt="Page_tab_options" src="/img/guides/page.png" class="simple"/>
+![Page_tab_options](/img/guides/page.png)
 
 <a name="opentabs"></a>
 # Open Tabs
 
-<img alt="Open Tabs tab options" src="/img/guides/guide_files.png" class="simple"/>
+![Open Tabs tab options](/img/guides/guide_files.png)
 
 Files can be opened automatically to present the student with relevant files.
 
@@ -35,7 +35,7 @@ You can also drag and drop files in from your project file tree to the page to a
 # Opening Files
 To open files, select the file type and enter the file name, including the path to the file if not in the root of the project workspace.
 
-<img alt="openfile" src="/img/guides/type_file.png" class="simple"/>
+![openfile](/img/guides/type_file.png)
 
 To open multiple files in the same panel, enter in the following format:
 
@@ -46,7 +46,7 @@ index.html, main.css
 # Previewing
 To preview your project, select the **Preview** Type. If you wish to show a workspace or external website page, use the **Preview** option and enter the appropriate URL.
 
-<img alt="preview" src="/img/guides/type_preview.png" class="simple"/>
+![preview](/img/guides/type_preview.png)
 
 **Please note:** If the URL you are previewing does not allow embedding in an `<iframe>`, then you won't be able to use `https` addresses. You would have to use an `http` address instead, in which case it will automatically open in an new browser tab and not within Codio.
 
@@ -55,11 +55,11 @@ To open a terminal window, select the **Terminal** option.
 
 You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the `/.guides` folder (which is hidden when content is running) at a certain point in your content.
 
-<img alt="authtoken" src="/img/guides/type_terminal.png" class="simple"/>
+![authtoken](/img/guides/type_terminal.png)
 
 You can also specify system commands in a new terminal window like so:
 
-<img alt="authtoken" src="/img/guides/terminal_command.png" class="simple"/>
+![authtoken](/img/guides/terminal_command.png)
 
 # Highlighting lines in your code
 To highlight one or more lines within an auto-opened file, select the **Highlight** option and then
@@ -67,7 +67,7 @@ To highlight one or more lines within an auto-opened file, select the **Highligh
 1. Enter a piece of reference text, contained within your target file, into the **Reference ...** field
 2. Specify the number of lines, from that reference point, you want to highlight
 
-<img alt="authtoken" src="/img/guides/type_highlight.png" class="simple"/>
+![authtoken](/img/guides/type_highlight.png)
 
 Using reference text rather than a line number means that if you insert anything into your file in the future, Codio is able to adjust the highlighted block based on the reference text. If you insert or remove lines within the block then you would need to adjust the line count.
 
@@ -94,7 +94,7 @@ Select `Visualiser` and enter the path to your file.
 
 Students can visualise what the computer is doing step-by-step as it executes those programs.
 
-<img alt="authtoken" src="/img/guides/pythontutor.png" class="simple"/>
+![authtoken](/img/guides/pythontutor.png)
 
 ## Examples
 
@@ -105,7 +105,7 @@ nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
 for temp in nested:
   print(temp)
 ```
-<img alt="authtoken" src="/img/guides/PythonVisualizerExample.png" class="simple"/>
+![authtoken](/img/guides/PythonVisualizerExample.png)
 
 **Java**
 
@@ -119,7 +119,7 @@ public static void countdown(int n) {
   }
 }
 ```
-<img alt="authtoken" src="/img/guides/JavaVisualizerExample.png" class="simple"/>
+![authtoken](/img/guides/JavaVisualizerExample.png)
 
 For more information and examples see [Python Tutor](http://pythontutor.com/).
 
@@ -127,7 +127,7 @@ For more information and examples see [Python Tutor](http://pythontutor.com/).
 # Specifying the panel number
 If your [layout](/content/authoring/settings-actions/page/) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
-<img alt="authtoken" src="/img/guides/panel.png" class="simple"/>
+![authtoken](/img/guides/panel.png)
 
 If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.
 

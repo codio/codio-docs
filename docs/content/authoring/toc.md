@@ -7,7 +7,7 @@ title: "Table of contents management"
 Once you are in the Codio IDE, you are able to create and manage content. There are two ways to access the Codio Guide.
 
 -  Press then right arrow at the top of the file tree.
-<img alt="startauthouring" src="/img/guides/startguides.png" class="simple"/>
+![startauthouring](/img/guides/startguides.png)
 - From the menu, select **Tools->Guide->Edit**.
 
 # Editing page content and actions
@@ -19,7 +19,7 @@ Please refer to the following pages for details in how to edit page content and 
 # Editing content
 The image below highlights the main components of the editing page.
 
-<img alt="Edit Book" src="/img/guides/editbook.png" class="simple"/>
+![Edit Book](/img/guides/editbook.png)
 
 # Accessing the table of contents
 To open and close the table of contents, press the **Hamburger Icon** at the top right. From here you can add and organize content.

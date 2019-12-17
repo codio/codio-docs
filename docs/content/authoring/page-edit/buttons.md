@@ -68,7 +68,7 @@ window.addEventListener('codio-button-custom', function (ev) {
 You should point your content page to a script file to load javascript scripts. You can do this from **Settings>Global>Scripts**.
 
 
-<img alt="authtoken" src="/img/guides/scripts.png" class="simple"/>
+![authtoken](/img/guides/scripts.png)
 
 <a name="eventlistener"></a>
 

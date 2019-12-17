@@ -6,7 +6,7 @@ title: "Uploading Files"
 
 You can upload a file into your project in the following ways
 
-<img alt="show" src="/img/right-click.png" class="simple"/>
+![show](/img/right-click.png)
 
 - Right-click within the file tree, taking into account folders
 - Select the **File > Upload** menu option, having first selected a folder in the file tree.

@@ -14,19 +14,19 @@ To help and track students activity through sense, [custom script](/dashboard/cr
 
 This assessment type is only visible when the sense.network api key is entered in the **Organisation>Integrations** area. See [organisation admin roles](/dashboard/create/adminrole/) for more on this.
 
-<img alt="Organisation integrations" src="/img/guides/org_integrations.png" class="simple"/>
+![Organisation integrations](/img/guides/org_integrations.png)
 
 ## Assessment definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
 # General
-<img alt="" src="/img/guides/assessment_sn_general.png" class="simple"/>
+![](/img/guides/assessment_sn_general.png)
 
 - **Name** (required) is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** (optional) is the text that should be shown to the user, written in Markdown.
 
 # Execution
-<img alt="" src="/img/guides/assessment_sn_exec.png" class="simple"/>
+![](/img/guides/assessment_sn_exec.png)
 
 - **Pre-exec command** (optional) is where a check can be run to confirm any code is compiling as required. If you store the scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Pre-exec feedback** (optional) field is used to show feedback if **Pre-exec command** fails,  otherwise will show pre-exec output.
@@ -34,7 +34,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Filename** (optional) is the path to the file to pass. If empty, will send the currently opened file
 
 # Grading
-<img alt="" src="/img/guides/assessment_sn_grading.png" class="simple"/>
+![](/img/guides/assessment_sn_grading.png)
 
 - **Gradable** enable if the assignment is to be used within the grade total for the unit. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
@@ -42,7 +42,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 # Metadata
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -54,6 +54,6 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.

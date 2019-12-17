@@ -6,7 +6,7 @@ title: "Sharing and Embedding"
 
 To share a project or link to a project from a web page, go to the **Project > Share** menu item.
 
-<img alt="Sharing" src="/img/sharing.png" class="simple"/>
+![Sharing](/img/sharing.png)
 
 ## Retaining layout status & automatically starting tutorials
 You'll notice the three options at the top of the dialog. When you embed or link to a Codio project you have three ways of the IDE rendering it

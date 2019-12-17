@@ -11,6 +11,6 @@ Once you have found the Starter Pack you want to use, you can create a new Proje
 
 You will then be transferred to the [Create Project](/project/creating/) dialog, so Codio can create a new Project for you based on the selected Starter Pack.
 
-<img alt="Packs Info" src="/img/packs_info.png" class="simple"/>
+![Packs Info](/img/packs_info.png)
 
 

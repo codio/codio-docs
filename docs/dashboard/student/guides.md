@@ -10,7 +10,7 @@ The easiest way to get rid of these is to restore the original files in a unit.
 To do this:
 
 1. Open the unit you are working on. In the top right, choose the settings icon, and then **Restore current files**
-<img alt="authtoken" src="/img/guides/reset.png" class="simple"/>
+![authtoken](/img/guides/reset.png)
 
 <a name="completed"></a>
 
@@ -20,7 +20,7 @@ When you have completed a unit you can mark it as completed. This can be done fr
 
 - Your [My Classroom](/dashboard/student/myclassroom/) area
 - In the settings (click the gear icon)
-	<img alt="Complete" src="/img/guides/complete.png" class="simple"/>
+	![Complete](/img/guides/complete.png)
 - From the last page in the guide.
 - Going to **Education>Mark as Completed** menu item in the unit
 
@@ -43,4 +43,4 @@ The Lexikon is organized into Topics. We currently have added
 - Javascript
 - Linux
 
-<img alt="Lexicon" src="/img/lexicon.png" class="simple"/>
+![Lexicon](/img/lexicon.png)

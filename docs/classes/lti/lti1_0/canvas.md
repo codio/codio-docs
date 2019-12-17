@@ -15,7 +15,7 @@ The following steps need to be taken only one time per class.
 - Select the **LTI Integrations** tab.
 - Scroll down to the **LTI Integration 1.0** section. You should see the following fields. Remain on this screen for the time being.
 
-<img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
+![LTI Fields](/img/lti/lti-org-fields.png)
 
 
 # In Canvas, adding Codio as an App
@@ -46,7 +46,7 @@ In Canvas you should then use one of the following steps
 You should end up with something like this.
 
 
-<img alt="Canvas Global" src="/img/lti/canvas-global.png" class="simple"/>
+![Canvas Global](/img/lti/canvas-global.png)
 
 ## By URL
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
@@ -85,7 +85,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 - Once the Unit has been added to the class, you should click the icon with 3 blue dots and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
-<img alt="Unit URL" src="/img/lti/LMS-Unit-URL.png" class="simple"/>
+![Unit URL](/img/lti/LMS-Unit-URL.png)
 
 # In Canvas
 We now return to Canvas complete the mapping.
@@ -96,7 +96,7 @@ We now return to Canvas complete the mapping.
 - Set the points for the Assignment. When the grades get passed back later, the Codio percentage score will be scaled to the points value you specify here.
 - Scroll down and look for the **Submission Type** field.
 
-<img alt="Canvas Submission" src="/img/lti/canvas-submission-type.png" class="simple"/>
+![Canvas Submission](/img/lti/canvas-submission-type.png)
 
 
 - You should now click on the dropdown list and select **External Tool**.
@@ -136,7 +136,7 @@ By default, grades in Codio are neither passed back to the student nor to Canvas
 
 Once **Release Grades** is enabled, all completed student assignments are automatically sent through.
 
-<img alt="Release Grades" src="/img/lti/release-complete.png" class="simple"/>
+![Release Grades](/img/lti/release-complete.png)
 
 There are various ways to mark a student's work as complete
 

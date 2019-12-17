@@ -6,7 +6,7 @@ title: "Installing software packages"
 
 The **Tools->Install Software** menu option gives you access to a dialog driven means of running scripts that can install, configure or reconfigure software components. This saves you the trouble of doing this manually from the command line.
 
-<img alt="Install Software" src="/img/install-sw-g2.png" class="simple"/>
+![Install Software](/img/install-sw-g2.png)
 
 
 On this page, you can locate the software you want to install and then click the install icon to start the installation.

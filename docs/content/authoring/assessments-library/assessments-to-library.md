@@ -15,16 +15,16 @@ Once an assessment is added to an assessment library, it can be accessed later a
   * Use [the files tab](/content/authoring/assessments/assessments-standard-code-tests#files) to ensure all dependent files such as grading scripts, images used in the guides pane, etc. are associated with the assessment so it works properly when added from the library
 
   Once the assessment is written, we can add it to an assessment library. Click the **"SAVE IN LIBRARY"** button on the bottom right of the window:
-   <img alt="Save to library" src="/img/guides/assessment-save-to-library.png" class="simple"/>
+   ![Save to library](/img/guides/assessment-save-to-library.png)
 
 
 1. A window will appear with a dropdown menu of all the available libraries that the question can be added to. Choose the desired library from the dropdown menu.
 
-   <img alt="Library selection" src="/img/guides/assessment-library-selection-menu.png" class="simple"/>
+   ![Library selection](/img/guides/assessment-library-selection-menu.png)
 
 1. Once the desired library has been chosen, press the blue **"SELECT"** button.
 
-   <img alt="Selecting library" src="/img/guides/assessment-library-selection.png" class="simple"/>
+   ![Selecting library](/img/guides/assessment-library-selection.png)
 
 The assessment has now been added to the chosen library.
 

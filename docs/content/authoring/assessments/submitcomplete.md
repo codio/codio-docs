@@ -16,7 +16,7 @@ It is now possible to suppress the submit button entirely. The advantage of this
 
 To suppress the use of the **Submit** button, you should go to the global settings tab in the guide and disable **Use submit buttons**.
 
-<img alt="Global Settings" src="/img/guides/globalsettings.png" class="simple"/>
+![Global Settings](/img/guides/globalsettings.png)
 
 Once the project is marked as complete (see below) then all assessment responses are fully submitted automatically. You should make sure that all students' work is marked as complete either manually or using the automated mark as complete option on the final deadline.
 

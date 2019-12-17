@@ -9,7 +9,7 @@ The Language Server protocol is used to integrate features like auto complete, g
 **Java, OCAML and Python** are currently available.
 
 Python Example:
-<img alt="Python" src="/img/pythonexample.png" class="simple"/>
+![Python](/img/pythonexample.png)
 
 ## Implementing LSP support
 

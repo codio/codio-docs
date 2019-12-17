@@ -11,7 +11,7 @@ Book units are published from the books area.
 
 Let's say you have already published a book and created a unit from a part of that book. If you then make changes to the book and republish the book, those published changes are not automatically reflected in the course. If you want to update the unit, then need to press the **Update to latest version** button that appears on the right side of the unit.
 
-<img alt="Book update" src="/img/bookupdate.png" class="simple"/>
+![Book update](/img/bookupdate.png)
 
 After pressing this, the books changes will be reflected in the unit. If you want these changes to be passed through to a class where the unit was previously added, then please [click here](/classes/unitmanagement/upgradecourse) for details.
 
@@ -23,11 +23,11 @@ Publishing the unit takes a snapshot of the underlying project unit and assigns 
 
 - Select the unit from the listing and then press **Publish**.
 
-<img alt="publishnew" src="/img/publishnew.png" class="simple"/>
+![publishnew](/img/publishnew.png)
 
 - If you have previously published then you will see **Publish new version**
 
-<img alt="versions" src="/img/versions.png" class="simple"/>
+![versions](/img/versions.png)
 
 # Describe changes
 You should enter a brief description of the changes you made since the last publish of the unit. You can see the version history on the  [versions screen](/courses/units/settings/).
@@ -44,12 +44,12 @@ then you should
 1. Press the **Stack unchanged** button.
 1. Press the **Publish Unit** button when ready.
 
-<img alt="versions" src="/img/stack_notmodified.png" class="simple"/>
+![versions](/img/stack_notmodified.png)
 
 # Stack modifications
 If you have made any changes to the project's stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
-<img alt="versions" src="/img/stack_modified.png" class="simple"/>
+![versions](/img/stack_modified.png)
 
 You should now decide whether you want to
 
@@ -61,7 +61,7 @@ Note that if the stack you are using is not owned by you or you don't have permi
 
 You should enter a description of the stack changes made and then press **Publish Unit**. The new stack version will appear in your stacks listing in the normal way.
 
-<img alt="versions" src="/img/stack_newversion.png" class="simple"/>
+![versions](/img/stack_newversion.png)
 
 # Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other units should use, then select this option.
@@ -74,7 +74,7 @@ You should **not** create a new stack for each unit in your course without good 
 
 If you have differing configurations then create one single stack for a given configuration and then point units that use that configuration to the new stack.
 
-<img alt="versions" src="/img/stack_newstack.png" class="simple"/>
+![versions](/img/stack_newstack.png)
 
 # IMPORTANT: Switching a unit's stack
 Let's say you have one or more units and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack settings**) or from the units listing (press the 3 blue dots and select **Change stack**).

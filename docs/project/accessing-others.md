@@ -14,5 +14,5 @@ You will not be able to edit the project but you can [fork](/ide/features/fork) 
 
 If a project has been [shared](/ide/customization/permissions) to you, you will be able to view this from your **My Projects > Shared with me** area.
 
-<img alt="Shared Project" src="/img/console-shared.png" class="simple"/>
+![Shared Project](/img/console-shared.png)
 

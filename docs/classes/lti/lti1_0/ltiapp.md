@@ -20,7 +20,7 @@ The following steps need to be taken only one time per class.
 - Select the **LTI Integrations** tab.
 - Scroll down to the **LTI Integration 1.0** section. You should see the following fields. Remain on this screen for the time being.
 
-<img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
+![LTI Fields](/img/lti/lti-org-fields.png)
 
 # In Canvas
 The Canvas user who carries out these steps must be a system administrator.
@@ -32,7 +32,7 @@ The Canvas user who carries out these steps must be a system administrator.
 - Click the large button **View App Configurations**.
 - Click on the **View App Center** button.
 
-<img alt="appcenter" src="/img/lti/appcenter.png" class="simple"/>
+![appcenter](/img/lti/appcenter.png)
 
 - Navigate (or filter) to find the **Codio** app, select and **+ Add App**
 
@@ -45,7 +45,7 @@ We will now copy the following global integration fields from Codio to Canvas.
 and select the **Add App** button to confirm.
 You should then have something similar to this:
 
-<img alt="appconfigured" src="/img/lti/appsetup.png" class="simple"/>
+![appconfigured](/img/lti/appsetup.png)
 
 
 
@@ -60,7 +60,7 @@ The LMS user who carries out these steps does not need to be a system administra
 - Near the bottom is a switch **Enable LTI** which you should enable.
 - Below this is an empty field **Class LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
 
-<img alt="lti-class-url" src="/img/lti/lti-class-url.png" class="simple"/>
+![lti-class-url](/img/lti/lti-class-url.png)
 
 # Mapping Codio units to Canvas unit/assignment
 The **Unit URL** is where you map each individual Unit within your Codio Class to the corresponding unit/assignment in your LMS.
@@ -70,11 +70,11 @@ Where you have enabled the Codio LTI App in your LMS system, you can easily inte
 - Go to your Canvas Course and to **Pages** to add a new page,
 - Click the Codio icon that will be available
 
-<img alt="codioicon" src="/img/lti/codioicon.png" class="simple"/>
+![codioicon](/img/lti/codioicon.png)
 
 - A list of the Codio class contents will be shown, simply select the unit(s) you wish to add to Canvas and Save
 
-<img alt="classunits" src="/img/lti/classunits.png" class="simple"/>
+![classunits](/img/lti/classunits.png)
 
 The assignment(s) and course will need to be published before students will be able to access them
 

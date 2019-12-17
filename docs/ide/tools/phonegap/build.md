@@ -10,7 +10,7 @@ You should have set up your code signing keys in your Phonegap:Build account (mo
 
 Keys are configured from the **Account > Edit Setting > Signing Keys** tab in your Phonegap:Build account.
 
-<img alt="Build settings" src="/img/buildsettings.png" class="simple"/>
+![Build settings](/img/buildsettings.png)
 
 
 ## A bit about Keys
@@ -67,5 +67,5 @@ When the build is completed you can deploy the app to your device in the followi
 - download the native file and manually upload to your device
 - scan the QR code to download from Phonegap:Build to your device
 
-<img alt="Build" src="/img/build.png" class="simple"/>
+![Build](/img/build.png)
 

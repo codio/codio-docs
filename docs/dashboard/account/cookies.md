@@ -13,7 +13,7 @@ and
 
 - enable **Allow sites to save and read cookie data (recommended)**
 - disable **Block third party cookies**
-<img alt="Chrome Cookies" src="/img/chromecookies.png" class="simple"/>
+![Chrome Cookies](/img/chromecookies.png)
 
 *Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)*
 
@@ -23,16 +23,16 @@ Select **User custom settings for history** from the drop down in the History se
 
 - check **Accept cookies from sites**
 - select 'Always' in the drop down for **Accept third-party cookies**
-<img alt="Firefox Cookies" src="/img/firefoxcookies.png" class="simple"/>
+![Firefox Cookies](/img/firefoxcookies.png)
 
 *Image from Firefox 55.0.2 (64-bit)*
 
 ## To enable cookies in Safari:
 In your browser go to `Safari> Preferences`
-<img alt="Safari" src="/img/safari.png" class="simple"/>
+![Safari](/img/safari.png)
 Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.
 
-<img alt="Safari Cookies" src="/img/crosssitetracking.png" class="simple"/>
+![Safari Cookies](/img/crosssitetracking.png)
 
 If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
 

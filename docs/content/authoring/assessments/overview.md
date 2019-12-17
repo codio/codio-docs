@@ -25,7 +25,7 @@ There are two concepts that are important to understand in order to control the 
 ## Adding a new assessment
 To add a new assessment, you should first position the cursor in your content where you want it to appear. Then, from the assessments drop-down, select the type of assessment you wish to insert.
 
-<img alt="authtoken" src="/img/guides/add_assessment.png" class="simple"/>
+![authtoken](/img/guides/add_assessment.png)
 
 ## Editing an existing assessment
 If you want to edit an existing assessment on the page you are viewing, you should press the settings button in the guide toolbar. In the lower section of the drop down list you will find any assessments on that page. Select one to edit.
@@ -33,7 +33,7 @@ If you want to edit an existing assessment on the page you are viewing, you shou
 ## Deleting an assessment
 Select the page where your assessment is located. Then remove the assessment token from the page. As assessment token looks like this.
 
-<img alt="Assessment token" src="/img/assessmenttoken.png" class="simple"/>
+![Assessment token](/img/assessmenttoken.png)
 
 Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
 

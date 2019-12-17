@@ -12,7 +12,7 @@ This is great for anyone wanting to offer a link into a GitHub README page and t
 
 The advantage of this approach is that changes you make to your repo will be automatically shown in Codio as it creates a brand new Codio project whenever clicked on. If a project of that name already exists, users can change the name on the project creation page.
 
-<img alt="create from GitHub" src="/img/github-readme.png" class="simple"/>
+![create from GitHub](/img/github-readme.png)
 
 
 You just use the following link format in your GitHub README file (or anywhere else for that matter).
@@ -35,21 +35,21 @@ Go to the **Stacks** area and find the appropriate stack you wish to be used wit
 
 Example showing the **Empty Stack** stack version ID
 
-<img alt="Empty Stack Version ID" src="/img/stackversionid.png" class="simple"/>
+![Empty Stack Version ID](/img/stackversionid.png)
 
 
 
 You are free to use any way of linking to Codio but we would recommend using the following images
 
-<img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png" class="simple"/>
-<img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png" class="simple"/>
+![show](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)
+![show](https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png)
 
 
 
 
 # How get manually import a Git repo into Codio
 
-<img alt="create from GitHub" src="/img/github-clone-url.png" class="simple"/>
+![create from GitHub](/img/github-clone-url.png)
 
 
 - If you are on the GitHub site and looking at a repo, you will see the **Clone URL** link (circled above).
@@ -60,7 +60,7 @@ You are free to use any way of linking to Codio but we would recommend using the
 - Paste in the Git URL (see below) and add any additional details you require
 - Press **Create** and Codio will load the repo and then display it
 
-<img alt="create from GitHub" src="/img/github-create.png" class="simple"/>
+![create from GitHub](/img/github-create.png)
 
 
 

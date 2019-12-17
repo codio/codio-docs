@@ -11,7 +11,7 @@ There are three ways to deploy projects.
 ## Tools->Deployment->Deploy menu
 This let's you deploy to any of your deployment targets you created in [Manage Targets](/ide/tools/deployment/create). You are shown a log if any errors occur.
 
-<img alt="deploy screen" src="/img/deploy-menu.png" class="simple"/>
+![deploy screen](/img/deploy-menu.png)
 
 
 

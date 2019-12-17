@@ -14,21 +14,21 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 
 # General
 
-<img alt="" src="/img/guides/assessment_general.png" class="simple"/>
+![](/img/guides/assessment_general.png)
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
 # Execution
 
-<img alt="" src="/img/guides/assessment_autofree_exec.png" class="simple"/>
+![](/img/guides/assessment_autofree_exec.png)
 
 - **Command** is the command to execute a script to autograde. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Timeout** is the time to abort the script from executing in the event of a problem.
 
 # Grading
 
-<img alt="" src="/img/guides/assessment_free_grading.png" class="simple"/>
+![](/img/guides/assessment_free_grading.png)
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview type** section below for details.
@@ -37,7 +37,7 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -49,7 +49,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.
 

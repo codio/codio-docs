@@ -6,7 +6,7 @@ title: "Creating and importing a project"
 
 Create a new project, or import one by, clicking on the New Project button on the Dashboard.
 
-<img alt="Create Project" src="/img/project_create.png" class="simple"/>
+![Create Project](/img/project_create.png)
 
 You can then choose which of the following Project creation methods you want to use.
 
@@ -36,7 +36,7 @@ Click on the **'Click here....'** link to import or select an alternative softwa
 - **Import** lets you import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
 
 
-<img alt="Import Project" src="/img/project_create_other.png" class="simple"/>
+![Import Project](/img/project_create_other.png)
 
 
 # Selecting a Stack

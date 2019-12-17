@@ -40,11 +40,11 @@ Global search and replace are available within the **Find** menu under **Find in
 
 You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.
 
-<img alt="authtoken" src="/img/global-search.png" class="simple"/>
+![authtoken](/img/global-search.png)
 
 Once the search operation has completed you will see matches listed in a Codio tab. Double click on the highlighted match to open up that file in a new tab.
 
-<img alt="global search dialog" src="/img/search-matches.png" class="simple"/>
+![global search dialog](/img/search-matches.png)
 
 
 ## Pattern & Wildcard Matching (Globs)

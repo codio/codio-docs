@@ -6,11 +6,11 @@ title: Grading free text
 
 Free text questions will normally require a manual grading process. In order to grade these questions, you should first select the unit. You will then be shown the student list, as you can see below.
 
-<img alt="StudentList" src="/img/studentlist.png" class="simple"/>
+![StudentList](/img/studentlist.png)
 
 You can now select a student. You will then be shown the list of all assessments for that student within the unit. Free text questions are denoted by the icon highlighted below.
 
-<img alt="Free Text Grading" src="/img/guides/freetext-grading.png" class="simple"/>
+![Free Text Grading](/img/guides/freetext-grading.png)
 
 Note that if a student has started to answer a question but not submitted the answer, then you will see **DRAFT** written next to it. Once they submit, you will see **GRADE** indicating that the question has been submitted and is ready to be graded.
 
@@ -20,7 +20,7 @@ Note that if a student has started to answer a question but not submitted the an
 Where an answer is set to all partial points, a rubric is provided to allow graders to dynamically deduct points from the maximum score.
 A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this unit, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each unit, and every new unit starts with an empty rubric.
 
-<img alt="Free Text Grading" src="/img/guides/partialpointrubric.png" class="simple"/>
+![Free Text Grading](/img/guides/partialpointrubric.png)
 
 ## Rubric
 Every rubric item is 2 fields, first is the rubric item weight and the second one line item name.

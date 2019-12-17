@@ -27,7 +27,7 @@ You can filter from the available options in the tabs, or search by typing into 
 
 You can also order the list of modules by name or owner and use the **Filter by Course** drop down to view modules in other courses.
 
-<img alt="Module Browse" src="/img/module_browser.png" class="simple"/>
+![Module Browse](/img/module_browser.png)
 
 ## Adding a unit to a module
 Please read the section [Adding units](/courses/units/unit-add) for details.

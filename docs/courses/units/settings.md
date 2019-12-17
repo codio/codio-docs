@@ -6,7 +6,7 @@ title: Unit settings
 
 Additional actions for the unit are available by clicking on the 3 vertical blue dots. You will get a different menu depending on whether you have a book unit or a project unit.
 
-<img alt="Unit settings" src="/img/unitsettings.png" class="simple"/>
+![Unit settings](/img/unitsettings.png)
 
 For book units, you will not see **Change stack** or **Versions**.
 
@@ -25,7 +25,7 @@ This allows you to view the version history. You can see
 - name of the person who published the unit,
 - the name and version of the stack assigned to the unit.
 
-<img alt="versions" src="/img/versiondetails.png" class="simple"/>
+![versions](/img/versiondetails.png)
 
 
 # Change stack
@@ -37,10 +37,10 @@ If a stack is set to **Use latest version** then
 - the unit itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
 
 ## Delete unit
-<img alt="deletetab" src="/img/deletetab.png" class="simple"/>
+![deletetab](/img/deletetab.png)
 Select **Delete** from the above screen to delete the unit.
 
-<img alt="deleteunit" src="/img/deleteunit.png" class="simple"/>
+![deleteunit](/img/deleteunit.png)
 
 You are required to enter a confirmation code to proceed and you can then do one of the following
 

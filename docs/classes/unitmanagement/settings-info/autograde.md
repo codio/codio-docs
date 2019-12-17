@@ -32,7 +32,7 @@ A more advanced way of populating the grading field is to write your own custom 
 
 If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks.
 
-<img alt="authtoken" src="/img/grading-secure.png" class="simple"/>
+![authtoken](/img/grading-secure.png)
 
 <a name="securescripts"></a>
 # Secure scripts
@@ -110,7 +110,7 @@ We provide the ability to test your autograding script from the **Education -> T
 
 This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
 
-<img alt="authtoken" src="/img/autograde-test.png" class="simple"/>
+![authtoken](/img/autograde-test.png)
 
 You should be aware of the following points.
 

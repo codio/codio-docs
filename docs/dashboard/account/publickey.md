@@ -4,7 +4,7 @@ title: "Public Key"
 
 Codio automatically generates a public key for your account. This key can then be used whenever Codio attempts communication with an external server that requires public/private key based authentication such as SSH or SFTP access.
 
-<img alt="public key dialog" src="/img/prefs-account-ssh.png" class="simple"/>
+![public key dialog](/img/prefs-account-ssh.png)
 
 
 ## Where is it used?
@@ -20,7 +20,7 @@ In both cases, you will need to install the public key onto the remote system. I
 ## Adding your public key to a remote server
 If you want to get your Codio public key onto a remote server, just press the Upload Public Key button. You enter your user credentials on the remote and Codio will get it installed in the `~/.ssh/authorized_keys` file.
 
-<img alt="authtoken" src="/img/prefs-account-ssh-dialog.png" class="simple"/>
+![authtoken](/img/prefs-account-ssh-dialog.png)
 
 ## Adding your public key to GitHub or BitBucket
 If you are working with GitHub or BitBucket, then you need to install the public key. Codio makes this very easy for you. Goto **Codio>Account** and select GitHub or BitBucket tab and select 'Upload your public key to GitHub/BitBucket'

@@ -34,7 +34,7 @@ the `.codioignore` file will be
 app.js
 README.md
 ```
-<img alt="codioignore" src="/img/codioignore.png" class="simple"/>
+![codioignore](/img/codioignore.png)
 
 Please note that the `.codioignore` file is included in the desktop app files.
 
@@ -46,7 +46,7 @@ A line starting with `#` serves as a comment
 # Starting the app
 When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the United Kingdom/Europe, it maybe **https://codio.co.uk**.
 
-<img alt="desktop server" src="/img/desktop_server.png" class="simple"/>
+![desktop server](/img/desktop_server.png)
 
 You can check by logging into your Codio account in your browser and you will see the server domain noted there
 
@@ -56,14 +56,14 @@ Having selected the server log in using your codio credentials.
 
 <a name="connect"></a>
 # Accessing and connecting to your online content
-<img alt="desktop options" src="/img/desktop_options.png" class="simple"/>
+![desktop options](/img/desktop_options.png)
 
 When logged in you can access your content either from **My Classroom** or **My Projects** area
 
 Select either:
 
 - **connect** - to pull all the code from the selected unit to a folder on your PC that you define.
-<img alt="desktop workspace" src="/img/desktop_workspace.png" class="simple"/>.
+![desktop workspace](/img/desktop_workspace.png).
 
 - **Open in Codio** - to open the unit in your Codio account
 
@@ -72,7 +72,7 @@ When connecting, browse to a folder on your PC where you would like to store the
 # Managing your offline content
 When you have connected you can then push/pull/open the unit in Codio and manage the local workspace folder settings.
 
-<img alt="desktop connected" src="/img/desktop_connected.png" class="simple"/>
+![desktop connected](/img/desktop_connected.png)
 
 **1.** Click the **pull** button to pull content in from your Codio account. **Note** Any files you already have stored locally will be overwritten
 
@@ -84,7 +84,7 @@ When you have connected you can then push/pull/open the unit in Codio and manage
 
 # Local workspace folder settings
 
-<img alt="desktop workspace settings" src="/img/desktop_worspacesettings.png" class="simple"/>
+![desktop workspace settings](/img/desktop_worspacesettings.png)
 
 **1.** Click the **Open the folder** button to open the folder containing your local files
 

@@ -18,4 +18,4 @@ Students can mark the unit as complete from their own dashboards but a teacher i
 
 Teachers can also mark complete units as incomplete for all students in the class or for individual students selecting the switch or by accessing their unit.
 
-<img alt="unit actions" src="/img/class_administration/mark-complete.png" class="simple"/>
+![unit actions](/img/class_administration/mark-complete.png)

@@ -10,7 +10,7 @@ You can also specify that parts of the book not mapped to by the unit either a) 
 
 It is controlled from the Admin section in the class
 
-<img alt="Book Visibility" src="/img/bookpages.png" class="simple"/>
+![Book Visibility](/img/bookpages.png)
 
 This option will only show in a class if there is a course containing book based units.
 
@@ -19,7 +19,7 @@ Select **Edit Details** button and flip the switch to change the settings as req
 - **Show only unit pages** will only show the part of the book mapped to that unit.
 - **Show all pages** will show all the book content and the areas not mapped to that specific unit will be grayed out in the table of contents.
 
-<img alt="Show all pages" src="/img/bookshowallpages.png" class="simple"/>
+![Show all pages](/img/bookshowallpages.png)
 
 
 

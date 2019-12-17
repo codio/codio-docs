@@ -11,5 +11,5 @@ You can also configure your `.codio` file so common commands are accessible from
 ## A few Git helpers
 We have added a few Git helpers to the **Tools->Git** menu.
 
-<img alt="git overview" src="/img/git-overview.png" class="simple"/>
+![git overview](/img/git-overview.png)
 

@@ -10,7 +10,7 @@ You can insert and play audio files within your project.
 
 On the page you wish to play Audio, go to the **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
-<img alt="authtoken" src="/img/guides/media.png" class="simple"/>
+![authtoken](/img/guides/media.png)
 
 - **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC where it will then be stored in the `.guides/media` folder.
 - **Add Action** - specifies actions that are triggeted at specific times during playback. The following options are available.
@@ -48,7 +48,7 @@ For Markdown pages:
 For HTML pages:
 
 ```html
-<img alt=".guides/img/displayimage" src=".guides/img/displayimage.png"/>
+![.guides/img/displayimage](.guides/img/displayimage.png)
 ```
 
 
@@ -61,7 +61,7 @@ Including embedded videos are also possible using the standard `<iframe>` html t
 
 If you wish to embed a YouTube video, go to the Share option and select **Embed** to obtain the code snippet.
 
-<img alt="authtoken" src="/img/guides/guides_youtube.png" class="simple"/>
+![authtoken](/img/guides/guides_youtube.png)
 
 ```
 <iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ If you wish to embed a YouTube video, go to the Share option and select **Embed*
 
   If you wish to embed a Vimeo video, go to the Share option and select **Embed** to obtain the code snippet.
 
-<img alt="authtoken" src="/img/guides/guides_vimeo.png" class="simple"/>
+![authtoken](/img/guides/guides_vimeo.png)
 
 ```
 <iframe src="//player.vimeo.com/video/110479088" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110479088">Codio - Innovation in Computer Programming Education</a> from <a href="http://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -92,7 +92,7 @@ You can embed content in an iframe using the `<iframe>` html tag.
 
 To embed from Google Docs, go to **File>Publish** to Web and select **Embed** to get the code snippet
 
-<img alt="authtoken" src="/img/guides/guides_publish.png" class="simple"/>
+![authtoken](/img/guides/guides_publish.png)
 
 
 ## Example Projects

@@ -25,7 +25,7 @@ To find these keys:
 - Scroll down to the **LTI Integration 1.0** section. You should see the following fields.
 
 
-<img alt="lti-keys" src="/img/lti/lti-org-fields.png" class="simple"/>
+![lti-keys](/img/lti/lti-org-fields.png)
 
 # Class URL
 
@@ -38,7 +38,7 @@ The LMS user who carries out these steps does not need to be a system administra
 - Near the bottom is a switch **Enable LTI** which you should enable.
 - Below this is an empty field **Class LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
 
-<img alt="lti-class-url" src="/img/lti/lti-class-url.png" class="simple"/>
+![lti-class-url](/img/lti/lti-class-url.png)
 
 # Unit URL
 
@@ -50,7 +50,7 @@ If you are unable to utilise the Codio LTI App, the **Unit URL** is where you ma
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
 
-<img alt="authtoken" src="/img/lti/LMS-Unit-URL.png" class="simple"/>
+![authtoken](/img/lti/LMS-Unit-URL.png)
 
 - Complete the mapping in your LMS.
 
@@ -62,5 +62,5 @@ The LTI integration URLs for the units in a class can be exported.
 
 - Select the class, go to the Admin area and then press the **Export LTI Settings** button.
 
-<img alt="Export LTI" src="/img/class_lti_export.png" class="simple"/>
+![Export LTI](/img/class_lti_export.png)
 

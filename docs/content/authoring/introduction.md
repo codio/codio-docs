@@ -18,6 +18,6 @@ You can launch the content authoring from
 - The menu, **Tools->Guide->Edit**
 - The button at the top of the file tree as shown below
 
-<img alt="Start Authoring" src="/img/guides/startguides.png" class="simple"/>
+![Start Authoring](/img/guides/startguides.png)
 
 

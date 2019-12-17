@@ -9,5 +9,5 @@ Each Codio Project gets its own dedicated Ubuntu Server (Box). This chapter cont
 
 Details of your project Box can be found by opening the **Project > Box Info** menu item, where information of your project URL(s) can be viewed.
 
-<img alt="Box Info" src="/img/box_info.png" class="simple"/>
+![Box Info](/img/box_info.png)
 

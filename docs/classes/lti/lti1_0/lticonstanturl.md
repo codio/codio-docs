@@ -12,11 +12,11 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 
 - Create an External app in your LMS using the configuration type: By URL
 
-<img alt="LTI URL config" src="/img/lti/canvas_url.png" class="simple"/>
+![LTI URL config](/img/lti/canvas_url.png)
 
 - Enter in the Consumer Key and Shared Secret from your Codio organisation
 
-<img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
+![LTI Fields](/img/lti/lti-org-fields.png)
 
 - Copy the XML URL into the Config URL field
 - Submit
@@ -25,7 +25,7 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 
 **N.B. If your LMS supports it, `lis_course_offering_sourcedid` is also supported as a unique course identifier so you can replace `codio_class_target_id` if required**
 
-<img alt="Enable Constant URL" src="/img/lti/constant_url.png" class="simple"/>
+![Enable Constant URL](/img/lti/constant_url.png)
 
 - Return to your LMS external app and 'edit'
 - Paste the **LTI constant URL's enabled** link into the Custom Field

@@ -8,7 +8,7 @@ description: ""
 You can specify penalties in the event that students do not complete the unit within agreed timescales. Incremental penalties can be applied if required.
 
 
-<img alt="penalties" src="/img/penalties.png" class="simple"/>
+![penalties](/img/penalties.png)
 
 Each row in the table will contain the following fields :
 
@@ -37,7 +37,7 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 # Teacher/Instructors Dashboard:
 
 **Penalty indicator:** If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
-<img alt="dashboard penalty" src="/img/penaltydashboard.png" class="simple"/>
+![dashboard penalty](/img/penaltydashboard.png)
 **Final grade field:** this field will show the final graded score less any penalty deduction. If the field is overwritten by the teacher/instructor, then the penalty deduction will not be applied.
 
 <a name="adjustdeadline"></a>
@@ -48,12 +48,12 @@ The set deadline(s) can be adjusted forward by a number of days if required for 
 
 Select the unit from the class units list and click on the 3 blue vertical dots and select 'Adjust deadline'
 
-<img alt="penalties" src="/img/penaltydeadline.png" class="simple"/>
+![penalties](/img/penaltydeadline.png)
 
 You can then adjust the deadline forward by as many days as you require
 
-<img alt="penalties" src="/img/deadlineadjust.png" class="simple"/>
+![penalties](/img/deadlineadjust.png)
 
 When applied, the adjustment will then show next to the grade field in the teacher/instructors dashboard. The deadline in the image below was adjusted by 4 days
 
-<img alt="penalties" src="/img/adjusted.png" class="simple"/>
+![penalties](/img/adjusted.png)

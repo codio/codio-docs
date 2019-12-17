@@ -8,11 +8,11 @@ title: How are courses organised?
 Codio offers a 3 level hierarchy for organising and publishing course materials.
 
 - A **Course** is the top level and consists of a collection of Modules.
-<img alt="authtoken" src="/img/courses_small.png" class="simple"/>
+![authtoken](/img/courses_small.png)
 - A **Module** will typically incorporate all the course materials to cover a logical area of a curriculum or coursework. It in turn consists of a collection of Units.
-<img alt="authtoken" src="/img/module_browser_small.png" class="simple"/>
+![authtoken](/img/module_browser_small.png)
 - A **Unit** is the lowest level item of coursework. It will typically contain enough material to cover a particular topic or area of a curriculum or coursework. A Unit is taken directly from a Codio project.
-<img alt="authtoken" src="/img/units_small.png" class="simple"/>
+![authtoken](/img/units_small.png)
 
 Take a look at the [Recommended Content](https://codio.com/home/courses/?tab=3&sDirection=asc&sProp=name&filter=) and open a Course to see its associated Modules and, within each Module, the Units.
 

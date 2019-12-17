@@ -11,14 +11,14 @@ You can clone an existing class to create a new class in 2 ways
 
 Either:
 1. Click the 3 blue dot menu item shown on the main class dashboard and select **Clone Class**
-<img alt="Clone Class Dash" src="/img/manage_classes/maincloneclass.png" class="simple"/>
+![Clone Class Dash](/img/manage_classes/maincloneclass.png)
 
 or
 
 2. Select the existing class, go to the **Admin** area.
 
 - Click the **Clone Class** button at the bottom of the page.
-<img alt="Clone Class" src="/img/manage_classes/cloneclass.png" class="simple"/>
+![Clone Class](/img/manage_classes/cloneclass.png)
 
 1. Complete the details requested for the name of the new class, then click **Create Class**.
 

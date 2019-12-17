@@ -6,7 +6,7 @@ title: Base path field
 
 You will notice that all deployment targets, except Codio, have a **Preview Base Path** field.
 
-<img alt="base path" src="/img/deploy-basepath.png" class="simple"/>
+![base path](/img/deploy-basepath.png)
 
 
 It is important to complete this field for all target types involving remote servers so that the Preview option knows how to access your project once deployed.

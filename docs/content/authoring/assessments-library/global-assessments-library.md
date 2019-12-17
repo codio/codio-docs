@@ -29,10 +29,10 @@ Using the library is similar to using any other assessment library in your organ
 - Content (sub-topic level)
 - Learning Objective (in SWBAT form - "Students will be able to....")
 - Bloom's Taxonomy level
-   <img alt="Blooms Taxonomy" src="/img/bloomsTax.png" class="simple"/>
+   ![Blooms Taxonomy](/img/bloomsTax.png)
 
 Here is an example of the tags in a Codio library assessment:
-<img alt="Codio library" src="/img/CodioLibTags.png" class="simple"/>
+![Codio library](/img/CodioLibTags.png)
 
 *Assessment type is auto-detected and not manually specified.*
 

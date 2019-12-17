@@ -43,7 +43,7 @@ You manage debug targets from the following locations
 
 This will bring up the list of any debug targets you may have previously configured.
 
-<img alt="authtoken" src="/img/debug-targets.png" class="simple"/>
+![authtoken](/img/debug-targets.png)
 
 To create a new target, press the Create button. You can then configure your target. You can also edit any existing debug target. The following parameters can be configured.
 
@@ -53,7 +53,7 @@ To create a new target, press the Create button. You can then configure your tar
 - Any command to execute before debugging starts. This is usually a compile process.
 - You can also reference the active file in use using {{filepath}} token which inserts the path and full file name /path/to/file.ext
 
-<img alt="authtoken" src="/img/debug-target.png" class="simple"/>
+![authtoken](/img/debug-target.png)
 
 When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.
 
@@ -75,11 +75,11 @@ There are two ways you can launch an application in debug mode.
 - from the rightmost toolbar menu you can select the debug target from the dropdown menu or just press the button to re-run the last executed debug target.
 - from the debug targets list you can press the **Debug** button.
 
-<img alt="authtoken" src="/img/debug-launch.png" class="simple"/>
+![authtoken](/img/debug-launch.png)
 
 At this point, the debugger will fire up and you will see a screen similar to the one show below.
 
-<img alt="authtoken" src="/img/debug-started.png" class="simple"/>
+![authtoken](/img/debug-started.png)
 
 You may need to wait a second or two for the debugger to load. It will automatically stop on the first line of code, regardless of whether there is a breakpoint set or not.
 
@@ -91,7 +91,7 @@ When a breakpoint is set, a red dot will appear on the line.
 # Controlling the debugger
 Once the debugger stops code execution you can control execution using the buttons at the top of the debug panel.
 
-<img alt="authtoken" src="/img/debug-buttons.png" class="simple"/>
+![authtoken](/img/debug-buttons.png)
 
 - **Resume** - this tells the debugger to carry on execution without stopping until another breakpoint is encountered.
 - **Stop** - execution will stop and the debug window will be closed.

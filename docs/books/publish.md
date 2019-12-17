@@ -16,7 +16,7 @@ Please note the following.
 
 When you press the **Publish** button, the following screen will appear.
 
-<img alt="versions" src="/img/book_publish.png" class="simple"/>
+![versions](/img/book_publish.png)
 
 
 ## New stack (no modifications) or only code workspace changes made
@@ -31,13 +31,13 @@ then you should
 1. Press the **Stack Unchanged** button.
 1. Press the **Publish Book** button.
 
-<img alt="versions" src="/img/book_stack_notmodified.png" class="simple"/>
+![versions](/img/book_stack_notmodified.png)
 
 
 ## Stack modified
 If you have made any changes to the stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
-<img alt="versions" src="/img/book_stack_modified.png" class="simple"/>
+![versions](/img/book_stack_modified.png)
 
 You should now decide whether you want to
 
@@ -49,7 +49,7 @@ Note that if the stack you are using is not owned by you or you don't have permi
 
 You should enter a description of the stack changes made and then press **Publish Book**. The new stack version will appear in your stacks listing in the normal way.
 
-<img alt="versions" src="/img/book_stack_newversion.png" class="simple"/>
+![versions](/img/book_stack_newversion.png)
 
 ## Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or units should use, then select this option.
@@ -58,7 +58,7 @@ This will create a new stack with the permissions you specify. To give access on
 
 It will take a few minutes to prepare the stack, so please be patient. Once it is created, it will be visible your stacks listing.
 
-<img alt="versions" src="/img/book_stack_newstack.png" class="simple"/>
+![versions](/img/book_stack_newstack.png)
 
 
 # Later book modifications

@@ -8,4 +8,4 @@ You can expand and collapse the section list by clicking the **Hamburger** icon 
 
 This works in both edit and play modes.
 
-<img alt="authtoken" src="/img/guides/collapse.png" class="simple"/>
+![authtoken](/img/guides/collapse.png)

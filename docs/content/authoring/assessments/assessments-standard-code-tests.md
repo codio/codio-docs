@@ -17,7 +17,7 @@ The configuration fields for an assessment are split into five sections: General
 # General
 The screenshot below shows the basic configuration fields for the _General_ section:
 
-<img alt="" src="/img/guides/assessment_general.png" class="simple"/>
+![](/img/guides/assessment_general.png)
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
@@ -25,7 +25,7 @@ The screenshot below shows the basic configuration fields for the _General_ sect
 # Execution
 The screenshot below shows the configuration fields for the _Execution_ section:
 
-<img alt="" src="/img/guides/assessment_sct_execution.png" class="simple"/>
+![](/img/guides/assessment_sct_execution.png)
 
 - **Command** is the command that executes the student code itself. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Pre-exec command** is the command to execute before you run each test. This will normally be a compile command.
@@ -33,7 +33,7 @@ The screenshot below shows the configuration fields for the _Execution_ section:
 # Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
 
-<img alt="" src="/img/guides/assessment_sct_grading.png" class="simple"/>
+![](/img/guides/assessment_sct_grading.png)
 
 - **Points** is the score given to the student if the code test passes. You can enter any positive numeric value.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
@@ -46,7 +46,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 <a name="metadata"></a>
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -59,7 +59,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.
 
@@ -71,7 +71,7 @@ You then would create a second assessment that does not show expected output and
 ## Specifying inputs and outputs
 The final step in configuring an assessment is to set up the inputs and outputs in the _Grading_ section. There are some important details to understand.
 
-<img alt="" src="/img/guides/std-assessment-args.png" class="simple"/>
+![](/img/guides/std-assessment-args.png)
 
 The first set of empty input/output fields is provided. You should choose between supplying your inputs as arguments or as `stdin` data. These are explained in more detail below.
 
@@ -94,15 +94,15 @@ If you want to handle manual data input cases such as "Enter your Name: " then y
 
 The following image shows how to format input and output fields if you are **not** ignoring white space or doing a **Substring match**. Note how the input field only supplied the values to be input, not the prompt itself (which is actually a part of `stdout`). It is important to accurately account for all spaces and carriage returns.
 
-<img alt="" src="/img/guides/std-assessment-stdin.png" class="simple"/>
+![](/img/guides/std-assessment-stdin.png)
 
 The following image shows the more tolerant approach that has the **Ignore whitespace** option set. In this case, we have put everything on its own line for readability. The whitespace characters will be stripped out of both the expected output and the student output at runtime.
 
-<img alt="" src="/img/guides/std-assessment-stdin-ignore.png" class="simple"/>
+![](/img/guides/std-assessment-stdin-ignore.png)
 
 <a name="errorfeedback"></a>
 # Error Feedback
 
 To provide extended feedback about issues in the student's code, you can enable this option if you wish to show feedback to the student in the event the test fails.
 
-<img alt="" src="/img/guides/std-assessment-error.png" class="simple"/>
+![](/img/guides/std-assessment-error.png)

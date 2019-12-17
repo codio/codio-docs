@@ -24,7 +24,7 @@ Read on for information on how to configure your Static and Dynamic preview menu
 ## Instructions
 The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically.
 
-<img alt="authtoken" src="/img/preview-deploy.png" class="simple"/>
+![authtoken](/img/preview-deploy.png)
 
 
 - **Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
@@ -35,7 +35,7 @@ The Preview button lets you preview one or more web pages with a simple button p
 
 If you right-click a file in the file tree or the Tab, you can also select **Preview Static**.
 
-<img alt="authtoken" src="/img/preview-deploy-right-click.png" class="simple"/>
+![authtoken](/img/preview-deploy-right-click.png)
 
 
 ## Preview in a Codio tab or new browser tab

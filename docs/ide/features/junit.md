@@ -22,7 +22,7 @@ Open the JUnit dialog **Tools->JUnit** or use the **Shift+Alt+J** hotkey. Then c
 
 All paths are relative to the root of the workspace folder.
 
-<img alt="junit" src="/img/junit.png" class="simple"/>
+![junit](/img/junit.png)
 
 Individual test cases can be added
 
@@ -33,12 +33,12 @@ Individual test cases can be added
 
 The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well
 
-<img alt="junitsettings" src="/img/junitsettings.png" class="simple"/>
+![junitsettings](/img/junitsettings.png)
 To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/ide/customization/project-prefs/)
 
 # Execution
 You can Execute the tests from the **JUnits Execution** tab. Once completed, the results will be listed below.
 
-<img alt="junitexecute" src="/img/junitexecution.png" class="simple"/>
+![junitexecute](/img/junitexecution.png)
 
 If you publish your project as a unit to a class, the JUnit configurations you set up will be included in the Unit for students.

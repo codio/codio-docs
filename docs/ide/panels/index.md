@@ -8,7 +8,7 @@ IDE panels let you create any panel configuration you want for both code editing
 
 This gives you complete control over the layout of your project. Whenever you leave you project, its precise pane configuration is saved and reloaded when you come back to it.
 
-<img alt="Panels" src="/img/panel-overview.png" class="simple"/>
+![Panels](/img/panel-overview.png)
 
 
 ## File Tree

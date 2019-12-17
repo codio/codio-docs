@@ -8,7 +8,7 @@ To control access to a course and its modules, you should understand the differe
 
 Both courses and modules need to have their access settings set.
 
-<img alt="Edit course" src="/img/courseedit.png" class="simple"/>
+![Edit course](/img/courseedit.png)
 
 # Ownership
 The ownership field indicates who is able to make administrative changes. In the case of a module, it also indicates who can add, edit and remove project units.
@@ -20,7 +20,7 @@ If you wish to prevent access to other teachers within your organization, then y
 
 **Important**: if you change the ownership of the course or module to an organization, then it will not longer appear in the **My Courses** list. You will find it in the **Organizations** list instead.
 
-<img alt="Course tabs" src="/img/coursestab.png" class="simple"/>
+![Course tabs](/img/coursestab.png)
 
 # Public and private
 This field indicates who is able to view and access courses and modules. If **public**, then any student or teacher can find and view courses. If **private**, then visibility is determined by the ownership setting:

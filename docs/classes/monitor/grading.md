@@ -18,7 +18,7 @@ Codio's grading features address four important aspects when grading student pro
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
 The teacher is also able to filter either finding specific students or to view students based on the status of the unit.
-<img alt="Filtering" src="/img/filter.png" class="simple"/>
+![Filtering](/img/filter.png)
 
 Students can be filtered by:
 
@@ -32,7 +32,7 @@ Students can be filtered by:
 
 You can access the student's project from the same screen by clicking on the 3 blue dots on the extreme right (see below image with dots circled right). You can then review the project.
 
-<img alt="Grading access" src="/img/grading-unit.png" class="simple"/>
+![Grading access](/img/grading-unit.png)
 
 The teacher can also mark the unit as complete going to the **Education->Mark as Completed** menu item within the IDE and if already marked as complete, can change the status to incomplete
 
@@ -47,26 +47,26 @@ To grade from the class dashboard, you should first select the assignment unit. 
 
 To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center). You can then modify the comments and grade fields for any individual student.
 
-<img alt="Assign Grades" src="/img/grading-assign.png" class="simple"/>
+![Assign Grades](/img/grading-assign.png)
 
 <a name="releasegrades"></a>
 # Releasing Grades
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
 
-<img alt="Grading" src="/img/grading-release.png" class="simple"/>
+![Grading](/img/grading-release.png)
 
 Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Feedback**
 
 You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
 
-<img alt="Release Grades" src="/img/grading-release2.png" class="simple"/>
+![Release Grades](/img/grading-release2.png)
 
 <a name="releasegradesstatus"></a>
 # Automatically releasing grades
 If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information.
 
 You can also change the status of this feature for individual classes if required on the admin tab of the class.
-<img alt="Class Release Grades" src="/img/changereleasegrades.png" class="simple"/>
+![Class Release Grades](/img/changereleasegrades.png)
 
 # Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.
@@ -77,7 +77,7 @@ A common approach is to take a few students who got top grades, a few with terri
 
 The below screenshot shows an example of where a student project has been graded by Professor Babbage, who awarded an A-. The grade was then reviewed by Freddy May, who assigned a slightly better grade.
 
-<img alt="Moderation" src="/img/grading-moderation.png" class="simple"/>
+![Moderation](/img/grading-moderation.png)
 
 The moderated grade will not be shown to the class and can only be seen by teachers of that class.
 

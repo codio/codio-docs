@@ -8,7 +8,7 @@ The Manage Targets options are accessed via **Tools > Deployment > Manage Target
 
 If you have not yet created any deployment targets then you will be prompted to create one.
 
-<img alt="Deployment List" src="/img/deploy-details.png" class="simple"/>
+![Deployment List](/img/deploy-details.png)
 
 
 In the Deployment Targets dialog, you can:

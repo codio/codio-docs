@@ -11,12 +11,12 @@ In order to use this feature you need to set up a class. If you are not using Co
 
 When in your class, select your unit and then click the **Actions** button (button to the top right of the screen) to show the available actions that includes Plagiarism
 
-<img alt="authtoken" src="/img/guides/plag-button.png" class="simple"/>
+![authtoken](/img/guides/plag-button.png)
 
 ## Run
 You can see the **Plagiarism** button near in the upper part of the screen. When you press this you are taken to the following screen.
 
-<img alt="authtoken" src="/img/guides/plag-summary.png" class="simple"/>
+![authtoken](/img/guides/plag-summary.png)
 
 This screen will show you any plagiarism reports that were run in the past. You can open these if you wish.
 

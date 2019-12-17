@@ -21,5 +21,5 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Stack Settings - details of the stack used in your project.
 - Forwarding Settings - details of how to SSH into your box. See [here](/ide/boxes/access/ssh-access/) for more.
 
-<img alt="Project Setting" src="/img/project-settings.png" class="simple"/>
+![Project Setting](/img/project-settings.png)
 

@@ -20,7 +20,7 @@ There is a Starter Pack project that you can add to your account. [Click here to
 # Basic setup
 The screenshot below shows the basic configuration fields
 
-<img alt="" src="/img/guides/math-assessment.png" class="simple"/>
+![](/img/guides/math-assessment.png)
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Question XML** is the question text that is shown to the student above the answers -written in XML.

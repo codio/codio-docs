@@ -9,15 +9,15 @@ By default Students are not shown the grades until you decide to release them to
 Enabling this feature will not effect existing classes
 
 1. Click your name/gravatar, bottom of the left hand pane
-<img alt="profile" src="/img/class_administration/profilepic.png" class="simple"/>
+![profile](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
-<img alt="organisation" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
+![organisation](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Organization settings** tab
-<img alt="organisation settings" src="/img/manage_organization/orgsettingstab.png" class="simple"/>
+![organisation settings](/img/manage_organization/orgsettingstab.png)
 
 1. Go to the **Education Settings** section toward the  bottom of the page, and enable the feature
-<img alt="Enable Release Grades" src="/img/manage_organization/org_releasegrades.png" class="simple"/>
+![Enable Release Grades](/img/manage_organization/org_releasegrades.png)
 
 1. The status of this feature can be changed in individual classes if required. See [here](/classes/monitor/grading#releasegradesstatus) for more information

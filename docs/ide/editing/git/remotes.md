@@ -22,7 +22,7 @@ If you have code within Codio and you want to configure it to synchronize with a
 2. Within the IDE, go to **Tools->Git->Remotes**
 3. Complete the dialog as shown below. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.
 
-<img alt="git overview" src="/img/git-remotes.png" class="simple"/>
+![git overview](/img/git-remotes.png)
 
 
 If you prefer, you can use the command line interface to achieve the same thing using `git remote`.

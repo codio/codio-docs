@@ -9,16 +9,16 @@ There are some occasions where you may want to remove old members in order to ma
 To remove members:
 
 1. Click your name/gravatar, bottom of the left hand pane
-<img alt="authtoken" src="/img/class_administration/profilepic.png" class="simple"/>
+![authtoken](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
-<img alt="authtoken" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
+![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Members** tab
-<img alt="authtoken" src="/img/manage_organization/memberstab.png" class="simple"/>
+![authtoken](/img/manage_organization/memberstab.png)
 
 1. Under **Permanent Teams**, Click **All Members**
-<img alt="authtoken" src="/img/manage_organization/members.png" class="simple"/>
+![authtoken](/img/manage_organization/members.png)
 
 1. You will be able to see all the members of your school organization.
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.

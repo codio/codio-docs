@@ -7,11 +7,11 @@ description: ""
 
 You can control unit settings by pressing the button with 3 blue dots from the main units listing screen. You will get different options depending on whether it is a unit assigned from a project or from a course.
 
-<img alt="UnitSettings" src="/img/classunitsettings.png" class="simple"/>
+![UnitSettings](/img/classunitsettings.png)
 
 Options are also available if you select a unit. You will then see the **Settings** tab and **Actions** button.
 
-<img alt="Unit actions" src="/img/unitactions.png" class="simple"/>
+![Unit actions](/img/unitactions.png)
 
 ## Settings available in blue dots menu and Actions area
 

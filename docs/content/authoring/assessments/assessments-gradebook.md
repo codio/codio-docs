@@ -13,23 +13,23 @@ Comments and points given will be visible to the student when the assessment is 
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
 # General
-<img alt="" src="/img/guides/assessment_gradebook_general.png" class="simple"/>
+![](/img/guides/assessment_gradebook_general.png)
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely what the assessment is. In many cases, you do not want to see this text appear to the student. To suppress this text, flip the **Show Name** switch next to the name field.
 
 # Execution
-<img alt="" src="/img/guides/assessment_gradebook_exec.png" class="simple"/>
+![](/img/guides/assessment_gradebook_exec.png)
 
 - **Collapsed on start** allows the assessment field to be collapsed when the page opens.
 
 # Grading
-<img alt="" src="/img/guides/assessment_gradebook_grading.png" class="simple"/>
+![](/img/guides/assessment_gradebook_grading.png)
 
 - **Points** is the score given to the student. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given.
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -41,6 +41,6 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.

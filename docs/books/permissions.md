@@ -13,14 +13,14 @@ You can change permissions to allow others
 
 To modify the permissions, goto **Books** from the dashboard. Then select the settings icon.
 
-<img alt="Book settings" src="/img/booksettings.png" class="simple"/>
+![Book settings](/img/booksettings.png)
 
 # Private / Public visibility
 If the book is set to **Private**, unless you override the permissions, only you can modify a book contents and create course units from it. Private books cannot be assigned to public courses.
 
 If the book is set to **Public**, then any Codio user inside or outside your organization can create courses from your book but they will not be able to edit it.  The default organization setting restricts the ability to create Public books. To allow this, see [Public/Private Settings](/dashboard/create/public_private).
 
-<img alt="Book settings page" src="/img/booksettingspage.png" class="simple"/>
+![Book settings page](/img/booksettingspage.png)
 
 # Permissions and collaboration
 If you want 2 or more people to collaborate on a book, you need to understand how Codio manages this process.
@@ -29,7 +29,7 @@ You need to give explicit permission to other users or to an organization and ap
 
 The permissions can be changed by selecting the **Permissions** tab on the book settings screen. You should first specify which user or organization you want to grant permissions to. You need to know the precise organization or user name and this is case sensitive. We do not support lookups as the potential for incorrect assignment is too great.
 
-<img alt="Book permissions" src="/img/book-permissions.png" class="simple"/>
+![Book permissions](/img/book-permissions.png)
 
 You can grant the following permissions.
 
@@ -46,6 +46,6 @@ When User B accesses the book (from the **Shared with me** tab on the main books
 
 User B now makes changes to the book. When done, User B should publish the book and inform User A that the changes are complete and published. At this point, when User A opens the project, a dialog will appear showing that User B has published new changes. User A can now update her own version of the book from this published version. And so the cycle continues.
 
-<img alt="Book New Version" src="/img/bookversion.png" class="simple"/>
+![Book New Version](/img/bookversion.png)
 
 You can do this with as many users as you like, provided that only one user is making changes at a time.

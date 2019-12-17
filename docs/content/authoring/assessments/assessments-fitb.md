@@ -11,26 +11,26 @@ A 'fill in the blank' question comes in two flavours.
 ## Free Text
 The example below shows a typical question where the student has to complete the missing words. This is then auto-marked by the Guide as explained below.
 
-<img alt="authtoken" src="/img/guides/assessments-fitb1.png" class="simple"/>
+![authtoken](/img/guides/assessments-fitb1.png)
 
 ## Drop Down
 The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.
 
-<img alt="authtoken" src="/img/guides/assessments-fitb2.png" class="simple"/>
+![authtoken](/img/guides/assessments-fitb2.png)
 
 ## Assessment definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
 # General
 
-<img alt="" src="/img/guides/assessment_general.png" class="simple"/>
+![](/img/guides/assessment_general.png)
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instruction** contains any general instructions you want to provide to the student.
 
 # Execution
 
-<img alt="authtoken" src="/img/guides/assessment_fitb_exec.png" class="simple"/>
+![authtoken](/img/guides/assessment_fitb_exec.png)
 
 **Text** is the Markdown that you write including the correct answer specification. Below is an example of how the question should be specified.
 
@@ -42,7 +42,7 @@ For a drop-down question (**Show Possible Values** slider to the right) Codio wi
 
 # Grading
 
-<img alt="authtoken" src="/img/guides/assessment_fitb_grading.png" class="simple"/>
+![authtoken](/img/guides/assessment_fitb_grading.png)
 
 - **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A score of 0 is given if any of the responses is incorrect.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position).
@@ -51,7 +51,7 @@ For a drop-down question (**Show Possible Values** slider to the right) Codio wi
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -63,6 +63,6 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.

@@ -9,7 +9,7 @@ If your organisation uses an LMS, when grades are released a URL is passed to th
 By default, only the class teachers and the individual student can access the grading preview but by enabling the LMS shared feedback option,
 
 
-<img alt="LMS shared feedback" src="/img/lmssharedfeedback.png" class="simple"/>
+![LMS shared feedback](/img/lmssharedfeedback.png)
 
 this will pass a different URL back to your LMS system where anyone who knows the URL can access the students grading information
 

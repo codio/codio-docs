@@ -17,7 +17,7 @@ When you are in edit mode, you can select a section by
 - using the navigation buttons in the header area
 - selecting a section from the section list
 
-<img alt="editnav" src="/img/guides/editnav.png" class="simple"/>
+![editnav](/img/guides/editnav.png)
 
 
 ## Renaming the Section
@@ -30,7 +30,7 @@ You can then start writing your content in the main content area.
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
 When in play Mode, your content is rendered as students will see it. You can also override the default CSS styling. Go to Tools>Guide>Add Custom CSS
-<img alt="Guide CSS" src="/img/guides/guidecss.png" class="simple"/>
+![Guide CSS](/img/guides/guidecss.png)
 
 'Reset Custom CSS' will restore the default CSS styling
 
@@ -146,7 +146,7 @@ Some text
 |||
 ```
 
-<img alt="calloutinfo" src="/img/guides/callout_info.png" class="simple"/>
+![calloutinfo](/img/guides/callout_info.png)
 
 The **Guidance** callout block is only visible in play mode to designated teachers within a class. It is not visible for students.
 
@@ -174,7 +174,7 @@ $$
 
 [Click here](/content/authoring/page-edit/latex) for more details on Latex and Mathjax.
 
-<img alt="MathJax" src="/img/guides/mathjax.png" class="simple"/>
+![MathJax](/img/guides/mathjax.png)
 
 Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$.
 

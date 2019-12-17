@@ -12,7 +12,7 @@ Please note, that selecting mark as complete will not stop students who have not
 
 This feature is accessible via the main settings tab.
 
-<img alt="authtoken" src="/img/manage_classes/unitduration.png" class="simple"/>
+![authtoken](/img/manage_classes/unitduration.png)
 
 For more information on using **Mark as complete** please [click here](/content/authoring/assessments/submitcomplete).
 

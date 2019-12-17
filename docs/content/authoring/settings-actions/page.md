@@ -7,7 +7,7 @@ title: "Page Settings"
 # Layout
 You can choose from a variety of panel layouts for each page of content.
 
-<img alt="authtoken" src="/img/guides/layouts.png" class="simple"/>
+![authtoken](/img/guides/layouts.png)
 
 The layouts we currently offer can be found in the dropdown list.
 
@@ -23,15 +23,15 @@ Your content will often want to show code samples. Codio's recommended approach 
 The benefit of hiding folders is that the student is not distracted by a large list of folders and files that are not relevant to the topic your are explaining.
 
 ## Full File Tree:
-<img alt="authtoken" src="/img/guides/project_1.png" class="simple"/>
+![authtoken](/img/guides/project_1.png)
 
 ## Hiding of Folders:
-<img alt="authtoken" src="/img/guides/project_2.png" class="simple"/>
+![authtoken](/img/guides/project_2.png)
 
 ##  Defining folders
 To define which folders to show make sure your page is selected. Next, in the **Show Folders** field, specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.
 
-<img alt="authtoken" src="/img/guides/project_3.png" class="simple"/>
+![authtoken](/img/guides/project_3.png)
 
 If you have several pages that show the same folders, you only need define the folders on the first page of the set of pages. All subsequent pages will use the same **Show Folders** setting until a new one is encountered.
 

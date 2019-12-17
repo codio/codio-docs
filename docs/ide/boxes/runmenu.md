@@ -13,7 +13,7 @@ The configuration for the **Run** (and **Preview**) button can be set by editing
 
 The following code below shows the `.codio` file configured to give this Run menu
 
-<img alt="Run Menu" src="/img/run-menu.png" class="simple"/>
+![Run Menu](/img/run-menu.png)
 
 
 which is driven by the following `.codio` file

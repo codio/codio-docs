@@ -8,5 +8,5 @@ Codio supports full integration with any Learning Management System that support
 
 Please note if students are using using **Safari** browser, they should disable "Prevent cross-site tracking" to ensure access.
 
-<img alt="Safari settings" src="/img/crosssitetracking.png" class="simple"/>
+![Safari settings](/img/crosssitetracking.png)
 

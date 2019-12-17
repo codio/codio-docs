@@ -6,7 +6,7 @@ title: "Global"
 
 The settings on this page apply to the entire guide or book.
 
-<img alt="Global settings" src="/img/guides/globalsettings.png" class="simple"/>
+![Global settings](/img/guides/globalsettings.png)
 
 # Scripts
 This allows you to include the path and file name of a script file from a page using an HTML `<src>` tag. Provide one script path per line.
@@ -28,7 +28,7 @@ Hides the Codio menu. You should be aware that this will prohibit access to func
 
 # Allow Guide to be closed
 Allows students to close the guide content. The content can be restarted by selecting the 'start guide' icon in the file tree:
-<img alt="StartGuides" src="/img/guides/startguides.png" class="simple"/>
+![StartGuides](/img/guides/startguides.png)
 
 # Use Mark as Complete
 For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
@@ -50,7 +50,7 @@ If you have set the [Unit Duration](/classes/unitmanagement/settings-info/unit-d
 Enable this to collapse the guides pane in the unit/project when the [layout](/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/content/authoring/playmode/) button in playmode.
 
 The guides can be reopened by clicking the hamburger icon:
-<img alt="StartGuides" src="/img/openguides.png" class="simple"/>
+![StartGuides](/img/openguides.png)
 
 # Hide Sections Toggle
 Enable this to hide the option for students to switch sections using the Section list hamburger icon

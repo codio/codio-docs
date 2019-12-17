@@ -11,7 +11,7 @@ Teacher only content can be viewed by teachers when:
 - using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a unit within a course module in a class
 - [viewing student code](/classes/monitor/studentcode) within a class
 - working on a unit in a [course](/courses/working-with/) with the 'View as teacher' function enabled
-<img alt="View as Teacher" src="/img/teachersolutions.png" class="simple"/>
+![View as Teacher](/img/teachersolutions.png)
 
 
 Warning

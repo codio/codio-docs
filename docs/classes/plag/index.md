@@ -16,4 +16,4 @@ Codio does not determine whether cheating has or has not taken place and leaves 
 
 To run the Plagiarism checker you need to first select the Unit within the class and then press press the actions button next to the unit name.
 
-<img alt="authtoken" src="/img/guides/plag-button.png" class="simple"/>
+![authtoken](/img/guides/plag-button.png)

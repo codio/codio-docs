@@ -10,4 +10,4 @@ Click to place the cursor at the desired location, then press and hold Cmd/Ctrl 
 
 You can also use `Alt-Click` to place the cursor everywhere inbetween a start and end position.
 
-<img alt="authtoken" src="/img/multiple-cursor.gif" class="simple"/>
+![authtoken](/img/multiple-cursor.gif)

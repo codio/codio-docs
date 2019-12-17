@@ -21,7 +21,7 @@ Setting up a Code Test within the Guide editor is very simple. The configuration
 # General
 The screenshot below shows the basic configuration fields for the _General_ section:
 
-<img alt="" src="/img/guides/assessment_general.png" class="simple"/>
+![](/img/guides/assessment_general.png)
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
@@ -45,7 +45,7 @@ sudo apt install python3-pip
 sudo python3 -m pip install pycodestyle
 ```
 
-<img alt="" src="/img/guides/assessment_act_exec_pycodestyle.png" class="simple"/>
+![](/img/guides/assessment_act_exec_pycodestyle.png)
 
 To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the Filetree into the **Add Case** input box, and click **Add Case**. You may add as many cases as needed. When the assessment executes, `pycodestyle` will inspect each added file and output all styling issues that it found.
 
@@ -57,7 +57,7 @@ Before using them, `jshint` or `jslint` must be installed as a Node.js global pa
 To add individual JavaScript source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the Filetree into the **Add Case** input box, and click **Add Case**. You may add as many cases as needed. You may also select either JSLint or JSHint in the **Language Assessment Subtype** dropdown. When the assessment executes, your choice of either `jshint` or `jslint` will inspect each added file and output all styling issues that it found.
 
 ## Custom
-<img alt="" src="/img/guides/assessment_act_exec_custom.png" class="simple"/>
+![](/img/guides/assessment_act_exec_custom.png)
 
 - **Command** is the command to run to invoke your test. See the section [Test code location](#test-code-location) below for more details. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Score](#partial-score) lower down on this page.
@@ -65,7 +65,7 @@ To add individual JavaScript source files whose style should be checked, either 
 
 # Grading
 
-<img alt="" src="/img/guides/assessment_grading.png" class="simple"/>
+![](/img/guides/assessment_grading.png)
 
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
@@ -73,7 +73,7 @@ To add individual JavaScript source files whose style should be checked, either 
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -85,7 +85,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.
 

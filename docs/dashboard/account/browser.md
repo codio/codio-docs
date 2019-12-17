@@ -13,7 +13,7 @@ Codio is best experienced on the very latest browsers, in particular Chrome, but
 
 If using **Safari** and accessing Codio via an [LMS](/classes/lti), disable "Prevent cross-site tracking" to ensure access.
 
-<img alt="Safari settings" src="/img/crosssitetracking.png" class="simple"/>
+![Safari settings](/img/crosssitetracking.png)
 
 If you are experiencing any issue where Codio will not run as it should, please send an email to help@codio.com.
 

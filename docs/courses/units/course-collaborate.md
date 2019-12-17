@@ -7,7 +7,7 @@ title: Collaborating on project units
 The ability for other to collaborate on course units is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the units will be private.
 
 
-<img alt="Module Edit" src="/img/moduleedit.png" class="simple"/>
+![Module Edit](/img/moduleedit.png)
 
 
 The rules for other users to edit a project unit in a course are as follows.
@@ -20,7 +20,7 @@ The rules for other users to edit a project unit in a course are as follows.
 
 The ability to create public courses/modules can be enabled for the organization. See [Public/Private setttings](/dashboard/create/public_private) for more information.
 
-<img alt="authtoken" src="/img/manage_organization/public_private.png" class="simple"/>
+![authtoken](/img/manage_organization/public_private.png)
 
 
 If you want 2 or more people to collaborate on a project unit, you need to understand how Codio manages this process.
@@ -32,9 +32,9 @@ Let's say User A has authored a unit and has finished work. At this point, User 
 
 User B now makes changes to the unit. When done, User B should inform User A that the changes are complete and published. At this point, when User A opens the unit for editing, a dialog will appear showing that User B has published new changes.
 
-<img alt="publishedversion" src="/img/publishedversion.png" class="simple"/>
+![publishedversion](/img/publishedversion.png)
 
-<img alt="Book update" src="/img/bookupdate.png" class="simple"/>
+![Book update](/img/bookupdate.png)
 
 
 User A now wants User B to be able to collaborate. User A should inform User B that the unit is ready to edit. When User B accesses the unit, Codio will take a **snapshot** of the published unit and User B can start work on it. In other words, User B is **not** editing User A's unit, User B has a clone.

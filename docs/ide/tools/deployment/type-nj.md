@@ -8,7 +8,7 @@ title: Nodejitsu target type
 
 You will need to sign up for a Nodejitsu account before you use it.
 
-<img alt="authtoken" src="/img/deploy-nj.png" class="simple"/>
+![authtoken](/img/deploy-nj.png)
 
 Select Nodejitsu from the Destination drop down and then make sure you either provide an API Token in the highlighted field or just press the Generate button and we'll create one for you.
 

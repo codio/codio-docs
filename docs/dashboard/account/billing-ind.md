@@ -6,12 +6,12 @@ title: Billing - Individual
 
 The user billing screen can be found on the Billing tab of your Account Settings. You can find both your subscription details and billing history here.
 
-<img alt="Account Billing" src="/img/account_billing.png" class="simple"/>
+![Account Billing](/img/account_billing.png)
 
 To access your individual billing area, follow these steps:
 
 1. Click on your name and gravatar (bottom left of screen)
-<img alt="authtoken" src="/img/what_students_do/forgotpassword/profilepic.png" class="simple"/>
+![authtoken](/img/what_students_do/forgotpassword/profilepic.png)
 
 1. From the options along the top of the page, choose **Billing**
 

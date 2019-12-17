@@ -12,7 +12,7 @@ The appearance of the dashboard depends on whether you are a teacher/instructor 
 ## Dashboard options
 Here are the main options from the dashboard.
 
-<img alt="dashboard" src="/img/dashboard.png" class="simple"/>
+![dashboard](/img/dashboard.png)
 
 - **Classes**: this is where you administer classes and assign projects and courses to students. [About classes](/classes).
 - **Courses**: courses are teaching materials that are nicely organized for repeated teaching of content from semester to semester (or term to term, year to year). Course Units can be single Codio projects or a mapping to a part of a Codio book. [About courses](/courses/introduction/).

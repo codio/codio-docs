@@ -13,11 +13,11 @@ You can reset the unit for all your students by selecting either
 
 - the **Actions** button and then the **Reset** button
 
-<img alt="resetunit" src="/img/resetunitall.png" class="simple"/>
+![resetunit](/img/resetunitall.png)
 
 or
 
 - you can reset the unit for individual students from the 3 blue dot menu
 
-<img alt="resetunit" src="/img/resetunitstudent.png" class="simple"/>
+![resetunit](/img/resetunitstudent.png)
 

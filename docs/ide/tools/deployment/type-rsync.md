@@ -8,7 +8,7 @@ Rsync is a great way of working with remote servers. It behaves much the same as
 
 You can use a password and/or a public key for authentication.
 
-<img alt="rsync dialog" src="/img/deploy-rsync.png" class="simple"/>
+![rsync dialog](/img/deploy-rsync.png)
 
 
 ## Base Path

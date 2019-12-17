@@ -19,7 +19,7 @@ You can also start the preview mode from the **Tools->Guide->Play**.
 Finally, there is also a button at the top of the file tree that launches the content.
 
 
-<img alt="StartGuides" src="/img/guides/startguides.png" class="simple"/>
+![StartGuides](/img/guides/startguides.png)
 
 <a name="customisetopmenu"></a>
 # Customising IDE menu
@@ -48,16 +48,16 @@ Example:
 
 Setting up .codio-menu file:
 
-<img alt="EditorMode" src="/img/guides/codiomenu.png" class="simple"/>
+![EditorMode](/img/guides/codiomenu.png)
 
 Menu items that the student will see:
 
-<img alt="PreviewMode" src="/img/guides/codiomenupreview.png" class="simple"/>
+![PreviewMode](/img/guides/codiomenupreview.png)
 
 The student will not see the .codio-menu file to be able to edit/change it.
 
 # Player Options
-<img alt="authtoken" src="/img/guides/playmode.png" class="simple"/>
+![authtoken](/img/guides/playmode.png)
 
 When the content is rendered to a student, various options can be controlled
 
@@ -69,5 +69,5 @@ When the content is rendered to a student, various options can be controlled
 ## Restore current files
 The Restore Current Files feature is a great way to reset/restore any files on that page to its initial state after hacking sample code around. Files can be restored from the menu as shown below.
 
-<img alt="authtoken" src="/img/guides/reset.png" class="simple"/>
+![authtoken](/img/guides/reset.png)
 

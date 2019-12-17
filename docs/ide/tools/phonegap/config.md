@@ -6,7 +6,7 @@ title: The config.xml file
 
 To build apps at Phonegap:Build, a `config.xml` file is required in the root of your project. If one does not yet exist, Codio will ask if you want to create one.
 
-<img alt="authtoken" src="/img/config.png" class="simple"/>
+![authtoken](/img/config.png)
 
 This will create a default file for you and associated image resources for Splash Screen and Icon images in `pg-images` folder.
 

@@ -25,7 +25,7 @@ To install X Server, go to the menu **Tools->Install Software** and locate X Ser
 # Running your code
 Before you can view any output, your program needs to run, so you should first start your code. When you start the viewer (see below), the UI output will be shown automatically.
 
-<img alt="GUI Output" src="/img/guioutput.png" class="simple"/>
+![GUI Output](/img/guioutput.png)
 
 You also can start the viewer first but it will be empty until a program runs, whereupon it will refresh.
 

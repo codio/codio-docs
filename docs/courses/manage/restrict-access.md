@@ -10,7 +10,7 @@ However, you may want to limit/restrict access to specific courses for teachers 
 
 To do this, select the course and then go the the Course Permissions tab
 
-<img alt="Edit course" src="/img/coursepermissions.png" class="simple"/>
+![Edit course](/img/coursepermissions.png)
 
 By default, the courses are unrestricted but to change this to only allow specific teachers to access the course, select the bottom box and a list of all teachers in the organisation will be shown.
 

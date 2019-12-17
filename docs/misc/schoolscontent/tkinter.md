@@ -29,7 +29,7 @@ Here is a video that runs you through the entire process.
 
 From the main dashboard, select **Starter Packs** on the left, then the Certified tab at the top of the main page.
 
-<img alt="Tkinter Pack" src="/img/tkinter-pack.png" class="simple"/>
+![Tkinter Pack](/img/tkinter-pack.png)
 
 
 Search for **tkinter** in the search field then select the **TKinter Clean** pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
@@ -46,7 +46,7 @@ If you change your Python code, you will need to close the terminal window and t
 ## Starter Pack - Widgets
 This gives you a complete set of demo widgets. From the main dashboard, select **Starter Packs** on the left, then the Certified tab at the top of the main page.
 
-<img alt="Tkinter Widgets" src="/img/tkinter-pack.png" class="simple"/>
+![Tkinter Widgets](/img/tkinter-pack.png)
 
 
 Search for **tkinter** in the search field then select the **TKinter Widgets** pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
@@ -75,7 +75,7 @@ If you want to create a completely empty Codio project that is Tkinter ready, th
 1. Finally, select the stack
 1. after which you will be taken to the new project screen. Enter a project name then press the **Create** button at the bottom of the page and a new project will be created.
 
-<img alt="Tkinter Stack" src="/img/tkinter-stack.png" class="simple"/>
+![Tkinter Stack](/img/tkinter-stack.png)
 
 
 This Stack will not give you any preconfigured buttons (see the above **Starter Pack: Clean** for this).
@@ -92,7 +92,7 @@ For information on how to set up your own Codio menu buttons, [click here](/ide/
 ## From scratch
 For those of you who want to add Tkinter support to an existing Codio project, you should follow the steps below. Adding the XServer component will add support for any application that writes to the screen.
 
-<img alt="Xserver" src="/img/xserver-install.png" class="simple"/>
+![Xserver](/img/xserver-install.png)
 
 
 - Open the Install Software screen from the **Tools->Install Software** menu.

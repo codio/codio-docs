@@ -8,11 +8,11 @@ To configure the consent form information, click on your user name from the dash
 
 If you enable this feature, all students will be shown the form when they first create an account. If a student has already created an account then the next time they sign in, they will be shown the form. They will not be able to access Codio until they do consent.
 
-<img alt="authtoken" src="/img/studentconsent.png" class="simple"/>
+![authtoken](/img/studentconsent.png)
 
 # Creating content
 
-<img alt="authtoken" src="/img/consent.png" class="simple"/>
+![authtoken](/img/consent.png)
 
 You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, here is a reference for markdown:
 

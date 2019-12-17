@@ -73,7 +73,7 @@ Once inside a project, to create a new flow chart, simply create a new file with
 
 A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
 
-<img alt="authtoken" src="/img/new-file.png" class="simple"/>
+![authtoken](/img/new-file.png)
 
 To edit an existing `.flode` file, simply click on the file name to open the Flode editor.
 

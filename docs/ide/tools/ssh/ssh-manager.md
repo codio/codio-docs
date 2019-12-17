@@ -5,7 +5,7 @@ title: SSH Connection Manager
 ---
 
 You can manage your SSH connections by going to the **Tools > SSH > Connection Manager** menu item. The Connection Manager lists all previously created connections, which you can then connect to or edit.
-<img alt="ssh connection list" src="/img/ssh-connection-list.png" class="simple"/>
+![ssh connection list](/img/ssh-connection-list.png)
 
 
 ## Creating and Editing Connections
@@ -13,7 +13,7 @@ Press the Create New button to create a new connection or the pencil icon to edi
 
 You enter the remote server credentials : user name, hostname and optionally port. You can also specify a friendly name that will appear in the connections list.
 
-<img alt="ssh connection edit" src="/img/ssh-connection-edit.png" class="simple"/>
+![ssh connection edit](/img/ssh-connection-edit.png)
 
 ## Public Keys
 If you want to add your Codio public key to the remote server, press the key icon in the main Connection Manager listing. This saves you from having to upload a public key manually and means you won't need to enter a password to authenticate.

@@ -18,10 +18,10 @@ The grouping intervals are
 
 Classes can be ordered by Name, Creation Date or Begin Date within the groups
 
-<img alt="CreateDate" src="/img/manage_classes/orderclass.png" class="simple"/>
+![CreateDate](/img/manage_classes/orderclass.png)
 
 
 # Searching
 
 If you have a large number of classes, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all class names and filter your list accordingly.
-<img alt="Name" src="/img/manage_classes/nameclass.png" class="simple"/>
+![Name](/img/manage_classes/nameclass.png)

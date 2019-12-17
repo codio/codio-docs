@@ -12,33 +12,33 @@ Once you have set up your organization, the next step is to invite teachers to u
     ![Profile](/img/class_administration/profilepic.png)
 
 1. Click the name of your organization (under **My Organizations**)
-<img alt="Org Name" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
+![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Members** tab
-<img alt="Members" src="/img/manage_organization/memberstab.png" class="simple"/>
+![Members](/img/manage_organization/memberstab.png)
 
 1. In the  **Invite Teacher to the Organization** area, enter in their email address. If you also wish them to have full [access](/dashboard/create/adminrole/) rights to the organization, check the **Add this teacher to owners group**.
-<img alt="Invite Teacher" src="/img/manage_organization/inviteteacher.png" class="simple"/>
+![Invite Teacher](/img/manage_organization/inviteteacher.png)
 
 1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organization automatically.
 **N.B.** They must use the email address the invitation was sent to or they will not be added to the Organization.
 
 1. Any invitations not completed will show in the area below and where you can also **Resend** or **Revoke** if you require. Once the invitee has joined the organization they will no longer show in this area but show in the **All Members** list below (and also **Owners** list if 'Add this teacher to owners group' was checked)
-<img alt="Pending" src="/img/manage_organization/pendinginvite.png" class="simple"/>
+![Pending](/img/manage_organization/pendinginvite.png)
 
 # Invitation Token
 
 1. Click your name/gravatar, bottom of the left hand pane
-<img alt="Profile" src="/img/class_administration/profilepic.png" class="simple"/>
+![Profile](/img/class_administration/profilepic.png)
 
 1. Click the name of your organization (under **My Organizations**)
-<img alt="Org name" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
+![Org name](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Organization Settings** tab
-<img alt="Org settings" src="/img/manage_organization/orgsettingstab.png" class="simple"/>
+![Org settings](/img/manage_organization/orgsettingstab.png)
 
 1. About half way down you will see an **Invitation** area, displaying an **Invite URL** and an **Invite token**.
-<img alt="Add Teachers" src="/img/class_administration/addteachers/invitation.png" class="simple"/>
+![Add Teachers](/img/class_administration/addteachers/invitation.png)
 
 1. Give any teachers who are not already Codio users the invite URL.
 

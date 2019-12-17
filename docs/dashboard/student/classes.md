@@ -11,7 +11,7 @@ If you are not using and LMS then your instructor should have given you one of t
 - If your teacher has sent you an Invitation URL, copy/paste that into your browser.
 
 - If your teacher has sent you a 2 word token, go to **[Join Class](https://codio.com/p/join-class)** button on our website and enter the class token.
-<img alt="authtoken" src="/img/joinclass.png" class="simple"/>
+![authtoken](/img/joinclass.png)
 
 To access your class after this point, log in to your Codio account and go to the [My Classroom](/dashboard/student/myclassroom) area
 

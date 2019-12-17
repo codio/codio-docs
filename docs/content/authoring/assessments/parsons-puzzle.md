@@ -16,14 +16,14 @@ The configuration fields for an assessment are split into five sections: General
 
 # General
 
-<img alt="" src="/img/guides/assessment_general.png" class="simple"/>
+![](/img/guides/assessment_general.png)
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user. It can be written in Markdown or HTML.
 
 # Execution
 
-<img alt="" src="/img/guides/assessment_parsons_exec.png" class="simple"/>
+![](/img/guides/assessment_parsons_exec.png)
 
 - **Initial Values** is where you create the initial state of the puzzle for the students.
 - **Options** is where you can set options for the puzzle. For the available options for each grader type, see [Parson's Problems](http://js-parsons.github.io/documentation/) documentation.
@@ -31,7 +31,7 @@ The configuration fields for an assessment are split into five sections: General
 
 # Grading
 
-<img alt="" src="/img/guides/assessment_grading.png" class="simple"/>
+![](/img/guides/assessment_grading.png)
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
@@ -39,7 +39,7 @@ The configuration fields for an assessment are split into five sections: General
 
 # Metadata
 
-<img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
+![](/img/guides/assessment_metadata.png)
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
 
@@ -51,7 +51,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
-<img alt="" src="/img/guides/assessment_files.png" class="simple"/>
+![](/img/guides/assessment_files.png)
 
 To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.
 

@@ -9,7 +9,7 @@ Before you start to author content you should be aware of the three different pl
 # Projects
 A [project](/project/what-is-a-project) is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
 
-<img alt="My Projects" src="/img/projectslist.png" class="simple"/>
+![My Projects](/img/projectslist.png)
 
 
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
@@ -23,7 +23,7 @@ There are drawbacks to using projects to assign to students. If you have related
 A [project unit](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project units are located in the courses area in the main Codio dashboard. Project units are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project units chronologically within a course module.
 
 
-<img alt="Courses" src="/img/courseslist.png" class="simple"/>
+![Courses](/img/courseslist.png)
 
 You would typically use a project unit if either of the following apply.
 
@@ -42,7 +42,7 @@ A book addresses this issue by offering sophisticated table to contents manageme
 
 However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen in the class. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
 
-<img alt="Books" src="/img/bookslist.png" class="simple"/>
+![Books](/img/bookslist.png)
 
 # Book or project unit?
 It can still be a little confusing whether you should use a book based unit or a project unit, so here are some typical use cases.

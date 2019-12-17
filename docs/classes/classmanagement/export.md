@@ -9,7 +9,7 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 - Select the class, go to the **Admin** area and then press the **Class Data** button.
 
-<img alt="Class Export" src="/img/class_export.png" class="simple"/>
+![Class Export](/img/class_export.png)
 
 - All the data from the class will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download.
 
@@ -17,7 +17,7 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 - You can also access any active files to download (and generate a new export if required) by clicking on the **Class Data** button
 
-<img alt="Class Export Links" src="/img/class_exportlinks.png" class="simple"/>
+![Class Export Links](/img/class_exportlinks.png)
 
 Individual units data can also be exported separately if required. See [export unit data](/classes/unitmanagement/settings#exportunitdata) for more details
 
@@ -41,7 +41,7 @@ Use this to download a CSV of user access to units in the class. Details include
 
 - Select the class, go to the **Admin** area and then press the **Export User Access Data** button.
 
-<img alt="Class Export" src="/img/user_access_export.png" class="simple"/>
+![Class Export](/img/user_access_export.png)
 
 Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
 

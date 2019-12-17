@@ -40,6 +40,6 @@ console.log(window.codio.currentPage)
 console.log(window.codio.totalNumberOfPages)
 ```
 
-<img alt="Custom script" src="/img/manage_organization/customscript.png" class="simple"/>
+![Custom script](/img/manage_organization/customscript.png)
 
 If you require any assistance with this, please don't hesitate to [contact us](/dashboard/support/) in the usual manner.

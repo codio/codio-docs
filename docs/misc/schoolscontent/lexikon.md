@@ -17,7 +17,7 @@ We currently have added:
 
 However, we can easily add coverage for any other Topic. If you are interested in additional topics, please email help@codio.com.
 
-<img alt="authtoken" src="/img/lexicon.png" class="simple"/>
+![authtoken](/img/lexicon.png)
 
 ## Using the Lexikon with guide content
 To make accessing the Lexikon from your content even easier, we have a Global Option in the Guide settings that lets you specify the default topic to select. If you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
@@ -28,4 +28,4 @@ To see what topics are available, bring up the Lexikon from the Tools menu. The 
 
 Once you have specified a Lexikon topic, the student will see an icon in the Guide toolbar. When they press this, the Lexikon will appear in the same panel as the Guide with the correct topic automatically selected.
 
-<img alt="authtoken" src="/img/guides/lexicon.png" class="simple"/>
+![authtoken](/img/guides/lexicon.png)

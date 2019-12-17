@@ -10,7 +10,7 @@ We strongly recommend you take advantage of this feature. Chapters allow you to 
 # Seeing Chapters
 You can see which chapters are defined by opening up the table of contents. You can see that each chapter is bold and sections within each chapter are numbered accordingly.
 
-<img alt="authtoken" src="/img/guides/chapter.png" class="simple"/>
+![authtoken](/img/guides/chapter.png)
 
 # Defining Chapters
 To define a chapter, you should first select a page in the editor. Next, press the **Settings** buttons. The Page tab should already be selected.

@@ -12,7 +12,7 @@ Individual units that were assigned from a regular project can be updated using 
 Click on the 3 blue vertical dots and select **Update Unit**
 
 
-<img alt="update unit" src="/img/class_administration/projectupdateunit.png" class="simple"/>
+![update unit](/img/class_administration/projectupdateunit.png)
 
 Updating a unit does the following.
 

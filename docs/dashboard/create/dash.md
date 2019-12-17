@@ -8,14 +8,14 @@ Organization owners can manage the student dashboard view by setting their defau
 To do this, access the administration tools:
 
 1. Click on your profile picture (bottom left of **Classes**)
-<img alt="authtoken" src="/img/class_administration/profilepic.png" class="simple"/>
+![authtoken](/img/class_administration/profilepic.png)
 1. Click the name of your institution (under **My Organizations**)
-<img alt="authtoken" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
+![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 1. You will see admin options listed across the top of the page.
-<img alt="authtoken" src="/img/manage_organization/memberstab.png" class="simple"/>
+![authtoken](/img/manage_organization/memberstab.png)
 1. Select **Dashboard Settings**
 1. Make the required changes and **Update** to save the changes
-<img alt="authtoken" src="/img/manage_organization/dash.png" class="simple"/>
+![authtoken](/img/manage_organization/dash.png)
 
 **N.B.** Your students may need to reload Codio in their browser when they next log in for the changes to be visible to them
 
