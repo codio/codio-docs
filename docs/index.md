@@ -6,35 +6,13 @@
 *   [Dashboard overview](/dashboard/oerview)
 *   [Organization management](/dashboard/organisations/)
 *   [Account settings and info](/dashboard/account)
-*   [Desktop Application](/dashboard/desktopapp)
+*   [Desktop Application](/dashboard/desktop app)
 
 # Projects and Templates
 
-*   [](#section-projects)[Projects](/project/what-is-a-project)
-    *   [What is a project?](/project/what-is-a-project)
-    *   [Creating and importing a project](/project/creating)
-    *   [Accessing your projects](/project/accessing)
-    *   [Searching projects](/project/searchprojects)
-    *   [Accessing another user's project](/project/accessing-others)
+*   [](#section-projects)[Projects](/project/projects)
 *   [](#how_use_stacks)[Stack templates](/project/stacks)
-    *   [What is a stack?](/project/stacks/stack-overview)
-    *   [Modifying a stack](/project/stacks/mods)
-    *   [Creating a stack](/project/stacks/new)
-    *   [Visibility and ownership](/project/stacks/visibility)
-    *   [Switching a project's stack](/project/stacks/switch)
-    *   [Updating a stack (version)](/project/stacks/update)
-    *   [Using a stack](/project/stacks/using)
-    *   [Stack listings](/project/stacks/listing)
-    *   [Excluding files & folders](/project/stacks/exclusions)
 *   [](#how_use_packs)[Starter pack templates](/project/packs)
-    *   [What is a starter pack?](/project/packs/overview)
-    *   [Certified packs](/project/packs/certified)
-    *   [Requesting additional packs](/project/packs/requests)
-    *   [Selecting a pack](/project/packs/selecting)
-    *   [Creating a pack](/project/packs/create)
-    *   [Pack guidelines](/project/packs/guidelines)
-    *   [Updating a pack](/project/packs/update)
-    *   [Deleting a pack](/project/packs/delete)
 
 # Boxes and the IDE
 
