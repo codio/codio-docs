@@ -11,14 +11,14 @@ Additional actions for the unit are available by clicking on the 3 vertical blue
 For book units, you will not see **Change stack** or **Versions**.
 
 
-### Edit settings
+# Edit settings
 
 For project units, select **Edit settings** to change the unit title, description and icon.
 
 For book units, you can also remap the unit to the book contents.
 
 
-### Versions
+# Versions
 This allows you to view the version history. You can see
 
 - date/time when the unit was published,
@@ -28,7 +28,7 @@ This allows you to view the version history. You can see
 <img alt="versions" src="/img/versiondetails.png" class="simple"/>
 
 
-### Change stack
+# Change stack
 This option is only available for project units. It allows you to switch the stack used by a unit.
 
 If a stack is set to **Use latest version** then

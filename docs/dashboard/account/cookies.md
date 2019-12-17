@@ -6,7 +6,7 @@ In order for Codio to work correctly you need to allow cookies. Check our [Priva
 
 The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
 
-#### To enable cookies in Chrome:
+## To enable cookies in Chrome:
 
 In your browser enter: `chrome://settings/content/cookies`
 and
@@ -17,7 +17,7 @@ and
 
 *Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)*
 
-#### To enable cookies in Firefox:
+## To enable cookies in Firefox:
 In your browser enter: `about:preferences#privacy`
 Select **User custom settings for history** from the drop down in the History section and
 
@@ -27,7 +27,7 @@ Select **User custom settings for history** from the drop down in the History se
 
 *Image from Firefox 55.0.2 (64-bit)*
 
-#### To enable cookies in Safari:
+## To enable cookies in Safari:
 In your browser go to `Safari> Preferences`
 <img alt="Safari" src="/img/safari.png" class="simple"/>
 Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.

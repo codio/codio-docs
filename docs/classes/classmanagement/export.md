@@ -4,7 +4,7 @@ title: Exporting class data
 
 ---
 
-### Class Data
+# Class Data
 Class data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Class](/classes/classmanagement/delete/)
 
 - Select the class, go to the **Admin** area and then press the **Class Data** button.
@@ -24,7 +24,7 @@ Individual units data can also be exported separately if required. See [export u
 If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/classes/lti/lti1_0/keys#exportlti) for more information.
 
 
-### User Access Data
+# User Access Data
 Use this to download a CSV of user access to units in the class. Details include
 
 - Username
@@ -45,10 +45,10 @@ Use this to download a CSV of user access to units in the class. Details include
 
 Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
 
-### LTI Settings
+# LTI Settings
 For more information see [Exporting LTI settings](/classes/lti/lti1_0/keys/)
 
-### Working with student workspaces
+# Working with student workspaces
 
 If in the future you have need to review any students workspace, these can be imported back into your Codio account.
 Simply 'zip' up the folder and you can then import the project into your account. See [creating and importing a project](/project/creating/) for more information.

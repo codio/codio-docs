@@ -9,7 +9,7 @@ Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) whic
 ## Preparation
 The following steps need to be taken only one time per class.
 
-### In Codio
+# In Codio
 
 - Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
 - Select the **LTI Integrations** tab.
@@ -18,7 +18,7 @@ The following steps need to be taken only one time per class.
 <img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
 
 
-### In Blackboard
+# In Blackboard
 The Blackboard user who carries out these steps must be a Blackboard system administrator.
 
 - Create a new Course in Blackboard. We suggest you create a test course called **Codio Blackboard** before you do it with a production course.
@@ -32,7 +32,7 @@ The Blackboard user who carries out these steps must be a Blackboard system admi
   - set **Send User Data** to **Send user data only over SSL**.
   - in **User Fields to Send** you should set all 3 fields (Constituency in Course, Name, Email Address).
 
-### In Codio and Blackboard
+# In Codio and Blackboard
 Now return to the **Default Configuration** section in Blackboard. We will now copy the following global integration fields from Codio to Blackboard.
 
 - LTI Consumer -> Tool Provider Key
@@ -54,7 +54,7 @@ This URL ensures that Codio knows how to redirect students back to the correct B
 ## Mapping a Unit to Blackboard Content
 The final mapping step needs to be taken for each individual Unit within Codio. It maps a piece of Blackboard content to a Codio Unit.
 
-### In Codio
+# In Codio
 
 - On the main class screen, make sure the **Units** tab is selected.
 - Click the **+** button and select **Add Project**.
@@ -65,7 +65,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 <img alt="Unit URL" src="/img/lti/LMS-Unit-URL.png" class="simple"/>
 
 
-### In Blackboard
+# In Blackboard
 We now return to Blackboard complete the mapping.
 
 - Make sure you have selected the Blackboard course.
@@ -88,7 +88,7 @@ Next, you should login to Blackboard as a test student and start the assignment.
 
 **IMPORTANT** : when you access Codio from Blackboard, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and open some content from Blackboard as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
 
-### Single sign-in and account creation
+# Single sign-in and account creation
 It is important to understand how Codio maps Blackboard users to Codio users. The following rules should be understood. If students or faculty access Codio via a Blackboard assignment then Codio will use the Blackboard email address to identify the user.
 
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Blackboard user role will be carried over as well.

@@ -51,17 +51,17 @@ This gives you a complete set of demo widgets. From the main dashboard, select *
 
 Search for **tkinter** in the search field then select the **TKinter Widgets** pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
 
-### TKinter Widgets
+# TKinter Widgets
 This Pack contains a set of widget demo files that you can play with.
 
 Once your project opens, you can quickly play with this in one of 2 ways using the **Rocket** menu item. This is the Codio menu item with a rocket next to it.
 
-#### Full Widget Demo
+## Full Widget Demo
 
 - In the Codio menu, select 'Start widget.py’.
 - From the neighbouring menu item, press **View widget demo**.
 
-#### Individual python file
+## Individual python file
 
 - Open a python file in the file tree.
 - From the neighbouring menu item, press **View widget demo**.
@@ -81,7 +81,7 @@ If you want to create a completely empty Codio project that is Tkinter ready, th
 This Stack will not give you any preconfigured buttons (see the above **Starter Pack: Clean** for this).
 You can now create your Python files and run Tkinter. Here are some tips on how to do this.
 
-### Running the Python file
+# Running the Python file
 To run a Python file you will need to use the Terminal or configure you own Codio button shortcut. To use the terminal, open a new Terminal from the **Tools->Terminal** menu item. Then make sure you are in the correct folder and type `python3 mypythonfile.py`.
 
 Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select **Box URL SSL**. This will open up the viewer.

@@ -19,7 +19,7 @@ When you press the **Publish** button, the following screen will appear.
 <img alt="versions" src="/img/book_publish.png" class="simple"/>
 
 
-#### New stack (no modifications) or only code workspace changes made
+## New stack (no modifications) or only code workspace changes made
 If, in your book, you have
 
 - only made changes to the code workspace (the contents of the file tree in the IDE or `/home/codio/workspace`)
@@ -34,7 +34,7 @@ then you should
 <img alt="versions" src="/img/book_stack_notmodified.png" class="simple"/>
 
 
-#### Stack modified
+## Stack modified
 If you have made any changes to the stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
 <img alt="versions" src="/img/book_stack_modified.png" class="simple"/>
@@ -44,14 +44,14 @@ You should now decide whether you want to
 - create a new version of the stack used by the book
 - create a brand new stack for this book.
 
-#### Stack modified : New Stack Version
+## Stack modified : New Stack Version
 Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option. In this case you should create a new stack as explained below under **Stack modified: New Stack**.
 
 You should enter a description of the stack changes made and then press **Publish Book**. The new stack version will appear in your stacks listing in the normal way.
 
 <img alt="versions" src="/img/book_stack_newversion.png" class="simple"/>
 
-#### Stack modified: New Stack
+## Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or units should use, then select this option.
 
 This will create a new stack with the permissions you specify. To give access only to others within your organization, select **Private** and then select the owner organization from the drop down list below.
@@ -61,11 +61,11 @@ It will take a few minutes to prepare the stack, so please be patient. Once it i
 <img alt="versions" src="/img/book_stack_newstack.png" class="simple"/>
 
 
-### Later book modifications
+# Later book modifications
 If, after publishing, you make further changes to our book then you will need to re-publish when you want those changes are available to courses. This will not happen automatically. You will need to update the project unit within your course to pull the published version by pressing **Update to latest version**.
 
 
-### Course mapping
+# Course mapping
 A book cannot be assigned to a class without mapping it through a course. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures.
 
 You can map the entire book through a single course unit if you are not concerned about detailed unit mappings.

@@ -5,10 +5,11 @@ summary: How to manage teachers in your organization
 
 Once you have set up your organization, the next step is to invite teachers to use Codio too. There are 2 ways you can do this:
 
-### Invite Teacher to the Organization
+# Invite Teacher to the Organization
 
 1. Click your name/gravatar, bottom of the left hand pane
-<img alt="Profile" src="/img/class_administration/profilepic.png" class="simple"/>
+
+    ![Profile](/img/class_administration/profilepic.png)
 
 1. Click the name of your organization (under **My Organizations**)
 <img alt="Org Name" src="/img/class_administration/addteachers/myschoolorg.png" class="simple"/>
@@ -25,7 +26,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 1. Any invitations not completed will show in the area below and where you can also **Resend** or **Revoke** if you require. Once the invitee has joined the organization they will no longer show in this area but show in the **All Members** list below (and also **Owners** list if 'Add this teacher to owners group' was checked)
 <img alt="Pending" src="/img/manage_organization/pendinginvite.png" class="simple"/>
 
-### Invitation Token
+# Invitation Token
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="Profile" src="/img/class_administration/profilepic.png" class="simple"/>

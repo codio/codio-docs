@@ -29,7 +29,7 @@ https://codio.com/home/projects/new?importType=git&activeTab=3&name=your_codio_p
 
 ```
 
-### Finding the stack version ID
+# Finding the stack version ID
 
 Go to the **Stacks** area and find the appropriate stack you wish to be used with your repo. Select **Use Stack** and from the address bar you will see the stack version ID to add to your link
 
@@ -47,7 +47,7 @@ You are free to use any way of linking to Codio but we would recommend using the
 
 
 
-### How get manually import a Git repo into Codio
+# How get manually import a Git repo into Codio
 
 <img alt="create from GitHub" src="/img/github-clone-url.png" class="simple"/>
 

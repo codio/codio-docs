@@ -1,5 +1,5 @@
 
-### The Codio Dashboard
+# The Codio Dashboard
 
 *   [Support queries](/dashboard/support)
 *   [Navigating Codio](/dashboard/navigation)
@@ -45,7 +45,7 @@
     *   [Grade Feedback](/dashboard/student/gradefeedback)
 *   [Desktop Application](/dashboard/desktopapp)
 
-### Projects and Templates
+# Projects and Templates
 
 *   [](#section-projects)[Projects](/project/what-is-a-project)
     *   [What is a project?](/project/what-is-a-project)
@@ -73,7 +73,7 @@
     *   [Updating a pack](/project/packs/update)
     *   [Deleting a pack](/project/packs/delete)
 
-### Boxes and the IDE
+# Boxes and the IDE
 
 *   [Introduction](/ide/introduction)
 *   [](#int_dev_env)[Basic IDE features](/ide/navigation/)
@@ -170,7 +170,7 @@
         *   [Project settings](/ide/customization/project-settings)
         *   [Project permissions](/ide/customization/permissions)
 
-### [Content Authoring with Guides](/content/authoring)
+# [Content Authoring with Guides](/content/authoring)
 
 *   [Introduction](/content/authoring/introduction)
 *   [Project, course unit or book?](/content/authoring/3ways)
@@ -215,7 +215,7 @@
     *   [Searching and Adding questions from the Assessments Library](/content/authoring/assessments-library/filters-queries)
 *   [Collaborating on content](/content/authoring/collaboration)
 
-### Books
+# Books
 
 *   [Introduction](/books/introduction)
 *   [Limitations and restrictions](/books/limitations)
@@ -227,7 +227,7 @@
     *   [Permissions and collaboration](/books/permissions)
     *   [Creating course units](/books/unit-book)
 
-### Courses
+# Courses
 
 *   [Introduction](/courses/introduction)
 *   [Working with courses](/courses/working-with)
@@ -248,7 +248,7 @@
     *   [Collaborating on project units](/courses/units/course-collaborate)
 
 
-### Classes
+# Classes
 
 *   [Introduction](/classes/)
 *   [](#how_manage_class)[Class management](/classes/classmanagement)
@@ -309,7 +309,7 @@
         *   [Canvas](/classes/lti/lti1_3/canvas1_3)
         *   [Moodle](/classes/lti/lti1_3/moodle1_3)
 
-### Miscellaneous
+# Miscellaneous
 
 *   [](#school-course-list)[Schools course content](/misc/schoolscontent)
     *   [How are courses organised](/misc/schoolscontent/organization)

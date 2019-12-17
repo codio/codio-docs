@@ -14,7 +14,7 @@ For details of other supported systems see [https://www.eduappcenter.com/tutoria
 ## Preparation
 The following steps need to be taken only one time per class.
 
-### In Codio
+# In Codio
 
 - Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
 - Select the **LTI Integrations** tab.
@@ -22,7 +22,7 @@ The following steps need to be taken only one time per class.
 
 <img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
 
-### In Canvas
+# In Canvas
 The Canvas user who carries out these steps must be a system administrator.
 
 - Create a new Course in your LMS system. We suggest you create a test course called **Codio Test Course** before you do it with a production course.
@@ -36,7 +36,7 @@ The Canvas user who carries out these steps must be a system administrator.
 
 - Navigate (or filter) to find the **Codio** app, select and **+ Add App**
 
-### In Codio and Canvas
+# In Codio and Canvas
 We will now copy the following global integration fields from Codio to Canvas.
 
 - LTI Consumer -> Consumer Key
@@ -49,7 +49,7 @@ You should then have something similar to this:
 
 
 
-### Class URL
+# Class URL
 
 The **Class URL** is used to map an LMS course to a Codio class. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through the Codio dashboard.
 
@@ -62,7 +62,7 @@ The LMS user who carries out these steps does not need to be a system administra
 
 <img alt="lti-class-url" src="/img/lti/lti-class-url.png" class="simple"/>
 
-### Mapping Codio units to Canvas unit/assignment
+# Mapping Codio units to Canvas unit/assignment
 The **Unit URL** is where you map each individual Unit within your Codio Class to the corresponding unit/assignment in your LMS.
 
 Where you have enabled the Codio LTI App in your LMS system, you can easily integrate units from your Codio class.

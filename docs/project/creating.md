@@ -10,7 +10,7 @@ Create a new project, or import one by, clicking on the New Project button on th
 
 You can then choose which of the following Project creation methods you want to use.
 
-### Creating an empty project
+# Creating an empty project
 
 Select a commonly used Stack from the available list:
 
@@ -26,7 +26,7 @@ The list of stacks is only a starting point. You can take any stack and then cus
 
 Refer to the [section on Stacks](/project/stacks) to learn how to create and manage your own software configuration templates.
 
-### Importing code into a project
+# Importing code into a project
 
 Click on the **'Click here....'** link to import or select an alternative software configuration:
 
@@ -39,14 +39,14 @@ Click on the **'Click here....'** link to import or select an alternative softwa
 <img alt="Import Project" src="/img/project_create_other.png" class="simple"/>
 
 
-### Selecting a Stack
+# Selecting a Stack
 If you have clicked on the **click here** link, you can then specify the Stack your new Project will be assigned.
 
-### Details
+# Details
 You should give your project a name and a description, which will appear in the projects listing.
 
 
-### Visibility
+# Visibility
 Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organization, you can mark the Project as private. In **My Projects** you will see a padlock icon for any Projects that are private.
 
 Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/create/public_private).

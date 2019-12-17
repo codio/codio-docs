@@ -12,12 +12,12 @@ Once the report has been generated it can be opened by clicking the **Open** but
 ## Drilling down
 You can drill down in various ways. The two most common and useful ways are
 
-### Edits
+# Edits
 Shows the differences between the two or more students with similarities. Things that have been added by one student are shown in green, things removed in red and those that are identical are not shaded at all.
 
 <img alt="authtoken" src="/img/guides/plag-edits.png" class="simple"/>
 
-### Side-by-side
+# Side-by-side
 This shows the code of those students with similarities in their code in a side-by-side viewer.
 
 <img alt="authtoken" src="/img/guides/plag-sidebyside.png" class="simple"/>

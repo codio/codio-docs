@@ -12,7 +12,7 @@ To use JUnit, your project requires Java and so should
 - or you should have manually installed Java in your box
 - or install from **Tools>Install Software**. See [Installing Software Packages](/ide/boxes/installsw/box-parts/) for more information
 
-### Configuration
+# Configuration
 Open the JUnit dialog **Tools->JUnit** or use the **Shift+Alt+J** hotkey. Then configure the
 
 - **Source path** is the location of the student source code
@@ -29,14 +29,14 @@ Individual test cases can be added
 - by specifying the paths to a file with JUnit tests in the add test case fields
 - or by dragging and dropping the file into the JUnit tab.
 
-#### Timeout settings
+## Timeout settings
 
 The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well
 
 <img alt="junitsettings" src="/img/junitsettings.png" class="simple"/>
 To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/ide/customization/project-prefs/)
 
-### Execution
+# Execution
 You can Execute the tests from the **JUnits Execution** tab. Once completed, the results will be listed below.
 
 <img alt="junitexecute" src="/img/junitexecution.png" class="simple"/>

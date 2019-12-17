@@ -14,7 +14,7 @@ There is a Starter Pack project that you can add to your account. [Click here to
 ## Basic setup
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
-### General
+# General
 The screenshot below shows the basic configuration fields for the _General_ section:
 
 <img alt="" src="/img/guides/assessment_general.png" class="simple"/>
@@ -22,7 +22,7 @@ The screenshot below shows the basic configuration fields for the _General_ sect
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
-### Execution
+# Execution
 The screenshot below shows the configuration fields for the _Execution_ section:
 
 <img alt="" src="/img/guides/assessment_sct_execution.png" class="simple"/>
@@ -30,7 +30,7 @@ The screenshot below shows the configuration fields for the _Execution_ section:
 - **Command** is the command that executes the student code itself. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Pre-exec command** is the command to execute before you run each test. This will normally be a compile command.
 
-### Grading
+# Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
 
 <img alt="" src="/img/guides/assessment_sct_grading.png" class="simple"/>
@@ -44,7 +44,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 <a name="metadata"></a>
-### Metadata
+# Metadata
 
 <img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
 
@@ -55,7 +55,7 @@ The Metadata section contains fields that further describe the current assessmen
 - **Tags**: In addition to Bloom's Level and Learning Objectives, you may add arbitrary tags to an assessment. The existing tags, **Content** and **Programming Language**, are required. To add your own tags, click **Add Tag** and populate their names and values in the empty input boxes at the bottom.
 
 <a name="files"></a>
-### Files
+# Files
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
@@ -82,10 +82,10 @@ If you only have one input/output pair then the student could write code that si
 To add a new test case, press the **Add item to check** button which generates a new pair.
 
 
-### Inputs using arguments
+# Inputs using arguments
 The easiest way of supplying input data is in the **Input - Arguments** field as shown in the previous image. The argument data can then be read by the student code.
 
-### Inputs using `stdin`
+# Inputs using `stdin`
 If you want to handle manual data input cases such as "Enter your Name: " then you would use the **Input - Stdin** field. This field allows you to supply the data that would normally be entered manually in the console. The following is important to avoid mistakes.
 
 - The input data should have a new line if this would be expected in the actual program execution.
@@ -101,7 +101,7 @@ The following image shows the more tolerant approach that has the **Ignore white
 <img alt="" src="/img/guides/std-assessment-stdin-ignore.png" class="simple"/>
 
 <a name="errorfeedback"></a>
-### Error Feedback
+# Error Feedback
 
 To provide extended feedback about issues in the student's code, you can enable this option if you wish to show feedback to the student in the event the test fails.
 

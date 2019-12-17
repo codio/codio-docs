@@ -14,14 +14,14 @@ The grouping intervals are
 - Jun-Aug - Summer
 
 
-### Ordering classes within their groups
+# Ordering classes within their groups
 
 Classes can be ordered by Name, Creation Date or Begin Date within the groups
 
 <img alt="CreateDate" src="/img/manage_classes/orderclass.png" class="simple"/>
 
 
-### Searching
+# Searching
 
 If you have a large number of classes, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all class names and filter your list accordingly.
 <img alt="Name" src="/img/manage_classes/nameclass.png" class="simple"/>

@@ -22,12 +22,12 @@ The two autograding options can be found in the unit settings.
 The two options can be found in the **AUTOGRADE METHOD** drop-down list.
 
 <a name="transfer"></a>
-### Transferring authored content assessment total
+# Transferring authored content assessment total
 If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/classes/monitor/grading).
 
 <a name="script"></a>
 
-### Running a custom script
+# Running a custom script
 A more advanced way of populating the grading field is to write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.
 
 If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks.
@@ -35,14 +35,14 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 <img alt="authtoken" src="/img/grading-secure.png" class="simple"/>
 
 <a name="securescripts"></a>
-### Secure scripts
+# Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way and the script runs in an ephemeral container isolated from the students unit.
 
 
-### Timeout
+# Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
 
-### Accessing authored content assessment results
+# Accessing authored content assessment results
 You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
 
 ```
@@ -79,13 +79,13 @@ You can get both summary data and data for each assessment individually.
 
 
 <a name="regrading"></a>
-### Regrading for an individual student
+# Regrading for an individual student
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
 
-### Regrading all students
+# Regrading all students
 From the **Actions** area of the Unit, you can regrade all students that have already been auto-graded by pressing the **Regrade All** button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
 
-### Testing and debugging your grading scripts
+# Testing and debugging your grading scripts
 **IMPORTANT**: please read this section carefully.
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a class.
@@ -105,7 +105,7 @@ It is important that it is located in the `.guides/secure` folder. You then spec
 
 You are now free to debug the Python script and fix any bugs that you may have noticed once students have started work on the Unit.
 
-#### Testing your script in the IDE
+## Testing your script in the IDE
 We provide the ability to test your autograding script from the **Education -> Test Autograde Script** menu.
 
 This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
@@ -123,7 +123,7 @@ You should be aware of the following points.
 
 If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under **Accessing Guide assessment results**.
 
-### Example Python grading script
+# Example Python grading script
 Below is an example Python file that might be loaded by the bootstrap script above.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any Unit.
@@ -140,9 +140,9 @@ import sys
 sys.path.append('/usr/share/codio/assessments')
 from lib.grade import send_grade
 
-####################
+##################
 # Helper functions #
-####################
+##################
 
 
 # Get the url to send the results to
@@ -156,9 +156,9 @@ def main():
   res = send_grade(int(round(grade)))
   exit( 0 if res else 1)
 
-##########################################
+########################################
 # You only need to modify the code below #
-##########################################
+########################################
 
 # Your actual test logic
 # Our demo function is just generating some random score
@@ -169,7 +169,7 @@ main()
 ```
 
 <a name="examplebashscript"></a>
-### Example Bash grading script
+# Example Bash grading script
 
 Below is an example bash script file that would be stored  in .guides/secure folder
 

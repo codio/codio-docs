@@ -7,7 +7,7 @@ repo_url: https://github.com/codio/codio-docs
 edit_uri: ""
 
 theme:
-    name: readthedocs
+    name: mkdocs
     highlightjs: true
     hljs_languages:
         - yaml
@@ -16,15 +16,7 @@ theme:
         - python
 nav:
     - Codio: https://www.codio.com
-    - Home: /
-    - Support queries: /dashboard/support
-    - Navigating Codio: /dashboard/navigation
-    - Dashboard overview: /dashboard/obg-overview
-    - Account settings and info: /dashboard/account
-    - The student view: /dashboard/student
-    - Projects: /project/what-is-a-project
-    - Stack templates: /project/stacks
-    - Starter pack templates: /project/packs
+    - Home: index.md
 
 # extra_css:
 #     - css/extra.css

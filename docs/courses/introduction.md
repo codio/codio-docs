@@ -7,14 +7,14 @@ title: Introduction
 The following videos cover project units. [Click here](/books) if you have authored a Codio book and want to publish a unit from a part it.
 
 <a name="courseoverview"></a>
-### Video - General overview
+# Video - General overview
 
 The following video gives an overview on why you might want to use a course rather than projects. It also explains how to create a course and assign it to a class.
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <a name="coursevisibility"></a>
-### Video - Ownership and visibility
+# Video - Ownership and visibility
 Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to classes of student.
 
 <iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -22,7 +22,7 @@ Please watch the following video to understand how to allow people to find your 
 You can also read how to [control access](/courses/manage/course-public) in the documentation.
 
 <a name="coursestacks"></a>
-### Video - Working with stacks in courses
+# Video - Working with stacks in courses
 The following video covers the important topic of stack management within a course. Here are some documentation links.
 
 - [About stacks in general](/project/stacks/stack-overview)
@@ -31,11 +31,11 @@ The following video covers the important topic of stack management within a cour
 <iframe src="https://player.vimeo.com/video/236904941" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-### Updating courses and collaboration
+# Updating courses and collaboration
 If you want to allow other teachers in your organization to modify your course structure and unit content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/units/course-collaborate/) for details.
 
 
-### Overview
+# Overview
 
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 

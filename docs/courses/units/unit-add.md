@@ -19,7 +19,7 @@ You add a new unit by pressing the large blue **+** button. You now need to choo
 [Click here](/content/authoring/3ways) if you are not sure about the difference between project units and book units.
 
 <a name="projectunit"></a>
-### New project unit
+# New project unit
 You can create a new unit in the following ways.
 
 - Create a brand new unit as you would with a normal Codio project.
@@ -30,7 +30,7 @@ You can create a new unit in the following ways.
 
 <a name="createbook"></a>
 
-### New book unit
+# New book unit
 Creating a new book unit involves pointing to the parts of a book that you want to map to your unit. You will seen the following screen.
 
 <img alt="Book Unit" src="/img/newbook.png" class="simple"/>

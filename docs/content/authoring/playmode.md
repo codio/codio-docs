@@ -8,10 +8,10 @@ The experience when authoring differs from that of a student. Students are not a
 
 If you are an author, you will often want to view the content as a student will see it.
 
-### Editing
+# Editing
 Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](/content/authoring/page-edit) for details on page editing.
 
-### Preview
+# Preview
 You can press the preview button in the top right area of the edit pane. This will switch to preview mode. You can then switch back to editor mode by pressing the **Editor** button.
 
 You can also start the preview mode from the **Tools->Guide->Play**.
@@ -22,7 +22,7 @@ Finally, there is also a button at the top of the file tree that launches the co
 <img alt="StartGuides" src="/img/guides/startguides.png" class="simple"/>
 
 <a name="customisetopmenu"></a>
-### Customising IDE menu
+# Customising IDE menu
 To simplify the educational process for students, the top menu can be customised to remove options from students that they cannot override.
 
 
@@ -56,7 +56,7 @@ Menu items that the student will see:
 
 The student will not see the .codio-menu file to be able to edit/change it.
 
-### Player Options
+# Player Options
 <img alt="authtoken" src="/img/guides/playmode.png" class="simple"/>
 
 When the content is rendered to a student, various options can be controlled

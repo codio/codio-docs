@@ -25,7 +25,7 @@ To assign a course module, follow the steps below:
 1. The module will appear in your class.
 <img alt="authtoken" src="/img/manage_classes/assigning_cm_content/module_in_class.png" class="simple"/>
 
-### Removing course module from a class
+# Removing course module from a class
 
 You can remove course modules from a class selecting **Delete module**
 <img alt="authtoken" src="/img/manage_classes/deletemodule.png" class="simple"/>

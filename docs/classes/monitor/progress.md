@@ -17,7 +17,7 @@ You can monitor student progress and time spent on individual units.
 1. To see a more detailed breakdown of each unit the student has attempted, click on the unit name. You will be able to view a breakdown of the challenges attempted along with corresponding results.
 
 <a name="downloadcsv"></a>
-### Download CSV summary
+# Download CSV summary
 
 You can also download a CSV file of your students progress. You can do this for individual units to see all your students by clicking on the blue triple dot icon to the right of the unit name:
 <img alt="authtoken" src="/img/downloadcsv_unit.png" class="simple"/>

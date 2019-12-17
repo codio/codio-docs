@@ -91,14 +91,14 @@ Once you have the one or more lines selected, you can either delete all lines (b
 
 ## Running your code
 
-### Step / debug mode
+# Step / debug mode
 One very nice way of running your code is to step through it line by line so you can see how it executes at your own pace. To do this, press the **Step** button on the right hand side. It will immediately start executing.
 
 At any time, you can press the **Run** button to run to completion at full speed.
 
 <img alt="authtoken" src="/img/crunch-step.png" class="simple"/>
 
-### Run mode
+# Run mode
 This runs your program at full speed.
 
 ## Output window

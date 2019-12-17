@@ -36,7 +36,7 @@ Your bookstore will provide you with a sheet that contains a code that can be us
 NOTE: A single subscription can be used for multiple courses using Codio during the specified timeframe.
 
 
-#### Activating a bookstore license
+## Activating a bookstore license
 
 To log in to Codio, please follow your instructor's directions. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc) or through Codio.com using a class token.
 

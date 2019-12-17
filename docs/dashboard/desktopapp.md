@@ -15,7 +15,7 @@ A Codio account is required
 
 <a name="codioignore"></a>
 
-### Excluding files
+# Excluding files
 Files/folders can be excluded from synchronisation by using `.codioignore` file in the source project.
 Enter on a new line the file/folders to be excluded defining them relative to the location of the `.codioignore` file and defining folders with `/`
 
@@ -43,7 +43,7 @@ A line starting with `#` serves as a comment
 
 **[Click here](/download)** to go to the download page and install to your local machine
 
-### Starting the app
+# Starting the app
 When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the United Kingdom/Europe, it maybe **https://codio.co.uk**.
 
 <img alt="desktop server" src="/img/desktop_server.png" class="simple"/>
@@ -55,7 +55,7 @@ Having selected the server log in using your codio credentials.
 <i>**Note:** that if you usually access Codio through an [LMS](/classes/lti/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/dashboard/account/forgotpassword/) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
 
 <a name="connect"></a>
-### Accessing and connecting to your online content
+# Accessing and connecting to your online content
 <img alt="desktop options" src="/img/desktop_options.png" class="simple"/>
 
 When logged in you can access your content either from **My Classroom** or **My Projects** area
@@ -69,7 +69,7 @@ Select either:
 
 When connecting, browse to a folder on your PC where you would like to store the code and pull the content
 
-### Managing your offline content
+# Managing your offline content
 When you have connected you can then push/pull/open the unit in Codio and manage the local workspace folder settings.
 
 <img alt="desktop connected" src="/img/desktop_connected.png" class="simple"/>
@@ -82,7 +82,7 @@ When you have connected you can then push/pull/open the unit in Codio and manage
 
 **4.** Click the **folder** icon to manage your local workspace folder settings
 
-### Local workspace folder settings
+# Local workspace folder settings
 
 <img alt="desktop workspace settings" src="/img/desktop_worspacesettings.png" class="simple"/>
 

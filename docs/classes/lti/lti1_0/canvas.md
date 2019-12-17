@@ -9,7 +9,7 @@ Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) whic
 ## Preparation
 The following steps need to be taken only one time per class.
 
-### In Codio
+# In Codio
 
 - Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
 - Select the **LTI Integrations** tab.
@@ -18,7 +18,7 @@ The following steps need to be taken only one time per class.
 <img alt="LTI Fields" src="/img/lti/lti-org-fields.png" class="simple"/>
 
 
-### In Canvas, adding Codio as an App
+# In Canvas, adding Codio as an App
 The Canvas user who carries out these steps must be a system administrator.
 
 - Create a new Course in Canvas. We suggest you create a test course called **Codio Canvas** before you do it with a production course.
@@ -28,7 +28,7 @@ The Canvas user who carries out these steps must be a system administrator.
 - Click the large button **View App Configurations**.
 - Click on the blue **+ App** button.
 
-### In Codio and Canvas
+# In Codio and Canvas
 We will now copy the following global integration fields from Codio to Canvas.
 
 - LTI Consumer -> Consumer Key
@@ -37,7 +37,7 @@ We will now copy the following global integration fields from Codio to Canvas.
 
 In Canvas you should then use one of the following steps
 
-#### Manual Entry
+## Manual Entry
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
 - Enter **apollo.codio.com** into the **Domain** field.
 - In the **Privacy** field, select **Public**
@@ -48,14 +48,14 @@ You should end up with something like this.
 
 <img alt="Canvas Global" src="/img/lti/canvas-global.png" class="simple"/>
 
-#### By URL
+## By URL
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
 - In Codio select the Copy Consumer button to copy in to the Consumer Key field.
 - select the Copy Secret Key to copy in to the Shared Secret field.
 - select the Copy XML URL to copy in the to the Config URL field.
 - and Submit
 
-#### Paste XML
+## Paste XML
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
 - In Codio select the Copy Consumer button to copy in to the Consumer Key field.
 - select the Copy Secret Key to copy in to the Shared Secret field.
@@ -77,7 +77,7 @@ This URL ensures that Codio knows how to redirect students back to the correct C
 ## Mapping a Unit to a Canvas Assignment
 The final mapping step needs to be taken for each individual Unit within Codio. It maps a Canvas assignment to a Codio Unit.
 
-### In Codio
+# In Codio
 
 - On the main class screen, make sure the **Units** tab is selected.
 - Click the **+** button and select **Add Project**.
@@ -87,7 +87,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 
 <img alt="Unit URL" src="/img/lti/LMS-Unit-URL.png" class="simple"/>
 
-### In Canvas
+# In Canvas
 We now return to Canvas complete the mapping.
 
 - Make sure you are in the Courses area.
@@ -116,7 +116,7 @@ Next, you should login to Canvas as a test student and start the assignment. Ple
 
 **IMPORTANT** : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
 
-### Single sign-in and account creation
+# Single sign-in and account creation
 It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will use the Canvas email address to identify the user.
 
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Canvas user role will be carried over as well.

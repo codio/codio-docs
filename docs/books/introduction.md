@@ -10,7 +10,7 @@ Often, a student will want to review materials taught earlier in a course. With 
 
 A Codio book still sits on top of a Codio box so you have the same capabilities that projects and units have. Before we introduced books, switching units wasted time as a new unit needed to load, which took several seconds. If you frequently switch units (for instance during student revision) this delay becomes irritating. With a book, there is no delay and the student can freely access all parts of the book irrespective of which unit they are accessing.
 
-### Recommendations
+# Recommendations
 We strongly recommend you have a thorough understanding of the following before embarking on large scale books.
 
 - [Content authoring](/content/authoring)
@@ -18,14 +18,14 @@ We strongly recommend you have a thorough understanding of the following before 
 - [Assigning content to classes](/classes/unitmanagement/assign-module)
 - Limitations (see below)
 
-### Limitations, restrictions and when not to use a book
+# Limitations, restrictions and when not to use a book
 There are cases where authoring your content in a book is not appropriate. For more information on this, please refer to [limitations and restrictions](/books/limitations).
 
 
-### Courses
+# Courses
 Rather than assign a Book to a class, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and units and assign these to a class but, provided the course author allows it, students can look at any part of the book even when assigned a single unit. This is ideal for referring back to material covered previously and for general revision. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
 
-### Assessments
+# Assessments
 Although it is entirely up to the book author, a book will usually contains a number of assessments. When you map a course unit to a section of the book, any assessments that fall within that unit are shown in the class dashboard.
 
 You should make a decision as to when assessments should be in the book and when they are better suited to a project unit. Generally speaking, standard assessments that are used to monitor student engagement with content belong in the book.

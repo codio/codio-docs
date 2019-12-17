@@ -10,18 +10,18 @@ Once you are in the Codio IDE, you are able to create and manage content. There 
 <img alt="startauthouring" src="/img/guides/startguides.png" class="simple"/>
 - From the menu, select **Tools->Guide->Edit**.
 
-### Editing page content and actions
+# Editing page content and actions
 Please refer to the following pages for details in how to edit page content and control page actions.
 
 - [Page Editing](/content/authoring/page-edit/) for details on how to edit a pages content using markdown or HTML, hiding folders and other actions.
 - [Settings and page actions](/content/authoring/settings-actions) : Opening and closing files, panel configuration and other settings
 
-### Editing content
+# Editing content
 The image below highlights the main components of the editing page.
 
 <img alt="Edit Book" src="/img/guides/editbook.png" class="simple"/>
 
-### Accessing the table of contents
+# Accessing the table of contents
 To open and close the table of contents, press the **Hamburger Icon** at the top right. From here you can add and organize content.
 
 <a name="chapters"></a>

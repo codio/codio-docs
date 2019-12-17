@@ -3,7 +3,7 @@ title: "Customer Support Office Hours"
 
 ---
 
-### Customer Technical Support
+# Customer Technical Support
 
 We have an [extensive documentation section](/docs) where you can find out how to [add students](/classes/classmanagement/addstudents), [add teachers](/dashboard/create/addteachers) and much more.
 
@@ -28,7 +28,7 @@ If you are logged into Codio:
 If it is out of our office hours, we will get back to you as soon as possible.
 
 
-### Sales Inquiries
+# Sales Inquiries
 
 If you are interested in purchasing Codio, please see our [pricing](/pricing/). If you have any questions about how Codio could be right for you, we offer [demos and webinars](/demo) for you and your colleagues. Or alternatively, please email us at help@codio.com, and we will get in touch as soon as possible.
 

@@ -4,7 +4,7 @@ title: Unlinking and Updating Assessments from Library
 
 ---
 
-### Updating an Existing Assessment
+# Updating an Existing Assessment
 1. Click on the "Add Assessment Icon"
 <img alt="Create assessment" src="/img/CreateAssessment.png" class="simple"/>
 
@@ -18,7 +18,7 @@ title: Unlinking and Updating Assessments from Library
 
 
 <a name="unlinkingAssessment"></a>
-### Unlinking an Assessment
+# Unlinking an Assessment
 1. Click on the "Add Assessment Icon"
 <img alt="Create assessment" src="/img/CreateAssessment.png" class="simple"/>
 

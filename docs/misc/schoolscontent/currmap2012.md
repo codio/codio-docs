@@ -10,7 +10,7 @@ Codio's teaching content has been created in partnership with the UK's leading e
 It has been designed specifically to cover the coding aspects of the current GCSE curriculum as well as the new (2016) curriculum.
 
 Please view our [Curriculum Map](https://docs.google.com/a/codio.com/spreadsheets/d/1fGg1ouSMPuYuZwckQVlGGvMkz2d8K-N1EmJotMx-GJ8/edit?usp=sharing) for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012).
-### Creating Lesson Plans: How to use the Curriculum Map
+# Creating Lesson Plans: How to use the Curriculum Map
 
 The curriculum map is your resource to track and plan your lesson time. We recommend a minimum (Column C) and maximum (Column D) number of lessons for each curriculum area. Columns F-I specify the Codio content that covers the specific curriculum area.
 

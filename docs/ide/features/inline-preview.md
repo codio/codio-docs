@@ -6,11 +6,11 @@ title: "Preview"
 
 It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content.
 
-### Static content
+# Static content
 You can use **Preview static** options on Static content only (HTML, CSS, JS and text).
 You can also preview static content on your mobile device easily using **Project>QR Code for Preview URL** to generate a QR code you can scan with a QR Reader on your device.
 
-### Dynamic content
+# Dynamic content
 To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application by:
 
 - word1-word2-port.codio.io which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.

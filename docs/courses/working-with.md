@@ -6,12 +6,12 @@ title: Working with courses
 
 Working with courses often follows the pattern listed below.
 
-### Setup
+# Setup
 
 1. **Create a new course** and name it.
 1. **Create your first module**. You need at least one module to hold your units. A module is an organizational item and a) contains units and b) can be assigned to a class with all its units.
 
-### Unit Creation
+# Unit Creation
 
 Either
 
@@ -24,7 +24,7 @@ Or
 Please [click here](/content/authoring/3ways) for details on how to decide whether to use project units or book units
 
 
-### First version
+# First version
 This describes the first time you create a new unit.
 
 1. **Edit your unit**. If your unit is a project unit, clicking the unit will take you into the IDE, as with a Codio project, where you can work on your project.
@@ -34,7 +34,7 @@ This describes the first time you create a new unit.
 You will iterate through the above process as you add more units to your course modules.
 
 
-### Updates
+# Updates
 Editing a unit **does not affect published course content or content assigned to classes**. This section describes how you can push your changes out to courses and classes when you are ready.
 
 1. **More edits to a unit**. After publishing, you may decide to make further changes. These changes do not form a part of the published course unit until you republish, so you can edit without concern for altering published content.

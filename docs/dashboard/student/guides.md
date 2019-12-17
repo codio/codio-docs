@@ -3,7 +3,7 @@ title: "Guides"
 
 ---
 
-### Restore Current Files
+# Restore Current Files
 Sometimes you might make changes to your work that you don’t like or that you don’t want to keep.
 
 The easiest way to get rid of these is to restore the original files in a unit.
@@ -14,7 +14,7 @@ To do this:
 
 <a name="completed"></a>
 
-### Completing Units
+# Completing Units
 
 When you have completed a unit you can mark it as completed. This can be done from either:
 
@@ -29,7 +29,7 @@ If there are any assessments in the unit that have not been submitted, details o
 
 If you mark a unit as complete in error, discuss with your class instructor/teacher who can reset the unit so you can access it again
 
-### Lexikon
+# Lexikon
 
 The Codio Lexikon is an integrated help system that lets you lookup information on a variety of languages and topics quickly and easily. Having access to concise reference information as new topics are learned is extremely useful and saves having to search the web and separate the wheat from the chaff!
 

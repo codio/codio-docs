@@ -10,7 +10,7 @@ If you enable this feature, all students will be shown the form when they first 
 
 <img alt="authtoken" src="/img/studentconsent.png" class="simple"/>
 
-### Creating content
+# Creating content
 
 <img alt="authtoken" src="/img/consent.png" class="simple"/>
 
@@ -22,12 +22,12 @@ You can press the **Save Draft** button to save your changes and continue editin
 
 You can also **Preview** your changes to see how the rendered output appears.
 
-### Publishing and revisions
+# Publishing and revisions
 You need to publish your changes so that they appear to the student. You can create new versions over time. Earlier versions of the form can be recalled by selecting the version from the drop down list.
 
 Once you are happy with your text, you press the **Publish new version** button.
 
-### Exporting student consent data
+# Exporting student consent data
 If you would like to download a log of all students who have consented, press the **Download CSV** link in the upper section.
 
 The CSV file contains the following data

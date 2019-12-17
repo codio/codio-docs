@@ -29,10 +29,10 @@ Publishing the unit takes a snapshot of the underlying project unit and assigns 
 
 <img alt="versions" src="/img/versions.png" class="simple"/>
 
-### Describe changes
+# Describe changes
 You should enter a brief description of the changes you made since the last publish of the unit. You can see the version history on the  [versions screen](/courses/units/settings/).
 
-### No stack modifications or you switched stack
+# No stack modifications or you switched stack
 If, in your project unit, you have
 
 - only made changes to the code workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`)
@@ -46,7 +46,7 @@ then you should
 
 <img alt="versions" src="/img/stack_notmodified.png" class="simple"/>
 
-### Stack modifications
+# Stack modifications
 If you have made any changes to the project's stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
 <img alt="versions" src="/img/stack_modified.png" class="simple"/>
@@ -56,14 +56,14 @@ You should now decide whether you want to
 - create a new version of the stack used by the unit
 - create a brand new stack for this unit.
 
-### Stack modified : New Stack Version
+# Stack modified : New Stack Version
 Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option.
 
 You should enter a description of the stack changes made and then press **Publish Unit**. The new stack version will appear in your stacks listing in the normal way.
 
 <img alt="versions" src="/img/stack_newversion.png" class="simple"/>
 
-### Stack modified: New Stack
+# Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other units should use, then select this option.
 
 This will create a new stack with the permissions you specify. To give access only to others within your organization, select **Private** and then select the owner organization from the drop down list below.
@@ -76,7 +76,7 @@ If you have differing configurations then create one single stack for a given co
 
 <img alt="versions" src="/img/stack_newstack.png" class="simple"/>
 
-### IMPORTANT: Switching a unit's stack
+# IMPORTANT: Switching a unit's stack
 Let's say you have one or more units and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack settings**) or from the units listing (press the 3 blue dots and select **Change stack**).
 
 Once this has been done, you need to publish your unit again to reflect this change. Having switched stack, you should select **Stack not modified** and then press **Publish Unit**.

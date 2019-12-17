@@ -4,7 +4,7 @@ title: What content do you recommend?
 
 ---
 
-### For students ages 11-14
+# For students ages 11-14
 - Computational Thinking - create a maze game
 - An introduction to programming -  Flode, an interactive flowcharting tool
 - An introduction to programming -  learn to code with Python, JavaScript or Java
@@ -12,7 +12,7 @@ title: What content do you recommend?
 - Middle School Computer Science Course Grades 6-8 - Middle School Computer Science based on CSTA Standards and K12 Framework
 
 
-### For students ages 14-16
+# For students ages 14-16
 - An introduction to programming -  Flode, an interactive flowcharting tool
 - An introduction to programming -  learn to code with Python, JavaScript or Java
 - An introduction to web development -  HTML, CSS and JavaScript
@@ -23,7 +23,7 @@ title: What content do you recommend?
 - High School Computer Science Course - High School Computer Science based on CSTA Standards and K12 Framework
 
 
-### For students ages 16-18
+# For students ages 16-18
 - An introduction to programming -  Flode, an interactive flowcharting tool
 - An introduction to programming -  learn to code with Python, JavaScript or Java
 - An introduction to web development -  HTML, CSS and JavaScript

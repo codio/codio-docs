@@ -8,29 +8,29 @@ The settings on this page apply to the entire guide or book.
 
 <img alt="Global settings" src="/img/guides/globalsettings.png" class="simple"/>
 
-### Scripts
+# Scripts
 This allows you to include the path and file name of a script file from a page using an HTML `<src>` tag. Provide one script path per line.
 
-### HTML header and footer
+# HTML header and footer
 This is used for any pages which are designated in the [page settings](/content/authoring/page-edit/edit-html) as an HTML page. The header/footer will be placed before/after the HTML page content.
 
-### Theme
+# Theme
 There is currently only a single theme.
 
-### Lexikon Topic
+# Lexikon Topic
 If you want a lexikon topic to appear you should place the name of the Lexikon topic here.
 
-### Suppress page numbering
+# Suppress page numbering
 Removes any page numbers from the table of contents when the content is shown.
 
-### Hide Menu
+# Hide Menu
 Hides the Codio menu. You should be aware that this will prohibit access to functions that are accessible via the menu.
 
-### Allow Guide to be closed
+# Allow Guide to be closed
 Allows students to close the guide content. The content can be restarted by selecting the 'start guide' icon in the file tree:
 <img alt="StartGuides" src="/img/guides/startguides.png" class="simple"/>
 
-### Use Mark as Complete
+# Use Mark as Complete
 For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
 
 This setting is enabled by default and will show students a button at the end of the unit, from their [dashboard](/dashboard/student/myclassroom/) and from **Education** menu in the IDE they can select to mark as complete.
@@ -38,7 +38,7 @@ This setting is enabled by default and will show students a button at the end of
 If you have set the [Unit Duration](/classes/unitmanagement/settings-info/unit-duration/) 'On Unit End' action to mark as complete or disable and mark as complete, the unit will automatically be marked as complete when the end date/time of the unit is reached and you can elect to suppress the ability for students to have to mark their units as complete by disabling this setting.
 
 
-### Use Submit Buttons
+# Use Submit Buttons
 For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
 
 This is enabled by default and shows students a button for [assessments](/content/authoring/assessments/) for them to submit their answers.
@@ -46,18 +46,18 @@ If you have set the [Unit Duration](/classes/unitmanagement/settings-info/unit-d
 
 <a name="guidescollapse"></a>
 
-### Collapsed on Start
+# Collapsed on Start
 Enable this to collapse the guides pane in the unit/project when the [layout](/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/content/authoring/playmode/) button in playmode.
 
 The guides can be reopened by clicking the hamburger icon:
 <img alt="StartGuides" src="/img/openguides.png" class="simple"/>
 
-### Hide Sections Toggle
+# Hide Sections Toggle
 Enable this to hide the option for students to switch sections using the Section list hamburger icon
 
-### Hide Back to Dashboard button
+# Hide Back to Dashboard button
 Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the unit
 
 <a name="guidesprotect"></a>
-### Protect Layout
+# Protect Layout
 Enable this to prevent tabs being opened or closed by students in the unit

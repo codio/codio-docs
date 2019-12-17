@@ -4,7 +4,7 @@ title: "Dyslexia Support"
 
 ---
 
-### Dyslexia support
+# Dyslexia support
 
 Codio has a built in dyslexia support feature. If you have students who would prefer to view their screen in dyslexia support mode they should do the following:
 

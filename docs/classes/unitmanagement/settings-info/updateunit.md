@@ -5,7 +5,7 @@ description: ""
 
 ---
 
-### Projects assigned to the class
+# Projects assigned to the class
 
 Individual units that were assigned from a regular project can be updated using the **Update unit** option. If you have added a unit from a course then you should use the **[Update Course](/classes/unitmanagement/upgradecourse/)** instead.
 

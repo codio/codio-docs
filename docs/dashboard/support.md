@@ -6,13 +6,13 @@ title: "Support"
 
 If you need support, then the most effective way is to use our integrated support system. You will find this in the dashboard and the IDE.
 
-### Dashboard
+# Dashboard
 Support is available in the dashboard from the **Chat** link on the left.
 
-### IDE
+# IDE
 Support is available within the IDE from the **Help** menu item, then **Support**.
 
-### Support Dialog
+# Support Dialog
 There is a support dialog that appears when you invoke the support option. This tracks all conversations and threads you have had with Codio and where you can also start a new conversation.
 
 <img alt="Intercom Start" src="/img/intercomstart.png" class="simple"/>
@@ -20,7 +20,7 @@ There is a support dialog that appears when you invoke the support option. This 
 If you are in Codio, you can see when a reply to your query arrives even if you have closed the support dialog box
 <img alt="Intercom Notification" src="/img/intercomnotification.png" class="simple"/>
 
-### Student Support
+# Student Support
 You can set a Contact URL for your students at the organisation level, see [Organisation Contact URL](/dashboard/create/orgcontacturl) and/or at the class level, see [Class Contact URL](/classes/classmanagement/classcontacturl) so they can raise any questions they may have directly to your preferred area
 
 If you set the contact URL for a class, this will override any contact URL you may have set at the organisation level.

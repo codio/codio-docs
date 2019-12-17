@@ -6,7 +6,7 @@ title: "Project, Project Unit or Book?"
 
 Before you start to author content you should be aware of the three different places you can create content using guides. Let's look at each of the three ways to create content and why you might choose each one.
 
-### Projects
+# Projects
 A [project](/project/what-is-a-project) is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
 
 <img alt="My Projects" src="/img/projectslist.png" class="simple"/>
@@ -19,7 +19,7 @@ A project can be [assigned to a class](/classes/unitmanagement/assign-project) a
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a class. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
-### Project units
+# Project units
 A [project unit](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project units are located in the courses area in the main Codio dashboard. Project units are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project units chronologically within a course module.
 
 
@@ -35,7 +35,7 @@ A course allows you to subdivide your course into modules and then chronological
 There is one minor drawback to project units that you should be aware of. If students are working with a project unit and wants to look at tutorial content that is contained in another unit, they have to switch units. This can take several seconds and can be irritating during a revision phase when they want to frequently switch units. For this reason, we created the book, which we will look at next.
 
 
-### Book units
+# Book units
 A [book](/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project units to create this content, you might end up with a very large number of units, say 50.  As we mentioned above, when students are revising and want to randomly move between different units to review content, the can get frustrated by the time it takes to switch units.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
@@ -44,7 +44,7 @@ However, faculty will still often want to teach a course based on a book. To do 
 
 <img alt="Books" src="/img/bookslist.png" class="simple"/>
 
-### Book or project unit?
+# Book or project unit?
 It can still be a little confusing whether you should use a book based unit or a project unit, so here are some typical use cases.
 
 - **Project units** - use when you have a collection of assessments with no or minimal tutorial content. Best used for homework or lab type assessments. If a student is not going to regularly switch units in a single session.

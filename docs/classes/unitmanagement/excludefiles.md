@@ -5,7 +5,7 @@ description: ""
 
 ---
 
-### Excluding files
+# Excluding files
 Files/folders may need to be excluded from students units. Such files may be
 unused resources/logs and other files used when testing the unit prior to publishing.
 

@@ -8,7 +8,7 @@ The Grading Rubric feature provides a two dimensional grid that provides grading
 
 <img alt="rubric example" src="/img/class_administration/grading/template-example.png" class="simple"/>
 
-### Grading Rubric templates
+# Grading Rubric templates
 You will only have access to this feature if you are a member of the [owners group](/dashboard/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.
 
 You should see a **Grading Templates** tab item. There will be fewer tabs visible if you are not an organization owner.
@@ -20,19 +20,19 @@ Click the **New** button in the to right to create a new template. You should th
 **Rows** : a row addresses a single assessment criterion. Each row has a weighting % value that you should supply. All rows must add up to 100%.
 **Columns** : each column contains a score that you can freely assign. Typically, you would have a 0 value in the first column that corresponds to a complete failure to address the criterion. The remaining columns contain a range of values that you choose with the right most column being the score for fully meeting the assessment criterion. Please read the following paragraph before choosing column values.
 
-### Calculation of scores
+# Calculation of scores
 When you are grading student code, the grading rubric will appear and is clickable. Points are awarded according to where you click. Codio will then weight the scores according to the weightings that were provided for each row.
 
 A final score is calculated based on your selections and is re-based to the maximum column value. You should be aware of this when choosing your column values. If you wanted your scores to calculate directly to percentages then you should choose a maximum value of 100 with other column values distributed between 0 and 100.
 
 
-### Applying a grading template to a unit
+# Applying a grading template to a unit
 To use a grading template you should select the classroom so you see the full unit listing. Press the button with the 3 dots to bring up the menu. Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 <img alt="rubric template apply" src="/img/class_administration/grading/set-template.png" class="simple"/>
 <img alt="rubric template set" src="/img/class_administration/grading/grading-template.png" class="simple"/>
 
-### Grading student work
+# Grading student work
 You perform the actual grading from the classroom. Select a unit to grade so you see the students listed.
 
 <img alt="grading with rubric" src="/img/class_administration/grading/classroom.png" class="simple"/>

@@ -10,14 +10,14 @@ Free text assessments allow students to answer questions in their own words. Tea
 ## Assessment definition
 Setting up a free text assessment is very simple. The configuration fields for a free text assessment are split into four sections: General, Grading, Metadata, and Files.
 
-### General
+# General
 
 <img alt="" src="/img/guides/assessment_free_general.png" class="simple"/>
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
-### Grading
+# Grading
 
 <img alt="" src="/img/guides/assessment_free_grading.png" class="simple"/>
 
@@ -26,7 +26,7 @@ Setting up a free text assessment is very simple. The configuration fields for a
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
 - **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
-### Metadata
+# Metadata
 
 <img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
 
@@ -36,7 +36,7 @@ The Metadata section contains fields that further describe the current assessmen
 - **Learning Objectives**:  What you enter in this field should reflect the specific educational goal of the current assessment. It is conventional that learning objective statements begin with "SWBAT" (Students Will Be Able To). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be: _"SWBAT follow the flow of recursive execution"_.
 - **Tags**: In addition to Bloom's Level and Learning Objectives, you may add arbitrary tags to an assessment. The existing tags, **Content** and **Programming Language**, are required. To add your own tags, click **Add Tag** and populate their names and values in the empty input boxes at the bottom.
 
-### Files
+# Files
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 

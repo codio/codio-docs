@@ -22,29 +22,29 @@ Phonegap has very good documentation on how to generate your keys as well as how
 
 *Note If you do not see anything in the `Keys` area, review your `<gap:platforms>` content in the config.xml file*
 
-### Android
+# Android
 To build and test, you don't need to do anything. You can leave the field empty . If you want to deploy a codesigned App, (which you will need to deploy via Google Play) then you need to generate a proper Certificate.
 
-### iOS
+# iOS
 Apple requires both a Codesigning Certificate and a Mobile Provisioning Profile. You need different ones for development and for App Store deployment.
 
-### Windows
+# Windows
 Windows does not require any certificates to build.
 
 
 ## Build Settings
 
-### Private Application
+# Private Application
 
 Depending on the Phonegap:Build account plan you have, you can build a number of private applications. Check this box if you want to build as a private application. See [here](https://build.phonegap.com/plans) for more information on Phonegap:Build plans
 
-### Enable Debug
+# Enable Debug
 
 Checking this box enables Phonegap Build debugging to allow you to use standard Web Inspector tools available from the PhoneGap Build site to debug PhoneGap apps while they are running on your device.
 
 For more information on this see [Remote Debugging Tools](http://docs.phonegap.com/references/developer-app/debugging/)
 
-### Enable Hydrates
+# Enable Hydrates
 
 Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has two main benefits:
 

@@ -20,15 +20,15 @@ Warning
 
 You can make content available on to class teachers in the following ways.
 
-### Entire page
+# Entire page
 If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](/content/authoring/settings-actions/page#teacheronly).
 
-### Selected content within page
+# Selected content within page
 If you want to hide a certain piece of information *within a page* from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
 
 ```
 |||guidance
-### Solution
+# Solution
 This solution will only be shown
 
 - to teachers

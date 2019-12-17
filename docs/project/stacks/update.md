@@ -11,7 +11,7 @@ You can update your stack
 - from the **Stacks** area of the Codio dashboard
 - from the IDE
 
-### Updating from the dashboard
+# Updating from the dashboard
 
 <img alt="Stacks Dashboard" src="/img/stackdetails.png" class="simple"/>
 
@@ -20,7 +20,7 @@ To update the Stack, first select it from the stack list. You can then update th
 To create a new version of a stack, press the **New Version** button. Then choose the project from which the stack should be generated from the **Source** field. Add a comment describing what has changed since the last version. At that point, a new version will be generated. This can take a few minutes.
 
 <a name="stackide"></a>
-### Updating from the IDE
+# Updating from the IDE
 It is often simpler to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.) you can create a new stack version from the **Projects->Stack->Create New** menu.
 
 <img alt="Stacks New Version" src="/img/stacknewversion.png" class="simple"/>

@@ -14,10 +14,10 @@ STACK was created by [Chris Sangwin](http://www.maths.ed.ac.uk/~csangwin/) of th
 
 The [documentation is here](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/index.md)
 
-### Sample Starter Pack
+# Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.
 
-### Basic setup
+# Basic setup
 The screenshot below shows the basic configuration fields
 
 <img alt="" src="/img/guides/math-assessment.png" class="simple"/>

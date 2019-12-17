@@ -7,7 +7,7 @@ title: Add Organization owners
 You are the **Owner** of your organization if you created it. You can add other owners (these will usually be other teachers who you wish to give admin rights to).
 There are 2 ways you can do this:
 
-### Add a new user to your Organization Owners group
+# Add a new user to your Organization Owners group
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="Profile" src="/img/class_administration/profilepic.png" class="simple"/>
@@ -27,7 +27,7 @@ There are 2 ways you can do this:
 1. Any invitations not completed will show in the area below and where you can also 'Resend' or 'Revoke' if you require. Once the invitee has joined the organization they will no longer show in this area but show in the **All Members** list below and also **Owners** list.
 <img alt="Pending" src="/img/manage_organization/pendinginviteowner.png" class="simple"/>
 
-### Add an existing Codio user to your Organization Owners group
+# Add an existing Codio user to your Organization Owners group
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="Profile" src="/img/class_administration/profilepic.png" class="simple"/>

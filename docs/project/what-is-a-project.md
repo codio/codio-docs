@@ -16,7 +16,7 @@ Here are the key things you need to know about projects.
 - You can snapshot the software configuration, commonly referred to as a **stack**, of any box and add it to the **Stacks** template library.
 - You can snapshot the combination of a Stack and the project code workspace and add it to the **Starter Packs** template library.
 
-### Strong recommendations
+# Strong recommendations
 We strongly recommend that you are familiar with the following concepts if you plan to assign projects to classes of students. Even if you don't knowledge of the following project related features will stand you in good stead.
 
 - [The Codio IDE](/ide)

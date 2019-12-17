@@ -12,7 +12,7 @@ The simplest and most powerful way to use search is to simply start typing, wher
 ## Advanced Searching
 If you want to search in different ways, you can use search tokens to narrow your search. Codio supports the following tokens:
 
-### Tokens with parameters
+# Tokens with parameters
 The following tokens allow you to type something after the colon delimiter
 
 - `name:` search the project name
@@ -22,7 +22,7 @@ The following tokens allow you to type something after the colon delimiter
 - `begin:` search for a class start date (Education feature)
 - `end:` search for a class end date (Education feature)
 
-### Tokens without parameters
+# Tokens without parameters
 These tokens do not take any parameters so add a space after them if you have anything else to enter in the search line.
 
 - `my:` show only projects owned by me.
@@ -30,6 +30,6 @@ These tokens do not take any parameters so add a space after them if you have an
 - `public:` show only my public projects.
 - `private:` show only my private projects.
 
-### Examples
+# Examples
 - `public: desc:javascript` searches your public projects where 'javascript' appears in the project description.
 - `owner:superman javascript` searches projects owned by the user 'superman'' where 'javascript' appears in the project name or description.

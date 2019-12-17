@@ -6,14 +6,14 @@ title: "SSH into your Box"
 
 Unless your project is utilising [Always On Boxes](/ide/boxes/always-on/) you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
 
-### Generating Key Pairs
+# Generating Key Pairs
 There are several sites that explain generating SSH keys.
 
 - Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/). Please note that for Windows, you should generate SSH2 RSA key type
 - Mac : [https://help.github.com/articles/generating-ssh-keys#platform-mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
 - Linux: [https://help.github.com/articles/generating-ssh-keys#platform-linux](https://help.github.com/articles/generating-ssh-keys#platform-linux)
 
-### Find your local machine's SSH public Key
+# Find your local machine's SSH public Key
 This is pretty easy to do. On a Mac or Linux box you can get your public key in one of two ways
 
 - **either** copy your local machine's public key to the clipboard from your local machine's terminal using `pbcopy < ~/.ssh/id_rsa.pub`
@@ -21,12 +21,12 @@ This is pretty easy to do. On a Mac or Linux box you can get your public key in 
 
 On a Windows machine you'll probably be using putty, so grab your key from there.
 
-### Uploading your Public Key to your Codio Box
+# Uploading your Public Key to your Codio Box
 You need to upload the public key you just found in the above steps. Once you have it copied to the clipboard, open a terminal tab in your Codio project and enter this key into the `.ssh/authorized_keys` file. The easiest way to do this is to enter `nano .ssh/authorized_keys` which will open this file in the nano editor and you can paste it in.
 
 You can view/check to see all/any Public key(s) you have uploaded into your project by opening the terminal and running `cat ~/.ssh/authorized_keys`.
 
-### Enabling and Connecting to your Box from your local machine's Terminal
+# Enabling and Connecting to your Box from your local machine's Terminal
 
 1. Go to **Project>Settings** and to the [Forwarding Settings](/ide/customization/project-settings/) tab and click the 'Enable SSH Forwarding' button
 1. The connection string you need to use is shown there

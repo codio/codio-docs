@@ -22,15 +22,15 @@ $$
 ## Latex Resources
 Google is often your friend when it comes to discovering Latex syntax. However, here are two very useful references that will accelerate things for you.
 
-### Mathjax
+# Mathjax
 [Here is a list](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands) of Latex commands supported by Mathjax.
 
-### Stack Exchange
+# Stack Exchange
 Here is a page on Math StackExchange that has an excellent overview of Mathjax/Latex syntax as well as explaining general concepts.
 
 Click here :[Stack Exchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
-### Detextify
+# Detextify
 [Detextify](http://detexify.kirelabs.org/classify.html) is an excellent way of finding a Latex symbol by free hand drawing it on the screen using your mouse or touchpad.
 
 <img alt="Detextify" src="/img/detextify.png" class="simple"/>

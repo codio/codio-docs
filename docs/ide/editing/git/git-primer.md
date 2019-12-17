@@ -20,12 +20,12 @@ Once you have done this for a while, you will feel a lot more comfortable about 
 
 ## Your project's starting point
 
-###You created a project by importing from a Git repo
+#You created a project by importing from a Git repo
 If you have code that already exists in a remote repo, say GitHub, then you should create a new project by importing from that repo. That will automatically load the project and set up the correct association with the remote Git repo.
 
 Creating a project is [fully described here](/project/creating).
 
-### I do not yet have a remote repo
+# I do not yet have a remote repo
 If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
 
 1. Create a new project in Codio or open up an existing one.

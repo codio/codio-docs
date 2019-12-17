@@ -14,23 +14,23 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 
 If you would like support for any languages that do not appear in the list, please [contact us](/dashboard/support/) and we can look into adding it.
 
-### Sample project
+# Sample project
 If you created the account for your Codio Trial account then you will find **Demo Codio Debugger** in your My Projects list. You will find instructions in the README.md file when you open the project.
 
 If you cannot see it then [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to create it now. Press the **Use Pack** button to install.
 
-### Video overview
+# Video overview
 For anyone who has not used a debugger before, here is a useful video tutorial.
 
 <iframe src="https://player.vimeo.com/video/165269077" width="640" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-### Prerequisites
+# Prerequisites
 If you install Java, C or NodeJS from a stack, then the GBD components that support debugging will be automatically installed. However, if you have installed these languages manually then when you run the debugger, you will get a warning telling you to install the GDB component. A link will be provided to the Install Software feature that allows you to install it with a single click.
 
 
 <a name="debugfilepath"></a>
 
-### Creating and managing debug targets
+# Creating and managing debug targets
 You should first configure a debug target. Having multiple debug targets is useful for the following reasons.
 
 - It allows you to quickly debug the same application with different command line arguments, allowing you to test different scenarios.
@@ -57,11 +57,11 @@ To create a new target, press the Create button. You can then configure your tar
 
 When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.
 
-### Single file confgurations
+# Single file confgurations
 If you are using C, C++ or Java and debugging a simple single code file project (common in early programmng courses) then you should choose Single C File, Single C++ file or Single Java file Debugger Type. This frees you from having to worry about the detailed compile and run configuration.
 
 
-#### Language specific compilation commands
+## Language specific compilation commands
 If you are not using a single file configuration then you will need to provide the following information
 
 - **Before Launch** will typically be a compilation or build command
@@ -69,7 +69,7 @@ If you are not using a single file configuration then you will need to provide t
 
 In java you are asked for a port number, which should always be set to `5105`.
 
-### Starting a debugging session
+# Starting a debugging session
 There are two ways you can launch an application in debug mode.
 
 - from the rightmost toolbar menu you can select the debug target from the dropdown menu or just press the button to re-run the last executed debug target.
@@ -83,12 +83,12 @@ At this point, the debugger will fire up and you will see a screen similar to th
 
 You may need to wait a second or two for the debugger to load. It will automatically stop on the first line of code, regardless of whether there is a breakpoint set or not.
 
-### Breakpoints
+# Breakpoints
 A breakpoint is a line of code where the debugger will pause code execution if in debug mode. To set a breakpoint you click in the gutter next to the line number. You can remove a breakpoint in the same way.
 
 When a breakpoint is set, a red dot will appear on the line.
 
-### Controlling the debugger
+# Controlling the debugger
 Once the debugger stops code execution you can control execution using the buttons at the top of the debug panel.
 
 <img alt="authtoken" src="/img/debug-buttons.png" class="simple"/>
@@ -99,7 +99,7 @@ Once the debugger stops code execution you can control execution using the butto
 - **Step into** - the debugger will execute the next line of code and then stop. If the line of code about to be executed is a function, then it will stop on the first line within that function.
 - **Step out** - the debugger will exit the current function and stop on the next line of the calling function. If the current line is the main entry function of the application then execution will cease but and the debugger will restart automatically.
 
-### Other features
+# Other features
 The debug panel also contains other useful features.
 
 - **Call stack** - this shows the parent functions relative to the function that contains the currently executing line of code.
@@ -108,7 +108,7 @@ The debug panel also contains other useful features.
 - **Breakpoints** - this lists all the breakpoints currently set in any of your code files. You can disable them by unchecking the boxes.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
-### Support for the standard input when debugging
+# Support for the standard input when debugging
 
 Support for stdin is available for:
 
@@ -130,7 +130,7 @@ function testStdIn() {
 testStdIn()
 ```
 
-### Launching the debugger from Codio content
+# Launching the debugger from Codio content
 It is also possible to launch any debugger configuration from a page. Please [click here](/content/authoring/page-edit/buttons/) for details.
 
 

@@ -14,7 +14,7 @@ We have platform specific integration documentation for the following LMS platfo
 - [Blackboard](/classes/lti/lti1_0/blackboard)
 - [Moodle](/classes/lti/lti1_0/moodle)
 
-### LTI Keys
+# LTI Keys
 
 LTI keys are accessible to [Codio Organization Owners](/dashboard/create/addowners/) only.
 
@@ -27,7 +27,7 @@ To find these keys:
 
 <img alt="lti-keys" src="/img/lti/lti-org-fields.png" class="simple"/>
 
-### Class URL
+# Class URL
 
 The **Class URL** is used to map an LMS course to a Codio class. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through the Codio dashboard.
 
@@ -40,7 +40,7 @@ The LMS user who carries out these steps does not need to be a system administra
 
 <img alt="lti-class-url" src="/img/lti/lti-class-url.png" class="simple"/>
 
-### Unit URL
+# Unit URL
 
 Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system.
 
@@ -56,7 +56,7 @@ If you are unable to utilise the Codio LTI App, the **Unit URL** is where you ma
 
 <a name="exportlti"></a>
 
-### Exporting LTI settings
+# Exporting LTI settings
 
 The LTI integration URLs for the units in a class can be exported.
 

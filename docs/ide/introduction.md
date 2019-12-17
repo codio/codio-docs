@@ -6,7 +6,7 @@ title: Introduction
 
 The Codio IDE sits on top of a Codio Box. A box is a full Ubuntu server. There are a lot of features in both the boxes and the IDE. The documentation contains a reference for all features. Below is a list of commonly used features with links to the documentation pages.
 
-### Boxes
+# Boxes
 
 - [Accessing the command line and root privileges](/ide/boxes/terminal)
 - [Installation of software packages using Codio dialog driven installer](/ide/boxes/installsw/box-parts)
@@ -23,7 +23,7 @@ The Codio IDE sits on top of a Codio Box. A box is a full Ubuntu server. There a
 - [Stack management](/project/stacks)
 
 
-### IDE
+# IDE
 
 - [Preferences for keyboard shortcuts](/ide/customization/codio-prefs)
 - [Configuring custom menus](/ide/boxes/runmenu)

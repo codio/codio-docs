@@ -18,7 +18,7 @@ Each row in the table will contain the following fields :
 - Penalty % (The % of the total score for the unit to be deducted as a penalty)
 - Message (If the message field is not specified, then a default message will be generated - see below)
 
-### Default Messages:
+# Default Messages:
 
 1: If a student opens a project after deadline or the student is working in the unit when deadline is reached
 
@@ -34,7 +34,7 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 
 ```You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.```
 
-### Teacher/Instructors Dashboard:
+# Teacher/Instructors Dashboard:
 
 **Penalty indicator:** If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
 <img alt="dashboard penalty" src="/img/penaltydashboard.png" class="simple"/>
@@ -42,7 +42,7 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 
 <a name="adjustdeadline"></a>
 
-### Adjusting deadline for individual students
+# Adjusting deadline for individual students
 
 The set deadline(s) can be adjusted forward by a number of days if required for individual students.
 

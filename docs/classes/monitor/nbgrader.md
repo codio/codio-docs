@@ -7,7 +7,7 @@ title: nbgrader autograding support
 **[Jupyter notebook](https://jupyter.org/)** has auto-grade functionality through **[nbgrader](http://nbgrader.readthedocs.io/en/stable/index.html)** that Codio supports
 
 
-### Overview
+# Overview
 
 Unit creators create the unit with [Jupyter notebook](https://jupyter.org/) files for the assignment.
 
@@ -24,10 +24,10 @@ When the student submits the assignment by marking the unit as complete, it will
 [Manual grading](/classes/monitor/grading/) is also available if required
 
 
-### Configuration
+# Configuration
 
 <a name="nbgradertimeout"></a>
-#### Extend Timeout period
+## Extend Timeout period
 
 To extend the time required for completion (to 90 seconds in this example), you can add
 
@@ -38,7 +38,7 @@ nbgrader:
 to the `.codio-jupyter` file
 
 
-#### Lock all cells
+## Lock all cells
 
 To lock all cells (Default: False)
 
@@ -48,7 +48,7 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
-#### Lock all grade cells
+## Lock all grade cells
 
 To lock all grade cells (Default: True) where grade cells are locked (non-deletable)
 
@@ -58,7 +58,7 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
-#### Lock all read-only cells
+## Lock all read-only cells
 
 To lock all grade cells (Default: True) where read only cells are locked (non-deletable and non-editable)
 
@@ -68,7 +68,7 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
-#### Lock all solution cells
+## Lock all solution cells
 
 To lock all solution cells (Default: True) where solution cells are locked (non-deletable and non-editable)
 
@@ -78,7 +78,7 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
-#### Execute preprocessor on timeout
+## Execute preprocessor on timeout
 
 If execution of a cell times out, interrupt the kernel and continue executing other cells rather than throwing an error and stopping.
 

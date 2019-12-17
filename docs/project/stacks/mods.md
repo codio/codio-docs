@@ -10,10 +10,10 @@ You can modify the stack at any time. You do not do this directly. Instead, you 
 
 To modify a stack you should be aware of the following rules.
 
-### You are the owner or have write access
+# You are the owner or have write access
 If you are the stack owner or have write access to the stack then you are able to create new versions of an existing stack. See [visibility settings](/project/stacks/visibility) for information on ownership.
 
-### You are not the owner and do not have write access
+# You are not the owner and do not have write access
 If you do not have write access to the stack, which is the case for the Codio certified stacks, then you will first need to create a new stack. After this you can create your own versions from that stack as you will be the owner.
 
 If the stack's is **Private** and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See [visibility settings](/project/stacks/visibility) for information on ownership.

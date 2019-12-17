@@ -14,14 +14,14 @@ Codio uses a client-side implementation of Parson's Problems named `js-parsons`,
 
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata and Files.
 
-### General
+# General
 
 <img alt="" src="/img/guides/assessment_general.png" class="simple"/>
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user. It can be written in Markdown or HTML.
 
-### Execution
+# Execution
 
 <img alt="" src="/img/guides/assessment_parsons_exec.png" class="simple"/>
 
@@ -29,7 +29,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Options** is where you can set options for the puzzle. For the available options for each grader type, see [Parson's Problems](http://js-parsons.github.io/documentation/) documentation.
 - **Grader** is where you select the grader appropriate to the puzzle. Refer to the "Grader Description" section below for more details.
 
-### Grading
+# Grading
 
 <img alt="" src="/img/guides/assessment_grading.png" class="simple"/>
 
@@ -37,7 +37,7 @@ The configuration fields for an assessment are split into five sections: General
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
 - **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
-### Metadata
+# Metadata
 
 <img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
 
@@ -47,7 +47,7 @@ The Metadata section contains fields that further describe the current assessmen
 - **Learning Objectives**:  What you enter in this field should reflect the specific educational goal of the current assessment. It is conventional that learning objective statements begin with "SWBAT" (Students Will Be Able To). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be: _"SWBAT follow the flow of recursive execution"_.
 - **Tags**: In addition to Bloom's Level and Learning Objectives, you may add arbitrary tags to an assessment. The existing tags, **Content** and **Programming Language**, are required. To add your own tags, click **Add Tag** and populate their names and values in the empty input boxes at the bottom.
 
-### Files
+# Files
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
@@ -57,7 +57,7 @@ To mark a file to be included with the assessment, simply locate it in the file 
 
 ## Grader Description
 
-### VariableCheckGrader
+# VariableCheckGrader
 `VariableCheckGrader` is a grader that executes the code in the order submitted by the student and checks variable values afterwards.
 
 Expected and supported options:
@@ -74,7 +74,7 @@ or
 
 <!-- Claire and Mohit's updates go here -->
 
-### TurtleGrader
+# TurtleGrader
 `TurtleGrader` is a grader for exercises that draw turtle graphics in Python.
 
 Required options:
@@ -87,16 +87,16 @@ Options that can be specified (that is, optional):
 
 Grading is based on comparing the commands executed by the model and student turtle. If the `executable_code` option is also specified, the code on each line of that option will be executed instead of the code in the student constructed lines. Note that the student code should use the variable ```myTurtle``` for commands to control the turtle in order for the grading to work.
 
-### UnitTestGrader
+# UnitTestGrader
 `UnitTestGrader` is a grader that executes student code and Skulpt unit tests
 
-### LanguageTranslationGrader
+# LanguageTranslationGrader
 Code "Translating" grader
 
-### LineBasedGrader
+# LineBasedGrader
 `LineBasedGrader` is a grader that treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
 
-### Sample Starter Pack
+# Sample Starter Pack
 There is a Starter Pack project that you can add to your account that includes examples of Parson's Puzzle assessments.
 
 - For Codio.com users: [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/)

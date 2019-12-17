@@ -11,10 +11,10 @@ Codio's grading features address four important aspects when grading student pro
 - **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/classes/classmanagement/rubric) for details.
 - **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
-### Video overview
+# Video overview
 [Click here](https://vimeo.com/165275339) if you'd like to watch a quick video overview.
 
-### The grading process
+# The grading process
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
 The teacher is also able to filter either finding specific students or to view students based on the status of the unit.
@@ -50,7 +50,7 @@ To assign comments or a grade, you click on the Grade icon (see image above with
 <img alt="Assign Grades" src="/img/grading-assign.png" class="simple"/>
 
 <a name="releasegrades"></a>
-### Releasing Grades
+# Releasing Grades
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
 
 <img alt="Grading" src="/img/grading-release.png" class="simple"/>
@@ -62,13 +62,13 @@ You can also release grades from the main Unit view right clicking on the 3 vert
 <img alt="Release Grades" src="/img/grading-release2.png" class="simple"/>
 
 <a name="releasegradesstatus"></a>
-### Automatically releasing grades
+# Automatically releasing grades
 If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information.
 
 You can also change the status of this feature for individual classes if required on the admin tab of the class.
 <img alt="Class Release Grades" src="/img/changereleasegrades.png" class="simple"/>
 
-### Grading moderation
+# Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.
 
 This is where grading moderation is a very useful tool. It allows other teachers to access a student's project, review it and then assign a grade and associated comments. Rather than reviewing all student projects, typically a smaller sample will be taken for review and from that it should become clear if there are any obvious discrepancies.

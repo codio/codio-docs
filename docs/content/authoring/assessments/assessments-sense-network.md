@@ -19,13 +19,13 @@ This assessment type is only visible when the sense.network api key is entered i
 ## Assessment definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
-### General
+# General
 <img alt="" src="/img/guides/assessment_sn_general.png" class="simple"/>
 
 - **Name** (required) is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** (optional) is the text that should be shown to the user, written in Markdown.
 
-### Execution
+# Execution
 <img alt="" src="/img/guides/assessment_sn_exec.png" class="simple"/>
 
 - **Pre-exec command** (optional) is where a check can be run to confirm any code is compiling as required. If you store the scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
@@ -33,7 +33,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Sense feedback Url** (required) to extract assignment id
 - **Filename** (optional) is the path to the file to pass. If empty, will send the currently opened file
 
-### Grading
+# Grading
 <img alt="" src="/img/guides/assessment_sn_grading.png" class="simple"/>
 
 - **Gradable** enable if the assignment is to be used within the grade total for the unit. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
@@ -41,7 +41,7 @@ The configuration fields for an assessment are split into five sections: General
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
 - **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
-### Metadata
+# Metadata
 <img alt="" src="/img/guides/assessment_metadata.png" class="simple"/>
 
 The Metadata section contains fields that further describe the current assessment using a variety of factors:
@@ -50,7 +50,7 @@ The Metadata section contains fields that further describe the current assessmen
 - **Learning Objectives**:  What you enter in this field should reflect the specific educational goal of the current assessment. It is conventional that learning objective statements begin with "SWBAT" (Students Will Be Able To). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be: _"SWBAT follow the flow of recursive execution"_.
 - **Tags**: In addition to Bloom's Level and Learning Objectives, you may add arbitrary tags to an assessment. The existing tags, **Content** and **Programming Language**, are required. To add your own tags, click **Add Tag** and populate their names and values in the empty input boxes at the bottom.
 
-### Files
+# Files
 
 Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
