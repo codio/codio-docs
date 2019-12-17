@@ -1,7 +1,7 @@
 Codio platform documentation
 
 
-# How to work
+# How it works
 
 The project is using [mkdocs]() to generate documentation from markdown files.
 
