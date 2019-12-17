@@ -1,0 +1,44 @@
+site_name: Codio Documentation
+site_url: https://docs.codio.com
+site_description: Codio platform documentation
+site_author: Codio team
+
+repo_url: https://github.com/codio/codio-docs
+edit_uri: ""
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - javscript
+        - java
+        - python
+nav:
+    - Codio: https://www.codio.com
+    - Home: /
+    - Support queries: /dashboard/support
+    - Navigating Codio: /dashboard/navigation
+    - Dashboard overview: /dashboard/obg-overview
+    - Account settings and info: /dashboard/account
+    - The student view: /dashboard/student
+    - Projects: /project/what-is-a-project
+    - Stack templates: /project/stacks
+    - Starter pack templates: /project/packs
+
+# extra_css:
+#     - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+
+copyright: Copyright &copy; 2019 Codio Inc.
+#google_analytics: ['', 'docs.codio.com']
+
+# use_directory_urls: false
+
+plugins:
+    - search

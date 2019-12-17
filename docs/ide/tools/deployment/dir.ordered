@@ -1,0 +1,12 @@
+create
+basepath
+deployment-keys
+deployment-ssh
+deploy
+type-rsync
+type-ftp
+type-sftp
+type-nj
+type-git
+history
+specific-files
