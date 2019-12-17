@@ -3,7 +3,7 @@
 
 *   [Support queries](/dashboard/support)
 *   [Navigating Codio](/dashboard/navigation)
-*   [Dashboard overview](/dashboard/obg-overview)
+*   [Dashboard overview](/dashboard/oerview)
 *   [Organization management](/dashboard/organisations/)
 *   [Account settings and info](/dashboard/account)
 *   [Desktop Application](/dashboard/desktopapp)
