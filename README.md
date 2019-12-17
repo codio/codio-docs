@@ -16,9 +16,9 @@ The project is using [mkdocs]() to generate documentation from markdown files.
 
 ## Developing
 
-1. start development mode with `mkdocs serve` command
-1. Edit files and preview in your browser on port 8000
+1. start development mode with `mkdocs serve -a 0.0.0.0:8000` command (If using Codio set up in .codio file - **Start mkdocs**)
+1. Edit files and preview in your browser on port 8000 (If using Codio set up in .codio file - **Preview**)
 
 ## Deploying
 
-Run `mkdocs gh-deploy` to deploy the documentation
+Run `mkdocs gh-deploy` to deploy the documentation (If using Codio set up in .codio file - **Deploy Docs**)
