@@ -39,14 +39,14 @@ The grouping intervals are
 - Jun-Aug - Summer
 
 
-# Ordering classes within their groups
+### Ordering classes within their groups
 
 Classes can be ordered by Name, Creation Date or Begin Date within the groups
 
 ![CreateDate](/img/manage_classes/orderclass.png)
 
 
-# Searching
+### Searching
 
 If you have a large number of classes, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all class names and filter your list accordingly.
 ![Name](/img/manage_classes/nameclass.png)
@@ -177,7 +177,7 @@ A class can be deleted by class teachers and organization owners. All the class 
 
 - [Organization owners](/dashboard/create/adminrole) are able to view a list of any members that are no longer members of any classes and remove any users from the organization. See [View organization members](/dashboard/create/viewmembers) for more information.
 ## Exporting class data
-# Class Data
+### Class Data
 Class data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Class](/classes/classmanagement/delete/)
 
 - Select the class, go to the **Admin** area and then press the **Class Data** button.
@@ -197,7 +197,7 @@ Individual units data can also be exported separately if required. See [export u
 If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/classes/lti/lti1_0/keys#exportlti) for more information.
 
 
-# User Access Data
+### User Access Data
 Use this to download a CSV of user access to units in the class. Details include
 
 - Username
@@ -218,10 +218,10 @@ Use this to download a CSV of user access to units in the class. Details include
 
 Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
 
-# LTI Settings
+### LTI Settings
 For more information see [Exporting LTI settings](/classes/lti/lti1_0/keys/)
 
-# Working with student workspaces
+### Working with student workspaces
 
 If in the future you have need to review any students workspace, these can be imported back into your Codio account.
 Simply 'zip' up the folder and you can then import the project into your account. See [creating and importing a project](/project/creating/) for more information.
@@ -257,7 +257,7 @@ The Grading Rubric feature provides a two dimensional grid that provides grading
 
 ![rubric example](/img/class_administration/grading/template-example.png)
 
-# Grading Rubric templates
+### Grading Rubric templates
 You will only have access to this feature if you are a member of the [owners group](/dashboard/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.
 
 You should see a **Grading Templates** tab item. There will be fewer tabs visible if you are not an organization owner.
@@ -269,19 +269,19 @@ Click the **New** button in the to right to create a new template. You should th
 **Rows** : a row addresses a single assessment criterion. Each row has a weighting % value that you should supply. All rows must add up to 100%.
 **Columns** : each column contains a score that you can freely assign. Typically, you would have a 0 value in the first column that corresponds to a complete failure to address the criterion. The remaining columns contain a range of values that you choose with the right most column being the score for fully meeting the assessment criterion. Please read the following paragraph before choosing column values.
 
-# Calculation of scores
+### Calculation of scores
 When you are grading student code, the grading rubric will appear and is clickable. Points are awarded according to where you click. Codio will then weight the scores according to the weightings that were provided for each row.
 
 A final score is calculated based on your selections and is re-based to the maximum column value. You should be aware of this when choosing your column values. If you wanted your scores to calculate directly to percentages then you should choose a maximum value of 100 with other column values distributed between 0 and 100.
 
 
-# Applying a grading template to a unit
+### Applying a grading template to a unit
 To use a grading template you should select the classroom so you see the full unit listing. Press the button with the 3 dots to bring up the menu. Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 ![rubric template apply](/img/class_administration/grading/set-template.png)
 ![rubric template set](/img/class_administration/grading/grading-template.png)
 
-# Grading student work
+### Grading student work
 You perform the actual grading from the classroom. Select a unit to grade so you see the students listed.
 
 ![grading with rubric](/img/class_administration/grading/classroom.png)
@@ -343,7 +343,7 @@ To assign a course module, follow the steps below:
 1. The module will appear in your class.
 ![authtoken](/img/manage_classes/assigning_cm_content/module_in_class.png)
 
-# Removing course module from a class
+### Removing course module from a class
 
 You can remove course modules from a class selecting **Delete module**
 ![authtoken](/img/manage_classes/deletemodule.png)
@@ -364,10 +364,10 @@ Most assessment changes can be safely upgraded but if you have altered the struc
 
 Any changes to guides content can be applied. You should be careful about making major structural changes as students who have already started the unit could be confused. The code workspace folder will not be impacted, so any student work in this folder will not be impacted.
 
-# Select units to update
+### Select units to update
 A list of all modified units will be shown. You can select the units you wish to update. The **Update Course** button will no longer be shown if updates have already been applied.
 
-# Stack updates
+### Stack updates
 If updates to the stack are detected and students have already started the unit(s) you can elect to update the stack as well as the guides content by pressing the **Update Content and Stack** button.
 
 ![Update Stack](/img/class_administration/stackupdate.png)
@@ -375,7 +375,7 @@ However, **any data outside the code workspace folder will be lost for all stude
 
 If there are no detected updates to the stack or no students have started the unit(s), this option will not be shown.
 
-# Projects assigned to the class
+### Projects assigned to the class
 If your unit was added using [Add Project](/classes/unitmanagement/assign-project) (not a course unit) then see [Update Unit](/classes/unitmanagement/settings-info/updateunit/).
 
 ## Test students
@@ -410,54 +410,54 @@ Options are also available if you select a unit. You will then see the **Setting
 
 ## Settings available in blue dots menu and Actions area
 
-# Open as teacher
+### Open as teacher
 This is only available from the blue dots menu. It [opens a unit in teacher mode](/classes/unitmanagement/settings-info/teachersolutions/). This allows you to see content that is for teachers' eyes only. You cannot edit a unit from this.
 
-# Release grades
+### Release grades
 By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a class. When you are ready to do so, you can select the option from the blue dots menu or the **Actions** area.
 
-# Plagiarism checker
+### Plagiarism checker
 You can run [plagiarism detection](/classes/plag/plag-start) from the blue dots menu or the **Actions** area.
 
-# Pin/unpin units
+### Pin/unpin units
 Available from the blue dots menu as well as the **Settings** tab, this allows you to [pin or unpin a unit](/classes/unitmanagement/settings-info/pin). Pinning a unit ensures that the unit is shown in a large box at the top of the student dashboard. You would typically pin a unit if this is the unit you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four units pinned.
 
-# Download CSV
+### Download CSV
 This allows you to download a CSV file with student grade data for the unit.
 
 <a name="exportunitdata"></a>
-# Export unit data
+### Export unit data
 This allows you to export all the data for the unit, including the students workspaces. All the data from the class will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. The link will be active for 7 days and after this time the zip file will be removed. All the data from all the courses/modules/units in the class can also be exported. See [exporting class data](/classes/classmanagement/export/) for more information
 
-# Disable/enable unit
+### Disable/enable unit
 This can be found in the blue dots menu and the settings area with the **Settings** tab selected. You can prevent students from accessing a unit using this option. For book based units, you should be aware that if another unit gives access to the book then students can access the book. You have the ability to [disable access to content outside the current unit](/classes/unitmanagement/settings-info/disable/) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project units and normal projects, preventing access can be guaranteed.
 
-# Settings
+### Settings
 Available from the blue dots menu, this opens the **Settings** tab.
 
-# Delete
+### Delete
 This removes the unit from the class along. Student data is not deleted so if you decide to add your unit back, the student work will automatically be restored.
 
 ## Settings available only for normal projects
 The following options are only available for units that were assigned to the class from a normal project (not a course).
 
-# Edit unit
+### Edit unit
 This allows you to change the unit name, description and icon.
 
-# Update unit
+### Update unit
 Individual units that were assigned from a normal (not course) project can be [updated using the **Update unit** option](/classes/unitmanagement/settings-info/updateunit).
 
 ## Actions
 The following options are available from the **Actions** area only.
 
-# Mark all as completed
+### Mark all as completed
 Students are supposed to [mark a unit as completed](/dashboard/student/guides#completed)
 However, when it comes to grading time, faculty may want to force this status for all students in the class.
 
-# Reset unit
+### Reset unit
 This [resets the unit for all students in the class](/classes/unitmanagement/settings-info/reset-unit). Please be aware that this action results in student work being lost as the unit is fully reset to its starting state.
 
-# Regrade completed
+### Regrade completed
 This option should be selected if you are running an auto-grade script when the unit is marked as completed and you want the script to be re-run. [Click here](/classes/monitor/assessments) for details on end of unit auto-grade scripts.
 
 
@@ -465,19 +465,19 @@ This option should be selected if you are running an auto-grade script when the 
 The following options are available only in the **Settings** tab.
 
 <a name="disablecomplete"></a>
-# Disable Mark as Completed
+### Disable Mark as Completed
 Disabling will not allow students to mark the unit as completed. If units in your class are of a 'playground' type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the unit in error and then having to ask the class teacher/instructor to change the status back so they can continue working.
 If your unit contains guides content, you should also disable the option to show Mark as Completed button in guides. See [Global settings](/content/authoring/settings-actions/global/) for more on this.
 
 <a name="visibilitycomplete"></a>
-# Visibility on completed
+### Visibility on completed
 You can specify the students ability to access the unit when completed. **Not available for book based units**
 
 - 'None' will allow students to continue to access and work in code files, any assessments in the unit can be seen but not changed,
 - 'Read-Only' will allow students to access their unit but not make any changes.
 - 'No Access' will not allow the students to access their unit.
 
-# Visibility on disabled
+### Visibility on disabled
 You can specify the students ability to access the unit when disabled.  **Not available for book based units**
 
 - 'Read-Only' will allow students to access their unit but not make any changes.
@@ -485,19 +485,19 @@ You can specify the students ability to access the unit when disabled.  **Not av
 
 
 
-# Unit duration
+### Unit duration
 [Unit duration](/classes/unitmanagement/settings-info/unit-duration) allows you to specify start and stop times for student access to a unit. For book units, you should read the caveats mentioned in the **Disable unit** setting above.
 
-# Grading template
+### Grading template
 You can specify a [grading template](/classes/classmanagement/rubric) (rubric) that this unit should reference.
 
 <a name="autograde"></a>
-# Auto-grade method
+### Auto-grade method
 [The auto-grade method](/classes/unitmanagement/settings-info/autograde) allows you to specify an auto-grade script that should run when the unit is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
 
 
 ## Excluding Files
-# Excluding files
+### Excluding files
 Files/folders may need to be excluded from students units. Such files may be
 unused resources/logs and other files used when testing the unit prior to publishing.
 
@@ -522,7 +522,7 @@ README.md
 ```
 
 ## Update unit
-# Projects assigned to the class
+### Projects assigned to the class
 
 Individual units that were assigned from a regular project can be updated using the **Update unit** option. If you have added a unit from a course then you should use the **[Update Course](/classes/unitmanagement/upgradecourse/)** instead.
 
@@ -614,7 +614,7 @@ This feature is accessible via the main settings tab.
 
 For more information on using **Mark as complete** please [click here](/content/authoring/assessments/submitcomplete).
 
-# Penalties
+### Penalties
 
 If applying penalties for late submission it is recommended that you set the end date/time for the unit to the last date/time of your penalties.
 You can set the penalty date/time after the unit end date/time but for students to then be able to work you will need to change the individual students unit status from [Completed](/classes/unitmanagement/settings-info/complete-unit/) and also adjust the [deadline](/classes/unitmanagement/settings-info/penalties/) for each of them.
@@ -622,7 +622,7 @@ You can set the penalty date/time after the unit end date/time but for students 
 # Time Zones
 The time zone is taken automatically from your browser, so please check your time settings are correct.
 
-## Set unit penalties
+### Set unit penalties
 You can specify penalties in the event that students do not complete the unit within agreed timescales. Incremental penalties can be applied if required.
 
 
@@ -636,7 +636,7 @@ Each row in the table will contain the following fields :
 - Penalty % (The % of the total score for the unit to be deducted as a penalty)
 - Message (If the message field is not specified, then a default message will be generated - see below)
 
-# Default Messages:
+### Default Messages:
 
 1: If a student opens a project after deadline or the student is working in the unit when deadline is reached
 
@@ -652,7 +652,7 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 
 ```You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.```
 
-# Teacher/Instructors Dashboard:
+### Teacher/Instructors Dashboard:
 
 **Penalty indicator:** If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
 ![dashboard penalty](/img/penaltydashboard.png)
@@ -660,7 +660,7 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 
 <a name="adjustdeadline"></a>
 
-# Adjusting deadline for individual students
+### Adjusting deadline for individual students
 
 The set deadline(s) can be adjusted forward by a number of days if required for individual students.
 
@@ -725,12 +725,12 @@ The two autograding options can be found in the unit settings.
 The two options can be found in the **AUTOGRADE METHOD** drop-down list.
 
 <a name="transfer"></a>
-# Transferring authored content assessment total
+### Transferring authored content assessment total
 If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/classes/monitor/grading).
 
 <a name="script"></a>
 
-# Running a custom script
+### Running a custom script
 A more advanced way of populating the grading field is to write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.
 
 If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks.
@@ -738,14 +738,14 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 ![authtoken](/img/grading-secure.png)
 
 <a name="securescripts"></a>
-# Secure scripts
+### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way and the script runs in an ephemeral container isolated from the students unit.
 
 
-# Timeout
+### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
 
-# Accessing authored content assessment results
+### Accessing authored content assessment results
 You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
 
 ```
@@ -782,13 +782,13 @@ You can get both summary data and data for each assessment individually.
 
 
 <a name="regrading"></a>
-# Regrading for an individual student
+### Regrading for an individual student
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
 
-# Regrading all students
+### Regrading all students
 From the **Actions** area of the Unit, you can regrade all students that have already been auto-graded by pressing the **Regrade All** button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
 
-# Testing and debugging your grading scripts
+### Testing and debugging your grading scripts
 **IMPORTANT**: please read this section carefully.
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a class.
@@ -808,7 +808,7 @@ It is important that it is located in the `.guides/secure` folder. You then spec
 
 You are now free to debug the Python script and fix any bugs that you may have noticed once students have started work on the Unit.
 
-## Testing your script in the IDE
+### Testing your script in the IDE
 We provide the ability to test your autograding script from the **Education -> Test Autograde Script** menu.
 
 This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
@@ -826,7 +826,7 @@ You should be aware of the following points.
 
 If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under **Accessing Guide assessment results**.
 
-# Example Python grading script
+### Example Python grading script
 Below is an example Python file that might be loaded by the bootstrap script above.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any Unit.
@@ -872,7 +872,7 @@ main()
 ```
 
 <a name="examplebashscript"></a>
-# Example Bash grading script
+### Example Bash grading script
 
 Below is an example bash script file that would be stored  in .guides/secure folder
 
