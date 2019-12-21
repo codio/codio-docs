@@ -28,12 +28,12 @@ Once you have found the Starter Pack you want to use, you can create a new Proje
 1. Click on the name of the pack  to see full details about this Pack before pressing the `Use Pack` button in the top right of the information panel.
 
 
-You will then be transferred to the [Create Project](/project/creating/) dialog, so Codio can create a new Project for you based on the selected Starter Pack.
+You will then be transferred to the [Create Project](/project/projects/#creating-and-importing-a-project) dialog, so Codio can create a new Project for you based on the selected Starter Pack.
 
 ![Packs Info](/img/packs_info.png)
 
 ## Creating a pack
-You can create a new Starter Pack by pressing the **New Pack** button in the top right of the screen. Please refer to the [Pack Guidelines](/project/packs/guidelines) for details in how to approach Starter Pack creation.
+You can create a new Starter Pack by pressing the **New Pack** button in the top right of the screen. Please refer to the [Pack Guidelines](/project/packs/#pack-guidelines) for details in how to approach Starter Pack creation.
 
 ### Selecting the Source
 You need to tell Codio where to get its source code from. There are two options
@@ -52,7 +52,7 @@ You can add short and long descriptions as well as an image and tags. Tags are i
 ### Visibilty
 By default, Starter Packs are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Packs listings for all Codio Users.
 
-If you are a member of an Organization, the Organization owner can disable the ability for you to create public starter packs. See [Public/Private Settings](/dashboard/create/public_private).
+If you are a member of an Organization, the Organization owner can disable the ability for you to create public starter packs. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
 If you want to keep your Starter Pack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 
@@ -62,15 +62,15 @@ If you want to keep your Starter Pack private to your Organization, you can sele
 You can specify whether other Codio Users within your Organization are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 
 ##Write a tutorial
-[Codio guide](/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a starter pack for tuition purposes, this is extremely useful and easy to use.
+[Codio guide](/courses/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a starter pack for tuition purposes, this is extremely useful and easy to use.
 ## Pack guidelines
 When creating a Starter Pack, here are some ideas on strategy and how to make them as useful as possible.
 
 ### Starting Stack
-When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/installsw/box-parts/).
+When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/#installing-software-packages).
 
 ### .codio file
-It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/ide/boxes/runmenu/).
+It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/ide/boxes/#customizable-run-menu).
 
 To enable your project to preview inside a Codio tab, you will need to configure the preview to run over https. We recommend this as being the default behavior as it will run both inside Codio and in a new browser tab this way. This will require you to configure any services to run on any port between 9500 and 9000.
 
@@ -108,7 +108,7 @@ You should include a full description of your Starter Pack that appears when som
 
 
 ### Write a Codio Guide
-[Codio Guides](/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.
+[Codio Guides](/courses/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.
 
 ### README.md file
 You should create a `README.md` file in the root of your project that displays helpful information the user can see when they open the project.

@@ -9,7 +9,7 @@ A brief overview of the Codio desktop app.
 
 The desktop app is to allow a local code workspace to synchronize with a Codio box.
 
-Units/Projects from the [Classroom dashboard](/dashboard/student/myclassroom/) and [My Projects](/dashboard/student/myfirstproject/) area can be connected.
+Units/Projects from the [Classroom dashboard](/studentview/#my-classroom) and [My Projects](/studentview/#creating-projects) area can be connected.
 
 A Codio account is required
 
@@ -41,7 +41,7 @@ Please note that the `.codioignore` file is included in the desktop app files.
 If students wish to exclude files when pushing back to their Codio account they can do so, either by editing any existing `.codioignore` file or creating the file themselves. If the teacher creates the `.codioignore` file, adding a 'comment' line to the top of the file to make it clear to any students what they should not change could help avoid potential problems.
 A line starting with `#` serves as a comment
 
-**[Click here](/download)** to go to the download page and install to your local machine
+**[Click here](https://www.codio.com/download)** to go to the download page and install to your local machine
 
 # Starting the app
 When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the United Kingdom/Europe, it maybe **https://codio.co.uk**.
@@ -52,7 +52,7 @@ You can check by logging into your Codio account in your browser and you will se
 
 Having selected the server log in using your codio credentials.
 
-<i>**Note:** that if you usually access Codio through an [LMS](/classes/lti/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/dashboard/account/forgotpassword/) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
+<i>**Note:** that if you usually access Codio through an [LMS](/courses/lti1_0/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/dashboard/account/#forgot-your-password) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
 
 <a name="connect"></a>
 # Accessing and connecting to your online content
@@ -90,4 +90,4 @@ When you have connected you can then push/pull/open the unit in Codio and manage
 
 **2.** Click the **Change folder** button to change the folder storing your local files. **Note** the content of the previous folder will not be automatically copied or transferred to the newly selected folder. If you wish to do this, you should return to the previous screen and **pull** to that new folder
 
-**3.** Click the **Disconnect** button to disconnect the unit from your Codio account. You will be returned to the previous screen where you can then [connect](/dashboard/desktopapp#connect) the unit again if you wish
+**3.** Click the **Disconnect** button to disconnect the unit from your Codio account. You will be returned to the previous screen where you can then [connect](/dashboard/desktop%20app/#accessing-and-connecting-to-your-online-content) the unit again if you wish

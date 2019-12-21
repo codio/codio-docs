@@ -21,7 +21,7 @@ If you are in Codio, you can see when a reply to your query arrives even if you 
 ![Intercom Notification](/img/intercomnotification.png)
 
 # Student Support
-You can set a Contact URL for your students at the organisation level, see [Organisation Contact URL](/dashboard/organisations/#organisation-contact-url) and/or at the class level, see [Class Contact URL](/classes/classmanagement/classcontacturl) so they can raise any questions they may have directly to your preferred area
+You can set a Contact URL for your students at the organisation level, see [Organisation Contact URL](/dashboard/organisations/#organisation-contact-url) and/or at the class level, see [Class Contact URL](/courses/classes/#class-contact-url) so they can raise any questions they may have directly to your preferred area
 
 If you set the contact URL for a class, this will override any contact URL you may have set at the organisation level.
 

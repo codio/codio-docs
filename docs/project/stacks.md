@@ -16,7 +16,7 @@ It is very important to understand how Stacks work in Codio, especially when wor
 
 A stack refers to the software configuration of a project server (Box). This incorporates everything on the server outside the code workspace (`/home/codio/workspace`) that you see in the IDE's file tree.
 
-You can [snapshot a box's stack](/project/stacks/new) at any point and add it to the **Stacks** template library as we explain later.
+You can [snapshot a box's stack](/project/stacks/#creating-a-stack) at any point and add it to the **Stacks** template library as we explain later.
 
 
 ### How a Codio project works.
@@ -31,7 +31,7 @@ Any modifications you make will work fine on the project you are working on as t
 
 In order to address this, you need to ensure that any project with a modified stack first has a clean stack created that includes your modifications and that the project points to that clean stack.
 
-The process for [creating a stack](/project/stacks/new) and [switching the project to point to the new stack](/project/stacks/switch) is straightforward.
+The process for [creating a stack](/project/stacks/#creating-a-stack) and [switching the project to point to the new stack](/project/stacks/#switching-a-projects-stack) is straightforward.
 
 ### Use Case
 Let’s consider a MySQL database use case. If the database data location is in the usual place within the stack (`/var/lib/mysql/`) then when the project is assigned to the class, each student gets their own database, independent of others students, as you would expect.
@@ -56,36 +56,36 @@ So, when referring to a stack in the documentation, we mean either a single stac
 ### What to do prior to assigning to a class
 If you have modified the stack in any way, then there are a few use-cases that commonly occur when working with modified stacks prior to assigning to a class.
 
-- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/new), [switch your project to the new stack](/project/stacks/switch) once it is created and finally [assign it to the class](/classes/unitmanagement/assign-project). This ensures maximum efficiency and speed. You do this from the class screen by pressing the large blue **+** button, then choosing **Add project as unit**. When you are asked if you want to use the projects stack or create a new stack, you can use the project’s stack as this is now clean. If you have not yet created a new stack to incorporate the modifications then you can create a new one when you add the project to a class, or select an existing one, by selecting **Create new stack**. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you assign to the class.
-- **Course units** : you should always first [create a custom stack](/project/stacks/new) and then [switch the unit’s stack](/project/stacks/new), and any other units that use the same configuration, to the newly created stack. You can then [assign a course module](/classes/unitmanagement/assign-module) (which assigns all its units) to the class.
-- **Books** : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then [switch your stack settings](/project/stacks/switch) to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all units that point to a book.
+- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/#creating-a-stack), [switch your project to the new stack](/project/stacks/#switching-a-projects-stack) once it is created and finally [assign it to the class](/courses/classes/#assign-a-project-to-the-class). This ensures maximum efficiency and speed. You do this from the class screen by pressing the large blue **+** button, then choosing **Add project as unit**. When you are asked if you want to use the projects stack or create a new stack, you can use the project’s stack as this is now clean. If you have not yet created a new stack to incorporate the modifications then you can create a new one when you add the project to a class, or select an existing one, by selecting **Create new stack**. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you assign to the class.
+- **Course units** : you should always first [create a custom stack](/project/stacks/#creating-a-stack) and then [switch the unit’s stack](/project/stacks/#creating-a-stack), and any other units that use the same configuration, to the newly created stack. You can then [assign a course module](/courses/classes/#assign-course-modules-to-the-class) (which assigns all its units) to the class.
+- **Books** : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then [switch your stack settings](/project/stacks/#switching-a-projects-stack) to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all units that point to a book.
 
 ### Switching Stacks
-Remember, when you [switch a project’s stack](/project/stacks/switch) from **Project->Settings->Stack settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.
+Remember, when you [switch a project’s stack](/project/stacks/#switching-a-projects-stack) from **Project->Settings->Stack settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.
 
 ### Books
-Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/books).
+Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/books/introduction/#introduction).
 
 
 ## Modifying a stack
-A Codio project, course unit or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/project/stacks/switch) at any time.
+A Codio project, course unit or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/project/stacks/#switching-a-projects-stack) at any time.
 
-You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course unit or book and make the stack changes from the [command line](/ide/boxes/terminal). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/stack-overview/) page.
+You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course unit or book and make the stack changes from the [command line](/ide/boxes/#terminal-window). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/#what-is-a-stack) page.
 
 To modify a stack you should be aware of the following rules.
 
 ### You are the owner or have write access
-If you are the stack owner or have write access to the stack then you are able to create new versions of an existing stack. See [visibility settings](/project/stacks/visibility) for information on ownership.
+If you are the stack owner or have write access to the stack then you are able to create new versions of an existing stack. See [visibility settings](/project/stacks/#visibility-and-ownership) for information on ownership.
 
 ### You are not the owner and do not have write access
 If you do not have write access to the stack, which is the case for the Codio certified stacks, then you will first need to create a new stack. After this you can create your own versions from that stack as you will be the owner.
 
-If the stack's is **Private** and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See [visibility settings](/project/stacks/visibility) for information on ownership.
+If the stack's is **Private** and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See [visibility settings](/project/stacks/#visibility-and-ownership) for information on ownership.
 
 ## Creating a stack
-Please make sure you have read [What is a stack?](/project/stacks/stack-overview) as this contains important concepts and information.
+Please make sure you have read [What is a stack?](/project/stacks/#what-is-a-stack) as this contains important concepts and information.
 
-This page explains how to create a new stack or a new stack version from a project. Stack management for [course units](/courses/units/publish) and [books](/books/publish) is handled by the publish action and is explained in their respective sections.
+This page explains how to create a new stack or a new stack version from a project. Stack management for [course units](/courses/coursemanagement/#publishing) and [books](/books/manage/#publishing-and-the-stack) is handled by the publish action and is explained in their respective sections.
 
 ### Create new stack from the IDE
 With the project open in the IDE, select the menu option **Project->Stack->Create New**. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the **Visibility** information below.
@@ -108,7 +108,7 @@ When you have completed the required fields and pressed the `Create` button, we 
 When creating a Stack, here are some ideas on strategy and how to make them as useful as possible.
 
 ### Starting Stack
-When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/installsw/box-parts/).
+When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/#installing-software-packages).
 
 
 ### Long Description
@@ -222,19 +222,19 @@ Please be aware of the following useful links
 If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
 ```
 ## Visibility and Ownership
-See [visibility settings](/project/stacks/visibility) for information on who can access or edit your stack.
+See [visibility settings](/project/stacks/#visibility-and-ownership) for information on who can access or edit your stack.
 
 By default, Stacks are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Stacks listings for all Codio Users.
 
 If you set the owner of the Stack to your Organization, they will appear in the **Organizations** listing for members of your Organization
 
-If you are a member of an Organization, the Organization owner can enable the ability for you to create public Stacks. See [Public/Private Settings](/dashboard/create/public_private).
+If you are a member of an Organization, the Organization owner can enable the ability for you to create public Stacks. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
 If you want to keep your Stack private to your Organization, select the Private option and set the Owner option to your Organization.
 
 
 ### Owner
-By default, you will be the owner of this Stack and only you can edit it and [create new versions](/project/stacks/update) of the Stack.
+By default, you will be the owner of this Stack and only you can edit it and [create new versions](/project/stacks/#updating-a-stack-version) of the Stack.
 
 If you want to allow others to see and administer your Stack, you can assign it to another organization.
 ## Switching a project's stack
@@ -245,7 +245,7 @@ There are various reasons why you might want to switch your project's stack to a
 - **New stack version** : a new version of a stack has been created and you want to point to the latest one.
 
 ### Important
-You should remember that when you switch a stack, everything outside the workspace folder you see in the tree (`/home/codio/workspace`) will be replaced by the new stack. This is discussed at length in the [What is a stack?](/project/stacks/stack-overview) section.
+You should remember that when you switch a stack, everything outside the workspace folder you see in the tree (`/home/codio/workspace`) will be replaced by the new stack. This is discussed at length in the [What is a stack?](/project/stacks/#what-is-a-stack) section.
 
 ### From the projects listing
 Select the gear icon for the project from the main projects listing. You will then be able to change the stack or the stack version.
@@ -284,7 +284,7 @@ You can view the version history of a stack by from the **Stacks** area of the C
 You can select a stack
 
 - when a new project is created
-- or by [switching the stack](/project/stacks/switch) if the project is already created
+- or by [switching the stack](/project/stacks/#switching-a-projects-stack) if the project is already created
 - or directly from the stacks listing, as explained below.
 
 
@@ -320,7 +320,7 @@ Stacks are divided up into the following searchable areas within the Stacks list
 - **Popular Stacks** are the most commonly downloaded, publicly available stacks created by other Codio users; you should note that Codio does not warrant that these Stacks are tested or safe.
 - **All Stacks** gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.
 
-If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/project/stacks/new).
+If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/project/stacks/#creating-a-stack).
 
 ## Excluding files & folders
 When you create a Stack, it will base the Stack on the contents of the `/home/codio` folder but omit your code workspace.
