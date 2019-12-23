@@ -17,12 +17,12 @@ You can find your account settings in the **Codio > Account** dropdown menu and 
 
 Account Settings lets you manage the following
 
-- [User profile](/dashboard/account/general/)
-- [Password](/dashboard/account/forgotpassword/)
-- [SSH key](/dashboard/account/publickey)
-- [Github single signon and Codio public key upload](/dashboard/account/github)
-- [BitBucket single signon and Codio public key upload](/dashboard/account/bitbucket)
-- [Account deletion](/dashboard/account/delete)
+- [User profile](/dashboard/account/#change-account-details)
+- [Password](/dashboard/account/#forgot-your-password)
+- [SSH key](/dashboard/account/#public-key)
+- [Github single signon and Codio public key upload](/dashboard/account/#github)
+- [BitBucket single signon and Codio public key upload](/dashboard/account/#bitbucket)
+- [Account deletion](/dashboard/account/#delete-your-account)
 
 ## User preferences
 You can access the User Preferences using the menu item **Codio > Preferences > User** when you are in a project.
@@ -34,7 +34,7 @@ User Preferences are the full collection of settings that apply to you, the logg
 ![Codio Annotations](/img/prefs-user.png)
 
 
-Codio allows you to fully customize all these preferences and the User level and the [Project level](/ide/customization/project-prefs).
+Codio allows you to fully customize all these preferences and the User level and the [Project level](/ide/settings/#project-preferences).
 
 Codio does the following to manage the final preferences for the logged in user...
 
@@ -104,11 +104,11 @@ As any project preferences will be applied over your user preferences and everyo
 ## Preferences list
 You can set a lot of preferences in Codio. There are various ways of listing and finding preferences and their corresponding keyboard shortcuts.
 
-- [Command Bar](/ide/features/command-bar) lets you find and execute commands and actions. It only shows actionable commands, so things like Font Size, Theme are not available here. Toggle items are, however.
+- [Command Bar](/ide/features/#command-bar) lets you find and execute commands and actions. It only shows actionable commands, so things like Font Size, Theme are not available here. Toggle items are, however.
 - **Help > Shortcuts** and type and search list that shows all keyboard shortcuts
 - **Codio > Preferences > User** where a complete list is shown in the Default Preferences area and you can also modify the preferences.
 
-To see how to modify your preferences see [Codio Preferences](/ide/customization/codio-prefs)
+To see how to modify your preferences see [Codio Preferences](/ide/settings/#user-preferences)
 
 ## Project settings
 These settings are found within the IDE (a loaded project) from the **Project > Settings** menu item and also accessible from the **My Projects** listing, by clicking the gear icon in the right side of the listing.
@@ -120,13 +120,13 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Project Description
 - Public/Private
 - Allow Box Cloning (subscription required)
-- Enable your Box as [Always-On](/ide/boxes/always-on/)
-- Allow Private Static Preview. See [Preview](/ide/features/inline-preview/) for more information. **NB** Only available from **Project>Settings**
+- Enable your Box as [Always-On](/ide/boxes/#always-on-boxes)
+- Allow Private Static Preview. See [Preview](/ide/features/#preview) for more information. **NB** Only available from **Project>Settings**
 - Protect Dynamic Ports. Disable to allow preview of the box to anyone who knows the box url. **NB** Only available from **Project>Settings**
 - Delete your Project
 - Export the project as a Zip file.
 - Stack Settings - details of the stack used in your project.
-- Forwarding Settings - details of how to SSH into your box. See [here](/ide/boxes/access/ssh-access/) for more.
+- Forwarding Settings - details of how to SSH into your box. See [here](/ide/boxes/#ssh-and-code-access-ssh-into-your-box) for more.
 
 ![Project Setting](/img/project-settings.png)
 

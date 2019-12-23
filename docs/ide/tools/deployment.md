@@ -4,15 +4,15 @@ title: Deployment
 
 ---
 
-You do not to need to deploy when you are developing your project. Front-end code is automatically served up over Port 80. Access to back-end code (PHP, Ruby etc.) is done by accessing your [Box](/ide/boxes/ext-access).
+You do not to need to deploy when you are developing your project. Front-end code is automatically served up over Port 80. Access to back-end code (PHP, Ruby etc.) is done by accessing your [Box](/ide/boxes/#accessing-boxes-and-ports).
 
 You can deploy from the command line (**Tools->Terminal** menu), but Codio has a great Deployment Manager that lets you deploy all or any part of your project, with a single click ,to a custom 'deployment target'. We support deployment to the following platforms.
 
-- [FTP](/ide/tools/deployment/type-ftp/)
-- [SFTP](/ide/tools/deployment/type-sftp/)
-- [RSYNC](/ide/tools/deployment/type-rsync/)
-- [Nodejitsu](/ide/tools/deployment/type-nj/)
-- [Generic Git deployment](/ide/tools/deployment/type-git/)
+- [FTP](/ide/tools/deployment/#ftp-target-type)
+- [SFTP](/ide/tools/deployment/#sftp-target-type)
+- [RSYNC](/ide/tools/deployment/#rsync-target-type)
+- [Nodejitsu](/ide/tools/deployment/#nodejitsu-target-type)
+- [Generic Git deployment](/ide/tools/deployment/#git-target-type)
 
 ## Create/manage a target
 The Manage Targets options are accessed via **Tools > Deployment > Manage Targets** menu. All Deployment dialogs will be displayed in the currently active [Panel](/ide/panels).
@@ -31,11 +31,11 @@ In the Deployment Targets dialog, you can:
 ### Destination
 The Destination drop down specifies the type of the target you are deploying to. Currently we support the following destinations (click on each one to find out about its associated parameters)
 
-- [FTP](/ide/tools/deployment/type-ftp/)
-- [RYSNC](/ide/tools/deployment/type-rsync/)
-- [SFTP](/ide/tools/deployment/type-sftp/)
-- [Nodejitsu](/ide/tools/deployment/type-nj/)
-- [Git](/ide/tools/deployment/type-git)
+- [FTP](/ide/tools/deployment/#ftp-target-type)
+- [RYSNC](/ide/tools/deployment/#rsync-target-type)
+- [SFTP](/ide/tools/deployment/#sftp-target-type)
+- [Nodejitsu](/ide/tools/deployment/#nodejitsu-target-type)
+- [Git](/ide/tools/deployment/#git-target-type)
 
 ## Base path field
 You will notice that all deployment targets, except Codio, have a **Preview Base Path** field.
@@ -49,23 +49,23 @@ For example, you might deploy to a remote server at a folder location `/home/fma
 
 So it could be `http://123.456.789` or `fmay.mydomain.com` is the correct location.
 
-Please see the [Preview](/ide/features/inline-preview) section for more information.
+Please see the [Preview](/ide/features/#preview) section for more information.
 ## Public keys for remote servers
 When you are setting up a remote server, Codio can automatically install the Codio public key on your remote server, which saves a tedious manual process.
 
-- You can copy a key from the **Codio > Account** dialog as [described here](/dashboard/account/publickey)
-- You can set up an SSH Connection and use the [Connection Manger](/ide/tools/ssh/ssh-manager) to do the same thing.
+- You can copy a key from the **Codio > Account** dialog as [described here](/dashboard/account/#public-key)
+- You can set up an SSH Connection and use the [Connection Manger](/ide/tools/ssh/#ssh-connection-manager) to do the same thing.
 ## Terminal access to remotes
 If you are working with remote servers, you may find it useful to be able to SSH into your remote server.
 
-Codio supports the ability to open an SSH terminal in a Codio tab. [Click here](/ide/tools/ssh/ssh-manager) for further details.
+Codio supports the ability to open an SSH terminal in a Codio tab. [Click here](/ide/tools/ssh/#ssh-connection-manager) for further details.
 ## Deploying to a target
 There are three ways to deploy projects.
 
 
 
 ### Tools->Deployment->Deploy menu
-This let's you deploy to any of your deployment targets you created in [Manage Targets](/ide/tools/deployment/create). You are shown a log if any errors occur.
+This let's you deploy to any of your deployment targets you created in [Manage Targets](/ide/tools/deployment/#createmanage-a-target). You are shown a log if any errors occur.
 
 ![deploy screen](/img/deploy-menu.png)
 
@@ -76,7 +76,7 @@ You can deploy an individual file or folder by right-clicking in the file tree.
 
 
 ### Command Line
-You can use the command line directly but you can also add your custom deployment actions by [modifying the Run Menu](/ide/boxes/runmenu/).
+You can use the command line directly but you can also add your custom deployment actions by [modifying the Run Menu](/ide/boxes/#customizable-run-menu).
 ## Rsync target type
 Rsync is a great way of working with remote servers. It behaves much the same as the SFTP deployment type but rather than deploying all files, it deploys only files that have changed.
 
@@ -86,10 +86,10 @@ You can use a password and/or a public key for authentication.
 
 
 ### Base Path
-We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/basepath). This will be useful when using the [Preview](/ide/features/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/#base-path-field). This will be useful when using the [Preview](/ide/features/#preview) feature.
 
 ### Public Key Authentication
-Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/dashboard/account/publickey). You should make sure that this public key is added to your remote server.
+Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/dashboard/account/#public-key). You should make sure that this public key is added to your remote server.
 
 ### Protocol
 There are two options available
@@ -122,7 +122,7 @@ The FTP target type allows you to deploy to any FTP server. You supply the usual
 ![authtoken](/img/deploy-ftp.png)
 
 ### Base Path
-We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/basepath). This will be useful when using the [Preview](/ide/features/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/#base-path-field). This will be useful when using the [Preview](/ide/features/#preview) feature.
 
 ### Specifying a Port
 If you want to override the default FTP port (21) then you can add the port number to the domain name as shown below
@@ -142,10 +142,10 @@ The SFTP target type allows you to deploy to any SFTP server. You can use a pass
 ![authtoken](/img/deploy-sftp.png)
 
 ### Base Path
-We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/basepath). This will be useful when using the [Preview](/ide/features/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/#base-path-field). This will be useful when using the [Preview](/ide/features/#preview) feature.
 
 ### Public Key Authentication
-Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/dashboard/account/publickey). You should make sure that this public key is added to your remote server.
+Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/dashboard/account/#public-key). You should make sure that this public key is added to your remote server.
 
 ### Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
@@ -175,14 +175,14 @@ You will need to sign up for a Nodejitsu account before you use it.
 Select Nodejitsu from the Destination drop down and then make sure you either provide an API Token in the highlighted field or just press the Generate button and we'll create one for you.
 
 ### Base Path
-We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/basepath). This will be useful when using the [Preview](/ide/features/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/ide/tools/deployment/#base-path-field). This will be useful when using the [Preview](/ide/features/#preview) feature.
 
 That's all you will need to do. You're now ready to deploy.
 
 ## Git target type
 The Git target type allows you to deploy to any remote Git server. You supply the usual Git access details.
 
-If you prefer, you can deploy to any remote Git server using the command line. Simply [access your Box Terminal](/ide/boxes/terminal/).
+If you prefer, you can deploy to any remote Git server using the command line. Simply [access your Box Terminal](/ide/boxes/#terminal-window).
 
 ### Existing Remote
 If you imported your project from a remote Git repo or used `git add remote` from the command line, you will see existing remotes listed in the **Remote** dropdown box and you can select it.
