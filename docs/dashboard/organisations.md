@@ -12,7 +12,7 @@ Interesting organization settings.
 <iframe src="https://player.vimeo.com/video/236066250" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-
 
 ## Administrator role
-As the creator of your educational organization in Codio, you have administrator rights. This means that you can add and remove [teachers](/classes/classmanagement/addteachers) from your organization, edit your organization information, manage your students [dashboard settings](/dashboard/create/dash), create [grading templates](/classes/classmanagement/rubric) and [delete](/dashboard/create/deleteorg) your organization.
+As the creator of your educational organization in Codio, you have administrator rights. This means that you can add and remove [teachers](/courses/classes/#adding-teachers-to-a-class) from your organization, edit your organization information, manage your students [dashboard settings](/dashboard/organisations/#student-dashboard-settings), create [grading templates](/courses/classes/#grading-rubric-templates) and [delete](/dashboard/organisations/#delete-organization) your organization.
 
 To access the administration tools:
 
@@ -40,7 +40,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 
     ![Members](/img/manage_organization/memberstab.png)
 
-1. In the  **Invite Teacher to the Organization** area, enter in their email address. If you also wish them to have full [access](/dashboard/create/adminrole/) rights to the organization, check the **Add this teacher to owners group**.
+1. In the  **Invite Teacher to the Organization** area, enter in their email address. If you also wish them to have full [access](/dashboard/organisations/#administrator-role) rights to the organization, check the **Add this teacher to owners group**.
 
     ![Invite Teacher](/img/manage_organization/inviteteacher.png)
 
@@ -77,9 +77,9 @@ Once you have set up your organization, the next step is to invite teachers to u
 
 1. If you already have classes set up you can add and invite teachers directly into your class(es). See
 
-    [Adding teachers to a class](/classes/classmanagement/addteachers)
+    [Adding teachers to a class](/courses/classes/#adding-teachers-to-a-class)
 
-You can then if you wish add them as an [organization owner](/dashboard/create/addowners) so they can then manage and create classes themselves and have full admin access to the organization
+You can then if you wish add them as an [organization owner](/dashboard/organisations/#add-organization-owners) so they can then manage and create classes themselves and have full admin access to the organization
 
 
 ## Add organization owners
@@ -122,7 +122,7 @@ There are 2 ways you can do this:
 
 You should see yourself listed as an owner. To add another teacher, choose the **Add User** drop down and as you type their Codio Username, the listing will filter down so you can then select them.
 ## Add students
-You do not add students to an organization directly. They are added by inviting them to join a class. Please [click here](/classes/classmanagement/addstudents) for more information.
+You do not add students to an organization directly. They are added by inviting them to join a class. Please [click here](/courses/classes/#add-students-to-a-class) for more information.
 
 Codio also creates test students so instructors are able to see how students interact with a class. This is described in the class section.
 
@@ -182,11 +182,11 @@ You will be able to see all the members of your school organization.
 
 The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Create Organization](/dashboard/create/createorg/) for more information.
 
-The **Users without class** group contains all users that are not members of a class. See [Delete Class](/classes/classmanagement/delete) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a class.
+The **Users without class** group contains all users that are not members of a class. See [Delete Class](/courses/classes/#deleting-a-class) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a class.
 Select this group and you can then remove these users from your organization if required.
 ![authtoken](/img/manage_organization/orphanedusers.png)
 
-Please note that removing users from your Organization does not delete their Codio account. Only the account owner can [delete their account](/dashboard/account/delete).
+Please note that removing users from your Organization does not delete their Codio account. Only the account owner can [delete their account](/dashboard/account/#delete-your-account).
 
 ## Student dashboard settings
 Organization owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **My Classroom** as well as optionally hiding **My Classroom** and **Courses** menu items.
@@ -205,12 +205,12 @@ To do this, access the administration tools:
 
 **N.B.** Your students may need to reload Codio in their browser when they next log in for the changes to be visible to them
 
-Access for students to individual courses can also be managed in the course permissions. See [Restrict Course access](/courses/manage/restrict-access) for more information.
+Access for students to individual courses can also be managed in the course permissions. See [Restrict Course access](/courses/coursemanagement/#restrict-course-access) for more information.
 
 ## Custom script
 To integrate third-party systems to help/track students, custom scripts can be enabled.
 
-Enabling this will allow third-party systems (such as [sense.network](/content/authoring/assessments/assessments-sense-network) to help/track students.
+Enabling this will allow third-party systems (such as [sense.network](/courses/assessments/#sense-network) to help/track students.
 
 In all cases, the `userid`,`email` and the user type (Student/Teacher) will be passed.
 
@@ -249,7 +249,7 @@ console.log(window.codio.totalNumberOfPages)
 If you require any assistance with this, please don't hesitate to [contact us](/dashboard/support/) in the usual manner.
 
 ## Remove owners
-You may want to remove one or more of the owners you have set for your organization. It is worth noting that you always need at least one owner. (If you want to know how to add owners, jump to [add organization owners](/dashboard/create/addowners/)).
+You may want to remove one or more of the owners you have set for your organization. It is worth noting that you always need at least one owner. (If you want to know how to add owners, jump to [add organization owners](/dashboard/organisations/#add-organization-owners)).
 
 To remove owners:
 
@@ -288,7 +288,7 @@ To remove members:
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
 
-1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add Users](/classes/classmanagement/addstudents)
+1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add Users](/courses/classes/#add-students-to-a-class)
 ## Organization Assessments Library
 In addition to Codio's global assessments library, you can create Organization assessments libraries. This allows your faculty to share assessment items with other instructors similar to how you can share Courses within an Organization.
 
@@ -308,7 +308,7 @@ In addition to Codio's global assessments library, you can create Organization a
 1. Enter the name of the assessments library you want to create and press “Create”
 ![Assessments Library name](/img/namelibrary.png)
 
-Read more about assessment libraries [here](/content/authoring/assessments-library/overview).
+Read more about assessment libraries [here](courses/assessments-library/).
 
 ### Add Collaborators to an Assessments Library
 
@@ -329,7 +329,7 @@ Read more about assessment libraries [here](/content/authoring/assessments-libra
 Organization owners can disable this feature to allow members of the Organization to create Public Projects/Stacks/Starter Packs/Courses and Modules. By default, these will be created as Private.
 
 
-Private projects can still be shared to other users in the normal manner. See [Permissions](/ide/customization/permissions/)
+Private projects can still be shared to other users in the normal manner. See [Permissions](/ide/settings/#project-permissions)
 
 
 **N.B.** Any existing Projects/Stacks/Starter Packs/Courses and Modules created by members of the organization prior to any changes being made will not be effected
@@ -350,10 +350,10 @@ Organization owners can also block Codio support team from being able to access 
 
 See also:
 
-- [Creating and importing a project](/project/creating/)
-- [Creating a Stack](/project/stacks/new/)
-- [Creating a Pack](/project/packs/create/)
-- [Creating a course](/courses/manage/course-create)
+- [Creating and importing a project](/project/projects/#creating-and-importing-a-project)
+- [Creating a Stack](/project/stacks/#creating-a-stack)
+- [Creating a Pack](/project/packs/#creating-a-pack)
+- [Creating a course](/courses/coursemanagement/#create-a-course)
 ## Gigaboxes
 Codio's default boxes are allocated 400MB of memory. If you need larger boxes then you can upgrade your subscription to give access to 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.
 
@@ -399,11 +399,11 @@ If you wish to set your own contact URL's for your students (e.g. you have a for
 
 ![Student options](/img/manage_organization/studentoptions.png)
 
-1. These can also be set at the [class](/classes/classmanagement/classcontacturl) level so if you have specific areas/forums for your classes for students to raise questions, you can set the contact URL there and it will override the organisation setting
+1. These can also be set at the [class](/courses/classes/#class-contact-url) level so if you have specific areas/forums for your classes for students to raise questions, you can set the contact URL there and it will override the organisation setting
 
 **N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/support/) for more on this**
 ## Organisation release grades
-By default Students are not shown the grades until you decide to release them to the class but if you wish to automatically [Release Grades](/classes/monitor/grading#releasegrades) when students complete a unit, you can enable this feature so when you create new [classes](/classes/classmanagement/create-class/) this option is automatically enabled.
+By default Students are not shown the grades until you decide to release them to the class but if you wish to automatically [Release Grades](/courses/grading/#releasing-grades) when students complete a unit, you can enable this feature so when you create new [classes](/courses/classes/#creating-a-new-class) this option is automatically enabled.
 
 Enabling this feature will not effect existing classes
 
@@ -419,4 +419,4 @@ Enabling this feature will not effect existing classes
 1. Go to the **Education Settings** section toward the  bottom of the page, and enable the feature
 ![Enable Release Grades](/img/manage_organization/org_releasegrades.png)
 
-1. The status of this feature can be changed in individual classes if required. See [here](/classes/monitor/grading#releasegradesstatus) for more information
+1. The status of this feature can be changed in individual classes if required. See [here](/courses/grading/#automatically-releasing-grades) for more information

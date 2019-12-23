@@ -10,7 +10,7 @@ A brief overview of interesting account settings.
 <iframe src="https://player.vimeo.com/video/236066104" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-
 
 ## Cookie Requirements
-In order for Codio to work correctly you need to allow cookies. Check our [Privacy Policy](/legal/privacy/) for more information about cookies.
+In order for Codio to work correctly you need to allow cookies. Check our [Privacy Policy](https://www.codio.com/legal-stuff) for more information about cookies.
 
 The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
 
@@ -99,7 +99,7 @@ Codio is best experienced on the very latest browsers, in particular Chrome, but
 - **Safari** - 6 or later
 - **Opera** - 15 or later
 
-If using **Safari** and accessing Codio via an [LMS](/classes/lti), disable "Prevent cross-site tracking" to ensure access.
+If using **Safari** and accessing Codio via an [LMS](/courses/lti1_0/), disable "Prevent cross-site tracking" to ensure access.
 
 ![Safari settings](/img/crosssitetracking.png)
 
@@ -150,10 +150,10 @@ Codio automatically generates a public key for your account. This key can then b
 ### Where is it used?
 Codio makes use of the public key in the following places
 
-- [SFTP deployment target](/ide/tools/deployment/type-sftp)
-- [RSYNC deployment target](/ide/tools/deployment/type-rsync)
-- [SSH Terminal](/ide/tools/ssh)
-- [Git](/ide/editing/git)
+- [SFTP deployment target](/ide/tools/deployment/#sftp-target-type)
+- [RSYNC deployment target](/ide/tools/deployment/#rsync-target-type)
+- [SSH Terminal](/ide/tools/ssh/)
+- [Git](/ide/editing/#git-mercurial-svn)
 
 In both cases, you will need to install the public key onto the remote system. In the case of SFTP, you should know how to do this already.
 
@@ -172,14 +172,14 @@ You will be redirected to your GitHub/BitBucket account and asked to authorise t
 On accepting this you will then be redirected back to your Codio account.
 
 ## GitHub
-The GitHub tab lets you associate your account with your GitHub account and where you can upload your public key. See [SSH Key](/dashboard/account/publickey/)
+The GitHub tab lets you associate your account with your GitHub account and where you can upload your public key. See [SSH Key](/dashboard/account/#public-key)
 
 
 ![SSH Public](/img/prefs-account-gh1.png)
 
 You can sign in with GitHub as well.
 ## BitBucket
-The BitBucket tab lets you associate your account with your BitBucket account and where you can upload your public key. See [SSH Key](/dashboard/account/publickey/)
+The BitBucket tab lets you associate your account with your BitBucket account and where you can upload your public key. See [SSH Key](/dashboard/account/#public-key)
 
 You can sign in with BitBucket as well.
 
@@ -278,7 +278,7 @@ We offer substantial **Whole School** license discounts for Schools, Colleges an
 
 ### Customer Technical Support
 
-We have an [extensive documentation section](/docs) where you can find out how to [add students](/classes/classmanagement/addstudents), [add teachers](/dashboard/create/addteachers) and much more.
+We have an [extensive documentation section](/docs) where you can find out how to [add students](/courses/classes/#add-students-to-a-class), [add teachers](/dashboard/organisations/#add-teachers) and much more.
 
 To access the documentation
 
@@ -303,4 +303,4 @@ If it is out of our office hours, we will get back to you as soon as possible.
 
 ### Sales Inquiries
 
-If you are interested in purchasing Codio, please see our [pricing](/pricing/). If you have any questions about how Codio could be right for you, we offer [demos and webinars](/demo) for you and your colleagues. Or alternatively, please email us at help@codio.com, and we will get in touch as soon as possible.
+If you are interested in purchasing Codio, please see our [pricing](https://www.codio.com/pricing). If you have any questions about how Codio could be right for you, we offer [demos and webinars](https://www.codio.com/demo) for you and your colleagues. Or alternatively, please email us at help@codio.com, and we will get in touch as soon as possible.
