@@ -30,8 +30,8 @@
 
 # Courses
 
+*   [Course Configuration](/courses/classes/)
 *   [Course Management](/courses/coursemanagement)
-*   [Classes](/courses/classes/)
 *   [](#stud_progress)[Grading and accessing student projects](/courses/grading)
 *   [](#plag)[Plagiarism checker](/courses/plagiarism)
 *   [](#lti1_0)[LTI 1.0 Integration](/courses/lti1_0)
