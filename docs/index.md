@@ -1,17 +1,22 @@
 
 | **Getting Started and Onboarding Materials** |  **Teaching with Codio** |
 | :------ |  :----------- |
-| Onboarding Guide  |  links to teaching with codio |
-| Demo Guides and Assessments | more links to teaching with codio |
-| Debugger    |  and more links to teaching with codio |
-
+| Link to Onboarding Guide  |  links to teaching with codio |
+| Link to Demo Guides and Assessments | more links to teaching with codio |
+| Link to Debugger    |  and more links to teaching with codio |
+| Other videos to help get started |
 
 
 | **Integrations**|  **Student help**|
 | :------ |  :----------- |
-|  | [The student view](/studentview) |
+|links to integration videos maybe also links to docs and remove below  | anything additional to existing studentview page? |
 
+| **Help Center**|
+| :------ |
+| link to various sections in Intercom for the question based articles/videos etc| 
+| include a 'ask a question' that goes to help@codio.com that we will get into Intercom to be able to answer!
 
+# Full technical details and documentation
 
 |**The Codio Dashboard** |**Projects and Templates**|
 | :------ |  :----------- |
@@ -37,20 +42,20 @@
 |[](#ide-settings)[Settings](/ide/settings)|[Collaborating on content](/courses/collaboration)|
 
 
-|**Books** |**Resources**|
+|**Resources** |**Books**|
 | :------ |  :----------- |
-|[Introduction](/books/introduction)|[](#school-course-list)[Schools course content](/resources/schoolscontent)|
-|[Limitations and restrictions](/books/limitations)|[How are courses organised](/resources/schoolscontent/organization)|
-|[](#books-working)[Working with books](/books/manage)| [Finding courses](/resources/schoolscontent/coursefind)|
-| **Student View**| [Course visibilty](/resources/schoolscontent/courseview)|
-|[The student view](/studentview)| [What content do you recommend?](/resources/schoolscontent/recommended)|
-||[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)|
-||[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)|
-||[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)|
-||[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
-||[Flode](/resources/schoolscontent/flode)|
-||[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|
-||[Lexikon](/resources/schoolscontent/lexikon)|
-||[Tkinter](/resources/schoolscontent/tkinter)|
-||[Changelog](/resources/changelog)|
+|[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Introduction](/books/introduction)
+|[How are courses organised](/resources/schoolscontent/organization)|[Limitations and restrictions](/books/limitations)
+| [Finding courses](/resources/schoolscontent/coursefind)|[](#books-working)[Working with books](/books/manage)
+| [Course visibilty](/resources/schoolscontent/courseview)| **Student View**| 
+| [What content do you recommend?](/resources/schoolscontent/recommended)|[The student view](/studentview)
+|[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)|
+|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)|
+|[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)|
+|[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
+|[Flode](/resources/schoolscontent/flode)|
+|[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|
+|[Lexikon](/resources/schoolscontent/lexikon)|
+|[Tkinter](/resources/schoolscontent/tkinter)|
+|[Changelog](/resources/changelog)|
 
