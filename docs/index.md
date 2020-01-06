@@ -31,11 +31,11 @@
 # Courses
 
 *   [Course Configuration](/courses/classes/)
-*   [Course Management](/courses/coursemanagement)
 *   [](#stud_progress)[Grading and accessing student projects](/courses/grading)
 *   [](#plag)[Plagiarism checker](/courses/plagiarism)
 *   [](#lti1_0)[LTI 1.0 Integration](/courses/lti1_0)
 *   [](#lti1_3)[LTI 1.3 Integration](/courses/lti1_3)
+*   [Course Management](/courses/coursemanagement)
 *   [Content Authoring with Guides](/courses/authoring)
 *   [](#page-action-section)[Guides settings and page actions](/courses/settings-actions)
 *   [](#autoassessments)[Assessments](/courses/assessments)

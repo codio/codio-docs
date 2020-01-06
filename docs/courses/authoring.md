@@ -20,7 +20,7 @@ You can launch the content authoring from
 
 ![Start Authoring](/img/guides/startguides.png)
 
-## Project, course unit or book?
+## Project, course assignment or book?
 Before you start to author content you should be aware of the three different places you can create content using guides. Let's look at each of the three ways to create content and why you might choose each one.
 
 ### Projects
@@ -31,47 +31,47 @@ A [project](/project/what-is-a-project) is simply a standalone Codio box. It may
 
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
 
-A project can be [assigned to a class](/classes/unitmanagement/assign-project) at any time. All the students in that class will then be able to access that project and its content.
+A project can be [assigned to a course](/classes/unitmanagement/assign-project) at any time. All the students in that course will then be able to access that project and its content.
 
-There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a class. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
+There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
-### Project units
-A [project unit](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project units are located in the courses area in the main Codio dashboard. Project units are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project units chronologically within a course module.
+### Project assignments
+A [project assignment](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard. Project assignments are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project assignments chronologically within a course module.
 
 
 ![Courses](/img/courseslist.png)
 
-You would typically use a project unit if either of the following apply.
+You would typically use a project assignment if either of the following apply.
 
-- You have a logically related series of projects that you want to assign to a student or to a class that together form a course.
+- You have a logically related series of projects that you want to assign to a student or to a course that together form a course.
 - You have a collection of assessments relate to a course that are used for homework, lab assessments, projects etc.
 
-A course allows you to subdivide your course into modules and then chronologically arrange your project units within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain project units and are simply a nice way to group your units.
+A course allows you to subdivide your course into modules and then chronologically arrange your project assignments within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain project assignments and are simply a nice way to group your assignments.
 
-There is one minor drawback to project units that you should be aware of. If students are working with a project unit and wants to look at tutorial content that is contained in another unit, they have to switch units. This can take several seconds and can be irritating during a revision phase when they want to frequently switch units. For this reason, we created the book, which we will look at next.
+There is one minor drawback to project assignments that you should be aware of. If students are working with a project assignment and wants to look at tutorial content that is contained in another assignment, they have to switch assignments. This can take several seconds and can be irritating during a revision phase when they want to frequently switch assignments. For this reason, we created the book, which we will look at next.
 
 
-### Book units
-A [book](/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project units to create this content, you might end up with a very large number of units, say 50.  As we mentioned above, when students are revising and want to randomly move between different units to review content, the can get frustrated by the time it takes to switch units.
+### Book assignments
+A [book](/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
 
-However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen in the class. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
+However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
 
 ![Books](/img/bookslist.png)
 
-### Book or project unit?
-It can still be a little confusing whether you should use a book based unit or a project unit, so here are some typical use cases.
+### Book or project assignment?
+It can still be a little confusing whether you should use a book based assignment or a project assignment, so here are some typical use cases.
 
-- **Project units** - use when you have a collection of assessments with no or minimal tutorial content. Best used for homework or lab type assessments. If a student is not going to regularly switch units in a single session.
+- **Project assignments** - use when you have a collection of assessments with no or minimal tutorial content. Best used for homework or lab type assessments. If a student is not going to regularly switch assignments in a single session.
 
-- **Book units** - use for tutorial content, examples and non-critical assessments. If students, when looking at one unit, need to review content in another unit, then a book is preferable as they can access all parts of the book if they need to.
+- **Book assignments** - use for tutorial content, examples and non-critical assessments. If students, when looking at one assignment, need to review content in another assignment, then a book is preferable as they can access all parts of the book if they need to.
 
 
-Note that you can mix both book and project units in a course.
+Note that you can mix both book and project assignments in a course.
 ## Author and student views
-The experience when authoring differs from that of a student. Students are not able to view the authoring tools. When they start a unit or project, if there is content present, it will automatically be shown. The author can also specify whether the student is able to close the content or not.
+The experience when authoring differs from that of a student. Students are not able to view the authoring tools. When they start a assignment or project, if there is content present, it will automatically be shown. The author can also specify whether the student is able to close the content or not.
 
 If you are an author, you will often want to view the content as a student will see it.
 
@@ -130,7 +130,7 @@ When the content is rendered to a student, various options can be controlled
 
 - The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
-- **Settings** allows the user to view the unit as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
+- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
 - **[Show/Hide Section List Hamburger Icon](/content/authoring/guides/collapse/)** allows the user to show/hide the section list.
 
 #### Restore current files
@@ -236,12 +236,12 @@ This allows you to play audio files within your project.
 - **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
 - **[Lexicon Topic](/misc/schoolscontent/lexikon)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
-- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the unit is run in a [Class](/classes/unitmanagement/assign-project).
+- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/classes/unitmanagement/assign-project).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
 ![StartGuides](/img/guides/startguides.png)
 - **Use submit buttons** see [Student submission options](/content/authoring/assessments/submitcomplete/) for more information
 - **Use mark as completed** see [Student submission options](/content/authoring/assessments/submitcomplete/) for more information
-- **Collapsed on start** starts the unit with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
+- **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
 ![OpenGuides](/img/guides/guidecollapse.png)
 
 - **Hamburger Icon** can be pressed to show or hide the Section List.
@@ -257,7 +257,7 @@ The best way to author content is using markdown. It is extremely easy to write 
 We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your own account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project.
 
 ### Courses and Books
-We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course units and books](/content/authoring/3ways).
+We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/content/authoring/3ways).
 
 ### Media assets
 When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
@@ -284,7 +284,7 @@ The benefit of hiding folders is that the student is not distracted by folders a
 ### Assessments
 Codio offers a range of [manually and auto-graded assessments](/content/authoring/assessments). When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning.
 
-When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
+When used in a course situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher course dashboard, allowing them to monitor students' progress across a Course.
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
@@ -440,7 +440,7 @@ Some text
 
 ![calloutinfo](/img/guides/callout_info.png)
 
-The **Guidance** callout block is only visible in play mode to designated teachers within a class. It is not visible for students.
+The **Guidance** callout block is only visible in play mode to designated teachers within a course. It is not visible for students.
 
 
 ### Hyperlinks, Images, Videos & iframes
@@ -536,7 +536,7 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.open('preview', url, panel_num)` - Opens a preview window at `url`. `panel_num` specifies the location of the panel, where `0` is the first panel from top left.
 - `codio.goToNextSection()` - Moves to the next page in the guide.
 - `codio.goToPreviousSection()` - Moves to the previous page in the guide.
-- `codio.switchUnit(unitId)` - Changes to a different unit. The Unit ID is found by opening the unit and getting the ID from the URL.
+- `codio.switchUnit(unitId)` - Changes to a different assignment. The assignment ID is found by opening the assignment and getting the ID from the URL.
 - `codio.goToSectionTitled('Section Title')` - Switches to the page whose title is "Section Title'.
 - `codio.assessments.check(assessmentId)` - Executes the assessment
 - `codio.assessments.reset(assessmentId)` - Resets any response and score that the user may have already provided for `assessmentId`.
@@ -547,9 +547,9 @@ In a page authored using Markdown, you are able to create buttons and other acti
 ## Teacher only content
 Teacher only content can be viewed by teachers when:
 
-- using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a unit within a course module in a class
-- [viewing student code](/classes/monitor/studentcode) within a class
-- working on a unit in a [course](/courses/working-with/) with the 'View as teacher' function enabled
+- using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a assignment within a course module in a course
+- [viewing student code](/classes/monitor/studentcode) within a course
+- working on a assignment in a [course](/courses/working-with/) with the 'View as teacher' function enabled
 ![View as Teacher](/img/teachersolutions.png)
 
 
@@ -557,7 +557,7 @@ Warning
 
 - If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
 
-You can make content available on to class teachers in the following ways.
+You can make content available on to course teachers in the following ways.
 
 ### Entire page
 If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](/content/authoring/settings-actions/page#teacheronly).
@@ -571,7 +571,7 @@ If you want to hide a certain piece of information *within a page* from students
 This solution will only be shown
 
 - to teachers
-- provided the content is published within a unit
+- provided the content is published within a assignment
 - if you share a project normally or it is public and a student loads it, they have access to this content.
 
 |||

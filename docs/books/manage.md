@@ -20,11 +20,11 @@ Modify a book's settings by clicking on the gear icon.
 You can delete a book by clicking on the gear icon and then pressing the **Delete** button.
 
 ## Table of contents
-The table of contents is edited using the Codio Guide authoring capability. This is the same functionality as available for authoring project and project unit content.
+The table of contents is edited using the Codio Guide authoring capability. This is the same functionality as available for authoring project and project assignment content.
 
 Please [click here](/content/authoring/toc/) for full details.
 ## Editing page content
-The page content is edited using the Codio Guide authoring capability. This is the same funcitonality as available for authoring project and project unit content.
+The page content is edited using the Codio Guide authoring capability. This is the same funcitonality as available for authoring project and project assignment content.
 
 Please [click here](/content/authoring/page-edit/overview/) for full details.
 ## Publishing and the stack
@@ -36,7 +36,7 @@ Please note the following.
 
 1. Publishing creates a snapshot of the book and creates a new version.
 1. You can continue work on the book without affecting the published version.
-1. When you map a course unit to a book, it will only pull from a published version.
+1. When you map a course assignment to a book, it will only pull from a published version.
 
 When you press the **Publish** button, the following screen will appear.
 
@@ -76,7 +76,7 @@ You should enter a description of the stack changes made and then press **Publis
 ![versions](/img/book_stack_newversion.png)
 
 ### Stack modified: New Stack
-If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or units should use, then select this option.
+If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or assignments should use, then select this option.
 
 This will create a new stack with the permissions you specify. To give access only to others within your organization, select **Private** and then select the owner organization from the drop down list below.
 
@@ -86,15 +86,15 @@ It will take a few minutes to prepare the stack, so please be patient. Once it i
 
 
 ### Later book modifications
-If, after publishing, you make further changes to our book then you will need to re-publish when you want those changes are available to courses. This will not happen automatically. You will need to update the project unit within your course to pull the published version by pressing **Update to latest version**.
+If, after publishing, you make further changes to our book then you will need to re-publish when you want those changes are available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version by pressing **Update to latest version**.
 
 
 ### Course mapping
-A book cannot be assigned to a class without mapping it through a course. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures.
+A book cannot be assigned to a course without mapping it through a course. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures.
 
-You can map the entire book through a single course unit if you are not concerned about detailed unit mappings.
+You can map the entire book through a single course assignment if you are not concerned about detailed assignment mappings.
 
-Please refer to [Creating book based course units](/courses/units/unit-add#createbook) page for details on how to do this.
+Please refer to [Creating book based course assignments](/courses/units/unit-add#createbook) page for details on how to do this.
 
 
 
@@ -111,7 +111,7 @@ To modify the permissions, goto **Books** from the dashboard. Then select the se
 ![Book settings](/img/booksettings.png)
 
 ### Private / Public visibility
-If the book is set to **Private**, unless you override the permissions, only you can modify a book contents and create course units from it. Private books cannot be assigned to public courses.
+If the book is set to **Private**, unless you override the permissions, only you can modify a book contents and create course assignments from it. Private books cannot be assigned to public courses.
 
 If the book is set to **Public**, then any Codio user inside or outside your organization can create courses from your book but they will not be able to edit it.  The default organization setting restricts the ability to create Public books. To allow this, see [Public/Private Settings](/dashboard/create/public_private).
 
@@ -128,8 +128,8 @@ The permissions can be changed by selecting the **Permissions** tab on the book 
 
 You can grant the following permissions.
 
-- **Read** : this allows the user or organization specified to create course units from your book.
-- **Write** : this allows the user or organization to create course units and to edit your book. If you want to co-author/collaborate with another user on a book, then you an either follow the process described below or you can use git and a remote git repo.
+- **Read** : this allows the user or organization specified to create course assignments from your book.
+- **Write** : this allows the user or organization to create course assignments and to edit your book. If you want to co-author/collaborate with another user on a book, then you an either follow the process described below or you can use git and a remote git repo.
 
 It is important to understand that each user editing a book is not actually editing the same physical project. Codio uses snapshotting of the latest published version. If using the basic collaboration approach described below and not git, then you should remember that **only one user should make changes at a time**.
 
@@ -145,8 +145,8 @@ User B now makes changes to the book. When done, User B should publish the book 
 
 You can do this with as many users as you like, provided that only one user is making changes at a time.
 
-## Creating course units
-Books cannot be accessed directly by students. Once your book is [published](/books/publish), you need to [map parts of it to one or more course units](/courses/units/unit-add#createbook), which can then be [assigned to a class](/classes/unitmanagement/assign-module).
+## Creating course assignments
+Books cannot be accessed directly by students. Once your book is [published](/books/publish), you need to [map parts of it to one or more course assignments](/courses/units/unit-add#createbook), which can then be [assigned to a course](/classes/assignmentmanagement/assign-module).
 
 
 

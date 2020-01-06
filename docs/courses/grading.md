@@ -4,26 +4,26 @@ title: "Grading and accessing student projects"
 
 ---
 
-You can monitor student progress and time spent on individual units.
+You can monitor student progress and time spent on individual assignments.
 
-1. From the **Classes** screen, click on your class to open it.
+1. From the **Courses** screen, click on your class to open it.
 ![authtoken](/img/monitor_students/year10class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
 ![authtoken](/img/monitor_students/studentstab.png)
 
-1. You will see all students in your class displayed on this screen. You will see progress data for units started and units completed alongside their names.
-1. To see an individual student's progress in more detail click on their name. You will then see an individual breakdown of auto-graded assessment results, along with time spent on each unit.
+1. You will see all students in your class displayed on this screen. You will see progress data for assignments started and assignments completed alongside their names.
+1. To see an individual student's progress in more detail click on their name. You will then see an individual breakdown of auto-graded assessment results, along with time spent on each assignment.
 ![authtoken](/img/monitor_students/breakdown.png)
-1. To see a more detailed breakdown of each unit the student has attempted, click on the unit name. You will be able to view a breakdown of the challenges attempted along with corresponding results.
+1. To see a more detailed breakdown of each assignment the student has attempted, click on the assignment name. You will be able to view a breakdown of the challenges attempted along with corresponding results.
 
 <a name="downloadcsv"></a>
 ## Download CSV summary
 
-You can also download a CSV file of your students progress. You can do this for individual units to see all your students by clicking on the blue triple dot icon to the right of the unit name:
+You can also download a CSV file of your students progress. You can do this for individual assignments to see all your students by clicking on the blue triple dot icon to the right of the assignment name:
 ![authtoken](/img/downloadcsv_unit.png)
 
-or you can download a CSV file for the Course to see all your students progress in all the units in each Module by hovering over the Module name to select **Download CSV** there:
+or you can download a CSV file for the Course to see all your students progress in all the assignments in each Module by hovering over the Module name to select **Download CSV** there:
 ![authtoken](/img/downloadcsv_module.png)
 
 or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data](/classes/classmanagement/export/) for more details
@@ -32,7 +32,7 @@ or you can export all the data from a class (including the students workspaces) 
 
 As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time.
 
-1. From the **Classes** area, click on your class to open it.
+1. From the **Courses** area, click on your class to open it.
 ![Class](/img/monitor_students/year10class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
@@ -56,17 +56,17 @@ Auto-graded assessments will appear in the teacher dashboard.
 
 ### Overview
 
-Unit creators create the unit with [Jupyter notebook](https://jupyter.org/) files for the assignment.
+Assignment creators create the assignment with [Jupyter notebook](https://jupyter.org/) files for the assignment.
 
 **nbgrader** support doesn't require [guides](/content/authoring/) or any other [assessments](/content/authoring/assessments/).
 
 Any user configurations required should be stored in a `.codio-jupyter` file.
 
-if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based grader, and therefore only **nbgrader** can be selected for the assessment scripts in the unit
+if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based grader, and therefore only **nbgrader** can be selected for the assessment scripts in the assignment
 
-When the unit is published to a class, either as an [individual project](/classes/unitmanagement/assign-project) or as part of a [course/module](/classes/unitmanagement/assign-module), the release version is created for the student.
+When the assignment is published to a class, either as an [individual project](/classes/unitmanagement/assign-project) or as part of a [course/module](/classes/unitmanagement/assign-module), the release version is created for the student.
 
-When the student submits the assignment by marking the unit as complete, it will be [autograded](/classes/unitmanagement/settings-info/autograde) automatically.
+When the student submits the assignment by marking the assignment as complete, it will be [autograded](/classes/unitmanagement/settings-info/autograde) automatically.
 
 [Manual grading](/classes/monitor/grading/) is also available if required
 
@@ -153,7 +153,7 @@ Codio's grading features address four important aspects when grading student pro
 ### The grading process
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
-The teacher is also able to filter either finding specific students or to view students based on the status of the unit.
+The teacher is also able to filter either finding specific students or to view students based on the status of the assignment.
 ![Filtering](/img/filter.png)
 
 Students can be filtered by:
@@ -170,16 +170,16 @@ You can access the student's project from the same screen by clicking on the 3 b
 
 ![Grading access](/img/grading-unit.png)
 
-The teacher can also mark the unit as complete going to the **Education->Mark as Completed** menu item within the IDE and if already marked as complete, can change the status to incomplete
+The teacher can also mark the assignment as complete going to the **Education->Mark as Completed** menu item within the IDE and if already marked as complete, can change the status to incomplete
 
 There are two ways to assign the grade.
 
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.
-- Or you can grade from the class dashboard. You must first have selected the unit associated with the project and then press the grading icon.
+- Or you can grade from the class dashboard. You must first have selected the assignment associated with the project and then press the grading icon.
 
 Also see [Autograding](/classes/unitmanagement/settings-info/autograde/)
 
-To grade from the class dashboard, you should first select the assignment unit. You can see the check mark next to those students who have completed the assignment.
+To grade from the class dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
 
 To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center). You can then modify the comments and grade fields for any individual student.
 
@@ -191,17 +191,18 @@ By default students are not shown the grades until you decide to release them to
 
 ![Grading](/img/grading-release.png)
 
-Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Feedback**
+Students are able to see their grades either from their Course view or by opening the assignment and going to **Education->Feedback**
 
-You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
+You can also release grades from the main assignment view right clicking on the 3 vertical dots and selecting **Release grades**.
 
 ![Release Grades](/img/grading-release2.png)
 
 <a name="releasegradesstatus"></a>
 ### Automatically releasing grades
-If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information.
+If you wish to automatically release grades when students complete a assignment, you can enable this feature at the organisation level so when you create new [courses](/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information.
 
-You can also change the status of this feature for individual classes if required on the admin tab of the class.
+You can also change the status of this feature for individual C
+courses if required on the admin tab of the class.
 ![Class Release Grades](/img/changereleasegrades.png)
 
 ### Grading moderation
@@ -221,11 +222,11 @@ Teachers who you want to perform grading moderation will need to be added to the
 
 ## Grading free text questions
 
-Free text questions will normally require a manual grading process. In order to grade these questions, you should first select the unit. You will then be shown the student list, as you can see below.
+Free text questions will normally require a manual grading process. In order to grade these questions, you should first select the assignment. You will then be shown the student list, as you can see below.
 
 ![StudentList](/img/studentlist.png)
 
-You can now select a student. You will then be shown the list of all assessments for that student within the unit. Free text questions are denoted by the icon highlighted below.
+You can now select a student. You will then be shown the list of all assessments for that student within the assignment. Free text questions are denoted by the icon highlighted below.
 
 ![Free Text Grading](/img/guides/freetext-grading.png)
 
@@ -235,7 +236,7 @@ Note that if a student has started to answer a question but not submitted the an
 ### Partial Point Rubric
 
 Where an answer is set to all partial points, a rubric is provided to allow graders to dynamically deduct points from the maximum score.
-A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this unit, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each unit, and every new unit starts with an empty rubric.
+A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this assignment, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each assignment, and every new assignment starts with an empty rubric.
 
 ![Free Text Grading](/img/guides/partialpointrubric.png)
 
@@ -254,7 +255,7 @@ Editing is allowed while grading so the teacher can:
 - edit the weight or name.  If weight is changed a warning will be shown for confirmation
 
 ### Cloning
-A rubric can be cloned from another unit if required in preference to creating manually. Select the gear icon (circled in image above) to select the unit.
+A rubric can be cloned from another assignment if required in preference to creating manually. Select the gear icon (circled in image above) to select the assignment.
 
 ### Points adjust
 The points adjust field allows the teacher/instructor to manually adjust (ie reduce) the students total score if required without having to edit/change the rubric
@@ -265,4 +266,4 @@ A comments field is provided to allow teacher/instructors manual feedback
 
 If a class deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
 
-You can also see the date and time for each submitted answer as well as the date that the unit was [marked as complete](/dashboard/student/guides#completed) by the student.
+You can also see the date and time for each submitted answer as well as the date that the assignment was [marked as complete](/dashboard/student/guides#completed) by the student.

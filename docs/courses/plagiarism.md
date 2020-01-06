@@ -5,25 +5,25 @@ description: ""
 
 ---
 
-Plagiarism detection allows you to check for code copying and potential cases of cheating between members of a class. With the current version, Codio will compare the code projects of all students within a class for a specific teaching unit.
+Plagiarism detection allows you to check for code copying and potential cases of cheating between members of a course. With the current version, Codio will compare the code projects of all students within a course for a specific teaching assignment.
 
-If you want to include other reference code to include in the cross comparison, then you will need to create a dummy student account, add that dummy student to the class and upload the reference code as that student for that unit.
+If you want to include other reference code to include in the cross comparison, then you will need to create a dummy student account, add that dummy student to the course and upload the reference code as that student for that assignment.
 
-Plagiarism detection is best used with programming project units rather than Codio authored projects. It will work in both cases but it is really designed to test general coding projects rather than lots of auto-graded assessments within a unit.
+Plagiarism detection is best used with programming project assignments rather than Codio authored projects. It will work in both cases but it is really designed to test general coding projects rather than lots of auto-graded assessments within a assignment.
 
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 
 
-To run the Plagiarism checker you need to first select the Unit within the class and then press press the actions button next to the unit name.
+To run the Plagiarism checker you need to first select the assignment within the course and then press press the actions button next to the assignment name.
 
 ![authtoken](/img/guides/plag-button.png)
 
-## Classes
-In order to use this feature you need to set up a class. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
+## Courses
+In order to use this feature you need to set up a course. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
 
 ## Access Plagiarism features
 
-When in your class, select your unit and then click the **Actions** button (button to the top right of the screen) to show the available actions that includes Plagiarism
+When in your course, select your assignment and then click the **Actions** button (button to the top right of the screen) to show the available actions that includes Plagiarism
 
 ![authtoken](/img/guides/plag-button.png)
 
