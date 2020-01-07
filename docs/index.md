@@ -16,7 +16,7 @@
 | link to various sections in Intercom for the question based articles/videos etc| 
 | include a 'ask a question' that goes to help@codio.com that we will get into Intercom to be able to answer!
 
-# Full technical details and documentation
+Full technical details and documentation
 
 |**The Codio Dashboard** |**Projects and Templates**|
 | :------ |  :----------- |
@@ -47,8 +47,8 @@
 |[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Introduction](/books/introduction)
 |[How are courses organised](/resources/schoolscontent/organization)|[Limitations and restrictions](/books/limitations)
 | [Finding courses](/resources/schoolscontent/coursefind)|[](#books-working)[Working with books](/books/manage)
-| [Course visibilty](/resources/schoolscontent/courseview)| **Student View**| 
-| [What content do you recommend?](/resources/schoolscontent/recommended)|[The student view](/studentview)
+| [Course visibilty](/resources/schoolscontent/courseview)| **Student Help**| 
+| [What content do you recommend?](/resources/schoolscontent/recommended)|[The student view](/students)
 |[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)|
 |[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)|
 |[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)|

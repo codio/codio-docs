@@ -18,7 +18,7 @@ nav:
     - Codio: https://www.codio.com
     - Home: index.md
 
-# extra_css:
+#extra_css:
 #     - css/extra.css
 
 markdown_extensions:

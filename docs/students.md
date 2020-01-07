@@ -1,7 +1,3 @@
----
-title: "The Student View"
-description: ""
----
 
 The student dashboard is the main ‘home’ area that you use to navigate Codio. This is what it looks like:
 
