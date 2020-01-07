@@ -9,7 +9,7 @@ A course has the following properties.
 
 - It is a grouping of students who are taught as a logical group.
 - It can have one or more teachers/instructors.
-- You can content to it.
+- You can add content to it.
 - You can instantly access student code and projects.
 - You can integrate the course with any LTI enabled LMS platform such as Canvas, D2L, Moodle, Blackboard and many others. Your LMS can auto-populate courses and grade data can be fed back from Codio to the LMS.
 
@@ -25,10 +25,45 @@ To work with the course features in Codio you will first need to set up a course
 1. Click the **blue plus** sign at the top left of the page.
 ![authtoken](/img/manage_classes/blue_plus.png)
 
-1. Complete the details requested, then click **Create Course**.
+1. Select **Empty Course** , complete the details requested, then click **Create Course**.
 ![authtoken](/img/manage_classes/create_class/new-class.png)
 
 1. Your new course will appear in your **Courses** area.
+
+### Creating new course from share code
+
+You can create courses from a code other users in other organisations can share to you. 
+
+1. Select the **From Share Code** option
+
+1. Enter the code given and complete all other details and the course will be created for you.
+
+### Sharing your course with others
+
+**TODO**
+![Share Course Dash](/img/manage_classes/sharecode.png)
+### Cloning a Course
+
+You can clone an existing course to create a new course in 2 ways
+
+1. Sign in to Codio at www.codio.com
+
+Either:
+1. Click the 3 blue dot menu item shown on the main course dashboard and select **Clone Course**
+![Clone Course Dash](/img/manage_classes/maincloneclass.png)
+
+or
+
+2. Select the existing course, go to the **Admin** area.
+
+- Click the **Clone Course** button at the bottom of the page.
+![Clone Course](/img/manage_classes/cloneclass.png)
+
+1. Complete the details requested for the name of the new course, then click **Create Course**.
+
+1. Your new course will appear in your **Courses** area.
+
+Please note, students in the existing course will not be added to the new course.
 ## Searching and ordering courses
 Courses are shown grouped together by their creation date with the most recently created first.
 
@@ -41,7 +76,7 @@ The grouping intervals are
 
 ### Ordering courses within their groups
 
-Courses can be ordered by Name, Creation Date or Begin Date within the groups
+Courses can be ordered by Name, Created Date, Student Count or Start Date within the groups
 
 ![CreateDate](/img/manage_classes/orderclass.png)
 
@@ -50,13 +85,16 @@ Courses can be ordered by Name, Creation Date or Begin Date within the groups
 
 If you have a large number of courses, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all course names and filter your list accordingly.
 ![Name](/img/manage_classes/nameclass.png)
+
+### Archiving Courses
+**TODO**
+
 ## Adding teachers to a course
 Your course may be taught by more than one teacher. If this is the case, you can add another teacher to your Codio course in the following way:
 
 
 1. From the **Courses** area, click on your course to open it.
 
-    ![Courses](/img/manage_classes/year_10_class.png)
 
 1. Click on the **Admin** tab, centre right near the top.
 
@@ -85,14 +123,13 @@ Your course may be taught by more than one teacher. If this is the case, you can
 
 ## Teaching Assistants
 
-A user cannot be a teacher and a student in the same course, but they can be a student in one course and a teacher in another. They can be invited into the course in the same manner as above and they will then be able to switch between being a teacher and student. When they are in teacher mode they will see all the courses in which they are set as a teacher and when in student mode will see all the courses in which they are set as a student.
+A user cannot be a teacher and a student in the same course, but they can be a student in one course and a teacher in another. They can be invited into the course by sending then the invitation email and they will then be able to switch between being a teacher and student. When they are in teacher mode they will see all the courses in which they are set as a teacher and when in student mode will see all the courses in which they are set as a student.
 
 
 ## Add students to a course
 You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Course Invitation URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:
 
 1. From the **Courses** area, click on your course to open it.
-![authtoken](/img/manage_classes/year_10_class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
 ![authtoken](/img/manage_classes/students_tab.png)
@@ -108,14 +145,13 @@ You can add students to your organization and your course easily by giving each 
 1. If using the URL, the students can just click that and proceed as above.
 
 1. To view the students in your course, select the course and the **Students** tab once again. You will see a list of students who have successfully completed the sign-up process.
-![authtoken](/img/manage_classes/adding_students_invite/student_list.png)
+
 
 ## Change student passwords
 You can change a student's password in the following way:
 
 1. From the **Courses** area, click on your course to open it.
 
-![authtoken](/img/manage_classes/year_10_class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
 
@@ -124,42 +160,23 @@ You can change a student's password in the following way:
 1. You will see all students in your course displayed on this screen. Find the student whose password needs to be changed and click on the blue triple dot icon to the right of their name. Choose **Change student's password** and follow the steps to reset.
 ## Remove a student from a course
 1. From the **Courses** area, click on your course to open it.
-![authtoken](/img/manage_classes/year_10_class.png)
+
 
 1. Click on the **Students** tab, top centre of your screen.
+
 ![authtoken](/img/manage_classes/students_tab.png)
 
-1. You will see all students in your course displayed on this screen. Find the student that you want to remove from the course and click on the blue triple dot icon to the right of their name. Choose **Remove student** to take them out of the course. (Note: this does not remove your student entirely from your organization - if you wish to do this, see [Remove Members](/dashboard/create/removemembers))
+1. You will see all students in your course displayed on this screen. Find the student that you want to remove from the course and click on the blue triple dot icon to the right of their name. Choose **Remove student** to take them out of the course. (Note: this does not remove your student entirely from your organization - if you wish to do this, see [Remove Members](/dashboard/organisations/#remove-members)
 
-![authtoken](/img/manage_classes/remove_student/remove_student.png)
-## Cloning a course
-You can clone an existing course to create a new course in 2 ways
+![authtoken](/img/manage_classes/remove_student.png)
 
-1. Sign in to Codio at www.codio.com
-
-Either:
-1. Click the 3 blue dot menu item shown on the main course dashboard and select **Clone Course**
-![Clone Course Dash](/img/manage_classes/maincloneclass.png)
-
-or
-
-2. Select the existing course, go to the **Admin** area.
-
-- Click the **Clone Course** button at the bottom of the page.
-![Clone Course](/img/manage_classes/cloneclass.png)
-
-1. Complete the details requested for the name of the new course, then click **Create Course**.
-
-1. Your new course will appear in your **Courses** area.
-
-Please note, students in the existing course will not be added to the new course.
 ## Book Visibility
 A book based assignment can map to parts of a book. Students can see the mapped book portions of the book in the table of contents.
 
 You can also specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. This setting applies to all assignments in the course.
 
 It is controlled from the Admin section in the course
-
+**TODO when implemented**
 ![Book Visibility](/img/bookpages.png)
 
 This option will only show in a course if there is a course containing book based assignments.
@@ -198,9 +215,9 @@ Course data (including students workspaces) can be exported. We would recommend 
 
 ![Course Export Links](/img/class_exportlinks.png)
 
-Individual assignments data can also be exported separately if required. See [export assignment data](/classes/unitmanagement/settings#exportunitdata) for more details
+Individual assignments data can also be exported separately if required. See [export assignment data](/courses/classes/#export-assignment-data) for more details
 
-If your course is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/classes/lti/lti1_0/keys#exportlti) for more information.
+If your course is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/courses/lti1_0/#exporting-lti-settings) for more information.
 
 
 ### User Access Data
@@ -222,22 +239,22 @@ Use this to download a CSV of user access to assignments in the course. Details 
 
 ![course Export](/img/user_access_export.png)
 
-Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
+Collection and storage of this data will be retained for maximum of 6 months.
 
 ### LTI Settings
-For more information see [Exporting LTI settings](/classes/lti/lti1_0/keys/)
+For more information see [Exporting LTI settings](/courses/lti1_0/#lti-keys)
 
 ### Working with student workspaces
 
 If in the future you have need to review any students workspace, these can be imported back into your Codio account.
-Simply 'zip' up the folder and you can then import the project into your account. See [creating and importing a project](/project/creating/) for more information.
+Simply 'zip' up the folder and you can then import the project into your account. See [creating and importing a project](/project/projects/#creating-and-importing-a-project) for more information.
 
-Please note, the stack used in the original workspace is not included in the exported workspace so if you need to 'run' the project you should select the appropriate stack either when importing the project or by switching the stack, either from the gear icon in the main projects listing or by going to **Project>Stack>Settings** in the project
+Please note, the stack used in the original workspace is not included in the exported workspace so if you need to 'run' the project you should select the appropriate stack when importing the project or by switching the stack, either from the gear icon in the main projects listing or by going to **Project>Stack>Settings** in the project
 
 
 
 ## Course contact url
-Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the [organisation contact url](/dashboard/create/orgcontacturl) if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.
+Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the [organisation contact url](/dashboard/organisations/#organisation-contact-url) if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.
 
 Students will then be shown all the options in addition to contact Codio directly if they have a problem accessing the Codio platform, or loading a assignment.
 
@@ -247,7 +264,7 @@ Students will then be shown all the options in addition to contact Codio directl
 
 ![Course contact url](/img/classcontacturl.png)
 
-**N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/support/) for more on this**
+**N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/account/#contact-us) for more on this**
 
 ## LMS shared feedback
 If your organisation uses an LMS, when grades are released a URL is passed to the LMS grading area where students/teachers can access the grading information for the assignment.
@@ -264,7 +281,7 @@ The Grading Rubric feature provides a two dimensional grid that provides grading
 ![rubric example](/img/class_administration/grading/template-example.png)
 
 ### Grading Rubric templates
-You will only have access to this feature if you are a member of the [owners group](/dashboard/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.
+You will only have access to this feature if you are a member of the [owners group](/dashboard/organisations/#administrator-role) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.
 
 You should see a **Grading Templates** tab item. There will be fewer tabs visible if you are not an organization owner.
 
@@ -282,7 +299,11 @@ A final score is calculated based on your selections and is re-based to the maxi
 
 
 ### Applying a grading template to an assignment
-To use a grading template you should select the course so you see the full assignment listing. Press the button with the 3 dots to bring up the menu. Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
+To use a grading template you should select the course so you see the full assignment listing. To the top right of the list item is a pencil icon. Click on this to enter editing mode
+
+![asignmentsettings](/img/class_administration/asignmentsettings.png)
+
+Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 ![rubric template apply](/img/class_administration/grading/set-template.png)
 ![rubric template set](/img/class_administration/grading/grading-template.png)
@@ -313,8 +334,8 @@ An organization owner can see the status of the Gigabox count in the organizatio
 
 
 ## Assign a project to the course
-## An Assessment
-In Codio, a teaching assessment is a project that has been assigned to a course. The scope of an assessment is entirely up to you but it could be a project assignment that a course works on. It could also be some tutorial content built using Guides. We generally recommend that it relates reasonably closely to a lesson or two. But if you prefer and it suits your structure better then you can assign as much or as little content to a assignment as you like.
+
+In Codio, a teaching assignment is a project that has been assigned to a course. The scope of an assignment is entirely up to you but it could be a project assignment that a course works on. It could also be some tutorial content built using Guides. We generally recommend that it relates reasonably closely to a lesson or two. But if you prefer and it suits your structure better then you can assign as much or as little content to a Unit as you like.
  
  There are two ways you can assign an assessment to a course.
  
@@ -325,27 +346,30 @@ The simplest and quickest thing you can do is to assign one of your projects to 
 - Now click the **+** button in the top left.
 - Select **Empty Module** and create a new module.
 - When created click **Add Assignment** and then select **Project Based**
-- From here you can either start creating a new project or import projects in. As you have already created your project earlier in this guide, click on the option
+- From here you can either start creating a new project or import projects in.
+- To import an existing project see: 
 
-![](/img/manage_clases/assign_project_to_class/import.png)
+![](/img/import.png)
 
 - Then select **Fork Project** and your project will show. If you have other projects in your **My Projects** area you can browse to select one of them.
 - At this point you can set the name of the assignment (by default it will be the name of your project with 'fork' appended) and add a description if you wish.
 - When ready, click the **Create** button and the assignment will be added to the course module in draft mode.
-- For the assignment to be visible to your students, you need to **Publish** the assignment
+- To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see [Course Management](/courses/coursemanagement)
+- For the assignments to be visible to your students, you need to **Publish** the assignment.
+- Any changes you make in future to assigments will not be visible to students until you publish again
 
-![](/img/manage_clases/assign_project_to_class/publish.png)
+![](/img/publish.png)
 
 At this point, we take a snapshot of your source project, ready for the students to clone when they start the assignment. Any changes you make to the source project will not be reflected automatically in the student assignment.
 
 Once assigned to the course, each student will be able to access the assignment from their dashboard. Go to the **Students** tab and login as one of the test students. Make sure you have the correct course and module selected form the dropdowns. You will now see the assignment in the list. If you don't, make sure the module dropdown has the correct module name selected.  You can then switch back to your teacher account.
-## Assign existing course modules to the course
-You can assign a course module and all of its assignments to your course with a single action.
+## Assign resource modules to the course
+You can assign existing course modules and all of its assignments to your course with a single action.
 
-To assign a course module, follow the steps below:
+To assign an existing course module, follow the steps below:
 
 1. From the **Courses** screen, click on your course to open it.
-![authtoken](/img/manage_classes/year_10_class.png)
+
 
 
 1. Click on the **blue plus** sign, top left of the page, and choose **Copy from Existing**.
@@ -355,7 +379,6 @@ To assign a course module, follow the steps below:
 
 
 1. The module will appear in your course.
-
 
 ### Removing course module from a course
 
@@ -369,7 +392,9 @@ You can also remove individual assignments from a module, clicking the **Delete*
 Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/classes/monitor/progress#downloadcsv) before removing the module or assignment.
 
 ## Update course
-If any updates to content used in your course are detected, you can upgrade to the latest version from the **Update Course** button. The code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment.
+
+**TODO**
+Where you are using content in multiple courses and changes are made to that content, these changes will be detected and you can upgrade the content of the other courses to the latest version from the **Update Course** button. The code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment.
 
 ![Update Course](/img/class_administration/upgradecourse.png)
 
@@ -400,7 +425,7 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 ![Create Organization](/img/class_administration/createanorganization/org_teams.png)
 
-1.  You can log in as the student dashboard by clicking the **Login as** button here:
+1.  You can log in as the student here by clicking the **Login as** button:
 
 ![Student login](/img/class_administration/createanorganization/studentlogin.png)
 
@@ -414,77 +439,38 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 If your course is LMS integrated then you will need to perform your testing from the LMS and not use the Codio test students.
 
-## Assignment settings and actions
-You can control assignment settings by pressing the button with 3 blue dots from the main assignment listing screen. 
+## Managing Assignments
+To the top right of the list item is a pencil icon. Click on this to enter editing mode.
+On this screen you can 
+- [Pin](/courses/classes/#pinunpin-units) the assignment
+- Amend the [Unit Duration](/courses/classes/#unit-duration) of the assignment
+- See at a glance how many students have started the unit
+- [Release the grades](/courses/classes/#release-grades)
+- View Insights for the assignment
+- Access the [assignment settings](/courses/classes/#assignment-settings)
 
-![assignmentSettings](/img/classunitsettings.png)
+From the 3 blue dot menu area you can
+- Run the [Plagiarism Checker](/courses/plagiarism/)
+- Download CSV with student grade data for the assignment
+- Export assignment data. This allows you to export all the data for the assignment, including the students workspaces. All the data from the course will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. The link will be active for 7 days and after this time the zip file will be removed. All the data from all the courses/modules/assignments in the course can also be exported. 
 
-Options are also available if you select an assignment. You will then see the **Settings** tab and **Actions** button.
+### Assignment Settings
+
+![asignmentsettings](/img/class_administration/asignmentsettings.png)
+
+Additional options are also available if you select the **Actions** button.
 
 ![Unit actions](/img/unitactions.png)
 
-## Settings available in blue dots menu and Actions area
-
-### Open as teacher
-This is only available from the blue dots menu. It [opens a unit in teacher mode](/classes/unitmanagement/settings-info/teachersolutions/). This allows you to see content that is for teachers' eyes only. You cannot edit an assignment from this.
-
-### Release grades
-By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a course. When you are ready to do so, you can select the option from the blue dots menu or the **Actions** area.
-
-### Plagiarism checker
-You can run [plagiarism detection](/classes/plag/plag-start) from the blue dots menu or the **Actions** area.
-
+## Assignment Settings
+Available from the **Settings** area.
 ### Pin/unpin units
-Available from the blue dots menu as well as the **Settings** tab, this allows you to [pin or unpin an assignment](/classes/unitmanagement/settings-info/pin). Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.
-
-### Download CSV
-This allows you to download a CSV file with student grade data for the assignment.
-
-<a name="exportassignmentdata"></a>
-### Export assignment data
-This allows you to export all the data for the assignment, including the students workspaces. All the data from the course will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. The link will be active for 7 days and after this time the zip file will be removed. All the data from all the courses/modules/assignments in the course can also be exported. See [exporting course data](/classes/classmanagement/export/) for more information
+This allows you to [pin or unpin an assignment](/classes/unitmanagement/settings-info/pin). Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.
 
 ### Disable/enable assignment
-This can be found in the blue dots menu and the settings area with the **Settings** tab selected. You can prevent students from accessing an assignment using this option. For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. You have the ability to [disable access to content outside the current assignment](/classes/unitmanagement/settings-info/disable/) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
+You can enable or disable assignments that have been assigned to a course. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
+For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. You have the ability to [disable access to content outside the current assignment](/classes/unitmanagement/settings-info/disable/) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
 
-### Settings
-Available from the blue dots menu, this opens the **Settings** tab.
-
-### Delete
-This removes the assignment from the course. Student data is not deleted so if you decide to add your assignment back, the student work will automatically be restored.
-
-## Settings available only for normal projects
-The following options are only available for assignments that were assigned to the course from a normal project (not a course).
-
-### Edit assignment
-This allows you to change the assignment name, description and icon.
-
-### Update assignment
-Individual assignments that were assigned from a normal (not course) project can be [updated using the **Update assignment** option](/classes/unitmanagement/settings-info/updateunit).
-
-## Actions
-The following options are available from the **Actions** area only.
-
-### Mark all as completed
-Students are supposed to [mark a assignment as completed](/dashboard/student/guides#completed)
-However, when it comes to grading time, faculty may want to force this status for all students in the course.
-
-### Reset assignment
-This [resets the assignment for all students in the course](/classes/unitmanagement/settings-info/reset-unit). Please be aware that this action results in student work being lost as the assignment is fully reset to its starting state.
-
-### Regrade completed
-This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. [Click here](/classes/monitor/assessments) for details on end of assignment auto-grade scripts.
-
-
-## Settings tab
-The following options are available only in the **Settings** tab.
-
-<a name="disablecomplete"></a>
-### Disable Mark as Completed
-Disabling will not allow students to mark the assignment as completed. If assignmentss in your course are of a 'playground' type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the course teacher/instructor to change the status back so they can continue working.
-If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides. See [Global settings](/content/authoring/settings-actions/global/) for more on this.
-
-<a name="visibilitycomplete"></a>
 ### Visibility on completed
 You can specify the students ability to access the assignment when completed. **Not available for book based assignments**
 
@@ -498,132 +484,14 @@ You can specify the students ability to access the assignment when disabled.  **
 - 'Read-Only' will allow students to access their assignment but not make any changes.
 - 'No Access' will not allow the students to access their assignment.
 
-
-
-### Assignment duration
-[Assignment duration](/classes/unitmanagement/settings-info/unit-duration) allows you to specify start and stop times for student access to an assignment. For book based assignments, you should read the caveats mentioned in the **Disable assignment** setting above.
-
-### Grading template
-You can specify a [grading template](/classes/classmanagement/rubric) (rubric) that this assignment should reference.
-
-<a name="autograde"></a>
-### Auto-grade method
-[The auto-grade method](/classes/unitmanagement/settings-info/autograde) allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
-
-
-## Excluding Files
-### Excluding files
-Files/folders may need to be excluded from students assignments. Such files may be
-unused resources/logs and other files used when testing the assignment prior to publishing.
-
-This can be handled by using `.unitignore` file in the source project and when published to a course, these files/folders will not be available to the students.
-
-Enter on a new line the file/folders to be excluded defining them relative to the location of the `.unitignore` file and defining folders with `/`
-
-For example if the `.unitignore` file is located in the project workspace and you wish to exclude
-
-- `testing` & `node_modules` folder
-- the file `checkscore.js` in the `views` folder
-- the files `app.js` and `README.md`
-
-the `.codioignore` file will be
-
-```
-/testing
-/node_modules
-/views/checkscore.js
-app.js
-README.md
-```
-
-## Update assignment
-### Projects assigned to the course
-
-Individual assignments that were assigned from a regular project can be updated using the **Update assignment** option. If you have added a assignment from a course then you should use the **[Update Course](/classes/unitmanagement/upgradecourse/)** instead.
-
-Click on the 3 blue vertical dots and select **Update assignment**
-
-
-![update assignment](/img/class_administration/projectupdateunit.png)
-
-Updating a assignment does the following.
-
-- Update the authored content in the `\.guides` folder for all students, even if they have started the assignment. Be aware that any material changes to individual assessments may result in data for those assessments being lost.
-- Pointing the assignment to a new stack will only be applied to students who have not yet started the assignment. If you need it to apply to all students, including those who have started, then you will need to [reset the assignment](/classes/unitmanagement/settings-info/reset-unit/), which will result in lost data.
-## Disable/enable assignments
-You can enable or disable assignments that have been assigned to a course. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
-
-You can also specify in the main settings tab whether the student has no access or read-only access to the project when the assignment is disabled. You can find this setting in the **Assignments** section on the settings screen.
-
-![authtoken](/img/manage_classes/readonly.png)
-
-To disable and then enable a assignment:
-
-1. From the **Courses** area, click on your course to open it.
-![authtoken](/img/manage_classes/year_10_class.png)
-
-1. Click on the **Assignments** tab, centre left of your screen.
-![authtoken](/img/manage_classes/units_tab.png)
-
-1. You will see the assignments you have assigned to your course.
-
-1. To disable an assignment, click the blue triple dot icon to the right of the assignment name, and choose either **Disable assignment**
-![authtoken](/img/manage_classes/disable_enable_unit/disable_unit.png)
-
-1. or select **Settings** to access the assignment settings screen
-![authtoken](/img/manage_classes/disable_enable_unit/disable_unit_settings.png)
-
-where you can also specify whether the student has no access or read-only access to the project when the assignment is disabled.
-![authtoken](/img/manage_classes/readonly.png)
-
-1. The assignment will now show as **disabled** and depending on the **Visiblity on Disabled** settings you may have optionally selected, students will not be able to access it or only have read only access.
-![authtoken](/img/manage_classes/disable_enable_unit/disable_unit_after.png)
-
-1. To enable the assignment again, click the blue triple dot icon and choose, **Enable Assignment** (or go to **Settings** and enable there)
-![authtoken](/img/manage_classes/disable_enable_unit/enable_unit.png)
-
-1. You can also disable/enable all assignment in a Module if required. Hover over the Module name and select the relevant option. **Note:** the option to set **Visibility on Disabled** is not available at the Module level.
-![authtoken](/img/disable_enable_module.png)
-
-
-## Pinning an assignment
-You can *pin* an assignment for your course. The assignment will appear **pinned** to the top of the student dashboard when students log-in in order make it easy to find. Jump to the [student dashboard](/dashboard/student/myclassroom) to find out more about what students see.
-
-![Pinned assignment](/img/manage_classes/pinning_a_unit/pinnedunit.png)
-
-To pin an assignment.
-
-1. From the **Courses** area, click on your course to open it.
-![course](/img/manage_classes/year_10_class.png)
-
-1. Click on the **Assignments** tab, centre left of your screen.
-![Assignments](/img/manage_classes/units_tab.png)
-
-1. You will see the assignments you have assigned to your course. To pin an assignment, click the blue triple dot icon to the right of the assignment name, and choose **Pin Assignment**
-![Pinning assignment](/img/manage_classes/pinning_a_unit/pin_unit.png)
-
-1. The assignment will highlight and a star will be shown to show it has been pinned.
-![Pinned assignment](/img/manage_classes/pinning_a_unit/pinned_pink.png)
-
-## Open as teacher
-You can open the assignment in teacher mode. This allows you to see any content that is for teachers' eyes only. This includes hidden content and teacher solutions auto-graded assessments.
-
-1. From the **Courses** area, click on your course to open it.
-![authtoken](/img/manage_classes/year_10_class.png)
-
-1. Click on the **Assignment** tab, centre left of your screen.
-![authtoken](/img/manage_classes/units_tab.png)
-
-1. You will see the assignments you have assigned to your course. To open the assignment as a teacher, click the blue triple dot icon to the right of the assignment name, and choose **Open as Teacher**
-![authtoken](/img/manage_classes/view_teacher_solutions/open_as_teacher.png)
-## Set assignment duration
+### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
 
 Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/classes/unitmanagement/settings-info/disable) students will either be refused all access or can have read-only access to the assignment.
 
 Please note, that selecting mark as complete will not stop students who have not started the assignment from being able to access the assignment after the stop date/time has been reached. If you wish to manage this, look at using the disable assignment and mark as complete option.
 
-This feature is accessible via the main settings tab.
+For book based assignments, you should read the caveats mentioned in the **Disable/enable assignment** section above.
 
 ![authtoken](/img/manage_classes/unitduration.png)
 
@@ -637,7 +505,7 @@ You can set the penalty date/time after the assignment end date/time but for stu
 **Time Zones**
 The time zone is taken automatically from your browser, so please check your time settings are correct.
 
-### Set assignment penalties
+#### Set assignment penalties
 You can specify penalties in the event that students do not complete the assignment within agreed timescales. Incremental penalties can be applied if required.
 
 
@@ -651,7 +519,7 @@ Each row in the table will contain the following fields :
 - Penalty % (The % of the total score for the assignment to be deducted as a penalty)
 - Message (If the message field is not specified, then a default message will be generated - see below)
 
-### Default Messages:
+#### Default Messages:
 
 1: If a student opens a project after deadline or the student is working in the assignment when deadline is reached
 
@@ -667,7 +535,7 @@ Once the final deadline hits (if one is set), the assignment will be forced to r
 
 ```You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.```
 
-### Teacher/Instructors Dashboard:
+#### Teacher/Instructors Dashboard:
 
 **Penalty indicator:** If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
 ![dashboard penalty](/img/penaltydashboard.png)
@@ -675,7 +543,7 @@ Once the final deadline hits (if one is set), the assignment will be forced to r
 
 <a name="adjustdeadline"></a>
 
-### Adjusting deadline for individual students
+#### Adjusting deadline for individual students
 
 The set deadline(s) can be adjusted forward by a number of days if required for individual students.
 
@@ -690,39 +558,13 @@ You can then adjust the deadline forward by as many days as you require
 When applied, the adjustment will then show next to the grade field in the teacher/instructors dashboard. The deadline in the image below was adjusted by 4 days
 
 ![penalties](/img/adjusted.png)
-## Reset assignment
-**This option will destroy all student work.**
 
-In the event that an assignment in your course is updated and, for some reason, you cannot use the [Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
+### Grading Template
+Where you can set the grading template to use for the assignment
 
-You can reset the assignment for all your students by selecting either
+### Autograde Method
 
-- the **Actions** button and then the **Reset** button
-
-![resetunit](/img/resetunitall.png)
-
-or
-
-- you can reset the assignment for individual students from the 3 blue dot menu
-
-![resetunit](/img/resetunitstudent.png)
-
-## Force marked as completed
-Certain actions can be triggered when a student marks an assignment as complete
-
-- [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer)
-- [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
-
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students.
-
-- Press the **Marking All As Completed** button to mark all student assignments as complete
-- Hover over a student to see the switch appear to the left of the students name, which you can then activate
-- [Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
-
-Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
-
-![assignment actions](/img/class_administration/mark-complete.png)
-## Autograde on assignment complete
+#### Autograde on assignment complete
 This option provides two ways of autograding assignment scores for each student. The grading field is populated by a script authored by the project author without the need to manually populate it. The autograding script is triggered once an assignment is marked as complete.
 
 A assignment is marked as complete in any of the following ways
@@ -740,12 +582,12 @@ The two autograding options can be found in the assignment settings.
 The two options can be found in the **AUTOGRADE METHOD** drop-down list.
 
 <a name="transfer"></a>
-### Transferring authored content assessment total
+#### Transferring authored content assessment total
 If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Courses dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/classes/monitor/grading).
 
 <a name="script"></a>
 
-### Running a custom script
+#### Running a custom script
 A more advanced way of populating the grading field is to write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.
 
 If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks.
@@ -753,14 +595,14 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 ![authtoken](/img/grading-secure.png)
 
 <a name="securescripts"></a>
-### Secure scripts
+#### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as an assignment, it is not accessible in any way and the script runs in an ephemeral container isolated from the students assignment.
 
 
-### Timeout
+#### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
 
-### Accessing authored content assessment results
+#### Accessing authored content assessment results
 You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
 
 ```
@@ -797,13 +639,13 @@ You can get both summary data and data for each assessment individually.
 
 
 <a name="regrading"></a>
-### Regrading for an individual student
+#### Regrading for an individual student
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
 
-### Regrading all students
+#### Regrading all students
 From the **Actions** area of the assignment, you can regrade all students that have already been auto-graded by pressing the **Regrade All** button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
 
-### Testing and debugging your grading scripts
+#### Testing and debugging your grading scripts
 **IMPORTANT**: please read this section carefully.
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a course.
@@ -823,7 +665,7 @@ It is important that it is located in the `.guides/secure` folder. You then spec
 
 You are now free to debug the Python script and fix any bugs that you may have noticed once students have started work on the assignment.
 
-### Testing your script in the IDE
+#### Testing your script in the IDE
 We provide the ability to test your autograding script from the **Education -> Test Autograde Script** menu.
 
 This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
@@ -841,7 +683,7 @@ You should be aware of the following points.
 
 If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under **Accessing Guide assessment results**.
 
-### Example Python grading script
+#### Example Python grading script
 Below is an example Python file that might be loaded by the bootstrap script above.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.
@@ -887,7 +729,7 @@ main()
 ```
 
 <a name="examplebashscript"></a>
-### Example Bash grading script
+#### Example Bash grading script
 
 Below is an example bash script file that would be stored  in .guides/secure folder
 
@@ -902,4 +744,96 @@ echo $CODIO_AUTOGRADE_ENV
 # Send the grade back to Codio
 curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 ```
+**TODO**
+#### Teachers Grading
+
+#### Assessments Grading
+
+#### Script Grading
+This allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
+
+
+## Settings available Actions area
+
+### Plagiarism checker
+You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu on the assignment or the **Actions** area.
+### Mark all as completed
+
+Certain actions can be triggered when a student marks an assignment as complete
+
+- [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer)
+- [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
+
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students.
+
+- Press the **Marking All As Completed** button to mark all student assignments as complete
+- Hover over a student to see the switch appear to the left of the students name, which you can then activate
+- [Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
+
+Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
+
+![assignment actions](/img/class_administration/mark-complete.png)
+### Unmark as complete
+Where the assignment can be marked as not complete for all students
+### Download CSV
+This allows you to download a CSV file with student grade data for the assignment.
+### Reset 
+**This option will destroy all student work.**
+
+In the event that an assignment in your course is updated and, for some reason, you cannot use the [Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
+
+You can reset the assignment for all your students by selecting either
+
+- the **Actions** button and then the **Reset** button
+
+![resetunit](/img/resetunitall.png)
+
+or
+
+- you can reset the assignment for individual students from the 3 blue dot menu
+
+![resetunit](/img/resetunitstudent.png)
+
+### Regrade completed
+This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. [Click here](/classes/monitor/assessments) for details on end of assignment auto-grade scripts.
+
+### Release Grades
+By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a class. When you are ready to do so, you can select the option from here.
+
+
+
+## Excluding Files
+### Excluding files
+Files/folders may need to be excluded from students assignments. Such files may be
+unused resources/logs and other files used when testing the assignment prior to publishing.
+
+This can be handled by using `.unitignore` file in the source project and when published to a course, these files/folders will not be available to the students.
+
+Enter on a new line the file/folders to be excluded defining them relative to the location of the `.unitignore` file and defining folders with `/`
+
+For example if the `.unitignore` file is located in the project workspace and you wish to exclude
+
+- `testing` & `node_modules` folder
+- the file `checkscore.js` in the `views` folder
+- the files `app.js` and `README.md`
+
+the `.codioignore` file will be
+
+```
+/testing
+/node_modules
+/views/checkscore.js
+app.js
+README.md
+```
+
+
+
+Updating a assignment does the following.
+
+- Update the authored content in the `\.guides` folder for all students, even if they have started the assignment. Be aware that any material changes to individual assessments may result in data for those assessments being lost.
+- Pointing the assignment to a new stack will only be applied to students who have not yet started the assignment. If you need it to apply to all students, including those who have started, then you will need to [reset the assignment](/classes/unitmanagement/settings-info/reset-unit/), which will result in lost data.
+
+
+
 
