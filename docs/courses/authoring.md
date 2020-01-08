@@ -6,11 +6,11 @@ title: "Content Authoring with Guides"
 ## Introduction
 Codio Guides is a powerful authoring tool creating rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 
-- Each page of content can [control the layout of the IDE](/content/authoring/settings-actions/page/)
-- [Open and close files, terminal windows and html page previews](/content/authoring/settings-actions/open-tabs/)
-- [Launch commands](/content/authoring/page-edit/inline/) from the content page and pipe terminal output into the content page
-- Create manually and automatically graded [questions and assessments](/content/authoring/assessments/)
-- Manage a [table of contents](/content/authoring/guides)
+- Each page of content can [control the layout of the IDE](/courses/settings-actions/#page)
+- [Open and close files, terminal windows and html page previews](/courses/settings-actions/#open-tabs)
+- [Launch commands](/courses/authoring/#openclose-tabs-from-content) from the content page and pipe terminal output into the content page
+- Create manually and automatically graded [questions and assessments](/courses/assessments/)
+- Manage a [table of contents](/courses/authoring/)
 
 ### Where is it?
 You can launch the content authoring from
@@ -24,20 +24,20 @@ You can launch the content authoring from
 Before you start to author content you should be aware of the three different places you can create content using guides. Let's look at each of the three ways to create content and why you might choose each one.
 
 ### Projects
-A [project](/project/what-is-a-project) is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
+A [project](/project/projects/#what-is-a-project) is simply a standalone Codio box. It may or may not have guides content. Projects are to be found in the **Projects** page on the main Codio dashboard.
 
 ![My Projects](/img/projectslist.png)
 
 
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
 
-A project can be [assigned to a class](/classes/unitmanagement/assign-project) at any time. All the students in that class will then be able to access that project and its content.
+A project can be [assigned to a class](/courses/classes/#assign-a-project-to-the-class) at any time. All the students in that class will then be able to access that project and its content.
 
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a class. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
 ### Project units
-A [project unit](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project units are located in the courses area in the main Codio dashboard. Project units are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project units chronologically within a course module.
+A [project unit](/courses/coursemanagement/#adding-units) is essentially the same as a project. The only difference is that your project units are located in the courses area in the main Codio dashboard. Project units are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project units chronologically within a course module.
 
 
 ![Courses](/img/courseslist.png)
@@ -57,7 +57,7 @@ A [book](/books/introduction) is intended to replicate a hard-copy book. It cont
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
 
-However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen in the class. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
+However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen in the class. See [Book Visibility](/courses/classes/#book-visibility) for more information.
 
 ![Books](/img/bookslist.png)
 
@@ -76,7 +76,7 @@ The experience when authoring differs from that of a student. Students are not a
 If you are an author, you will often want to view the content as a student will see it.
 
 ### Editing
-Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](/content/authoring/page-edit) for details on page editing.
+Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](/courses/authoring/#page-editing-overview) for details on page editing.
 
 ### Preview
 You can press the preview button in the top right area of the edit pane. This will switch to preview mode. You can then switch back to editor mode by pressing the **Editor** button.
