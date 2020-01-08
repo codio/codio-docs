@@ -4,7 +4,7 @@ title: Courses
 
 ---
 ## Introduction
-The following videos cover project units. [Click here](/books) if you have authored a Codio book and want to publish a unit from a part it.
+The following videos cover project units. [Click here](/books/introduction) if you have authored a Codio book and want to publish a unit from a part it.
 
 <a name="courseoverview"></a>
 ### Video - General overview
@@ -19,28 +19,30 @@ Please watch the following video to understand how to allow people to find your 
 
 <iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-You can also read how to [control access](/courses/manage/course-public) in the documentation.
+You can also read how to [control access](/courses/coursemanagement/#controlling-access) in the documentation.
 
 <a name="coursestacks"></a>
 ### Video - Working with stacks in courses
 The following video covers the important topic of stack management within a course. Here are some documentation links.
 
-- [About stacks in general](/project/stacks/stack-overview)
-- [Stack strategy in courses](/courses/stack-planning)
+- [About stacks in general](/project/stacks/#what-is-a-stack)
+- [Stack strategy in courses](/courses/coursemanagement/#stack-planning)
 
 <iframe src="https://player.vimeo.com/video/236904941" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ### Updating courses and collaboration
-If you want to allow other teachers in your organization to modify your course structure and unit content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/units/course-collaborate/) for details.
+If you want to allow other teachers in your organization to modify your course structure and unit content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/coursemanagement/#collaborating-on-project-units) for details.
 
 
 ### Overview
 
+
 The most basic way to assign content to students is to create a project and then [assign the project to the course](/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 
-As a result, you should be familiar with the functionality offered by courses, described below, and [books](/books).
+
+As a result, you should be familiar with the functionality offered by courses, described below, and [books](/books/introduction/).
 
 A course is a very elegant way of managing and organizing your projects. A course has a very simple hierarchy.
 
@@ -52,6 +54,7 @@ A course assignment typically takes one of two forms.
 
 - **Tutorial**: in this case you would use the [Codio Guides](/content/authoring/guides) or [Codio Books](/books/) tutorial authoring tools to create your tutorial content. [Click here](/content/authoring/3ways) for an overview of the difference.
 - **Assignment**: in this case you create a project assignment where everything is set up for the student to tackle a coding assignment or challenge. You can still use guides or books to give instructions, but with assignments, you expect your students will be coding rather than learning.
+
 
 The above two cases are not fixed concepts in Codio but are typical use cases. You can do whatever you like with a project.
 
@@ -77,6 +80,7 @@ Or
 Please [click here](/content/authoring/3ways) for details on how to decide whether to use project assignments or book assignments
 
 
+
 ### First version
 This describes the first time you create a new assignment.
 
@@ -84,11 +88,13 @@ This describes the first time you create a new assignment.
 1. **Publish your assignment**. When you think your assignment is in good shape, it is ready to publish. A assignment is not available to the course until you publish. At this point a snapshot is taken of the assignment and it forms a part of the published course.
 1. **Assign module to course**. Once you have assignments published, you may want to [assign them to a course](/classes/unitmanagement/assign-module).
 
+
 You will iterate through the above process as you add more assignments to your course modules.
 
 
 ### Updates
 Editing a assignment **does not affect published course content or content assigned to course**. This section describes how you can push your changes out to courses when you are ready.
+
 
 1. **More edits to a assignment**. After publishing, you may decide to make further changes. These changes do not form a part of the published course assignment until you republish, so you can edit without concern for altering published content.
 1. **Republish**. Having made more changes, you can publish the assignment again in order to make those changes available to the course. However, publishing does not update assignments previously assigned to a course.
@@ -99,10 +105,12 @@ Editing a assignment **does not affect published course content or content assig
 ## Stack planning
 The following applies to project assignments rather than books. Books require less thought as a book only has one box associated with it and the book assignment will takes its stack setting from the book.
 
-You should be familiar with the concept of [a stack](/project/stacks/stack-overview) before creating CS coursework.
+You should be familiar with the concept of [a stack](/project/stacks/#what-is-a-stack) before creating CS coursework.
 
 ### Minimize the number of stacks
+
 It is important to think about the [stack or stacks](/project/stacks/stack-overview) that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds.
+
 
 You should look to use as few stacks as possible, ideally just one, and use that stack for all assignments. There are perfectly valid exceptions, but this is the rule.
 
@@ -111,7 +119,9 @@ To illustrate a single stack situation, let's assume you are teaching a course "
 
 Whether you have created your own stack or used a default one, you would then point all your assignments to that one, same stack.
 
+
 If, as you create more assignments in your course, you find you need to install more tools, then you should [update the stack with a new version](/project/stacks/update).
+
 
 By default, when you choose a stack for your new assignment, it will point to the latest version. So if the underlying stack is updated from any location at all, then any assignment that uses that stack will automatically be set to use it. Students who are using a assignment in a course will also automatically use the latest version when it is updated.
 
@@ -137,7 +147,9 @@ In this case, you should plan this ahead of time. You would
 
 - first create the assignment from Codio's Java stack
 - install your components
+
 - create a new stack from your assignment ([in the IDE](/project/stacks/update#stackide) or when you [publish](/courses/units/publish))
+
 - make sure your stack is switched to that newly created stack
 
 You now own this stack and so you can update whenever you like down the line. When you create new assignments, you would then choose this new stack.
@@ -165,7 +177,7 @@ A **Long Description** is usually a good idea and helps other users understand t
 You can also add tags that identify the technologies used. An image icon is also suggested.
 
 ### Other settings
-Please refer to the [next page](/courses/manage/course-add/) for information on how to control access to courses and modules.
+Please refer to the [next page](/courses/coursemanagement/#modules) for information on how to control access to courses and modules.
 ## Modules
 A course has to have at least one module. A module contains the individual assignments that will be assigned to students.
 
@@ -192,8 +204,10 @@ You can also order the list of modules by name or owner and use the **Filter by 
 
 ![Module Browse](/img/module_browser.png)
 
+
 ### Adding an assignment to a module
 Please read the section [Adding assignments](/courses/units/unit-add) for details.
+
 ### Controlling access
 To control access to a course and its modules, you should understand the difference between public/private and ownership. You can change the access settings by selecting a course or module and then pressing the **Edit** button in the top right.
 
@@ -205,7 +219,7 @@ Both courses and modules need to have their access settings set.
 The ownership field indicates who is able to make administrative changes. In the case of a module, it also indicates who can add, edit and remove project assignments.
 
 - If you select **My account**, the default, then only you can make changes.
-- If you select an organization, by default any teacher within your organization will be able to make changes. If you wish to restrict access to specific teachers, see [restrict teacher access](/courses/manage/restrict-access/)
+- If you select an organization, by default any teacher within your organization will be able to make changes. If you wish to restrict access to specific teachers, see [restrict teacher access](/courses/coursemanagement/#restrict-course-access)
 
 If you wish to prevent access to other teachers within your organization, then you would select **My account** and would also make it private. However, if you were to leave the organization, then no-one would be able to access and manage the course content. As a result, you would change the ownership to the organization in order to ensure that others are able to continue its management.
 
@@ -227,7 +241,7 @@ Generally speaking, you would set your modules and course with the same access s
 
 
 ## Restrict course access
-By default when a course is created and set to the owned by the organisation, unless the courses menu item is hidden for your students ([click here](/dashboard/create/dash/) for more information this), they will be able to view the contents of courses and all teachers in the organisation will have access to the course and associated modules. See [controlling access](/courses/manage/course-public/) for more on this.
+By default when a course is created and set to the owned by the organisation, unless the courses menu item is hidden for your students ([click here](/dashboard/organisations/#student-dashboard-settings) for more information this), they will be able to view the contents of courses and all teachers in the organisation will have access to the course and associated modules. See [controlling access](/courses/coursemanagement/#controlling-access) for more on this.
 
 However, you may want to limit/restrict access to specific courses for teachers and/or students in your organisation.
 
@@ -262,7 +276,9 @@ You add a new assignment by pressing the large blue **+** button. You now need t
 - a project assignment
 - a book assignment
 
+
 [Click here](/content/authoring/3ways) if you are not sure about the difference between project assignments and book assignments.
+
 
 <a name="projectunit"></a>
 ### New project assignment
@@ -291,7 +307,9 @@ You can now
 ![Book Mapping](/img/bookmapping.png)
 
 
+
 With book assignments, students can look at any part of the book even when assigned a single book assignment. This is ideal for referring back to material covered previously and for general revision and can be set in the course. See [Book Visibility](/classes/classmanagement/bookvisibility)] for more information.
+
 
 
 ## Publishing
@@ -304,7 +322,9 @@ Let's say you have already published a book and created a assignment from a part
 
 ![Book update](/img/bookupdate.png)
 
+
 After pressing this, the books changes will be reflected in the assignment. If you want these changes to be passed through to a course where the assignment was previously added, then please [click here](/classes/unitmanagement/upgradecourse) for details.
+
 
 ## Publishing project assignments
 
@@ -321,7 +341,9 @@ Publishing the assignment takes a snapshot of the underlying project assignment 
 ![versions](/img/versions.png)
 
 ### Describe changes
+
 You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/units/settings/).
+
 
 ### No stack modifications or you switched stack
 If, in your project assignment, you have
@@ -378,7 +400,9 @@ If you want to edit book assignment content, then you edit the book from the boo
 
 ![Book update](/img/bookupdate.png)
 
+
 If you have added new content then you can also remap the assignment to the book as described on the [adding an assignment](/courses/units/unit-add#createbook) page.
+
 
 
 ### Editing a project assignment
@@ -436,7 +460,9 @@ You are required to enter a confirmation code to proceed and you can then do one
 - Select **Delete content** to delete the assignment and save the assignment contents to your projects list.
 ## Update course
 
+
 If you publish new course assignment content, then this is not automatically applied to course. It has to be explicitly pulled into the course as [described here](/classes/unitmanagement/upgradecourse).
+
 
 ## Collaborating on project assignments
 The ability for other to collaborate on course assignments is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the assignments will be private.
@@ -453,7 +479,7 @@ The rules for other users to edit a project assignment in a course are as follow
 - **Public but organization is the owner** - any teacher in your organization can edit.
 
 
-The ability to create public courses/modules can be enabled for the organization. See [Public/Private setttings](/dashboard/create/public_private) for more information.
+The ability to create public courses/modules can be enabled for the organization. See [Public/Private setttings](/dashboard/organisations/#publicprivate-settings) for more information.
 
 ![authtoken](/img/manage_organization/public_private.png)
 
