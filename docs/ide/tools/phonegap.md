@@ -52,7 +52,7 @@ Useful resources and references for the config.xml file can be found on the Phon
 - [Icons and Splash Screens](http://docs.phonegap.com/phonegap-build/configuring/icons-and-splash/)
 - [Phonegap:Build plugins](http://docs.phonegap.com/phonegap-build/configuring/plugins/)
 ## Build
-When you are ready to build your app, you press the **Build** button in the Phonegap Build Area section. Make sure you have [created and configured your `config.xml` file](/ide/tools/phonegap/config).
+When you are ready to build your app, you press the **Build** button in the Phonegap Build Area section. Make sure you have [created and configured your `config.xml` file](/ide/tools/phonegap/#the-configxml-file).
 
 You should have set up your code signing keys in your Phonegap:Build account (more on keys below) and you should select which keys you wish to use for each platform you defined in your `<gap:platforms>` tag in the `config.xml` file.
 

@@ -29,9 +29,9 @@ We strongly recommend that you are familiar with the following concepts if you p
 - [The Codio IDE](/ide)
 - [Stacks](/project/stacks)
 - [Starter Packs](/project/packs)
-- [Authoring tutorial content with Codio Guides and Books](/content/authoring)
-- [Courses](/courses/introduction/)
-- [Class management](/classes/classmanagement)
+- [Authoring tutorial content with Codio Guides and Books](/courses/authoring)
+- [Courses](/courses/coursemanagement/#introduction)
+- [Class management](/courses/classes)
 ## Creating and importing a project
 Create a new project, or import one by, clicking on the New Project button on the Dashboard.
 
@@ -78,7 +78,7 @@ You should give your project a name and a description, which will appear in the 
 ### Visibility
 Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organization, you can mark the Project as private. In **My Projects** you will see a padlock icon for any Projects that are private.
 
-Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/create/public_private).
+Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/dashboard/organisations/#publicprivate-settings).
 
 You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the **Project->Permissions** menu.
 
@@ -135,8 +135,8 @@ If you know the user name of another Codio user, you can enter the URL for their
 
 You will then see that user's Dashboard and all public projects will be displayed. You can then load any of those projects into the IDE by clicking on it.
 
-You will not be able to edit the project but you can [fork](/ide/features/fork) it into your own account.
+You will not be able to edit the project but you can [fork](/ide/features/#forking-a-project) it into your own account.
 
-If a project has been [shared](/ide/customization/permissions) to you, you will be able to view this from your **My Projects > Shared with me** area.
+If a project has been [shared](/ide/settings/#project-permissions) to you, you will be able to view this from your **My Projects > Shared with me** area.
 
 ![Shared Project](/img/console-shared.png)

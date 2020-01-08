@@ -8,13 +8,13 @@ title: Code Editing
 We have implemented lots of productivity features into the Codio IDE thanks to [Emmet](http://www.emmet.io), formerly Zen Coding. These features let you saves considerable time when working with HTML, CSS and Javascript files.
 
 ##Standard Code Editor Keyboard Shortcuts
-General keyboard shortcuts can be found [in this section](/ide/editing/kb-shortcuts). All other productivity shortcuts are found here in this chapter.
+General keyboard shortcuts can be found [in this section](/ide/editing/#keyboard-shortcuts). All other productivity shortcuts are found here in this chapter.
 
 ### Emmet Keyboard Shortcuts
-A set of powerful [productivity shortcuts](/ide/editing/emmet/emmet-actions) for HTML5, CSS and Javascript.
+A set of powerful [productivity shortcuts](/ide/editing/#special-keyboard-actions) for HTML5, CSS and Javascript.
 
 ### Abbreviations
-Thanks to our Emmet support, you get a large number of [HTML and CSS abbreviations](/ide/editing/emmet/emmet-abbreviations/) that expand to code, a bit like this
+Thanks to our Emmet support, you get a large number of [HTML and CSS abbreviations](/ide/editing/#abbreviations_1) that expand to code, a bit like this
 
 ```css
 div>ul>li*3
@@ -32,7 +32,7 @@ which expands to
   </div>
 ```
 
-Be sure to check out the [complete reference](/ide/editing/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
+Be sure to check out the [complete reference](/ide/editing/#complete-reference) as there are an awful lot of abbreviations for you to take advantage of.
 
 ### Emmet docs
 We would strongly recommend having a good dig around the [Emmet documentation](http://docs.emmet.io/abbreviations/syntax/) for a detailed introduction into the general Emmet syntax.
@@ -101,7 +101,7 @@ Where the `|` character represents the cursor after insertion. After you have en
 ### More HTML Examples
 Be sure to check out [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
 
-And also take a look at the [cheat sheet](/ide/editing/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
+And also take a look at the [cheat sheet](/ide/editing/#complete-reference) as there are an awful lot of abbreviations for you to take advantage of.
 
 
 ### CSS Examples
@@ -139,7 +139,7 @@ background-image: linear-gradient(left, #fc0, 30%, red);
 ```
 
 ### Fuzzy Search
-If you take a look at [cheat sheet](/ide/editing/emmet/emmet-ref/), you’ll find that there are too many CSS snippets to remember. Also, some of them might be a bit lengthy for sake of logical separation.
+If you take a look at [cheat sheet](/ide/editing/#complete-reference), you’ll find that there are too many CSS snippets to remember. Also, some of them might be a bit lengthy for sake of logical separation.
 
 To make CSS writing a bit easier, Emmet implements fuzzy search logic for CSS snippets: every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition.
 
@@ -148,10 +148,10 @@ For example, instead of writing `ov:h` (overflow: hidden;) abbreviation, you can
 ### More CSS Examples
 For more details on CSS abbreviations, please go to the [Emmet documentation](http://docs.emmet.io/css-abbreviations/) and be sure to look at the sub-chapters.
 
-But also be sure to check out the [cheat sheet](/ide/editing/emmet/emmet-ref/).
+But also be sure to check out the [cheat sheet](/ide/editing/#complete-reference).
 
 ### Special keyboard actions
-Emmet also offers a very nice range of keyboard shortcuts to speed productivity even further. Keyboard actions can be modified in [Preferences](/ide/customization/codio-prefs)
+Emmet also offers a very nice range of keyboard shortcuts to speed productivity even further. Keyboard actions can be modified in [Preferences](/ide/settings/#user-preferences)
 
 ### Match Tag Pair
 `Mac:Cmd+D (inward) and Shift+Cmd+D (outward)`
@@ -263,9 +263,9 @@ Emmet has a huge number of shortcuts available. Check out the [Emmet Cheat Sheet
 
 ![Emmet Cheat Sheet](/img/emmet-ref.png)
 ## Git, Mercurial & SVN
-Git, Mercurial and SVN are all preinstalled, so you can [open up a Terminal window](/ide/boxes/terminal/) to access them from the command line.
+Git, Mercurial and SVN are all preinstalled, so you can [open up a Terminal window](/ide/boxes/#terminal-window) to access them from the command line.
 
-You can also configure your `.codio` file so common commands are accessible from the **Run** menu in the Codio IDE. [Refer to the Boxes documentation](/ide/boxes/runmenu/) on how to do this.
+You can also configure your `.codio` file so common commands are accessible from the **Run** menu in the Codio IDE. [Refer to the Boxes documentation](/ide/boxes/#customizable-run-menu) on how to do this.
 
 ### A few Git helpers
 We have added a few Git helpers to the **Tools->Git** menu.
@@ -276,7 +276,7 @@ You can use Git commands within your Codio project without needing to ever set u
 
 However, one of the benefits of a distributed Source Control Management system is that having your code in more than one place means that there is no single point of failure. For this reason, we recommend that you use a third party provider such as GitHub as an external location to back up your data.
 ### Viewing GitHub repos
-GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/ide/features/inline-preview) within Codio.
+GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/ide/features/#preview) within Codio.
 
 ### Offering link/button in the repo readme.md file
 
@@ -325,7 +325,7 @@ You are free to use any way of linking to Codio but we would recommend using the
 
 
 - If you are on the GitHub site and looking at a repo, you will see the **Clone URL** link (circled above).
-- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/dashboard/account/publickey)
+- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/dashboard/account/#public-key)
 - Login to Codio
 - Click on **New Project** and then the **Click here** for more options
 - Select **Import** and then from the **Source** drop-down, select **Git**
@@ -347,19 +347,19 @@ Here is a list of more Git Tutorials in case you want some choice
 
 - [10 Git Tutorials for beginners](http://sixrevisions.com/resources/git-Tutorials-beginners/)
 ### SSH keys
-To transfer your public key to Github or other remotes, please refer to this [section](/dashboard/account/publickey). There is a section on this page that describes setting up keys with Github.
+To transfer your public key to Github or other remotes, please refer to this [section](/dashboard/account/#public-key). There is a section on this page that describes setting up keys with Github.
 
-You may also want to refer to [SSH Keys in the Boxes section](/ide/boxes/access/sshkeys).
+You may also want to refer to [SSH Keys in the Boxes section](/ide/boxes/#ssh-and-code-access-codio-box-ssh-keys).
 ### Very basic Git tutorial
 
 This is not supposed to be a proper Git tutorial in any sense. Its purpose is to show anyone who is new to Git or Codio how to use it to get all the basic things done.
 
-For a proper, in-depth overview of Git, refer to the [resources](/ide/editing/git/resources) page.
+For a proper, in-depth overview of Git, refer to the [resources](/ide/editing/#resources) page.
 
 Please make sure you read this excellent overview if you are new to Git : [http://git-scm.com/book/en/Getting-Started-Git-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
 ### GitHub Keys
-If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/dashboard/account/publickey).
+If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/dashboard/account/#public-key).
 
 ### Experimentation
 The best way to learn Git is to create a really simple project with a few text files in it and then experiment like crazy. You can play around with all the Git commands and sync with GitHub repos to your heart's content without worrying about doing any coding.
@@ -371,7 +371,7 @@ Once you have done this for a while, you will feel a lot more comfortable about 
 #You created a project by importing from a Git repo
 If you have code that already exists in a remote repo, say GitHub, then you should create a new project by importing from that repo. That will automatically load the project and set up the correct association with the remote Git repo.
 
-Creating a project is [fully described here](/project/creating).
+Creating a project is [fully described here](/project/projects/#creating-and-importing-a-project).
 
 ### I do not yet have a remote repo
 If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
@@ -379,7 +379,7 @@ If you have code within Codio and you want to create a brand new GitHub (or othe
 1. Create a new project in Codio or open up an existing one.
 1. Open the terminal (Tools > Terminal) and initialize git by typing "git init" and pressing enter
 1. Create a new, empty repo on GitHub or other provider.
-1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/dashboard/account/publickey)
+1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/dashboard/account/#public-key)
 
 ![github repo](/img/github-new-repo.png)
 
@@ -531,7 +531,7 @@ Good practice is to switch over to your master branch and pull in changes from t
 Most people will want to push to Github and other remote repos. There are various ways to manage this within Codio.
 
 ### Remotes and Github
-To work with Github, you need to set up your SSH keys properly as [described here](/dashboard/account/publickey).
+To work with Github, you need to set up your SSH keys properly as [described here](/dashboard/account/#public-key).
 
 #### I have a remote repo
 If your starting point is a remote repo, then you should create a new project from the Codio dashboard. Create Project is an option above your project listings.
@@ -556,7 +556,7 @@ Once you have set up your remotes, you can now perform sharing and updating comm
 Try pushing your code to the remote using `git push --set-upstream origin master`. From now on you can use simply `git push` as the set-upstream command ensure `origin master` is used by default.
 
 ### Simplified Git Steps
-We will not attempt any sort of tutorial here, but the following steps cover the absolute basics of Git usage with a remote. If you are new to Git, then you should refer to the [resources page](/ide/editing/git/resources).
+We will not attempt any sort of tutorial here, but the following steps cover the absolute basics of Git usage with a remote. If you are new to Git, then you should refer to the [resources page](/ide/editing/#resources).
 
 - `git status` gives you the status of your current branch
 - `git add .` adds all files, tracked or not, to the staged files
@@ -573,7 +573,7 @@ You may switch branches using the command line interface or the **Tools > Git > 
 
 ![Git Active](/img/git-active-branch.png)
 ## Keyboard shortcuts
-You have full control over the keyboard shortcuts for code editing. You should refer to the [Codio Preferences](/ide/customization/codio-prefs) section to read more about this.
+You have full control over the keyboard shortcuts for code editing. You should refer to the [Codio Preferences](/ide/settings/#user-preferences) section to read more about this.
 
 Codio has its own complete set of defaults, all of which can be overriden. You can use Vim or Emacs key bindings by modifying the `keymap` preference setting. If you do not use `keymap=default`, you cannot override keyboard shortcuts.
 
@@ -590,12 +590,12 @@ You can also use `Alt-Click` to place the cursor everywhere inbetween a start an
 ## Search and replace
 Codio supports local and global search and replace. You can access these feature by hotkey or from the Find menu.
 
-Hotkey shortcuts can be seen in the Find menu. You can override these from [Preferences](/ide/customization/codio-prefs).
+Hotkey shortcuts can be seen in the Find menu. You can override these from [Preferences](/ide/settings/#user-preferences).
 
 ### Local
 Search and replace is supported on the currently selected file.
 
-The hotkeys are defined in [Preferences](/ide/customization/codio-prefs) and the defaults are
+The hotkeys are defined in [Preferences](/ide/settings/#user-preferences) and the defaults are
 
 ```ini
 ;Find.
@@ -715,7 +715,7 @@ If you move your mouse into the color preview area and then click, a color picke
 
 
 ## Beautify javascript
-You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Settings](/ide/customization/codio-prefs). By default, it is
+You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Settings](/ide/settings/#user-preferences). By default, it is
 
 - `key_format_code` = `Cmd+Alt+F` (for a Mac)
 - `key_format_code` = `Ctrl+Alt+F` (for anything else)
@@ -741,7 +741,7 @@ if ('this_is' == /an_example/) {
 ### Settings
 If you look within the [code-beautifier] section of the Codio Preferences, you will see the various beautification settings available.
 
-Don't forget, you can force these in [Project preferences](/ide/customization/project-prefs) if you want to have consistently beautified code regardless of who edits your code.
+Don't forget, you can force these in [Project preferences](/ide/settings/#project-preferences) if you want to have consistently beautified code regardless of who edits your code.
 
 ## Force language highlighting
 Codio will automatically select the syntax highlighting rules based on the file extension.
