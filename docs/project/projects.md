@@ -62,7 +62,7 @@ Click on the **'Click here....'** link to import or select an alternative softwa
 - **Empty with Stack** will create a new project with a stack you select from the full stack options, rather than the limited options available on the main **New Project** screen.
 - **Fork project** lets you create a new project from another of your projects.
 - **[Starter Pack](/project/packs/)** which is the combination of a Stack and a pre-configured code workspace.
-- **Import** lets you import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
+- **Import** lets you import from Git or from a Zip file of a Codio project.
 
 
 ![Import Project](/img/project_create_other.png)

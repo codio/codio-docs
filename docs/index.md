@@ -29,17 +29,17 @@ Full technical details and documentation
 
 |**Boxes and the IDE** |**Courses**|
 | :------ |  :----------- |
-|[Introduction](/project/ide/introduction)|[Course Configuration](/courses/classes/)|
-|[](#int_dev_env)[Basic IDE features](/project/ide/navigation/)|[](#stud_progress)[Grading and accessing student projects](/courses/grading)|
-|[](#adv_ide_feat)[Advanced IDE features](/project/ide/features/)|[](#plag)[Plagiarism checker](/courses/plagiarism)|
-|[](#boxes)[Accessing a Box](/project/ide/boxes)|[](#lti1_0)[LTI 1.0 Integration](/courses/lti1_0)
-|[](#panels_tabs)[Panels and Tabs](/project/ide/panels)|[](#lti1_3)[LTI 1.3 Integration](/courses/lti1_3)
-|[](#code_edit)[Code editing](/project/ide/editing)|[Course Management](/courses/coursemanagement)|
-|[](#ide_tools)[IDE tools - Deployment](/project/ide/tools/deployment)|[Content Authoring with Guides](/courses/authoring)|
-|[IDE tools - Guides](/project/ide/tools/guides/)|[](#page-action-section)[Guides settings and page actions](/courses/settings-actions)|
-|[](#phonegap)[IDE tools - Phonegap](/project/ide/tools/phonegap)|[](#autoassessments)[Assessments](/courses/assessments)|
-|[](#ssh)[IDE tools - Remote SSH terminal access](/project/ide/tools/ssh)|[](#assessments-library)[Assessments Library](/courses/assessments-library)|
-|[](#ide-settings)[Settings](/project/ide/settings)|[Collaborating on content](/courses/collaboration)|
+|[Introduction](/project/ide/introduction)|[Understanding Courses](/courses/classes/)|
+|[](#int_dev_env)[Basic IDE features](/project/ide/navigation/)|[](#lti1_0)[Integrating with LTI 1.0 systems](/courses/lti1_0)|
+|[](#adv_ide_feat)[Advanced IDE features](/project/ide/features/)|[](#lti1_3)[Integrating with LTI 1.3 systems](/courses/lti1_3)|
+|[](#boxes)[Accessing a Box](/project/ide/boxes)|[Creating Course Content](/courses/coursemanagement)|
+|[](#panels_tabs)[Panels and Tabs](/project/ide/panels)|[Content Authoring with Guides](/courses/authoring)|
+|[](#code_edit)[Code editing](/project/ide/editing)|[](#page-action-section)[Guides settings and page actions](/courses/settings-actions)|
+|[](#ide_tools)[IDE tools - Deployment](/project/ide/tools/deployment)|[](#autoassessments)[Codio Assessments](/courses/assessments)|
+|[IDE tools - Guides](/project/ide/tools/guides/)|[](#assessments-library)[Assessments Library](/courses/assessments-library)|
+|[](#phonegap)[IDE tools - Phonegap](/project/ide/tools/phonegap)|[](#stud_progress)[Grading and accessing student projects](/courses/grading)|
+|[](#ssh)[IDE tools - Remote SSH terminal access](/project/ide/tools/ssh)|[](#plag)[Plagiarism checker](/courses/plagiarism)|
+|[](#ide-settings)[Settings](/project/ide/settings)|
 
 
 |**Resources** |**Books**|

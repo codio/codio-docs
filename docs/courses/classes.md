@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: ""
+title: Understanding Courses
+
 
 
 ---

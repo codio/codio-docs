@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Creating Course Content
 
 
 ---
