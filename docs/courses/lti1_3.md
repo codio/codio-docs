@@ -45,19 +45,19 @@ clientId and deploymentId can be found in tool settings in canvas.cod.io after c
 
 There are also a number of ways you can connect/map assignments. Check out the following videos to see the option that best suits you.
 
-### How to connect assignment and unit by lti integration url of unit
+### How to connect assignment and unit by lti integration url of assignment
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BzdqCvFEz5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit by resource selection preview
+### How to connect assignment and assignment by resource selection preview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aR8kh3Jwjrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit by endpoint url
+### How to connect assignment and assignment by endpoint url
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9dgDwsjnY9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit with custom param
+### How to connect assignment and assignment with custom param
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkLYOY19Eu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -74,19 +74,19 @@ If you require any assistance, please don't hesitate to [contact us](/dashboard/
 
 There are a number of ways you can connect/map assignments. Check out the following videos to see the option that best suits you.
 
-### How to connect assignment and unit by lti integration url of unit
+### How to connect assignment and assignment by lti integration url of assignment
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BV1zsXxaUpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit by resource selection preview
+### How to connect assignment and assignment by resource selection preview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rDFpErXo_-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit by endpoint url
+### How to connect assignment and assignment by endpoint url
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AlR18uqU4Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### How to connect assignment and unit with custom param
+### How to connect assignment and assignment with custom param
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Oy7VjuFXlls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

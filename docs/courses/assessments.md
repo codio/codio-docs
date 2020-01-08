@@ -10,7 +10,7 @@ Assessments allow you to ask any number of automatically or manually graded ques
 - They allow a student or a teacher to assess how well they are grasping the subject matter.
 - Many assessment types are automatically graded, saving precious time for teachers and giving students instant feedback.
 - A wide range of assessment types (automatic code tests, multiple choice tests, fill in the blanks, drop-down selection, free text responses and project grading) allow the broadest possible measurement of a student's progress.
-- In classroom scenarios, all assessment responses feed through to a teacher dashboard.
+- In course scenarios, all assessment responses feed through to a teacher dashboard.
 - For multiple choice tests, fill in the blanks and drop-down selection assessment types, each individual assessment can only be answered once, giving a true reflection of understanding rather than being able to carry on answering until the correct answer is achieved.
 - When an answer is submitted, the correct answer is shown to the student by default, but this can be disabled if required.
 
@@ -38,20 +38,20 @@ Select the page where your assessment is located. Then remove the assessment tok
 
 Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
 
-### Autograding when a student completes a unit
-Codio allows you to run a special auto-grading script as soon as a unit is completed by the student. This special type of assessment is managed from the unit settings page in a class. [Click here](/classes/unitmanagement/settings-info/autograde/) for details.
+### Autograding when a student completes a assignment
+Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/classes/unitmanagement/settings-info/autograde/) for details.
 
 <a name="secure"></a>
 ### Secure Script execution
-If you store assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way and the script runs in an ephemeral container isolated from the students unit.
-Any other scripts in the unit that are not in this folder can be accessible to the students
+If you store assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as an assignment, it is not accessible in any way and the script runs in an ephemeral container isolated from the students assignment.
+Any other scripts in the assignment that are not in this folder can be accessible to the students
 
 
 ## Student submission options
 There are two important settings that control
 
 - the way that a student submits individual questions and
-- the way a student notifies the class instructors that a unit is completed.
+- the way a student notifies the course instructors that a assignment is completed.
 
 ### The submit button
 Until November 20th 2017, each assessment has a submit button beneath the assessment. Once pressed, the answer is autograded, if an MCQ, Fill In The Blank or Free Text question. If the **One attempt only** setting is selected for the assessment, then the student will be warned that they will not be able to resubmit. If this setting is not selected, then they will be able to resubmit a response.
@@ -67,18 +67,18 @@ Once the project is marked as complete (see below) then all assessment responses
 ### Mark as Complete
 To suppress the student **Mark as complete** action, you should go to the guide global settings (see above screenshot) and disable **Use mark as complete**.
 
-A student can proactively mark as unit as complete. This can trigger a [unit level autograde script](/classes/unitmanagement/settings-info/autograde) and it is also flagged up in the teacher dashboard against that student.
+A student can proactively mark as assignment as complete. This can trigger a [assignment level autograde script](/classes/unitmanagement/settings-info/autograde) and it is also flagged up in the teacher dashboard against that student.
 
-The drawback to using the student driven mark as complete option is that once students mark a unit as complete, they are no longer able to make changes to the unit, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
+The drawback to using the student driven mark as complete option is that once students mark a assignment as complete, they are no longer able to make changes to the assignment, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
 
-If the project has been marked as completed, students can click on the 'completed' button to access the grade feedback but if they wish to view the project, direct them to click on the name of the project on the left hand side. As the unit is completed they will not be able to edit anything but can view the content.
+If the project has been marked as completed, students can click on the 'completed' button to access the grade feedback but if they wish to view the project, direct them to click on the name of the project on the left hand side. As the assignment is completed they will not be able to edit anything but can view the content.
 
-It is possible to disable the student side mark as complete option entirely so students do not need to think about doing it. It also means that instructors don't get requests from students to re-enable the unit if they submitted by mistake or decided they want to change something.
+It is possible to disable the student side mark as complete option entirely so students do not need to think about doing it. It also means that instructors don't get requests from students to re-enable the assignment if they submitted by mistake or decided they want to change something.
 
 If you do not want students to mark as complete, then you will likely want to do one of the following
 
 - Once an arbitrary deadline has been reached, after which you want to start grading student work, you should [mark all students' work as complete](/classes/unitmanagement/settings-info/complete-unit/) from the teacher dashboard.
-- Set an [end of unit date](/classes/unitmanagement/settings-info/unit-duration/) and specify that once the date is reached, the students' work should be marked as complete automatically.
+- Set an [end of assignment date](/classes/unitmanagement/settings-info/unit-duration/) and specify that once the date is reached, the students' work should be marked as complete automatically.
 
 
 
@@ -125,7 +125,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
 - **One attempt only** allows the assessment to run only once. The student will be warned that they will not be able to resubmit. You would usually want to provide a [run button](/ide/boxes/runmenu/) or other means for the user to test the code before running the actual assessment.
 - **Show expected answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 <a name="metadata"></a>
 #### Metadata
@@ -197,7 +197,7 @@ The advanced code test assessment type allows you to write code that checks code
 
 You should be aware that if students are able to access the command line, they are able to explore the box and find the folder where your test scripts are located. For scripting languages, this would allow them to modify the script. For compiled executables they could theoretically create their own executable and then replace yours with their own one. They would need to know how the callbacks work to succeed at this.
 
-If you want to make your scripts as secure as possible, please [click here](/classes/unitmanagement/settings-info/autograde#securescripts) for information on secure scripts run when a unit is marked as complete.
+If you want to make your scripts as secure as possible, please [click here](/classes/unitmanagement/settings-info/autograde#securescripts) for information on secure scripts run when an assignment is marked as complete.
 
 ### Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.
@@ -256,7 +256,7 @@ To add individual JavaScript source files whose style should be checked, either 
 
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ### Metadata
 
@@ -363,7 +363,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value.
 - **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -466,8 +466,8 @@ Setting up a free text assessment is very simple. The configuration fields for a
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. LaTeX is also supported. Please refer to the **Preview type** section below for details.
-- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ##### Metadata
 
@@ -501,12 +501,12 @@ LaTeX is useful where you want students to enter mathematical formulae in their 
 - **Markdown + LaTeX** - this supports markdown input with LaTeX support. A preview pane is shown beneath so the student is able to see the rendered markdown and LaTeX output.
 
 ### Completing a free text assessment
-If **One Attempt Only** is enabled, students will only be able to submit their answer once. If this is not enabled them students will be able to revisit the question and edit their answer until they mark the unit as completed
+If **One Attempt Only** is enabled, students will only be able to submit their answer once. If this is not enabled them students will be able to revisit the question and edit their answer until they mark the assignment as completed
 
 <a name="grading-free"></a>
 ### Grading free text assessments
 
-To review and grade answers given by student, select the student and a list of all the assessments in the unit are shown.
+To review and grade answers given by student, select the student and a list of all the assessments in the assignment are shown.
 
 ![Free Text Grading](/img/guides/freetext-grading.png)
 
@@ -535,7 +535,7 @@ Using the **<** and **>** buttons at the top of the assessments grading dialog y
 
 ### Viewing graded free text assessments
 
-For any free text assessments that have been graded by a teacher in a unit, you will see the points given and the field in the **Correct** column checked.
+For any free text assessments that have been graded by a teacher in an assignment, you will see the points given and the field in the **Correct** column checked.
 
 ![authtoken](/img/guides/freetextanswer.png)
 
@@ -569,8 +569,8 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview type** section below for details.
-- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -608,7 +608,7 @@ LaTeX is useful where you want students to enter mathematical formulae in their 
 - **Markdown + LaTeX** - this supports markdown input with LaTeX support. A preview pane is shown beneath so the student is able to see the rendered markdown and LaTeX output.
 
 ### Completing an autograde free text assessment
-If **One Attempt Only** is enabled, students will only be able to submit their answer once. If this is not enabled them students will be able to revisit the question and edit their answer until they mark the unit as completed
+If **One Attempt Only** is enabled, students will only be able to submit their answer once. If this is not enabled them students will be able to revisit the question and edit their answer until they mark the assignment as completed
 
 ### Examples
 
@@ -794,8 +794,8 @@ The configuration fields for an assessment are split into five sections: General
 ![](/img/guides/assessment_grading.png)
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
-- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -895,10 +895,10 @@ The configuration fields for an assessment are split into five sections: General
 #### Grading
 ![](/img/guides/assessment_sn_grading.png)
 
-- **Gradable** enable if the assignment is to be used within the grade total for the unit. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
-- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
+- **Gradable** enable if the assignment is to be used within the grade total for the assignment. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
+- **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
-- **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 ![](/img/guides/assessment_metadata.png)

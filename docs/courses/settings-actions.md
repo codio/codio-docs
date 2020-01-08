@@ -41,7 +41,7 @@ You can specify whether the page content type is markdown (strongly recommended)
 
 <a name="teacheronly"></a>
 ### Teacher only content
-If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they select **Open as teacher** from a unit in a class.
+If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they select **Open as teacher** from a assignment in a course.
 
 ### Learning Objectives
 This is a tag field that can be useful for data analysis.
@@ -220,21 +220,21 @@ Allows students to close the guide content. The content can be restarted by sele
 ### Use Mark as Complete
 For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
 
-This setting is enabled by default and will show students a button at the end of the unit, from their [dashboard](/dashboard/student/myclassroom/) and from **Education** menu in the IDE they can select to mark as complete.
+This setting is enabled by default and will show students a button at the end of the assignment, from their [dashboard](/dashboard/student/myclassroom/) and from **Education** menu in the IDE they can select to mark as complete.
 
-If you have set the [Unit Duration](/classes/unitmanagement/settings-info/unit-duration/) 'On Unit End' action to mark as complete or disable and mark as complete, the unit will automatically be marked as complete when the end date/time of the unit is reached and you can elect to suppress the ability for students to have to mark their units as complete by disabling this setting.
+If you have set the [assignment Duration](/classes/unitmanagement/settings-info/unit-duration/) 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.
 
 
 ### Use Submit Buttons
 For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
 
 This is enabled by default and shows students a button for [assessments](/content/authoring/assessments/) for them to submit their answers.
-If you have set the [Unit Duration](/classes/unitmanagement/settings-info/unit-duration/), when the end of unit duration date/time is reached, all answers to the assessments will be automatically submitted
+If you have set the [Assignment Duration](/classes/unitmanagement/settings-info/unit-duration/), when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted
 
 <a name="guidescollapse"></a>
 
 ### Collapsed on Start
-Enable this to collapse the guides pane in the unit/project when the [layout](/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/content/authoring/playmode/) button in playmode.
+Enable this to collapse the guides pane in the assignment/project when the [layout](/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/content/authoring/playmode/) button in playmode.
 
 The guides can be reopened by clicking the hamburger icon:
 ![StartGuides](/img/openguides.png)
@@ -243,10 +243,10 @@ The guides can be reopened by clicking the hamburger icon:
 Enable this to hide the option for students to switch sections using the Section list hamburger icon
 
 ### Hide Back to Dashboard button
-Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the unit
+Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the assignment
 
 <a name="guidesprotect"></a>
 ### Protect Layout
-Enable this to prevent tabs being opened or closed by students in the unit
+Enable this to prevent tabs being opened or closed by students in the assignment
 
 
