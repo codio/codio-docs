@@ -30,7 +30,7 @@ Full technical details and documentation
 |**Boxes and the IDE** |**Courses**|
 | :------ |  :----------- |
 |[Introduction](/project/ide/introduction)|[Understanding Courses](/courses/classes/)|
-|[](#int_dev_env)[Basic IDE features](/project/ide/navigation/)|[](#lti1_0)[Integrating with LTI 1.0 systems](/courses/lti1_0)|
+|[](#int_dev_env)[Basic IDE features](/project/ide/navigation/)|[](#lti1_0)[Integrating with LTI 1.1 systems](/courses/lti1_0)|
 |[](#adv_ide_feat)[Advanced IDE features](/project/ide/features/)|[](#lti1_3)[Integrating with LTI 1.3 systems](/courses/lti1_3)|
 |[](#boxes)[Accessing a Box](/project/ide/boxes)|[Creating Course Content](/courses/coursemanagement)|
 |[](#panels_tabs)[Panels and Tabs](/project/ide/panels)|[Content Authoring with Guides](/courses/authoring)|

@@ -4,7 +4,8 @@ title: Integrating with LTI 1.3 systems
 
 ---
 
-LTI version 1.3 improves upon version [LTI-11] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication.
+LTI version 1.3 improves upon version [LTI-1.1] by moving away from the use of OAuth 1.0a-style signing for authentication and towards a new security model, using OpenID Connect, signed JWTs, and OAuth2.0 workflows for authentication. 
+As we have implemented the majority of these improvements already in Codio, it can be better to work with Codio, LT1 1.1 integration especially considering the ease to set up using the [Codio LTI app](/courses/lti1_0/#codio-lti-app).
 
 For more information, see [Learning Tools Interoperability Core Specification](https://www.imsglobal.org/spec/lti/v1p3/)
 
