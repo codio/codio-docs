@@ -466,6 +466,33 @@ README.md
 ```
 
 ## Managing Assignments
+
+On the module assignment screen you can manage the following settings
+
+
+![assignmentscreen](/img/class_administration/modulesettings.png)
+
+1. Change the name of the assigment
+1. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
+1. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
+1. View the version history of the assigment publications, This allows you to view the version history. You can see
+    - date/time when the assignment was published,
+    - name of the person who published the assignment,
+    - the name and version of the stack assigned to the assignment.
+
+![versions](/img/versiondetails.png)
+1. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
+    - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
+    - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
+1. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
+    - Select **Convert content to a project** to delete the assignment and save the assignment contents to your projects list.
+    - Select **Delete content** to delete the assignment and its content entirely.
+1. Delete the entire module. You are required to enter a confirmation code to proceed
+1. Reorder the modules in the course. 
+
+You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
+
+
 To the top right of the list item is a pencil icon. 
 
 ![asignmentedit](/img/class_administration/editassignment.png)

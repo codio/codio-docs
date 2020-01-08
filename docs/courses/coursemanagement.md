@@ -32,13 +32,13 @@ The following video covers the important topic of stack management within a cour
 
 
 ### Updating courses and collaboration
-If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/coursemanagement/#collaborating-on-project-units) for details.
+If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/collaboration) for details.
 
 
 ### Overview
 
 
-The most basic way to assign content to students is to create a project and then [assign the project to the course](/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
+The most basic way to assign content to students is to create a project and then [assign the project to the course](/courses/coursemanagement/#new-project-assignment). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 
 
@@ -52,7 +52,7 @@ A course is a very elegant way of managing and organizing your projects. A cours
 
 A course assignment typically takes one of two forms.
 
-- **Tutorial**: in this case you would use the [Codio Guides](/content/authoring/guides) or [Codio Books](/project/books/) tutorial authoring tools to create your tutorial content. [Click here](/content/authoring/3ways) for an overview of the difference.
+- **Tutorial**: in this case you would use the [Codio Guides](/courses/authoring) or [Codio Books](/project/books/) tutorial authoring tools to create your tutorial content. [Click here](/courses/authoring/#project-course-assignment-or-book) for an overview of the difference.
 - **Assignment**: in this case you create a project assignment where everything is set up for the student to tackle a coding assignment or challenge. You can still use guides or books to give instructions, but with assignments, you expect your students will be coding rather than learning.
 
 
@@ -75,7 +75,7 @@ Either
 
 Or
 
-- **Create a new book assignment** which maps to a part of a book. Unlike project assignments, a book has a single Codio box to work with along with a typically large volume of content.
+- **Create a new book assignment** which maps to a part of a book that has already been created. Unlike project assignments, a book has a single Codio box to work with along with a typically large volume of content.
 
 Please [click here](/courses/authoring/#project-course-assignment-or-book) for details on how to decide whether to use project assignments or book assignments
 
@@ -92,7 +92,7 @@ This describes the first time you create a new assignment.
 You will iterate through the above process as you add more assignments to your course modules.
 
 
-### Updates
+### Updates   TODO
 Editing a assignment **does not affect published course content or content assigned to course**. This section describes how you can push your changes out to courses when you are ready.
 
 
@@ -105,11 +105,11 @@ Editing a assignment **does not affect published course content or content assig
 ## Stack planning
 The following applies to project assignments rather than books. Books require less thought as a book only has one box associated with it and the book assignment will takes its stack setting from the book.
 
-You should be familiar with the concept of [a stack](/project/stacks/#what-is-a-stack) before creating CS coursework.
+You should be familiar with the concept of [a stack](/project/stacks/#what-is-a-stack) before creating content.
 
 ### Minimize the number of stacks
 
-It is important to think about the [stack or stacks](/project/stacks/stack-overview) that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds.
+It is important to think about the [stack or stacks](/project/stacks) that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds/rebuilds.
 
 
 You should look to use as few stacks as possible, ideally just one, and use that stack for all assignments. There are perfectly valid exceptions, but this is the rule.
@@ -120,7 +120,7 @@ To illustrate a single stack situation, let's assume you are teaching a course "
 Whether you have created your own stack or used a default one, you would then point all your assignments to that one, same stack.
 
 
-If, as you create more assignments in your course, you find you need to install more tools, then you should [update the stack with a new version](/project/stacks/update).
+If, as you create more assignments in your course, you find you need to install more tools, then you should [update the stack with a new version](/project/stacks/#updating-a-stack-version).
 
 
 By default, when you choose a stack for your new assignment, it will point to the latest version. So if the underlying stack is updated from any location at all, then any assignment that uses that stack will automatically be set to use it. Students who are using a assignment in a course will also automatically use the latest version when it is updated.
@@ -136,7 +136,7 @@ A simpler approach would be to use three separate stacks, one for each language.
 Other than that, the principles described above still apply.
 
 ### Switching stacks
-It is possible to change the stack for a assignment. This can be done from either the listing or from within the IDE. However, if this change were to be needed for all assignments then you would have to repeat this for each assignment individually.
+It is possible to change the stack for an assignment. This can be done from either the assignment listing area from within the IDE. However, if this change were to be needed for all assignments then you would have to repeat this for each assignment individually.
 
 It is therefore highly recommended that you start with a stack and stick with it wherever possible.
 
@@ -148,16 +148,16 @@ In this case, you should plan this ahead of time. You would
 - first create the assignment from Codio's Java stack
 - install your components
 
-- create a new stack from your assignment ([in the IDE](/project/stacks/update#stackide) or when you [publish](/courses/units/publish))
+- create a new stack from your assignment ([in the IDE](project/stacks/#updating-from-the-ide) or when you [publish](/courses/units/publish))
 
 - make sure your stack is switched to that newly created stack
 
 You now own this stack and so you can update whenever you like down the line. When you create new assignments, you would then choose this new stack.
 
 ### Use Latest Version
-When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. If you view the stack settings from the IDE (**Project-Stack Settings**) or from the 3 blue dots menu, you will see that this is the default.
+When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. If you view the stack settings from the IDE (**Project-Stack Settings**) or from assigment settings, you will see that this is the default.
 
-![Unit stack settings](/img/stacksettings.png)
+![Assignment stack settings](/img/stacksettings.png)
 
 Understanding what **Use Latest Version** means is important. When you work with a assignment as a course author, that assignment is actually using a fixed version. It does not automatically switch to the latest version each time a new version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button.
 
@@ -177,7 +177,7 @@ Where **Use Latest Version** is useful is when you assign a course module and it
 1. Your new course will appear in your **Courses** area.
 
 ### Course Code, Name, Tags & Duration
-You are required to enter a name for your course. The other fields are optional.  The **Course Code** field is used so your course can be shared with others (in other organisations) and they can create a course by entering in the code you define here.  The tags field is usually used to identify the technologies used and assist with searching courses
+You are required to enter a name for your course. The other fields are optional.  The **Course Code** field is used so your course can be shared with others (in other organisations) and they can create a course by entering in the code you define here.  The tags field is usually used to identify the technologies used and assist with searching courses but you can create you own tag names as you require if you wish to use for different purposes.
 
 
 ## Modules
@@ -196,7 +196,7 @@ It is possible to add a module to your course that already exists in another cou
 
 The Module browser will open for you to search for the module(s) you wish to add.
 
-You can filter from the available options in the tabs, or search by typing into the search field, whereupon Codio will search within all Module names, descriptions and owner fields.
+You can filter from the available options in the tabs, or search by typing into the search field, whereupon Codio will search within all Module names available to you.
 
 You can also order the list of modules by name or owner and use the **Filter by Course** drop down to view modules in other courses.
 
@@ -211,15 +211,16 @@ Please read the section [Assign a project to the course](/courses/classes/#assig
 
 
 ## Course access
-By default when a course is created all 'Teachers' in the course have admin access to the content.
+When a course is created all 'Teachers' in the course have admin access to the content.
 
 
 ## Deleting courses and modules
-You can delete a course or a module by selecting the item from the listing, then pressing the **Delete** button.
+You can delete a course by going to the Admin tab and clicking **Delete Course**.
+You can delete a module by clicking the **Delete** button on the courses listing area
 
 Deleting a course does not delete its modules. Similarly, deleting a module does not delete its assignments.
 
-If you delete a course or module any modules and assignments that have already been assigned to a course will remain intact for the lifetime of that course.
+
 
 
 ## Adding assignments
@@ -272,9 +273,9 @@ With book assignments, students can look at any part of the book even when assig
 
 
 ## Publishing
-The publish process is slightly different for books and project assignments. As you can see from the screenshot below, a book assignment can be identified in the assignment listing by the book icon that appears next to the assignment name.
+The publish process is slightly different for books and project assignments. 
 
-### Updating book assignments
+### Updating book assignments TODO
 Book assignments are published from the books area.
 
 Let's say you have already published a book and created an assignment from a part of that book. If you then make changes to the book and republish the book, those published changes are not automatically reflected in the course. If you want to update the assignment, then need to press the **Update to latest version** button that appears on the right side of the assignment.
@@ -293,15 +294,14 @@ Publishing the assignment takes a snapshot of the underlying project assignment 
 
 - Select the assignment from the listing and then press **Publish**.
 
-![publishnew](/img/publishnew.png)
-
-- If you have previously published then you will see **Publish new version**
+- If you have not previously published then you will see **DRAFT**
 
 ![versions](/img/versions.png)
 
-### Describe changes
 
-You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/units/settings/).
+### Describe changes TODO
+
+You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/classes/#managing-assignments).
 
 
 ### No stack modifications or you switched stack
@@ -349,7 +349,7 @@ If you have differing configurations then create one single stack for a given co
 ![versions](/img/stack_newstack.png)
 
 ### IMPORTANT: Switching a assignment's stack
-Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack settings**) or from the assignments listing (press the 3 blue dots and select **Change stack**).
+Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack settings**) or from the assignments listing (press **Stack** icon).
 
 Once this has been done, you need to publish your assignment again to reflect this change. Having switched stack, you should select **Stack not modified** and then press **Publish assignment**.
 
@@ -364,70 +364,19 @@ If you have added new content then you can also remap the assignment to the book
 
 
 
-### Editing a project assignment
+### Editing assignments
+See [Managing Assigments](/courses/classes/#managing-assignments)
+
 Editing a project assignment is always done from the assignment listing.  Select the assignment to open in the IDE.
 
-If there is a later version of the assignment that has been published, you will see the following screen and elect to open either the latest published version or the last version you edited.
+If there is a later version of the assignment that has been published since you last opened it, you will see the following screen and elect to open either the latest published version or the last version you edited.
 
 ![publishedversion](/img/publishedversion.png)
-## Ordering assignments
-You can change the order of the assignments within a module by dragging an assignment into its desired position in the list.
-
-![Unit order before](/img/unitorder1.png)
-## Settings menu
-Additional actions for the assignment are available by clicking on the 3 vertical blue dots. You will get a different menu depending on whether you have a book assignment or a project assignment.
-
-![Unit settings](/img/unitsettings.png)
-
-For book assignments, you will not see **Change stack** or **Versions**.
 
 
-### Edit settings
 
-For project assignments, select **Edit settings** to change the assignment title, description and icon.
-
-For book assignments, you can also remap the assignment to the book contents.
-
-
-### Versions
-This allows you to view the version history. You can see
-
-- date/time when the assignment was published,
-- name of the person who published the assignment,
-- the name and version of the stack assigned to the assignment.
-
-![versions](/img/versiondetails.png)
-
-
-### Change stack
-This option is only available for project assignments. It allows you to switch the stack used by a assignment.
-
-If a stack is set to **Use latest version** then
-
-- when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
-- the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
-
-### Delete assignment
-![deletetab](/img/deletetab.png)
-Select **Delete** from the above screen to delete the assignment.
-
-![deleteunit](/img/deleteunit.png)
-
-You are required to enter a confirmation code to proceed and you can then do one of the following
-
-- Select **Convert content to a project** to delete the assignment and its content entirely.
-- Select **Delete content** to delete the assignment and save the assignment contents to your projects list.
-## Update course
-
-
-If you publish new course assignment content, then this is not automatically applied to course. It has to be explicitly pulled into the course as [described here](/classes/unitmanagement/upgradecourse).
-
-
-## Collaborating on project assignments
-The ability for other to collaborate on course assignments is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the assignments will be private.
-
-
-![Module Edit](/img/moduleedit.png)
+## Collaborating on project assignments TODO
+Other teachers in the course are able to collaborate on course assignments. 
 
 
 The rules for other users to edit a project assignment in a course are as follows.
