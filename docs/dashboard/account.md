@@ -1,5 +1,5 @@
 ---
-title: "Account"
+title: Account
 
 
 ---
@@ -278,7 +278,7 @@ We offer substantial **Whole School** license discounts for Schools, Colleges an
 
 ### Customer Technical Support
 
-We have an [extensive documentation section](/docs) where you can find out how to [add students](/courses/classes/#add-students-to-a-class), [add teachers](/dashboard/organisations/#add-teachers) and much more.
+We have an extensive documentation section where you can find out how to [add students](/courses/classes/#add-students-to-a-class), [add teachers](/dashboard/organisations/#add-teachers) and much more.
 
 To access the documentation
 

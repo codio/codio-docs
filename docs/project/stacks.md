@@ -1,5 +1,5 @@
 ---
-title: "Stacks"
+title: Stacks
 
 
 ---

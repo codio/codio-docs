@@ -1,5 +1,5 @@
 ---
-title: "Content Authoring with Guides"
+title: Content Authoring with Guides
 
 
 ---

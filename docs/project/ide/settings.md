@@ -1,5 +1,5 @@
 ---
-title: "Settings"
+title: Settings
 
 
 ---

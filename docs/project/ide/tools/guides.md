@@ -1,6 +1,5 @@
 ---
-title: "Guides"
-
+title: Guides
 
 ---
 

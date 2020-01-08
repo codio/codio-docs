@@ -1,5 +1,5 @@
 ---
-title: "Grading and accessing student projects"
+title: Grading and accessing student projects
 
 
 ---

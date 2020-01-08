@@ -1,5 +1,5 @@
 ---
-title: "Accessing a Box"
+title: Accessing a Box
 
 
 ---

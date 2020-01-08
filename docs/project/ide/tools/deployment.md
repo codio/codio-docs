@@ -8,11 +8,11 @@ You do not to need to deploy when you are developing your project. Front-end cod
 
 You can deploy from the command line (**Tools->Terminal** menu), but Codio has a great Deployment Manager that lets you deploy all or any part of your project, with a single click ,to a custom 'deployment target'. We support deployment to the following platforms.
 
-- [FTP](/ide/tools/deployment/#ftp-target-type)
-- [SFTP](/ide/tools/deployment/#sftp-target-type)
-- [RSYNC](/ide/tools/deployment/#rsync-target-type)
-- [Nodejitsu](/ide/tools/deployment/#nodejitsu-target-type)
-- [Generic Git deployment](/ide/tools/deployment/#git-target-type)
+- [FTP](/project/ide/tools/deployment/#ftp-target-type)
+- [SFTP](/project/ide/tools/deployment/#sftp-target-type)
+- [RSYNC](/project/ide/tools/deployment/#rsync-target-type)
+- [Nodejitsu](/project/ide/tools/deployment/#nodejitsu-target-type)
+- [Generic Git deployment](/project/ide/tools/deployment/#git-target-type)
 
 ## Create/manage a target
 The Manage Targets options are accessed via **Tools > Deployment > Manage Targets** menu. All Deployment dialogs will be displayed in the currently active [Panel](/ide/panels).
@@ -31,11 +31,11 @@ In the Deployment Targets dialog, you can:
 ### Destination
 The Destination drop down specifies the type of the target you are deploying to. Currently we support the following destinations (click on each one to find out about its associated parameters)
 
-- [FTP](/ide/tools/deployment/#ftp-target-type)
-- [RYSNC](/ide/tools/deployment/#rsync-target-type)
-- [SFTP](/ide/tools/deployment/#sftp-target-type)
-- [Nodejitsu](/ide/tools/deployment/#nodejitsu-target-type)
-- [Git](/ide/tools/deployment/#git-target-type)
+- [FTP](/project/ide/tools/deployment/#ftp-target-type)
+- [RYSNC](/project/ide/tools/deployment/#rsync-target-type)
+- [SFTP](/project/ide/tools/deployment/#sftp-target-type)
+- [Nodejitsu](/project/ide/tools/deployment/#nodejitsu-target-type)
+- [Git](/project/ide/tools/deployment/#git-target-type)
 
 ## Base path field
 You will notice that all deployment targets, except Codio, have a **Preview Base Path** field.

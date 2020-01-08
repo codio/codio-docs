@@ -1,5 +1,5 @@
 ---
-title: "Settings and page actions"
+title: Settings and page actions
 
 
 ---

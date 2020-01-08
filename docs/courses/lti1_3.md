@@ -1,5 +1,5 @@
 ---
-title: "LTI 1.3 integration"
+title: LTI 1.3 integration
 
 
 ---
