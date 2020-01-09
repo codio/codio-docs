@@ -38,30 +38,30 @@ A project can be [assigned to a course](/classes/unitmanagement/assign-project) 
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
-### Project assignments
-A [project assignment](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard. Project assignments are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project assignments chronologically within a course module.
+### Assignments
+An [assignment](/courses/classes/#assign-a-project-to-the-course) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
 
 
 
 ![Courses](/img/courseslist.png)
 
-You would typically use a project assignment if either of the following apply.
+You would typically use an ssignment if either of the following apply.
 
-- You have a logically related series of projects that you want to assign to a student or to a course that together form a course.
+- You have a logically related series of projects that you want to assign to a student that form a course module.
 - You have a collection of assessments relate to a course that are used for homework, lab assessments, projects etc.
 
-A course allows you to subdivide your course into modules and then chronologically arrange your project assignments within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain project assignments and are simply a nice way to group your assignments.
+A course allows you to subdivide your course into modules and then chronologically arrange your assignments within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain assignments and are simply a nice way to group your assignments.
 
-There is one minor drawback to project assignments that you should be aware of. If students are working with a project assignment and wants to look at tutorial content that is contained in another assignment, they have to switch assignments. This can take several seconds and can be irritating during a revision phase when they want to frequently switch assignments. For this reason, we created the book, which we will look at next.
+There is one minor drawback to project based assignments that you should be aware of. If students are working with a project assignment and want to look at tutorial content that is contained in another assignment, they have to switch assignments. This can take several seconds and can be irritating during a revision phase when they want to frequently switch assignments. For this reason, we created the book, which we will look at next.
 
 
 ### Book assignments
-A [book](/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
+A [book](/project/books/) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
 
 
-However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
+However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/courses/classes/#book-visibility) for more information.
 
 
 ![Books](/img/bookslist.png)
@@ -148,6 +148,7 @@ The Restore Current Files feature is a great way to reset/restore any files on t
 Once you are in the Codio IDE, you are able to create and manage content. There are two ways to access the Codio Guide.
 
 -  Press then right arrow at the top of the file tree.
+
 ![startauthoring](/img/guides/startguides.png)
 - From the menu, select **Tools->Guide->Edit**.
 
@@ -240,21 +241,20 @@ This allows you to play audio files within your project.
 
 - **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
 - **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
-- **[Lexicon Topic](/resources/schoolscontent/lexikon/)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
+- **[Lexicon Topic](/resources/schoolscontent/lexikon/)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected. Students can still access the Lexicon from the **Tools>Lexicon** menu (unless of course you are restricting the top menu available to them)
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/courses/classes/#assign-a-project-to-the-course).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
 
 ![StartGuides](/img/guides/startguides.png)
 
-- **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Use submit buttons** see [Student submission options](/courses/assessments/#student-submission-options) for more information
-
+- **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
 ![OpenGuides](/img/guides/guidecollapse.png)
-
-- **Hamburger Icon** can be pressed to show or hide the Section List.
-- **[Section List](/content/authoring/guides/add-section/)** lists the sections in your content. You can add new ones and re-order the list by dragging a page.
+- **Hide Section List** hides the sections list in your content for the students. 
+- **Hide Back to Dashboard button** hides this button that would otherwise show on the last page of the guides.
+- **Protect Layout** prevents students from closing files in tabs.
 
 ## Authoring guidelines
 Here are some guidelines for creating good quality content.
@@ -266,7 +266,7 @@ The best way to author content is using markdown. It is extremely easy to write 
 We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your own account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project.
 
 ### Courses and Books
-We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/courses/authoring/#project-course-assignment-or-book).
+We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/courses/authoring/#project-course-assignment-or-book) before starting.
 
 ### Media assets
 When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
@@ -276,7 +276,7 @@ When creating a book or a guide, you will often be working with images, video an
 - Web based media such as Google Doc documents can be embedded using regular HTML embed tags as available from those platforms.
 
 ### Callout blocks
-Our markdown support the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
+Our markdown supports the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
 
 Please refer to the **Callout** section of the Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
 
@@ -298,6 +298,8 @@ When used in a course situation, assessments are extremely helpful to the teache
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
 You can also use the [free-text](/courses/assessments/#free-text_1) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
+
+Assessments you create can be saved in your own library for use in other assignments. See [here](/courses/assessments-library/#adding-questions-to-an-assessments-library) for more information on this. We also have an extensive library of assessments that you are free to use as you wish. See [here](/courses/assessments-library/#codios-global-assessments-library) for more details
 
 ### Layouts
 The editor lets you create different panel layouts for your guide content and the layout can change from section to section.
@@ -330,7 +332,8 @@ You can then start writing your content in the main content area.
 ### Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
-When in play Mode, your content is rendered as students will see it. You can also override the default CSS styling. Go to Tools>Guide>Add Custom CSS
+When in Play Mode or as you preview, your content is rendered as students will see it. You can also override the default CSS styling if you wish. Go to **Tools>Guide>Add Custom CSS**
+
 ![Guide CSS](/img/guides/guidecss.png)
 
 'Reset Custom CSS' will restore the default CSS styling
@@ -500,7 +503,7 @@ Another approach that works for the current page is to switch layout mode to spl
 ![authtoken](/img/guides/split-button.png)
 
 ### Play
-You can also start the Guide player from the **Tools->Guide->Play** menu.
+You can start the Guide player from the **Tools->Guide->Play** menu or selecting the '>' icon in the file tree
 ## HTML content editing
 We do not recommend this setting unless you have very specific reasons. It is much harder to use and maintain than markdown but for those who want ultimate control over appearance it is a good option.
 
@@ -566,7 +569,7 @@ Warning
 
 - If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
 
-You can make content available on to course teachers in the following ways.
+You can make content available only to course teachers in the following ways.
 
 ### Entire page
 If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](/courses/settings-actions/#teacher-only-content).
@@ -650,7 +653,7 @@ window.addEventListener('codio-button-custom', function (ev) {
 });
 ```
 
-### Loading Scripts
+#### Loading Scripts
 You should point your content page to a script file to load javascript scripts. You can do this from **Settings>Global>Scripts**.
 
 
@@ -658,7 +661,7 @@ You should point your content page to a script file to load javascript scripts. 
 
 <a name="eventlistener"></a>
 
-### Event Listener
+#### Event Listener
 The event listener is able to execute your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML.
 
 For the event listener to run you should include in **Settings>Global>Scripts**:
@@ -714,7 +717,7 @@ On the page you wish to play Audio, go to the **Settings** area where you can de
 ![authtoken](/img/guides/media.png)
 
 - **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC where it will then be stored in the `.guides/media` folder.
-- **Add Action** - specifies actions that are triggeted at specific times during playback. The following options are available.
+- **Add Action** - specifies actions that are triggered at specific times during playback. The following options are available.
 
   Open file
   Close file
