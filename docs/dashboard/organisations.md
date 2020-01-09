@@ -308,7 +308,7 @@ In addition to Codio's global assessments library, you can create Organization a
 1. Enter the name of the assessments library you want to create and press “Create”
 ![Assessments Library name](/img/namelibrary.png)
 
-Read more about assessment libraries [here](courses/assessments-library/).
+Read more about assessment libraries [here](/courses/assessments-library/).
 
 ### Add Collaborators to an Assessments Library
 

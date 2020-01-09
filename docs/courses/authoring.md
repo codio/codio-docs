@@ -135,8 +135,8 @@ When the content is rendered to a student, various options can be controlled
 
 - The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
-- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
-- **[Show/Hide Section List Hamburger Icon](/content/authoring/guides/collapse/)** allows the user to show/hide the section list.
+- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
+- **Show/Hide Section List** Hamburger Icon allows the user to show/hide the section list.
 
 #### Restore current files
 The Restore Current Files feature is a great way to reset/restore any files on that page to its initial state after hacking sample code around. Files can be restored from the menu as shown below.
@@ -148,7 +148,7 @@ The Restore Current Files feature is a great way to reset/restore any files on t
 Once you are in the Codio IDE, you are able to create and manage content. There are two ways to access the Codio Guide.
 
 -  Press then right arrow at the top of the file tree.
-![startauthouring](/img/guides/startguides.png)
+![startauthoring](/img/guides/startguides.png)
 - From the menu, select **Tools->Guide->Edit**.
 
 ### Editing page content and actions
@@ -215,7 +215,7 @@ Editor settings gives you access to the key functions:
   - **[Layout](/courses/settings-actions/#page)** allows you to specify the panel layout you want to choose for this section,
   - **[Show Folders](/courses/authoring/#hiding-folders)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
   - **[Close Tabs](/courses/authoring/#openclose-tabs-from-content)** allows you to close all tabs open from previous section,
-  - **[Set Section as Chapter](/content/authoring/guides/chapter/)** allows you to set the section as a chapter in your content,
+  - **Set Section as Chapter** allows you to set the section as a chapter in your content,
   - **[Teacher Only](/courses/authoring/#teacher-only-content)** allows you to show content that only teachers are able to see.
   - **Content Type** allows you to write your content in either [Markdown](/courses/authoring/#markdown-content-editing) or [HTML](/courses/authoring/#html-content-editing)
 
@@ -237,15 +237,19 @@ This allows you to play audio files within your project.
 
 #### [Global](/courses/settings-actions/#global)
 ![Global Settings](/img/guides/globalsettings.png)
+
 - **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
 - **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
 - **[Lexicon Topic](/resources/schoolscontent/lexikon/)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
-- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/classes/unitmanagement/assign-project).
+- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/courses/classes/#assign-a-project-to-the-course).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
+
 ![StartGuides](/img/guides/startguides.png)
+
+- **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Use submit buttons** see [Student submission options](/courses/assessments/#student-submission-options) for more information
-- **Use mark as completed** see [Student submission options](/ntent/authoring/assessments/submitcomplete/) for more information
+
 - **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
 ![OpenGuides](/img/guides/guidecollapse.png)
 
@@ -549,7 +553,7 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.assessments.send(assessmentId, answer, points, callback)` - Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question.
 - `codio.resetCurrentFiles()` - Allows students to restore current files in guides within your content.
 
-## Teacher only content
+## Teacher only content  TODO
 Teacher only content can be viewed by teachers when:
 
 - using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a assignment within a course module in a course
