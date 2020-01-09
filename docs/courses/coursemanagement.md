@@ -4,7 +4,7 @@ title: Creating Course Content
 
 ---
 ## Introduction
-The following videos cover project units. [Click here](/books/introduction) if you have authored a Codio book and want to publish a unit from a part it.
+The following videos cover project units. [Click here](/project/books/#introduction) if you have authored a Codio book and want to publish a unit from a part it.
 
 <a name="courseoverview"></a>
 ### Video - General overview
