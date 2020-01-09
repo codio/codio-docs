@@ -190,7 +190,7 @@ Select **Edit Details** button and flip the switch to change the settings as req
 
 ![Show all pages](/img/bookshowallpages.png)
 ## Deleting a course
-A course can be deleted by course teachers and organization owners. All the course data can also be exported. See [Export course data](/classes/classmanagement/export/) for more information
+A course can be deleted by course teachers and organization owners. All the course data can also be exported. See [Export course data](/courses/classes/#exporting-course-data) for more information
 
 - Select the course, go to the **Admin** area and then press the **Delete Course** button.
 
@@ -391,7 +391,7 @@ You can also remove individual assignments from a module, clicking the **Delete*
 ![authtoken](/img/manage_classes/deleteassignment.png)
 
 **Warning**
-Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/classes/monitor/progress#downloadcsv) before removing the module or assignment.
+Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/courses/grading/#download-csv-summary) before removing the module or assignment.
 
 ## Update course
 
@@ -546,7 +546,7 @@ You can specify the students ability to access the assignment when disabled.  **
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
 
-Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/classes/unitmanagement/settings-info/disable) students will either be refused all access or can have read-only access to the assignment.
+Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/courses/classes/#disableenable-assignment) students will either be refused all access or can have read-only access to the assignment.
 
 Please note, that selecting mark as complete will not stop students who have not started the assignment from being able to access the assignment after the stop date/time has been reached. If you wish to manage this, look at using the disable assignment and mark as complete option.
 
@@ -554,7 +554,7 @@ For book based assignments, you should read the caveats mentioned in the **Disab
 
 ![authtoken](/img/manage_classes/unitduration.png)
 
-For more information on using **Mark as complete** please [click here](/content/authoring/assessments/submitcomplete).
+For more information on using **Mark as complete** please [click here](/courses/assessments/#mark-as-complete).
 
 #### Penalties
 
