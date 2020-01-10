@@ -19,7 +19,7 @@ Please watch the following video to understand how to allow people to find your 
 
 <iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-You can also read how to [control access](/courses/coursemanagement/#controlling-access) in the documentation.
+You can also read how to [control access](/courses/coursemanagement/#course-access) in the documentation.
 
 <a name="coursestacks"></a>
 ### Video - Working with stacks in courses
@@ -32,13 +32,13 @@ The following video covers the important topic of stack management within a cour
 
 
 ### Updating courses and collaboration
-If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/collaboration) for details.
+If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](courses/coursemanagement/#collaborating-on-project-assignments-todo) for details.
 
 
 ### Overview
 
 
-The most basic way to assign content to students is to create a project and then [assign the project to the course](/courses/coursemanagement/#new-project-assignment). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
+The most basic way to assign content to students is to create a project and then [assign the project to the course](/courses/classes/#assign-a-project-to-the-course). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 
 
@@ -52,7 +52,7 @@ A course is a very elegant way of managing and organizing your projects. A cours
 
 A course assignment typically takes one of two forms.
 
-- **Tutorial**: in this case you would use the [Codio Guides](/courses/authoring) or [Codio Books](/project/books/) tutorial authoring tools to create your tutorial content. [Click here](/courses/authoring/#project-course-assignment-or-book) for an overview of the difference.
+- **Tutorial**: in this case you would use the [Codio Guides](/courses/authoring/) or [Codio Books](/project/books/) tutorial authoring tools to create your tutorial content. [Click here](/courses/authoring/#project-course-assignment-or-book) for an overview of the difference.
 - **Assignment**: in this case you create a project assignment where everything is set up for the student to tackle a coding assignment or challenge. You can still use guides or books to give instructions, but with assignments, you expect your students will be coding rather than learning.
 
 
@@ -105,11 +105,11 @@ Editing a assignment **does not affect published course content or content assig
 ## Stack planning
 The following applies to project assignments rather than books. Books require less thought as a book only has one box associated with it and the book assignment will takes its stack setting from the book.
 
-You should be familiar with the concept of [a stack](/project/stacks/#what-is-a-stack) before creating content.
+You should be familiar with the concept of [stack](/project/stacks/#what-is-a-stack) before creating content.
 
 ### Minimize the number of stacks
 
-It is important to think about the [stack or stacks](/project/stacks) that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds/rebuilds.
+It is important to think about the [stack(s)](/project/stacks) that your course uses. You should avoid creating a new stack for each assignment. There are very few cases where this is needed. If you unnecessarily create new stacks for each assignment, you will be be less efficient and waste unnecessary time with stack builds/rebuilds.
 
 
 You should look to use as few stacks as possible, ideally just one, and use that stack for all assignments. There are perfectly valid exceptions, but this is the rule.
@@ -245,8 +245,8 @@ You add a new assignment by pressing the large blue **+** button. You now need t
 You can create a new assignment in the following ways.
 
 - Create a brand new assignment as you would with a normal Codio project.
-- Import an existing project into the assignment. See the image below and read the contents of the **Important** box. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
-- Import from other sources such as GitHub/BitBucket/Mercurial etc. by selecting the **Import** option.
+- Import (Fork) an existing project into the assignment. See the image below and read the contents of the **Important** box. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
+- Import from GitHub or a Zip file of an existing Codio project, by selecting the **Import** option.
 
 ![UnitStart](/img/unitstart.png)
 
@@ -268,7 +268,7 @@ You can now
 
 
 
-With book assignments, students can look at any part of the book even when assigned a single book assignment. This is ideal for referring back to material covered previously and for general revision and can be set in the course. See [Book Visibility](/classes/classmanagement/bookvisibility)] for more information.
+With book assignments, students can look at any part of the book even when assigned a single book assignment. This is ideal for referring back to material covered previously and for general revision and can be set in the course. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
 
 
 
@@ -283,7 +283,7 @@ Let's say you have already published a book and created an assignment from a par
 ![Book update](/img/bookupdate.png)
 
 
-After pressing this, the books changes will be reflected in the assignment. If you want these changes to be passed through to a course where the assignment was previously added, then please [click here](/classes/unitmanagement/upgradecourse) for details.
+**TODO** After pressing this, the books changes will be reflected in the assignment. If you want these changes to be passed through to a course where the assignment was previously added, then please [click here](/classes/unitmanagement/upgradecourse) for details.
 
 
 ## Publishing project assignments
@@ -360,7 +360,7 @@ If you want to edit book assignment content, then you edit the book from the boo
 ![Book update](/img/bookupdate.png)
 
 
-If you have added new content then you can also remap the assignment to the book as described on the [adding an assignment](/courses/units/unit-add#createbook) page.
+If you have added new content then you can also remap the assignment to the book as described on the [adding an assignment](/courses/coursemanagement/#new-book-assignment) section.
 
 
 
