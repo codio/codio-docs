@@ -6,25 +6,31 @@ title: Grading and accessing student projects
 
 You can monitor student progress and time spent on individual assignments.
 
-1. From the **Courses** screen, click on your class to open it.
+1. From the **Courses** screen, click on your course to open it.
+
 ![authtoken](/img/monitor_students/year10class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
-![authtoken](/img/monitor_students/studentstab.png)
+
+![authtoken](/img/manage_classes/students_tab.png)
 
 1. You will see all students in your class displayed on this screen. You will see progress data for assignments started and assignments completed alongside their names.
 1. To see an individual student's progress in more detail click on their name. You will then see an individual breakdown of auto-graded assessment results, along with time spent on each assignment.
+
 ![authtoken](/img/monitor_students/breakdown.png)
+
 1. To see a more detailed breakdown of each assignment the student has attempted, click on the assignment name. You will be able to view a breakdown of the challenges attempted along with corresponding results.
 
 <a name="downloadcsv"></a>
 ## Download CSV summary
 
 You can also download a CSV file of your students progress. You can do this for individual assignments to see all your students by clicking on the blue triple dot icon to the right of the assignment name:
-![authtoken](/img/downloadcsv_unit.png)
 
-or you can download a CSV file for the Course to see all your students progress in all the assignments in each Module by hovering over the Module name to select **Download CSV** there:
-![authtoken](/img/downloadcsv_module.png)
+![Download Assignment CSV](/img/downloadcsv_unit.png)
+
+or you can download a CSV file for the Course module to see all your students progress in all the assignments in a Module by selecting **Download CSV**:
+
+![Download Module CSV](/img/downloadcsv_module.png)
 
 or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data](/courses/classes/#exporting-course-data) for more details
 
@@ -33,14 +39,17 @@ or you can export all the data from a class (including the students workspaces) 
 As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time.
 
 1. From the **Courses** area, click on your class to open it.
+
 ![Class](/img/monitor_students/year10class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
-![Students tab](/img/monitor_students/studentstab.png)
+
+![Students tab](/img/monitor_students/students_tab.png)
 
 1. You will see all students in your class displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name if preferred
 
 1. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
+
 ![Open student work](/img/openstudent.png)
 
 ## Auto-graded assessments
@@ -64,7 +73,7 @@ Any user configurations required should be stored in a `.codio-jupyter` file.
 
 if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based grader, and therefore only **nbgrader** can be selected for the assessment scripts in the assignment
 
-When the assignment is published to a class, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a [course/module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
+When the assignment is published to a class, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a course [module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
 
 When the student submits the assignment by marking the assignment as complete, it will be [autograded](/courses/classes/#autograde-on-assignment-complete) automatically.
 
@@ -185,25 +194,24 @@ To assign comments or a grade, you click on the Grade icon (see image above with
 
 ![Assign Grades](/img/grading-assign.png)
 
-<a name="releasegrades"></a>
+
 ### Releasing Grades
-By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
+By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
+
+- enable this for the course in the **Course>Admin** area 
+
+![Class Release Grades](/img/changereleasegrades.png)
+
+- set this at the organisation level so any courses created will have this enabled automatically. See [organisation release grades](/dashboard/organisations/#organisation-release-grades) for more information.
 
 ![Grading](/img/grading-release.png)
 
-Students are able to see their grades either from their Course view or by opening the assignment and going to **Education->Feedback**
-
-You can also release grades from the main assignment view right clicking on the 3 vertical dots and selecting **Release grades**.
+- You can also release grades from the main assignment view flipping the switch in the  **Release grades** column for the assignment(s) you wish to release the grades for.
 
 ![Release Grades](/img/grading-release2.png)
 
-<a name="releasegradesstatus"></a>
-### Automatically releasing grades
-If you wish to automatically release grades when students complete a assignment, you can enable this feature at the organisation level so when you create new [courses](/courses/coursemanagement/#create-a-course) this option is automatically enabled. See [organisation release grades](/dashboard/organisations/#organisation-release-grades) for more information.
+Students are able to see their grades either from their Course view or by opening the assignment and going to **Education->Feedback**
 
-You can also change the status of this feature for individual C
-courses if required on the admin tab of the class.
-![Class Release Grades](/img/changereleasegrades.png)
 
 ### Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.
@@ -216,9 +224,9 @@ The below screenshot shows an example of where a student project has been graded
 
 ![Moderation](/img/grading-moderation.png)
 
-The moderated grade will not be shown to the class and can only be seen by teachers of that class.
+The moderated grade will not be shown to the courses and can only be seen by teachers of that course.
 
-Teachers who you want to perform grading moderation will need to be added to the class from the **Admin** screen first.
+Teachers who you want to perform grading moderation will need to be added to the course from the **Admin** screen first.
 
 ## Grading free text questions
 
@@ -266,4 +274,4 @@ A comments field is provided to allow teacher/instructors manual feedback
 
 If a class deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
 
-You can also see the date and time for each submitted answer as well as the date that the assignment was [marked as complete](/students/#completing-units) by the student.
+You can also see the date and time for each submitted answer as well as the date that the assignment was marked as complete by the student.
