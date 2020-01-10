@@ -67,7 +67,7 @@ Once the project is marked as complete (see below) then all assessment responses
 ### Mark as Complete
 To suppress the student **Mark as complete** action, you should go to the guide global settings (see above screenshot) and disable **Use mark as complete**.
 
-A student can proactively mark as assignment as complete. This can trigger a [assignment level autograde script](/courses/classes/#autograde-method) and it is also flagged up in the teacher dashboard against that student.
+A student can proactively mark as assignment as complete. This can trigger an [assignment level autograde script](/courses/classes/#autograde-method) and it is also flagged up in the teacher dashboard against that student.
 
 The drawback to using the student driven mark as complete option is that once students mark a assignment as complete, they are no longer able to make changes to the assignment, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
 
@@ -506,7 +506,7 @@ If **One Attempt Only** is enabled, students will only be able to submit their a
 <a name="grading-free"></a>
 ### Grading free text assessments
 
-To review and grade answers given by student, select the student and a list of all the assessments in the assignment are shown.
+To review and grade answers given by student, select assignment, then the student and a list of all the assessments in the assignment are shown.
 
 ![Free Text Grading](/img/guides/freetext-grading.png)
 
