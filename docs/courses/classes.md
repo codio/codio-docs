@@ -818,29 +818,30 @@ Additional options are also available if you select the **Actions** button.
 ![Action Area](/img/actionarea.png)
 
 
-- Plagiarism checker
+- **Plagiarism checker**
+
 You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu on the assignment or the **Actions** area.
-- Mark all as completed
 
-Certain actions can be triggered when a student marks an assignment as complete
+- **Mark all as completed**
 
-    - [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer)
-    - [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
+Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer) and/or [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
 
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students.
-
-    - Press the **Marking All As Completed** button to mark all student assignments as complete
-    - Hover over a student to see the switch appear to the left of the students name, which you can then activate
-    - [Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or[Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
 
 Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
 
 ![assignment actions](/img/mark-complete.png)
-- Unmark as complete
+
+- **Unmark as complete**
+
 Where the assignment can be marked as not complete for all students
-- Download CSV
+
+- **Download CSV**
+
 This allows you to download a CSV file with student grade data for the assignment.
-- Reset 
+
+- **Reset** 
+
 **This option will destroy all student work.**
 
 In the event that an assignment in your course is updated and, for some reason, you cannot use the [Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.

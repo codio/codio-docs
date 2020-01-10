@@ -25,7 +25,7 @@ Full technical details and documentation
 |[Dashboard overview](/dashboard/overview)|[](#how_use_packs)[Starter pack templates](/project/packs)|
 |[Organization management](/dashboard/organisations/)|
 |[Account settings and info](/dashboard/account)|
-|[Desktop Application](/dashboard/desktopapp)|
+|[Desktop Application](/dashboard/desktopapp)|If you
 
 |**Boxes and the IDE** |**Courses**|
 | :------ |  :----------- |
