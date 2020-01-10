@@ -46,12 +46,12 @@ The LMS user who carries out these steps does not need to be a system administra
 ### Assignment URL
 
 
-Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio course assignments to your LMS system.
+Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) which allows for an easy way to integrate and to map Codio course assignments to your LMS system.
 
 
 If you are unable to utilise the Codio LTI App, the **Assignment URL** is where you map each individual assignment within your Codio course to the corresponding assignment in your LMS. It directs a student to the correct Codio assignment and will automatically open the Codio assignment.
 
-- On the main course screen, click the icon with 3 blue dots and select **LTI Integration URL**.
+- On the main course screen, click the icon with 3 blue dots for each of the assignments you wish to map and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
 
@@ -145,12 +145,13 @@ Where you have enabled the Codio LTI App in your LMS system, you can easily inte
 
 The assignment(s) and course will need to be published before students will be able to access them
 
-For other methods to integrate Codio with LMS systems, check out the pages that follow
+For other methods to integrate Codio with LMS systems, check out the sections below.
+
 ## LTI Constant URLs
 Enabling this setting enables constant URL for course assignments, course detection will be done based on the custom parameter your LMS should pass.
 
 
-Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to fork Codio courses and LMS Courses. See [LTI Coursefork](/classes/lti/lti1_0/lticlassfork) for more on this.
+Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to fork Codio courses and LMS Courses. See [LTI Coursefork](/courses/lti1_0/#lti-course-fork) for more on this.
 
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
@@ -182,7 +183,7 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
 
-First enable [LTI Constant URLs](/classes/lti/lti1_0/lticonstanturl) for your course.
+First enable [LTI Constant URLs](/courses/lti1_0/#lti-constant-urls) for your course.
 
 
 - In your existing Codio course, enable the **Enable LTI course fork** button, and save your changes
@@ -207,11 +208,11 @@ First enable [LTI Constant URLs](/classes/lti/lti1_0/lticonstanturl) for your co
 - In the new course created in your LMS, open one of the new assignments and this will then create the new course in Codio containing the content from your original Codio course.
 ## Grading
 
-When grades are [released](/classes/monitor/grading/) a URL is passed to the LMS where students/teachers can access the grading information for the assignment in the grading area of the LMS
+When grades are [released](/courses/grading/#releasing-grades) a URL is passed to the LMS where students/teachers can access the grading information for the assignment in the grading area of the LMS
 
-By default, only the course teachers and the individual student can access the grading preview URL but by enabling the [LMS shared feedback](/classes/classmanagement/lmsfeedback) option for the course
+By default, only the course teachers and the individual student can access the grading preview URL but by enabling the [LMS shared feedback](/courses/classes/#lms-shared-feedback) option for the course, this will pass a different URL back to your LMS system where anyone who knows the URL can access the students grading information
 ## Canvas
-Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio course assignments to your Canvas system.
+Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps
 
 
 ### Preparation
@@ -322,7 +323,7 @@ When you add a student in Canvas you will need to confirm from the email you are
 
 Next, you should login to Canvas as a test student and start the assignment. Please read on to see what happens next, which is dependent.
 
-**IMPORTANT** : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
+**Important** : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
 
 ### Single sign-in and account creation
 It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will use the Canvas email address to identify the user.
@@ -340,7 +341,7 @@ You should now generate some scores to pass back to Codio. You can do either of 
 By default, grades in Codio are neither passed back to the student nor to Canvas until they are
 
 - Marked as complete by either the student or the teacher and
-- the **Release Grades** switch is enabled.
+- the **Release Grades** switch is enabled (or if you have set the course to automatically release grades when completed)
 
 Once **Release Grades** is enabled, all completed student assignments are automatically sent through.
 
@@ -352,15 +353,14 @@ There are various ways to mark a student's work as complete
 - The student can do this from either the Course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
 - The teacher can do the same in the assignment when [viewing students code](/classes/monitor/studentcode/)
 - The teacher can do the same from the assignment in the Course dashboard by hovering in the left side of a student entry and then setting the completed switch.
-
 - The teacher can mark all student assignments as completed in one action. This is done by
-  - selecting the assignment in the Course
-  - pressing the **Action** button
-  - pressing the **Mark all as Completed** button
+    - selecting the assignment in the Course
+    - pressing the **Action** button
+    - pressing the **Mark all as Completed** button
 
 ## Blackboard
 
-Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The [following page](http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm) explains how to set up external apps in Blackboard Learn.
+Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The [following page](http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm) explains how to set up external apps in Blackboard Learn.
 
 
 ### Preparation
@@ -408,7 +408,7 @@ You need to perform the following actions one time only for a course. The Blackb
 
 This URL ensures that Codio knows how to redirect students back to the correct Blackboard course should they attempt to access the course through their dashboard.
 
-### Mapping ab assignment to Blackboard Content
+### Mapping an assignment to Blackboard Content
 The final mapping step needs to be taken for each individual assignment within Codio. It maps a piece of Blackboard content to a Codio assignment.
 
 #### In Codio
@@ -473,18 +473,17 @@ There are various ways to mark a student's work as complete
 - The student can do this from either the course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
 - The teacher can do the same in the assignment when [viewing students code](/classes/monitor/studentcode/)
 - The teacher can do the same from the assignment in the course dashboard by hovering in the left side of a student entry and then setting the completed switch.
-
 - The teacher can mark all student assignments as completed in one action. This is done by
-  - selecting the assignment in the course
-  - pressing the **Action** button
-  - pressing the **Mark all as Completed** button
+    - selecting the assignment in the Course
+    - pressing the **Action** button
+    - pressing the **Mark all as Completed** button
 
 **Important** : If you are running a staging or test Blackboard environment then you must have a valid SSL certificate on your Blackboard server otherwise grades will not be pass back to Blackboard successfully.
 
 
 ## Moodle
 
-Please be sure to check out the [Codio LTI App](/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio course assignments to your LMS system. Moodle added support for LTI™ apps in version 2.2. The [following page](https://docs.moodle.org/32/en/External_tool_settings) explains how to set up external apps in Moodle.
+Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) which allows for an easy way to integrate and to map Codio course assignments to your LMS system. Moodle added support for LTI™ apps in version 2.2. The [following page](https://docs.moodle.org/32/en/External_tool_settings) explains how to set up external apps in Moodle.
 
 
 ### Authentication and account creation
@@ -500,7 +499,7 @@ The following instructions are provided as short videos.
 #### One time setup
 You will not have access to the Moodle/LMS features unless you have an educational organization setup as explained in the video.
 
-**Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled.
+**Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
 
 **Please note** : Since these videos were created, the Codio keys are now found on the **LTI Integration** tab in your organisation **My Organistaions** area
 
