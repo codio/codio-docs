@@ -42,7 +42,7 @@ If you get an error message, you may not have [write access to your organization
 
 Once a question has been added, [follow these steps to update the assessment in your organization's library.](/courses/assessments-library/#unlinking-and-updating-assessments-from-library)
 
-Additionally, you can [disconnnect questions](/courses/assessments-library/#unlinking-an-assessment from [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library), modify them, and then add your version using the steps above!
+Additionally, you can [disconnnect questions](/courses/assessments-library/#unlinking-an-assessment) from [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library), modify them, and then add your version using the steps above!
 
 ## Codio's Global Assessments Library
 The Global Assessments Library is an assessment library that all Codio users have read-only access to. The library contains auto-graded assessment questions covering a wide variety of topics, difficulties, and assessment types. We are currently populating it with assessments in:
@@ -53,7 +53,6 @@ The Global Assessments Library is an assessment library that all Codio users hav
 - JavaScript
 - Data Structures (in Java)
 
-Read more about assessment libraries [here](/courses/assessments-library/).
 
 ### Features of Global Assessments Library
 
@@ -130,7 +129,7 @@ To narrow down the assessments, input a tag and value pair. For example, you can
 Once you have completed inputting the tag and value pair, you will get a list of results.
 ![Search results](/img/searchResults.png)
 
-You can add as many additional tag and value pairs to narrow your results by clicking the plus sign to the right of the vale box.
+You can add as many additional tag and value pairs to narrow your results by clicking the plus sign to the right of the value box.
 ![Add tags](/img/doubleTags.png)
 
 To navigate through your search results, you can use the scroll bar on the right to scroll through assessments on a page. Once you reach the bottom, you can use the page navigation in the top left to move backwards/forwards a page or jump to a certain page of results.
@@ -175,10 +174,12 @@ Please note the difference between layouts to know how it will be inserted.
 ### Simple vs Complex Layouts
 In Codio's assessments libraries, there are two types of layouts:
 
-- Simple
+- **Simple**
+
   An assessment in the library has a **simple** layout if it was added with the [*1 Panel without tree* layout](/courses/settings-actions/#page). When adding a simple layout question to your project or book, the assessment will be inserted into the current page at your cursor's location.
 
-- Complex
+- **Complex**
+
   An assessment in the library has a **complex** layout if it was added with any layout besides 1 Panel without tree. When adding a complex layout question to your project or book, the assessment will be inserted on a new page directly after the current page.
 
 ### How do you tell the difference?
