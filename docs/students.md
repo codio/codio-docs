@@ -21,7 +21,9 @@ If you are not using and LMS then your instructor should have given you one of t
 - If your teacher has sent you a 2 word token, go to **[Join a course](https://codio.com/p/join-class)** button on our website and enter the token.
 ![authtoken](/img/joinclass.png)
 
+
 To access your course after this point, log in to your Codio account and go to the Coursesarea
+
 
 ## Courses
 
@@ -85,8 +87,10 @@ Within the player various options can be controlled by the user
 
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the content.
+
 - **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
 - **Show/Hide Section List Hamburger Ico** allows the user to show/hide the section list.
+
 
 <a name="restore"></a>
 
