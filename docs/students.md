@@ -21,7 +21,7 @@ If you are not using and LMS then your instructor should have given you one of t
 - If your teacher has sent you a 2 word token, go to **[Join Class](https://codio.com/p/join-class)** button on our website and enter the class token.
 ![authtoken](/img/joinclass.png)
 
-To access your class after this point, log in to your Codio account and go to the [My Classroom](/dashboard/student/myclassroom) area
+To access your class after this point, log in to your Codio account and go to the [My Classroom](/students/#my-classroom) area
 
 ## My Classroom
 
@@ -36,7 +36,7 @@ Using the **My Classroom** area, you can easily re-open the unit you were last w
 
 You can create your own projects using the web-based IDE in Codio. To access the project area, use the **BUILD** links in the left-hand navigation panel.
 
-To learn about how to create projects, jump to the main [Creating Project](/project/creating) section.
+To learn about how to create projects, jump to the main [Creating Project](/project/projects/#creating-and-importing-a-project) section.
 
 ## Dyslexia support
 
@@ -82,7 +82,7 @@ Within the player various options can be controlled by the user
 
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the content.
-- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
+- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
 - **[Show/Hide Section List Hamburger Icon](/content/authoring/guides/collapse/)** allows the user to show/hide the section list.
 
 <a name="restore"></a>
@@ -109,7 +109,7 @@ To do this:
 
 When you have completed a unit you can mark it as completed. This can be done from either:
 
-- Your [My Classroom](/dashboard/student/myclassroom/) area
+- Your [My Classroom](/students/#my-classroom) area
 - In the settings (click the gear icon)
 	![Complete](/img/guides/complete.png)
 - From the last page in the guide.
