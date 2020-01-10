@@ -200,10 +200,10 @@ A course can be deleted by course teachers and organization owners. All the cour
 
 ![Delete course confirmation](/img/deleteclass.png)
 
-- [Organization owners](/dashboard/create/adminrole) are able to view a list of any members that are no longer members of any courses and remove any users from the organization. See [View organization members](/dashboard/create/viewmembers) for more information.
+- [Organization owners](/dashboard/organisations/#administrator-role) are able to view a list of any members that are no longer members of any courses and remove any users from the organization. See [View organization members](/dashboard/organisations/#view-organization-members) for more information.
 ## Exporting course data
 ### Course Data
-Course data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Course](/classes/classmanagement/delete/)
+Course data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Course](/courses/classes/#deleting-a-course)
 
 - Select the course, go to the **Admin** area and then press the **Course Data** button.
 
@@ -217,7 +217,7 @@ Course data (including students workspaces) can be exported. We would recommend 
 
 ![Course Export Links](/img/class_exportlinks.png)
 
-Individual assignments data can also be exported separately if required. See [export assignment data](/courses/classes/#export-assignment-data) for more details
+Individual assignments data can also be exported separately if required. See [managing assignments](/courses/classes/#managing-assignments) for more details
 
 If your course is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/courses/lti1_0/#exporting-lti-settings) for more information.
 
@@ -244,7 +244,7 @@ Use this to download a CSV of user access to assignments in the course. Details 
 Collection and storage of this data will be retained for maximum of 6 months.
 
 ### LTI Settings
-For more information see [Exporting LTI settings](/courses/lti1_0/#lti-keys)
+For more information see [Exporting LTI settings](/courses/lti1_0/#exporting-lti-settings)
 
 ### Working with student workspaces
 
@@ -291,8 +291,9 @@ You should see a **Grading Templates** tab item. There will be fewer tabs visibl
 
 Click the **New** button in the to right to create a new template. You should then add rows and columns.
 
-**Rows** : a row addresses a single assessment criterion. Each row has a weighting % value that you should supply. All rows must add up to 100%.
-**Columns** : each column contains a score that you can freely assign. Typically, you would have a 0 value in the first column that corresponds to a complete failure to address the criterion. The remaining columns contain a range of values that you choose with the right most column being the score for fully meeting the assessment criterion. Please read the following paragraph before choosing column values.
+- **Rows** : a row addresses a single assessment criterion. Each row has a weighting % value that you should supply. All rows must add up to 100%.
+
+- **Columns** : each column contains a score that you can freely assign. Typically, you would have a 0 value in the first column that corresponds to a complete failure to address the criterion. The remaining columns contain a range of values that you choose with the right most column being the score for fully meeting the assessment criterion. Please read the following paragraph before choosing column values.
 
 ### Calculation of scores
 When you are grading student code, the grading rubric will appear and is clickable. Points are awarded according to where you click. Codio will then weight the scores according to the weightings that were provided for each row.
@@ -307,7 +308,7 @@ To use a grading template you should select the course so you see the full assig
 
 Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
-![rubric template apply](/img/class_administration/grading/set-template.png)
+
 ![rubric template set](/img/class_administration/grading/grading-template.png)
 
 ### Grading student work
@@ -356,9 +357,9 @@ The simplest and quickest thing you can do is to assign one of your projects to 
 - Then select **Fork Project** and your project will show. If you have other projects in your **My Projects** area you can browse to select one of them.
 - At this point you can set the name of the assignment (by default it will be the name of your project with 'fork' appended) and add a description if you wish.
 - When ready, click the **Create** button and the assignment will be added to the course module in draft mode.
-- To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see [Course Management](/courses/coursemanagement)
+- To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see [creating course content](/courses/coursemanagement)
 - For the assignments to be visible to your students, you need to **Publish** the assignment.
-- Any changes you make in future to assigments will not be visible to students until you publish again
+- Any changes you make in future to assigments will not be visible to students until you publish again. Details of previously published versions is available in the log area.
 
 ![](/img/publish.png)
 
@@ -415,6 +416,7 @@ A list of all modified assignments will be shown. You can select the assignments
 If updates to the stack are detected and students have already started the assignment(s) you can elect to update the stack as well as the guides content by pressing the **Update Content and Stack** button.
 
 ![Update Stack](/img/class_administration/stackupdate.png)
+
 However, **any data outside the code workspace folder will be lost for all students who have already started the assignment**.
 
 If there are no detected updates to the stack or no students have started the assignment(s), this option will not be shown.
@@ -481,6 +483,7 @@ On the module assignment screen you can manage the following settings
     - the name and version of the stack assigned to the assignment.
 
 ![versions](/img/versiondetails.png)
+
 1. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
     - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
     - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
@@ -502,7 +505,7 @@ On this screen you can:
 - [Pin](/courses/classes/#pinunpin-units) the assignment
 - Amend the [Unit Duration](/courses/classes/#unit-duration) of the assignment
 - See at a glance how many students have started the unit
-- [Release the grades](/courses/classes/#release-grades)
+- [Release the grades](/courses/grading/#releasing-grades)
 - View Insights for the assignment
 - Access the [assignment settings](/courses/classes/#assignment-settings)
 
@@ -524,11 +527,12 @@ Available from the **Settings** area.
 ![Unit actions](/img/unitactions.png)
 
 #### Pin/unpin units
-This allows you to [pin or unpin an assignment](/classes/unitmanagement/settings-info/pin). Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.
+This allows you to pin or unpin an assignment. Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.
+![Pinned](/img/pinned.png)
 
 #### Disable/enable assignment
 You can enable or disable assignments that have been assigned to a course. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
-For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. You have the ability to [disable access to content outside the current assignment](/classes/unitmanagement/settings-info/disable/) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
+For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. You have the ability to [disable access to content outside the current assignment](/classes/#book-visibility) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
 
 #### Visibility on completed
 You can specify the students ability to access the assignment when completed. **Not available for book based assignments**
@@ -559,7 +563,7 @@ For more information on using **Mark as complete** please [click here](/courses/
 #### Penalties
 
 If applying penalties for late submission it is recommended that you set the end date/time for the assignment to the last date/time of your penalties.
-You can set the penalty date/time after the assignment end date/time but for students to then be able to work you will need to change the individual students assignment status from [Completed](/classes/unitmanagement/settings-info/complete-unit/) and also adjust the [deadline](/classes/unitmanagement/settings-info/penalties/) for each of them.
+You can set the penalty date/time after the assignment end date/time but for students to then be able to work you will need to change the individual students assignment status from [Completed](/courses/classes/#actions-area-settings) and also adjust the [deadline](/courses/classes/#adjustdeadline) for each of them.
 
 **Time Zones**
 The time zone is taken automatically from your browser, so please check your time settings are correct.
@@ -602,7 +606,7 @@ Once the final deadline hits (if one is set), the assignment will be forced to r
 
 <a name="adjustdeadline"></a>
 
-##### Adjusting deadline for individual students
+##### **Adjusting deadline for individual students**
 
 The set deadline(s) can be adjusted forward by a number of days if required for individual students.
 
@@ -636,13 +640,13 @@ A assignment is marked as complete in any of the following ways
 The two autograding options can be found in the assignment settings.
 
 1. Use the auto-graded assessments within the assignment to auto-populate the grading field with the aggregate % score from all assessments.
-1. Run a script to generate the grading either as soon as the student (or teacher) marks the assignment as complete in their dashboard or when the [assignment duration](/classes/unitmanagement/settings-info/unit-duration/) expires.
+1. Run a script to generate the grading either as soon as the student (or teacher) marks the assignment as complete in their dashboard or when the [assignment duration](/courses/classes/#unit-duration) expires.
 
 The two options can be found in the **AUTOGRADE METHOD** drop-down list.
 
 <a name="transfer"></a>
 #### Transferring authored content assessment total
-If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Courses dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/classes/monitor/grading).
+If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Courses dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/courses/lti1_0/) then this grading field is then transferred into your LMS gradebook once you [release the grades](/courses/grading/#releasing-grades).
 
 <a name="script"></a>
 
@@ -709,7 +713,7 @@ From the **Actions** area of the assignment, you can regrade all students that h
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a course.
 
-You should be aware that once the assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the assignment, fixing the bug and finally republishing the assignment. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then [Update assignment](/classes/unitmanagement/settings-info/updateunit/)
+You should be aware that once the assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the assignment, fixing the bug and finally republishing the assignment. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then **TODO**[Update assignment](/classes/unitmanagement/settings-info/updateunit/)
 
 Another strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.
 
@@ -824,9 +828,9 @@ You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu
 
 - **Mark all as completed**
 
-Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer) and/or [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
+Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/courses/classes/#transferring-authored-content-assessment-total) and/or [Scripts can be executed for assessing the student code and assigning the grade](/courses/classes/#running-a-custom-script)
 
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or[Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or **TODO**[Accessing student work](/classes/) and going to the **Education->Mark as Completed** menu item within the IDE.
 
 Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
 
@@ -844,7 +848,7 @@ This allows you to download a CSV file with student grade data for the assignmen
 
 **This option will destroy all student work.**
 
-In the event that an assignment in your course is updated and, for some reason, you cannot use the [Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
+In the event that an assignment in your course is updated and, for some reason, you cannot use the **TODO**[Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
 
 You can reset the assignment for all your students by selecting either
 
@@ -859,7 +863,7 @@ or
 ![resetunit](/img/resetunitstudent.png)
 
 - Regrade completed
-This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. [Click here](/classes/monitor/assessments) for details on end of assignment auto-grade scripts.
+This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. 
 
 - Release Grades
 By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a class. When you are ready to do so, you can select the option from here.
