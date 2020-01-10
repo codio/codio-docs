@@ -1,5 +1,5 @@
 ---
-title: "Assessments"
+title: Codio Assessments
 
 
 ---
@@ -17,11 +17,11 @@ Assessments allow you to ask any number of automatically or manually graded ques
 You can choose to weave assessments into the tutorial materials or to create dedicated assessments content.
 
 ### Example Project
-https://codio.com/codio-units/java-example is a project that you can [fork](/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 
 
 ### Submit buttons and marking as complete
-There are two concepts that are important to understand in order to control the way the student submits questions and the way a student marks a project as complete. [Click here](/content/authoring/assessments/submitcomplete) for a detailed discussion on these.
+There are two concepts that are important to understand in order to control the way the student submits questions and the way a student marks a project as complete. [Click here](/courses/assessments/#student-submission-options) for a detailed discussion on these.
 
 ### Adding a new assessment
 To add a new assessment, you should first position the cursor in your content where you want it to appear. Then, from the assessments drop-down, select the type of assessment you wish to insert.
@@ -39,7 +39,7 @@ Select the page where your assessment is located. Then remove the assessment tok
 Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
 
 ### Autograding when a student completes a assignment
-Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/classes/unitmanagement/settings-info/autograde/) for details.
+Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/courses/classes/#autograde-method) for details.
 
 <a name="secure"></a>
 ### Secure Script execution
@@ -67,7 +67,7 @@ Once the project is marked as complete (see below) then all assessment responses
 ### Mark as Complete
 To suppress the student **Mark as complete** action, you should go to the guide global settings (see above screenshot) and disable **Use mark as complete**.
 
-A student can proactively mark as assignment as complete. This can trigger a [assignment level autograde script](/classes/unitmanagement/settings-info/autograde) and it is also flagged up in the teacher dashboard against that student.
+A student can proactively mark as assignment as complete. This can trigger a [assignment level autograde script](/courses/classes/#autograde-method) and it is also flagged up in the teacher dashboard against that student.
 
 The drawback to using the student driven mark as complete option is that once students mark a assignment as complete, they are no longer able to make changes to the assignment, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
 
@@ -77,18 +77,18 @@ It is possible to disable the student side mark as complete option entirely so s
 
 If you do not want students to mark as complete, then you will likely want to do one of the following
 
-- Once an arbitrary deadline has been reached, after which you want to start grading student work, you should [mark all students' work as complete](/classes/unitmanagement/settings-info/complete-unit/) from the teacher dashboard.
-- Set an [end of assignment date](/classes/unitmanagement/settings-info/unit-duration/) and specify that once the date is reached, the students' work should be marked as complete automatically.
+- Once an arbitrary deadline has been reached, after which you want to start grading student work, you should [mark all students' work as complete](/courses/classes/#actions-area-settings) from the assignment actions area.
+- Set an [end of assignment date](/courses/classes/#unit-duration) and specify that once the date is reached, the students' work should be marked as complete automatically.
 
 
 
 ### Penalty deadlines
-Another powerful feature that you may want to use is **Penalty deadlines**. This allows you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. [Click here](/classes/unitmanagement/settings-info/penalties/) for more information on managing penalty deadlines.
+Another powerful feature that you may want to use is **Penalty deadlines**. This allows you to specify deadlines, before the final grading deadline, where a percentage deduction of the final grade is made. [Click here](/courses/classes/#set-assignment-penalties) for more information on managing penalty deadlines.
 
 
 
 ## Standard code tests
-If you want to write code tests that give you in depth control by allowing you to write your own code to execute tests, then please [refer to the advanced code tests](/content/authoring/assessments/assessments-code-tests/). The majority of code tests, however, can be produced without writing any code at all using standard code tests.
+If you want to write code tests that give you in depth control by allowing you to write your own code to execute tests, then please [refer to the advanced code tests](/courses/assessments/#advanced-code-tests). The majority of code tests, however, can be produced without writing any code at all using standard code tests.
 
 Standard code tests are dialog driven. You specify input data and the expected output for that input data. Codio will then execute the student code, supply the specified input data, and compare the expected output to the student code's actual output.
 
@@ -123,9 +123,9 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
-- **One attempt only** allows the assessment to run only once. The student will be warned that they will not be able to resubmit. You would usually want to provide a [run button](/ide/boxes/runmenu/) or other means for the user to test the code before running the actual assessment.
+- **One attempt only** allows the assessment to run only once. The student will be warned that they will not be able to resubmit. You would usually want to provide a [run button](/project/ide/boxes/#customizable-run-menu) or other means for the user to test the code before running the actual assessment.
 - **Show expected answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 <a name="metadata"></a>
 #### Metadata
@@ -141,7 +141,7 @@ The Metadata section contains fields that further describe the current assessmen
 <a name="files"></a>
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -191,13 +191,13 @@ To provide extended feedback about issues in the student's code, you can enable 
 
 ![](/img/guides/std-assessment-error.png)
 ## Advanced code tests
-Before you read about the advanced code test, please be sure to check the [standard code tests](/content/authoring/assessments/assessments-standard-code-tests/) as these require no coding at all, are very quick to set up and cover the majority of test cases you are likely to want to create.
+Before you read about the advanced code test, please be sure to check the [standard code tests](/courses/assessments/#standard-code-tests) as these require no coding at all, are very quick to set up and cover the majority of test cases you are likely to want to create.
 
 The advanced code test assessment type allows you to write code that checks code a student has written. You can write the code in any language you like provided it can be run from the command line.
 
 You should be aware that if students are able to access the command line, they are able to explore the box and find the folder where your test scripts are located. For scripting languages, this would allow them to modify the script. For compiled executables they could theoretically create their own executable and then replace yours with their own one. They would need to know how the callbacks work to succeed at this.
 
-If you want to make your scripts as secure as possible, please [click here](/classes/unitmanagement/settings-info/autograde#securescripts) for information on secure scripts run when an assignment is marked as complete.
+If you want to make your scripts as secure as possible, please [click here](/courses/classes/#secure-scripts) for information on secure scripts run when an assignment is marked as complete.
 
 ### Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.
@@ -219,7 +219,7 @@ You can evaluate student code using a variety of languages and frameworks that a
 Supported languages and frameworks:
 
 - **Ruby**: `rubocop` or `rspec`
-- **Java**: [JUnit](/ide/features/junit/) or `checkstyle`
+- **Java**: [JUnit](/project/ide/features/#junit-testing-framework) or `checkstyle`
 - **Python**: `pycodestyle` or `UnitTest`
 - **JavaScript**: `jshint` or `jslint`
 
@@ -256,7 +256,7 @@ To add individual JavaScript source files whose style should be checked, either 
 
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**(Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ### Metadata
 
@@ -270,7 +270,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 ### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -363,7 +363,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value.
 - **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -377,7 +377,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -428,7 +428,7 @@ For a drop-down question (**Show Possible Values** slider to the right) Codio wi
 - **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A score of 0 is given if any of the responses is incorrect.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position).
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the  **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -442,7 +442,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -467,7 +467,7 @@ Setting up a free text assessment is very simple. The configuration fields for a
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. LaTeX is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ##### Metadata
 
@@ -481,7 +481,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -494,7 +494,7 @@ Here is a reference for Markdown:
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of Markdown
 
 
-LaTeX is useful where you want students to enter mathematical formulae in their answers. [Click here](/content/authoring/page-edit/latex/) for information on LaTeX.
+LaTeX is useful where you want students to enter mathematical formulae in their answers. [Click here](/courses/authoring/#latex-for-math-expressions) for information on LaTeX.
 
 - **Plaintext** - the student is expected to enter ordinary text, without support for markdown formatting. There is no preview window.
 - **Plaintext + LaTeX** - this expects plaintext to be entered, therefore no support for markdown with additional support for LaTeX commands. A preview pane is shown beneath so the student is able to see the rendered LaTeX output.
@@ -524,7 +524,7 @@ If the question was set to use **Allow Partial Points** the teacher can select t
 
 ![Partial points allowed](/img/guides/partial.png)
 
-Comments can also be added and will be shown to the student when grades are released. The comment field supports [LATex](/content/authoring/page-edit/latex/) and [markdown](/content/authoring/page-edit/edit/) with a preview area below the text area to allow the grader review the input. The comment field will autoexpand as required
+Comments can also be added and will be shown to the student when grades are released. The comment field supports [LATex](/courses/authoring/#latex-for-math-expressions) and [markdown](/courses/authoring/#markdown-content-editing) with a preview area below the text area to allow the grader review the input. The comment field will autoexpand as required
 
 <a name="freetextassessments"></a>
 ### Navigating students assessments
@@ -541,7 +541,7 @@ For any free text assessments that have been graded by a teacher in an assignmen
 
 
 ## Autograde Free text
-The Autograde Free text assessment is similar to the [free text](/content/authoring/assessments/assessments-free) assessment but includes a field for a command line to execute a script allowing autograding.
+The Autograde Free text assessment is similar to the [free text](/courses/assessments/#free-text_1) assessment but includes a field for a command line to execute a script allowing autograding.
 
 The answer will be passed to the script as `stdin`.
 
@@ -570,7 +570,7 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -584,7 +584,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -592,7 +592,7 @@ To mark a file to be included with the assessment, simply locate it in the file 
 
 ### Student Feedback
 
-If your autograde script is to return feedback to your students as they submit the assessment, enable [Release Grades Automatically](/classes/monitor/grading/#releasegradesstatus).
+If your autograde script is to return feedback to your students as they submit the assessment, enable [Release Grades Automatically](/courses/grading/#automatically-releasing-grades).
 
 ### Preview type
 The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands.
@@ -601,7 +601,7 @@ Here is a reference for Markdown:
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of Markdown
 
 
-LaTeX is useful where you want students to enter mathematical formulae in their answers. [Click here](/content/authoring/page-edit/latex/) for information on LaTeX.
+LaTeX is useful where you want students to enter mathematical formulae in their answers. [Click here](/courses/authoring/#latex-for-math-expressions) for information on LaTeX.
 
 - **Plaintext** - the student is expected to enter ordinary text, without support for markdown formatting. There is no preview window.
 - **Plaintext + LaTeX** - this expects plaintext to be entered, therefore no support for markdown with additional support for LaTeX commands. A preview pane is shown beneath so the student is able to see the rendered LaTeX output.
@@ -714,11 +714,11 @@ Codio allows you to set and grade math questions for any type and level of mathe
 If you require math assessments, please [contact us](/dashboard/support/) and we can arrange to enable this for your organisation
 
 ### Manually graded assessments using free text
-To create a manually graded math question, you can use the **Free text** assessment type. This allows the students to enter expressions or even full proofs and worked answers using Latex. For more information about Latex, please [click here](/content/authoring/page-edit/latex/).
+To create a manually graded math question, you can use the **Free text** assessment type. This allows the students to enter expressions or even full proofs and worked answers using Latex. For more information about Latex, please [click here](/courses/authoring/#latex-for-math-expressions).
 
 You can enter Latex in the **Question** and **Answer rationale** fields.
 
-You should also set the **Preview type** drop down to either **Plaintext + Latex** or **Markdown + Latex**. Both of these ensure that the student sees a preview pane beneath their answer entry fully rendered in markdown and/or Latex. Please [click here](/content/authoring/assessments/assessments-free/) to review the free text assessment.
+You should also set the **Preview type** drop down to either **Plaintext + Latex** or **Markdown + Latex**. Both of these ensure that the student sees a preview pane beneath their answer entry fully rendered in markdown and/or Latex. Please [click here](/courses/assessments/#free-text_1) to review the free text assessment.
 
 ### Multiple choice
 You can also use the multiple choice assessment type to create answers containing properly rendered Latex expressions.
@@ -758,7 +758,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -795,7 +795,7 @@ The configuration fields for an assessment are split into five sections: General
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -809,7 +809,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 
@@ -869,9 +869,9 @@ and **Use Pack** to create into your Codio account to review.
 
 Students can submit their work and will be able to view feedback from Sense and if **One Attempt Only** is not enabled can review their code and submit again.
 
-To help and track students activity through sense, [custom script](/dashboard/create/custom-script) can be enabled.
+To help and track students activity through sense, [custom script](/dashboard/organisations/#custom-script) can be enabled.
 
-This assessment type is only visible when the sense.network api key is entered in the **Organisation>Integrations** area. See [organisation admin roles](/dashboard/create/adminrole/) for more on this.
+This assessment type is only visible when the sense.network api key is entered in the **Organisation>Integrations** area. See [organisation admin roles](/dashboard/organisations/#administrator-role) for more on this.
 
 ![Organisation integrations](/img/guides/org_integrations.png)
 
@@ -898,7 +898,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Gradable** enable if the assignment is to be used within the grade total for the assignment. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
-- **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 ![](/img/guides/assessment_metadata.png)
@@ -911,7 +911,7 @@ The Metadata section contains fields that further describe the current assessmen
 
 #### Files
 
-Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/courses/assessments/#advanced-code-tests), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors, its dependencies are also included.
 
 ![](/img/guides/assessment_files.png)
 

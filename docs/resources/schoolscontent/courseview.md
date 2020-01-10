@@ -7,7 +7,7 @@ title: Course Visibility
 
 When you author course content, you are the owner and the content is set to private as the default option. It means you are the only person who can see your course content. In order for others to view them, you need to grant access.
 
-If you are a member of an Organization, the Organization owner can enable the ability for you to create public courses. See [Public/Private Settings](/dashboard/create/public_private).
+If you are a member of an Organization, the Organization owner can enable the ability for you to create public courses. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
 The following permissions can be granted.
 

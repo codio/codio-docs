@@ -1,5 +1,5 @@
 ---
-title: "Assessments Library"
+title: Assessments Library
 
 
 ---
@@ -7,22 +7,22 @@ title: "Assessments Library"
 ## Overview
 An **assessment library** in Codio is a collection of existing assessment items.
 
-You can [create assessments libraries within your organization](/dashboard/create/createlibrary). You can organize your libraries by course number, programming language, department, etc.
+You can [create assessments libraries within your organization](/dashboard/organisations/#create-an-organization-assessments-library). You can organize your libraries by course number, programming language, department, etc.
 
-You can [use existing assessments from Codio's Global library.](/content/authoring/assessments-library/global-assessments-library)
+You can [use existing assessments from Codio's Global library.](/courses/assessments-library/#codios-global-assessments-library)
 
-To navigate through an assessments library, [you filter based on tags.](/content/authoring/assessments-library/filters-queries) The Codio assessments library has a number of tags - your organization can come up with a convention that works for you!
+To navigate through an assessments library, [you filter based on tags.](/courses/assessments-library/#searching-and-adding-questions-from-the-assessments-library) The Codio assessments library has a number of tags - your organization can come up with a convention that works for you!
 
 ## Adding Questions to an Assessments Library
-Once an assessment is added to an assessment library, it can be accessed later and added to a project or course with ease. Adding assessments to an assessment library has a few simple steps. Before you begin, you or someone else in your organization with [adminstrator access](/dashboard/create/adminrole) needs to [create an organization assessments library](/dashboard/create/createlibrary) if you do not already have one.
+Once an assessment is added to an assessment library, it can be accessed later and added to a project or course with ease. Adding assessments to an assessment library has a few simple steps. Before you begin, you or someone else in your organization with [adminstrator access](/dashboard/organisations/#administrator-role) needs to [create an organization assessments library](/dashboard/organisations/#create-an-organization-assessments-library) if you do not already have one.
 
-1. The first step is creating the assessment. It is similar to how you [normally create an assessment](/content/authoring/assessments/overview) with a few things you should note:
+1. The first step is creating the assessment. It is similar to how you [normally create an assessment](/courses/assessments/#assessments) with a few things you should note:
 
-  * Assessments on pages set to the [*1 Panel without tree* layout](/content/authoring/settings-actions/page/) will be saved with a [simple layout](/content/authoring/assessments-library/filters-queries#simpleComplex).
+  * Assessments on pages set to the [*1 Panel without tree* layout](/courses/settings-actions/#layout) will be saved with a [simple layout](/courses/assessments-library/#simple-vs-complex-layouts).
 
-  * Use [the metadata tab](/content/authoring/assessments/assessments-standard-code-tests#metadata) to tag your assessment so it appears when the [assessments library is searched](/content/authoring/assessments-library/filters-queries)
+  * Use [the metadata tab](/courses/assessments/#metadata) to tag your assessment so it appears when the [assessments library is searched](/courses/assessments-library/#searching-assessments-library)
 
-  * Use [the files tab](/content/authoring/assessments/assessments-standard-code-tests#files) to ensure all dependent files such as grading scripts, images used in the guides pane, etc. are associated with the assessment so it works properly when added from the library
+  * Use [the files tab](/courses/assessments/#files) to ensure all dependent files such as grading scripts, images used in the guides pane, etc. are associated with the assessment so it works properly when added from the library
 
   Once the assessment is written, we can add it to an assessment library. Click the **"SAVE IN LIBRARY"** button on the bottom right of the window:
    ![Save to library](/img/guides/assessment-save-to-library.png)
@@ -38,11 +38,11 @@ Once an assessment is added to an assessment library, it can be accessed later a
 
 The assessment has now been added to the chosen library.
 
-If you get an error message, you may not have [write access to your organization's assessment library](/dashboard/create/createlibrary#orgLibPermissions).
+If you get an error message, you may not have [write access to your organization's assessment library](/dashboard/organisations/#add-collaborators-to-an-assessments-library).
 
-Once a question has been added, [follow these steps to update the assessment in your organization's library.](/content/authoring/assessments-library/unlinking-updating)
+Once a question has been added, [follow these steps to update the assessment in your organization's library.](/courses/assessments-library/#unlinking-and-updating-assessments-from-library)
 
-Additionally, you can [disconnnect questions](/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment from [Codio's global assessments library](/content/authoring/assessments-library/global-assessments-library), modify them, and then add your version using the steps above!
+Additionally, you can [disconnnect questions](/courses/assessments-library/#unlinking-an-assessment from [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library), modify them, and then add your version using the steps above!
 
 ## Codio's Global Assessments Library
 The Global Assessments Library is an assessment library that all Codio users have read-only access to. The library contains auto-graded assessment questions covering a wide variety of topics, difficulties, and assessment types. We are currently populating it with assessments in:
@@ -53,7 +53,7 @@ The Global Assessments Library is an assessment library that all Codio users hav
 - JavaScript
 - Data Structures (in Java)
 
-Read more about assessment libraries [here](/content/authoring/assessments-library/overview).
+Read more about assessment libraries [here](/courses/assessments-library/).
 
 ### Features of Global Assessments Library
 
@@ -63,7 +63,7 @@ All assessments in the global library are auto-graded, there is no manual gradin
 
 Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the **Codio Main** under "Library Name".
 
-[You can filter through the different assessments](/content/authoring/assessments-library/filters-queries) by:
+[You can filter through the different assessments](/courses/assessments-library/#searching-and-adding-questions-from-the-assessments-library) by:
 - Programming language
 - Assessment type
 - Category (topic-level)
@@ -77,14 +77,14 @@ Here is an example of the tags in a Codio library assessment:
 
 *Assessment type is auto-detected and not manually specified.*
 
-[You can even get a small preview of the question text!](/content/authoring/assessments-library/filters-queries#previewQuestion) Once you find a suitable assessment, [add it to your project](/content/authoring/assessments-library/filters-queries#addQuestion).
+[You can even get a small preview of the question text!](/courses/assessments-library/#previewing-question) Once you find a suitable assessment, [add it to your project](/courses/assessments-library/#adding-questions-from-assessments-library).
 
 ### Remixing questions from the Global Assessments Library
-If you like an assessment in our assessments library but want to add your own twist to it, you can [disconnect the question from the library](/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment).
+If you like an assessment in our assessments library but want to add your own twist to it, you can [disconnect the question from the library](/courses/assessments-library/#unlinking-an-assessment).
 
 Then, simply modify the assessment as you'd like!
 
-Additionally, you can then [add your version of the assessments to your organization's assessment library](/content/authoring/assessments-library/assessments-to-library).
+Additionally, you can then [add your version of the assessments to your organization's assessment library](/courses/assessments-library/#adding-questions-to-an-assessments-library).
 
 ### Bugs
 If you find a bug or error with an assessment, please [contact us](/dashboard/support)
@@ -115,7 +115,7 @@ If you find a bug or error with an assessment, please [contact us](/dashboard/su
 
 1. Codio will display a message confirming that the assessment has been successfully disconnected from the appropriate library. You should also notice the link icon is no longer present next to the assessment in the "Edit assessments" portion of the dropdown menu
 ## Searching and Adding questions from the Assessments Library
-Regardless of whether you are using [Codio's global assessments library](/content/authoring/assessments-library/global-assessments-library) or [your organization's assessment library](/dashboard/create/createlibrary), the steps for searching for and adding assessments from them are the same.
+Regardless of whether you are using [Codio's global assessments library](/courses/assessments-library/#codios-global-assessments-library) or [your organization's assessment library](/dashboard/organisations/#organization-assessments-library), the steps for searching for and adding assessments from them are the same.
 
 ### Searching Assessments Library
 From the assessments drop down, select the "Assessment Library" option.
@@ -176,7 +176,7 @@ Please note the difference between layouts to know how it will be inserted.
 In Codio's assessments libraries, there are two types of layouts:
 
 - Simple
-  An assessment in the library has a **simple** layout if it was added with the [*1 Panel without tree* layout](/content/authoring/settings-actions/page/). When adding a simple layout question to your project or book, the assessment will be inserted into the current page at your cursor's location.
+  An assessment in the library has a **simple** layout if it was added with the [*1 Panel without tree* layout](/courses/settings-actions/#page). When adding a simple layout question to your project or book, the assessment will be inserted into the current page at your cursor's location.
 
 - Complex
   An assessment in the library has a **complex** layout if it was added with any layout besides 1 Panel without tree. When adding a complex layout question to your project or book, the assessment will be inserted on a new page directly after the current page.

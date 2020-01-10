@@ -1,5 +1,5 @@
 ---
-title: "LTI 1.0 integration"
+title: Integrating with LTI 1.1 systems
 
 
 ---

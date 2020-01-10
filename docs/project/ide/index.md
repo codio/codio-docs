@@ -1,6 +1,6 @@
 ---
-title: "The Codio IDE"
-description: "Code editing and IDE feature reference"
+title: The Codio IDE
+description: Code editing and IDE feature reference
 
 
 ---

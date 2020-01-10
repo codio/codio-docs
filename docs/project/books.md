@@ -1,8 +1,48 @@
----
-title: "Creating and managing books"
 
 
----
+## Introduction
+Codio Books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to course assignments for course assignments.
+
+Often, a student will want to review materials taught earlier in a course. With books, they are able to do this even though that content does not form a part of the current assignment. This is very useful for revision purposes prior to lab, assessments, exams etc.
+
+A Codio book still sits on top of a Codio box so you have the same capabilities that projects and assignments have. Before we introduced books, switching assignments wasted time as a new assignment needed to load, which took several seconds. If you frequently switch assignments (for instance during student revision) this delay becomes irritating. With a book, there is no delay and the student can freely access all parts of the book irrespective of which assignment they are accessing.
+
+### Recommendations
+We strongly recommend you have a thorough understanding of the following before embarking on large scale books.
+
+- [Content authoring](/content/authoring)
+- [Courses](/courses), especially how [courses map to books](/courses/units/unit-add)
+- [Assigning content to courses](/classes/unitmanagement/assign-module)
+- Limitations (see below)
+
+### Limitations, restrictions and when not to use a book
+There are cases where authoring your content in a book is not appropriate. For more information on this, please refer to [limitations and restrictions](/books/limitations).
+
+
+### Courses
+Rather than assign a Book to a course, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and assignments and assign these to a course but, provided the course author allows it, students can look at any part of the book even when assigned a single assignment. This is ideal for referring back to material covered previously and for general revision. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
+
+### Assessments
+Although it is entirely up to the book author, a book will usually contains a number of assessments. When you map a course assignment to a section of the book, any assessments that fall within that assignment are shown in the course dashboard.
+
+You should make a decision as to when assessments should be in the book and when they are better suited to a project assignment. Generally speaking, standard assessments that are used to monitor student engagement with content belong in the book.
+
+Questions that are assigned to a course for homework or lab assessments could also go in a book but are usually better in a course project assignment. Please refer to [limitations and restrictions](/books/limitations) for a discussion on cheating related risks to putting assessments in a book.
+
+## Limitations and restrictions
+
+When you map book content to a course assignment, you should be aware that certain features may not work as expected.
+
+Because a book sits on a single Codio box, if the student is able to access the terminal window or is able to see the file tree, they can effectively access parts of the book that are outside the scope of the assignment. In many cases, this does not matter, but you should be aware of it.
+
+Here are some specific things to be aware of.
+
+- **Auto grade script**: in [assignment settings](/docs/classes/unitmanagement/settings-info#autograde), you can specify an auto grade script to execute when the student makes the assignment as complete. You can still use this but if the script you are executing needs to be assignment specific, then you should include an argument that is passed to your script so it knows the assignment context.
+- **Plagiarism** - plagiarism detection makes little sense in books. If you have are doing coding assignments, then you should use a [project assignment](/docs/courses/units/unit-add#projectunit) within a course.
+- **Mark as complete**: this works as expected but, unlike course project assignments and projects, it cannot set the project to be read-only as the book project can be mapped to other assignments which will require access to the box.
+- **Secure assessments**: if you want to minimize the risk of student cheating, then you should understand that students may be able to access the terminal window and access all parts of the underlying box. As a result, we would recommend that more [secure assessments](/docs/classes/unitmanagement/settings-info/autograde#securescripts) are placed in project assignments rather than book based assignments. This also allows full disabling of the box by setting a project to read-only after being marked as complete.
+
+
 ## Creating and managing books
 
 ### Creating a new book

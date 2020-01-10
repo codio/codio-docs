@@ -1,7 +1,3 @@
----
-title: "Dashboard overview"
-
----
 
 A brief overview of the Codio dashboard.
 

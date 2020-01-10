@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: ""
+title: Understanding Courses
+
 
 
 ---
@@ -190,7 +190,7 @@ Select **Edit Details** button and flip the switch to change the settings as req
 
 ![Show all pages](/img/bookshowallpages.png)
 ## Deleting a course
-A course can be deleted by course teachers and organization owners. All the course data can also be exported. See [Export course data](/classes/classmanagement/export/) for more information
+A course can be deleted by course teachers and organization owners. All the course data can also be exported. See [Export course data](/courses/classes/#exporting-course-data) for more information
 
 - Select the course, go to the **Admin** area and then press the **Delete Course** button.
 
@@ -391,7 +391,7 @@ You can also remove individual assignments from a module, clicking the **Delete*
 ![authtoken](/img/manage_classes/deleteassignment.png)
 
 **Warning**
-Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/classes/monitor/progress#downloadcsv) before removing the module or assignment.
+Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/courses/grading/#download-csv-summary) before removing the module or assignment.
 
 ## Update course
 
@@ -466,6 +466,33 @@ README.md
 ```
 
 ## Managing Assignments
+
+On the module assignment screen you can manage the following settings
+
+
+![assignmentscreen](/img/class_administration/modulesettings.png)
+
+1. Change the name of the assigment
+1. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
+1. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
+1. View the version history of the assigment publications, This allows you to view the version history. You can see
+    - date/time when the assignment was published,
+    - name of the person who published the assignment,
+    - the name and version of the stack assigned to the assignment.
+
+![versions](/img/versiondetails.png)
+1. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
+    - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
+    - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
+1. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
+    - Select **Convert content to a project** to delete the assignment and save the assignment contents to your projects list.
+    - Select **Delete content** to delete the assignment and its content entirely.
+1. Delete the entire module. You are required to enter a confirmation code to proceed
+1. Reorder the modules in the course. 
+
+You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
+
+
 To the top right of the list item is a pencil icon. 
 
 ![asignmentedit](/img/class_administration/editassignment.png)
@@ -519,7 +546,7 @@ You can specify the students ability to access the assignment when disabled.  **
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
 
-Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/classes/unitmanagement/settings-info/disable) students will either be refused all access or can have read-only access to the assignment.
+Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/courses/classes/#disableenable-assignment) students will either be refused all access or can have read-only access to the assignment.
 
 Please note, that selecting mark as complete will not stop students who have not started the assignment from being able to access the assignment after the stop date/time has been reached. If you wish to manage this, look at using the disable assignment and mark as complete option.
 
@@ -527,7 +554,7 @@ For book based assignments, you should read the caveats mentioned in the **Disab
 
 ![authtoken](/img/manage_classes/unitduration.png)
 
-For more information on using **Mark as complete** please [click here](/content/authoring/assessments/submitcomplete).
+For more information on using **Mark as complete** please [click here](/courses/assessments/#mark-as-complete).
 
 #### Penalties
 
@@ -791,29 +818,30 @@ Additional options are also available if you select the **Actions** button.
 ![Action Area](/img/actionarea.png)
 
 
-- Plagiarism checker
+- **Plagiarism checker**
+
 You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu on the assignment or the **Actions** area.
-- Mark all as completed
 
-Certain actions can be triggered when a student marks an assignment as complete
+- **Mark all as completed**
 
-    - [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer)
-    - [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
+Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/classes/unitmanagement/settings-info/autograde#transfer) and/or [Scripts can be executed for assessing the student code and assigning the grade](/classes/unitmanagement/settings-info/autograde#script)
 
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students.
-
-    - Press the **Marking All As Completed** button to mark all student assignments as complete
-    - Hover over a student to see the switch appear to the left of the students name, which you can then activate
-    - [Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or[Accessing student work](/classes/monitor/studentcode) and going to the **Education->Mark as Completed** menu item within the IDE.
 
 Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
 
 ![assignment actions](/img/mark-complete.png)
-- Unmark as complete
+
+- **Unmark as complete**
+
 Where the assignment can be marked as not complete for all students
-- Download CSV
+
+- **Download CSV**
+
 This allows you to download a CSV file with student grade data for the assignment.
-- Reset 
+
+- **Reset** 
+
 **This option will destroy all student work.**
 
 In the event that an assignment in your course is updated and, for some reason, you cannot use the [Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.

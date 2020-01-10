@@ -16,7 +16,7 @@ As the creator of your educational organization in Codio, you have administrator
 
 To access the administration tools:
 
-1. Click on your profile picture (bottom left of **Classes**)
+1. Click on your profile picture (bottom left of **Courses**)
 ![Profile](/img/class_administration/profilepic.png)
 1. Click the name of your school (under **My Organizations**)
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
@@ -79,7 +79,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 
     [Adding teachers to a class](/courses/classes/#adding-teachers-to-a-class)
 
-You can then if you wish add them as an [organization owner](/dashboard/organisations/#add-organization-owners) so they can then manage and create classes themselves and have full admin access to the organization
+You can then if you wish add them as an [organization owner](/dashboard/organisations/#add-organization-owners) so they can then manage and create courses themselves and have full admin access to the organization
 
 
 ## Add organization owners
@@ -122,9 +122,9 @@ There are 2 ways you can do this:
 
 You should see yourself listed as an owner. To add another teacher, choose the **Add User** drop down and as you type their Codio Username, the listing will filter down so you can then select them.
 ## Add students
-You do not add students to an organization directly. They are added by inviting them to join a class. Please [click here](/courses/classes/#add-students-to-a-class) for more information.
+You do not add students to an organization directly. They are added by inviting them to join a course. Please [click here](/courses/classes/#add-students-to-a-class) for more information.
 
-Codio also creates test students so instructors are able to see how students interact with a class. This is described in the class section.
+Codio also creates test students so instructors are able to see how students interact with a course. This is described in the course section.
 
 If you are using an LMS for a class then the LMS platform will handle the addition of students to the Codio class automatically.
 ## Student consent form
@@ -180,7 +180,7 @@ Sometimes you might need to check who is registered as a member of your educatio
 
 You will be able to see all the members of your school organization.
 
-The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Create Organization](/dashboard/create/createorg/) for more information.
+The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Test Students](/courses/classes/#test-students) for more information.
 
 The **Users without class** group contains all users that are not members of a class. See [Delete Class](/courses/classes/#deleting-a-class) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a class.
 Select this group and you can then remove these users from your organization if required.
@@ -308,7 +308,7 @@ In addition to Codio's global assessments library, you can create Organization a
 1. Enter the name of the assessments library you want to create and press “Create”
 ![Assessments Library name](/img/namelibrary.png)
 
-Read more about assessment libraries [here](courses/assessments-library/).
+Read more about assessment libraries [here](/courses/assessments-library/).
 
 ### Add Collaborators to an Assessments Library
 

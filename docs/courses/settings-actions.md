@@ -1,5 +1,5 @@
 ---
-title: "Settings and page actions"
+title: Guides Settings and Page actions
 
 
 ---
@@ -12,7 +12,7 @@ You can choose from a variety of panel layouts for each page of content.
 
 The layouts we currently offer can be found in the dropdown list.
 
-[Click here](/content/authoring/settings-actions/open-tabs#specifypanel) for information on how to reference these panels when auto opening code files, url previews or terminal windows.
+[Click here](/courses/settings-actions/#specifying-the-panel-numbe) for information on how to reference these panels when auto opening code files, url previews or terminal windows.
 
 The top-most and default entry in the Layout dropdown is **Previous**. This means it will use the same panel layout as specified on the previous page.
 
@@ -37,7 +37,7 @@ To define which folders to show make sure your page is selected. Next, in the **
 If you have several pages that show the same folders, you only need define the folders on the first page of the set of pages. All subsequent pages will use the same **Show Folders** setting until a new one is encountered.
 
 ### Content Type
-You can specify whether the page content type is markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/content/authoring/settings-actions/global/).
+You can specify whether the page content type is markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/courses/settings-actions/#global).
 
 <a name="teacheronly"></a>
 ### Teacher only content
@@ -56,7 +56,7 @@ You can automatically perform any of the following actions when a page is shown:
 - Open a terminal window and optionally run a terminal command.
 - Select lines you wish to highlight within each file.
 
-You should also be aware that you can achieve the same actions from Markdown directives on a page. [Click here](/content/authoring/page-edit/inline) for details.
+You should also be aware that you can achieve the same actions from Markdown directives on a page. [Click here](/courses/authoring/#openclose-tabs-from-content) for details.
 
 ### Page - Close Tabs
 Enable this to close all panels open from the previous page.
@@ -169,7 +169,7 @@ For more information and examples see [Python Tutor](http://pythontutor.com/).
 
 <a name="specifypanel"></a>
 ### Specifying the panel number
-If your [layout](/content/authoring/settings-actions/page/) for this page involves multiple panels, then you can also specify the panel number to display the file in.
+If your [layout](/courses/settings-actions/#page) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
 ![authtoken](/img/guides/panel.png)
 
@@ -180,7 +180,7 @@ The panel order is left to right and then top to bottom and the last of all, the
 **Important:** The first panel is 0, not 1.
 
 ## Assessments
-This settings item is rarely used. It shows a complete reference of all [assessments](/content/authoring/assessments) in the book or guide. The usual place from which you edit assessments is the assessments button at the top of the page.
+This settings item is rarely used. It shows a complete reference of all [assessments](/courses/assessments/#assessments) in the book or guide. The usual place from which you edit assessments is the assessments button at the top of the page.
 
 ![assessments](/img/guides/settings_assessments.png)
 
@@ -188,7 +188,7 @@ If there are any assessments that had been created but subsequently deleted, the
 ## Media
 This setting allows you to add a soundtrack to your page, that plays when the page is shown. It can trigger opening of files, terminal windows and preview windows at designated times within the track.
 
-[Click here](/content/authoring/page-edit/imvid) for details on how to use this feature.
+[Click here](/courses/authoring/#adding-media) for details on how to use this feature.
 
 ## Global
 The settings on this page apply to the entire guide or book.
@@ -199,7 +199,7 @@ The settings on this page apply to the entire guide or book.
 This allows you to include the path and file name of a script file from a page using an HTML `<src>` tag. Provide one script path per line.
 
 ### HTML header and footer
-This is used for any pages which are designated in the [page settings](/content/authoring/page-edit/edit-html) as an HTML page. The header/footer will be placed before/after the HTML page content.
+This is used for any pages which are designated in the [page settings](/courses/authoring/#html-content-editing) as an HTML page. The header/footer will be placed before/after the HTML page content.
 
 ### Theme
 There is currently only a single theme.
@@ -218,23 +218,23 @@ Allows students to close the guide content. The content can be restarted by sele
 ![StartGuides](/img/guides/startguides.png)
 
 ### Use Mark as Complete
-For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
+For a discussion on the use of the this feature, please [click here](/courses/assessments/#student-submission-options).
 
-This setting is enabled by default and will show students a button at the end of the assignment, from their [dashboard](/dashboard/student/myclassroom/) and from **Education** menu in the IDE they can select to mark as complete.
+This setting is enabled by default and will show students a button at the end of the assignment, from their [dashboard](/students/#my-classroom) and from **Education** menu in the IDE they can select to mark as complete.
 
-If you have set the [assignment Duration](/classes/unitmanagement/settings-info/unit-duration/) 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.
+If you have set the [assignment Duration](/courses/classes/#unit-duration) 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.
 
 
 ### Use Submit Buttons
-For a discussion on the use of the this feature, please [click here](/content/authoring/assessments/submitcomplete).
+For a discussion on the use of the this feature, please [click here](/courses/assessments/#student-submission-options).
 
-This is enabled by default and shows students a button for [assessments](/content/authoring/assessments/) for them to submit their answers.
-If you have set the [Assignment Duration](/classes/unitmanagement/settings-info/unit-duration/), when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted
+This is enabled by default and shows students a button for [assessments](/courses/assessments/#assessments) for them to submit their answers.
+If you have set the [Assignment Duration](/courses/classes/#unit-duration), when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted
 
 <a name="guidescollapse"></a>
 
 ### Collapsed on Start
-Enable this to collapse the guides pane in the assignment/project when the [layout](/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/content/authoring/playmode/) button in playmode.
+Enable this to collapse the guides pane in the assignment/project when the [layout](/courses/settings-actions/#page) is not `1 Panel`. Performs similar task to the [collapse](/courses/authoring/#author-and-student-views) button in playmode.
 
 The guides can be reopened by clicking the hamburger icon:
 ![StartGuides](/img/openguides.png)

@@ -1,5 +1,5 @@
 ---
-title: "Panels & Tabs"
+title: Panels & Tabs
 
 
 ---

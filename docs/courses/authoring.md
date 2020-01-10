@@ -1,5 +1,5 @@
 ---
-title: "Content Authoring with Guides"
+title: Content Authoring with Guides
 
 
 ---
@@ -38,30 +38,30 @@ A project can be [assigned to a course](/classes/unitmanagement/assign-project) 
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
 
 
-### Project assignments
-A [project assignment](/courses/units/unit-add#projectunit) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard. Project assignments are very easy to locate as they are tidily organized within the course they belong to. You can also arrange your project assignments chronologically within a course module.
+### Assignments
+An [assignment](/courses/classes/#assign-a-project-to-the-course) is essentially the same as a project. The only difference is that your project assignments are located in the courses area in the main Codio dashboard and accessible to other teachers who can edit the item and to students in the course. Assignments are very easy to locate as they are tidily organized within the course module they belong to. You can also arrange your assignments within a course module.
 
 
 
 ![Courses](/img/courseslist.png)
 
-You would typically use a project assignment if either of the following apply.
+You would typically use an ssignment if either of the following apply.
 
-- You have a logically related series of projects that you want to assign to a student or to a course that together form a course.
+- You have a logically related series of projects that you want to assign to a student that form a course module.
 - You have a collection of assessments relate to a course that are used for homework, lab assessments, projects etc.
 
-A course allows you to subdivide your course into modules and then chronologically arrange your project assignments within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain project assignments and are simply a nice way to group your assignments.
+A course allows you to subdivide your course into modules and then chronologically arrange your assignments within your modules. When you create a course, you have to create at least one module. A module does nothing special other than contain assignments and are simply a nice way to group your assignments.
 
-There is one minor drawback to project assignments that you should be aware of. If students are working with a project assignment and wants to look at tutorial content that is contained in another assignment, they have to switch assignments. This can take several seconds and can be irritating during a revision phase when they want to frequently switch assignments. For this reason, we created the book, which we will look at next.
+There is one minor drawback to project based assignments that you should be aware of. If students are working with a project assignment and want to look at tutorial content that is contained in another assignment, they have to switch assignments. This can take several seconds and can be irritating during a revision phase when they want to frequently switch assignments. For this reason, we created the book, which we will look at next.
 
 
 ### Book assignments
-A [book](/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
+A [book](/project/books/) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
 
 
-However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
+However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/courses/classes/#book-visibility) for more information.
 
 
 ![Books](/img/bookslist.png)
@@ -135,8 +135,8 @@ When the content is rendered to a student, various options can be controlled
 
 - The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
-- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
-- **[Show/Hide Section List Hamburger Icon](/content/authoring/guides/collapse/)** allows the user to show/hide the section list.
+- **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
+- **Show/Hide Section List** Hamburger Icon allows the user to show/hide the section list.
 
 #### Restore current files
 The Restore Current Files feature is a great way to reset/restore any files on that page to its initial state after hacking sample code around. Files can be restored from the menu as shown below.
@@ -148,14 +148,15 @@ The Restore Current Files feature is a great way to reset/restore any files on t
 Once you are in the Codio IDE, you are able to create and manage content. There are two ways to access the Codio Guide.
 
 -  Press then right arrow at the top of the file tree.
-![startauthouring](/img/guides/startguides.png)
+
+![startauthoring](/img/guides/startguides.png)
 - From the menu, select **Tools->Guide->Edit**.
 
 ### Editing page content and actions
 Please refer to the following pages for details in how to edit page content and control page actions.
 
-- [Page Editing](/content/authoring/page-edit/) for details on how to edit a pages content using markdown or HTML, hiding folders and other actions.
-- [Settings and page actions](/content/authoring/settings-actions) : Opening and closing files, panel configuration and other settings
+- [Page Editing](/courses/authoring/#page-editing-overview) for details on how to edit a pages content using markdown or HTML, hiding folders and other actions.
+- [Settings and page actions](/courses/settings-actions/#page) : Opening and closing files, panel configuration and other settings
 
 ### Editing content
 The image below highlights the main components of the editing page.
@@ -212,14 +213,14 @@ Below is a screenshot of the editor with the main components highlighted.
 Editor settings gives you access to the key functions:
 
 #### Page
-  - **[Layout](/content/authoring/settings-actions/page)** allows you to specify the panel layout you want to choose for this section,
-  - **[Show Folders](/content/authoring/page-edit/hide-folder/)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
-  - **[Close Tabs](/content/authoring/page-edit/inline/)** allows you to close all tabs open from previous section,
-  - **[Set Section as Chapter](/content/authoring/guides/chapter/)** allows you to set the section as a chapter in your content,
-  - **[Teacher Only](/content/authoring/page-edit/solutions/)** allows you to show content that only teachers are able to see.
-  - **Content Type** allows you to write your content in either [Markdown](/content/authoring/page-edit/edit/) or [HTML](/content/authoring/page-edit/edit-html/)
+  - **[Layout](/courses/settings-actions/#page)** allows you to specify the panel layout you want to choose for this section,
+  - **[Show Folders](/courses/authoring/#hiding-folders)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
+  - **[Close Tabs](/courses/authoring/#openclose-tabs-from-content)** allows you to close all tabs open from previous section,
+  - **Set Section as Chapter** allows you to set the section as a chapter in your content,
+  - **[Teacher Only](/courses/authoring/#teacher-only-content)** allows you to show content that only teachers are able to see.
+  - **Content Type** allows you to write your content in either [Markdown](/courses/authoring/#markdown-content-editing) or [HTML](/courses/authoring/#html-content-editing)
 
-#### [Open Tabs](/content/authoring/settings-actions/open-tabs/)
+#### [Open Tabs](/courses/settings-actions/#open-tabs)
 This allows you to specify:
 
   - which files you want to automatically open when the current section is displayed,
@@ -228,29 +229,32 @@ This allows you to specify:
   - which lines (if any) you wish to highlight within each file.
 
 
-#### [Assessments](/content/authoring/assessments/)
+#### [Assessments](/courses/assessments/#assessments)
 This allows you to set up assessments.
 
-#### [Media](/content/authoring/page-edit/imvid)
+#### [Media](/courses/authoring/#adding-media)
 This allows you to play audio files within your project.
 
 
-#### [Global](/content/authoring/settings-actions/global/)
+#### [Global](/courses/settings-actions/#global)
 ![Global Settings](/img/guides/globalsettings.png)
+
 - **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
 - **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
-- **[Lexicon Topic](/misc/schoolscontent/lexikon)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
+- **[Lexicon Topic](/resources/schoolscontent/lexikon/)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected. Students can still access the Lexicon from the **Tools>Lexicon** menu (unless of course you are restricting the top menu available to them)
 - **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
-- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/classes/unitmanagement/assign-project).
+- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the assignment is run in a [course](/courses/classes/#assign-a-project-to-the-course).
 - **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
+
 ![StartGuides](/img/guides/startguides.png)
-- **Use submit buttons** see [Student submission options](/content/authoring/assessments/submitcomplete/) for more information
-- **Use mark as completed** see [Student submission options](/content/authoring/assessments/submitcomplete/) for more information
+
+- **Use submit buttons** see [Student submission options](/courses/assessments/#student-submission-options) for more information
+- **Use mark as completed** see [Student submission options](/courses/assessments/#student-submission-options) for more information
 - **Collapsed on start** starts the assignment with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
 ![OpenGuides](/img/guides/guidecollapse.png)
-
-- **Hamburger Icon** can be pressed to show or hide the Section List.
-- **[Section List](/content/authoring/guides/add-section/)** lists the sections in your content. You can add new ones and re-order the list by dragging a page.
+- **Hide Section List** hides the sections list in your content for the students. 
+- **Hide Back to Dashboard button** hides this button that would otherwise show on the last page of the guides.
+- **Protect Layout** prevents students from closing files in tabs.
 
 ## Authoring guidelines
 Here are some guidelines for creating good quality content.
@@ -262,7 +266,7 @@ The best way to author content is using markdown. It is extremely easy to write 
 We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your own account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project.
 
 ### Courses and Books
-We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/content/authoring/3ways).
+We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/courses/authoring/#project-course-assignment-or-book) before starting.
 
 ### Media assets
 When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
@@ -272,7 +276,7 @@ When creating a book or a guide, you will often be working with images, video an
 - Web based media such as Google Doc documents can be embedded using regular HTML embed tags as available from those platforms.
 
 ### Callout blocks
-Our markdown support the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
+Our markdown supports the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
 
 Please refer to the **Callout** section of the Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
 
@@ -284,21 +288,23 @@ Your content will often want to show code samples. Codio's recommended approach 
 
 The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic you are explaining.
 
-[Click here](/content/authoring/page-edit/hide-folder) for more details on folder hiding.
+[Click here](/courses/authoring/#hiding-folders) for more details on folder hiding.
 
 ### Assessments
-Codio offers a range of [manually and auto-graded assessments](/content/authoring/assessments). When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning.
+Codio offers a range of [manually and auto-graded assessments](/courses/assessments/#assessments). When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning.
 
 When used in a course situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher course dashboard, allowing them to monitor students' progress across a Course.
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
-You can also use the [free-text](/content/authoring/assessments/assessments-free) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
+You can also use the [free-text](/courses/assessments/#free-text_1) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
+
+Assessments you create can be saved in your own library for use in other assignments. See [here](/courses/assessments-library/#adding-questions-to-an-assessments-library) for more information on this. We also have an extensive library of assessments that you are free to use as you wish. See [here](/courses/assessments-library/#codios-global-assessments-library) for more details
 
 ### Layouts
 The editor lets you create different panel layouts for your guide content and the layout can change from section to section.
 
-[Click here](/content/authoring/settings-actions/page) for more information on panel layouts.
+[Click here](/courses/settings-actions/#page) for more information on panel layouts.
 
 ## Markdown content editing
 ### Cheat Sheet
@@ -326,12 +332,13 @@ You can then start writing your content in the main content area.
 ### Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
-When in play Mode, your content is rendered as students will see it. You can also override the default CSS styling. Go to Tools>Guide>Add Custom CSS
+When in Play Mode or as you preview, your content is rendered as students will see it. You can also override the default CSS styling if you wish. Go to **Tools>Guide>Add Custom CSS**
+
 ![Guide CSS](/img/guides/guidecss.png)
 
 'Reset Custom CSS' will restore the default CSS styling
 
-Click here for details on how to insert [images, videos and hyperlinks](/content/authoring/page-edit/imvid).
+Click here for details on how to insert [images, videos and hyperlinks](/courses/authoring/#adding-media).
 
 Here is a summary of the Markdown formatting codes
 
@@ -449,7 +456,7 @@ The **Guidance** callout block is only visible in play mode to designated teache
 
 
 ### Hyperlinks, Images, Videos & iframes
-We describe these in [this section](/content/authoring/page-edit/imvid).
+We describe these in [this section](/courses/authoring/#adding-media).
 
 ### HTML
 You can include HTML tags
@@ -469,7 +476,7 @@ y=\frac{x^2}{x+1}
 $$
 ```
 
-[Click here](/content/authoring/page-edit/latex) for more details on Latex and Mathjax.
+[Click here](/courses/authoring/#latex-for-math-expressions) for more details on Latex and Mathjax.
 
 ![MathJax](/img/guides/mathjax.png)
 
@@ -496,7 +503,7 @@ Another approach that works for the current page is to switch layout mode to spl
 ![authtoken](/img/guides/split-button.png)
 
 ### Play
-You can also start the Guide player from the **Tools->Guide->Play** menu.
+You can start the Guide player from the **Tools->Guide->Play** menu or selecting the '>' icon in the file tree
 ## HTML content editing
 We do not recommend this setting unless you have very specific reasons. It is much harder to use and maintain than markdown but for those who want ultimate control over appearance it is a good option.
 
@@ -549,12 +556,12 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.assessments.send(assessmentId, answer, points, callback)` - Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question.
 - `codio.resetCurrentFiles()` - Allows students to restore current files in guides within your content.
 
-## Teacher only content
+## Teacher only content  TODO
 Teacher only content can be viewed by teachers when:
 
 - using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a assignment within a course module in a course
-- [viewing student code](/classes/monitor/studentcode) within a course
-- working on a assignment in a [course](/courses/working-with/) with the 'View as teacher' function enabled
+- [viewing student code](/courses/grading/#accessing-student-work) within a course
+- working on a assignment in a [course](courses/coursemanagement/#working-with-courses) with the 'View as teacher' function enabled
 ![View as Teacher](/img/teachersolutions.png)
 
 
@@ -562,10 +569,10 @@ Warning
 
 - If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
 
-You can make content available on to course teachers in the following ways.
+You can make content available only to course teachers in the following ways.
 
 ### Entire page
-If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](/content/authoring/settings-actions/page#teacheronly).
+If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](/courses/settings-actions/#teacher-only-content).
 
 ### Selected content within page
 If you want to hide a certain piece of information *within a page* from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
@@ -582,7 +589,7 @@ This solution will only be shown
 |||
 ```
 
-Teacher only content can also be shown to teachers within an assessment question. This allows an question's answer rationale to be shown. Please refer to the [assessments section](/content/authoring/assessments) for more details.
+Teacher only content can also be shown to teachers within an assessment question. This allows an question's answer rationale to be shown. Please refer to the [assessments section](/courses/assessments/#assessments) for more details.
 
 ## Custom Buttons
 Custom buttons are a powerful feature that let you insert a button into your guide content that when pressed can carry out any custom action.
@@ -622,7 +629,7 @@ You can launch a debugger configuration as shown below. It is important to speci
 ```
 <a name="restorebutton"></a>
 ### To restore current files in guides
-Students can restore current files to the default setting from the [setting](/dashboard/student/guides/) menu but you can also offer them a button within your guides content as well.
+Students can restore current files to the default setting from the [setting](/students/#guides) menu but you can also offer them a button within your guides content as well.
 
 ```bash
 {Button text | reset}(optional commands to run)
@@ -646,7 +653,7 @@ window.addEventListener('codio-button-custom', function (ev) {
 });
 ```
 
-### Loading Scripts
+#### Loading Scripts
 You should point your content page to a script file to load javascript scripts. You can do this from **Settings>Global>Scripts**.
 
 
@@ -654,7 +661,7 @@ You should point your content page to a script file to load javascript scripts. 
 
 <a name="eventlistener"></a>
 
-### Event Listener
+#### Event Listener
 The event listener is able to execute your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML.
 
 For the event listener to run you should include in **Settings>Global>Scripts**:
@@ -710,7 +717,7 @@ On the page you wish to play Audio, go to the **Settings** area where you can de
 ![authtoken](/img/guides/media.png)
 
 - **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC where it will then be stored in the `.guides/media` folder.
-- **Add Action** - specifies actions that are triggeted at specific times during playback. The following options are available.
+- **Add Action** - specifies actions that are triggered at specific times during playback. The following options are available.
 
   Open file
   Close file
@@ -793,9 +800,9 @@ To embed from Google Docs, go to **File>Publish** to Web and select **Embed** to
 
 
 ### Example Projects
-https://codio.com/codio-units/java-example is a project that you can [fork](/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 ## Open/close tabs from content
-You can include links in your content to perform the same open and close actions as you do from the [open tabs](/content/authoring/settings-actions/open-tabs#opentabs) dialog.
+You can include links in your content to perform the same open and close actions as you do from the [open tabs](/courses/settings-actions/#open-tabs) dialog.
 
 ### Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.
@@ -809,7 +816,7 @@ The syntax is as follows and actions can be chained together using, separated by
 - `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN`
-- `open_tutor file panel=0` to open [visualiser](/content/authoring/settings-actions/open-tabs/#visualiser) and where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_tutor file panel=0` to open [visualiser](/courses/settings-actions/#visualiser) and where panel is optional, in which case the default panel (0) will be used if not specified.
 
 ### Closing directives
 - `close_all` closes all tabs in all panels, except the Guide itself.
@@ -898,7 +905,7 @@ Close all open files, previews and terminals that are in panel 2, then open a fi
 [Click here](close_all panel=2; open_file file.txt)
 ```
 ## Hiding folders
-Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using **Show Folders** on [page settings ](/content/authoring/settings-actions/page#show-hide), you can specify this folder. All non-specified folders are hidden from view in the file tree.
+Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using **Show Folders** on [page settings ](/courses/settings-actions/#showhide-folders), you can specify this folder. All non-specified folders are hidden from view in the file tree.
 ## Latex for math expressions
 Latex is ideal for entering mathematical expressions into your pages. You can also insert Latex expressions into many assessment fields. Codio uses [Mathjax](http://www.mathjax.org/) for the rendering of all Latex expressions, so certain macros are not supported.
 

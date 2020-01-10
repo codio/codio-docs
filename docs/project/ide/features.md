@@ -1,5 +1,5 @@
 ---
-title: "Advanced IDE Features"
+title: Advanced IDE Features
 
 
 ---

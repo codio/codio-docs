@@ -19,14 +19,14 @@ Take a look at the **Resources** area and open a Course to see its associated Mo
 
 ## Authoring your own content
 
-Please read the [Authoring Strategies](/content/authoring/3ways) section first. Ideally, you should also have read the full [Authoring](/content/authoring) section and created your first project with Codio content, ready to be turned into a assignment.
+Please read the [Authoring Strategies](/courses/authoring/#project-course-assignment-or-book) section first. Ideally, you should also have read the full [Authoring](/courses/authoring/) section and created your first project with Codio content, ready to be turned into a assignment.
 
 
 ## Direct Access vs. courses
 Having set your permissions, you should be aware of the two main ways others can then access the content.
 
 1. A student can access the Courses/Modules from the dashboard and press the **Start assignment** button having selected a Module.
-1. A teacher can create a [course](/classes/classmanagement/create-class) and then assign a Module to that course. Students can then access the course from the Dashboard and access assigned Modules and their assignments from there.
+1. A teacher can create a [course](/courses/coursemanagement/#create-a-course) and then assign a Module to that course. Students can then access the course from the Dashboard and access assigned Modules and their assignments from there.
 
 Generally speaking, course based scenarios should use the course feature to save the student from having to search for the Course/Module.
 

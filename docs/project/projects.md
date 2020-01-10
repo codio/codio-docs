@@ -1,5 +1,5 @@
 ---
-title: "Project Templates"
+title: Project Templates
 ---
 
 Codio works with a series of templates, or Codio stacks.
@@ -62,7 +62,7 @@ Click on the **'Click here....'** link to import or select an alternative softwa
 - **Empty with Stack** will create a new project with a stack you select from the full stack options, rather than the limited options available on the main **New Project** screen.
 - **Fork project** lets you create a new project from another of your projects.
 - **[Starter Pack](/project/packs/)** which is the combination of a Stack and a pre-configured code workspace.
-- **Import** lets you import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
+- **Import** lets you import from Git or from a Zip file of a Codio project.
 
 
 ![Import Project](/img/project_create_other.png)
@@ -78,7 +78,7 @@ You should give your project a name and a description, which will appear in the 
 ### Visibility
 Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organization, you can mark the Project as private. In **My Projects** you will see a padlock icon for any Projects that are private.
 
-Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/dashboard/organisations/#publicprivate-settings).
+Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
 You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the **Project->Permissions** menu.
 

@@ -1,6 +1,6 @@
 ---
-title: Plagiarism checker
-description: ""
+title: Plagiarism Checker
+
 
 
 ---

@@ -86,7 +86,7 @@ To run a Python file you will need to use the Terminal or configure you own Codi
 
 Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select **Box URL SSL**. This will open up the viewer.
 
-For information on how to set up your own Codio menu buttons, [click here](/ide/boxes/runmenu/).
+For information on how to set up your own Codio menu buttons, [click here](/project/ide/boxes/#customizable-run-menu).
 
 
 ## From scratch
@@ -98,10 +98,10 @@ For those of you who want to add Tkinter support to an existing Codio project, y
 - Open the Install Software screen from the **Tools->Install Software** menu.
 - Type `x server` into the search box.
 - Press the **Install** button to install the XServer component.
-- When the installation has completed (This can take some time, so be patient), [Restart](/ide/boxes/restart-reset) the box
+- When the installation has completed (This can take some time, so be patient), [Restart](/project/ide/boxes/#restart-and-reset) the box
 
 
-We would recommend that you configure your `.codio` file to have an option to start the viewer. This is [described here](/ide/boxes/runmenu/). You should either overwrite the entire contents of this file with the content shown below, or if you already have a `.codio` file with contents you want to keep, just add the line with the **Viewer** entry you can see below into the `preview` section.
+We would recommend that you configure your `.codio` file to have an option to start the viewer. This is [described here](/project/ide/boxes/#customizable-run-menu). You should either overwrite the entire contents of this file with the content shown below, or if you already have a `.codio` file with contents you want to keep, just add the line with the **Viewer** entry you can see below into the `preview` section.
 
 ```javascript
 {

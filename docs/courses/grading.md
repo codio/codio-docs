@@ -1,5 +1,5 @@
 ---
-title: "Grading and accessing student projects"
+title: Grading and accessing student projects
 
 
 ---
@@ -26,7 +26,7 @@ You can also download a CSV file of your students progress. You can do this for 
 or you can download a CSV file for the Course to see all your students progress in all the assignments in each Module by hovering over the Module name to select **Download CSV** there:
 ![authtoken](/img/downloadcsv_module.png)
 
-or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data](/classes/classmanagement/export/) for more details
+or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data](/courses/classes/#exporting-course-data) for more details
 
 ## Accessing student work
 
@@ -58,17 +58,17 @@ Auto-graded assessments will appear in the teacher dashboard.
 
 Assignment creators create the assignment with [Jupyter notebook](https://jupyter.org/) files for the assignment.
 
-**nbgrader** support doesn't require [guides](/content/authoring/) or any other [assessments](/content/authoring/assessments/).
+**nbgrader** support doesn't require [guides](/courses/authoring/) or any other [assessments](/courses/assessments/).
 
 Any user configurations required should be stored in a `.codio-jupyter` file.
 
 if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based grader, and therefore only **nbgrader** can be selected for the assessment scripts in the assignment
 
-When the assignment is published to a class, either as an [individual project](/classes/unitmanagement/assign-project) or as part of a [course/module](/classes/unitmanagement/assign-module), the release version is created for the student.
+When the assignment is published to a class, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a [course/module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
 
-When the student submits the assignment by marking the assignment as complete, it will be [autograded](/classes/unitmanagement/settings-info/autograde) automatically.
+When the student submits the assignment by marking the assignment as complete, it will be [autograded](/courses/classes/#autograde-on-assignment-complete) automatically.
 
-[Manual grading](/classes/monitor/grading/) is also available if required
+[Manual grading](/courses/grading/#grading-project-work) is also available if required
 
 
 ### Configuration
@@ -144,7 +144,7 @@ Codio's grading features address four important aspects when grading student pro
 
 - **Assign grade** - manually reviewing student projects and then assigning a grade.
 - **Grading moderation** - having other lecturers review grades already assigned in order to monitor consistency of grading.
-- **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/classes/classmanagement/rubric) for details.
+- **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/courses/classes/#grading-rubric-templates) for details.
 - **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
 ### Video overview
@@ -177,7 +177,7 @@ There are two ways to assign the grade.
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.
 - Or you can grade from the class dashboard. You must first have selected the assignment associated with the project and then press the grading icon.
 
-Also see [Autograding](/classes/unitmanagement/settings-info/autograde/)
+Also see [Autograding](/courses/classes/#autograde-on-assignment-complete)
 
 To grade from the class dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
 
@@ -199,7 +199,7 @@ You can also release grades from the main assignment view right clicking on the 
 
 <a name="releasegradesstatus"></a>
 ### Automatically releasing grades
-If you wish to automatically release grades when students complete a assignment, you can enable this feature at the organisation level so when you create new [courses](/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information.
+If you wish to automatically release grades when students complete a assignment, you can enable this feature at the organisation level so when you create new [courses](/courses/coursemanagement/#create-a-course) this option is automatically enabled. See [organisation release grades](/dashboard/organisations/#organisation-release-grades) for more information.
 
 You can also change the status of this feature for individual C
 courses if required on the admin tab of the class.
@@ -266,4 +266,4 @@ A comments field is provided to allow teacher/instructors manual feedback
 
 If a class deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
 
-You can also see the date and time for each submitted answer as well as the date that the assignment was [marked as complete](/dashboard/student/guides#completed) by the student.
+You can also see the date and time for each submitted answer as well as the date that the assignment was [marked as complete](/students/#completing-units) by the student.

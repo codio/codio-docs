@@ -14,6 +14,11 @@ theme:
         - javscript
         - java
         - python
+#    navigation_depth: 1 
+#    collapse_navigation: false
+#    titles_only: true
+#    sticky_navigation: true
+
 nav:
     - Codio: https://www.codio.com
     - Home: index.md
