@@ -12,7 +12,7 @@ You can choose from a variety of panel layouts for each page of content.
 
 The layouts we currently offer can be found in the dropdown list.
 
-[Click here](/courses/settings-actions/#specifying-the-panel-numbe) for information on how to reference these panels when auto opening code files, url previews or terminal windows.
+[Click here](/courses/settings-actions/#specifying-the-panel-number) for information on how to reference these panels when auto opening code files, url previews or terminal windows.
 
 The top-most and default entry in the Layout dropdown is **Previous**. This means it will use the same panel layout as specified on the previous page.
 
@@ -222,19 +222,19 @@ For a discussion on the use of the this feature, please [click here](/courses/as
 
 This setting is enabled by default and will show students a button at the end of the assignment, from their [dashboard](/students/#my-classroom) and from **Education** menu in the IDE they can select to mark as complete.
 
-If you have set the [assignment Duration](/courses/classes/#unit-duration) 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.
+If you have set the [assignment duration](/courses/classes/#unit-duration) 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.
 
 
 ### Use Submit Buttons
 For a discussion on the use of the this feature, please [click here](/courses/assessments/#student-submission-options).
 
 This is enabled by default and shows students a button for [assessments](/courses/assessments/#assessments) for them to submit their answers.
-If you have set the [Assignment Duration](/courses/classes/#unit-duration), when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted
+If you have set the [assignment duration](/courses/classes/#unit-duration), when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted
 
 <a name="guidescollapse"></a>
 
 ### Collapsed on Start
-Enable this to collapse the guides pane in the assignment/project when the [layout](/courses/settings-actions/#page) is not `1 Panel`. Performs similar task to the [collapse](/courses/authoring/#author-and-student-views) button in playmode.
+Enable this to collapse the guides pane in the assignment/project when the [layout](/courses/settings-actions/#page) is not `1 Panel`. Performs similar task to the [collapse](/courses/authoring/#player-options) button in playmode.
 
 The guides can be reopened by clicking the hamburger icon:
 ![StartGuides](/img/openguides.png)
