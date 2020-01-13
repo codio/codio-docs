@@ -12,7 +12,7 @@ You can use our pre-configured stacks or create your own. This template approach
 Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration.
 
 ## What is a stack?
-It is very important to understand how Stacks work in Codio, especially when working with classes and courses. Incorrect usage can result in a project working when being edited but failing when assigned to a class.
+It is very important to understand how Stacks work in Codio, especially when working with courses. Incorrect usage can result in a project working when being edited but failing when assigned to a course.
 
 A stack refers to the software configuration of a project server (Box). This incorporates everything on the server outside the code workspace (`/home/codio/workspace`) that you see in the IDE's file tree.
 
@@ -20,57 +20,56 @@ You can [snapshot a box's stack](/project/stacks/#creating-a-stack) at any point
 
 
 ### How a Codio project works.
-When you create a new Codio project, course unit or book, you always specify a stack. The specified stack will contain the operating system (always) and other components such as languages, databases and tools.
+When you create a new Codio project, course assignment or book, you always specify a stack. The specified stack will contain the operating system (always) and other components such as languages, databases and tools.
 
 
 ### Stack modifications
 You will often want to make changes to the software on your server. Any such changes you, or an application, makes outside the workspace folder represents a stack change. Whether such changes are made using `sudo apt-get install`, manually editing a config file, changes to a database due to application usage etc., these changes all represent stack modifications.
 
-
-Any modifications you make will work fine on the project you are working on as the owner, but as soon as you assign that project or unit to a class of students, the modifications will not be transferred.
+Any modifications you make will work fine on the project you are working on as the owner, but as soon as you assign that project or assignment to a course of students, the modifications will not be transferred.
 
 In order to address this, you need to ensure that any project with a modified stack first has a clean stack created that includes your modifications and that the project points to that clean stack.
 
 The process for [creating a stack](/project/stacks/#creating-a-stack) and [switching the project to point to the new stack](/project/stacks/#switching-a-projects-stack) is straightforward.
 
 ### Use Case
-Let’s consider a MySQL database use case. If the database data location is in the usual place within the stack (`/var/lib/mysql/`) then when the project is assigned to the class, each student gets their own database, independent of others students, as you would expect.
+Let’s consider a MySQL database use case. If the database data location is in the usual place within the stack (`/var/lib/mysql/`) then when the project is assigned to the course, each student gets their own database, independent of others students, as you would expect.
 
-However, if the stack is changed for any reason (you, as project owner, change the stack or stack version or your change the stack for an already assigned unit) then all database data would be reset to the state of the new stack as the database data folder is not a part of the workspace.
+However, if the stack is changed for any reason (you, as project owner, change the stack or stack version or your change the stack for an already assigned assignment) then all database data would be reset to the state of the new stack as the database data folder is not a part of the workspace.
 
 If you want to keep the database independent of the stack, then you would need to locate the database file in the workspace folder itself (by editing `/etc/mysql/mysql.conf.d/mysqld.cnf`. This way, you could update the database software via a stack change but the database data remains intact when you switch stacks.
 
 In summary, you should remember the following …
 
 - Project = Selected Stack + Stack Changes + Workspace Folder
-- When projects or units are assigned to a class then at the point of the assignment: Unit = Select Stack + Workspace (no stack modifications)
-- Stack modifications in the source project or unit are **not transferred** when assigned to a class
+- When projects or assignments are assigned to a course then at the point of the assignment: Assignment = Select Stack + Workspace (no stack modifications)
+- Stack modifications in the source project or assignment are **not transferred** when assigned to a course
 
-Once the project or unit has been assigned to students, if they happen to make changes to their stacks, then each one is individually handled so there are no issues unless you or they select a new stack from **Project->Stacks->Stack settings**.
+Once the project or assignment has been assigned to students, if they happen to make changes to their stacks, then each one is individually handled so there are no issues unless you or they select a new stack from **Project->Stacks->Stack settings**.
 
 ### Stacks and Stack Versions
 When you create a brand new stack or a new stack version, in both cases you are creating a new stack internally. The only difference between a stack and a stack version is that the stack versions are nicely organized under an already named stack. This makes them easy to find and prevents your stack list getting unnecessarily long.
 
 So, when referring to a stack in the documentation, we mean either a single stack or a stack version. Assigning a different stack version will also reset all project contents outside the workspace folder to those of the new stack version.
 
-### What to do prior to assigning to a class
-If you have modified the stack in any way, then there are a few use-cases that commonly occur when working with modified stacks prior to assigning to a class.
+### What to do prior to assigning to a course
+If you have modified the stack in any way, then there are a few use-cases that commonly occur when working with modified stacks prior to assigning to a course.
 
-- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/#creating-a-stack), [switch your project to the new stack](/project/stacks/#switching-a-projects-stack) once it is created and finally [assign it to the class](/courses/classes/#assign-a-project-to-the-class). This ensures maximum efficiency and speed. You do this from the class screen by pressing the large blue **+** button, then choosing **Add project as unit**. When you are asked if you want to use the projects stack or create a new stack, you can use the project’s stack as this is now clean. If you have not yet created a new stack to incorporate the modifications then you can create a new one when you add the project to a class, or select an existing one, by selecting **Create new stack**. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you assign to the class.
-- **Course units** : you should always first [create a custom stack](/project/stacks/#creating-a-stack) and then [switch the unit’s stack](/project/stacks/#creating-a-stack), and any other units that use the same configuration, to the newly created stack. You can then [assign a course module](/courses/classes/#assign-course-modules-to-the-class) (which assigns all its units) to the class.
-- **Books** : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then [switch your stack settings](/project/stacks/#switching-a-projects-stack) to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all units that point to a book.
+- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/#creating-a-stack), [switch your project to the new stack](/project/stacks/#switching-a-projects-stack) once it is created and finally [assign it to the course](/courses/classes/#assign-a-project). This ensures maximum efficiency and speed. If you have not yet created a new stack to incorporate the modifications then you can create a new one when you add the project to a course, or select an existing one, by selecting **Create new stack**. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you assign to the course.
+- **Course assignments** : you should always first [create a custom stack](/project/stacks/#creating-a-stack) and then [switch the assignment’s stack](/project/stacks/#switching-a-projects-stack), and any other assignments that use the same configuration, to the newly created stack. You can then [assign a course module](/courses/classes/#assign-resource-modules-to-the-course) (which assigns all its assignments) to the course.
+- **Books** : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then [switch your stack settings](/project/stacks/#switching-a-projects-stack) to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all assignments that point to a book.
 
 ### Switching Stacks
 Remember, when you [switch a project’s stack](/project/stacks/#switching-a-projects-stack) from **Project->Settings->Stack settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.
 
 ### Books
-Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/books/introduction/#introduction).
+Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/project/books/#publishing-and-the-stack).
 
 
 ## Modifying a stack
-A Codio project, course unit or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/project/stacks/#switching-a-projects-stack) at any time.
+A Codio project, course assignment or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/project/stacks/#switching-a-projects-stack) at any time.
 
-You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course unit or book and make the stack changes from the [command line](/ide/boxes/#terminal-window). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/#what-is-a-stack) page.
+You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course assignment or book and make the stack changes from the [command line](/project/ide/boxes/#terminal-window). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/#what-is-a-stack) page.
 
 To modify a stack you should be aware of the following rules.
 
@@ -85,7 +84,7 @@ If the stack's is **Private** and the owner is set to an organization of which y
 ## Creating a stack
 Please make sure you have read [What is a stack?](/project/stacks/#what-is-a-stack) as this contains important concepts and information.
 
-This page explains how to create a new stack or a new stack version from a project. Stack management for [course units](/courses/coursemanagement/#publishing) and [books](/books/manage/#publishing-and-the-stack) is handled by the publish action and is explained in their respective sections.
+This page explains how to create a new stack or a new stack version from a project. Stack management for [course assignments](/courses/coursemanagement/#publishing) and [books](/project/books/#publishing-and-the-stack) is handled by the publish action and is explained in their respective sections.
 
 ### Create new stack from the IDE
 With the project open in the IDE, select the menu option **Project->Stack->Create New**. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the **Visibility** information below.
@@ -108,7 +107,7 @@ When you have completed the required fields and pressed the `Create` button, we 
 When creating a Stack, here are some ideas on strategy and how to make them as useful as possible.
 
 ### Starting Stack
-When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/#installing-software-packages).
+When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/project/ide/boxes/#installing-software-packages).
 
 
 ### Long Description
@@ -204,13 +203,13 @@ mysqladmin -u root password NEWPASSWORD`
 ## Codio Documentation
 Please be aware of the following useful links
 
-- [How to Access your Box](/ide/boxes/)
-- [If your firewall only allows access to port 80](/ide/boxes/ext-access/)
-- [Creating Codio menu items to avoid repetitive terminal commands](/ide/boxes/runmenu/)
-- [Using Git in Codio](/ide/editing/git/)
-- [Customizing the IDE settings](/ide/customization/)
-- [Restarting your Box](/ide/boxes/restart-reset/)
-- [Creating multiple code editing panels in the IDE](/ide/panels/)
+- [How to Access your Box](/prpject/ide/boxes/)
+- [If your firewall only allows access to port 80](/project/ide/boxes/ext-access/)
+- [Creating Codio menu items to avoid repetitive terminal commands](/project/ide/boxes/runmenu/)
+- [Using Git in Codio](/project/ide/editing/git/)
+- [Customizing the IDE settings](/project/ide/customization/)
+- [Restarting your Box](/project/ide/boxes/restart-reset/)
+- [Creating multiple code editing panels in the IDE](/project/ide/panels/)
 
 ## Stack Specific Links
 
@@ -260,7 +259,7 @@ You can update your stack
 
 ### Updating from the dashboard
 
-<img alt="Stacks Dashboard" src="/img/stackdetails.png" class="simple"/>
+<img alt="Stacks Dashboard" src="/img/stackdetails.png" course="simple"/>
 
 To update the Stack, first select it from the stack list. You can then update the stack name or description fields by pressing the **Edit** button.
 
@@ -270,7 +269,7 @@ To create a new version of a stack, press the **New Version** button. Then choos
 ### Updating from the IDE
 It is often simpler to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.) you can create a new stack version from the **Projects->Stack->Create New** menu.
 
-<img alt="Stacks New Version" src="/img/stacknewversion.png" class="simple"/>
+<img alt="Stacks New Version" src="/img/stacknewversion.png" course="simple"/>
 
 You should now press the **New Version** button and enter some text to describe the stack changes since the last version.
 
@@ -279,7 +278,7 @@ It will take a few minutes to build the new version. If your stack is pointing t
 ### Viewing version history
 You can view the version history of a stack by from the **Stacks** area of the Codio dashbaord. Select the stack from the listing and then click on the **Versions** link at the top of the page.
 
-<img alt="Stacks Versions" src="/img/stacks_versions.png" class="simple"/>
+<img alt="Stacks Versions" src="/img/stacks_versions.png" course="simple"/>
 ## Using a stack
 You can select a stack
 
