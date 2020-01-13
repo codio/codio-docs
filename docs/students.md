@@ -30,6 +30,7 @@ To access your course after this point, log in to your Codio account and go to t
 The **Courses** area is where you can see the modules and assignments that have been assigned to you. Pinned assignments will be displayed more prominently at the top of the page.
 
 Below is an example of a student’s **Courses* area:
+
 ![Student Dashboard](/img/what_students_do/studentdashboard.png)
 
 Using the **Courses** area, you can easily re-open the assignment you were last working on, or start/open any of the other assignments that have been assigned to you. You  start or open assignments using the navigation buttons displayed.
