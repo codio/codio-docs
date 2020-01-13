@@ -19,16 +19,16 @@ When you create a Codio Project, it is automatically assigned an Ubuntu server. 
 Your server is put to sleep within a few minutes of you exiting your Project or after 60mins of inactivity.
 
 ### Can I have my Box 'Always on'?
-Paid subscribers can use the [Always On Boxes](/ide/boxes/#always-on-boxes) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
+Paid subscribers can use the [Always On Boxes](/project/ide/boxes/#always-on-boxes) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
 
 ### Can I SSH into my Box?
-Yes, see [SSH into your box](/ide/boxes/#ssh-and-code-access-ssh-into-your-box) documentation.
+Yes, see [SSH into your box](/project/ide/boxes/#ssh-and-code-access-ssh-into-your-box) documentation.
 
 ### Can I reboot my Box?
-Yes. Please refer to the [Restart and Reset](/ide/boxes/#restart-and-reset) documentation.
+Yes. Please refer to the [Restart and Reset](/project/ide/boxes/#restart-and-reset) documentation.
 
 ### Can I let other people administer my Box?
-Paid subscribers can use the Admin property of the [Permissions](/ide/settings/#project-permissions) feature to allow other Codio users to access their Project and have full access to your Codio Box as well as the code.
+Paid subscribers can use the Admin property of the [Permissions](/project/ide/settings/#project-permissions) feature to allow other Codio users to access their Project and have full access to your Codio Box as well as the code.
 
 ### Do I have sudo access?
 Yes, our Boxes provide sudo access.
@@ -37,10 +37,10 @@ Yes, our Boxes provide sudo access.
 You have sudo access, so should use the full power of the [apt](https://help.ubuntu.com/community/AptGet/Howto) package management system, and the packages it provides via the Ubuntu community.
 
 ### How do I access my Box from code?
-We have [full documentation](/ide/boxes/#accessing-boxes-and-ports) on how to access your Box from code.
+We have [full documentation](/project/ide/boxes/#accessing-boxes-and-ports) on how to access your Box from code.
 
 ### Firewall issues
-Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/ide/boxes/#accessing-boxes-and-ports) on how to work around this.
+Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/project/ide/boxes/#accessing-boxes-and-ports) on how to work around this.
 
 ### Important 'localhost' configuration information
 In many config files on your Box you would include a reference to `127.0.0.1` to access localhost. Please be sure to use `0.0.0.0` instead.
@@ -62,7 +62,7 @@ Note that you can create tabs and panels anywhere you like using Codio's [Panels
 ### Terminal Settings
 You can modify various Terminal settings from the **Codio->Preferences** menu.
 
-The available settings (and their defaults) are listed below. Preferences can be modified at the User level as [described here](/ide/settings/#user-preferences). You can also force settings at the Project level but these will then override for all users looking at this project, so should be used sparingly.
+The available settings (and their defaults) are listed below. Preferences can be modified at the User level as [described here](/project/ide/settings/#user-preferences). You can also force settings at the Project level but these will then override for all users looking at this project, so should be used sparingly.
 
 ```ini
 [terminal]
@@ -128,7 +128,7 @@ Should you need it, the `X_FORWARDED_PROTO` header contains original request sch
 ## Preview Menu
 Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php files, Ruby and Node apps etc.) with a single click.
 
-- [Preview documentation](/ide/features/#preview)
+- [Preview documentation](/project/ide/features/#preview)
 
 This feature lets you set up any number of 'aliases' both for static files and Box cli commands.
 
@@ -139,7 +139,7 @@ When you create an empty Box, you get a standard Ubuntu installation. Currently,
 
 If you want to have more software installed by default then you should use [Stacks](/project/stacks/#stack-listings) or select one of the standard stacks from the **New Project** screen.
 
-Please refer to the [Installing software packages](/ide/boxes/#installing-software-packages) section for details on how to install many other languages, database, web servers and other system components.
+Please refer to the [Installing software packages](/project/ide/boxes/#installing-software-packages) section for details on how to install many other languages, database, web servers and other system components.
 ## File & software locations
 All Codio code workspace and software dependency files are located in the `/home/codio` folder, also reachable as `~`.
 
@@ -171,7 +171,7 @@ If you require a new script to be added to the Install Software list then you ha
 1. Visit the [Issues](https://github.com/codio/install_software/issues) page on our GitHub repository and create a new issue detailing your requirements.
 1. You can fork our [GitHub repository](https://github.com/codio/install_software), add the script yourself and then submit a pull request.
 
-Instructions on how to add your own package scripts can be found [here](/ide/boxes/#coding-installable-packages).
+Instructions on how to add your own package scripts can be found [here](/project/ide/boxes/#coding-installable-packages).
 
 
 ### Autostarting
@@ -294,16 +294,16 @@ Python Example:
 
 ### Implementing LSP support
 
-Enable LSP support in your [User](/ide/settings/#user-preferences) (or [Project](/ide/settings/#project-preferences)) Preferences, entering
+Enable LSP support in your [User](/project/ide/settings/#user-preferences) (or [Project](/project/ide/settings/#project-preferences)) Preferences, entering
 ```
 [codio-lsp]
 enable_lsp_support = true
 ```
-If you are [authoring](/courses/authoring/) content for use in a course/class, we recommend enabling as a [project preference](/ide/settings/#project-preferences) as these will be applied over any preferences users may set
+If you are [authoring](/courses/authoring/) content for use in a course/class, we recommend enabling as a [project preference](/project/ide/settings/#project-preferences) as these will be applied over any preferences users may set
 
 ### Installing language server protocols
 
-To install language server protocols, go to the menu **Tools->Install Software** and locate the relevant component.  Press the install button in the relevant row. The installation may take a few minutes and you should then [Restart](/ide/boxes/#restart-and-reset) your Box before proceeding.
+To install language server protocols, go to the menu **Tools->Install Software** and locate the relevant component.  Press the install button in the relevant row. The installation may take a few minutes and you should then [Restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
 
 ## Autocomplete
 
@@ -313,7 +313,7 @@ Autocomplete is not automatically triggered as in HTML/CSS/JS files. To invoke a
 Mac: Shift+Space
 Others: Ctrl+Space
 ```
-If you wish to change the default preference to something else you can. See [User Preferences](/ide/settings/#user-preferences) for more on this
+If you wish to change the default preference to something else you can. See [User Preferences](/project/ide/settings/#user-preferences) for more on this
 
 ## GUI based output
 If you are writing or using programs that have a GUI based output then please read this section. Whether you are using UI libraries like tkinter, qt or simply ubuntu applications that have a non web based UI, this section explains how to setup a virtual desktop.
@@ -332,7 +332,7 @@ As you will see when trying out the sample applications in the demo project abov
 ### Installing your own projects
 
 #### Installing X Server
-To install X Server, go to the menu **Tools->Install Software** and locate X Server. Press the install button in the X Server row. The installation may take a few minutes and you should then [Restart](/ide/boxes/#restart-and-reset) your Box before proceeding.
+To install X Server, go to the menu **Tools->Install Software** and locate X Server. Press the install button in the X Server row. The installation may take a few minutes and you should then [Restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
 
 #### Running your code
 Before you can view any output, your program needs to run, so you should first start your code. When you start the viewer (see below), the UI output will be shown automatically.
@@ -402,7 +402,7 @@ You can find your Codio public key as [described here](/dashboard/account/#publi
 
 When you create a new Codio project, your user keys are automatically copied into your project and can be found in the `~/.ssh` folder. You will need to open up a Terminal window to access this folder and the keys stored in the `id_rsa` file.
 ## SSH and code access -SSH into your box
-Unless your project is utilising [Always On Boxes](/ide/boxes/#always-on-boxes) you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
+Unless your project is utilising [Always On Boxes](/project/ide/boxes/#always-on-boxes) you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
 
 ### Generating Key Pairs
 There are several sites that explain generating SSH keys.
@@ -426,7 +426,7 @@ You can view/check to see all/any Public key(s) you have uploaded into your proj
 
 ### Enabling and Connecting to your Box from your local machine's Terminal
 
-1. Go to **Project>Settings** and to the [Forwarding Settings](/ide/settings/#project-settings) tab and click the 'Enable SSH Forwarding' button
+1. Go to **Project>Settings** and to the [Forwarding Settings](/project/ide/settings/#project-settings) tab and click the 'Enable SSH Forwarding' button
 1. The connection string you need to use is shown there
 
 You will see connection details like this
@@ -443,9 +443,9 @@ By default, other users with read and write permissions are not able to access y
 
 You can grant access to other Codio users by assigning the Admin permission level. This feature requires a paid subscription.
 
-For full details, please refer to the [Permissions section](/ide/settings/#project-permissions) of the documentation.
+For full details, please refer to the [Permissions section](/project/ide/settings/#project-permissions) of the documentation.
 ## Auto starting services
-Your Box will be put to sleep under the conditions [explained here](/ide/boxes/#overview). When you open your project, the Box will start and services will start automatically.
+Your Box will be put to sleep under the conditions [explained here](/project/ide/boxes/#overview). When you open your project, the Box will start and services will start automatically.
 
 ### Upstart
 Codio currently uses upstart. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.

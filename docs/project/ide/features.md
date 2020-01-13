@@ -149,7 +149,7 @@ To use JUnit, your project requires Java and so should
 
 - either use the [Java 8](https://codio.com/home/stacks/cf71b65b-ab7a-4f9b-9885-34009fccb476/?tab=details) stack
 - or you should have manually installed Java in your box
-- or install from **Tools>Install Software**. See [Installing Software Packages](/ide/boxes/#installing-software-packages) for more information
+- or install from **Tools>Install Software**. See [Installing Software Packages](/project/ide/boxes/#installing-software-packages) for more information
 
 ### Configuration
 Open the JUnit dialog **Tools->JUnit** or use the **Shift+Alt+J** hotkey. Then configure the
@@ -173,7 +173,7 @@ Individual test cases can be added
 The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well
 
 ![junitsettings](/img/junitsettings.png)
-To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/ide/settings/#project-preferences)
+To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/project/ide/settings/#project-preferences)
 
 ### Execution
 You can Execute the tests from the **JUnits Execution** tab. Once completed, the results will be listed below.
@@ -186,7 +186,7 @@ Autocomplete is supported within HTML, CSS and Javascript files. Just type away 
 
 If you don't like your auto-complete auto-completing, just set the preference `automatic_completions = false`.
 
-Other languages are supported with [language server protocol](/ide/boxes/#language-server-protocol) although in such files, autocomplete is not automatically involved. See [language server protocol](/ide/boxes/#language-server-protocol) for more information.
+Other languages are supported with [language server protocol](/project/ide/boxes/#language-server-protocol) although in such files, autocomplete is not automatically involved. See [language server protocol](/project/ide/boxes/#language-server-protocol) for more information.
 
 ### HTML Tags
 Auto complete is context sensitive, so you will only be shown Tags that are relevant to your location within the HTML file.
@@ -252,7 +252,7 @@ If the project owner has allowed box cloning you will also be able to clone the 
 ![Clone box](/img/fork-clone.png)
 
 ## Code beautification
-You can format your code by pressing the keyboard shortcut as defined in the [User Preferences](/ide/settings/#user-preferences). By default, it is
+You can format your code by pressing the keyboard shortcut as defined in the [User Preferences](/project/ide/settings/#user-preferences). By default, it is
 
 - `key_format_code` = `Cmd+Shift+B` (for a Mac)
 - `key_format_code` = `Ctrl+Shift+B` (for anything else)
@@ -278,7 +278,7 @@ if ('this_is' == /an_example/) {
 
 If you look within the `[code-beautifier]` section of the Codio Preferences, you will see the various beautification settings available.
 
-Don't forget, you can force these at the [Project level preferences](/ide/settings/#project-preferences) if you want to have consistently beautified code regardless of who edits your code.
+Don't forget, you can force these at the [Project level preferences](/project/ide/settings/#project-preferences) if you want to have consistently beautified code regardless of who edits your code.
 
 ## Preview
 It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content.
@@ -294,7 +294,7 @@ To access files or services that are executed on the server (PHP, Ruby, Node etc
 
 
 
-`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports defining the port in the URL, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/ide/boxes/#accessing-boxes-and-ports) for more details.
+`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports defining the port in the URL, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/project/ide/boxes/#accessing-boxes-and-ports) for more details.
 
 Read on for information on how to configure your Static and Dynamic preview menus.
 
@@ -306,8 +306,8 @@ The Preview button lets you preview one or more web pages with a simple button p
 
 - **Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
 - **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
-- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for http.
-- **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for https.
+- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for http.
+- **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for https.
 
 
 If you right-click a file in the file tree or the Tab, you can also select **Preview Static**.
@@ -318,7 +318,7 @@ If you right-click a file in the file tree or the Tab, you can also select **Pre
 ### Preview in a Codio tab or new browser tab
 In the Preview dropdown menu, you can select one of the following ways to preview
 
-- **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/ide/boxes/#accessing-boxes-and-ports) for more details on using HTTPS.
+- **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/project/ide/boxes/#accessing-boxes-and-ports) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
 If you are previewing a private project containing Static content and you have not enabled **Allow Private Static Preview** option (available only via **Project>Settings**) you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to **Codio>Account** and on the Account tab you can set up a password of your own choosing.
@@ -335,7 +335,7 @@ You are free to customize the menu in either of the following ways
 - From the **Preview** or **Run** drop down menus (the 2nd and 3rd right most Codio menu items), select **Configure...**
 - If it exists already, open the `.codio` file that lives in the root of your project.
 
-For details about the various tokens that can be inserted, please refer to **[Customizing the Run menu](/ide/boxes/#customizable-run-menu)**.
+For details about the various tokens that can be inserted, please refer to **[Customizing the Run menu](/project/ide/boxes/#customizable-run-menu)**.
 
 `{{domain3000}}` is the most important token for the **Preview menu**. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
 `{{domain}}` can also be used in the **Preview** menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "http://{{domain3000}}/",`
@@ -364,7 +364,7 @@ Note that static content is served over Port 80. To access dynamic content you m
 
 If you cannot access your project over SSL then this could be the way your application is configured.
 
-The full range of Codio `{{tokens}}` is explained in [this section](/ide/boxes/#codio-tokens).
+The full range of Codio `{{tokens}}` is explained in [this section](/project/ide/boxes/#codio-tokens).
 
 ### Insecure Content with In-Tab preview and front-end code (#mixed-content)
 Codio runs over a secure connection using HTTPS, and therefore so does the inline preview. If your code references an external resource (script, font, image, etc.). For example:
@@ -407,7 +407,7 @@ The better approach is to use Git. If you are familiar with Git then each person
 There is generally no need to save your files as content is saved automatically. You can still save manually using the `Ctrl+S|Cmd+S` keyboard shortcut, which most of you should be familiar with, but you don’t need to.
 If you make mistakes, then use the regular undo (`Ctrl+Z`).
 
-Version Control is the best possible way of managing restores and this is comprehensively supported thanks to our [Git integration](/ide/editing/#git-mercurial-svn).
+Version Control is the best possible way of managing restores and this is comprehensively supported thanks to our [Git integration](/project/ide/editing/#git-mercurial-svn).
 ## Sharing and embedding
 To share a project or link to a project from a web page, go to the **Project > Share** menu item.
 

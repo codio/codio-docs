@@ -21,7 +21,7 @@ You can exit the IDE and return to the Dasboard in one of the following ways
 ## Editing a file
 You can open an existing file from the tree or create a new one from either the **File > New File** menu or by right-clicking in the file tree.
 
-When you open a file, it will appear in a tab in the currently active [Panel](/ide/panels).
+When you open a file, it will appear in a tab in the currently active [Panel](/project/ide/panels).
 
 Codio will syntax highlight based on the file type. You can see the detected file type in the status bar. Clicking on that file type will allow you to force the syntax highlighting to another language format.
 
@@ -95,6 +95,6 @@ You can export an app at any point by
 
 - right-clicking the app in the file tree (click the top level item)
 - or by selecting the **Project>Export as Zip** menu item
-- from the [Project Settings](/ide/settings/#project-settings)
+- from the [Project Settings](/project/ide/settings/#project-settings)
 
-You can also download individual files from your project. See [Download Files](/ide/navigation/#downloading-files) for more information.
+You can also download individual files from your project. See [Download Files](/project/ide/navigation/#downloading-files) for more information.
