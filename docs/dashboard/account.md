@@ -116,7 +116,7 @@ To disable this option, please go to ***Tools → F12 developer tools*** and be 
 ## Resetting student passwords
 You can change a student's password in the following way:
 
-1. From the **Classes** area, click on your class to open it.
+1. From the **Courses** area, click on your course to open it.
 
 ![authtoken](/img/manage_classes/year_10_class.png)
 
@@ -124,7 +124,7 @@ You can change a student's password in the following way:
 
 ![authtoken](/img/manage_classes/students_tab.png)
 
-1. You will see all students in your class displayed on this screen. Find the student whose password needs to be changed and click on the blue triple dot icon to the right of their name. Choose **Change students password** and follow the steps to reset.
+1. You will see all students in your course displayed on this screen. Find the student whose password needs to be changed and click on the blue triple dot icon to the right of their name. Choose **Change students password** and follow the steps to reset.
 ## Forgot your password
 If you have forgotten your password, you should use the **lost password** link on the log-in page to reset your password automatically via email.
 
@@ -133,6 +133,7 @@ If you have forgotten your password, you should use the **lost password** link o
 If you wish to change your password (you should also do this if you forgot your password and it was reset) follow these steps:
 
 1. Click on your name and gravatar (bottom left of screen)
+
 ![authtoken](/img/what_students_do/forgotpassword/profilepic.png)
 
 1. From the options along the top of the page, choose **Account**
@@ -150,10 +151,10 @@ Codio automatically generates a public key for your account. This key can then b
 ### Where is it used?
 Codio makes use of the public key in the following places
 
-- [SFTP deployment target](/ide/tools/deployment/#sftp-target-type)
-- [RSYNC deployment target](/ide/tools/deployment/#rsync-target-type)
-- [SSH Terminal](/ide/tools/ssh/)
-- [Git](/ide/editing/#git-mercurial-svn)
+- [SFTP deployment target](/project/ide/tools/deployment/#sftp-target-type)
+- [RSYNC deployment target](/project/ide/tools/deployment/#rsync-target-type)
+- [SSH Terminal](/project/ide/tools/ssh/)
+- [Git](/project/ide/editing/#git-mercurial-svn)
 
 In both cases, you will need to install the public key onto the remote system. In the case of SFTP, you should know how to do this already.
 
@@ -165,7 +166,7 @@ If you want to get your Codio public key onto a remote server, just press the Up
 ### Adding your public key to GitHub or BitBucket
 If you are working with GitHub or BitBucket, then you need to install the public key. Codio makes this very easy for you. Goto **Codio>Account** and select GitHub or BitBucket tab and select 'Upload your public key to GitHub/BitBucket'
 
-![SSH Public](/img/docs/prefs-account-gh1.png)
+![SSH Public](/img/prefs-account-gh1.png)
 
 You will be redirected to your GitHub/BitBucket account and asked to authorise the application
 
@@ -206,9 +207,11 @@ For Schools and University organisations, the billing screen allows you to gener
 
 To access the organsisation billing screen:
 
-1. Click on your profile picture (bottom left of **Classes**)
+1. Click on your profile picture (bottom left of **Courses**)
+
 ![Profile](/img/class_administration/profilepic.png)
 1. Click the name of your school (under **My Organizations**)
+
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 1. You will see billing options listed across the top of the page.
 ![Org Billing](/img/class_administration/orgbilling.png)
@@ -278,7 +281,7 @@ We offer substantial **Whole School** license discounts for Schools, Colleges an
 
 ### Customer Technical Support
 
-We have an extensive documentation section where you can find out how to [add students](/courses/classes/#add-students-to-a-class), [add teachers](/dashboard/organisations/#add-teachers) and much more.
+We have an extensive documentation section where you can find out how to [add students](/courses/classes/#add-students-to-a-course), [add teachers](/dashboard/organisations/#add-teachers) and much more.
 
 To access the documentation
 
