@@ -12,13 +12,15 @@ Interesting organization settings.
 <iframe src="https://player.vimeo.com/video/236066250" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-
 
 ## Administrator role
-As the creator of your educational organization in Codio, you have administrator rights. This means that you can add and remove [teachers](/courses/classes/#adding-teachers-to-a-class) from your organization, edit your organization information, manage your students [dashboard settings](/dashboard/organisations/#student-dashboard-settings), create [grading templates](/courses/classes/#grading-rubric-templates) and [delete](/dashboard/organisations/#delete-organization) your organization.
+As the creator of your educational organization in Codio, you have administrator rights. This means that you can add and remove [teachers](/courses/classes/#adding-teachers-to-a-course) from your organization, edit your organization information, manage your students [dashboard settings](/dashboard/organisations/#student-dashboard-settings), create [grading templates](/courses/classes/#grading-rubric-templates) and [delete](/dashboard/organisations/#delete-organization) your organization.
 
 To access the administration tools:
 
 1. Click on your profile picture (bottom left of **Courses**)
+
 ![Profile](/img/class_administration/profilepic.png)
 1. Click the name of your school (under **My Organizations**)
+
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 1. You will see admin options listed across the top of the page.
 ![Members](/img/manage_organization/memberstab.png)
@@ -75,9 +77,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 
 1. Alternatively, teachers can register themselves for a Codio account by following the sign-up process at www.codio.com. Once they have done this (selecting that they are a **Teacher**, they will be asked for an **Invite token** to join your educational organization. This is provided in step 4 above - give them the token (not the URL).
 
-1. If you already have classes set up you can add and invite teachers directly into your class(es). See
-
-    [Adding teachers to a class](/courses/classes/#adding-teachers-to-a-class)
+1. If you already have courses set up you can add and invite teachers directly into your course(s). See [Adding teachers to a ccourse](/courses/classes/#adding-teachers-to-a-course)
 
 You can then if you wish add them as an [organization owner](/dashboard/organisations/#add-organization-owners) so they can then manage and create courses themselves and have full admin access to the organization
 
@@ -89,12 +89,15 @@ There are 2 ways you can do this:
 ### Add a new user to your Organization Owners group
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![Profile](/img/class_administration/profilepic.png)
 
 1. Click the name of your organization (under **My Organizations**)
+
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Members** tab
+
 ![Members](/img/manage_organization/memberstab.png)
 
 1. In the  **Invite Teacher to the Organization** area, enter in their Email address and check the 'Add this teacher to owners group'.
@@ -109,22 +112,26 @@ There are 2 ways you can do this:
 ### Add an existing Codio user to your Organization Owners group
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![Profile](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![Org Name](/img/manage_organization/myschoolorg.png)
 
 1. Click the **Members** tab
+
 ![Members](/img/manage_organization/memberstab.png)
 
 1. Click **Owners**
+
 ![Owners](/img/manage_organization/owners.png)
 
 You should see yourself listed as an owner. To add another teacher, choose the **Add User** drop down and as you type their Codio Username, the listing will filter down so you can then select them.
 ## Add students
-You do not add students to an organization directly. They are added by inviting them to join a course. Please [click here](/courses/classes/#add-students-to-a-class) for more information.
+You do not add students to an organization directly. They are added by inviting them to join a course. Please [click here](/courses/classes/#add-students-to-a-course) for more information.
 
-Codio also creates test students so instructors are able to see how students interact with a course. This is described in the course section.
+Codio also creates test students so instructors are able to see how students interact with a course. This is described [here](/courses/classes/#test-students).
 
 If you are using an LMS for a class then the LMS platform will handle the addition of students to the Codio class automatically.
 ## Student consent form
@@ -167,45 +174,52 @@ The CSV file contains the following data
 Sometimes you might need to check who is registered as a member of your educational organization. To view all members of your school organization follow these steps:
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![authtoken](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Members** tab
+
 ![authtoken](/img/manage_organization/memberstab.png)
 
 1. Click **All Members**
+
 ![authtoken](/img/manage_organization/members.png)
 
 You will be able to see all the members of your school organization.
 
 The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Test Students](/courses/classes/#test-students) for more information.
 
-The **Users without class** group contains all users that are not members of a class. See [Delete Class](/courses/classes/#deleting-a-class) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a class.
+The **Users without class** group contains all users that are not members of a course. See [Delete Course](/courses/classes/#deleting-a-course) for more information.  This may be as a result of a course being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a course.
 Select this group and you can then remove these users from your organization if required.
 ![authtoken](/img/manage_organization/orphanedusers.png)
 
 Please note that removing users from your Organization does not delete their Codio account. Only the account owner can [delete their account](/dashboard/account/#delete-your-account).
 
 ## Student dashboard settings
-Organization owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **My Classroom** as well as optionally hiding **My Classroom** and **Courses** menu items.
+Organization owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **Courses** as well as optionally hiding **Courses** menu item.
 
 To do this, access the administration tools:
 
-1. Click on your profile picture (bottom left of **Classes**)
+1. Click on your profile picture (bottom left of **Courses**)
+
 ![authtoken](/img/class_administration/profilepic.png)
 1. Click the name of your institution (under **My Organizations**)
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 1. You will see admin options listed across the top of the page.
+
 ![authtoken](/img/manage_organization/memberstab.png)
 1. Select **Dashboard Settings**
 1. Make the required changes and **Update** to save the changes
+
 ![authtoken](/img/manage_organization/dash.png)
 
 **N.B.** Your students may need to reload Codio in their browser when they next log in for the changes to be visible to them
 
-Access for students to individual courses can also be managed in the course permissions. See [Restrict Course access](/courses/coursemanagement/#restrict-course-access) for more information.
 
 ## Custom script
 To integrate third-party systems to help/track students, custom scripts can be enabled.
@@ -254,53 +268,66 @@ You may want to remove one or more of the owners you have set for your organizat
 To remove owners:
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![authtoken](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
 1. If you want to remove the owner rights of anyone in your organization, Click the **Members** tab
+
 ![authtoken](/img/manage_organization/memberstab.png)
 
-1. Under **Permanent Teams**, Click **Owners**
+1. Under **Organization Teams**, Click **Owners**
+
 ![authtoken](/img/manage_organization/owners.png)
 
 1. Choose **Remove** on the right hand side of the name of the person whose rights you want to remove. (note: you must always have at least one person in this group to act as the owner)
 
 ## Remove members
-There are some occasions where you may want to remove old members in order to make room for new members - for example if a class of students leaves and you want to use the account licences for other students.
+There are some occasions where you may want to remove old members in order to make room for new members - for example if a course of students leaves and you want to use the account licences for other students.
 
 To remove members:
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![authtoken](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Members** tab
+
 ![authtoken](/img/manage_organization/memberstab.png)
 
-1. Under **Permanent Teams**, Click **All Members**
+1. Under **Organization Teams**, Click **All Members**
+
 ![authtoken](/img/manage_organization/members.png)
 
 1. You will be able to see all the members of your school organization.
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
+1. If a course was deleted and students removed, they will show in the **Users without class** section and may be easier for you to find the students to remove
 
-1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add Users](/courses/classes/#add-students-to-a-class)
+
+1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add students to a course](/courses/classes/#add-students-to-a-course)
 ## Organization Assessments Library
 In addition to Codio's global assessments library, you can create Organization assessments libraries. This allows your faculty to share assessment items with other instructors similar to how you can share Courses within an Organization.
 
 ### Create an Organization Assessments Library
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![Profile](/img/class_administration/profilepic.png)
 
 1. Click the name of your organization (under **My Organizations**)
+
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the Assessments Library tab
+
 ![Assessments Library tab](/img/librarytab.png)
 
 1. Click “Create a New Library”
@@ -329,21 +356,25 @@ Read more about assessment libraries [here](/courses/assessments-library/).
 Organization owners can disable this feature to allow members of the Organization to create Public Projects/Stacks/Starter Packs/Courses and Modules. By default, these will be created as Private.
 
 
-Private projects can still be shared to other users in the normal manner. See [Permissions](/ide/settings/#project-permissions)
+Private projects can still be shared to other users in the normal manner. See [Permissions](/project/ide/settings/#project-permissions)
 
 
 **N.B.** Any existing Projects/Stacks/Starter Packs/Courses and Modules created by members of the organization prior to any changes being made will not be effected
 
 To enable the creation of Public Projects/Stacks/Starter Packs/Courses and Modules, access the administration tools:
 
-1. Click on your profile picture (bottom left of **Classes**)
+1. Click on your profile picture (bottom left of **Courses**)
+
 ![authtoken](/img/class_administration/profilepic.png)
 1. Click the name of your institution (under **My Organizations**)
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 1. You will see admin options listed across the top of the page.
+
 ![authtoken](/img/manage_organization/memberstab.png)
 1. Select **Organization Settings**
 1. Go to the Private/Public Settings area and click the slider to disable this, and **Update** to save the changes
+
 ![authtoken](/img/manage_organization/public_private.png)
 
 Organization owners can also block Codio support team from being able to access members accounts to provide platform support.
@@ -370,53 +401,63 @@ You can then scroll down to the Gigaboxes section.
 If, for any reason you want to completely delete your organization, you can do so in the following way:
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![authtoken](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Organization settings** tab
+
 ![authtoken](/img/manage_organization/orgsettingstab.png)
 
-1. Go to the **Delete** section at the bottom of the page, and type the confirmation code. Note that once your school action has been deleted, the action cannot be reverted.
+1. Go to the **Delete** section at the bottom of the page, and type the confirmation code. Note that once your organisation has been deleted, the action cannot be reverted.
 
 ## Organisation contact URL
 If you wish to set your own contact URL's for your students (e.g. you have a forum or LMS discussion area for them to use or you have your own resources available to assist students), you can do so in the following way:
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![profile](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![organisation](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Organization settings** tab
+
 ![organisation settings](/img/manage_organization/orgsettingstab.png)
 
 1. Go to the **Education Settings** section toward the  bottom of the page, and enter the text you wish to show along with the URL you wish to direct your students to. You can set as many options as you require and also define the default option that will be checked automatically for the students.
 ![organisation contact url](/img/manage_organization/org_releasegrades.png)
 
-1. If these are set, when a student uses any of the ways to contact us, they will be shown all the options in addition to contacting Codio directly if they have a problem accessing the Codio platform, or loading a unit can contact us.
+1. If these are set, when a student uses any of the ways to contact us, they will be shown all the options in addition to contacting Codio directly if they have a problem accessing the Codio platform, or loading a specific assignment.
 
 ![Student options](/img/manage_organization/studentoptions.png)
 
-1. These can also be set at the [class](/courses/classes/#class-contact-url) level so if you have specific areas/forums for your classes for students to raise questions, you can set the contact URL there and it will override the organisation setting
+1. These can also be set at the [course](/courses/classes/#course-contact-url) level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL there and it will override the organisation setting
 
 **N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/support/) for more on this**
 ## Organisation release grades
-By default Students are not shown the grades until you decide to release them to the class but if you wish to automatically [Release Grades](/courses/grading/#releasing-grades) when students complete a unit, you can enable this feature so when you create new [classes](/courses/classes/#creating-a-new-class) this option is automatically enabled.
+By default Students are not shown the grades until you decide to release them to the course but if you wish to automatically [Release Grades](/courses/grading/#releasing-grades) when students complete an assignment, you can enable this feature so when you create new [courses](/courses/classes/#creating-a-new-class) this option is automatically enabled.
 
 Enabling this feature will not effect existing classes
 
 1. Click your name/gravatar, bottom of the left hand pane
+
 ![profile](/img/class_administration/profilepic.png)
 
 1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+
 ![organisation](/img/class_administration/addteachers/myschoolorg.png)
 
 1. Click the **Organization settings** tab
+
 ![organisation settings](/img/manage_organization/orgsettingstab.png)
 
 1. Go to the **Education Settings** section toward the  bottom of the page, and enable the feature
+
 ![Enable Release Grades](/img/manage_organization/org_releasegrades.png)
 
 1. The status of this feature can be changed in individual classes if required. See [here](/courses/grading/#automatically-releasing-grades) for more information
