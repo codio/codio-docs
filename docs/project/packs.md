@@ -67,10 +67,10 @@ You can specify whether other Codio Users within your Organization are able to a
 When creating a Starter Pack, here are some ideas on strategy and how to make them as useful as possible.
 
 ### Starting Stack
-When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/ide/boxes/#installing-software-packages).
+When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/project/ide/boxes/#installing-software-packages).
 
 ### .codio file
-It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/ide/boxes/#customizable-run-menu).
+It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/project/ide/boxes/#customizable-run-menu).
 
 To enable your project to preview inside a Codio tab, you will need to configure the preview to run over https. We recommend this as being the default behavior as it will run both inside Codio and in a new browser tab this way. This will require you to configure any services to run on any port between 9500 and 9000.
 
