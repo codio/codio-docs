@@ -368,12 +368,12 @@ Once you have done this for a while, you will feel a lot more comfortable about 
 
 ### Your project's starting point
 
-#You created a project by importing from a Git repo
+#### You created a project by importing from a Git repo
 If you have code that already exists in a remote repo, say GitHub, then you should create a new project by importing from that repo. That will automatically load the project and set up the correct association with the remote Git repo.
 
 Creating a project is [fully described here](/project/projects/#creating-and-importing-a-project).
 
-### I do not yet have a remote repo
+#### I do not yet have a remote repo
 If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
 
 1. Create a new project in Codio or open up an existing one.
@@ -715,7 +715,7 @@ If you move your mouse into the color preview area and then click, a color picke
 
 
 ## Beautify javascript
-You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Settings](/project/ide/settings/#user-preferences). By default, it is
+You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Preferences](/project/ide/settings/#user-preferences). By default, it is
 
 - `key_format_code` = `Cmd+Alt+F` (for a Mac)
 - `key_format_code` = `Ctrl+Alt+F` (for anything else)
@@ -748,6 +748,6 @@ Codio will automatically select the syntax highlighting rules based on the file 
 
 If you open a file whose extension is not known then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking on the name in the status bar of the code window.
 
-![authtoken](/img/project/ide-force-lang.png)
+![authtoken](/img/ide-force-lang.png)
 
 You can override the language highlighting by clicking as shown (circled) in the above screenshot.
