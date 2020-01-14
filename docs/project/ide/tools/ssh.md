@@ -4,11 +4,11 @@ title: Remote SSH Terminal Access
 
 ---
 
-> **Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please [read about Boxes](/ide/boxes).
+> **Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please [read about Boxes](/project/ide/boxes).
 
-Codio provides the ability to connect to remote servers via SSH. You can open multiple connections and manage connections through the [SSH Connection Manager](/ide/tools/ssh/#ssh-connection-manager).
+Codio provides the ability to connect to remote servers via SSH. You can open multiple connections and manage connections through the [SSH Connection Manager](/project/ide/tools/ssh/#ssh-connection-manager).
 
-A [Quick Connect](/ide/tools/ssh/#quick-connect) option lets you access remote servers on an ad hoc basis. The SSH Connection Manager lets you store connections for quick access later.
+A [Quick Connect](/project/ide/tools/ssh/#quick-connect) option lets you access remote servers on an ad hoc basis. The SSH Connection Manager lets you store connections for quick access later.
 
 
 You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.
@@ -55,8 +55,8 @@ If you do not want to install a public key remotely, then Codio will connect to 
 When you press Connect, a tab will open up in the current panel and off you go. The connection details will not be saved.
 
 ### Connect & Save
-This connects but also saves the connection details to the [SSH Connection Manager](/ide/tools/ssh/#ssh-connection-manager).
+This connects but also saves the connection details to the [SSH Connection Manager](/project/ide/tools/ssh/#ssh-connection-manager).
 
 
 ### Public Keys
-If you want to add your Codio public key to the remote server, then you should Connect & Save. Then go to the SSH Connection Manager and press the public key button as [described here](/ide/tools/ssh/#ssh-connection-manager).
+If you want to add your Codio public key to the remote server, then you should Connect & Save. Then go to the SSH Connection Manager and press the public key button as [described here](/project/ide/tools/ssh/#ssh-connection-manager).
