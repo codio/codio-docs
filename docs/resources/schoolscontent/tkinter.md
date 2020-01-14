@@ -17,7 +17,7 @@ This page describes the various ways you can get Tkinter up and running.
 - **From scratch** - describes how to make any existing Codio project ready to run Tkinter that was not initially set up to run Tkinter.
 
 ## Starter Pack : Clean
-Perhaps the best place for most users to start is the **TKinter Clean** Starter Pack. This gives you a clean project with a simple demo Python file to play with.
+Perhaps the best place for most users to start is the **[TKinter Clean](https://codio.com/home/starter-packs/22d48c99-80a4-43dd-90e9-83fe59d3906c)** Starter Pack. This gives you a clean project with a simple demo Python file to play with.
 
 Here is a video that runs you through the entire process.
 
@@ -28,7 +28,7 @@ Here is a video that runs you through the entire process.
 </div>
 
 From the main dashboard, select **Starter Packs** on the left, then the Certified tab at the top of the main page.
-
+**TODO**
 ![Tkinter Pack](/img/tkinter-pack.png)
 
 
@@ -45,11 +45,11 @@ If you change your Python code, you will need to close the terminal window and t
 
 ## Starter Pack - Widgets
 This gives you a complete set of demo widgets. From the main dashboard, select **Starter Packs** on the left, then the Certified tab at the top of the main page.
-
+**TODO**
 ![Tkinter Widgets](/img/tkinter-pack.png)
 
 
-Search for **tkinter** in the search field then select the **TKinter Widgets** pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
+Search for **tkinter** in the search field then select the **[TKinter Widgets](https://codio.com/home/starter-packs/35641b58-c3ce-44da-b07b-93c062344e82)** pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the **Create** button at the bottom of the page and a new project will be created.
 
 # TKinter Widgets
 This Pack contains a set of widget demo files that you can play with.
@@ -74,7 +74,7 @@ If you want to create a completely empty Codio project that is Tkinter ready, th
 1. then search for **tkinter**
 1. Finally, select the stack
 1. after which you will be taken to the new project screen. Enter a project name then press the **Create** button at the bottom of the page and a new project will be created.
-
+**TODO**
 ![Tkinter Stack](/img/tkinter-stack.png)
 
 

@@ -57,10 +57,10 @@ Zoom controls are in the toolbar or using the mouse wheel if you have one
 </div>
 
 ## Flode teaching content
-The content also contains many auto-graded assessments. Results can be seen instantly on the teacher **My Classroom** feature.
+The content also contains many auto-graded assessments. Results can be seen instantly on the teacher **Courses** feature.
 
 1. Log into Codio
-1. Select **Courses** from the items on the left of the Dashboard
+1. Select **Resources** from the items on the left of the Dashboard
 1. Look for **An Introduction to Programming**
 
 **An Introduction to Programming** uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
@@ -81,10 +81,10 @@ To edit an existing `.flode` file, simply click on the file name to open the Flo
 To get detailed instructions on how to use Flode,
 
 1. Log into Codio
-1. Select **Courses** from the items on the left of the Dashboard
+1. Select **Resources** from the items on the left of the Dashboard
 1. Look for **An Introduction to Programming**
 1. Select the first Module, **Flode**
-1. Press **Start Unit** from the first Unit in the list **Introduction to Flode**
+1. Press **Start Assignment** from the first Unit in the list **Introduction to Flode**
 
 ## Credits
 Many thanks to the folks at [JGraph](http://www.jgraph.com/) for their excellent flowcharting and diagramming tools.

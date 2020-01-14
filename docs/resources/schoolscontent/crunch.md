@@ -10,15 +10,15 @@ Crunch is a modern, full-featured alternative to Little Man Computer. It is test
 ## Crunch Course
 We have built a 3 assignment Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking.
 
-From the Dashboard, go to **Courses** and then look for **Crunch - Little Man Computer on Steroids**.
+From the Dashboard, go to **Resources** and then look for **Crunch - Little Man Computer on Steroids**.
 
 ## Lexikon
 We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the **Tools** menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering **Overview** in the search box for an overview of all the Crunch commands.
 
 ## Crunch Module
-We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the **Crunch - Little Man Computer on Steroids** Course. From the Dashboard, go to **Courses** and then look for **Crunch - Little Man Computer on Steroids**, within that course you will find the Crunch module.
+We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the **Crunch - Little Man Computer on Steroids** Course. From the Dashboard, go to **Reources** and then look for **Crunch - Little Man Computer on Steroids**, within that course you will find the Crunch module.
 
-If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/courses/classes/#assign-resource-modules-to-the-course) for details.
+If you are teaching a Course, then we suggest you assign the Crunch module to the course. [Click here](/courses/classes/#assign-resource-modules-to-the-course) for details.
 
 ## Video Overview
 
