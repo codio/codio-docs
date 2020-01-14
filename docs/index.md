@@ -13,8 +13,15 @@
 
 | **Help Center**|
 | :------ |
-| link to various sections in Intercom for the question based articles/videos etc| 
-| include a 'ask a question' that goes to help@codio.com that we will get into Intercom to be able to answer!
+|[Questions regarding Users and Classes](https://intercom.help/codio/en/collections/21153-students-and-classes)| 
+|[Questions relating to Installing software](https://intercom.help/codio/en/collections/21236-installing-software-on-boxes)| 
+|[Questions relating to Python, Java, MySQL and other languages](https://intercom.help/codio/en/collections/21174-languages-and-components)| 
+|[Questions relating to Codio Guides](https://intercom.help/codio/en/collections/21261-guides)| 
+|[Questions relating to LMS Platforms](https://intercom.help/codio/en/collections/21304-lms-platforms)| 
+|[Questions relating to Codio Stacks and Starter Packs](https://intercom.help/codio/en/collections/21295-stacks-and-packs)| 
+|[Uncategorised Questions](https://intercom.help/codio/en/collections/21145-general-questions)| 
+|[Ask us a question](mailto:help@codio.com)| 
+
 
 Full technical details and documentation
 
@@ -23,9 +30,9 @@ Full technical details and documentation
 |[Support queries](/dashboard/support)|[](#section-projects)[Projects](/project/projects)|
 |[Navigating Codio](/dashboard/navigation)|[](#how_use_stacks)[Stack templates](/project/stacks)|
 |[Dashboard overview](/dashboard/overview)|[](#how_use_packs)[Starter pack templates](/project/packs)|
-|[Organization management](/dashboard/organisations/)|
+|[Organization management](/dashboard/organisations/)|[Books](/project/books/)|
 |[Account settings and info](/dashboard/account)|
-|[Desktop Application](/dashboard/desktopapp)|If you
+|[Desktop Application](/dashboard/desktopapp)|
 
 |**Boxes and the IDE** |**Courses**|
 | :------ |  :----------- |
@@ -42,20 +49,17 @@ Full technical details and documentation
 |[](#ide-settings)[Settings](/project/ide/settings)|
 
 
-|**Resources** |**Books**|
+|**Resources** ||
 | :------ |  :----------- |
-|[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Introduction](/books/introduction)
-|[How are courses organised](/resources/schoolscontent/organization)|[Limitations and restrictions](/books/limitations)
-| [Finding courses](/resources/schoolscontent/coursefind)|[](#books-working)[Working with books](/books/manage)
-| [Course visibilty](/resources/schoolscontent/courseview)| **Student Help**| 
-| [What content do you recommend?](/resources/schoolscontent/recommended)|[The student view](/students)
-|[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)|
-|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)|
-|[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)|
-|[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
-|[Flode](/resources/schoolscontent/flode)|
-|[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|
+|[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)
+|[How are courses organised](/resources/schoolscontent/organization)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
+| [Finding courses](/resources/schoolscontent/coursefind)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
+| [Course visibilty](/resources/schoolscontent/courseview)|[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)| 
+| [What content do you recommend?](/resources/schoolscontent/recommended)|[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
+|[Flode](/resources/schoolscontent/flode)| **Student Help**
+|[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|[The student view](/students)
 |[Lexikon](/resources/schoolscontent/lexikon)|
 |[Tkinter](/resources/schoolscontent/tkinter)|
 |[Changelog](/resources/changelog)|
+
 
