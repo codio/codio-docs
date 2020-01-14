@@ -55,7 +55,7 @@ You can access the Terminal window
 
 This will open up a terminal window in a new IDE panel. You can have multiple terminals open simultaneously.
 
-Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/ide/panels/) features.
+Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/project/ide/panels/) features.
 
 ![terminal](/img/terminal.png)
 
@@ -139,7 +139,7 @@ When you create an empty Box, you get a standard Ubuntu installation. Currently,
 
 If you want to have more software installed by default then you should use [Stacks](/project/stacks/#stack-listings) or select one of the standard stacks from the **New Project** screen.
 
-Please refer to the [Installing software packages](/project/ide/boxes/#installing-software-packages) section for details on how to install many other languages, database, web servers and other system components.
+Please refer to the [Installing software packages](/project/ide/boxes/#installing-software-packages) section below for details on how to install many other languages, database, web servers and other system components.
 ## File & software locations
 All Codio code workspace and software dependency files are located in the `/home/codio` folder, also reachable as `~`.
 
@@ -171,7 +171,7 @@ If you require a new script to be added to the Install Software list then you ha
 1. Visit the [Issues](https://github.com/codio/install_software/issues) page on our GitHub repository and create a new issue detailing your requirements.
 1. You can fork our [GitHub repository](https://github.com/codio/install_software), add the script yourself and then submit a pull request.
 
-Instructions on how to add your own package scripts can be found [here](/project/ide/boxes/#coding-installable-packages).
+Instructions on how to add your own package scripts can be found below.
 
 
 ### Autostarting
@@ -290,6 +290,7 @@ The Language Server protocol is used to integrate features like auto complete, g
 **Java, OCAML and Python** are currently available.
 
 Python Example:
+
 ![Python](/img/pythonexample.png)
 
 ### Implementing LSP support
@@ -303,7 +304,7 @@ If you are [authoring](/courses/authoring/) content for use in a course/class, w
 
 ### Installing language server protocols
 
-To install language server protocols, go to the menu **Tools->Install Software** and locate the relevant component.  Press the install button in the relevant row. The installation may take a few minutes and you should then [Restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
+To install language server protocols, go to the menu **Tools->Install Software** and locate the relevant component.  Press the install button in the relevant row. The installation may take a few minutes and you should then [restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
 
 ## Autocomplete
 
@@ -332,7 +333,7 @@ As you will see when trying out the sample applications in the demo project abov
 ### Installing your own projects
 
 #### Installing X Server
-To install X Server, go to the menu **Tools->Install Software** and locate X Server. Press the install button in the X Server row. The installation may take a few minutes and you should then [Restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
+To install X Server, go to the menu **Tools->Install Software** and locate X Server. Press the install button in the X Server row. The installation may take a few minutes and you should then [restart](/project/ide/boxes/#restart-and-reset) your Box before proceeding.
 
 #### Running your code
 Before you can view any output, your program needs to run, so you should first start your code. When you start the viewer (see below), the UI output will be shown automatically.
@@ -373,7 +374,7 @@ You can customise the X Server installation by modifying the config files in the
 
 
 ## Always-on boxes
-Always-On Boxes is now available for all paid subscribers. You can enable Box(es) to be Always-On. This means that it will remain active whether you are in the IDE or even logged out. If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and will also mean that it can no longer be 'Always-On'. The number of Always-On Boxes you can have depends on the subscription plan
+Always-On Boxes are available for all paid subscribers. You can enable Box(es) to be Always-On. This means that it will remain active whether you are in the IDE or even logged out. If your project is archived due to inactivity (usually 30 days since last opened), this process removes it from the active fileserver and will also mean that it can no longer be 'Always-On'. The number of Always-On Boxes you can have depends on the subscription plan
 
 ### Marking a Project as Always On
 You can set a Box to Always-On from the **Project->Settings** menu if you're in the IDE. If you're in the Dashboard, select Projects to get the listing, then press the gear icon on the right side of the Project listing. You will be shown the settings screen where you can enable the Always On switch.
