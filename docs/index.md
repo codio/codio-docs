@@ -4,7 +4,7 @@
 | Link to Onboarding Guide  |  links to teaching with codio |
 | Link to Demo Guides and Assessments | more links to teaching with codio |
 | Link to Debugger    |  and more links to teaching with codio |
-| Other videos to help get started |
+| [Intro to UI](https://drive.google.com/file/d/1S_YZKgcFp9O8ztBOpu0RFolnEiBDt0AW/view?usp=sharing_eil&ts=5e17548f) |
 
 
 | **Integrations**|  **Student help**|
