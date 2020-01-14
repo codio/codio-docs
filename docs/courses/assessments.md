@@ -125,7 +125,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
 - **One attempt only** allows the assessment to run only once. The student will be warned that they will not be able to resubmit. You would usually want to provide a [run button](/project/ide/boxes/#customizable-run-menu) or other means for the user to test the code before running the actual assessment.
 - **Show expected answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 <a name="metadata"></a>
 #### Metadata
@@ -256,7 +256,7 @@ To add individual JavaScript source files whose style should be checked, either 
 
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
-- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**(Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ### Metadata
 
@@ -363,7 +363,7 @@ The configuration fields for an assessment are split into five sections: General
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value.
 - **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -428,7 +428,7 @@ For a drop-down question (**Show Possible Values** slider to the right) Codio wi
 - **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A score of 0 is given if any of the responses is incorrect.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position).
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the  **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -467,7 +467,7 @@ Setting up a free text assessment is very simple. The configuration fields for a
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. LaTeX is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 ##### Metadata
 
@@ -570,7 +570,7 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
@@ -795,7 +795,7 @@ The configuration fields for an assessment are split into five sections: General
 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the **TODO**[Open as Teacher](/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
 
