@@ -173,6 +173,7 @@ Individual test cases can be added
 The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well
 
 ![junitsettings](/img/junitsettings.png)
+
 To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/project/ide/settings/#project-preferences)
 
 ### Execution
@@ -186,7 +187,7 @@ Autocomplete is supported within HTML, CSS and Javascript files. Just type away 
 
 If you don't like your auto-complete auto-completing, just set the preference `automatic_completions = false`.
 
-Other languages are supported with [language server protocol](/project/ide/boxes/#language-server-protocol) although in such files, autocomplete is not automatically involved. See [language server protocol](/project/ide/boxes/#language-server-protocol) for more information.
+Other languages are supported with **language server protocol** although in such files, autocomplete is not automatically involved. See [language server protocol](/project/ide/boxes/#language-server-protocol) for more information.
 
 ### HTML Tags
 Auto complete is context sensitive, so you will only be shown Tags that are relevant to your location within the HTML file.
