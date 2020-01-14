@@ -71,8 +71,7 @@ You can delete an entire folder and its content in two ways
 - On Macs, press `fn+backspace`
 - On anything else, press `shift+del`
 
-## Warning
-Deleting a folder cannot be undone.
+**Warning** - Deleting a folder cannot be undone.
 
 ## Dragging files & folders
 You can drag individual or multiple files and folders around the filetree. Excercise caution when doing this as drag actions cannot be undone.
