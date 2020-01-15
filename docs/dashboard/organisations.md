@@ -193,9 +193,9 @@ You will be able to see all the members of your school organization.
 
 The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Test Students](/courses/classes/#test-students) for more information.
 
-The **Users without class** group contains all users that are not members of a course. See [Delete Course](/courses/classes/#deleting-a-course) for more information.  This may be as a result of a course being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a course.
+The **Users without course** group contains all users that are not members of a course. See [Delete Course](/courses/classes/#deleting-a-course) for more information.  This may be as a result of a course being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a course.
 Select this group and you can then remove these users from your organization if required.
-![authtoken](/img/manage_organization/orphanedusers.png)
+![OrphanedUsers](/img/manage_organization/orphanedusers.png)
 
 Please note that removing users from your Organization does not delete their Codio account. Only the account owner can [delete their account](/dashboard/account/#delete-your-account).
 
@@ -309,7 +309,7 @@ To remove members:
 1. You will be able to see all the members of your school organization.
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
-1. If a course was deleted and students removed, they will show in the **Users without class** section and may be easier for you to find the students to remove
+1. If a course was deleted and students removed, they will show in the **Users without course** section and may be easier for you to find the students to remove
 
 
 1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add students to a course](/courses/classes/#add-students-to-a-course)

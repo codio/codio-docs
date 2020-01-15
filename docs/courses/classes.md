@@ -34,14 +34,23 @@ To work with the course features in Codio you will first need to set up a course
 
 You can create courses from a code other users in other organisations can share to you. 
 
-1. Select the **From Share Code** option
+1. Select the **Add From Share Code** option
 
 1. Enter the code given and complete all other details and the course will be created for you.
-
+![Share Course Dash](/img/manage_classes/createsharecode.png)
 ### Sharing your course with others
 
-**TODO**
-![Share Course Dash](/img/manage_classes/sharecode.png)
+To share your course with others
+1. Select the existing course, go to the **Admin** area.
+
+1. Enable **Course share code** and a code will be generated.
+
+1. Copy to your clipboard and share out as required.
+
+1. In order that you can manage access you can disable the code and/or regenerate to create a new code and the original code can no longer be used.  
+
+![Create Share Code](/img/manage_classes/sharecode.png)
+
 ### Cloning a Course
 
 You can clone an existing course to create a new course in 2 ways
@@ -366,30 +375,30 @@ The simplest and quickest thing you can do is to assign one of your projects to 
 At this point, we take a snapshot of your source project, ready for the students to clone when they start the assignment. Any changes you make to the source project will not be reflected automatically in the student assignment.
 
 Once assigned to the course, each student will be able to access the assignment from their dashboard. Go to the **Students** tab and login as one of the test students. Make sure you have the correct course and module selected form the dropdowns. You will now see the assignment in the list. If you don't, make sure the module dropdown has the correct module name selected.  You can then switch back to your teacher account.
-### Assign resource modules to the course
+### Assign existing modules to the course
 You can assign existing course modules and all of its assignments to your course with a single action.
 
 To assign an existing course module, follow the steps below:
 
 1. From the **Courses** screen, click on your course to open it.
 
+1. Click on the **blue plus** sign, top left of the page, and choose **Add Copy from Existing**.
 
-
-1. Click on the **blue plus** sign, top left of the page, and choose **Copy from Existing**.
-![authtoken](/img/manage_classes/blue_plus.png)
+![Add Copy](/img/manage_classes/addcopy.png)
 
 1. Choose the course you want to copy the content from and select the modules you wish and click **Select**
 
-
 1. The module will appear in your course.
+
+To add Codio resources to your courses see [Creating from Resources](/resources/schoolscontent/coursefind/)
 
 ## Removing course module from a course
 
 You can remove course modules from a course selecting the **Delete** button
-![authtoken](/img/manage_classes/deletemodule.png)
+![delete module](/img/manage_classes/deletemodule.png)
 
 You can also remove individual assignments from a module, clicking the **Delete** button for that assignment
-![authtoken](/img/manage_classes/deleteassignment.png)
+![deleteassignment](/img/manage_classes/deleteassignment.png)
 
 **Warning**
 Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/courses/grading/#download-csv-summary) before removing the module or assignment.

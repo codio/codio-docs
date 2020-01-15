@@ -556,13 +556,13 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.assessments.send(assessmentId, answer, points, callback)` - Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question.
 - `codio.resetCurrentFiles()` - Allows students to restore current files in guides within your content.
 
-## Teacher only content  TODO
+## Teacher only content  
+
 Teacher only content can be viewed by teachers when:
 
-- using [open as teacher](/classes/unitmanagement/settings-info/teachersolutions) opening a assignment within a course module in a course
+- opening a assignment within a course module in a course
 - [viewing student code](/courses/grading/#accessing-student-work) within a course
-- working on a assignment in a [course](courses/coursemanagement/#working-with-courses) with the 'View as teacher' function enabled
-![View as Teacher](/img/teachersolutions.png)
+
 
 
 Warning

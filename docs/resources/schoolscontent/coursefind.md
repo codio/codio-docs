@@ -1,11 +1,14 @@
 ---
-title: Finding Courses
-
+title: Finding Codio Resouces
 
 ---
 
 
-Select **Resources** from the dashboard. You will see **Recommended** courses that are created or recommended by Codio.
+Select **Resources** from the dashboard. You will see a list of courses that are created or recommended by Codio.
 
+![CodioResources](/img/manage_classes/codioresources.png)
 
-If you then select a course, you are shown a list of modules. You can create new modules and add also add modules belonging to other courses to your course by selecting the **Edit Courses** slider.
+Select a course, you can then either create a new course or add the modules to an existing course. 
+
+![CreatefromResources](/img/manage_classes/createfromresources.png)
+

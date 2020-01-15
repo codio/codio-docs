@@ -41,7 +41,7 @@ You can specify whether the page content type is markdown (strongly recommended)
 
 <a name="teacheronly"></a>
 ### Teacher only content
-If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they select **Open as teacher** from a assignment in a course.
+If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they open an assignment in a course or when opening a students assignment.
 
 ### Learning Objectives
 This is a tag field that can be useful for data analysis.
