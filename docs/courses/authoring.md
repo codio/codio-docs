@@ -45,7 +45,7 @@ An [assignment](/courses/classes/#assign-a-project-to-the-course) is essentially
 
 ![Courses](/img/courseslist.png)
 
-You would typically use an ssignment if either of the following apply.
+You would typically use an assignment if either of the following apply.
 
 - You have a logically related series of projects that you want to assign to a student that form a course module.
 - You have a collection of assessments relate to a course that are used for homework, lab assessments, projects etc.

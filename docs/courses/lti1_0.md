@@ -30,9 +30,9 @@ To find these keys:
 
 ![lti-keys](/img/lti/lti-org-fields.png)
 
-### Course URL
+### Course LMS URL
 
-The **Course URL** is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard.
+The **Course LMS URL** is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard.
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
@@ -116,9 +116,9 @@ You should then have something similar to this:
 
 
 
-### Course URL
+### Course LMS URL
 
-The **Course URL** is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard.
+The **Course LMS URL** is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard. If not entered and students log into Codio to try to start new assignments there will be no link for them to click to be passed to your LMS Course.
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 

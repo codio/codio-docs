@@ -29,6 +29,7 @@ We strongly recommend that you are familiar with the following concepts if you p
 - Boxes and the IDE section, available on the main index page of the [documentation](https://docs.codio.com) 
 
  ![Boxes](/img/docmenu.png)
+ 
 - [Stacks](/project/ide/stacks)
 - [Starter Packs](/project/ide/packs)
 - [Authoring tutorial content with Codio Guides and Books](/courses/authoring)

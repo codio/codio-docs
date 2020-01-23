@@ -36,20 +36,24 @@ You can create courses from a code other users in other organisations can share 
 
 1. Select the **Add From Share Code** option
 
+![Share Course Dash](/img/manage_classes/sharecode.png)
+
 1. Enter the code given and complete all other details and the course will be created for you.
-![Share Course Dash](/img/manage_classes/createsharecode.png)
+
 ### Sharing your course with others
 
 To share your course with others
+
 1. Select the existing course, go to the **Admin** area.
 
 1. Enable **Course share code** and a code will be generated.
+
+![Create Share Code](/img/manage_classes/createsharecode.png)
 
 1. Copy to your clipboard and share out as required.
 
 1. In order that you can manage access you can disable the code and/or regenerate to create a new code and the original code can no longer be used.  
 
-![Create Share Code](/img/manage_classes/sharecode.png)
 
 ### Cloning a Course
 
@@ -839,7 +843,7 @@ You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu
 
 Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/courses/classes/#transferring-authored-content-assessment-total) and/or [Scripts can be executed for assessing the student code and assigning the grade](/courses/classes/#running-a-custom-script)
 
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or **TODO**[Accessing student work](/classes/) and going to the **Education->Mark as Completed** menu item within the IDE.
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or [Accessing student work](/classes/) and going to the **Education->Mark as Completed** menu item within the IDE.
 
 Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
 

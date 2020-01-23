@@ -69,7 +69,7 @@ Codio Books are somewhat different. There is an explanation above on handling st
 ## Modifying a stack
 A Codio project, course assignment or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/project/stacks/#switching-a-projects-stack) at any time.
 
-You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course assignment or book and make the stack changes from the [command line](/project/ide/boxes/#terminal-window). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/#what-is-a-stack) page.
+You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course assignment or book and make the stack changes from the [command line](/project/ide/boxes/#terminal-window). The concepts behind this are explained in detail on the [What is a stack?](/project/stacks/#what-is-a-stack) section.
 
 To modify a stack you should be aware of the following rules.
 
@@ -84,10 +84,10 @@ If the stack's is **Private** and the owner is set to an organization of which y
 ## Creating a stack
 Please make sure you have read [What is a stack?](/project/stacks/#what-is-a-stack) as this contains important concepts and information.
 
-This page explains how to create a new stack or a new stack version from a project. Stack management for [course assignments](/courses/coursemanagement/#publishing) and [books](/project/books/#publishing-and-the-stack) is handled by the publish action and is explained in their respective sections.
+This page explains how to create a new stack or a new stack version from a project or assignment in a course. 
 
 ### Create new stack from the IDE
-With the project open in the IDE, select the menu option **Project->Stack->Create New**. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the **Visibility** information below.
+With the project open in the IDE, select the menu option **Project->Stack->Create New**. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the **Visibility** information below. We would recommend you set the owner to your organisation.
 
 ![Stacks Create New](/img/stacks_createnew.png)
 
@@ -223,7 +223,7 @@ If this Stack is not using any of the latest components, please email support@co
 ## Visibility and Ownership
 See [visibility settings](/project/stacks/#visibility-and-ownership) for information on who can access or edit your stack.
 
-By default, Stacks are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Stacks listings for all Codio Users.
+By default, Stacks are kept private to your account until you make them public, at which point they will appear in **All** Stacks listings for all Codio Users.
 
 If you set the owner of the Stack to your Organization, they will appear in the **Organizations** listing for members of your Organization
 
@@ -314,9 +314,9 @@ Codio Stacks lets you create and manage the combination of a Codio Box and insta
 
 Stacks are divided up into the following searchable areas within the Stacks listing
 
-- **My Stacks** are Stacks that were created by you.
+- **My Stacks** are Stacks that were created by you or set to be owned by the organisation.
 - **Certified Stacks** are Stacks that are approved by Codio and cover a wide range of common stack configurations.
-- **Popular Stacks** are the most commonly downloaded, publicly available stacks created by other Codio users; you should note that Codio does not warrant that these Stacks are tested or safe.
+
 - **All Stacks** gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.
 
 If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/project/stacks/#creating-a-stack).

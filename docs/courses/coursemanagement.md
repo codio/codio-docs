@@ -148,14 +148,14 @@ In this case, you should plan this ahead of time. You would
 - first create the assignment from Codio's Java stack
 - install your components
 
-- create a new stack from your assignment ([in the IDE](project/stacks/#updating-from-the-ide) or when you [publish](/courses/units/publish))
+- create a new stack from your assignment ([in the IDE](project/stacks/#updating-from-the-ide) or from the [stacks dashboard](/project/stacks/#updating-from-the-dashboard))
 
 - make sure your stack is switched to that newly created stack
 
 You now own this stack and so you can update whenever you like down the line. When you create new assignments, you would then choose this new stack.
 
 ### Use Latest Version
-When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. If you view the stack settings from the IDE (**Project-Stack Settings**) or from assigment settings, you will see that this is the default.
+When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. If you view the stack settings from the IDE (**Project-Stack Settings**) or from assignment settings, you will see that this is the default.
 
 ![Assignment stack settings](/img/stacksettings.png)
 

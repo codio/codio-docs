@@ -1,7 +1,7 @@
 
 
 ## Introduction
-Codio Books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to course assignments for course assignments.
+Codio Books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to assignments in courses.
 
 Often, a student will want to review materials taught earlier in a course. With books, they are able to do this even though that content does not form a part of the current assignment. This is very useful for revision purposes prior to lab, assessments, exams etc.
 
