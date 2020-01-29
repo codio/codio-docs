@@ -1,27 +1,45 @@
+---
+title: Documentation
 
-| **Getting Started and Onboarding Materials** |  **Teaching with Codio** |
+
+---
+
+
+|**The Codio Dashboard** |**Projects and Templates**|
 | :------ |  :----------- |
-| Link to Onboarding Guide  |  links to teaching with codio |
-| Link to Demo Guides and Assessments | more links to teaching with codio |
-| Link to Debugger    |  and more links to teaching with codio |
-| [Intro to UI](https://drive.google.com/file/d/1S_YZKgcFp9O8ztBOpu0RFolnEiBDt0AW/view?usp=sharing_eil&ts=5e17548f) |
+|[Support queries](/dashboard/support)|[](#section-projects)[Projects](/project/projects)|
+|[Navigating Codio](/dashboard/navigation)|[](#how_use_stacks)[Stack templates](/project/stacks)|
+|[Dashboard overview](/dashboard/overview)|[](#how_use_packs)[Starter pack templates](/project/packs)|
+|[Organization management](/dashboard/organisations/)|[Books](/project/books/)|
+|[Account settings and info](/dashboard/account)|
+|[Desktop Application](/dashboard/desktopapp)|
 
-
-| **Integrations**|  **Student help**|
+|**Boxes and the IDE** |**Courses**|
 | :------ |  :----------- |
-|links to integration videos maybe also links to docs and remove below  | anything additional to existing studentview page? |
+|[Introduction](/project/ide/introduction)|[Understanding Courses](/courses/classes/)|
+|[](#int_dev_env)[Basic IDE features](/project/ide/navigation/)|[](#lti1_0)[Integrating with LTI 1.1 systems](/courses/lti1_0)|
+|[](#adv_ide_feat)[Advanced IDE features](/project/ide/features/)|[](#lti1_3)[Integrating with LTI 1.3 systems](/courses/lti1_3)|
+|[](#boxes)[Accessing a Box](/project/ide/boxes)|[Creating Course Content](/courses/coursemanagement)|
+|[](#panels_tabs)[Panels and Tabs](/project/ide/panels)|[Content Authoring with Guides](/courses/authoring)|
+|[](#code_edit)[Code editing](/project/ide/editing)|[](#page-action-section)[Guides settings and page actions](/courses/settings-actions)|
+|[](#ide_tools)[IDE tools - Deployment](/project/ide/tools/deployment)|[](#autoassessments)[Codio Assessments](/courses/assessments)|
+|[IDE tools - Guides](/project/ide/tools/guides/)|[](#assessments-library)[Assessments Library](/courses/assessments-library)|
+|[](#phonegap)[IDE tools - Phonegap](/project/ide/tools/phonegap)|[](#stud_progress)[Grading and accessing student projects](/courses/grading)|
+|[](#ssh)[IDE tools - Remote SSH terminal access](/project/ide/tools/ssh)|[](#plag)[Plagiarism checker](/courses/plagiarism)|
+|[](#ide-settings)[Settings](/project/ide/settings)|
 
-| **Help Center**|
-| :------ |
-|[Questions regarding Users and Classes](https://intercom.help/codio/en/collections/21153-students-and-classes)| 
-|[Questions relating to Installing software](https://intercom.help/codio/en/collections/21236-installing-software-on-boxes)| 
-|[Questions relating to Python, Java, MySQL and other languages](https://intercom.help/codio/en/collections/21174-languages-and-components)| 
-|[Questions relating to Codio Guides](https://intercom.help/codio/en/collections/21261-guides)| 
-|[Questions relating to LMS Platforms](https://intercom.help/codio/en/collections/21304-lms-platforms)| 
-|[Questions relating to Codio Stacks and Starter Packs](https://intercom.help/codio/en/collections/21295-stacks-and-packs)| 
-|[Uncategorised Questions](https://intercom.help/codio/en/collections/21145-general-questions)| 
-|[Ask us a question](mailto:help@codio.com)| 
 
+|**Resources** ||
+| :------ |  :----------- |
+|[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)
+|[How are courses organised](/resources/schoolscontent/organization)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
+| [Finding courses](/resources/schoolscontent/coursefind)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
+| [Course visibilty](/resources/schoolscontent/courseview)|[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)| 
+| [What content do you recommend?](/resources/schoolscontent/recommended)|[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
+|[Flode](/resources/schoolscontent/flode)| **Student Help**
+|[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|[The student view](/students)
+|[Lexikon](/resources/schoolscontent/lexikon)|
+|[Tkinter](/resources/schoolscontent/tkinter)|
+|[Changelog](/resources/changelog)|
 
-**[Full technical details and documentation](/docindex.md)**
 
