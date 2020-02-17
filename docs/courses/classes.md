@@ -407,32 +407,29 @@ You can also remove individual assignments from a module, clicking the **Delete*
 **Warning**
 Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to [Download CSV](/courses/grading/#download-csv-summary) before removing the module or assignment.
 
-## Update course
+## Updating courses 
 
-**TODO**
-Where you are using content in multiple courses and changes are made to that content, these changes will be detected and you can upgrade the content of the other courses to the latest version from the **Update Course** button. The code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment.
+### Updating assignment content
 
-![Update Course](/img/class_administration/upgradecourse.png)
+It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
-Updates may be new assignments added to the course, a new version of the stack, updates for assessments in a guide or book, changes to the general guide content or a change in the order of assignments in the course.
+- easily update assignments where you may use the same content in different courses as you cam make the changes in one assignment, push to the repo and then pull in the changes to the other assignemts to publish.
+
+- collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
+
+**Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
+
+To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
+
+
+### Updating Stack 
+If changes to the stack used in the unit are required, when completed (and tested) remember to update your stack before publishing. Either create a new version of the stack if you have permissions or create a new stack. See [Modifying a stack](/project/stacks/#modifying-a-stack) for more information.
+
+If the changes are only to the stack, when created you can go to the stack area for the assignment when in edit mode and change the stack details. See [Managing assignments](courses/classes/#managing-assignments) for more information
 
 Most assessment changes can be safely upgraded but if you have altered the structure of a question (for example multiple choice changed from single response to multiple response) then student response data can be invalidated.
 
-![Upgrade Stack](/img/class_administration/upgradecoursedialog.png)
-
 Any changes to guides content can be applied. You should be careful about making major structural changes as students who have already started the assignment could be confused. The code workspace folder will not be impacted, so any student work in this folder will not be impacted.
-
-### Select assignments to update
-A list of all modified assignments will be shown. You can select the assignments you wish to update. The **Update Course** button will no longer be shown if updates have already been applied.
-
-### Stack updates
-If updates to the stack are detected and students have already started the assignment(s) you can elect to update the stack as well as the guides content by pressing the **Update Content and Stack** button.
-
-![Update Stack](/img/class_administration/stackupdate.png)
-
-However, **any data outside the code workspace folder will be lost for all students who have already started the assignment**.
-
-If there are no detected updates to the stack or no students have started the assignment(s), this option will not be shown.
 
 
 ## Test students
@@ -488,23 +485,23 @@ On the module assignment screen you can manage the following settings
 ![assignmentscreen](/img/class_administration/modulesettings.png)
 
 1. Change the name of the assigment
-1. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
-1. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
-1. View the version history of the assigment publications, This allows you to view the version history. You can see
+2. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
+3. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
+4. View the version history of the assigment publications, This allows you to view the version history. You can see
     - date/time when the assignment was published,
     - name of the person who published the assignment,
     - the name and version of the stack assigned to the assignment.
 
 ![versions](/img/versiondetails.png)
 
-1. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
+5. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
     - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
     - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
-1. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
+6. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
     - Select **Convert content to a project** to delete the assignment and save the assignment contents to your projects list.
     - Select **Delete content** to delete the assignment and its content entirely.
-1. Delete the entire module. You are required to enter a confirmation code to proceed
-1. Reorder the modules in the course. 
+7. Delete the entire module. You are required to enter a confirmation code to proceed
+8. Reorder the modules in the course. 
 
 You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
 
@@ -550,7 +547,7 @@ For book based assignments, you should be aware that if another assignment gives
 #### Visibility on completed
 You can specify the students ability to access the assignment when completed. **Not available for book based assignments**
 
-- 'None' will allow students to continue to access and work in code files, any assessments in the assignment can be seen but not changed,
+- 'None' will allow students to continue to access and work in code files, any assessments in the assignment can be seen but not changed. When set to 'None', students will be able to change the status of their assignment from completed to not completed.
 - 'Read-Only' will allow students to access their assignment but not make any changes.
 - 'No Access' will not allow the students to access their assignment.
 
@@ -726,7 +723,7 @@ From the **Actions** area of the assignment, you can regrade all students that h
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a course.
 
-You should be aware that once the assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the assignment, fixing the bug and finally republishing the assignment. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then **TODO**[Update assignment](/classes/unitmanagement/settings-info/updateunit/)
+You should be aware that once the assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the assignment, fixing the bug and finally republishing the assignment. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then publish the new version.
 
 Another strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.
 
@@ -861,7 +858,7 @@ This allows you to download a CSV file with student grade data for the assignmen
 
 **This option will destroy all student work.**
 
-In the event that an assignment in your course is updated and, for some reason, you cannot use the **TODO**[Update course](/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
+In the event that an assignment in your course is updated you can reset it so **all** students, including those who have already started the assignment, are updated with the new assignment.
 
 You can reset the assignment for all your students by selecting either
 

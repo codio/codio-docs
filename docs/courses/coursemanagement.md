@@ -87,18 +87,26 @@ This describes the first time you create a new assignment.
 1. **Edit your assignment**. If your assignment is a project assignment, clicking the assignment will take you into the IDE, as with a Codio project, where you can work on your project.
 1. **Publish your assignment**. When you think your assignment is in good shape, it is ready to publish. A assignment is not available to the course until you publish. At this point a snapshot is taken of the assignment and it forms a part of the published course.
 
+It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
+
+- easily update assignments where you may use the same content in different courses as you cam make the changes in one assignment, push to the repo and then pull in the changes to the other assignemts to publish.
+
+- collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
+
+**Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
+
+To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
 
 
 You will iterate through the above process as you add more assignments to your course modules.
 
 
-### Updates   TODO
+### Updates
 Editing a assignment **does not affect published course content or content assigned to course**. This section describes how you can push your changes out to courses when you are ready.
 
 
 1. **More edits to a assignment**. After publishing, you may decide to make further changes. These changes do not form a part of the published course assignment until you republish, so you can edit without concern for altering published content.
 1. **Republish**. Having made more changes, you can publish the assignment again in order to make those changes available to the course. However, publishing does not update assignments previously assigned to a course.
-1. **Update course**. If you had assigned a course module to a course and subsequently updated and published a assignment within that module, then assignments within that module are not automatically updated in the course. You need to explicitly do this by going to the course. You should see a red [**Update Course** button](/classes/unitmanagement/upgradecourse). This allows you to selectively update assignments.
 
 
 
@@ -211,7 +219,7 @@ Please read the section [Assign a project to the course](/courses/classes/#assig
 
 
 ## Course access
-When a course is created all 'Teachers' in the course have admin access to the content.
+When a course is created all 'Teachers' in the course have admin access to the content and can edit the content
 
 
 ## Deleting courses and modules
@@ -299,27 +307,26 @@ Publishing the assignment takes a snapshot of the underlying project assignment 
 ![versions](/img/versions.png)
 
 
-### Describe changes TODO
+### Describe changes
 
 You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/classes/#managing-assignments).
 
 
-### No stack modifications or you switched stack
+### Stack modifications or you switched stack
 If, in your project assignment, you have
 
 - only made changes to the code workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`)
 - or you switched stack but did not make any stack modifications since switching,
 
 then you should
-
+TODO
 1. Enter the changelog text, which is a description of the changes made since the last publish.
-1. Press the **Stack unchanged** button.
 1. Press the **Publish assignment** button when ready.
 
 ![versions](/img/stack_notmodified.png)
 
 ### Stack modifications
-If you have made any changes to the project's stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
+If you have made any changes to the project's stack then you should press the **Stack** button where you can then change the stack or check/confirm that **Use the latest version** is selected. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
 ![versions](/img/stack_modified.png)
 
@@ -328,12 +335,10 @@ You should now decide whether you want to
 - create a new version of the stack used by the assignment
 - create a brand new stack for this assignment.
 
+Go to **Project>Stack>Create New** where you can create a new version of the current stack or create a new stack. The new stack version will appear in your stacks listing in the normal way.
+
 ### Stack modified : New Stack Version
 Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option.
-
-You should enter a description of the stack changes made and then press **Publish assignment**. The new stack version will appear in your stacks listing in the normal way.
-
-![versions](/img/stack_newversion.png)
 
 ### Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other assignments should use, then select this option.
@@ -342,16 +347,15 @@ This will create a new stack with the permissions you specify. To give access on
 
 It will take a few minutes to prepare the stack, so please be patient. Once it is created, it will be visible your stacks listing.
 
-You should **not** create a new stack for each assignment in your course without good reason. You should instead, create a stack and then point all other assignments that share this stack configuration to point to the new stack.
+You should **not** create a new stack for each assignment in your course without good reason. You should instead, create a stack and then point all other assignments that share this stack configuration to point to the new stack. If you select **Use the latest version** for all the assignments, as you make changes to the stack and update it, all the assignments will use that updated stack and you will not have to manually review/update each assignment
 
 If you have differing configurations then create one single stack for a given configuration and then point assignments that use that configuration to the new stack.
 
-![versions](/img/stack_newstack.png)
 
 ### IMPORTANT: Switching a assignment's stack
-Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack settings**) or from the assignments listing (press **Stack** icon).
+Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack>settings**) or from the assignments listing (press **Stack** icon).
 
-Once this has been done, you need to publish your assignment again to reflect this change. Having switched stack, you should select **Stack not modified** and then press **Publish assignment**.
+Once this has been done, you need to go to the **Stack** button to reflect this change. 
 
 ## Editing an existing assignment
 ### Editing a book assignment
@@ -375,11 +379,22 @@ If there is a later version of the assignment that has been published since you 
 
 
 
-## Collaborating on project assignments TODO
-Other teachers in the course are able to collaborate on course assignments. 
+## Collaborating on project assignments
+
+It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
+
+- easily update assignments where you may use the same content in different courses as you cam make the changes in one assignment, push to the repo and then pull in the changes to the other assignemts to publish.
+
+- collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
+
+**Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
+
+To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
+
+Other teachers in the course can then collaborate on course assignments by creating their own project in their **My Projects** area and push their changes to the remote repo for review prior to pulling into the course assignment and then publishing the new version
 
 
-The rules for other users to edit a project assignment in a course are as follows.
+The module assignments can be edited by others directly if required. The rules for other users to edit a project assignment in a course are as follows.
 
 - **Private** - only you can edit the project assignment.
 - **Private but organization is the owner** - any teacher in your organization can edit.
@@ -392,7 +407,7 @@ The ability to create public courses/modules can be enabled for the organization
 ![authtoken](/img/manage_organization/public_private.png)
 
 
-If you want 2 or more people to collaborate on a project assignment, you need to understand how Codio manages this process.
+If you want 2 or more people to collaborate on a project assignment directly, you need to understand how Codio manages this process.
 
 The key thing you need to realize is that unless you are familiar with Git, **only one user should make changes at a time**. If User A and User B want to collaborate, then they need to inform each other when they are working on the content. If they fail to do so, then one person will have to surrender their changes later on.
 
