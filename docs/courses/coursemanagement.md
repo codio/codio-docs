@@ -383,18 +383,20 @@ If there is a later version of the assignment that has been published since you 
 
 It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
-- easily update assignments where you may use the same content in different courses as you cam make the changes in one assignment, push to the repo and then pull in the changes to the other assignemts to publish.
+- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
 **Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
-To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
+To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings) for more information) but be aware that any existing work they may have done will be lost.
 
 Other teachers in the course can then collaborate on course assignments by creating their own project in their **My Projects** area and push their changes to the remote repo for review prior to pulling into the course assignment and then publishing the new version
 
 
-The module assignments can be edited by others directly if required. The rules for other users to edit a project assignment in a course are as follows.
+The module assignments can be edited by others directly if required. It is suggested that this is only considered if the changes are very simple and the assignment is not used in other courses.
+
+The rules for other users to edit a project assignment in a course are as follows.
 
 - **Private** - only you can edit the project assignment.
 - **Private but organization is the owner** - any teacher in your organization can edit.

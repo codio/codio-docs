@@ -181,7 +181,7 @@ You can change a student's password in the following way:
 
 ![authtoken](/img/manage_classes/students_tab.png)
 
-1. You will see all students in your course displayed on this screen. Find the student that you want to remove from the course and click on the blue triple dot icon to the right of their name. Choose **Remove student** to take them out of the course. (Note: this does not remove your student entirely from your organization - if you wish to do this, see [Remove Members](/dashboard/organisations/#remove-members)
+1. You will see all students in your course displayed on this screen. Find the student that you want to remove from the course and click on the blue triple dot icon to the right of their name. Choose **Remove student** to take them out of the course. (Note: this does not remove your student entirely from your organization - if you wish to do this, see [Remove Members](/dashboard/organisations/#remove-members))
 
 ![authtoken](/img/manage_classes/remove_student.png)
 
@@ -194,7 +194,7 @@ It is controlled from the Admin section in the course
 **TODO when implemented**
 ![Book Visibility](/img/bookpages.png)
 
-This option will only show in a course if there is a course containing book based assignments.
+This option will only show in a course if there is a module containing book based assignments.
 
 Select **Edit Details** button and flip the switch to change the settings as required.
 
@@ -413,13 +413,13 @@ Deleting a module or assignment from your course also removes all student data f
 
 It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
-- easily update assignments where you may use the same content in different courses as you cam make the changes in one assignment, push to the repo and then pull in the changes to the other assignemts to publish.
+- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
 **Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
-To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
+To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings) for more information) but be aware that any existing work they may have done will be lost.
 
 
 ### Updating Stack 
@@ -491,9 +491,7 @@ On the module assignment screen you can manage the following settings
     - date/time when the assignment was published,
     - name of the person who published the assignment,
     - the name and version of the stack assigned to the assignment.
-
 ![versions](/img/versiondetails.png)
-
 5. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
     - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
     - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
@@ -578,7 +576,7 @@ You can set the penalty date/time after the assignment end date/time but for stu
 **Time Zones**
 The time zone is taken automatically from your browser, so please check your time settings are correct.
 
-##### Set assignment penalties
+##### **Set assignment penalties**
 You can specify penalties in the event that students do not complete the assignment within agreed timescales. Incremental penalties can be applied if required.
 
 
@@ -592,7 +590,7 @@ Each row in the table will contain the following fields :
 - Penalty % (The % of the total score for the assignment to be deducted as a penalty)
 - Message (If the message field is not specified, then a default message will be generated - see below)
 
-##### Default Messages:
+##### **Default Messages:**
 
 1: If a student opens a project after deadline or the student is working in the assignment when deadline is reached
 
@@ -608,7 +606,7 @@ Once the final deadline hits (if one is set), the assignment will be forced to r
 
 ```You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.```
 
-##### Teacher/Instructors Dashboard:
+##### **Teacher/Instructors Dashboard:**
 
 **Penalty indicator:** If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
 ![dashboard penalty](/img/penaltydashboard.png)
