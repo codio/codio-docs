@@ -190,10 +190,11 @@ Also see [Autograding](/courses/classes/#autograde-on-assignment-complete)
 
 To grade from the class dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
 
-To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center). You can then modify the comments and grade fields for any individual student.
+To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center) and select 'Override Grade'. You can then modify the comments and grade fields for any individual student. Due to the weighting feature, we only allow numeric grades.
 
 ![Assign Grades](/img/grading-assign.png)
 
+If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required.
 
 ### Releasing Grades
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
@@ -211,22 +212,6 @@ By default students are not shown the grades until you decide to release them to
 ![Release Grades](/img/grading-release2.png)
 
 Students are able to see their grades either from their Course view or by opening the assignment and going to **Education->Feedback**
-
-
-### Grading moderation
-In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.
-
-This is where grading moderation is a very useful tool. It allows other teachers to access a student's project, review it and then assign a grade and associated comments. Rather than reviewing all student projects, typically a smaller sample will be taken for review and from that it should become clear if there are any obvious discrepancies.
-
-A common approach is to take a few students who got top grades, a few with terrible grades and a few from the middle of the pack and then perform the grading moderation on those.
-
-The below screenshot shows an example of where a student project has been graded by Professor Babbage, who awarded an A-. The grade was then reviewed by Freddy May, who assigned a slightly better grade.
-
-![Moderation](/img/grading-moderation.png)
-
-The moderated grade will not be shown to the courses and can only be seen by teachers of that course.
-
-Teachers who you want to perform grading moderation will need to be added to the course from the **Admin** screen first.
 
 ## Grading free text questions
 
