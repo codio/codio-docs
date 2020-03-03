@@ -28,7 +28,7 @@ Here is a video that runs you through the entire process.
 </div>
 
 From the main dashboard, select **Starter Packs** on the left, then the Certified tab at the top of the main page.
-**TODO**
+
 ![Tkinter Pack](/img/tkinter-pack.png)
 
 

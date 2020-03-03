@@ -226,8 +226,9 @@ When a course is created all 'Teachers' in the course have admin access to the c
 You can delete a course by going to the Admin tab and clicking **Delete Course**.
 You can delete a module by clicking the **Delete** button on the courses listing area
 
-Deleting a course does not delete its modules. Similarly, deleting a module does not delete its assignments.
+Deleting a course will delete all modules within the course. Similarly, deleting a module will delete all assignments within it. 
 
+It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) so you will always be able to restore your work from the repo.
 
 
 
