@@ -100,8 +100,8 @@ If you have a large number of courses, you can also search by name. Select the *
 ![Name](/img/manage_classes/nameclass.png)
 
 ### Archiving Courses
-To help manage the number of courses visible to teachers  they can be archived so they no longer show on the active screen for teachers. Go to the 3 blue dot menu and select 'Archive Course'. 
-Archiving a course does not effect students and they will be able to continue working on assignments but just removes them from the active tab.  They are not deleted and can be unarchived at any time in the future if they are required either by clicking on the course in the archived tab or from the 3 blue dot menu and selecting 'Unarchive Course'
+To help manage the number of courses visible to teachers and students they can be archived so they no longer show on the active screen for teachers and in the students dashboard the course will show as archived. Go to the 3 blue dot menu and select 'Archive Course'. 
+Archiving a course does not effect students being able to see their grades/feedback but they will not be able to continue working on assignments.  They are not deleted and can be unarchived at any time in the future if they are required either by clicking on the course in the archived tab or from the 3 blue dot menu and selecting 'Unarchive Course'
 
 ## Adding teachers to a course
 Your course may be taught by more than one teacher. If this is the case, you can add another teacher to your Codio course in the following way:
