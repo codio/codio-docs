@@ -143,7 +143,7 @@ It is also possible to launch any debugger configuration from a page. Please [cl
 
 
 ## JUnit testing framework
-Codio provides a simple way to execute [JUnit](http://junit.org/junit4/) tests for Java in your project.
+Codio provides a simple way to execute [JUnit](https://junit.org/junit4/) tests for Java in your project.
 
 To use JUnit, your project requires Java and so should
 
@@ -222,7 +222,7 @@ This file looks like this
 
 You should note that Codio currently only supports autocomplete for the currently opened file as well as items specified in the `libs` section of the `.tern-project` file.
 
-Please refer to the [Tern documentation](http://ternjs.net/doc/manual.html#configuration) for full details on how to configure this file.
+Please refer to the [Tern documentation](https://ternjs.net/doc/manual.html#configuration) for full details on how to configure this file.
 
 
 ### CSS
@@ -307,7 +307,7 @@ The Preview button lets you preview one or more web pages with a simple button p
 
 - **Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
 - **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
-- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for http.
+- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for http. Due to recent browser updates that may cause http previewing to fail, Codio has implemented an automatic redirect rule to preview on https and therefore this option should not be used.
 - **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for https.
 
 
@@ -328,7 +328,7 @@ If though you have enabled this option, then you can preview static content with
 
 This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.
 
-See [Apache Password Basic Authentication](https://wiki.apache.org/httpd/PasswordBasicAuth) and [HTTP Authentication with PHP](http://php.net/manual/en/features.http-auth.php) for some examples.
+See [Apache Password Basic Authentication](https://wiki.apache.org/httpd/PasswordBasicAuth) and [HTTP Authentication with PHP](https://php.net/manual/en/features.http-auth.php) for some examples.
 
 #### Modifying the Preview menu
 You are free to customize the menu in either of the following ways
@@ -376,10 +376,9 @@ Codio runs over a secure connection using HTTPS, and therefore so does the inlin
 
 You will get a browser error indicating that there is some form of insecure or mixed content because you are running in a mixed HTTP/HTTPS mode. This is a restriction of the browser, and cannot be modified easily, or in some browsers, it cannot be modified at all. It is intended to protect you from insecure content.
 
-There are 3 ways to avoid this:
+There are 2 ways to avoid this:
 
 - Modify your external references to use HTTPS.
-- Expand the inline preview into a new browser tab (icon is in the small floating toolbar in the top right of the preview tab) and then modify the url from `https://codio.io/xxxx` to `http://codio.io/xxxx`.
 - Modify your references to use the 'current protocol' by including '//' without http or https, so `<script src="//code.angularjs.org/1.1.5/angular.js">`.
 - If none of the above work, then download the external file, and include and reference it within the Codio project itself.
 
