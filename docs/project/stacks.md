@@ -35,7 +35,7 @@ The process for [creating a stack](/project/stacks/#creating-a-stack) and [switc
 ### Use Case
 Let’s consider a MySQL database use case. If the database data location is in the usual place within the stack (`/var/lib/mysql/`) then when the project is assigned to the course, each student gets their own database, independent of others students, as you would expect.
 
-However, if the stack is changed for any reason (you, as project owner, change the stack or stack version or your change the stack for an already assigned assignment) then all database data would be reset to the state of the new stack as the database data folder is not a part of the workspace.
+However, if the stack is changed for any reason (you, as project owner, change the stack or stack version of stack for an already assigned assignment) then all database data would be reset to the state of the new stack as the database data folder is not a part of the workspace.
 
 If you want to keep the database independent of the stack, then you would need to locate the database file in the workspace folder itself (by editing `/etc/mysql/mysql.conf.d/mysqld.cnf`. This way, you could update the database software via a stack change but the database data remains intact when you switch stacks.
 
@@ -45,7 +45,7 @@ In summary, you should remember the following …
 - When run by students in the course then at the point of the assignment: Assignment = Selected Stack + Workspace (no stack modifications)
 - Stack modifications in the source project or assignment are **not transferred** when launched by students
 
-Once the project or assignment is run by students, if they happen to make changes to their stacks, then each one is individually handled so there are no issues unless you or they select a new stack from **Project->Stacks->Stack settings**.
+Once the project or assignment is run by students, if they happen to make changes to their stacks, then each one is individually handled so there are no issues unless you or they select a new stack from **Project->Stacks->Settings**.
 
 ### Stacks and Stack Versions
 When you create a brand new stack or a new stack version, in both cases you are creating a new stack internally. The only difference between a stack and a stack version is that the stack versions are nicely organized under an already named stack. This makes them easy to find and prevents your stack list getting unnecessarily long.
@@ -55,12 +55,12 @@ So, when referring to a stack in the documentation, we mean either a single stac
 ### What to do prior to assigning to a course
 If you have modified the stack in any way, then there are a few use-cases that commonly occur when working with modified stacks prior to assigning to a course.
 
-- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/#creating-a-stack) and [switch your project to the new stack](/project/stacks/#switching-a-projects-stack) once it is created. This ensures maximum efficiency and speed. If you have not yet created a new stack to incorporate the modifications then you can create a new one by going to **Project>Stacks>Create New** before you publish the assignment. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you publish the assignment in the course module.
+- **Projects**: generally speaking, if you have made any modifications then you should [create a new stack](/project/stacks/#creating-a-stack) and [switch your project to the new stack](/project/stacks/#switching-a-projects-stack) once it is created. This ensures maximum efficiency and speed. If you have not yet created a new stack to incorporate the modifications then you can create a new one by going to **Project->Stack->Create New** before you publish the assignment. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you publish the assignment in the course module.
 - **Course assignments** : you should always first [create a custom stack](/project/stacks/#creating-a-stack) and then [switch the assignment’s stack](/project/stacks/#switching-a-projects-stack), and any other assignments that use the same configuration, to the newly created stack. You can then [assign a course module](/courses/classes/#assign-resource-modules-to-the-course) (which assigns all its assignments) to the course.
 - **Books** : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then [switch your stack settings](/project/stacks/#switching-a-projects-stack) to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all assignments that point to a book.
 
 ### Switching Stacks
-Remember, when you [switch a project’s stack](/project/stacks/#switching-a-projects-stack) from **Project->Settings->Stack settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.
+Remember, when you [switch a project’s stack](/project/stacks/#switching-a-projects-stack) from **Project->Stack->Settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.
 
 ### Books
 Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/project/books/#publishing-and-the-stack).
@@ -111,7 +111,7 @@ When you create a Stack, you should first create a new Project from the closest 
 
 
 ### Long Description
-You should include a full description of your Stack that appears when someone clicks on it within the Stacks listing. This information will also be available to users in Projects by going to `Project>Stack Info` in their Project, which should open automatically. Check out some of Codio Certified Pack long descriptions.
+You should include a full description of your Stack that appears when someone clicks on it within the Stacks listing. This information will also be available to users in Projects by going to `Project->Stack->Info` in their Project, which should open automatically. Check out some of Codio Certified Pack long descriptions.
 
 Below is a template you could use.
 

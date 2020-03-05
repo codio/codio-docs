@@ -6,7 +6,7 @@ title: Organizations
 
 An organization is always required for institutional teaching. The organization area contains settings for managing accounts, LMS integration and many other organization related settings.
 
-## Organisation overview
+## Organization overview
 Interesting organization settings.
 
 <iframe src="https://player.vimeo.com/video/236066250" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-
@@ -290,49 +290,50 @@ There are some occasions where you may want to remove old members in order to ma
 
 To remove members:
 
-1. Click your name/gravatar, bottom of the left hand pane
+- Click your name/gravatar, bottom of the left hand pane
 
 ![authtoken](/img/class_administration/profilepic.png)
 
-1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
+- Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen.
 
 ![authtoken](/img/class_administration/addteachers/myschoolorg.png)
 
-1. Click the **Members** tab
+- Click the **Members** tab
 
 ![authtoken](/img/manage_organization/memberstab.png)
 
-1. Under **Organization Teams**, Click **All Members**
+- Under **Organization Teams**, Click **All Members**
 
 ![authtoken](/img/manage_organization/members.png)
 
-1. You will be able to see all the members of your school organization.
-1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
+- You will be able to see all the members of your school organization.
+- Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
-1. If a course was deleted and students removed, they will show in the **Users without course** section and may be easier for you to find the students to remove
+- If a course was deleted and students removed, they will show in the **Users without course** section and may be easier for you to find the students to remove
 
 
-1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add students to a course](/courses/classes/#add-students-to-a-course)
+- If you want to use the freed-up accounts with new students, follow the steps listed in [Add students to a course](/courses/classes/#add-students-to-a-course)
 ## Organization Assessments Library
 In addition to Codio's global assessments library, you can create Organization assessments libraries. This allows your faculty to share assessment items with other instructors similar to how you can share Courses within an Organization.
 
 ### Create an Organization Assessments Library
 
-1. Click your name/gravatar, bottom of the left hand pane
+- Click your name/gravatar, bottom of the left hand pane
 
 ![Profile](/img/class_administration/profilepic.png)
 
-1. Click the name of your organization (under **My Organizations**)
+- Click the name of your organization (under **My Organizations**)
 
 ![Org Name](/img/class_administration/addteachers/myschoolorg.png)
 
-1. Click the Assessments Library tab
+- Click the Assessments Library tab
 
 ![Assessments Library tab](/img/librarytab.png)
 
-1. Click “Create a New Library”
+- Click “Create a New Library”
 
-1. Enter the name of the assessments library you want to create and press “Create”
+- Enter the name of the assessments library you want to create and press “Create”
+
 ![Assessments Library name](/img/namelibrary.png)
 
 Read more about assessment libraries [here](/courses/assessments-library/).
@@ -412,9 +413,9 @@ If, for any reason you want to completely delete your organization, you can do s
 
 ![authtoken](/img/manage_organization/orgsettingstab.png)
 
-1. Go to the **Delete** section at the bottom of the page, and type the confirmation code. Note that once your organisation has been deleted, the action cannot be reverted.
+1. Go to the **Delete** section at the bottom of the page, and type the confirmation code. Note that once your Organization has been deleted, the action cannot be reverted.
 
-## Organisation contact URL
+## Organization contact URL
 If you wish to set your own contact URL's for your students (e.g. you have a forum or LMS discussion area for them to use or you have your own resources available to assist students), you can do so in the following way:
 
 1. Click your name/gravatar, bottom of the left hand pane
@@ -436,10 +437,10 @@ If you wish to set your own contact URL's for your students (e.g. you have a for
 
 ![Student options](/img/manage_organization/studentoptions.png)
 
-1. These can also be set at the [course](/courses/classes/#course-contact-url) level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL there and it will override the organisation setting
+1. These can also be set at the [course](/courses/classes/#course-contact-url) level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL there and it will override the Organization setting
 
 **N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See [Support](/dashboard/support/) for more on this**
-## Organisation release grades
+## Organization release grades
 By default Students are not shown the grades until you decide to release them to the course but if you wish to automatically [Release Grades](/courses/grading/#releasing-grades) when students complete an assignment, you can enable this feature so when you create new [courses](/courses/classes/#creating-a-new-class) this option is automatically enabled.
 
 Enabling this feature will not effect existing classes

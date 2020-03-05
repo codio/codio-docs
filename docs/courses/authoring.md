@@ -332,7 +332,7 @@ You can then start writing your content in the main content area.
 ### Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
-When in Play Mode or as you preview, your content is rendered as students will see it. You can also override the default CSS styling if you wish. Go to **Tools>Guide>Add Custom CSS**
+When in Play Mode or as you preview, your content is rendered as students will see it. You can also override the default CSS styling if you wish. Go to **Tools->Guide->Add Custom CSS**
 
 ![Guide CSS](/img/guides/guidecss.png)
 

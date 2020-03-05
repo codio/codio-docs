@@ -25,7 +25,7 @@ Account Settings lets you manage the following
 - [Account deletion](/dashboard/account/#delete-your-account)
 
 ## User preferences
-You can access the User Preferences using the menu item **Codio > Preferences > User** when you are in a project.
+You can access the User Preferences using the menu item **Codio->Preferences->User** when you are in a project.
 
 ![authtoken](/img/prefs-menu.png)
 
@@ -60,7 +60,7 @@ brace_style = collapse
 You can see the setting name (`brace_style` with a default value of `collapse`) as well as the data type (list) and the available values (in the case of a list).
 
 ## User Preferences
-User preferences can be made from the main menu **Codio > Preferences > User**.
+User preferences can be made from the main menu **OrganizationPreferences > User**.
 
 User preference overrides are made in left hand pane. When your account is created, this will be empty. Here is an example of user settings that override the Codio defaults ...
 
@@ -96,7 +96,7 @@ If you want to find a preference setting in the default pane, the best thing is 
 ## Project preferences
 Project preferences get the highest priority and are applied over User Settings. To modify these, you should open your project and then choose one of the following
 
-1. From the menu, select **Codio > Preferences > Project**
+1. From the menu, select **Codio->Preferences->Project**
 2. From the file tree, locate the `.settings` file
 
 As any project preferences will be applied over your user preferences and everyone else's, you should be careful in what settings you place in here.
@@ -105,13 +105,13 @@ As any project preferences will be applied over your user preferences and everyo
 You can set a lot of preferences in Codio. There are various ways of listing and finding preferences and their corresponding keyboard shortcuts.
 
 - [Command Bar](/project/ide/features/#command-bar) lets you find and execute commands and actions. It only shows actionable commands, so things like Font Size, Theme are not available here. Toggle items are, however.
-- **Help > Shortcuts** and type and search list that shows all keyboard shortcuts
-- **Codio > Preferences > User** where a complete list is shown in the Default Preferences area and you can also modify the preferences.
+- **Help->Shortcuts** and type and search list that shows all keyboard shortcuts
+- **Codio->Preferences-> User** where a complete list is shown in the Default Preferences area and you can also modify the preferences.
 
 To see how to modify your preferences see [Codio Preferences](/project/ide/settings/#user-preferences)
 
 ## Project settings
-These settings are found within the IDE (a loaded project) from the **Project > Settings** menu item and also accessible from the **My Projects** listing, by clicking the gear icon in the right side of the listing.
+These settings are found within the IDE (a loaded project) from the **Project->Settings** menu item and also accessible from the **My Projects** listing, by clicking the gear icon in the right side of the listing.
 
 Project settings, as distinct from Project preferences, are used to store the following details about the project
 
