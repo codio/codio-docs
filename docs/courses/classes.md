@@ -96,11 +96,16 @@ Courses can be ordered by Name, Created Date, Student Count or Start Date within
 
 ### Searching
 
-If you have a large number of courses, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all course names and filter your list accordingly.
+If you have a large number of courses, you can also search by Name, Created Date, Student Count or Start Date. Select the appropriate option and simply start typing, whereupon Codio will search within all course names and filter your list accordingly.
 ![Name](/img/manage_classes/nameclass.png)
 
+### Add as a Tab
+
+You can then 'Add as a Tab' to save the search parameters and in future quickly access them by clicking on the tab that will be created for you.
+
 ### Archiving Courses
-To help manage the number of courses visible to teachers and students they can be archived so they no longer show on the active screen for teachers and in the students dashboard the course will show as archived. Go to the 3 blue dot menu and select 'Archive Course'. 
+To help manage the number of courses visible to teachers they can be archived so they no longer show on the active screen for teachers and in the students dashboard the course will show as archived and their assignments will be read-only. Go to the 3 blue dot menu and select 'Archive Course'. You will then be prompted to confirm your action by typing in a phrase 'make-read-only'
+
 Archiving a course does not effect students being able to see their grades/feedback but they will not be able to continue working on assignments.  They are not deleted and can be unarchived at any time in the future if they are required either by clicking on the course in the archived tab or from the 3 blue dot menu and selecting 'Unarchive Course'
 
 ## Adding teachers to a course
