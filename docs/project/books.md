@@ -3,8 +3,6 @@
 ## Introduction
 Codio Books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to assignments in courses.
 
-Often, a student will want to review materials taught earlier in a course. With books, they are able to do this even though that content does not form a part of the current assignment. This is very useful for revision purposes prior to lab, assessments, exams etc.
-
 A Codio book still sits on top of a Codio box so you have the same capabilities that projects and assignments have. Before we introduced books, switching assignments wasted time as a new assignment needed to load, which took several seconds. If you frequently switch assignments (for instance during student revision) this delay becomes irritating. With a book, there is no delay and the student can freely access all parts of the book irrespective of which assignment they are accessing.
 
 ### Recommendations
@@ -20,7 +18,7 @@ There are cases where authoring your content in a book is not appropriate. For m
 
 
 ### Courses
-Rather than assign a Book to a course, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and assignments and assign these to a course but, provided the course author allows it, students can look at any part of the book even when assigned a single assignment. This is ideal for referring back to material covered previously and for general revision. See [Book Visibility](/courses/classes/#book-visibility) for more information.
+Rather than assign a Book to a course, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and assignments and assign these to a course.
 
 ### Assessments
 Although it is entirely up to the book author, a book will usually contains a number of assessments. When you map a course assignment to a section of the book, any assessments that fall within that assignment are shown in the course dashboard.
@@ -78,55 +76,15 @@ Please note the following.
 1. You can continue work on the book without affecting the published version.
 1. When you map a course assignment to a book, it will only pull from a published version.
 
-When you press the **Publish** button, the following screen will appear.
+When you press the **Publish** button, the following screen will appear where you can add details of the changes made. This will then be available to see from the **versions** tab
 
 ![versions](/img/book_publish.png)
 
 
-### New stack (no modifications) or only code workspace changes made
-If, in your book, you have
-
-- only made changes to the code workspace (the contents of the file tree in the IDE or `/home/codio/workspace`)
-- or you have switched the stack but not made any stack modifications or installed any software since
-
-then you should
-
-1. Enter the changelog text, which is a description of the changes made since the last publish.
-1. Press the **Stack Unchanged** button.
-1. Press the **Publish Book** button.
-
-![versions](/img/book_stack_notmodified.png)
-
-
-### Stack modified
-If you have made any changes to the stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
-
-![versions](/img/book_stack_modified.png)
-
-You should now decide whether you want to
-
-- create a new version of the stack used by the book
-- create a brand new stack for this book.
-
-### Stack modified : New Stack Version
-Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option. In this case you should create a new stack as explained below under **Stack modified: New Stack**.
-
-You should enter a description of the stack changes made and then press **Publish Book**. The new stack version will appear in your stacks listing in the normal way.
-
-![versions](/img/book_stack_newversion.png)
-
-### Stack modified: New Stack
-If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or assignments should use, then select this option.
-
-This will create a new stack with the permissions you specify. To give access only to others within your organization, select **Private** and then select the owner to be the organization from the drop down list below.
-
-It will take a few minutes to prepare the stack, so please be patient. Once it is created, it will be visible your stacks listing.
-
-![versions](/img/book_stack_newstack.png)
 
 
 ### Later book modifications
-If, after publishing, you make further changes to your book then you will need to re-publish when you want those changes to be available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version by pressing **Update to latest version**.
+If, after publishing, you make further changes to your book then you will need to re-publish when you want those changes to be available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version. See  [Editing a book assignment](m/courses/coursemanagement/#editing-a-book-assignment) for more information.
 
 
 ### Course mapping
@@ -160,7 +118,13 @@ If the book is set to **Public**, then any Codio user inside or outside your org
 ### Permissions and collaboration
 If you want 2 or more people to collaborate on a book, you need to understand how Codio manages this process.
 
-You need to give explicit permission to other users or to an organization and apply write permissions.
+**It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc)** where you can push your work. As well as giving you full versioning control it also allows you to 
+
+- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.
+
+- collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published.
+
+If you wish to do this within Codio however, you need to give explicit permission to other users or to an organization and apply write permissions.
 
 The permissions can be changed by selecting the **Permissions** tab on the book settings screen. You should first specify which user or organization you want to grant permissions to. You need to know the precise organization or user name and this is case sensitive. We do not support lookups as the potential for incorrect assignment is too great.
 

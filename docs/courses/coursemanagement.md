@@ -32,7 +32,7 @@ The following video covers the important topic of stack management within a cour
 
 
 ### Updating courses and collaboration
-If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](courses/coursemanagement/#collaborating-on-project-assignments-todo) for details.
+If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](courses/coursemanagement/#collaborating-on-project-assignments) for details.
 
 
 ### Overview
@@ -284,15 +284,20 @@ With book assignments, students can look at any part of the book even when assig
 ## Publishing
 The publish process is slightly different for books and project assignments. 
 
-### Updating book assignments TODO
+### Updating book assignments 
 Book assignments are published from the books area.
 
-Let's say you have already published a book and created an assignment from a part of that book. If you then make changes to the book and republish the book, those published changes are not automatically reflected in the course. If you want to update the assignment, then need to press the **Update to latest version** button that appears on the right side of the assignment.
+Let's say you have already published a book and created an assignment from a part of that book. If you then make changes to the book and republish the book, those published changes are not automatically reflected in the course. If you want to update the assignment, then go into **Edit** mode in the course and click on the book assignment you wish to update.
 
 ![Book update](/img/bookupdate.png)
 
 
-**TODO** After pressing this, the books changes will be reflected in the assignment. If you want these changes to be passed through to a course where the assignment was previously added, then please [click here](/classes/unitmanagement/upgradecourse) for details.
+After pressing this, the book update dialog will open:
+
+![Book update](/img/bookupdate1.png)
+
+Click **Use latest version** and then **Update** for the changes to be made available to your students
+
 
 
 ## Publishing project assignments
@@ -313,55 +318,36 @@ Publishing the assignment takes a snapshot of the underlying project assignment 
 You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/classes/#managing-assignments).
 
 
-### Stack modifications or you switched stack
+### Publishing options
 If, in your project assignment, you have
 
 - only made changes to the code workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`)
-- or you switched stack but did not make any stack modifications since switching,
 
 then you should
-TODO
-1. Enter the changelog text, which is a description of the changes made since the last publish.
-1. Press the **Publish assignment** button when ready.
+
+
+1. Press the **Publish** button when ready.
+1. Enter the changelog text, which is a description of the changes made since the last publish and select the **Publish** option
 
 ![versions](/img/stack_notmodified.png)
 
-### Stack modifications
-If you have made any changes to the project's stack then you should press the **Stack** button where you can then change the stack or check/confirm that **Use the latest version** is selected. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
+#### Stack modifications
+If you have made any changes to the project's stack then you should first press the **Stack** button where you can then change the stack or check/confirm that **Use the latest version** is selected. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
-![versions](/img/stack_modified.png)
+When done you should
 
-You should now decide whether you want to
+1. Press the **Publish** button when ready.
+1. Enter the changelog text, which is a description of the changes made since the last publish and select the **Publish with stack update** option
 
-- create a new version of the stack used by the assignment
-- create a brand new stack for this assignment.
-
-Go to **Project>Stack>Create New** where you can create a new version of the current stack or create a new stack. The new stack version will appear in your stacks listing in the normal way.
-
-### Stack modified : New Stack Version
-Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option.
-
-### Stack modified: New Stack
-If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other assignments should use, then select this option.
-
-This will create a new stack with the permissions you specify. To give access only to others within your organization, select **Private** and then select the owner organization from the drop down list below.
-
-It will take a few minutes to prepare the stack, so please be patient. Once it is created, it will be visible your stacks listing.
-
-You should **not** create a new stack for each assignment in your course without good reason. You should instead, create a stack and then point all other assignments that share this stack configuration to point to the new stack. If you select **Use the latest version** for all the assignments, as you make changes to the stack and update it, all the assignments will use that updated stack and you will not have to manually review/update each assignment
-
-If you have differing configurations then create one single stack for a given configuration and then point assignments that use that configuration to the new stack.
+For more information on how to update/modify stacks, see [Modifying a stack](/project/stacks/#modifying-a-stack)
 
 
-### IMPORTANT: Switching a assignment's stack
-Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack>settings**) or from the assignments listing (press **Stack** icon).
-
-Once this has been done, you need to go to the **Stack** button to reflect this change. 
+### IMPORTANT: Switching an assignment's stack
+Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack>settings**) or from the assignments listing (press **Stack** icon) but if you use this, when publishing the new version, select the **Publish with stack update** option.
 
 ## Editing an existing assignment
 ### Editing a book assignment
-If you want to edit book assignment content, then you edit the book from the books listing, not the assignment listing. You would then republish the book after which you will see **Update to latest version** in the assignment listing.
-
+If you want to edit book assignment content, then you edit the book from the books listing, not the assignment listing. You would then republish the book and then in the course, publish the new version. See [Updating book assignments](/courses/coursemanagement/#updating-book-assignment) for more information. 
 ![Book update](/img/bookupdate.png)
 
 
@@ -374,7 +360,7 @@ See [Managing Assigments](/courses/classes/#managing-assignments)
 
 Editing a project assignment is always done from the assignment listing.  Select the assignment to open in the IDE.
 
-If there is a later version of the assignment that has been published since you last opened it, you will see the following screen and elect to open either the latest published version or the last version you edited.
+If there is a later version of the assignment that has been published by a colleague since you last opened it, you will see the following screen and elect to open either the latest published version or the last version you edited.
 
 ![publishedversion](/img/publishedversion.png)
 
@@ -382,7 +368,7 @@ If there is a later version of the assignment that has been published since you 
 
 ## Collaborating on project assignments
 
-It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
+**It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc)** where you can push your work. As well as giving you full versioning control it also allows you to 
 
 - easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.
 

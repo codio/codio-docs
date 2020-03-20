@@ -190,23 +190,7 @@ You can change a student's password in the following way:
 
 ![authtoken](/img/manage_classes/remove_student.png)
 
-## Book Visibility
-A book based assignment can map to parts of a book. Students can see the mapped book portions of the book in the table of contents.
 
-You can also specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. This setting applies to all assignments in the course.
-
-It is controlled from the Admin section in the course
-**TODO when implemented**
-![Book Visibility](/img/bookpages.png)
-
-This option will only show in a course if there is a module containing book based assignments.
-
-Select **Edit Details** button and flip the switch to change the settings as required.
-
-- **Show only assignment pages** will only show the part of the book mapped to that assignment.
-- **Show all pages** will show all the book content and the areas not mapped to that specific assignment will be grayed out in the table of contents.
-
-![Show all pages](/img/bookshowallpages.png)
 ## Deleting a course
 A course can be deleted by course teachers and organization owners. All the course data can also be exported. See [Export course data](/courses/classes/#exporting-course-data) for more information
 
