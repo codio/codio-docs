@@ -383,7 +383,7 @@ To assign an existing course module, follow the steps below:
 
 1. The module will appear in your course.
 
-To add Codio resources to your courses see [Creating from Resources](/resources/schoolscontent/coursefind/)
+To add Codio resources to your courses see [Creating from Resources](/resources/Codio-Resources)
 
 ## Removing course module from a course
 

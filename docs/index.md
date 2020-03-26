@@ -29,17 +29,13 @@ title: Documentation
 |[](#ide-settings)[Settings](/project/ide/settings)|
 
 
-|**Resources** ||
+|**Resources** | **Student Help**|
 | :------ |  :----------- |
-|[](#school-course-list)[Schools course content](/resources/schoolscontent)|[Curriculum map for the OCR GCSE (J275)](/resources/schoolscontent/currmap2012)
-|[How are courses organised](/resources/schoolscontent/organization)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
-| [Finding courses](/resources/schoolscontent/coursefind)|[Curriculum map for the OCR GSCE (J276)](/resources/schoolscontent/currmap2016)
-| [Course visibilty](/resources/schoolscontent/courseview)|[Curriculum Map for High School Computer Science course](/resources/schoolscontent/currmapcstahigh/)| 
-| [What content do you recommend?](/resources/schoolscontent/recommended)|[Curriculum Map for Middle School Computer Science course Grades 6-8](/resources/schoolscontent/currmapcstamiddle/)|
-|[Flode](/resources/schoolscontent/flode)| **Student Help**
-|[Crunch, an alternative to Little Man Computer](/resources/schoolscontent/crunch)|[The student view](/students)
-|[Lexikon](/resources/schoolscontent/lexikon)|
-|[Tkinter](/resources/schoolscontent/tkinter)|
+|[Codio Resources](/resources/Codio-Resources)|[The student view](/students)|
+|[Flode](/resources/Resource-Tools/flode)|
+|[Crunch, an alternative to Little Man Computer](/resources/Resource-Tools/crunch)|
+|[Lexikon](/resources/Resource-Tools/lexikon)|
+|[Tkinter](/resources/Resource-Tools/tkinter)|
 |[Changelog](/resources/changelog)|
 
 

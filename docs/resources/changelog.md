@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2020**
+
+- `[F] [16th]`: Release of new IDE improving Teacher section
+
 **January 2020**
 
 - `[I] [08th]`: Remove Firefox performance warning as earlier issues now addressed in latest FF versions
