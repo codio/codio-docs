@@ -84,7 +84,7 @@ When you press the **Publish** button, the following screen will appear where yo
 
 
 ### Later book modifications
-If, after publishing, you make further changes to your book then you will need to re-publish when you want those changes to be available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version. See  [Editing a book assignment](m/courses/coursemanagement/#editing-a-book-assignment) for more information.
+If, after publishing, you make further changes to your book then you will need to re-publish when you want those changes to be available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version. See  [Editing a book assignment](/courses/coursemanagement/#editing-a-book-assignment) for more information.
 
 
 ### Course mapping
