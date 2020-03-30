@@ -592,7 +592,7 @@ To mark a file to be included with the assessment, simply locate it in the file 
 
 ### Student Feedback
 
-If your autograde script is to return feedback to your students as they submit the assessment, enable [Release Grades Automatically](/courses/grading/#automatically-releasing-grades).
+If your autograde script is to return feedback to your students as they submit the assessment, enable [Release Grades Automatically](/courses/grading/#releasing-grades).
 
 ### Preview type
 The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands.

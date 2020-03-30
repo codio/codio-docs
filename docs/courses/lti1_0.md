@@ -351,7 +351,7 @@ There are various ways to mark a student's work as complete
 
 
 - The student can do this from either the Course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
-- The teacher can do the same in the assignment when [viewing students code](/classes/monitor/studentcode/)
+- The teacher can do the same in the assignment when [viewing students code](/courses/grading/#accessing-student-work)
 - The teacher can do the same from the assignment in the Course dashboard by hovering in the left side of a student entry and then setting the completed switch.
 - The teacher can mark all student assignments as completed in one action. This is done by
     - selecting the assignment in the Course
@@ -471,7 +471,7 @@ There are various ways to mark a student's work as complete
 
 
 - The student can do this from either the course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
-- The teacher can do the same in the assignment when [viewing students code](/classes/monitor/studentcode/)
+- The teacher can do the same in the assignment when [viewing students code](/courses/grading/#accessing-student-work)
 - The teacher can do the same from the assignment in the course dashboard by hovering in the left side of a student entry and then setting the completed switch.
 - The teacher can mark all student assignments as completed in one action. This is done by
     - selecting the assignment in the Course

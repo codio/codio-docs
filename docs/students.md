@@ -22,14 +22,14 @@ If you are not using and LMS then your instructor should have given you one of t
 ![authtoken](/img/joinclass.png)
 
 
-To access your course after this point, log in to your Codio account and go to the Coursesarea
+To access your course after this point, log in to your Codio account and go to the Courses area
 
 
 ## Courses
 
 The **Courses** area is where you can see the modules and assignments that have been assigned to you. Pinned assignments will be displayed more prominently at the top of the page.
 
-Below is an example of a student’s **Courses* area:
+Below is an example of a student’s **Courses** area:
 
 ![Student Dashboard](/img/what_students_do/studentdashboard.png)
 
@@ -89,7 +89,7 @@ Within the player various options can be controlled by the user
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the content.
 
-- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/dashboard/student/dyslexia/) section
+- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
 - **Show/Hide Section List Hamburger Ico** allows the user to show/hide the section list.
 
 

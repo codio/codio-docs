@@ -166,7 +166,7 @@ If you do not want to use a public key, then you will need to use a password for
 Be very careful when checking this box. It will brutally remove all content from specified location on the remote server before the deploy starts.
 
 ## Nodejitsu target type
-[Nodejitsu](https://www.nodejitsu.com/) is a high quality third party Node.js production platform, so we built a dedicated deployment target that makes life as easy as possible.
+Nodejitsu is a high quality third party Node.js production platform, so we built a dedicated deployment target that makes life as easy as possible.
 
 You will need to sign up for a Nodejitsu account before you use it.
 

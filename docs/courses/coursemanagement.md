@@ -32,7 +32,7 @@ The following video covers the important topic of stack management within a cour
 
 
 ### Updating courses and collaboration
-If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](courses/coursemanagement/#collaborating-on-project-assignments) for details.
+If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/coursemanagement/#collaborating-on-project-assignments) for details.
 
 
 ### Overview
@@ -156,7 +156,7 @@ In this case, you should plan this ahead of time. You would
 - first create the assignment from Codio's Java stack
 - install your components
 
-- create a new stack from your assignment ([in the IDE](project/stacks/#updating-from-the-ide) or from the [stacks dashboard](/project/stacks/#updating-from-the-dashboard))
+- create a new stack from your assignment ([in the IDE](/project/stacks/#updating-from-the-ide) or from the [stacks dashboard](/project/stacks/#updating-from-the-dashboard))
 
 - make sure your stack is switched to that newly created stack
 
@@ -275,12 +275,6 @@ You can now
 
 ![Book Mapping](/img/bookmapping.png)
 
-
-
-With book assignments, students can look at any part of the book even when assigned a single book assignment. This is ideal for referring back to material covered previously and for general revision and can be set in the course. See [Book Visibility](/classes/classmanagement/bookvisibility) for more information.
-
-
-
 ## Publishing
 The publish process is slightly different for books and project assignments. 
 
@@ -347,7 +341,7 @@ Let's say you have one or more assignments and you decide to change the stack th
 
 ## Editing an existing assignment
 ### Editing a book assignment
-If you want to edit book assignment content, then you edit the book from the books listing, not the assignment listing. You would then republish the book and then in the course, publish the new version. See [Updating book assignments](/courses/coursemanagement/#updating-book-assignment) for more information. 
+If you want to edit book assignment content, then you edit the book from the books listing, not the assignment listing. You would then republish the book and then in the course, publish the new version. See [Updating book assignments](/courses/coursemanagement/#updating-book-assignments) for more information. 
 ![Book update](/img/bookupdate.png)
 
 

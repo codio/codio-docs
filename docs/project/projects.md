@@ -30,8 +30,8 @@ We strongly recommend that you are familiar with the following concepts if you p
 
  ![Boxes](/img/docmenu.png)
  
-- [Stacks](/project/ide/stacks)
-- [Starter Packs](/project/ide/packs)
+- [Stacks](/project/stacks/)
+- [Starter Packs](/project/packs/)
 - [Authoring tutorial content with Codio Guides and Books](/courses/authoring)
 - [Creating Course Content](/courses/coursemanagement/#introduction)
 - [Courses](/courses/classes)

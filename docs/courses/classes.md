@@ -258,7 +258,7 @@ Please note, the stack used in the original workspace is not included in the exp
 
 
 ## Course contact url
-Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the [organisation contact url](/dashboard/organisations/#organisation-contact-url) if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.
+Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the [organisation contact url](/dashboard/organisations/#organization-contact-url) if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.
 
 Students will then be shown all the options in addition to contact Codio directly if they have a problem accessing the Codio platform, or loading a assignment.
 
@@ -414,7 +414,7 @@ To enable students who have started the unit to see the new content, the assignm
 ### Updating Stack 
 If changes to the stack used in the unit are required, when completed (and tested) remember to update your stack before publishing. Either create a new version of the stack if you have permissions or create a new stack. See [Modifying a stack](/project/stacks/#modifying-a-stack) for more information.
 
-If the changes are only to the stack, when created you can go to the stack area for the assignment when in edit mode and change the stack details. See [Managing assignments](courses/classes/#managing-assignments) for more information
+If the changes are only to the stack, when created you can go to the stack area for the assignment when in edit mode and change the stack details. 
 
 Most assessment changes can be safely upgraded but if you have altered the structure of a question (for example multiple choice changed from single response to multiple response) then student response data can be invalidated.
 
@@ -529,7 +529,7 @@ This allows you to pin or unpin an assignment. Pinning an assignment ensures tha
 
 #### Disable/enable assignment
 You can enable or disable assignments that have been assigned to a course. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
-For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. You have the ability to [disable access to content outside the current assignment](/classes/#book-visibility) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
+For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. and if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.
 
 #### Visibility on completed
 You can specify the students ability to access the assignment when completed. **Not available for book based assignments**
@@ -827,7 +827,7 @@ You can run [plagiarism detection](/courses/plagiarism/) from the blue dots menu
 
 Certain actions can be triggered when a student marks an assignment as complete: [Auto-graded assessment scores can be passed directly to the grade field](/courses/classes/#transferring-authored-content-assessment-total) and/or [Scripts can be executed for assessing the student code and assigning the grade](/courses/classes/#running-a-custom-script)
 
-Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or [Accessing student work](/classes/) and going to the **Education->Mark as Completed** menu item within the IDE.
+Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the **Marking All As Completed** button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or [Accessing student work](/courses/grading/#accessing-student-work) and going to the **Education->Mark as Completed** menu item within the IDE.
 
 Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.
 

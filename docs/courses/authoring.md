@@ -32,7 +32,7 @@ A [project](/project/projects/#what-is-a-project) is simply a standalone Codio b
 You would want to choose a project as the place to create your content if you have individual, ad hoc assignments or examples that do not constitute more extensive coursework or are not part of a larger series of associated projects.
 
 
-A project can be [assigned to a course](/classes/unitmanagement/assign-project) at any time. All the students in that course will then be able to access that project and its content.
+A project can be [assigned to a course](/courses/classes/#assign-a-project-to-the-course) at any time. All the students in that course will then be able to access that project and its content.
 
 
 There are drawbacks to using projects to assign to students. If you have related projects and the number of projects grows, it can be hard to quickly find a project you want to assign to a course. There is also no way to arrange your projects into chronological order. Courses and books offer excellent solutions to this organizational problem.
@@ -58,11 +58,10 @@ There is one minor drawback to project based assignments that you should be awar
 ### Book assignments
 A [book](/project/books/) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project assignments to create this content, you might end up with a very large number of assignments, say 50.  As we mentioned above, when students are revising and want to randomly move between different assignments to review content, the can get frustrated by the time it takes to switch assignments.
 
-A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays.
+A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background.
 
 
-However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. Students can see the parts of the book that the assignment related to in the table of contents. The course and course manager is also able to specify that parts of the book not mapped to by the assignment either a) can be seen or b) cannot be seen in the course. See [Book Visibility](/courses/classes/#book-visibility) for more information.
-
+However, faculty will still often want to teach a course based on a book. To do this, you use a course but rather than creating a project assignment, you create a book based assignment. This allows you to point to any parts of a book for that assignment. 
 
 ![Books](/img/bookslist.png)
 
@@ -71,7 +70,7 @@ It can still be a little confusing whether you should use a book based assignmen
 
 - **Project assignments** - use when you have a collection of assessments with no or minimal tutorial content. Best used for homework or lab type assessments. If a student is not going to regularly switch assignments in a single session.
 
-- **Book assignments** - use for tutorial content, examples and non-critical assessments. If students, when looking at one assignment, need to review content in another assignment, then a book is preferable as they can access all parts of the book if they need to.
+- **Book assignments** - use for tutorial content, examples and non-critical assessments. 
 
 
 Note that you can mix both book and project assignments in a course.
