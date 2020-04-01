@@ -544,6 +544,10 @@ You can specify the students ability to access the assignment when disabled.  **
 - 'Read-Only' will allow students to access their assignment but not make any changes.
 - 'No Access' will not allow the students to access their assignment.
 
+#### Disable Mark as Completed
+Disabling will not allow students to mark the assignment as completed. If assignmentss in your class are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
+If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides
+
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
 

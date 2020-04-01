@@ -60,7 +60,7 @@ brace_style = collapse
 You can see the setting name (`brace_style` with a default value of `collapse`) as well as the data type (list) and the available values (in the case of a list).
 
 ## User Preferences
-User preferences can be made from the main menu **OrganizationPreferences > User**.
+User preferences can be made from the main menu **Codio->Preferences->User**.
 
 User preference overrides are made in left hand pane. When your account is created, this will be empty. Here is an example of user settings that override the Codio defaults ...
 
