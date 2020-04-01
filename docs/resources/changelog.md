@@ -11,9 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
-**March 2020**
+**April 2020**
 
-- `[F] [16th]`: Release of new IDE improving Teacher section
+- `[I] [1st]`: Fix problem filtering students by 'Not Graded' in a course
+- `[F] [1st]`: Release of new IDE improving Teacher section
+- `[F] [1st]`: Update internal IDE links to new documentation 
 
 **January 2020**
 
