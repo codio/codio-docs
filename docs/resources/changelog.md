@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[I] [4th]`: Add functionality to allow updates to assignments in a master course to be pulled to cloned courses
+- `[I] [3rd]`: Fix loading of guides content in [CS: Introduction in Python](https://www.codio.com/resources/intro-python)
+- `[I] [3rd]`: Rename [filter option names](/courses/grading/#the-grading-process) for student grading
 - `[I] [2nd]`: Fix problem with LTI course integration parameter
 - `[I] [1st]`: Fix problem when trying to add [CS: Introduction in Python](https://www.codio.com/resources/intro-python) resource to account
 - `[I] [1st]`: Fix problem filtering students by 'Not Graded' in a course

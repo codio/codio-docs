@@ -77,6 +77,19 @@ or
 1. Your new course will appear in your **Courses** area.
 
 Please note, students in the existing course will not be added to the new course.
+
+#### Working with Master/Child courses
+
+Where you have cloned a course, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.
+
+After publishing the update from the original course, go to the cloned course where (in 'edit' mode) you will see the option to Pull
+![Pull](/img/manage_classes/pull.png)
+
+Details will be shown of the update published in the original course to allow for confirmation and on acceptance the update will be pulled in to the assignment in the cloned course.
+![Update](/img/manage_classes/updatedialog.png)
+
+At present the pull button will show for all assignments in the course but if pressed and there are no updates, a message 'The content is up-to-date' will be shown. We plan to add improvements so that it will only show in future where there is an update availble.
+
 ## Searching and ordering courses
 Courses are shown grouped together by their creation date with the most recently created first.
 
@@ -253,7 +266,7 @@ For more information see [Exporting LTI settings](/courses/lti1_0/#exporting-lti
 If in the future you have need to review any students workspace, these can be imported back into your Codio account.
 Simply 'zip' up the folder and you can then import the project into your account. See [creating and importing a project](/project/projects/#creating-and-importing-a-project) for more information.
 
-Please note, the stack used in the original workspace is not included in the exported workspace so if you need to 'run' the project you should select the appropriate stack when importing the project or by switching the stack, either from the gear icon in the main projects listing or by going to **Project>Stack>Settings** in the project
+Please note, the stack used in the original workspace is not included in the exported workspace so if you need to 'run' the project you should select the appropriate stack when importing the project or by switching the stack, either from the gear icon in the main projects listing or by going to **Project->Stack->Settings** in the project
 
 
 
@@ -402,7 +415,7 @@ Deleting a module or assignment from your course also removes all student data f
 
 It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
-- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.
+- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish. Where you have courses that do not have a relationship (see [Working with Master/Child courses][/courses/classes/#working-with-masterchild-courses]) this will allow you to easily update all courses where an assignment has been updated in one course.
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
