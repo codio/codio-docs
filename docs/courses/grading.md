@@ -170,8 +170,8 @@ Students can be filtered by:
 - Any Status
 - Started
 - Not Started
-- Fully Graded
-- Not Graded
+- Has Final Grade
+- No Final Grade
 - Completed
 - Uncompleted
 
