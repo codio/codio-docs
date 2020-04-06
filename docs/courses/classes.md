@@ -321,7 +321,7 @@ To use a grading template you should select the course so you see the full assig
 
 ![asignmentsettings](/img/class_administration/asignmentsettings.png)
 
-Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
+Then select **Settings** and scroll down to the **Grading template** from the list, select [Teachers Grading](/courses/classes/#teachers-grading) and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 
 ![rubric template set](/img/class_administration/grading/grading-template.png)
@@ -337,6 +337,8 @@ You can then grade in the usual two ways.
 - or from with a student's code, select the **Education->Grading** menu item to bring up the same grading dialog.
 
 You can then click within the template to assign a score for each criterion. Large cells are partially collapsed but will maximize when you click within the row. The score is calculated as you click.
+
+If you have enabled a [grading rubric template](/courses/classes/#grading-rubric-templates), clicking in the 'grade' field will pop up the rubric
 
 It is important that you click the Apply button to save the score correctly.
 ## Gigaboxes
@@ -821,14 +823,31 @@ echo $CODIO_AUTOGRADE_ENV
 # Send the grade back to Codio
 curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 ```
-**TODO**
+
+### Grade Weights
+
+![Grading Weights](/img/gradingweights.png)
+
+These are relative weightings against all 3 grade options. 
+
+You can set any number for these. For example, if
+the teachers grading has weight 2 and assessments grading has 1, that means the final grade will be calculated like `(teachersgrading_points * 2 + assessmentgrading_points * 1) /3`. 
+
+If you have only one option enabled 100% of the points of the enabled grading will go to the final grade.
+
 #### Teachers Grading
+
+Where you can set a [Grading Rubric Template](/courses/classes/#grading-rubric-templates) to use with an assignment and set the weighting for this.
 
 #### Assessments Grading
 
+If your assignment includes [assessments](/courses/assessments/) this will be enabled by default. If you do not wish the results of the assessments to be included in the grading you can disable this.
+
+You can also set the weighting for this. 
 #### Script Grading
 This allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
 
+You can also set the weighting for this.
 
 ### Actions area settings
 Additional options are also available if you select the **Actions** button.
