@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[I] [ 7th]`: Improve updating child courses from master to only show pull button when updates available
 - `[I] [ 6th]`: Fix issue with incorrect format for [download csv](/courses/grading/#download-csv-summary)
 - `[I] [ 6th]`: Add functionality to allow updates to assignments in a master course to be [pulled](/courses/classes/#working-with-masterchild-courses) to cloned courses
 - `[I] [ 3rd]`: Fix loading of guides content in [CS: Introduction in Python](https://www.codio.com/resources/intro-python)
