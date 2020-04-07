@@ -88,7 +88,8 @@ After publishing the update from the original course, go to the cloned course wh
 Details will be shown of the update published in the original course to allow for confirmation and on acceptance the update will be pulled in to the assignment in the cloned course.
 ![Update](/img/manage_classes/updatedialog.png)
 
-At present the pull button will show for all assignments in the course but if pressed and there are no updates, a message 'The content is up-to-date' will be shown. We plan to add improvements so that it will only show in future where there is an update available.
+The option to Pull will only be shown if an update to the assignment has been published in the original course.
+
 
 ## Searching and ordering courses
 Courses are shown grouped together by their creation date with the most recently created first.
