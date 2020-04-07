@@ -190,11 +190,11 @@ Also see [Autograding](/courses/classes/#autograde-on-assignment-complete)
 
 To grade from the class dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
 
-To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center) and select 'Override Grade'. You can then modify the comments and grade fields for any individual student. Due to the weighting feature, we only allow numeric grades.
+To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-grading) needs to be enabled. When it is click on the Grade icon (see image above with grading icons circled center) and select 'Add Grade' button. You can then modify the comments and grade fields for any individual student. Due to the weighting feature, we only allow numeric grades. If you are using a [Rubric Template](/courses/classes/#grading-rubric-templates), this will present as you click on the grade field.
 
 ![Assign Grades](/img/grading-assign.png)
 
-If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required.
+If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.
 
 ### Releasing Grades
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:

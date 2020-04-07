@@ -321,13 +321,17 @@ To use a grading template you should select the course so you see the full assig
 
 ![asignmentsettings](/img/class_administration/asignmentsettings.png)
 
-Then select **Settings** and scroll down to the **Grading template** from the list, select [Teachers Grading](/courses/classes/#teachers-grading) and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
+Then select **Settings** and scroll down to the **Grading Weights** from the list, select [Teachers Grading](/courses/classes/#teachers-grading), enable **Rubrics** and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 
-![rubric template set](/img/class_administration/grading/grading-template.png)
+![Grading Weights](/img/gradingweights.png)
+
+See [Grade weights](/courses/classes/#grade-weights) for more information on grading weights
 
 ### Grading student work
-You perform the actual grading from the course. Select an assignment to grade so you see the students listed.
+You perform the actual grading from the course. [Teachers Grading](/courses/classes/#teachers-grading) needs to be enabled before teachers can grade. See [the grading process](/courses/grading/#the-grading-process) for more information.
+
+Select an assignment to grade so you see the students listed.
 
 ![grading with rubric](/img/class_administration/grading/classroom.png)
 
@@ -638,40 +642,48 @@ When applied, the adjustment will then show next to the grade field in the teach
 
 ![penalties](/img/adjusted.png)
 
-### Grading Template
-Where you can set the grading template to use for the assignment
+### Grade Weights
+Where you can enable/disable Teachers Grading, Assessments Grading, Script Grading, set the grading rubric to use for the assignment and manage the weighting for all/any grade options you have enabled.
 
-### Autograde Method
 
-#### Autograde on assignment complete
-This option provides two ways of autograding assignment scores for each student. The grading field is populated by a script authored by the project author without the need to manually populate it. The autograding script is triggered once an assignment is marked as complete.
+![Grading Weights](/img/gradingweights.png)
 
-A assignment is marked as complete in any of the following ways
+These are relative weightings against all 3 grade options. 
+
+You can set any number for these. For example, if
+the teachers grading has weight 2 and assessments grading has 1, that means the final grade will be calculated like `(teachersgrading_points * 2 + assessmentgrading_points * 1) /3`. 
+
+If you have only one option enabled 100% of the points of the enabled grading will go to the final grade.
+
+#### Teachers Grading
+
+Where you can set a [Grading Rubric Template](/courses/classes/#grading-rubric-templates) to use with an assignment and set the weighting for this.
+
+#### Assessments Grading
+
+If your assignment includes [assessments](/courses/assessments/) this will be enabled by default. If you do not wish the results of the assessments to be included in the grading you can disable this.
+
+You can also set the weighting for this. 
+
+#### Script Grading
+This allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
+
+You can also set the weighting for this.
+
+
+An assignment is marked as complete in any of the following ways
 
 1. Students mark the assignment as complete from their dashboard.
 1. The teacher can also mark the assignment as complete for a student from the Course dashboard with the assignment selected.
 1. The teacher can mark all assignments as complete for all students by pressing the **Actions** button. This button appears on the assignment screen.
 1. If you are using the **Assignment Duration** feature, all student assignments are marked as complete as soon as the assignment duration expiry date and time is reached.
 
-The two autograding options can be found in the assignment settings.
 
-1. Use the auto-graded assessments within the assignment to auto-populate the grading field with the aggregate % score from all assessments.
-1. Run a script to generate the grading either as soon as the student (or teacher) marks the assignment as complete in their dashboard or when the [assignment duration](/courses/classes/#unit-duration) expires.
+#### Running an auto-grade script
+To populate the grading field, you write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.
 
-The two options can be found in the **AUTOGRADE METHOD** drop-down list.
+If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks. This grading field is then transferred into your LMS gradebook once you [release the grades](/courses/grading/#releasing-grades).
 
-<a name="transfer"></a>
-#### Transferring authored content assessment total
-If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Courses dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/courses/lti1_0/) then this grading field is then transferred into your LMS gradebook once you [release the grades](/courses/grading/#releasing-grades).
-
-<a name="script"></a>
-
-#### Running a custom script
-A more advanced way of populating the grading field is to write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.
-
-If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks.
-
-![authtoken](/img/grading-secure.png)
 
 <a name="securescripts"></a>
 #### Secure scripts
@@ -719,7 +731,7 @@ You can get both summary data and data for each assessment individually.
 
 <a name="regrading"></a>
 #### Regrading for an individual student
-If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
+If students set their work to 'complete' such that the custom script step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the custom script.
 
 #### Regrading all students
 From the **Actions** area of the assignment, you can regrade all students that have already been auto-graded by pressing the **Regrade All** button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
@@ -824,30 +836,7 @@ echo $CODIO_AUTOGRADE_ENV
 curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 ```
 
-### Grade Weights
 
-![Grading Weights](/img/gradingweights.png)
-
-These are relative weightings against all 3 grade options. 
-
-You can set any number for these. For example, if
-the teachers grading has weight 2 and assessments grading has 1, that means the final grade will be calculated like `(teachersgrading_points * 2 + assessmentgrading_points * 1) /3`. 
-
-If you have only one option enabled 100% of the points of the enabled grading will go to the final grade.
-
-#### Teachers Grading
-
-Where you can set a [Grading Rubric Template](/courses/classes/#grading-rubric-templates) to use with an assignment and set the weighting for this.
-
-#### Assessments Grading
-
-If your assignment includes [assessments](/courses/assessments/) this will be enabled by default. If you do not wish the results of the assessments to be included in the grading you can disable this.
-
-You can also set the weighting for this. 
-#### Script Grading
-This allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
-
-You can also set the weighting for this.
 
 ### Actions area settings
 Additional options are also available if you select the **Actions** button.
