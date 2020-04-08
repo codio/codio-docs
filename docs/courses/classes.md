@@ -148,7 +148,9 @@ Your course may be taught by more than one teacher. If this is the case, you can
     
 1. The teacher should then appear in your teacher list for that course. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so enabling the **Read Only** switch. With this enabled, these teachers will not be able to switch into **Edit** mode.
 
-    ![Course Read Only Teacher](/img/manage_classes/adding_teachers/coursereadonly.png)Now click **Done** to save your changes.
+    ![Course Read Only Teacher](/img/manage_classes/adding_teachers/coursereadonly.png)
+    
+Click **Done** to save your changes.
 
   
 1. If the teacher is not a member of your Organization, you can send them an invitation email.
