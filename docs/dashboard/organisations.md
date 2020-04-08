@@ -45,6 +45,9 @@ Once you have set up your organization, the next step is to invite teachers to u
 1. In the  **Invite Teacher to the Organization** area, enter in their email address. If you also wish them to have full [access](/dashboard/organisations/#administrator-role) rights to the organization, check the **Add this teacher to owners group**.
 
     ![Invite Teacher](/img/manage_organization/inviteteacher.png)
+ 
+
+When the teacher has joined, they can be set to **Read-Only** so that they cannot make changes to content in courses. In the course, they will not be able to switch into **Edit** mode. This can be done at the organisation level (see [Organisation level read only teachers](/dashboard/organisations/#organisation-read-only-teachers)) or at the course level (see [Course level read only teacher](/courses/classes/#adding-teachers-to-a-course))
 
 1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organization automatically.
 **N.B.** They must use the email address the invitation was sent to or they will not be added to the Organization.
@@ -191,6 +194,8 @@ Sometimes you might need to check who is registered as a member of your educatio
 
 You will be able to see all the members of your school organization.
 
+
+
 The **Test Students** group contains the demo student accounts created for you when the Organization was created. See [Test Students](/courses/classes/#test-students) for more information.
 
 The **Users without course** group contains all users that are not members of a course. See [Delete Course](/courses/classes/#deleting-a-course) for more information.  This may be as a result of a course being deleted or it may be that a new user has joined your organization but is not yet either a Teacher or a Student in a course.
@@ -198,6 +203,12 @@ Select this group and you can then remove these users from your organization if 
 ![OrphanedUsers](/img/manage_organization/orphanedusers.png)
 
 Please note that removing users from your Organization does not delete their Codio account. Only the account owner can [delete their account](/dashboard/account/#delete-your-account).
+
+### Organisation read only teachers
+
+Click on the **Teachers** group where you can see all teachers in the organisation and where you can set them to **Read Only**.  These teachers will only have access in courses to **Teaching Mode** and will not be able to add/edit/change any content in the course
+
+![Organisation Read Onlyn](/img/manage_organization/orgreadonly.png)
 
 ## Student dashboard settings
 Organization owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **Courses** as well as optionally hiding **Courses** menu item.

@@ -144,15 +144,17 @@ Your course may be taught by more than one teacher. If this is the case, you can
 1. Search for the teacher you want to add, then click done.
 
     ![Search Teacher](/img/manage_classes/adding_teachers/search_teacher.png)
+    
+    
+1. The teacher should then appear in your teacher list for that course. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so enabling the **Read Only** switch. With this enabled, these teachers will not be able to switch into **Edit** mode.
 
-1. The teacher should then appear in your teacher list for that course. Now click **Done** to save your changes.
+    ![Course Read Only Teacher](/img/manage_classes/adding_teachers/coursereadonly.png)Now click **Done** to save your changes.
 
-    ![Teacher Added](/img/manage_classes/adding_teachers/teacher_added.png)
-
+  
 1. If the teacher is not a member of your Organization, you can send them an invitation email.
     ![Invite Teacher](/img/manage_classes/adding_teachers/inviteteacher.png)
 
-1. An email will be sent to your colleague containing a link where they can sign up for a Codio account and on completion they will be added into your organization and course automatically. They must use the email address the invitation was sent to or they will not be successfully added to the organization or course.
+1. An email will be sent to your colleague containing a link where they can sign up for a Codio account and on completion they will be added into your organization and course automatically. They must use the email address the invitation was sent to or they will not be successfully added to the organization or course. Once they have joined you can then, if required, enable **Read Only** mode for them
 
 ### Teaching Assistants
 

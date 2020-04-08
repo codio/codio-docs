@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[F] [ 8th]`: Add feature to set teachers as **Read Only** at [Organisation](/dashboard/organisations/#organisation-read-only-teachers) and/or [Course](/courses/classes/#adding-teachers-to-a-course) level
+- `[I] [ 8th]`: Accessing [Codio Resources](/resources/Codio-Resources/) from IDE now opens in new tab
 - `[I] [ 7th]`: Improve updating child courses from master to only show pull button when updates available
 - `[I] [ 6th]`: Fix issue with incorrect format for [download csv](/courses/grading/#download-csv-summary)
 - `[I] [ 6th]`: Add functionality to allow updates to assignments in a master course to be [pulled](/courses/classes/#working-with-masterchild-courses) to cloned courses
