@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[I] [ 9th]`: [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) updated for new IDE
+- `[I] [ 8th]`: Fix issue in My Projects - Shared with Me
 - `[F] [ 8th]`: Add feature to set teachers as **Read Only** at [Organisation](/dashboard/organisations/#organisation-read-only-teachers) and/or [Course](/courses/classes/#adding-teachers-to-a-course) level
 - `[I] [ 8th]`: Accessing [Codio Resources](/resources/Codio-Resources/) from IDE now opens in new tab
 - `[I] [ 7th]`: Improve updating child courses from master to only show pull button when updates available
