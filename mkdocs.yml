@@ -19,9 +19,9 @@ theme:
 #    titles_only: true
 #    sticky_navigation: true
 
-nav:
-    - Codio: https://www.codio.com
-    - Home: index.md
+#nav:
+#    - Codio: https://www.codio.com
+#    - Home: index.md
 
 #extra_css:
 #     - css/extra.css
