@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[I] [13th]`: Added 'Number of started' and 'Number of completed' to student tab [order by](/courses/grading/#accessing-student-work) field
 - `[I] [ 9th]`: [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) updated for new IDE
 - `[I] [ 8th]`: Fix issue in My Projects - Shared with Me
 - `[F] [ 8th]`: Add feature to set teachers as **Read Only** at [Organisation](/dashboard/organisations/#organisation-read-only-teachers) and/or [Course](/courses/classes/#adding-teachers-to-a-course) level
