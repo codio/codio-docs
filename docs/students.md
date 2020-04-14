@@ -27,7 +27,7 @@ To access your course after this point, log in to your Codio account and go to t
 
 ## Courses
 
-The **Courses** area is where you can see the modules and assignments that have been assigned to you. Pinned assignments will be displayed more prominently at the top of the page.
+The **Courses** area is where you can see the modules and assignments that have been assigned to you. Up to 5 pinned assignments will be displayed more prominently at the top of the page and where your teacher has set an end date for the assignment, this will be shown in the card.
 
 Below is an example of a student’s **Courses** area:
 

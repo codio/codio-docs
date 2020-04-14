@@ -82,13 +82,19 @@ Please note, students in the existing course will not be added to the new course
 
 Where you have cloned a course, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.
 
-After publishing the update from the original course, go to the cloned course where (in 'edit' mode) you will see the option to Pull
-![Pull](/img/manage_classes/pull.png)
+After publishing the update from the original course, go to the cloned course where (in 'edit' mode) you will see the option to Pull for the individual assignments.
+
+![Pull](/img/manage_classes/pull.png) 
 
 Details will be shown of the update published in the original course to allow for confirmation and on acceptance the update will be pulled in to the assignment in the cloned course.
+
 ![Update](/img/manage_classes/updatedialog.png)
 
-The option to Pull will only be shown if an update to the assignment has been published in the original course.
+You can also **Pull All** to pull all updates available for each module but be aware this will not show you the details for each updated assignment. To see this information, use the individual **Pull** for the assignment.
+
+![Pull All](/img/manage_classes/pullall.png) 
+
+The option to pull at the module or individual level will only be shown if an update to the assignment has been published in the original course.
 
 
 ## Searching and ordering courses

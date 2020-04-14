@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[F] [14th]`: Show assignment end date (where set) to students in their recently used cards in their [dashboard](/students/#courses)
+- `[I] [14th]`: Fix issue with mark as completed button not showing on frame reload
+- `[I] [14th]`: Update message to students when trying to start assignments in LTI enabled courses
+- `[I] [14th]`: Add Rubric feedback to students when viewing their grades
+- `[I] [14th]`: Add functions to allow pull to child courses at course module level
+- `[I] [14th]`: Improve updating child courses showing pull option for child of child courses
 - `[I] [13th]`: Added 'Number of started' and 'Number of completed' to student tab [order by](/courses/grading/#accessing-student-work) field
 - `[I] [ 9th]`: [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) updated for new IDE
 - `[I] [ 8th]`: Fix issue in My Projects - Shared with Me
