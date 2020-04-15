@@ -4,16 +4,14 @@ title: Basic IDE Features
 
 ---
 
-
-
- No special knowledge is needed to use Codio’s IDE.
+No special knowledge is needed to use Codio’s IDE.
 
 It's easy enough for beginners who are learning to code.
 
 Because it’s web-based, there’s nothing to download, install or update.
 
 ## Exiting the IDE
-You can exit the IDE and return to the Dasboard in one of the following ways
+You can exit the IDE and return to the Dashboard in one of the following ways
 
 - Select **Project > Close** from the menu
 - Click on the Gravatar in the top bar
