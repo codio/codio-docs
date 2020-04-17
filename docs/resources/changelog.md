@@ -248,7 +248,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [29th]`: Improve handling of line delimiters in .codio-menu file
 - `[I] [29th]`: Improve synchronisation of files pulled/pushed to [desktop app](/dashboard/desktopapp)
 - `[F] [22nd]`: Allow files/folders to be excluded from synchronisation with [desktop app](/dashboard/desktopapp#codioignore)
-- `[I] [22nd]`: Fix problem with [customising](docs/content/authoring/playmode/#customisetopmenu) in [books](/books/introduction)
+- `[I] [22nd]`: Fix problem with [customizing](/courses/authoring/#customizing-ide-menu) in [books](/books/introduction)
 - `[F] [22nd]`: Add support for `python3` in unit tests
 - `[F] [21st]`: Add separate fields for first and last name to [download csv](/classes/monitor/progress/)
 - `[I] [21st]`: Fix problem with first time execution of advanced code test assessments
@@ -275,7 +275,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [26th]`: Improve handling of guide editor
 - `[I] [24th]`: Fix focus problem when adding assessments to guides page
 - `[I] [24th]`: Improve tab handling in pop up dialogs
-- `[I] [23rd]`: Add function to hide Codio logo icone when [customising](/content/authoring/playmode/#customisetopmenu) top menus for students
+- `[I] [23rd]`: Add function to hide Codio logo icon when [customizing](docs/content/authoring/playmode/#customizetopmenu) top menus for students
 - `[I] [19th]`: Fix rendering of bold text in guides for Firefox browser
 - `[I] [19th]`: Fix problem using tabs in Firefox
 - `[F] [18th]`: Add new user/project preference `navigateWithinSoftTabs` to simplify navigation when soft tabs are used
@@ -285,7 +285,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [18th]`: Fix problem rendering output of code tests on Mac OS
 - `[I] [15th]`: Fix problem unpacking projects
 - `[I] [15th]`: Fix problem with page focus in guides
-- `[I] [15th]`: Improve menu handling when [customising](/content/authoring/playmode/#customisetopmenu) top menus for students
+- `[I] [15th]`: Improve menu handling when [customizing](docs/content/authoring/playmode/#customizetopmenu) top menus for students
 - `[F] [10th]`: Add function to automatically release grades in new classes. See [organisation release grades](/dashboard/create/orgreleasegrades) for more information
 - `[F] [ 9th]`: Add ability to change all students completed unit to incomplete. See [force marked as complete](/classes/unitmanagement/settings-info/complete-unit/) for more information.
 - `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/content/authoring/page-edit/buttons/) that contain brackets
@@ -296,7 +296,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 - `[I] [30th]`: Fix problem with [Multiple Choice](/content/authoring/assessments/assessments-mcq/) assessments not showing students correct answers on submission
 - `[I] [26th]`: Fix layout of media page in guides settings
-- `[F] [26th]`: Add feature for IDE top menu to be [customised](/content/authoring/playmode/#customisetopmenu) for student view when running guides
+- `[F] [26th]`: Add feature for IDE top menu to be [customized](docs/content/authoring/playmode/#customizetopmenu) for student view when running guides
 - `[I] [24th]`: Fix problem with [Self Invoicing](/dashboard/account/billing/)
 - `[I] [24th]`: Improve messaging of local file changes when disconnecting project in [desktop application](/dashboard/desktopapp)
 - `[I] [20th]`: Fix problem embedding content in [Canvas](/classes/lti/canvas)

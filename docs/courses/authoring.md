@@ -92,10 +92,10 @@ Finally, there is also a button at the top of the file tree that launches the co
 
 ![StartGuides](/img/guides/startguides.png)
 
-<a name="customisetopmenu"></a>
-### Customising IDE menu
-To simplify the educational process for students, the top menu can be customised to remove options from students that they cannot override.
 
+### Customizing IDE menu
+To simplify the educational process for students, the top menu can be customized to remove options from students that they cannot override. 
+**Please note that only students will be effected by this change. Teachers previewing the assignment will not see the customization**
 
 Through a `.codio-menu` file, a teacher can specify what menu items should be hidden.
 Example:
@@ -115,7 +115,7 @@ Example:
 }
 ```
 
-**Please note that if setting Status=false, students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area**
+**Be aware that if setting Status=false, students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area**
 
 Setting up .codio-menu file:
 
@@ -125,7 +125,8 @@ Menu items that the student will see:
 
 ![PreviewMode](/img/guides/codiomenupreview.png)
 
-The student will not see the .codio-menu file to be able to edit/change it.
+Students will not see the .codio-menu file to be able to edit/change it.
+
 
 ### Player Options
 ![authtoken](/img/guides/playmode.png)
