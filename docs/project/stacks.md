@@ -79,7 +79,7 @@ If you are the stack owner or have write access to the stack then you are able t
 ### You are not the owner and do not have write access
 If you do not have write access to the stack, which is the case for the Codio certified stacks, then you will first need to create a new stack. After this you can create your own versions from that stack as you will be the owner.
 
-If the stack's is **Private** and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See [visibility settings](/project/stacks/#visibility-and-ownership) for information on ownership.
+If the stack is **Private** and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See [visibility settings](/project/stacks/#visibility-and-ownership) for information on ownership.
 
 ## Creating a stack
 Please make sure you have read [What is a stack?](/project/stacks/#what-is-a-stack) as this contains important concepts and information.
@@ -221,15 +221,14 @@ Please be aware of the following useful links
 If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
 ```
 ## Visibility and Ownership
-See [visibility settings](/project/stacks/#visibility-and-ownership) for information on who can access or edit your stack.
 
-By default, Stacks are kept private to your account until you make them public, at which point they will appear in **All** Stacks listings for all Codio Users.
+- By default, Stacks are kept private to your account. They can be made public, at which point they will appear in **All** Stacks listings for all Codio Users.
 
-If you set the owner of the Stack to your Organization, they will appear in the **Organizations** listing for members of your Organization
+- If you set the owner of the Stack to your Organization, they will appear in the **My Stacks** listing for members of your Organization shown as owned by the organization.
 
-If you are a member of an Organization, the Organization owner can enable the ability for you to create public Stacks. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
+- If you are an owner in the Oranization, you can enable the ability for you to create public Stacks. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
-If you want to keep your Stack private to your Organization, select the Private option and set the Owner option to your Organization.
+- If you want to keep your Stack private to your Organization, select the Private option and set the Owner option to your Organization. We would recommend this option especially if you may want to [collaborate](/courses/coursemanagement/#collaborating-on-project-assignments) with other teachers in authoring/editing content.
 
 
 ### Owner
@@ -300,10 +299,11 @@ Once you select a Stack, you will be taken to the Create Project dialog and your
 ### Stack Versions
 By default, Codio will use the latest version of the selected Stack. Codio Stacks also supports versioning.
 
-There are two ways to use a version.
+There are a number if ways to use a version but setting to **Use the latest version** is recommended.
 
-1. Firstly, click on the body of a Stack item, which takes you to the information screen for the selected stack. On the top right of the information panel, you can drop down the Use Stack button and select a Stack version.
+1. Click on the body of a Stack item, which takes you to the information screen for the selected stack. On the top right of the information panel, you can drop down the Use Stack button and select a Stack version.
 1. You can also select the **Versions** link above the main listing and see information about each version.
+1. If used in an assignment in a course, go to the **Stack** button when in **Edit** mode and you can set the version to use there.
 
 ![Stacks Versions](/img/stacks_versions.png)
 
@@ -315,9 +315,8 @@ Codio Stacks lets you create and manage the combination of a Codio Box and insta
 Stacks are divided up into the following searchable areas within the Stacks listing
 
 - **My Stacks** are Stacks that were created by you or set to be owned by the organisation.
-- **Certified Stacks** are Stacks that are approved by Codio and cover a wide range of common stack configurations.
-
-- **All Stacks** gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.
+- **Certified** are Stacks that are approved by Codio and cover a wide range of common stack configurations.
+- **All** gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.
 
 If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/project/stacks/#creating-a-stack).
 
