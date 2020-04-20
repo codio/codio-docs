@@ -96,6 +96,19 @@ You can also **Pull All** to pull all updates available for each module but be a
 
 The option to pull at the module or individual level will only be shown if an update to the assignment has been published in the original course.
 
+#### Adding new assignments from Master to Child courses
+
+Having added and published a new assignment to a master course you can add this into child courses and allow future updates to be pulled as above.
+
+Go to the child course, select the module and click on the **+ Add assignment** and select **Existing**
+
+![Add assignment](/img/manage_classes/addchild.png) 
+
+Select the master course and module and select the assignment(s) to be added to the child course.
+
+The assignment in the child course will automatically be published.
+
+
 
 ## Searching and ordering courses
 Courses are shown grouped together by their creation date with the most recently created first.
