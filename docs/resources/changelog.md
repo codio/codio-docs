@@ -12,6 +12,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **April 2020**
+
 - `[F] [20th]`: Add function to [Add new assignments from Master to Child courses](/courses/classes/#adding-new-assignments-from-master-to-child-courses)
 - `[F] [14th]`: Show assignment end date (where set) to students in their recently used cards in their [dashboard](/students/#courses)
 - `[I] [14th]`: Fix issue with mark as completed button not showing on frame reload
