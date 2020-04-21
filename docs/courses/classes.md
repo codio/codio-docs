@@ -1,8 +1,6 @@
 ---
 title: Understanding Courses
 
-
-
 ---
 
 A course has the following properties.
