@@ -1,7 +1,6 @@
 ---
 title: Grading and accessing student projects
 
-
 ---
 
 ### Previewing assignments
