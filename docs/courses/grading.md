@@ -4,6 +4,19 @@ title: Grading and accessing student projects
 
 ---
 
+### Previewing assignments
+
+You can open the assignments in teacher mode. This allows you to see any content that is for teachers' eyes only. This includes hidden content and teacher solutions auto-graded assessments.
+
+1. From the **Courses** screen, click on your course to open it in teacher mode (where the background is white and the pencil icon does not have a line through it). If your teacher account is read only you will be in teacher mode.
+
+1. You will see the assignments you have assigned to your course. To open the assignment to preview it, click the blue triple dot icon to the right of the unit name, and choose **Preview** 
+
+![Preview](/img/manage_classes/previewassignment.png)
+
+**Important**: Each time you preview the assignment it opens as new. i.e. anything you may add as notes to your preview is not saved
+
+### Overview of student progress
 You can monitor student progress and time spent on individual assignments.
 
 1. From the **Courses** screen, click on your course to open it.
@@ -21,7 +34,7 @@ You can monitor student progress and time spent on individual assignments.
 
 1. To see a more detailed breakdown of each assignment the student has attempted, click on the assignment name. You will be able to view a breakdown of the challenges attempted along with corresponding results.
 
-<a name="downloadcsv"></a>
+
 ## Download CSV summary
 
 You can also download a CSV file of your students progress. You can do this for individual assignments to see all your students by clicking on the blue triple dot icon to the right of the assignment name:
