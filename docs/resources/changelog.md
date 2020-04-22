@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2020**
 
+- `[I] [22nd]`: Improve handling of LMS roles passing to Codio 
 - `[F] [21st]`: Add function to allow teachers to [preview](/courses/grading/#previewing-assignments) assignments in courses
 - `[F] [20th]`: Add function to [Add new assignments from Master to Child courses](/courses/classes/#adding-new-assignments-from-master-to-child-courses)
 - `[F] [14th]`: Show assignment end date (where set) to students in their recently used cards in their [dashboard](/students/#courses)
