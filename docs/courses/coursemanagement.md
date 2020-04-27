@@ -3,33 +3,6 @@ title: Creating Course Content
 
 
 ---
-## Introduction
-The following videos cover project units. [Click here](/project/books/#introduction) if you have authored a Codio book and want to publish an assignment from a part it.
-
-<a name="courseoverview"></a>
-### Video - General overview
-
-The following video gives an overview on why you might want to use a course modules rather than projects. It also explains how to create a course.
-
-<iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<a name="coursevisibility"></a>
-### Video - Ownership and visibility
-Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to course of student.
-
-<iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-You can also read how to [control access](/courses/coursemanagement/#course-access) in the documentation.
-
-<a name="coursestacks"></a>
-### Video - Working with stacks in courses
-The following video covers the important topic of stack management within a course. Here are some documentation links.
-
-- [About stacks in general](/project/stacks/#what-is-a-stack)
-- [Stack strategy in courses](/courses/coursemanagement/#stack-planning)
-
-<iframe src="https://player.vimeo.com/video/236904941" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 
 ### Updating courses and collaboration
 If you want to allow other teachers in your organization to modify your course structure and assignment content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/courses/coursemanagement/#collaborating-on-project-assignments) for details.

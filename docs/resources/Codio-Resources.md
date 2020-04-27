@@ -3,6 +3,10 @@ title: Codio Resouces
 
 ---
 
+**Video** 
+
+- [Assigning Codio Resources](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=k56l67f36b)
+
 
 Select **Resources** from the dashboard. You will see a list of courses recommended by Codio.
 

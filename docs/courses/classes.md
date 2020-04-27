@@ -181,6 +181,12 @@ A user cannot be a teacher and a student in the same course, but they can be a s
 
 
 ## Add students to a course
+
+**Video**
+
+- [Adding Student and Test Students](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=zebku9t15m)
+
+
 You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Course Invitation URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:
 
 1. From the **Courses** area, click on your course to open it.
@@ -533,6 +539,8 @@ On the module assignment screen you can manage the following settings
 
 You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
 
+**Video**
+- [Rearranging and Deleting Assignments](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=xmubhjvxdd)
 
 To the top right of the list item is a pencil icon. 
 
@@ -591,6 +599,10 @@ If your assignment contains guides content, you should also disable the option t
 
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
+
+**Video** 
+- [Setting Due Dates and Late Work Penalties](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=vm8r1lte74)
+
 
 Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/courses/classes/#disableenable-assignment) students will either be refused all access or can have read-only access to the assignment.
 
@@ -669,6 +681,10 @@ Where you can enable/disable Teachers Grading, Assessments Grading, Script Gradi
 
 
 ![Grading Weights](/img/gradingweights.png)
+
+**Video**
+
+- [Combining Grading Sources](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=5xp528jt6x)
 
 These are relative weightings against all 3 grade options. 
 

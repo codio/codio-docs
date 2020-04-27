@@ -204,7 +204,12 @@ Use the layout modes to switch between editor, preview, and split view modes.
 
 When in preview mode, you can quickly switch back to editor mode by selecting the **Editor** button:
 
-![authtoken](/img/guides/editor.png)
+![Guides Edit Mode](/img/guides/editor.png)
+
+**Video**
+
+- [Editing Existing Guides Content](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=zqcpii19s6)
+
 
 ### Anatomy of the content editor
 Below is a screenshot of the editor with the main components highlighted.

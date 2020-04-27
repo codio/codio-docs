@@ -18,6 +18,10 @@ You can open the assignments in teacher mode. This allows you to see any content
 ### Overview of student progress
 You can monitor student progress and time spent on individual assignments.
 
+**Video**
+
+- [Viewing Student Work and Adjusting Individual Due Dates](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=dvoe0bx9nr)
+
 1. From the **Courses** screen, click on your course to open it.
 
 ![authtoken](/img/monitor_students/year10class.png)
@@ -209,6 +213,11 @@ To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-gra
 If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.
 
 ### Releasing Grades
+
+**Video**
+
+- [Releasing Grades to Students and LMS](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=z7xmzl5xbd)
+
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
 
 - enable this for the course in the **Course>Admin** area 
