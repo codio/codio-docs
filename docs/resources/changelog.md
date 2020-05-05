@@ -11,8 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2020**
+
+- `[F] [06th]`: Add [Exam Mode Options](/courses/classes/#exam-proctoring) for course assignments
+
 **April 2020**
 
+- `[I] [30th]`: Improve error messaging in Parsons Puzzle
 - `[I] [24th]`: Fix issue deleting tabs saved in course
 - `[I] [22nd]`: Improve handling of LMS roles passing to Codio 
 - `[F] [21st]`: Add function to allow teachers to [preview](/courses/grading/#previewing-assignments) assignments in courses

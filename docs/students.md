@@ -165,3 +165,27 @@ Click on 'details' for the assessment and you can drill down to see more informa
 **Note** If the project has been marked as completed, you can click on the 'completed' button to access the grade feedback but if you wish to view the project, click on the name of the project on the left hand side. As the assignment is completed you will not be able to edit anything but can view the content
 
 If your organisation uses an LMS system a URL of the grading detail will also be passed to your LMS that you can access from the grading area in the LMS.
+
+## Exam Mode
+
+Your teacher/instructor can enable assignments with a number of exam mode options.
+
+- **Shuffle Question Order** - when enabled, you will receive the pages of the assignment in a random order
+
+- **Forward Only Navigation** - when enabled, you can only go forward through the pages. You will not be able to go back to previous pages. You will be advised of this restriction as you start the assignment
+
+- **Single Login** - Once you start the assignment, until you mark it as complete, all other account login attempts will be blocked. 
+
+    As you start the assignment, you will be advised that it is restricted to single login and to ensure
+
+    1. You have closed other tabs or browsers with Codio open
+    1. You have a stable internet connection
+    1. You have enough power in their device
+    1. You have plenty of time to complete the assignment
+
+
+    If you attempt to access the assignment from a different IP address or browser, you will be restricted and advised to contact your course instructor/professor for assistance. 
+
+    If you try to logout of Codio before the assessment is fully completed, you will be advised if you continue you will not be able to access it again. 
+
+    Instructor/Professors are be able to release the lock for you so if that happens, contact them.

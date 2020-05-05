@@ -100,7 +100,7 @@ Your Projects can be sorted by name or by date last accessed.
 You can search for a specific project by typing into the Search field. The file list will dynamically filter for you as you type.
 
 ### Project Settings
-You can access your project settings by clicking the gear icon in the right side of the listing.
+You can access your project settings by opening the project and going to **Project>Settings** or clicking the gear icon in the right side of the listing.
 ## Searching projects
 Codio lets you locate projects in a number of different ways from your project dashboard.
 

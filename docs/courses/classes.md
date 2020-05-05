@@ -676,6 +676,31 @@ When applied, the adjustment will then show next to the grade field in the teach
 
 ![penalties](/img/adjusted.png)
 
+### Exam Proctoring
+
+Where you can enable various options to help support running an assignment in exam conditions
+![examproctoring](/img/examproctoring.png)
+
+- **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
+
+- **Forward Only Navigation** - when enabled, navigation buttons and menus that allow students to re-visit questions will be hidden, so student can only go forward through the pages. Students will be advised of this restriction as they start the assignment
+
+- **Single Login** - Once a student has started this assignment, until they mark it as complete, all other account login attempts will be blocked. 
+
+    As students start the assignment, they will be advised that it is restricted to single login and to ensure
+
+    1. They have closed other tabs or browsers with Codio open
+    1. They have a stable internet connection
+    1. They have enough power in their device
+    1. They have plenty of time to complete the assignment
+
+
+    If students attempt to access the assignment from a different IP address or browser, they will be restricted and advised to contact their course instructor/professor for assistance. 
+
+    If students try to logout of Codio before the assessment is fully completed, they will be advised if they continue they will not be able to access it again. 
+
+    Instructor/Professors will be able to release the lock for the individual students if they feel it is appropriate. Either go to the students tab in the course, find the student and go to the 3 blue dot menu where you will see the option to release the lock or when in the assignment, on the student tab there, also on the 3 dot blue menu
+
 ### Grade Weights
 Where you can enable/disable Teachers Grading, Assessments Grading, Script Grading, set the grading rubric to use for the assignment and manage the weighting for all/any grade options you have enabled.
 
