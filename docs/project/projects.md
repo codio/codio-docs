@@ -24,7 +24,7 @@ Here are the key things you need to know about projects.
 - You can snapshot the combination of a Stack and the project code workspace and add it to the **Starter Packs** template library.
 
 ### Strong recommendations
-We strongly recommend that you are familiar with the following concepts if you plan to assign projects to classes of students. Even if you don't knowledge of the following project related features will stand you in good stead.
+We strongly recommend that you are familiar with the following concepts if you plan to assign projects to classes of students. Even if you don't, knowledge of the following project related features will stand you in good stead.
 
 - Boxes and the IDE section, available on the main index page of the [documentation](https://docs.codio.com) 
 
@@ -44,17 +44,18 @@ You can then choose which of the following Project creation methods you want to 
 
 ### Creating an empty project
 
-Select a commonly used Stack from the available list:
+Select a commonly used template from the available list:
 
-For example:
+- **Java 11:**  
+- **Python:** 
+- **Nodejs** 
+- **C**
+- **C++**
+- **Empty Stack:** 
 
-- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace.
-- **Python:** Python Stack with no code workspace.
-- **Empty Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects).
+Projects created from a template will include an explanatory README.md file providing useful information to help you get started and with the exception of the **Empty Stack** will also include a pre-configured .codio menu set up with basic actions such a project would require.  If you wish to re configure the .codio menu file, you can. See [Customizable Run Menu](/project/ide/boxes/#customizable-run-menu) for more information
 
-Projects created from a Stack will include an explanatory README.md file providing useful information to help you get started and will open automatically for newly created projects.
-
-The list of stacks is only a starting point. You can take any stack and then customize it from the command line. Users have **sudo** level privileges and so can install and configure exactly as they please.
+The list of stack templates is only a starting point. You can take any stack and then customize it from the command line. Users have **sudo** level privileges and so can install and configure exactly as they please.
 
 Refer to the [section on Stacks](/project/stacks) to learn how to create and manage your own software configuration templates.
 
@@ -79,9 +80,10 @@ You should give your project a name and a description, which will appear in the 
 
 
 ### Visibility
-Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organization, you can mark the Project as private. In **My Projects** you will see a padlock icon for any Projects that are private.
+Projects that are public can be found by any Codio user. Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
 
-Organization owners can enable the ability for you to create public projects. See [Public/Private Settings](/dashboard/organisations/#publicprivate-settings).
+By default, projects are created as private. In **My Projects** you will see a padlock icon for any Projects that are private.
+
 
 You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the **Project->Permissions** menu.
 

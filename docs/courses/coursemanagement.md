@@ -222,17 +222,15 @@ You add a new assignment by pressing the large blue **+** button. You now need t
 [Click here](/courses/authoring/#project-course-assignment-or-book) if you are not sure about the difference between project assignments and book assignments.
 
 
-<a name="projectunit"></a>
 ### New project assignment
 You can create a new assignment in the following ways.
 
 - Create a brand new assignment as you would with a normal Codio project.
-- Import (Fork) an existing project into the assignment. See the image below and read the contents of the **Important** box. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
-- Import from GitHub or a Zip file of an existing Codio project, by selecting the **Import** option.
+- Import (Fork) an existing project into the assignment. See the image below and click on the **click here** for more options where you can Import (fork) an existing project. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
+- Import from GitHub or a Zip file of an existing Codio project, again, by clicking on the **click here** to select this option.
 
-![UnitStart](/img/unitstart.png)
+![UnitStart](/img/project_create.png)
 
-<a name="createbook"></a>
 
 ### New book assignment
 Creating a new book assignment involves pointing to the parts of a book that you want to map to your assignment. You will seen the following screen.

@@ -53,7 +53,7 @@ A fun JavaScript project covering computational thinking concepts as well as int
 A fun Python project covering computational thinking concepts as well as introductory programming topics with fully auto-graded assessments.
 - [Crunch](https://www.codio.com/resources/crunch)
 A student-friendly way to teach Assembly (based on Little Man Computer) allowing students to try low-level commands within their browser. For more details on Crunch, [click here](docs/resources/Resource-Tools/crunch)
-- [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://www.codio.com/resources/r-for-data-science)
+- [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://www.codio.com/resources/r-for-data-science) **Share Code: WM9N-QV92-7QCW**
 Hadley Wickham and Garrett Grolemund's text paired with RStudio for a seamless learning experience.
 - [Think C: How to Think like a Computer Scientist](https://www.codio.com/resources/think-c)
 Allen Downey's How to Think Like a Computer Scientist text ported to C by Thomas Scheffler.
