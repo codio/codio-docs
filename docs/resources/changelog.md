@@ -13,11 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[F] [09th]`: Add [Exam Mode Options](/courses/classes/#exam-proctoring) for course assignments
 - `[I] [07th]`: Fix problem with searching/finding users/orgs/groups when adding permissions to projects/assignments
 - `[F] [07th]`: Update project/assignment creation to include configured .codio file and sample files
 - `[I] [06th]`: Update default Readme.md files created with new projects/assignments
 - `[I] [06th]`: Improve presentation of [Debug menu](/project/ide/features/#creating-and-managing-debug-targets)
-- `[F] [06th]`: Add [Exam Mode Options](/courses/classes/#exam-proctoring) for course assignments
 
 **April 2020**
 
