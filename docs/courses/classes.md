@@ -520,10 +520,10 @@ On the module assignment screen you can manage the following settings
 
 ![assignmentscreen](/img/class_administration/modulesettings.png)
 
-1. Change the name of the assigment
+1. Change the name of the assignment
 2. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
 3. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
-4. View the version history of the assigment publications, This allows you to view the version history. You can see
+4. View the version history of the assignment publications, This allows you to view the version history. You can see
     - date/time when the assignment was published,
     - name of the person who published the assignment,
     - the name and version of the stack assigned to the assignment.
@@ -594,7 +594,7 @@ You can specify the students ability to access the assignment when disabled.  **
 - 'No Access' will not allow the students to access their assignment.
 
 #### Disable Mark as Completed
-Disabling will not allow students to mark the assignment as completed. If assignmentss in your class are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
+Disabling will not allow students to mark the assignment as completed. If assignments in your cpurse are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
 If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides
 
 #### Unit duration
@@ -951,7 +951,7 @@ or
 This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. 
 
 - Release Grades
-By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a class. When you are ready to do so, you can select the option from here.
+By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a course. When you are ready to do so, you can select the option from here.
 
 
 

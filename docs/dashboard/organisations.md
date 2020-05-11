@@ -136,7 +136,7 @@ You do not add students to an organization directly. They are added by inviting 
 
 Codio also creates test students so instructors are able to see how students interact with a course. This is described [here](/courses/classes/#test-students).
 
-If you are using an LMS for a class then the LMS platform will handle the addition of students to the Codio class automatically.
+If you are using an LMS for a course then the LMS platform will handle the addition of students to the Codio course automatically.
 ## Student consent form
 The student consent form is a feature for Codio organizations. It allows you to show an IP consent form, whose content you create yourself, to Codio users.
 
@@ -454,7 +454,7 @@ If you wish to set your own contact URL's for your students (e.g. you have a for
 ## Organization release grades
 By default Students are not shown the grades until you decide to release them to the course but if you wish to automatically [Release Grades](/courses/grading/#releasing-grades) when students complete an assignment, you can enable this feature so when you create new [courses](/courses/classes/#creating-a-new-class) this option is automatically enabled.
 
-Enabling this feature will not effect existing classes
+Enabling this feature will not effect existing courses
 
 1. Click your name/gravatar, bottom of the left hand pane
 
@@ -472,4 +472,4 @@ Enabling this feature will not effect existing classes
 
 ![Enable Release Grades](/img/manage_organization/org_releasegrades.png)
 
-1. The status of this feature can be changed in individual classes if required. See [here](/courses/grading/#automatically-releasing-grades) for more information
+1. The status of this feature can be changed in individual courses if required. See [here](/courses/grading/#automatically-releasing-grades) for more information

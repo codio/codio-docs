@@ -30,7 +30,7 @@ You can monitor student progress and time spent on individual assignments.
 
 ![authtoken](/img/manage_classes/students_tab.png)
 
-1. You will see all students in your class displayed on this screen. You will see progress data for assignments started and assignments completed alongside their names.
+1. You will see all students in your course displayed on this screen. You will see progress data for assignments started and assignments completed alongside their names.
 1. To see an individual student's progress in more detail click on their name. You will then see an individual breakdown of auto-graded assessment results, along with time spent on each assignment.
 
 ![authtoken](/img/monitor_students/breakdown.png)
@@ -48,21 +48,21 @@ or you can download a CSV file for the Course module to see all your students pr
 
 ![Download Module CSV](/img/downloadcsv_module.png)
 
-or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data](/courses/classes/#exporting-course-data) for more details
+or you can export all the data from a course (including the students workspaces) by exporting course data. See [export course data](/courses/classes/#exporting-course-data) for more details
 
 ## Accessing student work
 
 As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time.
 
-1. From the **Courses** area, click on your class to open it.
+1. From the **Courses** area, click on your course to open it.
 
-![Class](/img/monitor_students/year10class.png)
+![Course](/img/monitor_students/year10class.png)
 
 1. Click on the **Students** tab, top centre of your screen.
 
 ![Students tab](/img/monitor_students/students_tab.png)
 
-1. You will see all students in your class displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred.
+1. You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred.
 
 1. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
 
@@ -89,7 +89,7 @@ Any user configurations required should be stored in a `.codio-jupyter` file.
 
 if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based grader, and therefore only **nbgrader** can be selected for the assessment scripts in the assignment
 
-When the assignment is published to a class, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a course [module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
+When the assignment is published to a course, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a course [module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
 
 When the student submits the assignment by marking the assignment as complete, it will be [autograded](/courses/classes/#autograde-on-assignment-complete) automatically.
 
@@ -200,11 +200,11 @@ The teacher can also mark the assignment as complete going to the **Education->M
 There are two ways to assign the grade.
 
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.
-- Or you can grade from the class dashboard. You must first have selected the assignment associated with the project and then press the grading icon.
+- Or you can grade from the course dashboard. You must first have selected the assignment associated with the project and then press the grading icon.
 
 Also see [Autograding](/courses/classes/#autograde-on-assignment-complete)
 
-To grade from the class dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
+To grade from the course dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.
 
 To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-grading) needs to be enabled. When it is click on the Grade icon (see image above with grading icons circled center) and select 'Add Grade' button. You can then modify the comments and grade fields for any individual student. Due to the weighting feature, we only allow numeric grades. If you are using a [Rubric Template](/courses/classes/#grading-rubric-templates), this will present as you click on the grade field.
 
@@ -218,11 +218,11 @@ If the students assignment has already been graded, any other teacher in the cou
 
 - [Releasing Grades to Students and LMS](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=z7xmzl5xbd)
 
-By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
+By default students are not shown the grades until you decide to release them to the course. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
 
 - enable this for the course in the **Course>Admin** area 
 
-![Class Release Grades](/img/changereleasegrades.png)
+![Course Release Grades](/img/changereleasegrades.png)
 
 - set this at the organisation level so any courses created will have this enabled automatically. See [organisation release grades](/dashboard/organisations/#organisation-release-grades) for more information.
 
@@ -278,6 +278,6 @@ The points adjust field allows the teacher/instructor to manually adjust (ie red
 A comments field is provided to allow teacher/instructors manual feedback
 
 
-If a class deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
+If a course deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
 
 You can also see the date and time for each submitted answer as well as the date that the assignment was marked as complete by the student.
