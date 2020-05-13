@@ -41,7 +41,7 @@ An introduction to symmetric key, and public key cryptography as well as hashing
 Ease into programming concepts from numeric expressions to arrays with Codio's flowcharting tool: [Flode](/docs/resources/Resource-Tools/flode/).
 - [Introduction to Programming JavaScript](https://www.codio.com/resources/program-javascript)
 Quickly cover programming basics in JavaScript from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
-- [Introduction to Programming Python](https://www.codio.com/resources/program-python)
+- [Introduction to Programming Python](https://www.codio.com/resources/program-python) **Share Code: TDND-RR7X-H3VT**
 Quickly cover programming basics in Python from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
 - [Introduction to Programming Java](https://www.codio.com/resources/program-java) **Share Code: FNXL-3Y33-2EC9**
 Quickly cover programming basics in Java from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.

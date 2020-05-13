@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [13th]`: Fix problem with release grade switch showing incorrect status
 - `[F] [09th]`: Add [Exam Mode Options](/courses/classes/#exam-proctoring) for course assignments
 - `[I] [08th]`: Update handling of archived courses showing in LMS's
 - `[I] [07th]`: Fix problem with searching/finding users/orgs/groups when adding permissions to projects/assignments
