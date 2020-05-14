@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [14th]`: Fix problem with lack of context options when mouse right click on file tree root
+- `[I] [14th]`: Accessibility fixes/improvements
 - `[I] [13th]`: Fix problem with release grade switch showing incorrect status
 - `[F] [09th]`: Add [Exam Mode Options](/courses/classes/#exam-proctoring) for course assignments
 - `[I] [08th]`: Update handling of archived courses showing in LMS's
