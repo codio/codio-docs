@@ -12,7 +12,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **May 2020**
-
+- `[I] [15th]`: Improve [Pin](/courses/classes/#pinunpin-units) function to allow multiple assignments to be pinned
+- `[I] [15th]`: Recommended stacks updated to use Ubuntu 18.04
+- `[F] [15th]`: [Codio Feedback](/dashboard/support/#feedback) released where you can raise new feature requests and vote/comment on ideas raised by others
 - `[I] [14th]`: Fix problem with lack of context options when mouse right click on file tree root
 - `[I] [14th]`: Accessibility fixes/improvements
 - `[I] [13th]`: Fix problem with release grade switch showing incorrect status

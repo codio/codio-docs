@@ -21,6 +21,12 @@ If you are in Codio, you can see when a reply to your query arrives even if you 
 
 An email will also be sent to you if you do not see the reply within 2 minutes.
 
+## Feedback 
+
+We are always interested to hear from our users about their thoughts/ideas for future improvements. To raise an idea or vote on other ideas already raised, either click on **Feedback** in your dashboard area or go to [Codio Feedback](https://feedback.codio.com/) directly.
+
+![Feedback](/img/feedback.png)
+
 ## Student Support
 You can set a Contact URL for your students at the organisation level, see [Organisation Contact URL](/dashboard/organisations/#organisation-contact-url) and/or at the course level, see [Course Contact URL](/courses/classes/#course-contact-url) so they can raise any questions they may have directly to your preferred area
 
