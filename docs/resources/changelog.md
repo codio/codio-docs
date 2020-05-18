@@ -12,6 +12,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **May 2020**
+
+- `[I] [18th]`: Fix problem creating similarly named assignments in different coursers
 - `[I] [15th]`: Improve [Pin](/courses/classes/#pinunpin-units) function to allow multiple assignments to be pinned
 - `[I] [15th]`: Recommended stacks updated to use Ubuntu 18.04
 - `[F] [15th]`: [Codio Feedback](/dashboard/support/#feedback) released where you can raise new feature requests and vote/comment on ideas raised by others
