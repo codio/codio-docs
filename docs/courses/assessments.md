@@ -39,7 +39,7 @@ Select the page where your assessment is located. Then remove the assessment tok
 Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
 
 ### Autograding when a student completes a assignment
-Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/courses/classes/#autograde-method) for details.
+Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/courses/classes/#running-an-auto-grade-script) for details.
 
 <a name="secure"></a>
 ### Secure Script execution
