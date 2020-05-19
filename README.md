@@ -12,7 +12,7 @@ The project is using [mkdocs]() to generate documentation from markdown files.
 1. install `mkdocs` [https://www.mkdocs.org/#installation](https://www.mkdocs.org/#installation)
 
     ```
-    pip install mkdocs
+    pip install -r requirements.txt
     ```
 
 ### Developing
