@@ -21,4 +21,4 @@ The project is using [mkdocs]() to generate documentation from markdown files.
 
 ## Deploying
 
-Run `mkdocs gh-deploy` to deploy the documentation (If using Codio set up in .codio file - **Deploy Docs**)
+Merge to master branch deploys the changes using github actions.
