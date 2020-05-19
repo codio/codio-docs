@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [19th]`: Fix problem accessing assignments from test student accounts
 - `[I] [18th]`: Fix problem creating similarly named assignments in different coursers
 - `[I] [15th]`: Improve [Pin](/courses/classes/#pinunpin-units) function to allow multiple assignments to be pinned
 - `[I] [15th]`: Recommended stacks updated to use Ubuntu 18.04

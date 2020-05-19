@@ -17,7 +17,7 @@ Assessments allow you to ask any number of automatically or manually graded ques
 You can choose to weave assessments into the tutorial materials or to create dedicated assessments content.
 
 ### Example Project
-https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Demo Guides and Assessments](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 
 
 ### Submit buttons and marking as complete
@@ -247,7 +247,7 @@ To add individual JavaScript source files whose style should be checked, either 
 ![](/img/guides/assessment_act_exec_custom.png)
 
 - **Command** is the command to run to invoke your test. See the section [Test code location](#test-code-location) below for more details. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
-- Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Score](#partial-score) lower down on this page.
+- Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page.
 - **Timeout** is the period of time (seconds) the test will run before terminating.
 
 ### Grading
@@ -295,8 +295,8 @@ To let Codio know whether the test passed, your code should simply exit with 0. 
 
 To indicate failure, exit with a non-zero value.
 
-#### Partial Score
-Codio also provides a way for you to award a partial score rather than the all or nothing approach described above.
+#### Partial Points
+Codio also provides a way for you to award a partial points rather than the all or nothing approach described above.
 
 If your test was written using a bash script, it would be done like this.
 
@@ -386,7 +386,7 @@ To mark a file to be included with the assessment, simply locate it in the file 
 ### One attempt only
 Codio allows users to make their selections and move on to other content pages or assessments without actually submitting their answer. However, once the answer has been submitted, it cannot be resubmitted. This gives teachers a far clearer understanding of which students are understanding the materials properly. There is little point to tests if the student simply changes the answers until the correct one appears.
 ## Fill in the blank
-A 'fill in the blank' question comes in two flavours.
+A 'fill in the blank' question comes in two flavours. By enabling/disabling **Show Possible Values** (see below) you can use either **Free Text** or **Drop Down**
 
 
 ### Free Text
