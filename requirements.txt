@@ -1,0 +1,2 @@
+# Direct dependencies
+mkdocs==1.0.4
