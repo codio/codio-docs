@@ -448,8 +448,10 @@ For full details, please refer to the [Permissions section](/project/ide/setting
 ## Auto starting services
 Your Box will be put to sleep under the conditions [explained here](/project/ide/boxes/#overview). When you open your project, the Box will start and services will start automatically.
 
-### Upstart
-Codio currently uses upstart. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.
+### Upstart/Systemd
+
+#### Ubuntu 14.04 Boxes
+Codio uses upstart in Ubuntu 14.04 boxes. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.
 
 **Important** - you need to specify the user account under which the service is run using `setuid codio`.
 
@@ -478,6 +480,37 @@ chdir /home/codio/workspace
 
 # Specify the process/command to start, e.g.
 exec your-service-name
+```
+#### Ubuntu 18.04 Boxes
+
+Codio uses systemd in Ubuntu 18.04 boxes. If you want to configure services to start when your box starts up, you should configure a `.service` file and run `sudo systemctl daemon-reload`. If you are not familiar with systemd, please Google it for configuration details.
+
+Important - you need to specify the user account under which the service is run using `setuid` codio.
+Below is an example `.service` file that should be located in the `/etc/systemd/system` folder.
+
+```
+# test.service - test service job file
+[Unit]
+Description="Some description"
+After=network.target
+Requires=network.target
+
+Service]
+# Specify working directory if needed
+WorkingDirectory=/home/codio/workspace
+
+# Specify the user account which the service should run under testservice - test service job file
+User=codio
+Group=codio
+
+# Specify the process/command to start, e.g.
+ExecStart=/home/codio/workspace/your-service-name
+
+# Automatically restart process if crashed
+Restart=always
+
+[Install]
+WantedBy=multi-user.target 
 ```
 ## Restart and reset
 Codio offers the ability to restart and to reset your project's Box. You can find both options in the **Project** menu.
