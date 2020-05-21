@@ -13,7 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
-- `[I] [20th]`: Update help links in terminal window
+- `[I] [21st]`: Update messaging if user tries to open url of existing project of another user without permission
+- `[I] [21st]`: Fix problem with Blockly blocks in assignments
 - `[I] [19th]`: Fix problem accessing assignments from test student accounts
 - `[I] [18th]`: Fix problem creating similarly named assignments in different coursers
 - `[I] [15th]`: Improve [Pin](/courses/classes/#pinunpin-units) function to allow multiple assignments to be pinned
