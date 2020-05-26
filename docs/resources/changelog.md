@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [26th]`: Update students assignments on next run if Gigabox settings are changed in the course
 - `[I] [26th]`: Improve message when users credentials not passed
 - `[I] [22nd]`: Improve messaging for students creating account from LMS
 - `[I] [21st]`: Upgrade user password requirements - case-sensitive and increase min length to 8 symbols
