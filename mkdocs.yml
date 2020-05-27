@@ -7,7 +7,7 @@ repo_url: https://github.com/codio/codio-docs
 edit_uri: ""
 
 theme:
-    name: mkdocs
+    name: flatly
     highlightjs: true
     hljs_languages:
         - yaml
@@ -16,7 +16,7 @@ theme:
         - python
     navigation_depth: 3
     collapse_navigation: false
-    nav_style: dark
+    #nav_style: white
     titles_only: true
     sticky_navigation: true
 
