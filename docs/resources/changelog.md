@@ -13,6 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [27th]`: Fix problem with assignment of partial points
+- `[I] [27th]`: Improve messaging for autograde script issues
+- `[I] [27th]`: Fix problem with visibility on completed
+- `[I] [26th]`: Fix issue where users can be added twice to project permissions
+- `[I] [26th]`: Update students assignments on next run if Gigabox settings are changed in the course
+- `[I] [26th]`: Improve message when users credentials not passed
+- `[I] [22nd]`: Improve messaging for students creating account from LMS
+- `[I] [21st]`: Upgrade user password requirements - min length to 8 symbols
 - `[I] [21st]`: Update messaging if user tries to open url of existing project of another user without permission
 - `[I] [21st]`: Fix problem with Blockly blocks in assignments
 - `[I] [19th]`: Fix problem accessing assignments from test student accounts
