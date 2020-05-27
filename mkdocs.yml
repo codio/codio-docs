@@ -8,23 +8,29 @@ edit_uri: ""
 
 theme:
     name: mkdocs
+#    name: flatly
+#    name: material
     highlightjs: true
     hljs_languages:
         - yaml
         - javscript
         - java
         - python
-#    navigation_depth: 1 
-#    collapse_navigation: false
-#    titles_only: true
-#    sticky_navigation: true
+    navigation_depth: 3
+    collapse_navigation: false
+    #nav_style: white
+    titles_only: true
+    sticky_navigation: true
 
 #nav:
 #    - Codio: https://www.codio.com
 #    - Home: index.md
 
-#extra_css:
-#     - css/extra.css
+extra_css:
+    - css/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
 
 markdown_extensions:
     - toc:
