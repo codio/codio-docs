@@ -14,17 +14,18 @@ theme:
         - javscript
         - java
         - python
-#    navigation_depth: 1
-#    collapse_navigation: false
-#    titles_only: true
-#    sticky_navigation: true
+    navigation_depth: 3
+    collapse_navigation: false
+    nav_style: dark
+    titles_only: true
+    sticky_navigation: true
 
 #nav:
 #    - Codio: https://www.codio.com
 #    - Home: index.md
 
-#extra_css:
-#     - css/extra.css
+extra_css:
+    - css/extra.css
 
 extra_javascript:
   - javascripts/extra.js
