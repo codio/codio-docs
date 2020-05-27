@@ -7,7 +7,9 @@ repo_url: https://github.com/codio/codio-docs
 edit_uri: ""
 
 theme:
-    name: flatly
+    name: mkdocs
+#    name: flatly
+#    name: material
     highlightjs: true
     hljs_languages:
         - yaml
