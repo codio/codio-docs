@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [28th]`: Improve messaging when errors in autograde scripts
+- `[I] [28th]`: Update message shown when users try to access others projects without permission
+- `[I] [27th]`: Fix issue with incorrect redirection when pressing enter on assessment name creation
+- `[I] [27th]`: Fix problem with 3 blue dot menu not being accessible on disabled assignments
+- `[I] [27th]`: Update search in documentation so Enter key no longer clears search field
 - `[I] [27th]`: Fix problem with assignment of partial points
 - `[I] [27th]`: Improve messaging for autograde script issues
 - `[I] [27th]`: Fix problem with visibility on completed
