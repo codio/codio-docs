@@ -197,7 +197,7 @@ First enable [LTI Constant URLs](/courses/lti1_0/#lti-constant-urls) for your co
 - When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
 - Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
 
-**N.B. If you LMS supports `lis_course_offering_sourcedid` you do not need to specify `codio_class_target_id` for the forked course, `lis_course_offering_sourcedid` will be used automatically to detect the course**
+**N.B. If your LMS supports `lis_course_offering_sourcedid` you do not need to specify `codio_class_target_id` for the forked course, `lis_course_offering_sourcedid` will be used automatically to detect the course**
 
 ![course fork id](/img/lti/fork_class_id.png)
 
@@ -501,7 +501,7 @@ You will not have access to the Moodle/LMS features unless you have an education
 
 **Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
 
-**Please note** : Since these videos were created, the Codio keys are now found on the **LTI Integration** tab in your organisation **My Organistaions** area
+**Please note** : Since these videos were created, the Codio keys are now found on the **LTI Integration** tab in your organization **My Organizations** area
 
 <iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

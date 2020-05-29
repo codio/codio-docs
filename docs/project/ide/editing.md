@@ -319,7 +319,7 @@ You are free to use any way of linking to Codio but we would recommend using the
 
 
 
-### How get manually import a Git repo into Codio
+### How to manually import a Git repo into Codio
 
 ![create from GitHub](/img/github-clone-url.png)
 
