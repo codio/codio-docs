@@ -45,7 +45,7 @@ Quickly cover programming basics in JavaScript from numeric expressions to error
 Quickly cover programming basics in Python from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
 - [Introduction to Programming Java](https://www.codio.com/resources/program-java) **Share Code: FNXL-3Y33-2EC9**
 Quickly cover programming basics in Java from numeric expressions to error handling with native Codio content containing fully auto-graded assessments.
-- [An Introduction to Web Development](https://www.codio.com/resources/web-dev)
+- [An Introduction to Web Development](https://www.codio.com/resources/web-dev) **Share Code: 7TMC-M2TN-VE7F**
 Learn how to bring together HTML, CSS, and JavaScript to create web pages.
 - [Computational Thinking - Create a Maze Game - Javascript](https://www.codio.com/resources/maze-javascript)
 A fun JavaScript project covering computational thinking concepts as well as introductory programming topics with fully auto-graded assessments.
