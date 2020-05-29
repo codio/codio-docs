@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2020**
 
+- `[I] [30th]`: Update content in $CODIO_AUTOGRADE_ENV variable
+- `[I] [29th]`: Fix problem running autograde scripts on archived assignments
 - `[I] [28th]`: Improve messaging when errors in autograde scripts
 - `[I] [28th]`: Update message shown when users try to access others projects without permission
 - `[I] [27th]`: Fix issue with incorrect redirection when pressing enter on assessment name creation
