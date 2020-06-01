@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2020**
+
+- `[I] [ 1st]`: Fix problem with deployment functions
+- `[I] [ 1st]`: Update behaviour of 4 panel guides layout
+
 **May 2020**
 
 - `[I] [30th]`: Update content in $CODIO_AUTOGRADE_ENV variable
