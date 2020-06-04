@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [ 3rd]`: Fix issue with formatting of `.md` files downloaded from projects/assignments
+- `[I] [ 3rd]`: Fix problem with jupyter assignment feedback for multiple submissions and/or publishes
 - `[I] [ 1st]`: Fix problem with deployment functions
 - `[I] [ 1st]`: Update behaviour of 4 panel guides layout
 
