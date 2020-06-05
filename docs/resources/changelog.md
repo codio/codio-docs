@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [ 5th]`: Improve naming of preview tabs
+- `[I] [ 5th]`: Fix problem for teachers opening students jupyter notebook files
 - `[I] [ 3rd]`: Fix issue with formatting of `.md` files downloaded from projects/assignments
 - `[I] [ 3rd]`: Fix problem with jupyter assignment feedback for multiple submissions and/or publishes
 - `[I] [ 1st]`: Fix problem with deployment functions

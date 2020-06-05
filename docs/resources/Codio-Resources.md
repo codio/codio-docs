@@ -35,7 +35,7 @@ Introduction to Computer Science in Python with native Codio content promoting e
 A brief introduction to useful linux commands that make a great supplement for a variety of courses.
 - [MySQL](https://www.codio.com/resources/mysql) **Share Code: Q4M4-WYP9-P7CL**
 An introduction to databases using SQL with native Codio content containing fully auto-graded assessments.
-- [Applied Cryptography](https://www.codio.com/resources/cryptography) **Share Code: CULP-Z4AE-RH2H**
+- [Applied Cryptography](https://www.codio.com/resources/cryptography) **Share Code: F9UF-VDDW-K9HC**
 An introduction to symmetric key, and public key cryptography as well as hashing and digital signatures.
 - [Introduction to Programming Flode](https://www.codio.com/resources/program-flode) **Share Code: 3UDU-EVG6-NT4C**
 Ease into programming concepts from numeric expressions to arrays with Codio's flowcharting tool: [Flode](/docs/resources/Resource-Tools/flode/).
