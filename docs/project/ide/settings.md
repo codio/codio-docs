@@ -138,7 +138,7 @@ You modify permissions by selecting **Permissions** from the **Project** dropdow
 By default:
 
 - Anyone can see a public project
-- No-one can edit a public project (but they can fork it)
+- No-one can edit a public project (but they can copy it)
 - No-one can see a private project
 
 Changing permissions allows you to give the following access permissions to Users and/or Groups.

@@ -64,7 +64,7 @@ Refer to the [section on Stacks](/project/stacks) to learn how to create and man
 Click on the **'Click here....'** link to import or select an alternative software configuration:
 
 - **Empty with Stack** will create a new project with a stack you select from the full stack options, rather than the limited options available on the main **New Project** screen.
-- **Fork project** lets you create a new project from another of your projects.
+- **Copy project** lets you create a new project from another of your projects.
 - **[Starter Pack](/project/packs/)** which is the combination of a Stack and a pre-configured code workspace.
 - **Import** lets you import from Git or from a Zip file of a Codio project.
 
@@ -140,7 +140,7 @@ If you know the user name of another Codio user, you can enter the URL for their
 
 You will then see that user's Dashboard and all public projects will be displayed. You can then load any of those projects into the IDE by clicking on it.
 
-You will not be able to edit the project but you can [fork](/project/ide/features/#forking-a-project) it into your own account.
+You will not be able to edit the project but you can [copy](/project/ide/features/#copying-a-project) it into your own account.
 
 If a project has been [shared](/project/ide/settings/#project-permissions) to you, you will be able to view this from your **My Projects > Shared with me** area.
 

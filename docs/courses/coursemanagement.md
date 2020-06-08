@@ -226,7 +226,7 @@ You add a new assignment by pressing the large blue **+** button. You now need t
 You can create a new assignment in the following ways.
 
 - Create a brand new assignment as you would with a normal Codio project.
-- Import (Fork) an existing project into the assignment. See the image below and click on the **click here** for more options where you can Import (fork) an existing project. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
+- Import (Copy) an existing project into the assignment. See the image below and click on the **click here** for more options where you can Import (copy) an existing project. A snapshot of the selected project is taken. From that point on you will edit from the assignment, not the project.
 - Import from GitHub or a Zip file of an existing Codio project, again, by clicking on the **click here** to select this option.
 
 ![UnitStart](/img/project_create.png)

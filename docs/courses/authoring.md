@@ -269,7 +269,7 @@ Here are some guidelines for creating good quality content.
 ### Markdown
 The best way to author content is using markdown. It is extremely easy to write content that renders very nicely and without having to fiddle with HTML. You can embed HTML snippets into a markdown as well where you need full control.
 
-We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your own account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project.
+We have a Cheat Sheet project that you can use to see the full capabilities. To copy this starter pack into your own account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project.
 
 ### Courses and Books
 We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course assignments and books](/courses/authoring/#project-course-assignment-or-book) before starting.
@@ -284,7 +284,7 @@ When creating a book or a guide, you will often be working with images, video an
 ### Callout blocks
 Our markdown supports the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
 
-Please refer to the **Callout** section of the Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
+Please refer to the **Callout** section of the Books Cheat Sheet. If you have not done so already, copy [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
 
 ### Don't make pages too long
 Again, this depends on your intended audience but try to keep each page reasonably brief. If the topic is a long one, you may want to break it up into several pages. This prevents lots of scrolling and allows students to digest information in manageable chunks.
@@ -314,7 +314,7 @@ The editor lets you create different panel layouts for your guide content and th
 
 ## Markdown content editing
 ### Cheat Sheet
-Please refer to the **Callout** section of the Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
+Please refer to the **Callout** section of the Cheat Sheet. If you have not done so already, copy [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project.
 
 Content can be written in
 
@@ -806,7 +806,7 @@ To embed from Google Docs, go to **File>Publish** to Web and select **Embed** to
 
 
 ### Example Projects
-https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+https://codio.com/codio-units/java-example is a project that you can [copy](/project/ide/features/#copying-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 ## Open/close tabs from content
 You can include links in your content to perform the same open and close actions as you do from the [open tabs](/courses/settings-actions/#open-tabs) dialog.
 

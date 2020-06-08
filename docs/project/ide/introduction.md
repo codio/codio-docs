@@ -18,7 +18,7 @@ The Codio IDE sits on top of a Codio Box. A box is a full Ubuntu server. There a
 - Getting code [into](/project/projects/#creating-and-importing-a-project) and [out](/project/ide/navigation/#exporting-an-app) of Codio
 - [Linking your box to GitHub and Bitbucket](/dashboard/account/#public-key)
 - [Granting access to other Codio users](/project/ide/settings/#project-permissions)
-- [Allowing others to fork your box's software configuration as well as the workspace](/project/ide/features/#forking-a-project)
+- [Allowing others to copy your box's software configuration as well as the workspace](/project/ide/features/#copying-a-project)
 - [Google Docs type access to files](/project/ide/features/#real-time-code-collaboration)
 - [Stack management](/project/stacks)
 

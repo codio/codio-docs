@@ -241,12 +241,12 @@ You will then see the following popup dialog.
 
 Now just start typing and the list will refine as you type.
 
-## Forking a project
-You can fork any 3rd party public project into your account going to `Project>Fork`. If you are looking at a forked project, then it will look like this.
+## Copying a project
+You can copy any 3rd party public project into your account going to `Project>Create Copy`. If you are looking at a copied project, then it will look like this.
 
-![authtoken](/img/fork-ide.png)
+![Copied Project](/img/fork-ide.png)
 
-If you are signed into Codio, forking a project will create the fork in your account.
+If you are signed into Codio, copying a project will create the copy in your account.
 
 If the project owner has allowed box cloning you will also be able to clone the box as well as the project.
 

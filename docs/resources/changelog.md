@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [ 8th]`: Fix problem with guides fonts
 - `[I] [ 5th]`: Improve naming of preview tabs
 - `[I] [ 5th]`: Fix problem for teachers opening students jupyter notebook files
 - `[I] [ 3rd]`: Fix issue with formatting of `.md` files downloaded from projects/assignments
