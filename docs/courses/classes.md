@@ -403,8 +403,8 @@ The simplest and quickest thing you can do is to assign one of your projects to 
 
 ![](/img/import.png)
 
-- Then select **Fork Project** and your project will show. If you have other projects in your **My Projects** area you can browse to select one of them.
-- At this point you can set the name of the assignment (by default it will be the name of your project with 'fork' appended) and add a description if you wish.
+- Then select **Copy Project** and your project will show. If you have other projects in your **My Projects** area you can browse to select one of them.
+- At this point you can set the name of the assignment (by default it will be the name of your project with 'copy' appended) and add a description if you wish.
 - When ready, click the **Create** button and the assignment will be added to the course module in draft mode.
 - To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see [creating course content](/courses/coursemanagement)
 - For the assignments to be visible to your students, you need to **Publish** the assignment.

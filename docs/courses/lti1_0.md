@@ -151,7 +151,7 @@ For other methods to integrate Codio with LMS systems, check out the sections be
 Enabling this setting enables constant URL for course assignments, course detection will be done based on the custom parameter your LMS should pass.
 
 
-Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to fork Codio courses and LMS Courses. See [LTI Coursefork](/courses/lti1_0/#lti-course-fork) for more on this.
+Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to opy Codio courses and LMS Courses. See [LTI Course Copy](/courses/lti1_0/#lti-course-copy) for more on this.
 
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
@@ -177,8 +177,8 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 - Paste the **LTI constant URL's enabled** link into the Custom Field
 - Submit
 
-## LTI Course fork
-Enabling this setting allows existing Codio course content used in your LMS to be forked into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all forked courses.
+## LTI Course copy
+Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -186,9 +186,9 @@ Enabling this setting allows existing Codio course content used in your LMS to b
 First enable [LTI Constant URLs](/courses/lti1_0/#lti-constant-urls) for your course.
 
 
-- In your existing Codio course, enable the **Enable LTI course fork** button, and save your changes
+- In your existing Codio course, enable the **Enable LTI course copy** button, and save your changes
 
-![Enable course fork field](/img/lti/enable_class_fork.png)
+![Enable course copy field](/img/lti/enable_class_fork.png)
 
 - In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course
 
@@ -197,11 +197,11 @@ First enable [LTI Constant URLs](/courses/lti1_0/#lti-constant-urls) for your co
 - When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
 - Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
 
-**N.B. If your LMS supports `lis_course_offering_sourcedid` you do not need to specify `codio_class_target_id` for the forked course, `lis_course_offering_sourcedid` will be used automatically to detect the course**
+**N.B. If your LMS supports `lis_course_offering_sourcedid` you do not need to specify `codio_class_target_id` for the copied course, `lis_course_offering_sourcedid` will be used automatically to detect the course**
 
 ![course fork id](/img/lti/fork_class_id.png)
 
-- In your existing Codio course, copy the content of the LTI course fork enabled field into a new line in the 'Edit App' custom field
+- In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field
 ![Parent course ID](/img/lti/parent_class.png)
 - Submit
 

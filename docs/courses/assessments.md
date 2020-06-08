@@ -17,7 +17,7 @@ Assessments allow you to ask any number of automatically or manually graded ques
 You can choose to weave assessments into the tutorial materials or to create dedicated assessments content.
 
 ### Example Project
-https://codio.com/codio-units/java-example is a project that you can [fork](/project/ide/features/#forking-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Demo Guides and Assessments](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+https://codio.com/codio-units/java-example is a project that you can [copy](/project/ide/features/#copying-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Demo Guides and Assessments](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 
 
 ### Submit buttons and marking as complete
