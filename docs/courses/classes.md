@@ -449,7 +449,7 @@ Deleting a module or assignment from your course also removes all student data f
 
 It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
-- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish. Where you have courses that do not have a relationship (see [Working with Master/Child courses][/courses/classes/#working-with-masterchild-courses]) this will allow you to easily update all courses where an assignment has been updated in one course.
+- easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish. Where you have courses that do not have a relationship (see [Working with Master/Child courses](/courses/classes/#working-with-masterchild-courses)) this will allow you to easily update all courses where an assignment has been updated in one course.
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
