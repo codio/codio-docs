@@ -73,6 +73,9 @@ The LTI integration URLs for the assignments in a course can be exported.
 ## Codio LTI App
 The **Codio LTI App** allows an easy way to integrate Codio with supported LMS systems.
 
+**Video:**
+<p><a href="https://codio.wistia.com/medias/wem4eaq6zz?wvideo=wem4eaq6zz"><img src="https://embed-fastly.wistia.com/deliveries/a95678224d8638648a7b207c48e82e045c6cb8c0.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 **Please note the steps below are for implementation in Canvas.**
 
 For details of other supported systems see [https://www.eduappcenter.com/tutorials](https://www.eduappcenter.com/tutorials).
@@ -122,6 +125,10 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
+**Video:** 
+
+<p><a href="https://codio.wistia.com/medias/q17567v2nr?wvideo=q17567v2nr"><img src="https://embedwistia-a.akamaihd.net/deliveries/cc2759addeb52ba5cdde2877ae9b304ccbe052ae.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 - In Codio, go to the **Admin** tab near the top.
 - Select **Edit Details** in the bottom of the page.
 - Near the bottom is a switch **Enable LTI** which you should enable.
@@ -153,6 +160,8 @@ Enabling this setting enables constant URL for course assignments, course detect
 
 Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to opy Codio courses and LMS Courses. See [LTI Course Copy](/courses/lti1_0/#lti-course-copy) for more on this.
 
+**Video:**
+<p><a href="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3"><img src="https://embed-fastly.wistia.com/deliveries/4a815e24ca6a16dca3de2b254a7028dad9d088b2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -179,6 +188,11 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 
 ## LTI Course copy
 Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.
+
+**Video:**
+<p><a href="https://codio.wistia.com/medias/x5lwfhay39?wvideo=x5lwfhay39"><img src="https://embed-fastly.wistia.com/deliveries/ae4739e0cbcd5135b92b4b62a4742c8dbab5a373.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+Note: This video was created before a recent naming change from LTI Course Fork to LTI Course Copy
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -399,6 +413,9 @@ Now return to the **Default Configuration** section in Blackboard. We will now c
 
 ### Codio course setup
 You need to perform the following actions one time only for a course. The Blackboard user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
+
+**Video:**
+<p><a href="https://codio.wistia.com/medias/yyuv97mbux?wvideo=yyuv97mbux"><img src="https://embedwistia-a.akamaihd.net/deliveries/5054fbf5433331e588ec4ccc793e97aad21c85b4.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 - Create a new course and name it **Blackboard Demo**.
 - In the main course screen, click on the **Admin** tab near the top.
