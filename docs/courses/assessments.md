@@ -95,7 +95,7 @@ Standard code tests are dialog driven. You specify input data and the expected o
 ### Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all assessment types as well as a guides authoring cheat sheet.
 
-### Video
+### Video - Standard Code Test
 
 <p><a href="https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt"><img src="https://embed-fastly.wistia.com/deliveries/7ddb5a318f564234fa175a2beed2facc974c3036.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
