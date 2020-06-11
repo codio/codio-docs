@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [11th]`: Fix problem with loading course listings
+- `[I] [10th]`: Update logic handling renewal dates for [self invoicing](/dashboard/account/#organisation-billing)
+- `[I] [10th]`: Replace fonts.com and typekit.net fonts with Google fonts
 - `[I] [ 9th]`: Fix problem when deleting last page in guides 
 - `[I] [ 8th]`: Fix problem with guides fonts
 - `[I] [ 5th]`: Improve naming of preview tabs

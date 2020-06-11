@@ -419,6 +419,8 @@ The configuration fields for an assessment are split into five sections: General
 
 For a free text question (**Show Possible Values** slider to the left), Codio shows blank text fields. The student should then enter the correct text. Codio ensures that the response is case insensitive. For obvious reasons, the longer and more complex the correct answer, the easier it is for the student to make minor spelling errors that will then be scored as an incorrect answer.
 
+
+
 For a drop-down question (**Show Possible Values** slider to the right) Codio will gather all correct values (anything within the `<<< >>>` chevrons) into a drop-down list and offer the same list in each of the answer positions.
 
 #### Grading
