@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [15th]`: Improve messages in empty archived courses
+- `[I] [12th]`: Make jupyter lock cell editing flag value as true by default
 - `[I] [11th]`: Fix problem with loading course listings
 - `[I] [10th]`: Update logic handling renewal dates for [self invoicing](/dashboard/account/#organisation-billing)
 - `[I] [10th]`: Replace fonts.com and typekit.net fonts with Google fonts

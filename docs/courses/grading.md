@@ -18,9 +18,9 @@ You can open the assignments in teacher mode. This allows you to see any content
 ### Overview of student progress
 You can monitor student progress and time spent on individual assignments.
 
-**Video**
+**Video: Viewing Student Work and Adjusting Individual Due Dates**
 
-- [Viewing Student Work and Adjusting Individual Due Dates](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=dvoe0bx9nr)
+<p><a href="https://codio.wistia.com/medias/dvoe0bx9nr?wvideo=dvoe0bx9nr"><img src="https://embedwistia-a.akamaihd.net/deliveries/be47ddc70ba95a6ddc93170209f3f95b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 1. From the **Courses** screen, click on your course to open it.
 
@@ -172,8 +172,7 @@ Codio's grading features address four important aspects when grading student pro
 - **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/courses/classes/#grading-rubric-templates) for details.
 - **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
-### Video overview
-[Click here](https://vimeo.com/165275339) if you'd like to watch a quick video overview.
+
 
 ### The grading process
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
@@ -214,9 +213,9 @@ If the students assignment has already been graded, any other teacher in the cou
 
 ### Releasing Grades
 
-**Video**
+**Video: Releasing Grades to Students and LMS**
 
-- [Releasing Grades to Students and LMS](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=z7xmzl5xbd)
+<p><a href="https://codio.wistia.com/medias/z7xmzl5xbd?wvideo=z7xmzl5xbd"><img src="https://embedwistia-a.akamaihd.net/deliveries/24fb44ce2093addaf89029876ce11424.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 By default students are not shown the grades until you decide to release them to the course. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:
 

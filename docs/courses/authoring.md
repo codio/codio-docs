@@ -206,9 +206,9 @@ When in preview mode, you can quickly switch back to editor mode by selecting th
 
 ![Guides Edit Mode](/img/guides/editor.png)
 
-**Video**
+**Video: Editing Existing Guides Content**
 
-- [Editing Existing Guides Content](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=zqcpii19s6)
+<p><a href="https://codio.wistia.com/medias/zqcpii19s6?wvideo=zqcpii19s6"><img src="https://embed-fastly.wistia.com/deliveries/245d383ed4a7ad83fb3addb91c089c17.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 
 ### Anatomy of the content editor

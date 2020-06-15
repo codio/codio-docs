@@ -183,9 +183,9 @@ A user cannot be a teacher and a student in the same course, but they can be a s
 
 ## Add students to a course
 
-**Video**
+**Video: Adding Student and Test Students**
 
-- [Adding Student and Test Students](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=zebku9t15m)
+<p><a href="https://codio.wistia.com/medias/zebku9t15m?wvideo=zebku9t15m"><img src="https://embed-fastly.wistia.com/deliveries/a804c551a6f6ec0259517365ce1f55575798654f.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 
 You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Course Invitation URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:
@@ -540,8 +540,9 @@ On the module assignment screen you can manage the following settings
 
 You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
 
-**Video**
-- [Rearranging and Deleting Assignments](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=xmubhjvxdd)
+**Video: Rearranging and Deleting Assignments**
+
+<p><a href="https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd"><img src="https://embedwistia-a.akamaihd.net/deliveries/3058be9b2705dc8a7fc41d7939157010.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 To the top right of the list item is a pencil icon. 
 
@@ -601,8 +602,9 @@ If your assignment contains guides content, you should also disable the option t
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
 
-**Video** 
-- [Setting Due Dates and Late Work Penalties](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=vm8r1lte74)
+**Video: Setting Due Dates and Late Work Penalties** 
+
+<p><a href="https://codio.wistia.com/medias/vm8r1lte74?wvideo=vm8r1lte74"><img src="https://embed-fastly.wistia.com/deliveries/25c4df6b8be34c465c9f796f54d601ca78e49fed.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 
 Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled assignment settings](/courses/classes/#disableenable-assignment) students will either be refused all access or can have read-only access to the assignment.
@@ -708,9 +710,10 @@ Where you can enable/disable Teachers Grading, Assessments Grading, Script Gradi
 
 ![Grading Weights](/img/gradingweights.png)
 
-**Video**
+**Video: Combining Grading Sources**
 
-- [Combining Grading Sources](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=5xp528jt6x)
+<p><a href="https://codio.wistia.com/medias/5xp528jt6x?wvideo=5xp528jt6x"><img src="https://embed-fastly.wistia.com/deliveries/87b426566dfe4e3013c49403a2f5a686.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 
 These are relative weightings against all 3 grade options. 
 

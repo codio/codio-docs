@@ -3,9 +3,9 @@ title: Codio Resouces
 
 ---
 
-**Video** 
+**Video: Assigning Codio Resources** 
 
-- [Assigning Codio Resources](https://www.codio.com/help/tutorials-videos-docs?wchannelid=w808w8ubp4&wvideoid=k56l67f36b)
+<p><a href="https://codio.wistia.com/medias/k56l67f36b?wvideo=k56l67f36b"><img src="https://embed-fastly.wistia.com/deliveries/30d7a6667100341bd088098715010ab64872bb72.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 
 Select **Resources** from the dashboard. You will see a list of courses recommended by Codio.
