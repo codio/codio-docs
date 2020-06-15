@@ -6,6 +6,9 @@ title: Integrating with LTI 1.1 systems
 
 Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.
 
+**Video: LMS Integration Overview**
+<p><a href="https://codio.wistia.com/medias/mgakczk3y4?wvideo=mgakczk3y4"><img src="https://embedwistia-a.akamaihd.net/deliveries/5b9850e6e1367110c0adacfe46dd4dc9a8f8f0e6.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 ## LTI Keys and URLs
 **LTI Keys** are used to integrate your LMS to Codio. These keys are required by your LMS administrator one time only so that Codio can be added as an LTI provider. Once Codio has been added as an LTI provider, you will not need them again and the remaining actions can be completed by LMS users who have Teacher/Instructor permissions.
 
@@ -73,6 +76,9 @@ The LTI integration URLs for the assignments in a course can be exported.
 ## Codio LTI App
 The **Codio LTI App** allows an easy way to integrate Codio with supported LMS systems.
 
+**Video - Connect Codio to Canvas using the LTI App:**
+<p><a href="https://codio.wistia.com/medias/wem4eaq6zz?wvideo=wem4eaq6zz"><img src="https://embed-fastly.wistia.com/deliveries/a95678224d8638648a7b207c48e82e045c6cb8c0.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 **Please note the steps below are for implementation in Canvas.**
 
 For details of other supported systems see [https://www.eduappcenter.com/tutorials](https://www.eduappcenter.com/tutorials).
@@ -122,6 +128,10 @@ The **Course LMS URL** is used to map an LMS course to a Codio course. It ensure
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
+**Video - Course LMS URL:** 
+
+<p><a href="https://codio.wistia.com/medias/q17567v2nr?wvideo=q17567v2nr"><img src="https://embedwistia-a.akamaihd.net/deliveries/cc2759addeb52ba5cdde2877ae9b304ccbe052ae.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 - In Codio, go to the **Admin** tab near the top.
 - Select **Edit Details** in the bottom of the page.
 - Near the bottom is a switch **Enable LTI** which you should enable.
@@ -153,6 +163,8 @@ Enabling this setting enables constant URL for course assignments, course detect
 
 Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to opy Codio courses and LMS Courses. See [LTI Course Copy](/courses/lti1_0/#lti-course-copy) for more on this.
 
+**Video - LTI Constant URL:**
+<p><a href="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3"><img src="https://embed-fastly.wistia.com/deliveries/4a815e24ca6a16dca3de2b254a7028dad9d088b2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -179,6 +191,11 @@ Constant URL's allows the transfer of learning content without modifying LTI lin
 
 ## LTI Course copy
 Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.
+
+**Video - LTI Course Copy:**
+<p><a href="https://codio.wistia.com/medias/x5lwfhay39?wvideo=x5lwfhay39"><img src="https://embed-fastly.wistia.com/deliveries/ae4739e0cbcd5135b92b4b62a4742c8dbab5a373.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+Note: This video was created before a recent naming change from LTI Course Fork to LTI Course Copy
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -400,6 +417,9 @@ Now return to the **Default Configuration** section in Blackboard. We will now c
 ### Codio course setup
 You need to perform the following actions one time only for a course. The Blackboard user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
+**Video - Connect Codio to Blackboard using LTI Constant URL:**
+<p><a href="https://codio.wistia.com/medias/yyuv97mbux?wvideo=yyuv97mbux"><img src="https://embedwistia-a.akamaihd.net/deliveries/5054fbf5433331e588ec4ccc793e97aad21c85b4.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 - Create a new course and name it **Blackboard Demo**.
 - In the main course screen, click on the **Admin** tab near the top.
 - Select **Edit Details** in the bottom of the page.
@@ -486,49 +506,20 @@ There are various ways to mark a student's work as complete
 Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) which allows for an easy way to integrate and to map Codio course assignments to your LMS system. Moodle added support for LTI™ apps in version 2.2. The [following page](https://docs.moodle.org/32/en/External_tool_settings) explains how to set up external apps in Moodle.
 
 
+### Setup and configuration
+
+
+**Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
+
+**Video: Connect Moodle to Codio using the LTI Integration URL** 
+<p><a href="https://codio.wistia.com/medias/awib5ehvj0?wvideo=awib5ehvj0"><img src="https://embed-fastly.wistia.com/deliveries/8c1973fe20aa40f892a7c617d2b2326c9b83583d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 ### Authentication and account creation
 Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.
 
 If a Moodle user has never used Codio before then an account will automatically be created when they access their first Codio course materials.
 
 If a Moodle user already has a Codio account then **provided the email address of their Codio account matches the email address of their LMS account** the same Codio account will be used. If, however, the user has used a different email address within Codio, then a new Codio account will be created that matches that of the Moodle account.
-
-### Setup, configuration and usage
-The following instructions are provided as short videos.
-
-#### One time setup
-You will not have access to the Moodle/LMS features unless you have an educational organization setup as explained in the video.
-
-**Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented
-
-**Please note** : Since these videos were created, the Codio keys are now found on the **LTI Integration** tab in your organization **My Organizations** area
-
-<iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-#### Mapping Moodle Courses and creating Moodle Activities
-This video covers the two key aspects of Moodle->Codio mapping...
-
-- mapping your Moodle **Course** to a Codio **course**, a one-time only configuration for a new course
-- creating a Moodle **Activity** within a Course and mapping it to a Codio **Assignment**
-
-<iframe src="https://player.vimeo.com/video/170350816" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-#### Using Codio from Moodle - student view
-Explains how students access Codio from within the LMS.
-
-<iframe src="https://player.vimeo.com/video/170350928" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-#### Using Codio from your LMS - teacher view
-Explains how teachers can access students' Codio projects from the Codio course or from Moodle.
-
-<iframe src="https://player.vimeo.com/video/170354127" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-#### Grading student work and grade transfer to the Moodle gradebook
-This video shows
-
-- how teachers grade student work in Codio
-- how grades are not released to students either in Codio or the LMS until the teacher says so
-- how grades are transferred to the Moodle gradebook once the teacher selects the **Release Grades** option
-
-<iframe src="https://player.vimeo.com/video/170354128" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

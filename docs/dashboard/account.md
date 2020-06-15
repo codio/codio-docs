@@ -294,6 +294,10 @@ If you are logged into Codio, you can access the documentation section in 2 ways
 
 To contact us:
 
+**Video: Access In-Product Support**
+
+<p><a href="https://codio.wistia.com/medias/ltj04dugy8?wvideo=ltj04dugy8"><img src="https://embedwistia-a.akamaihd.net/deliveries/4c8f0e09eb9ab625c0eeb49f7d4043b1.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+    
 - There is a contact button on the bottom right hand corner of our website.
 
 If you are logged into Codio:

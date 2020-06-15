@@ -95,6 +95,10 @@ Standard code tests are dialog driven. You specify input data and the expected o
 ### Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all assessment types as well as a guides authoring cheat sheet.
 
+### Video - Standard Code Test
+
+<p><a href="https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt"><img src="https://embed-fastly.wistia.com/deliveries/7ddb5a318f564234fa175a2beed2facc974c3036.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
 ### Basic setup
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
@@ -418,6 +422,8 @@ The configuration fields for an assessment are split into five sections: General
 `A prime number (or a prime) is a <<<natural>>> number greater than <<<1>>> that has no positive divisors other than <<<1>>> and <<<itself>>>.`
 
 For a free text question (**Show Possible Values** slider to the left), Codio shows blank text fields. The student should then enter the correct text. Codio ensures that the response is case insensitive. For obvious reasons, the longer and more complex the correct answer, the easier it is for the student to make minor spelling errors that will then be scored as an incorrect answer.
+
+
 
 For a drop-down question (**Show Possible Values** slider to the right) Codio will gather all correct values (anything within the `<<< >>>` chevrons) into a drop-down list and offer the same list in each of the answer positions.
 
