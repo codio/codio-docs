@@ -189,3 +189,16 @@ Your teacher/instructor can enable assignments with a number of exam mode option
     If you try to logout of Codio before the assessment is fully completed, you will be advised if you continue you will not be able to access it again. 
 
     Instructor/Professors are be able to release the lock for you so if that happens, contact them.
+
+### Code Playback 
+
+You also have access to the **Code Playback** feature. If you wish to review how you built the code in a file select  **Tools->Code Playback** menu. The file that is currently active will be presented to you but you can review other files you can search for them by clicking on the folder icon shown to the right of the file name shown in the code playback tab.
+
+If you do not have access to the **Tools** menu, you can right click on a file open in any tab to access **Code Playback**
+
+
+To watch the code be built, click the play button. You can change the speed using the **Speed** drop down which is in changes per second. To walk through the changes manually, you can use the “Previous change” and “Next change” buttons. You can drag along the playback slider to find points of interest.
+
+#### Deleted files
+If you delete a file in error, you can also use **Code Playback** to find that file, review how it was built and where you find your last saved work you can copy/paste from the code playback into a new file you can create
+
