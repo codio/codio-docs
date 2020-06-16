@@ -68,6 +68,19 @@ As a teacher you have access to your students cloud area within Codio. This allo
 
 ![Open student work](/img/openstudent.png)
 
+## Code Playback 
+
+Teachers have access to all of the files that students produce on Codio. In order to see how these code files were built, teachers can use **Code Playback**. If your cursor is in the code file you want to see the playback of, simply select  Tools->Code Playback menu. If you are looking into a multi-file program or did not have the file you want to investigate in-focus, search for the student’s file by clicking on the folder icon.
+
+![Code Playback](/img/codeplayback/CodePlayback1.gif)
+
+
+To watch the code be built, click the play button. You can change the speed using the **Speed** drop down which is in changes per second. To walk through the changes manually, you can use the “Previous change” and “Next change” buttons. You can drag along the playback slider to find points of interest.
+
+![Code Playback](/img/codeplayback/CodePlayback2.gif)
+
+
+
 ## Auto-graded assessments
 
 Auto-graded assessments will appear in the teacher dashboard.
@@ -210,6 +223,7 @@ To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-gra
 ![Assign Grades](/img/grading-assign.png)
 
 If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.
+
 
 ### Releasing Grades
 

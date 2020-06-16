@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[F] [15th]`: [Code Playback](/courses/grading/#code-playback) allowing teachers to playback students steps
 - `[I] [15th]`: Improve messages in empty archived courses
 - `[I] [12th]`: Make jupyter lock cell editing flag value as true by default
 - `[I] [11th]`: Fix problem with loading course listings
