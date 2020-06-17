@@ -178,7 +178,12 @@ Click **Done** to save your changes.
 
 ### Teaching Assistants
 
-A user cannot be a teacher and a student in the same course, but they can be a student in one course and a teacher in another. They can be invited into the course by sending then the invitation email and they will then be able to switch between being a teacher and student. When they are in teacher mode they will see all the courses in which they are set as a teacher and when in student mode will see all the courses in which they are set as a student.
+Teaching assistants can be invited into courses by sending then the invitation email and they will then be able to switch between being a teacher and student. When they are in teacher mode they will see all the courses in which they are set as a teacher and when in student mode will see all the courses in which they are set as a student. 
+
+
+### Enabling teachers to be student in a course
+
+If a teacher wishes to be a student in a course that they are already a teacher in, this can be done by using the **Student Invite URL** that can be found on the course admin tab. Enter that into the browser and it will add them into that course as a student. 
 
 
 ## Add students to a course
@@ -188,7 +193,7 @@ A user cannot be a teacher and a student in the same course, but they can be a s
 <p><a href="https://codio.wistia.com/medias/zebku9t15m?wvideo=zebku9t15m"><img src="https://embed-fastly.wistia.com/deliveries/a804c551a6f6ec0259517365ce1f55575798654f.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 
-You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Course Invitation URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:
+You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Student Invite URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:
 
 1. From the **Courses** area, click on your course to open it.
 
@@ -198,7 +203,7 @@ You can add students to your organization and your course easily by giving each 
 1. Click on the **blue plus** sign, top left of the page.
 ![authtoken](/img/manage_classes/blue_plus.png)
 
-1. You can then send the 2 word token to your students, send them the Invite URL to join the course or you can add the Test students to your course. We recommend you use the **Invite URL** to avoid students going through the process to create a new organisation where they may click on the **Free Trial** button in error. There maybe a delay in us being able to get back to them to advise them of the correct steps to take but if you use the Invite URL, they should be able to get started a lot quicker.
+1. You can then send the 2 word token to your students or send them the Invite URL to join the course or you can add the Test students to your course. We recommend you use the **Invite URL** to avoid students going through the process to create a new organisation where they may click on the **Free Trial** button in error. There maybe a delay in us being able to get back to them to advise them of the correct steps to take but if you use the Invite URL, they should be able to get started a lot quicker.
 
 ![Add Students](/img/manage_classes/addstudents.png)
 
