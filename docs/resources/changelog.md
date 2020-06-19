@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [19th]`: Update [Parsons Puzzle](/courses/assessments/#parsons-puzzle-assessments) assessment
 - `[I] [17th]`: Allow users to be [teacher and student](/courses/classes/#enabling-teachers-to-be-student-in-a-course) in same course
 - `[F] [15th]`: [Code Playback](/courses/grading/#code-playback) allowing teachers to playback students steps
 - `[I] [15th]`: Improve messages in empty archived courses

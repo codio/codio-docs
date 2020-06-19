@@ -790,9 +790,13 @@ The configuration fields for an assessment are split into five sections: General
 
 ![](/img/guides/assessment_parsons_exec.png)
 
-- **Initial Values** is where you create the initial state of the puzzle for the students.
-- **Options** is where you can set options for the puzzle. For the available options for each grader type, see [Parson's Problems](http://js-parsons.github.io/documentation/) documentation.
+- **Code to become blocks** is where you create the initial state of the puzzle for the students.
+- **Code to become distractor blocks** is where you can distractors for the puzzle 
+- **Max Distractors** is where you can set the maximum number of distractors
 - **Grader** is where you select the grader appropriate to the puzzle. Refer to the "Grader Description" section below for more details.
+- **Require Dragging** is where you can enable dragging
+- **Disable indentation** is where you can disable indentation if not required for your puzzle
+- **Indent size(px)** is where you can set the pixel size of indentations
 
 #### Grading
 
@@ -837,7 +841,7 @@ or
 - ```variable```: a variable name to be tested
 - ```expected```: expected value of the variable after code execution
 
-<!-- Claire and Mohit's updates go here -->
+
 
 #### TurtleGrader
 `TurtleGrader` is a grader for exercises that draw turtle graphics in Python.
@@ -860,6 +864,8 @@ Code "Translating" grader
 
 #### LineBasedGrader
 `LineBasedGrader` is a grader that treats student answers as correct if and only if they match the order and indentation found in **Initial Values**. For incorrect answers, it highlights the lines that were not ordered or indented properly.
+
+**For more information including video overviews, check out [Graphical Parson's Problem Creator](https://codio.github.io/parsons-puzzle-ui/)**
 
 #### Sample Starter Pack
 There is a Starter Pack project that you can add to your account that includes examples of Parson's Puzzle assessments.
