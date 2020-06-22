@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [22nd]`: Improve loading of large courses lists
+- `[I] [22nd]`: Optimise messaging for teachers when accessing students assignments
+- `[I] [22nd]`: Fix issue with Project settings values of ALLOW PRIVATE STATIC PREVIEW and PROTECT DYNAMIC PORTS params not being correctly applied in student's assignment project
 - `[I] [19th]`: Update [Parsons Puzzle](/courses/assessments/#parsons-puzzle-assessments) assessment
 - `[I] [17th]`: Allow users to be [teacher and student](/courses/classes/#enabling-teachers-to-be-student-in-a-course) in same course
 - `[F] [15th]`: [Code Playback](/courses/grading/#code-playback) allowing teachers to playback students steps
