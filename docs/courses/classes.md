@@ -856,38 +856,18 @@ import os
 import random
 import requests
 import json
-import datetime
-
 # import grade submit function
 import sys
 sys.path.append('/usr/share/codio/assessments')
-from lib.grade import send_grade
-
-##################
-# Helper functions #
-##################
-
-
-# Get the url to send the results to
-CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
-CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
-
+from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
 def main():
   # Execute the test on the student's code
-  grade = validate_code()
+  grade = random.randint(10, 100)
   # Send the grade back to Codio with the penatly factor applied
-  res = send_grade(int(round(grade)))
+  
+  res = send_grade_v2(int(round(grade)), '### Hi here', FORMAT_V2_MD)
   exit( 0 if res else 1)
-
-########################################
-# You only need to modify the code below #
-########################################
-
-# Your actual test logic
-# Our demo function is just generating some random score
-def validate_code():
-  return random.randint(10, 100)
-
+  
 main()
 ```
 
@@ -899,13 +879,8 @@ Below is an example bash script file that would be stored  in .guides/secure fol
 ```
 #!/bin/bash
 set -e
-# Your actual test logic
-# Our demo function is just generating some random score
 POINTS=$(( ( RANDOM % 100 )  + 1 ))
-# Show json based passed environment
-echo $CODIO_AUTOGRADE_ENV
-# Send the grade back to Codio
-curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
+curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
 ```
 
 

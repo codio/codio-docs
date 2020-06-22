@@ -305,19 +305,32 @@ Codio also provides a way for you to award a partial points rather than the all 
 If your test was written using a bash script, it would be done like this.
 
 ```bash
-POINTS=5
-curl -s "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
+#!/bin/bash
+set -e
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=txt -d feedback=test
 ```
 
 A Python script might look like this.
 
 ```python
-#!/usr/bin/env python
-import os, requests, sys
-
-points = 5
-url = "{0}&points={1}".format(os.environ['CODIO_PARTIAL_POINTS_URL'], points)
-r = requests.get(url)
+import os
+import random
+import requests
+import json
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+def main():
+  # Execute the test on the student's code
+  grade = random.randint(10, 50)
+  # Send the grade back to Codio with the penatly factor applied
+  
+  res = send_partial_v2(int(round(grade)), '<strong>I am here</strong>', FORMAT_V2_HTML)
+  exit( 0 if res else 1)
+  
+main()
 ```
 
 The score you award should be any value between 0 and the maximum score you specified when defining the assessment in the Codio authoring editor.
