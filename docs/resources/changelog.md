@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [22nd]`: Improve handling of teachers accessing students completed assignments
 - `[I] [22nd]`: Updated Autograde script [examples](/courses/classes/#example-python-grading-script) and [Partial Points](/courses/assessments/#partial-points) examples
 - `[I] [22nd]`: Improve loading of large courses lists
 - `[I] [22nd]`: Optimise messaging for teachers when accessing students assignments
