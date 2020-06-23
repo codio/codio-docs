@@ -846,7 +846,7 @@ You should be aware of the following points.
 
 If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under **Accessing Guide assessment results**.
 
-#### Example Python grading script
+##### Example Python grading script
 Below is an example Python file that might be loaded by the bootstrap script above.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.
@@ -892,7 +892,7 @@ main()
 ```
 
 <a name="examplebashscript"></a>
-#### Example Bash grading script
+##### Example Bash grading script
 
 Below is an example bash script file that would be stored  in .guides/secure folder
 
@@ -908,7 +908,55 @@ echo $CODIO_AUTOGRADE_ENV
 curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
 ```
 
+#### Autograding enhancements
 
+To provide instructors with more robust auto-grade scripts, you can also now 
+
+- Send back feedback in different formats HTML/Markdown/plainText
+- Allow separate debug logs
+- Notify (instructors and students) and reopen assignments for a student on grade script failure.
+
+To support this additional feedback, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
+
+These variables allow POST and GET requests with the following parameters:
+
+- **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
+- **Feedback** - text
+- **Format** - html|md|txt - txt is default
+
+If the grade is submitted to these urls script output is saved as debug log.
+If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
+
+##### Example Python grading script
+
+```python
+import os
+import random
+import requests
+import json
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+def main():
+  # Execute the test on the student's code
+  grade = random.randint(10, 100)
+  # Send the grade back to Codio with the penatly factor applied
+  
+  res = send_grade_v2(int(round(grade)), '### Hi here', FORMAT_V2_MD)
+  exit( 0 if res else 1)
+  
+main()
+```
+
+##### Example Bash grading script
+
+```bash
+#!/bin/bash
+set -e
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
+```
 
 ### Actions area settings
 Additional options are also available if you select the **Actions** button.
