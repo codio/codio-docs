@@ -340,8 +340,7 @@ The score you award should be any value between 0 and the maximum score you spec
 To provide instructors with more robust auto-grade scripts, you can also now 
 
 - Send back feedback in different formats HTML/Markdown/plainText
-- Allow separate debug logs
-- Notify (instructors and students) and reopen assignments for a student on grade script failure.
+
 
 To support this additional feedback, this URL (passed as an environment variable) can be used: ```CODIO_PARTIAL_POINTS_V2_URL``` 
 
@@ -351,8 +350,8 @@ These variables allow POST and GET requests with the following parameters:
 - **Feedback** - text
 - **Format** - html|md|txt - txt is default
 
-If the grade is submitted to these urls, the script output is saved as debug log.
-If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
+
+
 
 ##### Example Python grading script for partial points
 
