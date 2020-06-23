@@ -916,12 +916,11 @@ To provide instructors with more robust auto-grade scripts, you can also now
 - Allow separate debug logs
 - Notify (instructors and students) and reopen assignments for a student on grade script failure.
 
-To support this additional feedback URLs (passed as an environment variable) can be used: ```CODIO_PARTIAL_POINTS_V2_URL``` and ```CODIO_AUTOGRADE_V2_URL```
+To support this additional feedback, this URL (passed as an environment variable) can be used:```CODIO_AUTOGRADE_V2_URL```
 
 These variables allow POST and GET requests with the following parameters:
 
 - **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
-- **Points** (```CODIO_PARTIAL_POINTS_V2_URL```): 0-100 points for assessment (should be scaled automatically for partial points). See [Partial Points](/courses/assessments/#partial-points) for more information and examples
 - **Feedback** - text
 - **Format** - html|md|txt - txt is default
 
