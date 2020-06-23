@@ -302,18 +302,64 @@ To indicate failure, exit with a non-zero value.
 #### Partial Points
 Codio also provides a way for you to award a partial points rather than the all or nothing approach described above.
 
+##### Example Bash grading script for partial points
+
 If your test was written using a bash script, it would be done like this.
 
 ```bash
-#!/bin/bash
-set -e
-POINTS=$(( ( RANDOM % 100 )  + 1 ))
-curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=txt -d feedback=test
+ POINTS=5
+ curl -s "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
 ```
-
+##### Example Python grading script for partial points
 A Python script might look like this.
 
 ```python
+#!/usr/bin/env python
+
+import random
+import sys
+# import grade submit function
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_partial
+def main():
+  # Execute the test on the student's code
+  grade = random.randint(10, 50) 
+  
+  # Send the grade back to Codio with the penalty factor applied
+  res = send_partial(int(round(grade)))
+  exit( 0 if res else 1)
+  
+main()
+```
+
+The score you award should be any value between 0 and the maximum score you specified when defining the assessment in the Codio authoring editor.
+
+
+#### Autograding enhancements
+
+To provide instructors with more robust auto-grade scripts, you can also now 
+
+- Send back feedback in different formats HTML/Markdown/plainText
+- Allow separate debug logs
+- Notify (instructors and students) and reopen assignments for a student on grade script failure.
+
+To support this additional feedback URLs (passed as an environment variable) can be used: ```CODIO_PARTIAL_POINTS_V2_URL``` and ```CODIO_AUTOGRADE_V2_URL```
+
+These variables allow POST and GET requests with the following parameters:
+
+- **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
+- **Points** (```CODIO_PARTIAL_POINTS_V2_URL```): 0-100 points for assessment (should be scaled automatically for partial points). 
+- **Feedback** - text
+- **Format** - html|md|txt - txt is default
+
+If the grade is submitted to these urls, the script output is saved as debug log.
+If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
+
+##### Example Python grading script for partial points
+
+```python
+#!/usr/bin/env python
+
 import os
 import random
 import requests
@@ -332,9 +378,14 @@ def main():
   
 main()
 ```
+##### Example Bash grading script for partial points
 
-The score you award should be any value between 0 and the maximum score you specified when defining the assessment in the Codio authoring editor.
-
+```bash
+#!/bin/bash
+set -e
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=txt -d feedback=test
+```
 
 #### Displaying information to the student
 You can return text to the user that is shown once the test has concluded. Your test output is captured from `stderr` and `stdout`, so for Node.js, for example, `console.log('Well done!!')` would work.

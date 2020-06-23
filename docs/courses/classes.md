@@ -846,10 +846,89 @@ You should be aware of the following points.
 
 If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under **Accessing Guide assessment results**.
 
-#### Example Python grading script
+##### Example Python grading script
 Below is an example Python file that might be loaded by the bootstrap script above.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.
+
+```python
+import os
+import random
+import requests
+import json
+import datetime
+
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade
+
+##################
+# Helper functions #
+##################
+
+
+# Get the url to send the results to
+CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
+CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
+
+def main():
+  # Execute the test on the student's code
+  grade = validate_code()
+  # Send the grade back to Codio with the penatly factor applied
+  res = send_grade(int(round(grade)))
+  exit( 0 if res else 1)
+
+########################################
+# You only need to modify the code below #
+########################################
+
+# Your actual test logic
+# Our demo function is just generating some random score
+def validate_code():
+  return random.randint(10, 100)
+
+main()
+```
+
+<a name="examplebashscript"></a>
+##### Example Bash grading script
+
+Below is an example bash script file that would be stored  in .guides/secure folder
+
+```
+#!/bin/bash
+set -e
+# Your actual test logic
+# Our demo function is just generating some random score
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+# Show json based passed environment
+echo $CODIO_AUTOGRADE_ENV
+# Send the grade back to Codio
+curl --retry 3 -s "$CODIO_AUTOGRADE_URL&grade=$POINTS"
+```
+
+#### Autograding enhancements
+
+To provide instructors with more robust auto-grade scripts, you can also now 
+
+- Send back feedback in different formats HTML/Markdown/plainText
+- Allow separate debug logs
+- Notify (instructors and students) and reopen assignments for a student on grade script failure.
+
+To support this additional feedback URLs (passed as an environment variable) can be used: ```CODIO_PARTIAL_POINTS_V2_URL``` and ```CODIO_AUTOGRADE_V2_URL```
+
+These variables allow POST and GET requests with the following parameters:
+
+- **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
+- **Points** (```CODIO_PARTIAL_POINTS_V2_URL```): 0-100 points for assessment (should be scaled automatically for partial points). See [Partial Points](/courses/assessments/#partial-points) for more information and examples
+- **Feedback** - text
+- **Format** - html|md|txt - txt is default
+
+If the grade is submitted to these urls script output is saved as debug log.
+If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
+
+##### Example Python grading script
 
 ```python
 import os
@@ -871,19 +950,14 @@ def main():
 main()
 ```
 
-<a name="examplebashscript"></a>
-#### Example Bash grading script
+##### Example Bash grading script
 
-Below is an example bash script file that would be stored  in .guides/secure folder
-
-```
+```bash
 #!/bin/bash
 set -e
 POINTS=$(( ( RANDOM % 100 )  + 1 ))
 curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
 ```
-
-
 
 ### Actions area settings
 Additional options are also available if you select the **Actions** button.
