@@ -680,7 +680,7 @@ If **One Attempt Only** is enabled, students will only be able to submit their a
 
 ### Examples
 
-#### A simple Bash script example
+#### A simple Bash script example for partial points
 
 ```bash
 #!/usr/bin/env bash
@@ -700,53 +700,113 @@ fi
 curl "$CODIO_PARTIAL_POINTS_URL&points=${POINTS}" > /dev/null
 ```
 
-#### A complex Python example
+#### A Python example for partial points
 
 ```python
 #!/usr/bin/env python
-import sqlite3
-import tempfile
 import os, requests, sys
-new_file, filename = tempfile.mkstemp()
-conn = sqlite3.connect(filename)
+import random
+# get free text auto value
 text = os.environ['CODIO_FREE_TEXT_ANSWER']
-try:
-  conn.execute(text)
-except Exception as e:
-  os.remove(filename)
-  raise e
-cur = conn.cursor()
-points = 2
-try:
-  # check empty values
-  cur.execute("insert into users values (?, ?, ?, ?)", (1, None, None, None))
-  points = points - 2
-except sqlite3.IntegrityError as e:
-  points = points + 2
-try:
-  # check optional years
-  cur.execute("insert into users values (?, ?, ?, ?)", (2, "2", "2", None))
-  points = points + 2
-except sqlite3.IntegrityError as e:
-  points = points - 2
+# import grade submit function
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_partial
+def main():
+  # Execute the test on the student's code
+  grade = 0  
+  feedback = ''  
+  if text == '1':
+    grade = 1
+    feedback = '1 point'
+  elif text == '5':
+    grade = 5
+    feedback = '5 points'
+  elif text == '10':
+    grade = 10
+    feedback = '10 points'
+  else:
+    grade = 0
+    feedback = 'no points'    
+  
+  print(feedback)
+  # Send the grade back to Codio with the penatly factor applied
+  
+  res = send_partial(int(round(grade)))
+  exit( 0 if res else 1)
+  
+main()
+
+```
+#### Autograding enhancements
+
+To provide instructors with more robust auto-grade scripts, you can also now 
+
+- Send back feedback in different formats HTML/Markdown/plainText
 
 
-try:
-  # check constraint check for years
-  cur.execute("insert into users values (?, ?, ?, ?)", (3, "2", "2", -10))
-  points = points - 2
-except sqlite3.IntegrityError as e:
-  points = points + 2
+To support this additional feedback, this URL (passed as an environment variable) can be used: ```CODIO_PARTIAL_POINTS_V2_URL``` 
 
-try:
-  # check correct values
-  cur.execute("insert into users values (?, ?, ?, ?)", (4, "2", "2", 10))
-  points = points + 2
-except sqlite3.IntegrityError as e:
-  points = points - 2
-os.remove(filename)
-url = "{0}&points={1}".format(os.environ['CODIO_PARTIAL_POINTS_URL'], points)
-r = requests.get(url)
+These variables allow POST and GET requests with the following parameters:
+
+- **Points** (```CODIO_PARTIAL_POINTS_V2_URL```): 0-100 points for assessment (should be scaled automatically for partial points). 
+- **Feedback** - text
+- **Format** - html|md|txt - txt is default
+
+##### Example Bash grading script for partial points
+
+```bash
+#!/usr/bin/env bash
+POINTS=0
+if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer1" ]
+then
+  POINTS=1
+fi
+if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer5" ]
+then
+  POINTS=5
+fi
+if [ "${CODIO_FREE_TEXT_ANSWER}" == "answer10" ]
+then
+  POINTS=10
+fi
+curl --retry 3 -s "$CODIO_PARTIAL_POINTS_V2_URL" -d points=$POINTS -d format=md -d feedback='### <strong>HTML text</strong>'
+```
+
+
+##### Example Python grading script for partial points
+
+```python
+#!/usr/bin/env python
+import os, requests, sys
+import random
+# get free text auto value
+text = os.environ['CODIO_FREE_TEXT_ANSWER']
+# import grade submit function
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_partial_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+def main():
+  # Execute the test on the student's code
+  grade = 0  
+  feedback = ''  
+  if text == '1':
+    grade = 1
+    feedback = '## 1 point'
+  elif text == '5':
+    grade = 5
+    feedback = '## 5 points'
+  elif text == '10':
+    grade = 10
+    feedback = '## 10 points'
+  else:
+    grade = 0
+    feedback = '## no points'    
+    
+  # Send the grade back to Codio with the penatly factor applied
+  
+  res = send_partial_v2(int(round(grade)), feedback, FORMAT_V2_MD)
+  exit( 0 if res else 1)
+  
+main()
 ```
 
 #### Example Instructions
