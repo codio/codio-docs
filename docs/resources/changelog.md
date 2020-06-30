@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2020**
 
+- `[I] [30th]`: Improve handling of multiple incorrect login password attempts
+- `[I] [30th]`: Update naming of code playback tabs
 - `[I] [22nd]`: Improve handling of teachers accessing students completed assignments
 - `[I] [22nd]`: Enhance Autograde scripting functions. See [here](/courses/classes/#example-python-grading-script) and [here](/courses/assessments/#partial-points) for more information and examples
 - `[I] [22nd]`: Improve loading of large courses lists
