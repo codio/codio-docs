@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**July 2020**
+
+- `[I] [ 1st]`: Fix issue with roles when inviting teachers to organisation
+- `[I] [ 1st]`: Fix layout of expand/collapse arrows shown in dialogs
+
 **June 2020**
 
 - `[I] [30th]`: Improve handling of multiple incorrect login password attempts
