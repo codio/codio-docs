@@ -38,7 +38,7 @@ markdown_extensions:
     - admonition
     - def_list
 
-copyright: Copyright &copy; 2019 Codio Inc.
+copyright: Copyright &copy; 2020 Codio Inc.
 google_analytics: ['UA-39233819-4', 'docs.codio.com']
 
 # use_directory_urls: false
