@@ -489,6 +489,29 @@ For a free text question (**Show Possible Values** slider to the left), Codio sh
 
 For a drop-down question (**Show Possible Values** slider to the right) Codio will gather all correct values (anything within the `<<< >>>` chevrons) into a drop-down list and offer the same list in each of the answer positions.
 
+#### [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) support
+
+The fill in the blanks assessment also support repexp for enhanced options
+Some examples:
+
+- Answer allows any characters -  ```<<</./>>>``` 
+- Answer starts with word "begin" -  ```<<</^begin/>>>``` 
+- Answer ends with word "end" -  ```<<</end$/>>>```  
+- Answer can contain many spaces in "this is"  -  ``` <<</this\s+is/>>>``` 
+- Answer contains 1 or 2 or 3 -  ```<<</1 2 3/>>>``` 
+- Answer allows color or colour -  ```<<</colou?r/>>>``` 
+- Answer allows yes or "yes" -  ```<<<"yes", ""yes"">>>``` 
+- Answer allows hat or cat -  ```<<</[hc]at/>>>``` 
+- Answer checks valid gmail address formatting -  ```<<</(\W ^)[\w.\-]{0,25}@(gmail)\.com(\W $)/>>>```
+- Answer checks date format (DD/MM/YYYY) -  ```<<</^(?:(?:31(\/ - \.)(?:0?[13578] 1[02]))\1 (?:(?:29 30)(\/ - \.)(?:0?[1,3-9] 1[0-2])\2))(?:(?:1[6-9] [2-9]\d)?\d{2})$ ^(?:29(\/ - \.)0?2\3(?:(?:(?:1[6-9] [2-9]\d)?(?:0[48] [2468][048] [13579][26]) (?:(?:16 [2468][048] [3579][26])00))))$ ^(?:0?[1-9] 1\d 2[0-8])(\/ - \.)(?:(?:0?[1-9]) (?:1[0-2]))\4(?:(?:1[6-9] [2-9]\d)?\d{2})$/>>>``` 
+- Answer allows i==0 or i == 0 -  ```<<</i ?== ?0/>>>``` 
+- Answer requires digit -  ```<<</^[\d]+$/>>>``` 
+- Answer requires non-digit -  ```<<</^[\D]+$/>>>``` 
+- Answer requires word character -  ```<<</^[\w]+$/>>>``` 
+- Answer requires non-word character -  ```<<</^[\W]+$/>>>``` 
+- Answer required between  1 to 100 -  ```<<</^([1-9][0-9]? 100)$/>>>``` 
+- Answer allows several answers (Place1 or Place2) -  ```<<<"Place1", "Place2">>>``` 
+- Answer allows several answers with/without " " (Place1 or "Place1" or Place2 or "Place2") -  ```<<</^(Place1 Place2 "Place1" "Place2")$/>>>``` 
 #### Grading
 
 ![authtoken](/img/guides/assessment_fitb_grading.png)
