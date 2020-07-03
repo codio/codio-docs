@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [ 3rd]`: Add example using [collapsible content](courses/authoring/#collapsible-content) in guides
 - `[I] [ 2nd]`: Update default points for assessments from 1 to allow better implementation of partial points
 - `[F] [ 2nd]`: Add support for [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression)in [Fill in the Blank assessments](/courses/assessments/#regular-expression-support)
 - `[I] [ 1st]`: Fix issue with roles when inviting teachers to organisation
