@@ -174,7 +174,7 @@ A guide is comprised of pages organized into chapters and sections. A chapter is
 You can add a new chapter, section or page by
 
 - right clicking on the appropriate location within the table of contents.
-- by first selecting the item in the table of contents below which the new element should be added and then pressing one of the buttons underneath the table of contents.
+- by first selecting the item in the table of contents below which the new element should be added and then pressing one of the buttons at the top of the table of contents.
 
 ### Adding content to a chapter or section
 By default, chapters and sections are passive and do not have page content assigned to them. However, you can add content by right-clicking the item and then selecting **Add content** from the menu.
