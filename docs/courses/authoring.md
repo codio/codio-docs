@@ -174,7 +174,7 @@ A guide is comprised of pages organized into chapters and sections. A chapter is
 You can add a new chapter, section or page by
 
 - right clicking on the appropriate location within the table of contents.
-- by first selecting the item in the table of contents below which the new element should be added and then pressing one of the buttons underneath the table of contents.
+- by first selecting the item in the table of contents below which the new element should be added and then pressing one of the buttons at the top of the table of contents.
 
 ### Adding content to a chapter or section
 By default, chapters and sections are passive and do not have page content assigned to them. However, you can add content by right-clicking the item and then selecting **Add content** from the menu.
@@ -491,7 +491,7 @@ Inline math equations are encapsulated in a single `$` like this: $\omega = d\ph
 ### Collapsible Content
 In writing content, it is sometimes useful to provide information for the student, but to keep this hidden until they are ready.
 
-This can be achieved with collabsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
+This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
 #### Notes
 - All code block starter lines, e.g. ` ```js ` must be preceded by a blank line. 
 - The closing block ` ``` ` tag must be followed by a newline. 

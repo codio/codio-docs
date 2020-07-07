@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [ 7th]`: Allow updating to the latest version of the book for all assignments in a course
+- `[I] [ 3rd]`: Update guides table of contents, moving buttons to the top
 - `[I] [ 3rd]`: Fix problem with release grade settings not passing correctly when cloning course
 - `[I] [ 3rd]`: Add example using [collapsible content](courses/authoring/#collapsible-content) in guides
 - `[I] [ 2nd]`: Update default points for assessments from 1 to allow better implementation of partial points
