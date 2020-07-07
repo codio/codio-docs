@@ -491,7 +491,7 @@ Inline math equations are encapsulated in a single `$` like this: $\omega = d\ph
 ### Collapsible Content
 In writing content, it is sometimes useful to provide information for the student, but to keep this hidden until they are ready.
 
-This can be achieved with collabsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
+This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
 #### Notes
 - All code block starter lines, e.g. ` ```js ` must be preceded by a blank line. 
 - The closing block ` ``` ` tag must be followed by a newline. 
