@@ -84,7 +84,7 @@ You can now create your Python files and run Tkinter. Here are some tips on how 
 # Running the Python file
 To run a Python file you will need to use the Terminal or configure you own Codio button shortcut. To use the terminal, open a new Terminal from the **Tools->Terminal** menu item. Then make sure you are in the correct folder and type `python3 mypythonfile.py`.
 
-Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select **Box URL SSL**. This will open up the viewer.
+Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select **Box URL**. This will open up the viewer.
 
 For information on how to set up your own Codio menu buttons, [click here](/project/ide/boxes/#customizable-run-menu).
 

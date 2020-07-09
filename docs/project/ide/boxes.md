@@ -98,28 +98,29 @@ When Codio creates a new project, it will generate a unique subdomain name
 ```
 word1-word2.codio.io
 ```
-
 where `word1` and `word2` are randomly generated words resulting in a unique domain name.
 
-### Recommended approach to port addressing
 It is strongly recommended that you reference a Codio box running on a specific port using
 
 ```
-word1-word2-3000.codio.io
+word1-word2.codio.io
 ```
 
 If your PC is behind a firewall, access to external ports are often restricted. Using the recommended approach, the request will be made over port 80 and so will not be blocked by the firewall.
 
-This approach allows both HTTP and HTTPS access over the full range of ports, `1024` to `9999`.
+This approach allows HTTPS access over the full range of ports, `1024` to `9999`.
 
 
 ### Standard port addressing
-You can also reference a Codio box using `word1-word2-<port>.codio.io`. This approach will work but be aware:
+You can also reference a Codio box using `word1-word2-<port>.codio.io` although be aware that this approach is deprecated due to security reasons 
 
-- Port ranges are restricted to `1024` to `9499` for HTTP access
-- Port ranges are restricted to `9500` to `9999` for HTTPS access
+This approach currently work but be aware:
+
+- Port ranges are between `1024` and `9999` 
 - If the PC you are working on is behind a firewall and it blocks access over non-standard ports, it will fail if it references a box using `word1-word2-3000.codio.io`
 - You may waste your time and potentially your sysadmin's time trying to diagnose why your browser will not talk to the Codio box.
+
+
 
 ### Original Request Header
 Should you need it, the `X_FORWARDED_PROTO` header contains original request schema.
@@ -528,8 +529,7 @@ If you want to avoid new terminal windows appearing when you run the command, yo
   "preview": {
         "Project Index (static)": "http://{{domain}}/{{index}}",
         "Current File (static)": "http://{{domain}}/{{filepath}}",
-        "Box URL": "http://{{domain3000}}/",
-        "Box URL SSL": "https://{{domain3000}}/"
+        "Box URL": "http://{{domain3000}}/"
   }
 }
 ```

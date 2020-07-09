@@ -307,8 +307,8 @@ The Preview button lets you preview one or more web pages with a simple button p
 
 - **Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
 - **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the **Box URL** option.
-- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for http. Due to recent browser updates that may cause http previewing to fail, Codio has implemented an automatic redirect rule to preview on https and therefore this option should not be used.
-- **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for https.
+- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over https. [Click here](/project/ide/boxes/#accessing-boxes-and-ports) for more information on configuring port access for https.
+
 
 
 If you right-click a file in the file tree or the Tab, you can also select **Preview Static**.
@@ -319,7 +319,7 @@ If you right-click a file in the file tree or the Tab, you can also select **Pre
 ### Preview in a Codio tab or new browser tab
 In the Preview dropdown menu, you can select one of the following ways to preview
 
-- **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/project/ide/boxes/#accessing-boxes-and-ports) for more details on using HTTPS.
+- **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/project/ide/boxes/#accessing-boxes-and-ports) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
 If you are previewing a private project containing Static content and you have not enabled **Allow Private Static Preview** option (available only via **Project>Settings**) you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to **Codio>Account** and on the Account tab you can set up a password of your own choosing.
@@ -339,7 +339,7 @@ You are free to customize the menu in either of the following ways
 For details about the various tokens that can be inserted, please refer to **[Customizing the Run menu](/project/ide/boxes/#customizable-run-menu)**.
 
 `{{domain3000}}` is the most important token for the **Preview menu**. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
-`{{domain}}` can also be used in the **Preview** menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "http://{{domain3000}}/",`
+`{{domain}}` can also be used in the **Preview** menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "https://{{domain3000}}/",`
 
 
 ```json
@@ -355,15 +355,14 @@ For details about the various tokens that can be inserted, please refer to **[Cu
   "preview": {
         "Project Index (static)": "https://{{domain}}/{{index}}",
         "Current File (static)": "https://{{domain}}/{{filepath}}",
-        "Box URL": "http://{{domain3000}}/",
-        "Box URL SSL": "https://{{domain3000}}/"
+        "Box URL": "https://{{domain3000}}/"
   }
 }
 ```
 
 Note that static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.
 
-If you cannot access your project over SSL then this could be the way your application is configured.
+
 
 The full range of Codio `{{tokens}}` is explained in [this section](/project/ide/boxes/#codio-tokens).
 
