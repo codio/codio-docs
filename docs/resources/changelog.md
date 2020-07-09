@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [ 8th]`: Add support for AST Parser for the Processing Language
+- `[I] [ 8th]`: Improve handling of script output for free text auto assessment if script passes
+- `[I] [ 8th]`: Improve handling of incompatible assessments when updating course assignments
+- `[I] [ 8th]`: Remove http preview option
 - `[I] [ 7th]`: Allow updating to the latest version of the book for all assignments in a course
 - `[I] [ 3rd]`: Update guides table of contents, moving buttons to the top
 - `[I] [ 3rd]`: Fix problem with release grade settings not passing correctly when cloning course
