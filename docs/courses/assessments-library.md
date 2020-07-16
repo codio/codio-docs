@@ -32,7 +32,7 @@ Once an assessment is added to an assessment library, it can be accessed later a
 
    ![Library selection](/img/guides/assessment-library-selection-menu.png)
 
-1. Once the desired library has been chosen, press the blue **"SELECT"** button.
+1. Once the desired library has been chosen, press the **"ADD"** button.
 
    ![Selecting library](/img/guides/assessment-library-selection.png)
 
@@ -126,10 +126,12 @@ Use the drop down on the left to indicate which assessments library you want to 
 To narrow down the assessments, input a tag and value pair. For example, you can search by the "Programming Language" (tag) and indicate you want "Python" (value) questions. The search is **not** case-sensitive. You will notice that Codio tries to help you by presenting auto-complete suggestions.
 ![Autocomplete](/img/autoComplete.png)
 
+You can also click on any of the tag fields you see in the current results and it will automatically filter to those and add a new row to your search query
+
 Once you have completed inputting the tag and value pair, you will get a list of results.
 ![Search results](/img/searchResults.png)
 
-You can add as many additional tag and value pairs to narrow your results by clicking the plus sign to the right of the value box.
+You can add as many additional tag and value pairs or by clicking on tag:value pair currently shown to narrow your results by clicking the plus sign to the right of the value box.
 ![Add tags](/img/doubleTags.png)
 
 To navigate through your search results, you can use the scroll bar on the right to scroll through assessments on a page. Once you reach the bottom, you can use the page navigation in the top left to move backwards/forwards a page or jump to a certain page of results.
@@ -155,7 +157,7 @@ To use a saved search, you click on the "Saved" drop down to the right of the ta
 ![Saved searches](/img/savedSearch.png)
 
 You will then be able to see all the parameters you saved previously. You can edit these search parameters freely without changing your saved search.
-![Saved searches 2](/img/savedSearch2.png)
+
 
 If you find a set of search parameters you like better, you can simply save the new set and delete your old search.
 
@@ -165,7 +167,7 @@ To remove a saved search, you click on the "Saved" drop down to the right of the
 
 <a name="addQuestion"></a>
 ## Adding Questions from Assessments Library
-Once you have found an assessment you would like to add to, simply press the "Select" button to the right.
+Once you have found an assessment you would like to add to, simply press the "Add" button to the right.
 ![Select question](/img/selectQuestion.png)
 
 Please note the difference between layouts to know how it will be inserted.

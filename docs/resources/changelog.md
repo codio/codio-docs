@@ -13,6 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [16th]`: UI updates for [Assessment Library](/courses/assessments-library/)
+- `[I] [14th]`: Fix issue switching Guides to edit mode
+- `[I] [14th]`: Improve password management advising users if password used has been leaked
+- `[I] [14th]`: Fix issues opening 'Shared with me' projects
+- `[I] [14th]`: Hide `.codio` file in assignments without guides
+- `[I] [14th]`: Enlarge the grade field on course-assignment screen
+- `[I] [14th]`: Fix issue with Parsons puzzle
 - `[I] [ 8th]`: Add support for AST Parser for the Processing Language
 - `[I] [ 8th]`: Improve handling of script output for free text auto assessment if script passes
 - `[I] [ 8th]`: Improve handling of incompatible assessments when updating course assignments
