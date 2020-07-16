@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [16th]`: UI updates for [Assessment Library](/courses/assessments-library/)
 - `[I] [14th]`: Fix issue switching Guides to edit mode
 - `[I] [14th]`: Improve password management advising users if password used has been leaked
 - `[I] [14th]`: Fix issues opening 'Shared with me' projects
