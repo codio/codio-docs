@@ -68,6 +68,19 @@ As a teacher you have access to your students cloud area within Codio. This allo
 
 ![Open student work](/img/openstudent.png)
 
+
+## Cursor presence
+
+When accessing a students assignment, all active users in a project/assignment will be shown with a color in an icon showing in the menu bar when files are being accessed/edited
+
+Clicking on the icon will change focus to show what that user is currently editing highlighted in that color and will show the users cursor. 
+Hovering over the icon will show the filename and line currently being edited.
+
+![Cursor Presence](/img/monitor_students/cursorpresences.png)
+
+This can be very useful if a student needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing
+
+
 ## Code Playback 
 
 Teachers have access to all of the files that students produce on Codio. In order to see how these code files were built, teachers can use **Code Playback**. If your cursor is in the code file you want to see the playback of, simply select  Tools->Code Playback menu. If you are looking into a multi-file program or did not have the file you want to investigate in-focus, search for the student’s file by clicking on the folder icon.
