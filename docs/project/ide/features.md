@@ -402,6 +402,18 @@ Because of this collaboration feature, your files are saved in real time and the
 You can change full access to your project from the **Project->Permissions** menu, but this is risky and we advise strongly against this unless you are sure only one person will be editing the project at a time.
 
 The better approach is to use Git. If you are familiar with Git then each person has their own project but they all use Git to synchronize the content with a remote repository hosted on a platform like GitHub or BitBucket.
+
+### Cursor Presence 
+
+When accessing another users project where [permissions](/project/ide/settings/#project-permissions) have been granted by the project owner, all active users in a project will be shown with a color in an icon showing in the menu bar when files are being accessed/edited
+
+Clicking on the icon will change focus to show what that user is currently editing highlighted in that color and will show the users cursor. 
+Hovering over the icon will show the filename and line currently being edited.
+
+![Cursor Presence](/img/monitor_students/cursorpresences.png)
+
+This can be very useful if a colleague needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing
+
 ## Saving files
 There is generally no need to save your files as content is saved automatically. You can still save manually using the `Ctrl+S|Cmd+S` keyboard shortcut, which most of you should be familiar with, but you don’t need to.
 If you make mistakes, then use the regular undo (`Ctrl+Z`).

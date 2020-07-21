@@ -117,6 +117,7 @@ The screenshot below shows the configuration fields for the _Execution_ section:
 
 - **Command** is the command that executes the student code itself. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Pre-exec command** is the command to execute before you run each test. This will normally be a compile command.
+- Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
 
 #### Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
