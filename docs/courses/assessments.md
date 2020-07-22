@@ -125,6 +125,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 ![](/img/guides/assessment_sct_grading.png)
 
 - **Points** is the score given to the student if the code test passes. You can enter any positive numeric value.
+- Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
