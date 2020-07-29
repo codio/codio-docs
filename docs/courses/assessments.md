@@ -31,6 +31,11 @@ To add a new assessment, you should first position the cursor in your content wh
 ### Editing an existing assessment
 If you want to edit an existing assessment on the page you are viewing, you should press the settings button in the guide toolbar. In the lower section of the drop down list you will find any assessments on that page. Select one to edit.
 
+### Editing points given for an assessment
+If you wish to edit/change points given for the assessment, you can do so editing each assessment individually as above or you can press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed, and you can change the allocated points. You can enter any positive numeric value.
+
+![Assessment token](/img/assessmentpoints.png)
+
 ### Deleting an assessment
 Select the page where your assessment is located. Then remove the assessment token from the page. As assessment token looks like this.
 
@@ -125,6 +130,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 ![](/img/guides/assessment_sct_grading.png)
 
 - **Points** is the score given to the student if the code test passes. You can enter any positive numeric value.
+- Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.

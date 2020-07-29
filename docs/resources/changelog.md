@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [29th]`: Add ability to easily amend [assessment points](/courses/assessments/#editing-points-given-for-an-assessment) for multiple assessments
+- `[I] [28th]`: Accessibility improvements
 - `[I] [21st]`: Add support for partial points in [standard code test](/courses/assessments/#standard-code-tests) assessment
 - `[F] [21st]`: Add [cursor presence](/courses/grading/#cursor-presence) to show other users activity in project/assignment in real time
 - `[I] [16th]`: UI updates for [Assessment Library](/courses/assessments-library/)
