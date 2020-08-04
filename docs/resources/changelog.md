@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2020**
 
+- `[I] [31st]`: UI/icon changes for guides editor
+- `[I] [30th]`: Improve handling of autograde scripts where error causes autograde URL not to be called
 - `[I] [29th]`: Add ability to easily amend [assessment points](/courses/assessments/#editing-points-given-for-an-assessment) for multiple assessments
 - `[I] [28th]`: Accessibility improvements
 - `[I] [21st]`: Add support for partial points in [standard code test](/courses/assessments/#standard-code-tests) assessment

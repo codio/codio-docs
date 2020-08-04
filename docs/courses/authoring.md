@@ -134,7 +134,7 @@ Students will not see the .codio-menu file to be able to edit/change it.
 
 When the content is rendered to a student, various options can be controlled
 
-- The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
+- The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required. This option will not show if the page layout is One Pane
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
 - **Settings** allows the user to view the assignment as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
 - **Show/Hide Section List** Hamburger Icon allows the user to show/hide the section list.
@@ -213,7 +213,7 @@ When in preview mode, you can quickly switch back to editor mode by selecting th
 
 ### Anatomy of the content editor
 Below is a screenshot of the editor with the main components highlighted.
-![overview](/img/guides/overview.png)
+![overview](/img/guides/editbook.png)
 
 ### Editor settings
 Editor settings gives you access to the key functions:
