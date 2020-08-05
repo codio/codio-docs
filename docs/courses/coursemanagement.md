@@ -286,7 +286,7 @@ You should enter a brief description of the changes you made since the last publ
 ### Publishing options
 If, in your project assignment, you have
 
-- only made changes to the code workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`)
+- only made changes to the code workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`
 
 then you should
 

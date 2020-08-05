@@ -459,7 +459,7 @@ It is recommended that you connect your assignments to a remote repo (GitHub/Bit
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
-**Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
+**Please note** the code workspace can be updated with new files added but existing files will not be updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
 To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings) for more information) but be aware that any existing work they may have done will be lost.
 

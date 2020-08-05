@@ -91,7 +91,7 @@ Within the player various options can be controlled by the user
 
 - **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
 - **Show/Hide Section List Hamburger Ico** allows the user to show/hide the section list.
-
+- **Collapse** button will not show if the page layout is One Pane.
 
 <a name="restore"></a>
 

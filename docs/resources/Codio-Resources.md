@@ -63,5 +63,8 @@ Allen Downey and Chris Mayfield's How to Think Like a Computer Scientist text in
 Allen Downey's How to Think Like a Computer Scientist text in Python with additional lab content.
 - [Think Data Structures: Algorithms and Information Retrieval in Java](https://www.codio.com/resources/think-data-structures) **Share Code: GLEM-39J2-UYRD**
 Allen Downey's Think Data Structures: Algorithms and information retrieval in Java text.
-
+- [CS: Introduction in C++](https://www.codio.com/resources/intro-c) **Share Code: YCLD-L7XW-3ZXK**
+Introduction to Computer Science in C++ with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
+- [CS: Objects in Python](https://www.codio.com/resources/objects-python) **Share Code: 4HPN-GDUJ-V6AL**
+Introduction to Objects in Python with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.
 
