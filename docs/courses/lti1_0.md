@@ -353,7 +353,6 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 
 | LMS Role       | Will be added to Codio with these rights| 
 | :------------- | :----------: |
-| Administrator| TEACHER and added to the [owners group](/dashboard/organisations/#add-organization-owners)| 
 | Teaching Assistant|TEACHER| 
 | Content Developer|TEACHER| 
 | Mentor|TEACHER (with [read only](/courses/classes/#adding-teachers-to-a-course) access to the course}| 
@@ -486,7 +485,6 @@ Based on the LMS role, if teachers join Codio via the LMS, the following will ap
 
 | LMS Role       | Will be added to Codio with these rights| 
 | :------------- | :----------: |
-| Administrator| TEACHER and added to the [owners group](/dashboard/organisations/#add-organization-owners)| 
 | Teaching Assistant|TEACHER| 
 | Content Developer|TEACHER| 
 | Mentor|TEACHER (with [read only](/courses/classes/#adding-teachers-to-a-course) access to the course}| 

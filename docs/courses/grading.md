@@ -246,7 +246,7 @@ To do this, open the students project and open the file. Hover over the left han
 
 Multiple lines of code can be selected and the teacher can also edit/delete or add additional comments (from the 3 dots to the right of the comment window when the comment is saved) if required.
 
-The comment will be removed as the student makes changes to the code.
+When actioned by the student, the comment will be marked as outdated but will still be available 
 
 ### Releasing Grades
 

@@ -172,7 +172,7 @@ Your teachers can also add comments to your code to help. As you view the files 
 
 ![Code Comments](/img/studentcodecomment.png)
 
-You can add your own comments if you require for the teacher to review or by updating your code the comment will be removed.
+You can add your own comments if you require for the teacher to review or by updating your code the comment will be marked as outdated but still available for review later 
 
 ## Exam Mode
 
