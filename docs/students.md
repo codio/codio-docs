@@ -170,7 +170,7 @@ If your organisation uses an LMS system a URL of the grading detail will also be
 
 Your teachers can also add comments to your code to help. As you view the files commented, you will see the comment. 
 
-![Code Comments](/img/studentcodecomment.png)
+![A student asking a clarifying question about a comment, creating a comment thread in the code file](/img/studentcodecomment.png)
 
 You can add your own comments if you require for the teacher to review or by updating your code the comment will be marked as outdated but still available for review later 
 
