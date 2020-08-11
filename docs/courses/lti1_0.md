@@ -348,6 +348,15 @@ It is important to understand how Codio maps Canvas users to Codio users. The fo
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Canvas user role will be carried over as well.
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
 
+#### Teacher Roles
+Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
+
+| LMS Role       | Will be added to Codio with these rights| 
+| :------------- | :----------: |
+| Teaching Assistant|TEACHER| 
+| Content Developer|TEACHER| 
+| Mentor|TEACHER (with [read only](/courses/classes/#adding-teachers-to-a-course) access to the course}| 
+
 ### Generating scores
 You should now generate some scores to pass back to Codio. You can do either of the following.
 
@@ -470,6 +479,15 @@ It is important to understand how Codio maps Blackboard users to Codio users. Th
 
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Blackboard user role will be carried over as well.
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
+
+#### Teacher Roles
+Based on the LMS role, if teachers join Codio via the LMS, the following will apply:
+
+| LMS Role       | Will be added to Codio with these rights| 
+| :------------- | :----------: |
+| Teaching Assistant|TEACHER| 
+| Content Developer|TEACHER| 
+| Mentor|TEACHER (with [read only](/courses/classes/#adding-teachers-to-a-course) access to the course}| 
 
 ### Generating scores
 You should now generate some scores to pass back to Codio. You can do either of the following.

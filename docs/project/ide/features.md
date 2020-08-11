@@ -300,7 +300,7 @@ To access files or services that are executed on the server (PHP, Ruby, Node etc
 Read on for information on how to configure your Static and Dynamic preview menus.
 
 ### Instructions
-The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically.
+The Preview button lets you preview one or more web pages with a simple button press. Codio creates three default entries in the Preview menu automatically.
 
 ![authtoken](/img/preview-deploy.png)
 

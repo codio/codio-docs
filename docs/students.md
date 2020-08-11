@@ -166,6 +166,14 @@ Click on 'details' for the assessment and you can drill down to see more informa
 
 If your organisation uses an LMS system a URL of the grading detail will also be passed to your LMS that you can access from the grading area in the LMS.
 
+### Code Commenting
+
+Your teachers can also add comments to your code to help. As you view the files commented, you will see the comment. You can also view all comments from **Education -> Code Comments** menu item and click there to open the required file
+
+![A student asking a clarifying question about a comment, creating a comment thread in the code file](/img/studentcodecomment.png)
+
+You can add your own comments if you require for the teacher to review.  As you update your code the comment will be marked as resolved but still available for review later from the **Education -> Code Comments** menu item
+
 ## Exam Mode
 
 Your teacher/instructor can enable assignments with a number of exam mode options.
