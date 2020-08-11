@@ -13,7 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2020**
 
-- `[I] [ 6th]`: Add [Code Commenting](/courses/grading/#code-commenting) support
+- `[I] [11th]`: Add [Code Commenting](/courses/grading/#code-commenting) support
+- `[I] [10th]`: Fix problem selecting book based content in assignment
 - `[I] [ 5th]`: Add support for [LTI Roles](/courses/lti1_0/#teacher-roles)
 - `[I] [ 5th]`: Add support for new files to be added to existing assignments
 
