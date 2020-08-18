@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2020**
 
+- `[I] [17th]`: Improve access to Code Comments within Guides settings
+- `[I] [13th]`: Fix problem with FITB assessment overflowing callout area
 - `[I] [12th]`: Fix issue with downloading user access data
 - `[I] [12th]`: Improve rubric handling allowing word wrapping and multiple lines
 - `[I] [12th]`: Fix problem with guides edit button
