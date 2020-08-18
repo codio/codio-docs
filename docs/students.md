@@ -48,9 +48,11 @@ Codio has a built in dyslexia support feature. If you have students who would pr
 1. Open the assignment they are working on.
 
 1. From the menu at the top right of the screen, select the setting icon (the gear icon), then **Theme**, then select the **Dyslexic** option.
+
 ![authtoken](/img/settings.png)
 
 1. The screen should now display like this:
+
 ![authtoken](/img/dyslexicview.png)
 
 ## Forgotten passwords
@@ -81,15 +83,14 @@ At this point the panel layout is set up automatically according to the layout s
 
 
 ### Player Options
-![Play Mode](/img/guides/playmode.png)
+![Play Mode](/img/guides/studentplaymode.png)
 
 
 Within the player various options can be controlled by the user
 
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the content.
-
-- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/students/#dyslexia-support) section
+- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, restore the current files (see below) and access Code Comments. See [Dyslexia Support](/students/#dyslexia-support) section
 - **Show/Hide Section List Hamburger Ico** allows the user to show/hide the section list.
 - **Collapse** button will not show if the page layout is One Pane.
 
@@ -172,7 +173,9 @@ Your teachers can also add comments to your code to help. As you view the files 
 
 ![A student asking a clarifying question about a comment, creating a comment thread in the code file](/img/studentcodecomment.png)
 
-You can add your own comments if you require for the teacher to review.  As you update your code the comment will be marked as resolved but still available for review later from the **Education -> Code Comments** menu item
+You can add your own comments if you require for the teacher to review.  As you update your code the comment will be marked as resolved but still available for review later from the **Education -> Code Comments** menu item or from the Guides settings area.
+
+![Guides Code Comments](/img/guides/codecommentguides.png)
 
 ## Exam Mode
 

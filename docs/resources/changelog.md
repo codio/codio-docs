@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2020**
 
+- `[I] [17th]`: Improve access to Code Comments within Guides settings
+- `[I] [13th]`: Fix problem with FITB assessment overflowing callout area
+- `[I] [12th]`: Fix issue with downloading user access data
+- `[I] [12th]`: Improve rubric handling allowing word wrapping and multiple lines
+- `[I] [12th]`: Fix problem with guides edit button
+- `[I] [12th]`: Improve view of modules when adding existing into courses
 - `[I] [11th]`: Add [Code Commenting](/courses/grading/#code-commenting) support
 - `[I] [10th]`: Fix problem selecting book based content in assignment
 - `[I] [ 5th]`: Add support for [LTI Roles](/courses/lti1_0/#teacher-roles)
