@@ -152,6 +152,7 @@ Once you are in the Codio IDE, you are able to create and manage content. There 
 -  Press then right arrow at the top of the file tree.
 
 ![startauthoring](/img/guides/startguides.png)
+
 - From the menu, select **Tools->Guide->Edit**.
 
 ### Editing page content and actions
