@@ -184,7 +184,7 @@ You can also order the list of modules by name or owner and use the **Filter by 
 ![Module Browse](/img/module_browser.png)
 
 You can also add module content using Share Codes.
-To do this, first add a new module using **Add Empty Module**, give it a name (you can always rename it later if required) and then **Add Assignment**, select the **Existing** option and then the **Get by Code** tab and enter the share code for the relevant resource
+To do this, first add a new module using **Add Empty Module**, give it a name (you can always rename it later if required) and then **Add Assignment**, select the **Existing** option and then the **Get by Code** tab and enter the share code for the relevant resource. The share code for Codio Resources can be found [here](/resources/Codio-Resources/)
 
 
 ### Adding an assignment to a module
