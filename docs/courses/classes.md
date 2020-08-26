@@ -379,6 +379,22 @@ You can then click within the template to assign a score for each criterion. Lar
 If you have enabled a [grading rubric template](/courses/classes/#grading-rubric-templates), clicking in the 'grade' field will pop up the rubric
 
 It is important that you click the Apply button to save the score correctly.
+
+#### Anonymous Grading
+
+Anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.
+
+The teacher names are not shown for the grades and code comments with the setting:
+
+- in the shared feedback,
+- in the project and dashboard for the user who started the graded assignment, regardless of their role. 
+
+These users see their own names for their comments.
+
+To enable this go to the **Admin** tab for the course, **Edit Details**, enable **Anonymous Grading** and **Save** for the changes to be applied
+
+![Anonymous Grading](/img/class_administration/grading/anongrading.png)
+
 ## Gigaboxes
 A Gigabox is a box that has a higher memory allocation than the standard Codio boxes. The default memory allocation is 512MB, which is fine for most applications.
 

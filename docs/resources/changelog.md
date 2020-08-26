@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2020**
 
+- `[I] [26th]`: Add support for [Anonymous Grading](/courses/classes/#anonymous-grading)
 - `[I] [21st]`: Improve information shown to students from [teacher grading](/courses/classes/#teachers-grading)
 - `[I] [19th]`: Improve accesssibility in clickable buttons/icons for screenreaders
 - `[I] [17th]`: Improve access to Code Comments within Guides settings

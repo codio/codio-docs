@@ -237,6 +237,10 @@ To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-gra
 
 If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.
 
+#### Anonymous Grading
+If required, anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.
+For more information and how to enable this [click here](/courses/classes/#anonymous-grading)
+
 #### Code Commenting
 
 Teachers can also comment on code within students files. 
