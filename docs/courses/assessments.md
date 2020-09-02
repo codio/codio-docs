@@ -883,7 +883,7 @@ You can also use the multiple choice assessment type to create answers containin
 ## Grade Book assessments
 A Grade book assessment is for manually graded assessments. A student does not need to answer it, and it is available for grading immediately
 
-Comments and points given will be visible to the student when the assessment is graded and the grades are released.
+Comments and points given will be visible to the student when the assessment is graded and the grades are released and rubric items can also be set where partial points allowed. See below
 
 ### Test definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
@@ -902,6 +902,11 @@ The configuration fields for an assessment are split into five sections: General
 ![](/img/guides/assessment_gradebook_grading.png)
 
 - **Points** is the score given to the student. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given.
+
+When **Allow Partial Points** is enabled, grading rubric items can be added to the assessment where points and messages can be defined. These will be visible to students when the assessment is graded and the grades are released and when teachers are grading, they can select the relevant rubric item.
+
+![](/img/guides/assessment_gradebook_rubric.png)
+
 
 #### Metadata
 

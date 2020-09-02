@@ -75,7 +75,7 @@ You will iterate through the above process as you add more assignments to your c
 
 
 ### Updates
-Editing a assignment **does not affect published course content or content assigned to course**. This section describes how you can push your changes out to courses when you are ready.
+Editing an assignment **does not affect published course content or content assigned to course**. This section describes how you can push your changes out to courses when you are ready.
 
 
 1. **More edits to a assignment**. After publishing, you may decide to make further changes. These changes do not form a part of the published course assignment until you republish, so you can edit without concern for altering published content.
@@ -342,7 +342,7 @@ If there is a later version of the assignment that has been published by a colle
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
-**Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
+**Please note** the code workspace can be updated with new files added but existing files will not be updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
 To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings) for more information) but be aware that any existing work they may have done will be lost.
 

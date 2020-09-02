@@ -11,10 +11,17 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2020**
+
+- `[I] [ 1st]`: Add support for 'pull' in child courses for books
+
 **August 2020**
 
+- `[I] [27th]`: Improve handling of teacher/student switching
+- `[I] [26th]`: Add support for grading rubric items with [Grade Book assessment](/courses/assessments/#grade-book-assessments)
+- `[I] [26th]`: Add support for [Anonymous Grading](/courses/classes/#anonymous-grading)
 - `[I] [21st]`: Improve information shown to students from [teacher grading](/courses/classes/#teachers-grading)
-- `[I] [19th]`: Improve accesssibility in clickable buttons/icons for screenreaders
+- `[I] [19th]`: Improve accesssibility in clickable buttons/icons for screen readers
 - `[I] [17th]`: Improve access to Code Comments within Guides settings
 - `[I] [13th]`: Fix problem with FITB assessment overflowing callout area
 - `[I] [12th]`: Fix issue with downloading user access data
