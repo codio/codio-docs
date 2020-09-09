@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[I] [ 9th]`: Further improvements in handling of adjusting deadlines past end date of assignments
+- `[I] [ 3rd]`: Improve handling of adjusting deadlines past end date of assignments
+- `[I] [ 3rd]`: Improve course assignment list handling remembering scroll location from previous visit
+- `[I] [ 3rd]`: Add additional student sorting options at assignment level
+- `[I] [ 3rd]`: Improve handling for resolving Code comments
 - `[I] [ 1st]`: Add support for 'pull' in child courses for books
 
 **August 2020**
