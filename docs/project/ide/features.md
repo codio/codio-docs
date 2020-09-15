@@ -168,6 +168,8 @@ Individual test cases can be added
 - by specifying the paths to a file with JUnit tests in the add test case fields
 - or by dragging and dropping the file into the JUnit tab.
 
+***Please note*** that if using multiple cases in an assignment/project, the files for each should all be in separate folders for them to work independently of each other. This applies to student code files as well as the code used for the cases.
+
 ### Timeout settings
 
 The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well

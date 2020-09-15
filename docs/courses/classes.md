@@ -617,7 +617,7 @@ You can specify the students ability to access the assignment when disabled.  **
 - 'No Access' will not allow the students to access their assignment.
 
 #### Disable Mark as Completed
-Disabling will not allow students to mark the assignment as completed. If assignments in your cpurse are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
+Disabling will not allow students to mark the assignment as completed. If assignments in your course are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
 If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides
 
 #### Unit duration

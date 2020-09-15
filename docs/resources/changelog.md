@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[I] [15th]`: Improvements for Code Commenting to remember toggled state and to show new comments in real time
+- `[I] [15th]`: Improve handling of .svg files in books
+- `[I] [14th]`: Fix problem with Fill in the Blank assessment points allocation
+- `[I] [14th]`: Improve handling of `<pre>` tags used in Fill in the Blank assessments
+- `[I] [14th]`: Improve presentation of adjusted deadline details to students and teachers
 - `[I] [ 9th]`: Further improvements in handling of adjusting deadlines past end date of assignments
 - `[I] [ 3rd]`: Improve handling of adjusting deadlines past end date of assignments
 - `[I] [ 3rd]`: Improve course assignment list handling remembering scroll location from previous visit
