@@ -302,12 +302,12 @@ This example uses Node.js, but you can use any language you'd like.
 Codio provides a simple framework for communicating with the Codio authored content. When defining a test, you specify the points that should be awarded for a successful answer.
 
 #### Success or Failure
-To let Codio know whether the test passed, your code should simply exit with 0. A Bash script would return with `exit(0)`, Node.js with `process.exit(0)` etc.
+To let Codio know whether the script executed correctly, your code should simply exit with 0. A Bash script would return with `exit(0)`, Node.js with `process.exit(0)` etc.
 
-To indicate failure, exit with a non-zero value.
+To indicate that the script was unable to execute correctly, exit with a non-zero value. 
 
 #### Partial Points
-Codio also provides a way for you to award a partial points rather than the all or nothing approach described above.
+Codio also provides a way for you to award a partial points rather than the all or nothing approach described above. 
 
 ##### Example Bash grading script for partial points
 

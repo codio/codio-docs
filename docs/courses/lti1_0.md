@@ -161,7 +161,7 @@ For other methods to integrate Codio with LMS systems, check out the sections be
 Enabling this setting enables constant URL for course assignments, course detection will be done based on the custom parameter your LMS should pass.
 
 
-Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to opy Codio courses and LMS Courses. See [LTI Course Copy](/courses/lti1_0/#lti-course-copy) for more on this.
+Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to copy Codio courses and LMS Courses. See [LTI Course Copy](/courses/lti1_0/#lti-course-copy) for more on this.
 
 **Video - LTI Constant URL:**
 <p><a href="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3"><img src="https://embed-fastly.wistia.com/deliveries/4a815e24ca6a16dca3de2b254a7028dad9d088b2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
