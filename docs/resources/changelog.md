@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[I] [16th]`: Fix problem with Code Commenting where guides layout protected
 - `[I] [15th]`: Improvements for Code Commenting to remember toggled state and to show new comments in real time
 - `[I] [15th]`: Improve handling of .svg files in books
 - `[I] [14th]`: Fix problem with Fill in the Blank assessment points allocation
