@@ -104,6 +104,8 @@ There is a Starter Pack project that you can add to your account. [Click here to
 
 <p><a href="https://codio.wistia.com/medias/dwts4k9ftt?wvideo=dwts4k9ftt"><img src="https://embed-fastly.wistia.com/deliveries/7ddb5a318f564234fa175a2beed2facc974c3036.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
+** Please note, since this video was created the ability to easily generate items to test has been added. See [Generate Items](/courses/assessments/#generate-items) below.
+
 ### Basic setup
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
 
@@ -127,7 +129,7 @@ The screenshot below shows the configuration fields for the _Execution_ section:
 #### Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
 
-![](/img/guides/assessment_sct_grading.png)
+![Code Test Grading](/img/guides/assessment_sct_grading.png)
 
 - **Points** is the score given to the student if the code test passes. You can enter any positive numeric value.
 - Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
@@ -138,7 +140,15 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 - **Show expected answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
-<a name="metadata"></a>
+##### Generate Items
+
+![Generate Items](/img/guides/generateitem.png)
+
+This allows you to generate your code test items more easily.
+
+Click on **Generate Item**, set the command to your script file (including any pre-exec command if required)
+and then enter your inputs to generate the item to be checked by your code.
+
 #### Metadata
 
 ![](/img/guides/assessment_metadata.png)

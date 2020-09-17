@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[F] [16th]`: Add ability to more easily [generate items](/courses/assessments/#generate-items) for Standard Code test
 - `[I] [16th]`: Fix problem with Code Commenting where guides layout protected
 - `[I] [15th]`: Improvements for Code Commenting to remember toggled state and to show new comments in real time
 - `[I] [15th]`: Improve handling of .svg files in books
