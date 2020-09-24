@@ -606,7 +606,7 @@ For book based assignments, you should be aware that if another assignment gives
 #### Visibility on completed
 You can specify the students ability to access the assignment when completed. **Not available for book based assignments**
 
-- 'None' will allow students to continue to access and work in code files, any assessments in the assignment can be seen but not changed. When set to 'None', students will be able to change the status of their assignment from completed to not completed.
+- 'Read Only with Resubmit' will allow students access the assignment in read only mode, but also to change the status of their assignment from completed to not completed regain full access and re-submit their work again. Any assessments that are not limited to 'one attempt only' can also be submitted again.
 - 'Read-Only' will allow students to access their assignment but not make any changes.
 - 'No Access' will not allow the students to access their assignment.
 
@@ -615,6 +615,8 @@ You can specify the students ability to access the assignment when disabled.  **
 
 - 'Read-Only' will allow students to access their assignment but not make any changes.
 - 'No Access' will not allow the students to access their assignment.
+
+
 
 #### Disable Mark as Completed
 Disabling will not allow students to mark the assignment as completed. If assignments in your course are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
