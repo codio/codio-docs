@@ -694,7 +694,8 @@ Select the assignment from the course assignments list and click on the 3 blue v
 
 ![penalties](/img/penaltydeadline.png)
 
-You can then adjust the deadline forward by as many days as you require
+You can then adjust the deadline forward by as many days/hours/minutes as you require.
+If a deadline is already set, you can remove it
 
 ![penalties](/img/deadlineadjust.png)
 
@@ -706,6 +707,8 @@ When applied, the adjustment will then show next to the grade field in the teach
 
 Where you can enable various options to help support running an assignment in exam conditions
 ![examproctoring](/img/examproctoring.png)
+
+- **Time Limit** - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first
 
 - **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
 
