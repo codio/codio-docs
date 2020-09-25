@@ -708,6 +708,8 @@ When applied, the adjustment will then show next to the grade field in the teach
 Where you can enable various options to help support running an assignment in exam conditions
 ![examproctoring](/img/examproctoring.png)
 
+- **Time Limit** - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first
+
 - **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
 
 - **Forward Only Navigation** - when enabled, navigation buttons and menus that allow students to re-visit questions will be hidden, so student can only go forward through the pages. Students will be advised of this restriction as they start the assignment
