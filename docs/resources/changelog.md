@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[I] [25th]`: Allow [deadlines](/courses/classes/#adjusting-deadline-for-individual-students) to be adjusted forward by days/hours and minutes
 - `[I] [23rd]`: Update handling of visibility on completed to require students to change status of assignment from completed to be able to continue working
 - `[I] [18th]`: Update handling of visibility on disabled for assignments not started before end date of course
 - `[F] [16th]`: Add ability to more easily [generate items](/courses/assessments/#generate-items) for Standard Code test

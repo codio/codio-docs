@@ -694,7 +694,8 @@ Select the assignment from the course assignments list and click on the 3 blue v
 
 ![penalties](/img/penaltydeadline.png)
 
-You can then adjust the deadline forward by as many days as you require
+You can then adjust the deadline forward by as many days/hours/minutes as you require.
+If a deadline is already set, you can remove it
 
 ![penalties](/img/deadlineadjust.png)
 
