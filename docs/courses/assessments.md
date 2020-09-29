@@ -478,7 +478,7 @@ The example below shows a typical question where the student has to complete the
 ![authtoken](/img/guides/assessments-fitb1.png)
 
 ### Drop Down
-The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.
+The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.  You can also add distractors (ie wrong answers).
 
 ![authtoken](/img/guides/assessments-fitb2.png)
 
@@ -504,7 +504,9 @@ For a free text question (**Show Possible Values** slider to the left), Codio sh
 
 
 
-For a drop-down question (**Show Possible Values** slider to the right) Codio will gather all correct values (anything within the `<<< >>>` chevrons) into a drop-down list and offer the same list in each of the answer positions.
+For a drop-down question (**Show Possible Values** slider to the right) Codio will gather all correct values (anything within the `<<< >>>` chevrons) into a drop-down list, randomise the order and offer the same list in each of the answer positions. You can also add distractors (wrong answers) to the drop down by listing them in the text area below. One distractor per line
+
+![Distractors](/img/guides/distractors.png)
 
 #### [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) support
 

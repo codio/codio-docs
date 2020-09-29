@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2020**
 
+- `[F] [29th]`: Add distractors for [Fill in the blank](courses/assessments/#execution_3) assessment when showing possible values
 - `[F] [25th]`: Add Time Limit option for [exam proctoring](/courses/classes/#exam-proctoring)
 - `[I] [25th]`: Allow [deadlines](/courses/classes/#adjusting-deadline-for-individual-students) to be adjusted forward by days/hours and minutes
 - `[I] [23rd]`: Update handling of visibility on completed to require students to change status of assignment from completed to be able to continue working
