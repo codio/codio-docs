@@ -41,7 +41,7 @@ Select the page where your assessment is located. Then remove the assessment tok
 
 ![Assessment token](/img/assessmenttoken.png)
 
-Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
+Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.  You can search for assessments by name,points or order in guides and order them up or down using the arrow buttons
 
 ### Autograding when a student completes a assignment
 Codio allows you to run a special auto-grading script as soon as an assignment is completed by the student. This special type of assessment is managed from the assignment settings page in a course. [Click here](/courses/classes/#running-an-auto-grade-script) for details.

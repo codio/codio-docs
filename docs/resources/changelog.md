@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2020**
+
+- `[I] [ 1st]`: Add ability to seach list of assessments in a project by name,point or order in guides.
+
 **September 2020**
 
 - `[I] [29th]`: Fix issue with [Desktop App](/dashboard/desktopapp/) when connecting to assignments in courses
