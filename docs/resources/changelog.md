@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2020**
 
+- `[I] [ 2nd]`: Update handling of course dashboard loading to improve loading times on slow/intermittent internet connections
 - `[I] [ 1st]`: Add ability to seach list of assessments in a project by name,point or order in guides.
 
 **September 2020**
