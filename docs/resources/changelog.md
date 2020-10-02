@@ -11,8 +11,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2020**
+
+- `[I] [ 2nd]`: Update handling of course dashboard loading to improve loading times on slow/intermittent internet connections
+- `[I] [ 1st]`: Add ability to seach list of assessments in a project by name,point or order in guides.
+
 **September 2020**
 
+- `[I] [29th]`: Fix issue with [Desktop App](/dashboard/desktopapp/) when connecting to assignments in courses
+- `[F] [29th]`: Add distractors for [Fill in the blank](courses/assessments/#execution_3) assessment when showing possible values
 - `[F] [25th]`: Add Time Limit option for [exam proctoring](/courses/classes/#exam-proctoring)
 - `[I] [25th]`: Allow [deadlines](/courses/classes/#adjusting-deadline-for-individual-students) to be adjusted forward by days/hours and minutes
 - `[I] [23rd]`: Update handling of visibility on completed to require students to change status of assignment from completed to be able to continue working

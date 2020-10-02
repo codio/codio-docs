@@ -495,19 +495,22 @@ In writing content, it is sometimes useful to provide information for the studen
 
 This can be achieved with collapsible content and the `<details> <summary>` elements. The content is treated as HTML and as such a mix of HTML and Markdown can be required.
 #### Notes
+- If including code blocks, ensure you have an empty line after the closing ``</summary>`` tag.
 - All code block starter lines, e.g. ` ```js ` must be preceded by a blank line. 
 - The closing block ` ``` ` tag must be followed by a newline. 
+- If you have multiple collapsible sections, ensure you have an empty line after the closing ``</details>`` tag.
+- If you wish to have the content showing by default, use `<details  open>`.
 
 **Example**
 
 ![CollapsibleContent](/img/guides/collapsible.png)
 
-To achieve this result, the code is comprised below (in 3 code blocks to ensure all presents correctly)
+To achieve this result, the code is comprised below (in 3 code blocks to ensure all presents correctly here)
 
 ```markdown
 ## Example Collapsible Content
 
-<table><tbody ><tr><td><details><summary>
+<details><summary>
 	There are some <b>Special Numeric Values</b> which are part of the number data type. For each of the variables <code>a</code> <code>b</code>and <code>c</code> print out their data types and values.
 </summary><hr>
 
@@ -531,7 +534,7 @@ const name = {
 }
 ```
 ```
-</details></td></tr></tbody></table>
+</details>
 ```
 
 ### Cheat Sheet
