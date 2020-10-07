@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2020**
 
+- `[I] [ 7th]`: Further updates to improve handling of course dashboard loading
 - `[I] [ 7th]`: Add ability to reorder answers for [Multiple choice question](/courses/assessments/#execution_2) assessment
 - `[I] [ 5th]`: Improve handling of dragging/dropping assignments into modules to place where dropped
 - `[I] [ 5th]`: Update handling of changing passwords to require existing password
