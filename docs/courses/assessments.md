@@ -438,6 +438,7 @@ The configuration fields for an assessment are split into five sections: General
 
 - The **Multiple Response** slider indicates whether the user can select more than one answer, in which case check boxes are used instead of radio buttons to specify correct answers.
 - **Answers** is where you add as many individual answers as you require. To indicate the correct answer(s), toggle the sliders for multiple response or the radio button for single response.
+- **Ordering** using the arrows you can change the order the answers are presented to students
 
 #### Grading
 
