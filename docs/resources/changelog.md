@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2020**
 
+- `[I] [19th]`: Add copy to clipboard icon to [Code Blocks](/courses/authoring/#code-blocks)
 - `[I] [14th]`: Update handling of filters on assessments listings
 - `[I] [ 7th]`: Further updates to improve handling of course dashboard loading
 - `[I] [ 7th]`: Add ability to reorder answers for [Multiple choice question](/courses/assessments/#execution_2) assessment
