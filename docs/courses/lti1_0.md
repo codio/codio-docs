@@ -343,7 +343,7 @@ Next, you should login to Canvas as a test student and start the assignment. Ple
 **Important** : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
 
 ### Single sign-in and account creation
-It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will use the Canvas email address to identify the user.
+It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will initially use the Canvas email address to identify the user and create the Codio account. In all subsequent access, the Canvas userID will be used so in the even the user changes their email address in Canvas, the user will be mapped to the same Codio account.
 
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Canvas user role will be carried over as well.
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
@@ -475,7 +475,7 @@ Next, you should login to Blackboard as a test student and start the assignment.
 **IMPORTANT** : when you access Codio from Blackboard, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and open some content from Blackboard as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.
 
 ### Single sign-in and account creation
-It is important to understand how Codio maps Blackboard users to Codio users. The following rules should be understood. If students or faculty access Codio via a Blackboard assignment then Codio will use the Blackboard email address to identify the user.
+It is important to understand how Codio maps Blackboard users to Codio users. The following rules should be understood. If students or faculty access Codio via a Blackboard assignment then Codio will initially use the Blackboard email address to identify the user and create the Codio account. In all subsequent access, the Blackboard userID will be used so in the even the user changes their email address in Blackboard, the user will be mapped to the same Codio account.
 
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Blackboard user role will be carried over as well.
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
@@ -538,6 +538,6 @@ Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) 
 ### Authentication and account creation
 Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.
 
-If a Moodle user has never used Codio before then an account will automatically be created when they access their first Codio course materials.
+If a Moodle user has never used Codio before then an account will automatically be created from their email address when they access their first Codio course materials.
 
-If a Moodle user already has a Codio account then **provided the email address of their Codio account matches the email address of their LMS account** the same Codio account will be used. If, however, the user has used a different email address within Codio, then a new Codio account will be created that matches that of the Moodle account.
+If a Moodle user already has a Codio account then provided the email address of their Moodle account is the same, the same Codio account will be used. 

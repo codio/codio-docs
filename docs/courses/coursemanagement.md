@@ -175,7 +175,7 @@ To create a new, empty module
 ### Adding a Module
 It is possible to add a module to your course that already exists in another course. Press the **Copy from Existing** button.
 
-The Module browser will open for you to search for the module(s) you wish to add.
+The Module browser will open for you to search for the module(s) you wish to add. If there is a relationship already with a 'Parent' course, this will show at the top.
 
 You can filter from the available options in the tabs, or search by typing into the search field, whereupon Codio will search within all Module names available to you.
 
