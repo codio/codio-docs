@@ -12,7 +12,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **October 2020**
-
+- `[F] [20th]`: Add feature to allow teachers to control receipt of [autograde failure notifications](/courses/classes/#autograde-notification-failure) in a course
 - `[I] [20th]`: Update user identification handling in LMS based on LMS userID to allow users to change email address in their LMS and continue to use same Codio account
 - `[I] [19th]`: Add 'Parent Course' section to Module browser when [adding new module](/courses/coursemanagement/#adding-a-module) into a course
 - `[I] [19th]`: Add copy to clipboard icon to [Code Blocks](/courses/authoring/#code-blocks)
