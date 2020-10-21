@@ -1,5 +1,5 @@
 ---
-title: Codio Resouces
+title: Codio Resources
 
 ---
 

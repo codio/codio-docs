@@ -101,7 +101,7 @@ At any time, you can press the **Run** button to run to completion at full speed
 # Run mode
 This runs your program at full speed.
 
-## Output window
+### Output window
 All output is written to the output window at the bottom of the screen, which is scrollable.
 
 ## Stack contents

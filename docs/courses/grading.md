@@ -215,6 +215,7 @@ Students can be filtered by:
 - No Final Grade
 - Completed
 - Uncompleted
+- Needs Grading
 
 You can access the student's project from the same screen by clicking on the 3 blue dots on the extreme right (see below image with dots circled right). You can then review the project.
 

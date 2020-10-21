@@ -292,6 +292,17 @@ Use this to download a CSV of user access to assignments in the course. Details 
 
 Collection and storage of this data will be retained for maximum of 6 months.
 
+### Autograde Notification Failure
+
+Where autograde scripts are implemented, Codio can send email notifications of such failures to the teachers in the course.
+By default, all teachers in the course will receive them but you can change this to either:
+
+- **Off** - no notification emails will be sent
+- **Teachers** - all teachers in the course will receive the notification email (default)
+- **Custom** - where you can enter specific email addresses to receive the notifications (one entry per line)
+
+![Autograde_Notification_Emails](/img/notificationemails.png)
+
 ### LTI Settings
 For more information see [Exporting LTI settings](/courses/lti1_0/#exporting-lti-settings)
 
