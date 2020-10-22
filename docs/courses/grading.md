@@ -124,7 +124,7 @@ When the student submits the assignment by marking the assignment as complete, i
 
 ### Configuration
 
-<a name="nbgradertimeout"></a>
+
 ### Extend Timeout period
 
 To extend the time required for completion (to 90 seconds in this example), you can add
@@ -186,6 +186,14 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
+### To run custom grading with jupyter
+
+To avoid execution of autograder with nbgrader and allow codio script autograder to be executed. When set this will not show jupyter files as assessments in codio and will not submit through nbrader after mark as completed, so not assessments and points set in the assignment.
+
+```yaml
+codio:
+  grader: false
+```
 
 If you require any assistance at all, or would like us to consider adding additional functions, please don't hesitate to [contact us](/dashboard/support/)
 
