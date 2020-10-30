@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2020**
 
+- `[I] [30th]`: Update handling of code blocks in guides
 - `[I] [30th]`: Fix problem with courses not showing correctly when switching between teacher and student views
 - `[F] [30th]`: [Scratch](/resources/Resource-Tools/scratch) added
 - `[I] [29th]`: Fix problem with LTI navigation to large codio courses
