@@ -502,7 +502,7 @@ Any changes to guides content can be applied. You should be careful about making
 
 
 ## Test students
-Codio automatically creates 3 test students for you. This allows instructors to view the student experience when assignments are assigned to courses.
+Codio automatically creates 3 test students for you. This allows instructors to view the student experience when assignments are assigned to courses even if your course is integrated with an LMS
 
 1.  They can be seen in the members section. If there are not 3 student listed then you can regenerate them from this screen.
 
@@ -520,7 +520,7 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 ![authtoken](/img/class_administration/createanorganization/test-student-view.png)
 
-If your course is LMS integrated then you will need to perform your testing from the LMS and not use the Codio test students.
+
 ## Excluding Files
 
 Files/folders may need to be excluded from students assignments. Such files may be

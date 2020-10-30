@@ -332,7 +332,7 @@ If there is a later version of the assignment that has been published by a colle
 
 ![publishedversion](/img/publishedversion.png)
 
-
+If you are working in an assignment and wish to revert to the last published version, you can do so going to **Project>Delete**. As you then re open the assignment you will have reverted to the last published version
 
 ## Collaborating on project assignments
 
