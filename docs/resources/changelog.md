@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2020**
+
+- `[I] [ 2nd]`: Fix problem with MCQ answer colours showing incorrectly
+- `[I] [ 2nd]`: Fix problem in Junit test parsing
+
 **October 2020**
 
 - `[I] [30th]`: Update handling of code blocks in guides
