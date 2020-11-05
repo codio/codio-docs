@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2020**
 
+- `[F] [ 5th]`: Add support for code test assessments output box to be expanded
 - `[I] [ 2nd]`: Fix problem with MCQ answer colours showing incorrectly
 - `[I] [ 2nd]`: Fix problem in Junit test parsing
 
