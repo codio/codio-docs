@@ -165,6 +165,11 @@ Click on 'details' for the assessment and you can drill down to see more informa
 
 ![grade detail](/img/gradedetail.png)
 
+Assessments that support partial points and full points were not awarded can be identified with this icon:
+
+![Partial Point Icon](/img/guides/partialpointicon.png)
+
+
 **Note** If the project has been marked as completed, you can click on the 'completed' button to access the grade feedback but if you wish to view the project, click on the name of the project on the left hand side. As the assignment is completed you will not be able to edit anything but can view the content
 
 If your organisation uses an LMS system a URL of the grading detail will also be passed to your LMS that you can access from the grading area in the LMS.
