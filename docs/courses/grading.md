@@ -299,11 +299,16 @@ You can now select a student. You will then be shown the list of all assessments
 
 Note that if a student has started to answer a question but not submitted the answer, then you will see **DRAFT** written next to it. Once they submit, you will see **GRADE** indicating that the question has been submitted and is ready to be graded.
 
-<a name="partialpointrubric"></a>
+
+
 ### Partial Point Rubric
 
-Where an answer is set to all partial points, a rubric is provided to allow graders to dynamically deduct points from the maximum score.
-A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this assignment, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each assignment, and every new assignment starts with an empty rubric.
+Partial point assessments, where full points have not been awarded, will show the icon:
+
+![Partial Point Icon](/img/guides/partialpointicon.png)
+
+Where an answer is set to allow partial points, a rubric is provided to allow graders to dynamically deduct points from the maximum score.
+A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this assignment, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each assignment, and every new assignment starts with an empty rubric.  
 
 ![Free Text Grading](/img/guides/partialpointrubric.png)
 
