@@ -22,3 +22,10 @@ Scratch files are **not saved automatically**, you must select **File > Save** t
 
 Get started by clicking on **Tutorials** in the Scratch menu area. For more information see [Scratch](https://scratch.mit.edu/about)
 
+### Starter Pack
+
+We also have a **Hello Codio in Scratch** Starter Pack to help you get started
+
+You can find this by either searching for 'Scratch' in the starter pack area or 
+- For Codio.com users, [click here](https://codio.com/home/starter-packs/af3248f1-82cf-4c70-8170-d3e0c77a147e)
+- For Codio.co.uk users, [click here](https://codio.co.uk/home/starter-packs/af3248f1-82cf-4c70-8170-d3e0c77a147e)
