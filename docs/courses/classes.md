@@ -81,9 +81,44 @@ Please note, students in the existing course will not be added to the new course
 
 Where you have cloned a course, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.
 
+After publishing the updates from the original course, you can send notifications so that teachers (not 'read only' teachers) in the course will see a banner advising them of the available updates.
+
+##### Updating and sending notifications to child courses
+To send notifications, go to the **Admin** tab and select **Send New Notification**
+
+![Notify Child Courses](/img/manage_classes/notifychild.png) 
+
+where you can then enter a notification message to assist teachers in the child course to understand what changes have been made available and can be updated
+
+![Send Notification](/img/manage_classes/sendnotification.png) 
+
+This message can include details of all the changes made in each assignment or just be a summary. If a summary used and the teachers in the child course wish to check the changes made for individual assignments, they can **[pull](/courses/classes/#updating-and-not-sending-notifications-to-child-courses)** the assignments to review the information entered in the publish assignment changelog
+
+The history of all notifications sent for published updates in the master course can be seen selecting the **View Sent Notification**
+
+Where notifications have been sent, teachers will then see a notification changes available in the associated child courses
+
+![Course Update Banner](/img/manage_classes/courseupdates.png) 
+
+Clicking on **Show Changes** will then show details of the assignments updated tagged with the parts of the assignment that have been updated
+
+![Course Update Details](/img/manage_classes/detailcourseupdates.png) 
+
+Clicking on the **?** for updated part will show information on the meaning of the tags
+
+![Tag Meanings](/img/manage_classes/tagmeaning.png) 
+
+
+Clicking on **Update History** will show the notification message sent for that update
+
+Select the assignments you wish to update and **Apply**. A confirmation dialog will be shown for you to confirm you wish to update the assignments
+
+
+##### Updating and not sending notifications to child courses
+
 After publishing the update from the original course, go to the cloned course where (in 'edit' mode) you will see the option to Pull for the individual assignments.
 
-![Pull](/img/manage_classes/pull.png) 
+![Pull](/img/manage_classes/pull.png)
 
 Details will be shown of the update published in the original course to allow for confirmation and on acceptance the update will be pulled in to the assignment in the cloned course.
 
