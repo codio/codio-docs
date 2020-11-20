@@ -654,7 +654,7 @@ For any free text assessments that have been graded by a teacher in an assignmen
 ## Autograde Free text
 The Autograde Free text assessment is similar to the [free text](/courses/assessments/#free-text_1) assessment but includes a field for a command line to execute a script allowing autograding.
 
-The answer will be passed to the script as `stdin`.
+The answer will be stored in the environment variable `CODIO_FREE_TEXT_ANSWER`.
 
 ### Assessment definition
 
