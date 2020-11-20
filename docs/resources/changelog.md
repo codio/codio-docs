@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2020**
 
+- `[I] [19th]`: Fix problem with time shown in assessments being for when assignment opened, not when assessment run
+- `[I] [19th]`: Improve handling [Master/Child](/courses/classes/#updating-and-sending-notifications-to-child-courses) 
+- `[I] [17th]`: Improve handling of export course data for large courses
+- `[I] [17th]`: Update handling of adjusting deadline for assignments past end time where not previously started
 - `[I] [12th]`: Fix issue with submission of assessments in completed assignment when in disabled state
 - `[I] [11th]`: Improve switch to self pay dialogs
 - `[I] [10th]`: Improve handling of course view remembering module collapsed state on next visit
