@@ -436,6 +436,7 @@ The configuration fields for an assessment are split into five sections: General
 
 ![](/img/guides/assessment_mc_exec.png)
 
+- **Shuffle Answers** enabling this will randomise the order of the questions for the students
 - The **Multiple Response** slider indicates whether the user can select more than one answer, in which case check boxes are used instead of radio buttons to specify correct answers.
 - **Answers** is where you add as many individual answers as you require. To indicate the correct answer(s), toggle the sliders for multiple response or the radio button for single response.
 - **Ordering** using the arrows you can change the order the answers are presented to students
@@ -476,12 +477,12 @@ A 'fill in the blank' question comes in two flavours. By enabling/disabling **Sh
 ### Free Text
 The example below shows a typical question where the student has to complete the missing words. This is then auto-marked by the Guide as explained below.
 
-![authtoken](/img/guides/assessments-fitb1.png)
+![](/img/guides/assessments-fitb1.png)
 
 ### Drop Down
 The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.  You can also add distractors (ie wrong answers).
 
-![authtoken](/img/guides/assessments-fitb2.png)
+![](/img/guides/assessments-fitb2.png)
 
 ### Assessment definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.
@@ -495,7 +496,7 @@ The configuration fields for an assessment are split into five sections: General
 
 #### Execution
 
-![authtoken](/img/guides/assessment_fitb_exec.png)
+![](/img/guides/assessment_fitb_exec.png)
 
 **Text** is the Markdown that you write including the correct answer specification. Below is an example of how the question should be specified.
 
