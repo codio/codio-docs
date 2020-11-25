@@ -13,10 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2020**
 
+- `[I] [24th]`: Update handling of [Parsons Puzzle](/courses/assessments/#parsons-puzzle-assessments) assessments to always show check/submit button irrespective of submit button surpressed in guides
 - `[I] [23rd]`: Add ability to [randomise](/courses/assessments/#execution_2) answers to students for Multiple Choice assessment
 - `[I] [19th]`: Fix problem with final grades in disabled assignments
 - `[I] [19th]`: Fix problem with time shown in assessments being for when assignment opened, not when assessment run
-- `[I] [19th]`: Improve handling [Master/Child](/courses/classes/#updating-and-sending-notifications-to-child-courses) 
+- `[I] [19th]`: Improve handling [Master/Child](/courses/classes/#updating-and-sending-notifications-to-child-courses) to make pulling into child courses simpler
 - `[I] [17th]`: Improve handling of export course data for large courses
 - `[I] [17th]`: Update handling of adjusting deadline for assignments past end time where not previously started
 - `[I] [12th]`: Fix issue with submission of assessments in completed assignment when in disabled state
