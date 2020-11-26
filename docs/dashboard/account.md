@@ -207,7 +207,7 @@ Please be warned that when you do finally close the account, it cannot be retrie
 ## Organisation Billing
 ![Organizations Billing](/img/organisations_billing.png)
 
-For Schools and University organisations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts), and for active subscriptions, view the details of the current plan as well as enter the email of the person who should receive billing notifications.
+For Schools and University organisations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organisation to **Student Pay** where students are prompted to enter a credit card when they sign up.
 
 To access the organsisation billing screen:
 
@@ -220,7 +220,7 @@ To access the organsisation billing screen:
 1. You will see billing options listed across the top of the page.
 ![Org Billing](/img/class_administration/orgbilling.png)
 
-Select the country you are in and 'Save'. Then enter the number of student licenses required (**minimum 25**). The plans available will be shown , select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
+Select the country you are in and 'Save'. Then enter the number of student licenses required. The plans available will be shown , select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
 
 If you have a promotion code, enter it in the appropriate field. Validation is case insensitive.
 
@@ -230,7 +230,7 @@ If you have a promotion code, enter it in the appropriate field. Validation is c
 
 When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.
 
-The option to switch to/from a Self Pay plan is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.
+The option to switch to a Self Pay plan where students are prompted to enter a credit card when they sign up is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.
 
 
 ![Organizations Billing](/img/organisations_invoicing.png)

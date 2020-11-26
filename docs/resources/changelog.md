@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2020**
 
+- `[I] [25th]`: Improve handling of [self-invoicing](/dashboard/account/#organisation-billing)
 - `[I] [24th]`: Update handling of [Parsons Puzzle](/courses/assessments/#parsons-puzzle-assessments) assessments to always show check/submit button irrespective of submit button surpressed in guides
 - `[I] [23rd]`: Add ability to [randomise](/courses/assessments/#execution_2) answers to students for Multiple Choice assessment
 - `[I] [19th]`: Fix problem with final grades in disabled assignments
