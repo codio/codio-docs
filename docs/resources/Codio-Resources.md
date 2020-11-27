@@ -25,7 +25,7 @@ Please note, if working on codio.co.uk, you need to use the **Share Code**
 
 *For more detail, click on the link.*
 
-- [Engineering Software as a Service (projects only)](https://www.codio.com/resources/esaas-projects)
+- [Engineering Software as a Service (projects only)](https://www.codio.com/resources/esaas-projects) **Share Code: 42NJ-RXEA-YVN6**
 Armando Fox and David Patterson's popular courseware seamlessly integrated for students and zero setup for instructors.
 - [CS: Introduction in Java](https://www.codio.com/resources/intro-java)
 Introduction to Computer Science in Java with native Codio content promoting engagement and active learning with fully auto-graded assessments and minimal text.

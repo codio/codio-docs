@@ -96,7 +96,11 @@ This message can include details of all the changes made in each assignment or j
 
 The history of all notifications sent for published updates in the master course can be seen selecting the **View Sent Notification**
 
-Where notifications have been sent, teachers will then see a notification changes available in the associated child courses
+Where notifications have been sent, teachers will then see an icon on the course view
+
+![Course Update List](/img/manage_classes/courseupdatelist.png) 
+
+and when accessing the course, details of the notification changes available in the associated child course
 
 ![Course Update Banner](/img/manage_classes/courseupdates.png) 
 
@@ -142,7 +146,9 @@ Select the master course and module and select the assignment(s) to be added to 
 
 The assignment in the child course will automatically be published.
 
+#### Reverting to an earlier version
 
+You can revert to earlier published versions, see [Revert to earlier versions](/courses/coursemanagement/#reverting-to-an-earlier-version)
 
 ## Searching and ordering courses
 Courses are shown grouped together by their creation date with the most recently created first.

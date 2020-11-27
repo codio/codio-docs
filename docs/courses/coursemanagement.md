@@ -299,6 +299,22 @@ then you should
 
 ![versions](/img/stack_notmodified.png)
 
+## Reverting to an earlier version
+
+You can revert back to earlier published versions. **Please Note** reverting to an earlier version automatically publishes it and will be available to students.
+
+Go to the **Versions** listing
+
+![View Versions](/img/manage_classes/viewversions.png) 
+
+Selecting will show you the listing of all previous versions, click the **Revert** button you wish to revert back to.
+
+![Revert Version](/img/manage_classes/revertversion.png) 
+
+When teachers next wish to open the assignment in edit mode in the course, they can elect to update their working copy to the currently published version if required.
+
+![publishedversion](/img/publishedversion.png)
+
 #### Stack modifications
 If you have made any changes to the project's stack then you should first press the **Stack** button where you can then change the stack or check/confirm that **Use the latest version** is selected. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
