@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2020**
+
+- `[I] [ 2nd]`: Improve handling of publishing Jupyter Notebook assignments to better update students version if already started
+
 **November 2020**
 
 - `[F] [27th]`: Add ability to [Revert to earlier versions](/courses/coursemanagement/#reverting-to-an-earlier-version)
