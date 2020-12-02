@@ -117,6 +117,8 @@ if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based
 
 When the assignment is published to a course, either as an [individual project](/courses/classes/#assign-a-project-to-the-course) or as part of a course [module](/courses/classes/#assign-resource-modules-to-the-course), the release version is created for the student.
 
+If the assignment is updated in the future, when published it will overwrite all tests and read only cells with the new version and the release version for the students will be updated.
+
 When the student submits the assignment by marking the assignment as complete, it will be [autograded](/courses/classes/#autograde-on-assignment-complete) automatically.
 
 [Manual grading](/courses/grading/#grading-project-work) is also available if required
