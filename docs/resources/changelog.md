@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2020**
 
+- `[I] [16th]`: Add support for partial points with [Fill in the Blanks](/courses/assessments/#grading_3) assessment allowing student to get % of total points based on % of blanks they get correct
 - `[I] [ 2nd]`: Improve handling of publishing Jupyter Notebook assignments to better update students version if already started
 
 **November 2020**

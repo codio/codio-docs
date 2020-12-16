@@ -537,7 +537,7 @@ Some examples:
 
 ![authtoken](/img/guides/assessment_fitb_grading.png)
 
-- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A score of 0 is given if any of the responses is incorrect.
+- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of blanks they get correct.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position).
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
