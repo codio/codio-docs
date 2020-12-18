@@ -205,7 +205,7 @@ Your course may be taught by more than one teacher. If this is the case, you can
     ![Search Teacher](/img/manage_classes/adding_teachers/search_teacher.png)
     
     
-1. The teacher should then appear in your teacher list for that course. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so enabling the **Read Only** switch. With this enabled, these teachers will not be able to switch into **Edit** mode.
+1. The teacher should then appear in your teacher list for that course. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so checking **Add this teacher as read-only** option. If needed to be changed later, this can be done toggling the **Read Only** switch. With this enabled, these teachers will not be able to switch into **Edit** mode.
 
     ![Course Read Only Teacher](/img/manage_classes/adding_teachers/coursereadonly.png)
     
@@ -215,7 +215,7 @@ Click **Done** to save your changes.
 1. If the teacher is not a member of your Organization, you can send them an invitation email.
     ![Invite Teacher](/img/manage_classes/adding_teachers/inviteteacher.png)
 
-1. An email will be sent to your colleague containing a link where they can sign up for a Codio account and on completion they will be added into your organization and course automatically. They must use the email address the invitation was sent to or they will not be successfully added to the organization or course. Once they have joined you can then, if required, enable **Read Only** mode for them
+1. An email will be sent to your colleague containing a link where they can sign up for a Codio account and on completion they will be added into your organization and course automatically. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so checking **Add this teacher as read-only** option. If needed to be changed later, this can be done toggling the **Read Only** switch. With this enabled, these teachers will not be able to switch into **Edit** mode as above.
 
 ### Teaching Assistants
 
