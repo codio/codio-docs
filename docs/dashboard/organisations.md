@@ -46,8 +46,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 
     ![Invite Teacher](/img/manage_organization/inviteteacher.png)
  
-
-When the teacher has joined, they can be set to **Read-Only** so that they cannot make changes to content in courses. In the course, they will not be able to switch into **Edit** mode. This can be done at the organisation level (see [Organisation level read only teachers](/dashboard/organisations/#organisation-read-only-teachers)) or at the course level (see [Course level read only teacher](/courses/classes/#adding-teachers-to-a-course))
+Check the **Add this teacher as Read Only** so that they cannot make changes to content in courses. In the course, they will not be able to switch into **Edit** mode. This can be done at the organisation level (see [Organisation level read only teachers](/dashboard/organisations/#organisation-read-only-teachers)) or at the course level (see [Course level read only teacher](/courses/classes/#adding-teachers-to-a-course))
 
 1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organization automatically.
 **N.B.** They must use the email address the invitation was sent to or they will not be added to the Organization.
