@@ -149,11 +149,13 @@ Where **Use Latest Version** is useful is when you assign a course module and it
 
 1. If you are in the IDE, click the Codio icon in the top left corner to take you to the **Courses** screen. If you are in the dashboard, click on **Courses** in the left menu.
 
-1. Click the **blue plus** sign at the top left of the page.
-![authtoken](/img/manage_classes/blue_plus.png)
+1. Click the **New Course** button at the top left of the page.
 
-1. Select **Empty Course** , complete the details requested, then click **Create Course**.
-![authtoken](/img/manage_classes/create_class/new-class.png)
+![New Course](/img/manage_classes/addcourse.png)
+
+1. Select **Add Empty Course** , complete the details requested, then click **Create Course**.
+
+![Add Empty Course](/img/manage_classes/create_class/new-class.png)
 
 1. Your new course will appear in your **Courses** area.
 

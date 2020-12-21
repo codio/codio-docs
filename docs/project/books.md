@@ -44,7 +44,7 @@ Here are some specific things to be aware of.
 ## Creating and managing books
 
 ### Creating a new book
-Creating a new book is done from the main books screen. Press the large blue **New Book** button in the top right of the screen.
+Creating a new book is done from the main books screen. Press the large blue **New Book** button.
 
 You will get the same options for creating a book as for a project, so you can start from scratch or import from a project or a Git repo. You also have control over visibility as with projects and courses.
 
