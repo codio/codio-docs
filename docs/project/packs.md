@@ -33,7 +33,7 @@ You will then be transferred to the [Create Project](/project/projects/#creating
 ![Packs Info](/img/packs_info.png)
 
 ## Creating a pack
-You can create a new Starter Pack by pressing the **New Pack** button in the top right of the screen. Please refer to the [Pack Guidelines](/project/packs/#pack-guidelines) for details in how to approach Starter Pack creation.
+You can create a new Starter Pack by pressing the **New Pack** button. Please refer to the [Pack Guidelines](/project/packs/#pack-guidelines) for details in how to approach Starter Pack creation.
 
 ### Selecting the Source
 You need to tell Codio where to get its source code from. There are two options

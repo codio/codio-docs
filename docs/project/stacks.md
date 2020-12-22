@@ -92,8 +92,7 @@ With the project open in the IDE, select the menu option **Project->Stack->Creat
 ![Stacks Create New](/img/stacks_createnew.png)
 
 ### Create new stack from the dashboard
-From the dashboard, click on the **Stacks** item on the left hand side. On the stacks listing page, press the large blue **+** button to create a new stack. You then point to your project.
-
+From the dashboard, click on the **Stacks** item on the left hand side. On the stacks listing page, press the large blue **New Stack** button to create a new stack. You then point to your project.
 ![Stacks Create](/img/stacks_create.png)
 
 When you have completed the required fields and pressed the `Create` button, we will generate a Stack image for you. This can take a few minutes, depending on the size of the Stack image. You do not need to remain on this screen while the Stack is created, so feel free to continue to other parts of Codio. The source project will not be accessible until the stack has been created.

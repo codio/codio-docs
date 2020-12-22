@@ -51,7 +51,7 @@ Learn how to bring together HTML, CSS, and JavaScript to create web pages.
 A fun JavaScript project covering computational thinking concepts as well as introductory programming topics with fully auto-graded assessments.
 - [Computational Thinking - Create a Maze Game = Python](https://www.codio.com/resources/maze-python) **Share Code: A2MK-QLKK-LDX9**
 A fun Python project covering computational thinking concepts as well as introductory programming topics with fully auto-graded assessments.
-- [Crunch](https://www.codio.com/resources/crunch)
+- [Crunch](https://www.codio.com/resources/crunch) **Share Code: TMUA-YGQY-GDV6**
 A student-friendly way to teach Assembly (based on Little Man Computer) allowing students to try low-level commands within their browser. For more details on Crunch, [click here](docs/resources/Resource-Tools/crunch)
 - [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://www.codio.com/resources/r-for-data-science) **Share Code: WM9N-QV92-7QCW**
 Hadley Wickham and Garrett Grolemund's text paired with RStudio for a seamless learning experience.

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2020**
 
+- `[I] [22nd]`: Update course creation changing to show button consistent with creating new projects/stacks/packs
 - `[I] [18th]`: Improve handling of adding new teachers to organisation and/or course as **Read-Only** teachers
 - `[I] [18th]`: Fix problem with UnitTestGrader type of Parsons Puzzle assessment not showing correctly in student's assignment
 - `[I] [18th]`: Improve handling for saving of [Scratch](/resources/Resource-Tools/scratch/) projects

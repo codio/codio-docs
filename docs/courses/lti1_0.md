@@ -62,7 +62,6 @@ If you are unable to utilise the Codio LTI App, the **Assignment URL** is where 
 
 - Complete the mapping in your LMS.
 
-<a name="exportlti"></a>
 
 ### Exporting LTI settings
 
@@ -219,7 +218,9 @@ First enable [LTI Constant URLs](/courses/lti1_0/#lti-constant-urls) for your co
 ![course fork id](/img/lti/fork_class_id.png)
 
 - In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field
+
 ![Parent course ID](/img/lti/parent_class.png)
+
 - Submit
 
 - In the new course created in your LMS, open one of the new assignments and this will then create the new course in Codio containing the content from your original Codio course.

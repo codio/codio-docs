@@ -21,11 +21,13 @@ To work with the course features in Codio you will first need to set up a course
 
 1. If you are in the IDE, click the Codio icon in the top left corner to take you back to the **Courses** screen. If you are in the dashboard, click on **Courses** in the left menu.
 
-1. Click the **blue plus** sign at the top left of the page.
-![authtoken](/img/manage_classes/blue_plus.png)
+1. Click the **New Course** button at the top left of the page.
 
-1. Select **Empty Course** , complete the details requested, then click **Create Course**.
-![authtoken](/img/manage_classes/create_class/new-class.png)
+![New Course](/img/manage_classes/addcourse.png)
+
+1. Select **Add Empty Course** , complete the details requested, then click **Create Course**.
+
+![Add Empty Course](/img/manage_classes/create_class/new-class.png)
 
 1. Your new course will appear in your **Courses** area.
 
@@ -239,9 +241,11 @@ You can add students to your organization and your course easily by giving each 
 1. From the **Courses** area, click on your course to open it.
 
 1. Click on the **Students** tab, top centre of your screen.
+
 ![authtoken](/img/manage_classes/students_tab.png)
 
 1. Click on the **blue plus** sign, top left of the page.
+
 ![authtoken](/img/manage_classes/blue_plus.png)
 
 1. You can then send the 2 word token to your students or send them the Invite URL to join the course or you can add the Test students to your course. We recommend you use the **Invite URL** to avoid students going through the process to create a new organisation where they may click on the **Free Trial** button in error. There maybe a delay in us being able to get back to them to advise them of the correct steps to take but if you use the Invite URL, they should be able to get started a lot quicker.
