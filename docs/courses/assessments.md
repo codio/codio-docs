@@ -1,7 +1,5 @@
 ---
 title: Codio Assessments
-
-
 ---
 
 ## Assessments
@@ -446,8 +444,9 @@ The configuration fields for an assessment are split into five sections: General
 ![](/img/guides/assessment_mc_grading.png)
 
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
-- **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value.
+- **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of answers they get correct where **Multiple Response** is enabled.
 - **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
+
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
