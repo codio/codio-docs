@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2020**
 
+- `[I] [24th]`: Add support to show images in [Fill in the Blank](/courses/assessments/#fill-in-the-blank) drop down option, and also in distractor field
 - `[I] [23rd]`: Add support for partial points in [Multiple Choice](/courses/assessments/#grading_2) assessment
 - `[I] [22nd]`: Update course creation changing to show button consistent with creating new projects/stacks/packs
 - `[I] [18th]`: Improve handling of adding new teachers to organisation and/or course as **Read-Only** teachers
