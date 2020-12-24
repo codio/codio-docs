@@ -479,7 +479,7 @@ The example below shows a typical question where the student has to complete the
 ![](/img/guides/assessments-fitb1.png)
 
 ### Drop Down
-The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.  You can also add distractors (ie wrong answers).
+The example below shows a variation, where the student is given a list of possible answers and has to select the right answer from a drop down list of possible answers. This is then auto-graded as explained below.  You can also add distractors (ie wrong answers) as well as using images for students to select from
 
 ![](/img/guides/assessments-fitb2.png)
 
