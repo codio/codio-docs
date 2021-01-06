@@ -120,9 +120,34 @@ The screenshot below shows the configuration fields for the _Execution_ section:
 
 ![](/img/guides/assessment_sct_execution.png)
 
-- **Command** is the command that executes the student code itself. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
+- **Command** is the command that executes the student code itself. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data. 
 - **Pre-exec command** is the command to execute before you run each test. This will normally be a compile command.
 - Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
+
+Files can be dragged into the command and pre-exec command field from the file tree and will automatically populate with the necessary execution codes:
+
+- **Java**
+Compile: javac -cp path/to/file filename.java
+Run: java -cp path/to/file filename
+
+- **Python**
+Run: python path/to/file/filename.py
+
+- **C**
+Compile: gcc filename.c -o filename -lm
+Run: ./filename
+
+- **C++**
+Compile: g++ -o filename filename.cpp
+Run: ./filename
+
+- **Ruby**
+Run: ruby filename.rb
+
+- **Bash**
+run: bash full_path.sh
+
+
 
 #### Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
@@ -233,7 +258,7 @@ The screenshot below shows the basic configuration fields for the _General_ sect
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
 #### Execution
-You can evaluate student code using a variety of languages and frameworks that are already supported. You can also use a custom grading script.
+You can evaluate student code using a variety of languages and frameworks that are already supported. Files can be dragged into the command field where relevant from the file tree. You can also use a custom grading script.
 
 Supported languages and frameworks:
 
