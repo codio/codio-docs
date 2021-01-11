@@ -1,7 +1,13 @@
 
-The student dashboard is the main ‘home’ area that you use to navigate Codio. This is what it looks like:
+The student dashboard is the main ‘home’ area that you use to navigate Codio. There are currently 2 dashboard views and you can swap between them toggling the **New Dash/Old Dash** button on the top right.
 
-![authtoken](/img/what_students_do/studentdashboard.png)
+Default Dashboard:
+
+![studentdash](/img/what_students_do/newstudentdashboard.png)
+
+Alternative Dashboard:  
+
+![alternatestudentdash](/img/what_students_do/studentdashboard.png)
 
 From the **Courses** screen you can view your classes, courses, projects and help by using the links on the left hand panel.
 
@@ -19,6 +25,7 @@ If you are not using and LMS then your instructor should have given you one of t
 - If your teacher has sent you an Invitation URL, copy/paste that into your browser.
 
 - If your teacher has sent you a 2 word token, go to **[Join a course](https://codio.com/p/join-class)** button on our website and enter the token.
+
 ![authtoken](/img/joinclass.png)
 
 
@@ -27,11 +34,29 @@ To access your course after this point, log in to your Codio account and go to t
 
 ## Courses
 
-The **Courses** area is where you can see the modules and assignments that have been assigned to you. Up to 5 pinned assignments will be displayed more prominently at the top of the page and where your teacher has set an end date for the assignment, this will be shown in the card.
 
-Below is an example of a student’s **Courses** area:
+### Default Dashboard
+
+Below is an example of a student’s **Courses** area with the default dashboard:
+
+![studentdash](/img/what_students_do/newstudentdashboard1.png)
+
+- **1:** - Where you can toggle between list view or tile view of the courses you are enrolled in.
+- **2:** - Where you will see a list of assignments including due dates (if set by your instructor/teacher) to do including any pinned assignments. The pane can be collapsed clicking on the arrow. Click the assignment pane to open it.
+- **3:** - Where you will see a list of recent feedback for your assignments when grades are released by your instructor/teacher. The pane can be collapsed clicking on the arrow. Click to open the assignment feedback where you can then review your assessments, grading comments and any code comments from your instructor/teacher.
+- **4:** - Where you can open the course to see the details of the modules/assignments in that course where you can also open the assignment, view grade/comments etc.
+
+#### Expanded Course
+
+![studentcourse](/img/what_students_do/expandedcourse.png)
+
+
+Below is an example of a student’s **Courses** area with the alternative dashboard:
 
 ![Student Dashboard](/img/what_students_do/studentdashboard.png)
+
+The **Courses** area is where you can see the modules and assignments that have been assigned to you. Up to 5 pinned assignments will be displayed more prominently at the top of the page and where your teacher has set an end date for the assignment, this will be shown in the card.
+
 
 Using the **Courses** area, you can easily re-open the assignment you were last working on, or start/open any of the other assignments that have been assigned to you. You  start or open assignments using the navigation buttons displayed.
 
@@ -49,11 +74,11 @@ Codio has a built in dyslexia support feature. If you have students who would pr
 
 1. From the menu at the top right of the screen, select the setting icon (the gear icon), then **Theme**, then select the **Dyslexic** option.
 
-![authtoken](/img/settings.png)
+![DsylexiaSettings](/img/settings.png)
 
 1. The screen should now display like this:
 
-![authtoken](/img/dyslexicview.png)
+![DsylexiaView](/img/dyslexicview.png)
 
 ## Forgotten passwords
 
@@ -107,7 +132,7 @@ The easiest way to get rid of these is to restore the original files in a assign
 To do this:
 
 1. Open the assignment you are working on. In the top right, choose the settings icon, and then **Restore current files**
-![authtoken](/img/guides/reset.png)
+![RestoreCurrentFiles](/img/guides/reset.png)
 
 If this does not achieve what you need, you can contact your class instructor who can reset the assignment back to its default state and you can start again as new.
 
