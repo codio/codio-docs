@@ -1,5 +1,5 @@
 
-The student dashboard is the main ‘home’ area that you use to navigate Codio. There are currently 2 dashboard views and you can swap between them toggling the **New Dash/Old Dash** button on the top right.
+The student dashboard is the main ‘home’ area that you use to navigate Codio. There are currently 2 dashboard views and you can swap between them toggling the **New Look** button on the top right.
 
 Default Dashboard:
 
