@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2021**
 
+
 - `[F] [11th]`: New [Student Dashboard](/students/) released with ability for students to switch back to old dashboard if they wish for next month
 - `[I] [ 5th]`: Fix issue with teachers seeing different standard code test output to students
 - `[I] [ 5th]`: Improve standard and advanced code tests allowing files to be dragged into command/pre-exec command fields and automatically populate with relevant execution code
@@ -20,6 +21,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2020**
 
+
+- `[I] [24th]`: Add support to show images in [Fill in the Blank](/courses/assessments/#fill-in-the-blank) drop down option, and also in distractor field
 - `[I] [23rd]`: Add support for partial points in [Multiple Choice](/courses/assessments/#grading_2) assessment
 - `[I] [22nd]`: Update course creation changing to show button consistent with creating new projects/stacks/packs
 - `[I] [18th]`: Improve handling of adding new teachers to organisation and/or course as **Read-Only** teachers
