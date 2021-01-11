@@ -11,6 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2021**
+
+- `[F] [11th]`: New [Student Dashboard](/students/) released with ability for students to switch back to old dashboard if they wish
+- `[I] [ 5th]`: Fix issue with teachers seeing different standard code test output to students
+- `[I] [ 5th]`: Improve standard and advanced code tests allowing files to be dragged into command/pre-exec command fields and automatically populate with relevant execution code
+- `[I] [ 5th]`: Improve handling of Multiple Choice questions to recalculate score for students where initially published with incorrect settings
+
 **December 2020**
 
 - `[I] [23rd]`: Add support for partial points in [Multiple Choice](/courses/assessments/#grading_2) assessment
