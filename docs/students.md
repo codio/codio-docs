@@ -5,7 +5,7 @@ Default Dashboard:
 
 ![studentdash](/img/what_students_do/newstudentdashboard.png)
 
-Alternative Dashboard:
+Alternative Dashboard:  
 
 ![alternatestudentdash](/img/what_students_do/studentdashboard.png)
 
