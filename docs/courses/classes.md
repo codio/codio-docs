@@ -33,7 +33,7 @@ To work with the course features in Codio you will first need to set up a course
 
 ### Creating new course from share code
 
-You can create courses from a code other users in other organisations can share to you. 
+You can create courses from a code other users in other organisations can share to you. A relationship between your course and those created using the share code will be established so any updates/changes you may make in your course content can be pulled in by the other users. See [working with master/child courses](/courses/classes/#working-with-masterchild-courses) below for more information
 
 1. Select the **Add From Share Code** option
 
@@ -81,7 +81,7 @@ Please note, students in the existing course will not be added to the new course
 
 #### Working with Master/Child courses
 
-Where you have cloned a course, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.
+Where you have cloned a course or created using a share code, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.
 
 After publishing the updates from the original course, you can send notifications so that teachers (not 'read only' teachers) in the course will see a banner advising them of the available updates.
 
