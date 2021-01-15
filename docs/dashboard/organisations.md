@@ -149,7 +149,7 @@ If you enable this feature, all students will be shown the form when they first 
 
 ![authtoken](/img/consent.png)
 
-You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, here is a reference for markdown:
+You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown or HTML to format your text. If you are not familiar with markdown, here is a reference for markdown:
 
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
 

@@ -13,7 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2021**
 
-
+- `[I] [11th]`: Add support for HTML to be used in creating [student consent form](/dashboard/organisations/#creating-content)
 - `[F] [11th]`: New [Student Dashboard](/students/) released with ability for students to switch back to old dashboard if they wish for next month
 - `[I] [ 5th]`: Fix issue with teachers seeing different standard code test output to students
 - `[I] [ 5th]`: Improve standard and advanced code tests allowing files to be dragged into command/pre-exec command fields and automatically populate with relevant execution code
