@@ -280,6 +280,10 @@ sudo python3 -m pip install pycodestyle
 
 To add individual Python source files whose style should be checked, either enter their relative path to `~/namespace` or drag them from the Filetree into the **Add Case** input box, and click **Add Case**. You may add as many cases as needed. When the assessment executes, `pycodestyle` will inspect each added file and output all styling issues that it found.
 
+#### Using `UnitTest`
+
+When using Python unit test and you want to implement a Python test and keep the test file (```.guides/secure```) separate from the student work (another directory) you can define the student folder where the students ```.py``` file is located where it is not located in the ```workspace``` folder
+
 #### Using `jshint` or `jslint`
 Before using them, `jshint` or `jslint` must be installed as a Node.js global package. You may use the following command to do so:
 

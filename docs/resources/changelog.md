@@ -12,8 +12,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **January 2021**
-
-- `[F] [18th]`: Added [Git Hub API](/project/ide/tools/ghapi/) can be used with [Git Hub Actions](https://github.com/features/actions) to automate the publication of assignments.
+- `[I] [18th]`: Add Student Path field for python unit tests
+- `[I] [18th]`: Add prolog syntax highlighting support
+- `[F] [18th]`: Added [Git Hub API](/project/ide/tools/ghapi/) that can be used with [Git Hub Actions](https://github.com/features/actions) to automate the publication of assignments.
 - `[I] [15th]`: Add support for HTML to be used in creating [student consent form](/dashboard/organisations/#creating-content)
 - `[F] [11th]`: New [Student Dashboard](/students/) released with ability for students to switch back to old dashboard if they wish for next month
 - `[I] [ 5th]`: Fix issue with teachers seeing different standard code test output to students
