@@ -66,6 +66,8 @@ It is recommended that you connect your assignments to a remote repo (GitHub/Bit
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
+- automate the publishing process as you merge your repo branch into the master branch. See **[GitHub API](/project/ide/tools/ghapi/)** for more information
+
 **Please note** the code workspace, other than the guides folder, is never updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
 To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings} for more information) but be aware that any existing work they may have done will be lost.
@@ -274,7 +276,7 @@ Click **Use latest version** and then **Update** for the changes to be made avai
 
 By default a project assignment is not available to others until you explicitly publish it. This ensures that you can make changes, even after publishing, without the published course content being affected.
 
-Publishing the assignment takes a snapshot of the underlying project assignment and assigns it a new version. Once published, you can make further edits to the assignment without changes being visible in the published assignment until you publish it again.
+Publishing the assignment takes a snapshot of the underlying project assignment and assigns it a new version. Once published, you can make further edits to the assignment without changes being visible in the published assignment until you publish it again. You can also automate the publishing process as you merge your repo branch into the master branch. See [GitHub API](/project/ide/tools/ghapi/) for more information
 
 - Select the assignment from the listing and then press **Publish**.
 
@@ -325,6 +327,8 @@ When done you should
 1. Press the **Publish** button when ready.
 1. Enter the changelog text, which is a description of the changes made since the last publish and select the **Publish with stack update** option
 
+Please note if using [GitHub API](/project/ide/tools/ghapi/) to automate the publising process, this will **not** update the stack. You will need to also re publish manually to update the stack
+
 For more information on how to update/modify stacks, see [Modifying a stack](/project/stacks/#modifying-a-stack)
 
 
@@ -360,6 +364,8 @@ If you are working in an assignment and wish to revert to the last published ver
 
 - collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published
 
+- automate the publishing process as you merge your repo branch into the master branch. See [GitHub API](/project/ide/tools/ghapi/) for more information
+
 **Please note** the code workspace can be updated with new files added but existing files will not be updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. 
 
 To enable students who have started the unit to see the new content, the assignment can be **Reset** (see [Actions Area Settings](/courses/classes/#actions-area-settings) for more information) but be aware that any existing work they may have done will be lost.
@@ -379,8 +385,7 @@ The rules for other users to edit a project assignment in a course are as follow
 
 The ability to create public courses/modules can be enabled for the organization. See [Public/Private setttings](/dashboard/organisations/#publicprivate-settings) for more information.
 
-![authtoken](/img/manage_organization/public_private.png)
-
+![Public/Private](/img/manage_organization/public_private.png)
 
 If you want 2 or more people to collaborate on a project assignment directly, you need to understand how Codio manages this process.
 
