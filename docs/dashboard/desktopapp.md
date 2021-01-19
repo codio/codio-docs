@@ -13,7 +13,7 @@ Assignments/Projects from the [Courses dashboard](/students/#courses) and [My Pr
 
 A Codio account is required
 
-<a name="codioignore"></a>
+
 
 ## Excluding files
 Files/folders can be excluded from synchronisation by using `.codioignore` file in the source project.
@@ -44,7 +44,7 @@ A line starting with `#` serves as a comment
 **[Click here](https://www.codio.com/download)** to go to the download page and install to your local machine
 
 ## Starting the app
-When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the assignmented Kingdom/Europe, it maybe **https://codio.co.uk**.
+When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the United Kingdom/Europe, it maybe **https://codio.co.uk**.
 
 ![desktop server](/img/desktop_server.png)
 
@@ -54,15 +54,21 @@ Having selected the server log in using your codio credentials.
 
 <i>**Note:** that if you usually access Codio through an [LMS](/courses/lti1_0/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/dashboard/account/#forgot-your-password) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
 
-<a name="connect"></a>
+
 ## Accessing and connecting to your online content
+
 ![desktop options](/img/desktop_options.png)
 
-When logged in you can access your content either from **Courses** or **My Projects** area
+When logged in you first see a list of all courses you are a member of and can access your content either from **Courses** or **My Projects** area. 
 
-Select either:
+To pull the code, click on your course or My Projects 
+
+![desktop connect](/img/desktop_connect.png) 
+
+and then select either:
 
 - **connect** - to pull all the code from the selected assignment to a folder on your PC that you define.
+
 ![desktop workspace](/img/desktop_workspace.png).
 
 - **Open in Codio** - to open the assignment in your Codio account
