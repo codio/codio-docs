@@ -12,6 +12,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[F]` = New feature
 
 **January 2021**
+
+- `[I] [19th]`: Update [Desktop App](/dashboard/desktopapp/) for new student dashboard
 - `[I] [18th]`: Add Student Path field for python unit tests
 - `[I] [18th]`: Add prolog syntax highlighting support
 - `[F] [18th]`: Added [Git Hub API](/project/ide/tools/ghapi/) that can be used with [Git Hub Actions](https://github.com/features/actions) to automate the publication of assignments.
