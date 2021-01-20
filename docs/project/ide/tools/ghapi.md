@@ -44,7 +44,7 @@ From your repository on GitHub, create a new file in the .github/workflows direc
 
 See [Quickstart for GitHub actions](https://docs.github.com/en/actions/quickstart)
 
-#### Example .yml file
+#### Example .yml file for publishing project based assignments
 
 ```yml
 name: codio-publish
@@ -56,7 +56,7 @@ on:
 
 jobs:
   build:
-  # Set the type of machine to run on - do not change this
+  # Set the type of machine to run on - do not change this. Any warnings you may see in workflow actions can be ignored
     runs-on: ubuntu-latest
     steps:
       - name: Log into Codio
@@ -66,13 +66,13 @@ jobs:
         # Use the ID's from the secrets below
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
-      # Checks out a copy of your repository on the ubuntu-latest machin
+      # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout
         uses: actions/checkout@v1
 
       - name: Cleanup
         run: rm -rf .github README.md
-      # Recommend you use tar.gz . zip is allowed but it doesn't handle permissions correctly
+      # Recommend you use tar.gz . zip is allowed but it doesn't handle permissions correctly. See example below on how zip can be used
       - name: Archive
         run: tar czf ../data.tar.gz .
 
@@ -92,12 +92,79 @@ jobs:
 
 The course/assignment id's are found from the URL in your browser when opening the assignment when in teacher mode
 
-![GH secret](/img/course_assignment_id.png)
+![Course/assignment id](/img/course_assignment_id.png)
+
+#### Example .yml file for publishing book/book based assignments 
+
+```yml
+name: codio-publish
+# Run this workflow every time a new commit pushed to your repository branch noted below. Any warnings you may see in workflow actions can be ignored
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+  # Set the type of machine to run on - do not change this
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log into Codio
+        id: codio-login
+        uses: codio/codio-auth-action@master
+        with:
+         # Use the ID's from the secrets below
+          client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
+          secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
+          # Set the domain you are working on - codio.com or codio.co.uk
+          domain: codio.com
+# Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cleanup
+        run: rm -rf .github README.md
+      # Showing how zip can be used but we recommend you use tar.gz (see above example) . zip is allowed but it doesn't handle permissions correctly
+      - name: Install Zip
+        uses: montudor/action-zip@v0.1.1
+
+      - name: Zip
+        run: zip -qq -r ../data.zip .
+
+      - name: Publish to Codio
+        uses: codio/codio-book-publish-action@master
+        with:
+          token: ${{ steps.codio-login.outputs.token }}
+          # The id of the codio book
+          book-id: 5777e7e3b2ce90d2325e923d981a0a06
+          # Set the domain you are workiing on - codio.com or codio.co.uk
+          domain: codio.com
+          # If using tar.gz see example code above
+          zip: ../data.zip
+          changelog: ${{ github.event.head_commit.message }}
+
+      - name: Update Codio Course
+        uses: codio/codio-course-book-update-action@master
+        with:
+          token: ${{ steps.codio-login.outputs.token }}
+          # The codio course id 
+          course-id: 5d2627e6b643887c072eea40
+          # The id of the codio book - see above
+          book-id: 5777e7e3b2ce90d2325e923d981a0a06
+          # Set the domain you are working on - codio.com or codio.co.uk
+          domain: codio.com
+```
+
+The book id's are found from the URL in your browser when viewing the book properties
+
+![Book ID](/img/book_id.png)
+
+The course id's are found (see above), from the URL in your browser when opening one of the assignments when in teacher mode
 
 ### Working with GH API
 
 The basic premise is that when updating your Codio assignment, you connect to your GH repo and create a new branch. Make your required changes and push to your repo. 
-When you then merge your branch to the master branch, the GH workflow runs and publishes your Codio assignment.
+When you then merge your branch to the master branch, the GH workflow runs and publishes your Codio assignment. Progress/errors can be reviewed from the **Actions** area in your repo
 It is recommended when you merge, that you select the option **Squash and Merge** as you can combine all your merge request’s commits into one and retain a clean history.
 
 ### Working with GH API in staging
