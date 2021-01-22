@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2021**
 
+- `[I] [22nd]`: Add support for [ungraded assessments](k/courses/assessments/#ungraded-assessments) and for survey usage
 - `[I] [19th]`: Update [Desktop App](/dashboard/desktopapp/) for new student dashboard
 - `[I] [18th]`: Add Student Path field for python unit tests
 - `[I] [18th]`: Add prolog syntax highlighting support
