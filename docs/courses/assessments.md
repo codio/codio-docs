@@ -14,6 +14,12 @@ Assessments allow you to ask any number of automatically or manually graded ques
 
 You can choose to weave assessments into the tutorial materials or to create dedicated assessments content.
 
+### Ungraded Assessments
+
+Sometimes, teachers ask students to "check their understanding" through ungraded avenues such as bell-ringers, exit tickets, show of hands, etc. The goal is to assess the class's understanding -- not to effect grades.  This can be done by setting the correct/incorrect points to '0' with the result that the assessment will not be graded and no points added (or deducted in the case of an incorrect answer) from the students overall grade score for the assignment.
+
+Setting the correct/incorrect points can also be used for survey purposes
+
 ### Example Project
 https://codio.com/codio-units/java-example is a project that you can [copy](/project/ide/features/#copying-a-project) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Demo Guides and Assessments](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
 
@@ -154,7 +160,7 @@ The screenshot below shows the configuration fields for the _Grading_ section:
 
 ![Code Test Grading](/img/guides/assessment_sct_grading.png)
 
-- **Points** is the score given to the student if the code test passes. You can enter any positive numeric value.
+- **Points** is the score given to the student if the code test passes. You can enter any positive numeric value. '0' points can be set if you require this assessment to be ungraded.
 - Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section [Partial Points](#partial-points) lower down on this page. With this enabled, the grade is based on the % of test cases the code passes.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
@@ -473,8 +479,8 @@ The configuration fields for an assessment are split into five sections: General
 ![](/img/guides/assessment_mc_grading.png)
 
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
-- **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of answers they get correct where **Multiple Response** is enabled.
-- **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
+- **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of answers they get correct where **Multiple Response** is enabled.
+- **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing. If this assessment is to be ungraded, set '0' points
 
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
@@ -565,7 +571,7 @@ Some examples:
 
 ![authtoken](/img/guides/assessment_fitb_grading.png)
 
-- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of blanks they get correct.
+- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded. Enabling the **Allow Partial Points** switch will allow the student to get % of total points based on % of blanks they get correct.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position).
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
@@ -604,7 +610,7 @@ Setting up a free text assessment is very simple. The configuration fields for a
 
 ![](/img/guides/assessment_free_grading.png)
 
-- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
+- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. LaTeX is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
@@ -707,7 +713,7 @@ Setting up an assessment is very simple. The configuration fields for an assessm
 
 ![](/img/guides/assessment_free_grading.png)
 
-- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
+- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview type** section below for details.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
@@ -1001,7 +1007,7 @@ The configuration fields for an assessment are split into five sections: General
 
 ![](/img/guides/assessment_grading.png)
 
-- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
+- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened in the course or when opening the students project. This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
@@ -1107,7 +1113,7 @@ The configuration fields for an assessment are split into five sections: General
 
 - **Gradable** enable if the assignment is to be used within the grade total for the assignment. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the assignment is marked as Completed.
-- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
+- The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. '0' points can be set if you require this assessment to be ungraded.
 - **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradeable**. This is not required if the assignment is not gradeable. This will be visible to the teacher when the project is opened by the teacher This guidance information can also be shown to students after they have submitted their answer and also if they reload the assignment after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 #### Metadata
