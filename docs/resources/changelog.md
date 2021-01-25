@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2021**
 
+- `[I] [25th]`: Add configuration option for nbgrader/jupyter units to allow ClearSolutions.code_stub to be used
+- `[I] [25th]`: Fix problem with teacher guidance not showing when previewing assignment in course
 - `[I] [22nd]`: Add support for [ungraded assessments](k/courses/assessments/#ungraded-assessments) and for survey usage
 - `[I] [19th]`: Update [Desktop App](/dashboard/desktopapp/) for new student dashboard
 - `[I] [18th]`: Add Student Path field for python unit tests
