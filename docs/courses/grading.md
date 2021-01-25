@@ -196,6 +196,22 @@ To avoid execution of autograder with nbgrader and allow codio script autograder
 codio:
   grader: false
 ```
+### ClearSolutions.code_stub
+
+```yaml
+nbgrader:
+    ClearSolutions.code_stub:
+        R: |
+            # BEGIN YOUR CODE
+            # END YOUR CODE
+        python: |
+            # YOUR CODE HERE
+            raise NotImplementedError()
+        ruby: |
+            # BEGIN YOUR CODE
+            raise NotImplementedError.new()
+            #END YOUR CODE
+```
 
 If you require any assistance at all, or would like us to consider adding additional functions, please don't hesitate to [contact us](/dashboard/support/)
 
