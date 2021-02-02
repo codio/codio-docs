@@ -52,7 +52,7 @@ or you can export all the data from a course (including the students workspaces)
 
 ## Accessing student work
 
-As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time.
+As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time. Where students assignments are completed and read only, you can enable writable mode to be able to make changes if necessary.  
 
 1. From the **Courses** area, click on your course to open it.
 
