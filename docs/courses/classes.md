@@ -55,6 +55,16 @@ To share your course with others
 
 1. In order that you can manage access you can disable the code and/or regenerate to create a new code and the original code can no longer be used.  
 
+### Restricting child courses from being cloned/shared
+
+To restrict a course that is shared/cloned from a master course from being shared/cloned further, enable **Course share code** as above and enable **Licensed**
+
+Please note:
+
+- Child courses created from licensed master courses cannot be shared/cloned and the content cannot be added into other courses/modules or as assignments
+- The ability to enable/disable course share code is restricted in such child courses
+
+
 
 ### Cloning a Course
 

@@ -11,11 +11,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**February 2021**
+
+- `[I] [ 2nd]`: Allow teachers to make [changes to students](/courses/grading/#accessing-student-work) completed/read-only assignments
+- `[F] [ 2nd]`: Allow [cloning/sharing](/courses/classes/#restricting-courses-from-being-clonedshared) of courses to be restricted
+
 **January 2021**
 
 - `[I] [25th]`: Add configuration option for nbgrader/jupyter units to allow ClearSolutions.code_stub to be used
 - `[I] [25th]`: Fix problem with teacher guidance not showing when previewing assignment in course
-- `[I] [22nd]`: Add support for [ungraded assessments](k/courses/assessments/#ungraded-assessments) and for survey usage
+- `[I] [22nd]`: Add support for [ungraded assessments](/courses/assessments/#ungraded-assessments) and for survey usage
 - `[I] [19th]`: Update [Desktop App](/dashboard/desktopapp/) for new student dashboard
 - `[I] [18th]`: Add Student Path field for python unit tests
 - `[I] [18th]`: Add prolog syntax highlighting support
