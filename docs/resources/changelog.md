@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2021**
 
+- `[I] [17th]`: Update handling of [Autograde Free Text](/courses/assessments/#autograde-free-text) assessment feedback
 - `[I] [ 2nd]`: Allow teachers to make [changes to students](/courses/grading/#accessing-student-work) completed/read-only assignments
 - `[F] [ 2nd]`: Allow [cloning/sharing](/courses/classes/#restricting-courses-from-being-clonedshared) of courses to be restricted
 
