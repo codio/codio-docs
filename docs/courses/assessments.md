@@ -76,7 +76,7 @@ Once the project is marked as complete (see below) then all assessment responses
 ### Mark as Complete
 To suppress the student **Mark as complete** action, you should go to the guide global settings (see above screenshot) and disable **Use mark as complete**.
 
-A student can proactively mark as assignment as complete. This can trigger an [assignment level autograde script](/courses/classes/#autograde-method) and it is also flagged up in the teacher dashboard against that student.
+A student can proactively mark as assignment as complete. This can trigger an [assignment level autograde script](/courses/classes/#running-an-auto-grade-script) and it is also flagged up in the teacher dashboard against that student.
 
 The drawback to using the student driven mark as complete option is that once students mark a assignment as complete, they are no longer able to make changes to the assignment, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
 
@@ -237,7 +237,9 @@ The following image shows the more tolerant approach that has the **Ignore white
 <a name="errorfeedback"></a>
 ### Error Feedback
 
-To provide extended feedback about issues in the student's code, you can enable this option if you wish to show feedback to the student in the event the test fails.
+To provide extended feedback about issues in the student's code, you can enable this option if you wish to show feedback to the student in the event the test fails. 
+
+**Please note** to prevent memory exhaustion on infinite loops and huge outputs, there is a limit of 1Mb for the script output
 
 ![](/img/guides/std-assessment-error.png)
 ## Advanced code tests
