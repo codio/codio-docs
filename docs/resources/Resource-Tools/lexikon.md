@@ -14,6 +14,7 @@ We currently have added:
 - HTML
 - Javascript
 - Linux
+- CyberSecurity
 
 However, we can easily add coverage for any other Topic. If you are interested in additional topics, please email help@codio.com.
 
