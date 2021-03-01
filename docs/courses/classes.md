@@ -778,7 +778,7 @@ Where you can enable various options to help support running an assignment in ex
 
 - **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
 
-- **Forward Only Navigation** - when enabled, navigation buttons and menus that allow students to re-visit questions will be hidden, so student can only go forward through the pages. Students will be advised of this restriction as they start the assignment
+- **Forward Only Navigation** - When enabled, navigation buttons and menus that allow students to re-visit questions will be hidden so students can only go forward through the pages. If any assessments on a page are un-answered a confirmation box will present to the students in order they can review the assessments before proceeding to next page
 
 - **Single Login** - Once a student has started this assignment, until they mark it as complete, all other account login attempts will be blocked. 
 

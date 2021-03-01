@@ -215,7 +215,7 @@ Your teacher/instructor can enable assignments with a number of exam mode option
 
 - **Shuffle Question Order** - when enabled, you will receive the pages of the assignment in a random order
 
-- **Forward Only Navigation** - when enabled, you can only go forward through the pages. You will not be able to go back to previous pages. You will be advised of this restriction as you start the assignment
+- **Forward Only Navigation** - when enabled, you can only go forward through the pages. You will not be able to go back to previous pages. If you attempt to go to the next page and have any un-answered assessments, you will be advised in order that you can review your answers.
 
 - **Single Login** - Once you start the assignment, until you mark it as complete, all other account login attempts will be blocked. 
 

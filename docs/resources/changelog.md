@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2021**
+
+- `[I] [ 1st]`: Update handling of [Forward Only Navigation](/courses/classes/#exam-proctoring) function to warn students of un-answered assessments before allowing them to proceed to next page
+
 **February 2021**
 
 - `[I] [17th]`: Update handling of [Autograde Free Text](/courses/assessments/#autograde-free-text) assessment feedback
