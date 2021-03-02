@@ -1010,6 +1010,7 @@ These variables allow POST and GET requests with the following parameters:
 - **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
 - **Feedback** - text
 - **Format** - html|md|txt - txt is default
+- **Extra Credit** - where extra credit points can be given to students
 
 If the grade is submitted to these urls script output is saved as debug log.
 If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
@@ -1030,7 +1031,7 @@ def main():
   grade = random.randint(10, 100)
   # Send the grade back to Codio with the penatly factor applied
   
-  res = send_grade_v2(int(round(grade)), '### Hi here', FORMAT_V2_MD)
+  res = send_grade_v2(int(round(grade)), feedback, extra_credit=int(round(grade)), format=FORMAT_V2_HTML)
   exit( 0 if res else 1)
   
 main()
@@ -1042,7 +1043,7 @@ main()
 #!/bin/bash
 set -e
 POINTS=$(( ( RANDOM % 100 )  + 1 ))
-curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
+curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=txt -d feedback='Simple text here'  -d extra_credit=$POINTS
 ```
 
 ### Actions area settings

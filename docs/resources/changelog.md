@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2021**
 
+- `[F] [ 2nd]`: Add ability for students to earn [extra credit](/courses/grading/#extra-credit) on assignments
+- `[I] [ 1st]`: Add shortcut for [publishing](/courses/coursemanagement/#publishing) assignments in courses
 - `[I] [ 1st]`: Update handling of [Forward Only Navigation](/courses/classes/#exam-proctoring) function to warn students of un-answered assessments before allowing them to proceed to next page
 
 **February 2021**

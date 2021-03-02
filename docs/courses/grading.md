@@ -230,6 +230,7 @@ Codio's grading features address four important aspects when grading student pro
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
 The teacher is also able to filter either finding specific students or to view students based on the status of the assignment.
+
 ![Filtering](/img/filter.png)
 
 Students can be filtered by:
@@ -242,6 +243,7 @@ Students can be filtered by:
 - Completed
 - Uncompleted
 - Needs Grading
+- Has Extra Credit
 
 You can access the student's project from the same screen by clicking on the 3 blue dots on the extreme right (see below image with dots circled right). You can then review the project.
 
@@ -263,6 +265,10 @@ To assign comments or a grade, [Teachers Grading](/courses/classes/#teachers-gra
 ![Assign Grades](/img/grading-assign.png)
 
 If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.
+
+#### Extra Credit
+
+Extra credit can be given to students if required. Extra points are not added to the grade just shown as **grade + extra** in the interface for student and teacher views. The extra credit can be added manually by the teacher using the **Extra Credit** button shown above but can also be handled within an autograde script. See [Autograding Enhancements](/courses/classes/#autograding-enhancements) for more information.
 
 #### Anonymous Grading
 If required, anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.
