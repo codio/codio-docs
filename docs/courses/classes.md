@@ -772,13 +772,16 @@ When applied, the adjustment will then show next to the grade field in the teach
 ### Exam Proctoring
 
 Where you can enable various options to help support running an assignment in exam conditions
+
 ![examproctoring](/img/examproctoring.png)
 
 - **Time Limit** - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first
 
 - **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
 
-- **Forward Only Navigation** - when enabled, navigation buttons and menus that allow students to re-visit questions will be hidden, so student can only go forward through the pages. Students will be advised of this restriction as they start the assignment
+- **Forward Only Navigation** - When enabled, navigation buttons and menus that allow students to re-visit questions will be hidden so students can only go forward through the pages. If any assessments on a page are unanswered, a pop-up dialogue will encourage students to review the assessment on the current page before proceeding to the next page.
+
+![Forward Only](/img/forwardonly.png)
 
 - **Single Login** - Once a student has started this assignment, until they mark it as complete, all other account login attempts will be blocked. 
 
@@ -1009,7 +1012,8 @@ These variables allow POST and GET requests with the following parameters:
 
 - **Grade** (```CODIO_AUTOGRADE_V2_URL```): 0-100 grade result
 - **Feedback** - text
-- **Format** - html|md|txt - txt is default
+- **Format** - html|md|txt - txt is default if used (optional)
+- **Extra Credit** - where extra credit points can be given to students (optional)
 
 If the grade is submitted to these urls script output is saved as debug log.
 If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.
@@ -1030,7 +1034,7 @@ def main():
   grade = random.randint(10, 100)
   # Send the grade back to Codio with the penatly factor applied
   
-  res = send_grade_v2(int(round(grade)), '### Hi here', FORMAT_V2_MD)
+  res = send_grade_v2(int(round(grade)), feedback='Simple text here', format=FORMAT_V2_HTML), extra_credit=int(round(grade))
   exit( 0 if res else 1)
   
 main()
@@ -1042,7 +1046,7 @@ main()
 #!/bin/bash
 set -e
 POINTS=$(( ( RANDOM % 100 )  + 1 ))
-curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=md -d feedback=test
+curl --retry 3 -s "$CODIO_AUTOGRADE_V2_URL" -d grade=$POINTS -d format=txt -d feedback='Simple text here'  -d extra_credit=$POINTS
 ```
 
 ### Actions area settings

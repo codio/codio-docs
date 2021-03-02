@@ -58,7 +58,7 @@ Please [click here](/courses/authoring/#project-course-assignment-or-book) for d
 This describes the first time you create a new assignment.
 
 1. **Edit your assignment**. If your assignment is a project assignment, clicking the assignment will take you into the IDE, as with a Codio project, where you can work on your project.
-1. **Publish your assignment**. When you think your assignment is in good shape, it is ready to publish. A assignment is not available to the course until you publish. At this point a snapshot is taken of the assignment and it forms a part of the published course.
+1. **Publish your assignment**. When you think your assignment is in good shape, it is ready to publish. A assignment is not available to the course until you publish. At this point a snapshot is taken of the assignment and it forms a part of the published course. 
 
 It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to 
 
@@ -254,6 +254,18 @@ You can now
 ![Book Mapping](/img/bookmapping.png)
 
 ## Publishing
+
+As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
+
+![Quick Publish](/img/assignmentpubish.png)
+
+This can be used as a shortcut to the publish dialog. There is also an option to publish in the **Education** menu item in the top menu bar.
+
+**Please note**:
+
+- If you change the stack or files via the terminal, the publish button on the top menu bar will NOT appear
+- If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
+
 The publish process is slightly different for books and project assignments. 
 
 ### Updating book assignments 
