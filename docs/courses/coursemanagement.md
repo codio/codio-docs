@@ -255,16 +255,16 @@ You can now
 
 ## Publishing
 
-As you update your assignment, a **Publish** button will show to the left of your username in the top menu bar.  
+As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
 
 ![Quick Publish](/img/assignmentpubish.png)
 
-This can be used as a shortcut to publish dialog. There is also an option to publish in the **Education** menu
+This can be used as a shortcut to the publish dialog. There is also an option to publish in the **Education** menu item in the top menu bar.
 
 **Please note**:
 
-- if you change stack or files via terminal it will NOT appear
-- if you add and remove the same character, it will assume that you made a change even though the start and end file are the same
+- If you change the stack or files via the terminal, the publish button on the top menu bar will NOT appear
+- If you add and remove the same character, it will assume that you made a change even though the start and end file are the same
 
 The publish process is slightly different for books and project assignments. 
 

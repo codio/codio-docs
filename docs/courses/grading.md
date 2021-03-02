@@ -268,7 +268,9 @@ If the students assignment has already been graded, any other teacher in the cou
 
 #### Extra Credit
 
-Extra credit can be given to students if required. Extra points are not added to the grade just shown as **grade + extra** in the interface for student and teacher views. The extra credit can be added manually by the teacher using the **Extra Credit** button shown above but can also be handled within an autograde script. See [Autograding Enhancements](/courses/classes/#autograding-enhancements) for more information.
+Extra credit can be given to students if required. Extra credit points are not added to the grade, instead the student's score is shown as grade + extra in the interface. This is done because LTI does not allow a grade > 100. To make transferring extra credit points to your LMS easier, we have included a ```Has Extra Credit``` filter. 
+
+Extra credit can be added manually by the teacher using the Extra Credit button shown above but can also be set within an autograde script. See [Autograding Enhancements](/courses/classes/#autograding-enhancements) for more information.
 
 #### Anonymous Grading
 If required, anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.
