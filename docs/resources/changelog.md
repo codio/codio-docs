@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2021**
 
+- `[I] [ 4th]`: Restrict students from signing up by token or invite URL where course is LTI enabled. See [Adding students to a course](/courses/classes/#add-students-to-a-course) for more information
 - `[I] [ 4th]`: Increase limit allowed on uploading files
 - `[F] [ 2nd]`: Add ability for students to earn [extra credit](/courses/grading/#extra-credit) on assignments
 - `[I] [ 1st]`: Add shortcut for [publishing](/courses/coursemanagement/#publishing) assignments in courses

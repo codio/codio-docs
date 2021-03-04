@@ -268,6 +268,7 @@ You can add students to your organization and your course easily by giving each 
 
 1. To view the students in your course, select the course and the **Students** tab once again. You will see a list of students who have successfully completed the sign-up process.
 
+**Please note:** If your course is LTI enabled, students cannot be added this way to avoid them having duplicate accounts with different registered email addresses. They do so by logging into the LMS and when accessing an assignment an account will be created for them. See [Single sign-in and account creation]{/courses/lti1_0/#single-sign-in-and-account-creation).
 
 ## Change student passwords
 You can change a student's password in the following way:
