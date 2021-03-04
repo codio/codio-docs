@@ -1035,7 +1035,7 @@ def main():
   grade = random.randint(10, 100)
   # Send the grade back to Codio with the penatly factor applied
   
-  res = send_grade_v2(int(round(grade)), feedback='Simple text here', format=FORMAT_V2_HTML), extra_credit=int(round(grade))
+  res = send_grade_v2(int(round(grade)), feedback='Simple text here', format=FORMAT_V2_HTML, extra_credit=int(round(grade)))
   exit( 0 if res else 1)
   
 main()
