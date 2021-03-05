@@ -63,6 +63,8 @@ All assessments in the global library are auto-graded, there is no manual gradin
 Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the **Codio Main** under "Library Name".
 
 [You can filter through the different assessments](/courses/assessments-library/#searching-and-adding-questions-from-the-assessments-library) by:
+
+- Name
 - Programming language
 - Assessment type
 - Category (topic-level)
