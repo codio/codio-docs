@@ -252,11 +252,10 @@ You can add students to your organization and your course easily by giving each 
 
 1. Click on the **Students** tab, top centre of your screen.
 
-![authtoken](/img/manage_classes/students_tab.png)
+![Students Tab](/img/manage_classes/students_tab.png)
 
-1. Click on the **blue plus** sign, top left of the page.
+1. Click on the **Add a student** button.
 
-![authtoken](/img/manage_classes/blue_plus.png)
 
 1. You can then send the 2 word token to your students or send them the Invite URL to join the course or you can add the Test students to your course. We recommend you use the **Invite URL** to avoid students going through the process to create a new organisation where they may click on the **Free Trial** button in error. There maybe a delay in us being able to get back to them to advise them of the correct steps to take but if you use the Invite URL, they should be able to get started a lot quicker.
 
@@ -418,12 +417,11 @@ A final score is calculated based on your selections and is re-based to the maxi
 
 
 ### Applying a grading template to an assignment
-To use a grading template you should select the course so you see the full assignment listing. To the top right of the list item is a pencil icon. Click on this to enter editing mode
+To use a grading template you should select the course so you see the full assignment listing. Go to the **Edit** tab, select **Settings** 
 
 ![asignmentsettings](/img/class_administration/asignmentsettings.png)
 
-Then select **Settings** and scroll down to the **Grading Weights** from the list, select [Teachers Grading](/courses/classes/#teachers-grading), enable **Rubrics** and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
-
+and scroll down to the **Grading Weights** from the list, select [Teachers Grading](/courses/classes/#teachers-grading), enable **Rubrics** and choose the grading template from the list. If there are no templates set up, follow the link to the organisation area to create a new template.
 
 ![Grading Weights](/img/gradingweights.png)
 
@@ -494,12 +492,14 @@ The simplest and quickest thing you can do is to assign one of your projects to 
 
 - Then select **Copy Project** and your project will show. If you have other projects in your **My Projects** area you can browse to select one of them.
 - At this point you can set the name of the assignment (by default it will be the name of your project with 'copy' appended) and add a description if you wish.
-- When ready, click the **Create** button and the assignment will be added to the course module in draft mode.
+- When ready, click the **Create** button and the assignment will be added to the course module.
 - To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see [creating course content](/courses/coursemanagement)
-- For the assignments to be visible to your students, you need to **Publish** the assignment.
-- Any changes you make in future to assigments will not be visible to students until you publish again. Details of previously published versions is available in the log area.
+- For the assignments to be visible to your students, you need to **Publish** the assignment. 
+- To publish your assignment, either press the **Publish** button visible in the assignment or go to **Education->Publish Assignment**
 
 ![](/img/publish.png)
+
+- Any changes you make in future to assignments will not be visible to students until you publish again. Details of previously published versions is available in the log area.
 
 At this point, we take a snapshot of your source project, ready for the students to clone when they start the assignment. Any changes you make to the source project will not be reflected automatically in the student assignment.
 
@@ -511,7 +511,7 @@ To assign an existing course module, follow the steps below:
 
 1. From the **Courses** screen, click on your course to open it.
 
-1. Click on the **blue plus** sign, top left of the page, and choose **Add Copy from Existing**.
+1. Click on the **New Module** button, and choose **Add Copy from Existing**.
 
 ![Add Copy](/img/manage_classes/addcopy.png)
 
@@ -524,9 +524,11 @@ To add Codio resources to your courses see [Creating from Resources](/resources/
 ## Removing course module from a course
 
 You can remove course modules from a course selecting the **Delete** button
+
 ![delete module](/img/manage_classes/deletemodule.png)
 
 You can also remove individual assignments from a module, clicking the **Delete** button for that assignment
+
 ![deleteassignment](/img/manage_classes/deleteassignment.png)
 
 **Warning**
@@ -574,7 +576,7 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 1.  You can switch back to teacher mode by clicking **Switch back to teacher account**.
 
-![authtoken](/img/class_administration/createanorganization/test-student-view.png)
+![Swtich Teacher](/img/class_administration/createanorganization/test-student-view.png)
 
 
 ## Excluding Files
@@ -609,22 +611,19 @@ On the module assignment screen you can manage the following settings
 
 ![assignmentscreen](/img/class_administration/modulesettings.png)
 
-1. Change the name of the assignment
-2. See if an assignment is in DRAFT mode, and therefore not visible to students in the course
-3. Publish the assignment. This is required before students will be able to see the assignment and also if you have need to update the assignment those changes will not be visible to students until it is published again
-4. View the version history of the assignment publications, This allows you to view the version history. You can see
+1. Change the name of the module
+2. Change the name of the assignment
+3. View the version history of the assignment publications, This allows you to view the version history. You can see
     - date/time when the assignment was published,
     - name of the person who published the assignment,
     - the name and version of the stack assigned to the assignment.
 ![versions](/img/versiondetails.png)
-5. View (and change) the stack settings for the assignment. This option is only available for project assignments. It allows you to switch the stack used by a assignment. If a stack is set to **Use latest version** then
-    - when a assignment has been assigned to a course, any student who has not yet started the assignment will use the latest version of the stack.
-    - the assignment itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
-6. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
+4. Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following
     - Select **Convert content to a project** to delete the assignment and save the assignment contents to your projects list.
     - Select **Delete content** to delete the assignment and its content entirely.
-7. Delete the entire module. You are required to enter a confirmation code to proceed
-8. Reorder the modules in the course. 
+5. Delete the entire module. You are required to enter a confirmation code to proceed
+6. Reorder the modules in the course. 
+7. Duplicate the assignment 
 
 You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.
 
@@ -632,15 +631,15 @@ You can also change the order of the assignments within a module by dragging an 
 
 <p><a href="https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd"><img src="https://embedwistia-a.akamaihd.net/deliveries/3058be9b2705dc8a7fc41d7939157010.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
-To the top right of the list item is a pencil icon. 
+When on the **Edit** tab
 
 ![asignmentedit](/img/class_administration/editassignment.png)
-Click on this to enter editing mode.
-On this screen you can:
+
+you can:
 
 - [Pin](/courses/classes/#pinunpin-units) the assignment
 - Amend the [Unit Duration](/courses/classes/#unit-duration) of the assignment
-- See at a glance how many students have started the unit
+- See at a glance how many students have started and completed the assignment
 - [Release the grades](/courses/grading/#releasing-grades)
 - View Insights for the assignment
 - Access the [assignment settings](/courses/classes/#assignment-settings)
@@ -664,6 +663,7 @@ Available from the **Settings** area.
 
 #### Pin/unpin units
 This allows you to pin or unpin an assignment. Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.
+
 ![Pinned](/img/pinned.png)
 
 #### Disable/enable assignment
