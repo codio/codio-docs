@@ -90,7 +90,7 @@ jobs:
 ```
 
 
-The course/assignment id's are found from the URL in your browser when opening the assignment when in teacher mode
+The course/assignment id's are found from the URL in your browser when opening the assignment when on the **Teach** tab
 
 ![Course/assignment id](/img/course_assignment_id.png)
 
@@ -159,7 +159,7 @@ The book id's are found from the URL in your browser when viewing the book prope
 
 ![Book ID](/img/book_id.png)
 
-The course id's are found (see above), from the URL in your browser when opening one of the assignments when in teacher mode
+The course id's are found (see above), from the URL in your browser when opening one of the assignments when on **Teach** tab
 
 ### Working with GH API
 
