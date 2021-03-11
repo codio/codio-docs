@@ -322,7 +322,7 @@ Selecting will show you the listing of all previous versions, click the **Revert
 
 ![Revert Version](/img/manage_classes/revertversion.png) 
 
-When teachers next wish to open the assignment in edit mode in the course, they can elect to update their working copy to the currently published version if required.
+When teachers next wish to open the assignment in the course, they can elect to update their working copy to the currently published version if required.
 
 ![publishedversion](/img/publishedversion.png)
 

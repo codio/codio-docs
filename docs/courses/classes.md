@@ -1,4 +1,4 @@
----
+https://github.com/codio/codio-docs/pull/85---
 title: Understanding Courses
 
 ---
@@ -550,9 +550,8 @@ To enable students who have started the unit to see the new content, the assignm
 
 
 ### Updating Stack 
-If changes to the stack used in the unit are required, when completed (and tested) remember to update your stack before publishing. Either create a new version of the stack if you have permissions or create a new stack. See [Modifying a stack](/project/stacks/#modifying-a-stack) for more information.
+If changes to the stack used in the assignment are required, when completed (and tested) remember to update your stack before publishing. Either create a new version of the stack if you have permissions or create a new stack. See [Modifying a stack](/project/stacks/#modifying-a-stack) for more information.
 
-If the changes are only to the stack, when created you can go to the stack area for the assignment when in edit mode and change the stack details. 
 
 Most assessment changes can be safely upgraded but if you have altered the structure of a question (for example multiple choice changed from single response to multiple response) then student response data can be invalidated.
 
