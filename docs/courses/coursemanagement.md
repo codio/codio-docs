@@ -138,9 +138,7 @@ In this case, you should plan this ahead of time. You would
 You now own this stack and so you can update whenever you like down the line. When you create new assignments, you would then choose this new stack.
 
 ### Use Latest Version
-When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. If you view the stack settings from the IDE (**Project-Stack Settings**) or from assignment settings, you will see that this is the default.
-
-![Assignment stack settings](/img/stacksettings.png)
+When you assign a stack to a assignment, it will be set by default to the **Use Latest Version**. You can view the stack settings from the IDE (**Project-Stack Settings**)
 
 Understanding what **Use Latest Version** means is important. When you work with a assignment as a course author, that assignment is actually using a fixed version. It does not automatically switch to the latest version each time a new version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button.
 
@@ -257,9 +255,9 @@ You can now
 
 As you update your assignment, a **Publish** button will show on the top menu bar, to the left of your username.  
 
-![Quick Publish](/img/assignmentpubish.png)
+![Quick Publish](/img/assignmentpublish.png)
 
-This can be used as a shortcut to the publish dialog. There is also an option to publish in the **Education** menu item in the top menu bar.
+There is also an option to publish in the **Education** menu item in the top menu bar.
 
 **Please note**:
 
@@ -290,17 +288,14 @@ By default a project assignment is not available to others until you explicitly 
 
 Publishing the assignment takes a snapshot of the underlying project assignment and assigns it a new version. Once published, you can make further edits to the assignment without changes being visible in the published assignment until you publish it again. You can also automate the publishing process as you merge your repo branch into the master branch. See [GitHub API](/project/ide/tools/ghapi/) for more information
 
-- Select the assignment from the listing and then press **Publish**.
-
-- If you have not previously published then you will see **DRAFT**
-
-![versions](/img/versions.png)
+- Go to the **Edit** tab, select the assignment from the listing to open it and then press **Publish** button or go to **Education->Publish Assignment**
 
 
 ### Describe changes
 
 You should enter a brief description of the changes you made since the last publish of the assignment. You can see the version history on the  [versions screen](/courses/classes/#managing-assignments).
 
+![View Versions](/img/manage_classes/viewversions.png)
 
 ### Publishing options
 If, in your project assignment, you have
@@ -345,7 +340,7 @@ For more information on how to update/modify stacks, see [Modifying a stack](/pr
 
 
 ### IMPORTANT: Switching an assignment's stack
-Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack either from within the IDE (**Project->Stack>settings**) or from the assignments listing (press **Stack** icon) but if you use this, when publishing the new version, select the **Publish with stack update** option.
+Let's say you have one or more assignments and you decide to change the stack that they point to. You can switch the stack from within the IDE (**Project->Stack>settings**) but if you use this, when publishing the new version, select the **Publish with stack update** option.
 
 ## Editing an existing assignment
 ### Editing a book assignment
@@ -409,8 +404,6 @@ Let's say User A has authored a assignment and has finished work. At this point,
 User B now makes changes to the assignment. When done, User B should inform User A that the changes are complete and published. At this point, when User A opens the assignment for editing, a dialog will appear showing that User B has published new changes.
 
 ![publishedversion](/img/publishedversion.png)
-
-![Book update](/img/bookupdate.png)
 
 
 User A now wants User B to be able to collaborate. User A should inform User B that the assignment is ready to edit. When User B accesses the assignment, Codio will take a **snapshot** of the published assignment and User B can start work on it. In other words, User B is **not** editing User A's assignment, User B has a clone.
