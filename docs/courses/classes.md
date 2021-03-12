@@ -1118,10 +1118,14 @@ Automatic email notifications can be set up in your courses to send emails to yo
 
 #### Notification details
 
-- **Not Started Assignment:** you can schedule the notifications to be sent hours/days before or after the assignments Due Date (before late penalties) or End Date (after late penalties)
-- **Incomplete Assignment:** you can schedule the notifications to be sent hours/days before or after the assignments Due Date (before late penalties) or End Date (after late penalties)
+- **Not Started Assignment:** you can schedule the notifications to be sent to all students in the course that have never opened the assignment that is due soon
+- **Incomplete Assignment:** you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon as well as those that haven't started the assignment
 - **New Feedback:** the email notification will be sent when new feedback is available for the student
+  
 
+##### **Before**
+
+- **End Date** is taken from the **End Time** set for the assignment duration where penalties are then applied for late submission
 
 **Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
 
@@ -1135,14 +1139,14 @@ You may edit this as you wish.
 
 - Student name ```<<<student name>>>``` : Students name
 - Assignment name ```<<<assignment name>>>```: Assignment name
-- Course name ```<<<course name>>>```: Course Name
-- Course link ```<<<course link>>>```: Link to the Codio course
-- Assignment link ```<<<assignment link>>>```: Link to the assignment
+- Course name ```<<<course name>>>```: Codio course name
+- Course link ```<<<course link>>>```: link to Codio course for non LTI and for LTI enabled courses the [```COURSE LMS URL```](/courses/lti1_0/#course-lms-url)
+- Assignment link ```<<<assignment link>>>```: link to students project (if the project is not started then the course link as above used)
 - Feedback link ```<<<feedback link>>>```: Link to assignment feedback
 - Due date ```<<<due date>>>```: Due date (where set for assignment before any late penalties)
 - End date ```<<<due date>>>```: Due date (where set for assignment after any late penalties)
 
-
+**Please note:** we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our [Feedback](https://docs.codio.com/dashboard/support/#feedback) area.
 
 
 
