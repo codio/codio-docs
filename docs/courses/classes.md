@@ -1125,7 +1125,7 @@ Automatic email notifications can be set up in your courses to send emails to yo
 
 ##### **Before**
 
-- **End Date** is taken from the **End Time** set for the assignment duration where penalties are then applied for late submission
+- **End Date** is taken from the **End Time** set for the assignment duration
 
 **Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
 
