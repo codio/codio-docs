@@ -1,4 +1,3 @@
-https://github.com/codio/codio-docs/pull/85---
 title: Understanding Courses
 
 ---
@@ -346,6 +345,16 @@ Use this to download a CSV of user access to assignments in the course. Details 
 ![course Export](/img/user_access_export.png)
 
 Collection and storage of this data will be retained for maximum of 6 months.
+
+### PDF
+
+![PDF export](/img/pdf_export.png)
+
+Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
+
+- All the data from the selected assignments will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download.
+
+- The link will be active for 7 days and after this time the zip file will be removed.
 
 ### Autograde Notification Failure
 
