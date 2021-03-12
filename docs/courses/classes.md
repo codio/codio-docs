@@ -1110,7 +1110,37 @@ This option should be selected if you are running an auto-grade script when the 
 - Release Grades
 By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a course. When you are ready to do so, you can select the option from here.
 
+### Notification Emails
 
+Automatic email notifications can be set up in your courses to send emails to your students. Go to the **Notifications** tab in your course to create notifications. Not available for [Read only](/courses/classes/#adding-teachers-to-a-course) teachers in the course.
+
+**Screenshot needed **
+
+#### Notification details
+
+- **Not Started Assignment:** you can schedule the notifications to be sent hours/days before or after the assignments Due Date (before late penalties) or End Date (after late penalties)
+- **Incomplete Assignment:** you can schedule the notifications to be sent hours/days before or after the assignments Due Date (before late penalties) or End Date (after late penalties)
+- **New Feedback:** the email notification will be sent when new feedback is available for the student
+
+
+**Reply to Email Address:** enter an email address that students can then reply to if they have questions or require further assistance.
+
+####  Notification Template
+
+We prefill a default title name and the body text including links (in the ```<<<  >>>``` tags) that will assist the students, including a link to the relevant assignment.
+
+You may edit this as you wish.
+
+**Supported tags**
+
+- Student name ```<<<student name>>>``` : Students name
+- Assignment name ```<<<assignment name>>>```: Assignment name
+- Course name ```<<<course name>>>```: Course Name
+- Course link ```<<<course link>>>```: Link to the Codio course
+- Assignment link ```<<<assignment link>>>```: Link to the assignment
+- Feedback link ```<<<feedback link>>>```: Link to assignment feedback
+- Due date ```<<<due date>>>```: Due date (where set for assignment before any late penalties)
+- End date ```<<<due date>>>```: Due date (where set for assignment after any late penalties)
 
 
 
