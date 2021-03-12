@@ -11,6 +11,7 @@ Codio Guides is a powerful authoring tool creating rich tutorial and instruction
 - [Launch commands](/courses/authoring/#openclose-tabs-from-content) from the content page and pipe terminal output into the content page
 - Create manually and automatically graded [questions and assessments](/courses/assessments/)
 - Manage a [table of contents](/courses/authoring/)
+- Teachers/Instructors can obtain [PDF](/courses/classes/#pdf) export of the guides content to distribute to students as required
 
 ### Where is it?
 You can launch the content authoring from
@@ -998,4 +999,6 @@ Click here :[Stack Exchange](https://math.meta.stackexchange.com/questions/5020/
 ![Detextify](/img/detextify.png)
 
 **Important:** you should not use commands that are not in the standard package. In the image above, you can see the last one has a \usepackage command. Symbols in a special package may not work.
+
+
 
