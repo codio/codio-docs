@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2021**
 
+- `[F] [15th]`: Add ability to send [Notification](/courses/classes/#notification-emails) emails to students when either not started, started but not completed and also when grade feedback is available for them to view
 - `[I] [12th]`: Add feature for teachers to obtain [PDF](/courses/classes/#pdf) export of guides content for course assignments 
 - `[I] [11th]`: Update Teacher Dashboard view separating 'Assignments' to 'Teach' & 'Edit' tabs
 - `[I] [ 5th]`: Add filter tag to allow search by name in [Assessment Library](/courses/assessments-library/#using-the-global-assessments-library)
