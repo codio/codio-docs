@@ -711,9 +711,11 @@ Please note, that selecting mark as complete will not stop students who have not
 
 For book based assignments, you should read the caveats mentioned in the **Disable/enable assignment** section above.
 
-![authtoken](/img/manage_classes/unitduration.png)
+![unit duration](/img/manage_classes/unitduration.png)
 
 For more information on using **Mark as complete** please [click here](/courses/assessments/#mark-as-complete).
+
+You can also set up [Notification](/courses/classes/#notification-emails) emails to be sent to the students where they have either not started or completed an assignment before the end time and if penalties applied (see below) email notifications can be sent before penalties apply
 
 #### Penalties
 
