@@ -313,6 +313,8 @@ By default students are not shown the grades until you decide to release them to
 
 Students are able to see their grades either from their Course view or by opening the assignment and going to **Education->Feedback**
 
+You can also set up [Notification](/courses/classes/#notification-emails) emails to be sent to the students when new feedback is available for them to view
+
 ## Grading free text questions
 
 Free text questions will normally require a manual grading process. In order to grade these questions, you should first select the assignment. You will then be shown the student list, as you can see below.

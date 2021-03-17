@@ -428,8 +428,6 @@ Now return to the **Default Configuration** section in Blackboard. We will now c
 ### Codio course setup
 You need to perform the following actions one time only for a course. The Blackboard user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
-**Video - Connect Codio to Blackboard using LTI Constant URL:**
-<p><a href="https://codio.wistia.com/medias/yyuv97mbux?wvideo=yyuv97mbux"><img src="https://embedwistia-a.akamaihd.net/deliveries/5054fbf5433331e588ec4ccc793e97aad21c85b4.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
 
 - Create a new course and name it **Blackboard Demo**.
 - In the main course screen, click on the **Admin** tab near the top.
