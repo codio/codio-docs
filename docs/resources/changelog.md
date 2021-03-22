@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2021**
 
+- `[I] [22nd]`: Fix formatting in [Download CSV](/courses/grading/#download-csv-summary)
+- `[I] [22nd]`: Fix problem with [Beautify](/project/ide/editing/#beautify-javascript)
 - `[I] [17th]`: Fix problem with handling pf LTI Course Copy when user creating parent course is removed from organisation
 - `[I] [17th]`: Fix problem with Teach & Edit tabs not synching location when changing tabs
 - `[F] [15th]`: Add ability to send [Notification](/courses/classes/#notification-emails) emails to students when either not started, started but not completed and also when grade feedback is available for them to view
