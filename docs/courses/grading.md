@@ -9,7 +9,7 @@ You can open the assignments in teachmode. This allows you to see any content th
 
 1. From the **Courses** screen, click on your course to open and go to the **Teach** tab. If your teacher account is read only you will only have access to this tab.
 
-1. You will see the assignments you have assigned to your course. To open the assignment to preview it, click the blue triple dot icon to the right of the unit name, and choose **Preview** 
+1. You will see the assignments you have assigned to your course. To open the assignment to preview it, click the **Preview** button 
 
 ![Preview](/img/manage_classes/previewassignment.png)
 
