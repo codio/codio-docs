@@ -787,7 +787,11 @@ Where you can enable various options to help support running an assignment in ex
 
 ![examproctoring](/img/examproctoring.png)
 
-- **Time Limit** - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first
+- **Time Limit** - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first.
+
+    Students can be granted additional time if required. Select the 3 blue dot menu for the students assignment and **Extend Time**
+    
+![Extend Time](/img/extendtime.png)
 
 - **Shuffle Question Order** - when enabled, each student will receive the pages of the assignment in a random order
 
