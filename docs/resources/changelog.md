@@ -13,7 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
-- `[F] [ 1st]`: Added support for [Jeroo](/resources/Resource-Tools/jerro)
+- `[F] [ 1st]`: Added support for [Jeroo](/resources/Resource-Tools/jeroo)
 
 
 **March 2021**
