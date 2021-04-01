@@ -58,6 +58,25 @@ To share your course with others
 
 To restrict a course that is shared/cloned from a master course from being shared/cloned further, enable **Course share code** as above and enable **Licensed**
 
+When enabled you can also manage IP Consent by clicking the **Manage IP Consent** link offered.
+
+![Manage IP consent](/img/manage_classes/course_ipconsent.png)
+
+You should first create the content that you wish to display. You enter your text in the lower portion of the screen. You can use markdown or HTML to format your text. If you are not familiar with markdown, here is a reference for markdown:
+
+- [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
+
+You can press the **Save Draft** button to save your changes and continue editing later.
+
+You can also **Preview** your changes to see how the rendered output appears.
+
+When you are happy you can then publish and then **enable IP consent** that will then require teachers to accept your terms
+
+### Publishing and revisions
+You need to publish your changes so that they appear to the student. You can create new versions over time. Earlier versions of the form can be recalled by selecting the version from the drop down list.
+
+Once you are happy with your text, you press the **Publish new version** button.
+
 Please note:
 
 - Child courses created from licensed master courses cannot be shared/cloned and the content cannot be added into other courses/modules or as assignments
