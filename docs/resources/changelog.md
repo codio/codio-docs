@@ -13,12 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[F] [ 2nd]`: Add support for teachers to allow students to [reset](/courses/classes/#allow-students-to-reset-assignment) assignments in the course
 - `[F] [ 1st]`: Added support for [Jeroo](/resources/Resource-Tools/jeroo)
 
 
 **March 2021**
 
-- `[F] [29th]`: Add support to [extend time](courses/classes/#exam-proctoring) for individual students when a time limit is enabled for exam proctoring
+- `[F] [29th]`: Add support to [extend time](/courses/classes/#exam-proctoring) for individual students when a time limit is enabled for exam proctoring
 - `[I] [25th]`: Add ability to filter by [assessments](/courses/assessments/#deleting-an-assessment) not used and delete all together
 - `[I] [25th]`: Fix problem adding complex assessments from [assessment library](/courses/assessments-library/#codios-global-assessments-library)
 - `[I] [23rd]`: Improve visibility for teachers to [preview](/courses/grading/#previewing-assignments) course assignments
