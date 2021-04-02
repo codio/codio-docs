@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[F] [ 2nd]`: Add support for teachers to allow students to [reset](/courses/classes/#allow-students-to-reset-assignment) assignments in the course
 - `[F] [ 1st]`: Added support for [Jeroo](/resources/Resource-Tools/jeroo)
 
 

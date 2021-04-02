@@ -323,6 +323,17 @@ A course can be deleted by course teachers and organization owners. All the cour
 ![Delete course confirmation](/img/deleteclass.png)
 
 - [Organization owners](/dashboard/organisations/#administrator-role) are able to view a list of any members that are no longer members of any courses and remove any users from the organization. See [View organization members](/dashboard/organisations/#view-organization-members) for more information.
+
+## Allow students to reset assignments
+
+Teachers can allow students to be able to reset assignments in the course. When enabled this will be available for all assignments in the course with the exception of any assignments where [Exam Proctoring](/courses/classes/#exam-proctoring) features are enabled.
+
+- Select the course, go to the **Admin** area and then enable the **Reset Assignment By Student** toggle switch.
+
+![Student Reset](/img/student-reset.png)
+
+When enabled, students can reset their assignment from the **Education -> Reset Assigment** menu option. 
+
 ## Exporting course data
 ### Course Data
 Course data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Course](/courses/classes/#deleting-a-course)
