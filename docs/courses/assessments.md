@@ -271,9 +271,15 @@ You can evaluate student code using a variety of languages and frameworks that a
 Supported languages and frameworks:
 
 - **Ruby**: `rubocop` or `rspec`
-- **Java**: [JUnit](/project/ide/features/#junit-testing-framework) or `checkstyle`
+- **Java**: JUnit or `checkstyle`
 - **Python**: `pycodestyle` or `UnitTest`
 - **JavaScript**: `jshint` or `jslint`
+
+#### Using `JUnit`
+
+When using JUnit you can add your own custom feedback to the standard feedback from Junit to return to the students. The feedback  message can be passed to the assert method as the first parameter. 
+
+`assertEquals(feedback, expected, actual)`
 
 #### Using `pycodestyle`
 Before using the `pycodestyle` option, `pycodestyle` has to be installed. You may use the following commands to do so:
