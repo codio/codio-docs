@@ -967,7 +967,7 @@ You are now free to debug the Python script and fix any bugs that you may have n
 #### Testing your script in the IDE
 We provide the ability to test your autograding script from the **Education -> Test Autograde Script** menu.
 
-This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
+This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide and select which autograded assessments to test.
 
 ![authtoken](/img/autograde-test.png)
 
