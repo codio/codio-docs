@@ -324,15 +324,6 @@ A course can be deleted by course teachers and organization owners. All the cour
 
 - [Organization owners](/dashboard/organisations/#administrator-role) are able to view a list of any members that are no longer members of any courses and remove any users from the organization. See [View organization members](/dashboard/organisations/#view-organization-members) for more information.
 
-## Allow students to reset assignments
-
-Teachers can allow students to be able to reset assignments in the course. When enabled this will be available for all assignments in the course with the exception of any assignments where [Exam Proctoring](/courses/classes/#exam-proctoring) features are enabled.
-
-- Select the course, go to the **Admin** area and then enable the **Reset Assignment By Student** toggle switch.
-
-![Student Reset](/img/student-reset.png)
-
-When enabled, students can reset their assignment from the **Education -> Reset Assigment** menu option. 
 
 ## Exporting course data
 ### Course Data
@@ -723,10 +714,17 @@ You can specify the students ability to access the assignment when disabled.  **
 - 'No Access' will not allow the students to access their assignment.
 
 
-
 #### Disable Mark as Completed
 Disabling will not allow students to mark the assignment as completed. If assignments in your course are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
 If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides
+
+#### Allow students reset
+
+You can allow students to be able to reset their assignments in the course to start again. All work they may have done will be lost.
+
+![Student Reset](/img/student-reset.png)
+
+When enabled, students can reset their completed assignments either from the **Education -> Reset Assignment** menu option or selecting the **Reset Assignment** button offered to them in the pop up message
 
 #### Unit duration
 You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.
