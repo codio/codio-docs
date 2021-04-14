@@ -718,11 +718,9 @@ You can specify the students ability to access the assignment when disabled.  **
 Disabling will not allow students to mark the assignment as completed. If assignments in your course are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
 If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides
 
-#### Allow students reset
+#### Reset Assignment by Student
 
 You can allow students to be able to reset their assignments in the course to start again. All work they may have done will be lost.
-
-![Student Reset](/img/student-reset.png)
 
 When enabled, students can reset their completed assignments either from the **Education -> Reset Assignment** menu option or selecting the **Reset Assignment** button offered to them in the pop up message
 
