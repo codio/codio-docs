@@ -14,7 +14,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **April 2021**
 
 - `[I] [14th]`: Improve handling of student grading for teachers
-- `[I] [14th]`: Add support for teachers to allow students to [reset](/courses/classes/#reset-assignment-by-student) assignments in the course
+- `[F] [14th]`: Add support for teachers to allow students to [reset](/courses/classes/#reset-assignment-by-student) assignments in the course
 - `[I] [12th]`: Improve playing of video files within projects
 - `[I] [ 8th]`: Fix problem with handling of variables in debugger
 - `[I] [ 7th]`: Improve [Test Autograde Script](/courses/classes/#testing-your-script-in-the-ide) to allow control of which autograded assessments to test
