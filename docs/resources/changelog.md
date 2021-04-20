@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[I] [20th]`: Add support to allow [anonymous](/courses/lti1_0/#manual-entry) LTI connections so students name/email addresses not passed to Codio
 - `[I] [14th]`: Improve handling of student grading for teachers
 - `[F] [14th]`: Add support for teachers to allow students to [reset](/courses/classes/#reset-assignment-by-student) assignments in the course
 - `[I] [12th]`: Improve playing of video files within projects

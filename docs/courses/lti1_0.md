@@ -268,6 +268,8 @@ In Canvas you should then use one of the following steps
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
 - Enter **apollo.codio.com** into the **Domain** field.
 - In the **Privacy** field, select **Public**
+    - If you do not wish your LMS to share your students name/email addresses to Codio you can select the Anonymous privacy setting but be aware if doing so, any [notifications](/courses/classes/#notification-emails) you may wish to set up will not reach those students.
+    
 - Paste in the 3 Codio fields to the appropriate fields
 
 You should end up with something like this.
@@ -416,6 +418,7 @@ The Blackboard user who carries out these steps must be a Blackboard system admi
 - In the **Organization Policies** section you should
   - set **Send User Data** to **Send user data only over SSL**.
   - in **User Fields to Send** you should set all 3 fields (Constituency in Course, Name, Email Address).
+    - If you do not wish your LMS to share your students name/email addresses to Codio you can deselect the Name, Email address but be aware if doing so, any [notifications](/courses/classes/#notification-emails) you may wish to set up will not reach those students.
 
 #### In Codio and Blackboard
 Now return to the **Default Configuration** section in Blackboard. We will now copy the following global integration fields from Codio to Blackboard.
@@ -539,5 +542,7 @@ Please be sure to check out the [Codio LTI App](/courses/lti1_0/#codio-lti-app) 
 Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.
 
 If a Moodle user has never used Codio before then an account will automatically be created from their email address when they access their first Codio course materials.
+
+  - If you do not wish your LMS to share your students name/email addresses to Codio you can select the Anonymous privacy setting but be aware if doing so, any [notifications](/courses/classes/#notification-emails) you may wish to set up will not reach those students.
 
 If a Moodle user already has a Codio account then provided the email address of their Moodle account is the same, the same Codio account will be used. 
