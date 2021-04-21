@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2021**
 
+- `[F] [21st]`: Add support for [Pencil Code](/resources/Resource-Tools/pencilcode)
+- `[I] [21st]`: Improve [PDF export](/courses/classes/#pdf allowing all selected assignments to be compiled into separate or one PDF file
 - `[I] [21st]`: Add SQL query grading support to [Standard Code Test](/courses/assessments/#execution)
 - `[I] [20th]`: Add support to allow [anonymous](/courses/lti1_0/#manual-entry) LTI connections so students name/email addresses not passed to Codio
 - `[I] [14th]`: Improve handling of student grading for teachers
