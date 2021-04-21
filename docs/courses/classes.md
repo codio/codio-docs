@@ -373,8 +373,8 @@ Collection and storage of this data will be retained for maximum of 6 months.
 
 Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version
 
-- All the data from the selected assignments will be compiled into one pdf file in the background and when ready an email will be sent to you with a link for you to download.
-- If you wish to distribute the pdf to your students as assignments start, select only the relevant assignment
+- You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment
+
 
 - The link will be active for 7 days and after this time the file will be removed.
 
