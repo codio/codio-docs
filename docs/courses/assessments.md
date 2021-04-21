@@ -153,7 +153,13 @@ Run: ruby filename.rb
 - **Bash**
 run: bash full_path.sh
 
-
+- **SQL**
+Run: python .guides/scripts/helper_mssql.py --db_host localhost --db_user  SA --db_pass YourPassword   --db_name DBNAME 
+      
+      **Note:** First you must use **Tools > Install Software** to install the appropriate helper script for your database (MSSQL,MySql,PostgreSQL). For example, if you are using MSSQL, you would download the Helper MSSql.
+     
+![Install SQL Helper Script ](/img/sql-helpers.png)     
+     
 
 #### Grading
 The screenshot below shows the configuration fields for the _Grading_ section:
