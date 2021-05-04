@@ -932,6 +932,40 @@ You are able to get scores attained by students in authored content based autogr
 
 You can get both summary data and data for each assessment individually.
 
+#### Participation Grading
+
+Participation grading can be enabled if required. 
+
+To enable this:
+
+- Add the script below as .py file to `.guides/secure` folder
+
+``` python
+
+import os
+import json
+
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade
+
+env = os.environ.get('CODIO_AUTOGRADE_ENV')
+
+parsed = json.loads(env)
+
+answered = parsed['assessments']['stats']['submitted']
+
+total=parsed['assessments']['stats']['total']
+
+grade=answered*100/total
+res = send_grade(int(round(grade)))
+exit( 0 if res else 1)
+```
+
+- Add the file to **Education> Test Autograde Script** 
+- Go to the assignment settings, enable **Script Grading** set to that file and disable **Assessments Grading**
+
 
 <a name="regrading"></a>
 #### Regrading for an individual student

@@ -34,6 +34,28 @@ It is important to understand how Codio maps Google Classroom users to Codio use
 - If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Google Classroom user role will be carried over as well.
 - If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.
 
+### Releasing grades
+By default, grades in Codio are neither passed back to the student nor to Google Classroom until they are
+
+- Marked as complete by either the student or the teacher and
+- the **Release Grades** switch is enabled (or if you have set the course to automatically release grades when completed)
+
+Once **Release Grades** is enabled, all completed student assignments are automatically sent through.
+
+![Release Grades](/img/lti/release-complete.png)
+
+There are various ways to mark a student's work as complete
+
+
+- The student can do this from either the Course dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
+- The teacher can do the same in the assignment when [viewing students code](/courses/grading/#accessing-student-work)
+- The teacher can do the same from the assignment in the Course dashboard by hovering in the left side of a student entry and then setting the completed switch.
+- The teacher can mark all student assignments as completed in one action. This is done by
+    - selecting the assignment in the Course
+    - pressing the **Action** button
+    - pressing the **Mark all as Completed** button
+
+
 
 ### Updating 
 
