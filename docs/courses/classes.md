@@ -954,8 +954,7 @@ env = os.environ.get('CODIO_AUTOGRADE_ENV')
 
 parsed = json.loads(env)
 
-  answered = parsed['assessments']['stats']['submitted']
-
+answered = parsed['assessments']['stats']['submitted']
 
 total=parsed['assessments']['stats']['total']
 
