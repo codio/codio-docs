@@ -11,8 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
-**April 2021**
+**May 2021**
 
+- `[F] [ 4th]`: Add support for [Participation Grading](/courses/classes/#participation-grading)
+
+**April 2021**
 
 - `[F] [30th]`: Add support to integrate with [Google Classrooms](/courses/google-classroom/)
 - `[I] [27th]`: Update handling of guides opening in teachers working copies
