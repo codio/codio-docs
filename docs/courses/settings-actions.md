@@ -61,6 +61,8 @@ You should also be aware that you can achieve the same actions from Markdown dir
 ### Page - Close Tabs
 Enable this to close all panels open from the previous page.
 
+- **Close Terminal Session** when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close
+
 ![Page_tab_options](/img/guides/page.png)
 
 <a name="opentabs"></a>
