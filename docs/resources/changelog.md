@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2021**
 
+- `[F] [11th]`: Add support for realtime [Audio/Video/Chat](/project/ide/features/#audiovideo-chat-support) between active users in assignments/projects
+- `[I] [ 6th]`: Fix problem with top menu hiding when students mark assignments as complete
 - `[I] [ 6th]`: Improve [Close Tabs](courses/authoring/#page) to allow option to retain terminal session from previous sections
 - `[F] [ 5th]`: Add support for teachers to enable a [writable copy](/courses/grading/#accessing-student-work) of students work at any time
 - `[F] [ 4th]`: Add support for [Participation Grading](/courses/classes/#participation-grading)

@@ -416,6 +416,14 @@ Hovering over the icon will show the filename and line currently being edited.
 
 This can be very useful if a colleague needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing
 
+### Audio/Video Chat Support
+
+When accessing another users project where [permissions](/project/ide/settings/#project-permissions) have been granted by the project owner or for teachers viewing the students assignment, a **Call** button will show allowing Audio/Video calls and or real time chat.
+
+![A/V Call](/img/monitor_students/call.png)
+
+
+
 ## Saving files
 There is generally no need to save your files as content is saved automatically. You can still save manually using the `Ctrl+S|Cmd+S` keyboard shortcut, which most of you should be familiar with, but you don’t need to.
 If you make mistakes, then use the regular undo (`Ctrl+Z`).
