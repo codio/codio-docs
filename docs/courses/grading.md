@@ -80,6 +80,11 @@ Hovering over the icon will show the filename and line currently being edited.
 
 This can be very useful if a student needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing
 
+## Audio/Video Chat Support
+
+When accessing a students assignment, a **Call** button will show allowing Audio/Video calls and or real time chat with the student if they are also accessing the assignment at the same time
+
+![A/V Call](/img/monitor_students/call.png)
 
 ## Code Playback 
 
