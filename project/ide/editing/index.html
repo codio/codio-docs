@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/ide/editing/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Code Editing - Codio</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../boxes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../features/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#productivity-emmet-zen-coding" class="nav-link">Productivity, Emmet, Zen Coding</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#standard-code-editor-keyboard-shortcuts" class="nav-link">Standard Code Editor Keyboard Shortcuts</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#emmet-keyboard-shortcuts" class="nav-link">Emmet Keyboard Shortcuts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#abbreviations" class="nav-link">Abbreviations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#emmet-docs" class="nav-link">Emmet docs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#abbreviations_1" class="nav-link">Abbreviations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#basic-html-example" class="nav-link">Basic HTML Example</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#juicier-html-example" class="nav-link">Juicier HTML Example</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#insertion-stops-edit-points" class="nav-link">Insertion Stops / Edit Points</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#more-html-examples" class="nav-link">More HTML Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#css-examples" class="nav-link">CSS Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#fuzzy-search" class="nav-link">Fuzzy Search</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#more-css-examples" class="nav-link">More CSS Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#special-keyboard-actions" class="nav-link">Special keyboard actions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#match-tag-pair" class="nav-link">Match Tag Pair</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#go-to-matching-pair" class="nav-link">Go To Matching Pair</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#wrap-with-abbreviation" class="nav-link">Wrap with Abbreviation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#go-to-edit-point" class="nav-link">Go to Edit Point</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#select-item" class="nav-link">Select Item</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#toggle-comment" class="nav-link">Toggle Comment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#remove-tag" class="nav-link">Remove Tag</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#merge-lines" class="nav-link">Merge Lines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#inline-calculator" class="nav-link">Inline Calculator</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#incrementdecrement-number" class="nav-link">Increment/Decrement Number</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#complete-reference" class="nav-link">Complete reference</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#git-mercurial-svn" class="nav-link">Git, Mercurial &amp; SVN</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#a-few-git-helpers" class="nav-link">A few Git helpers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#using-git-without-remote-repos" class="nav-link">Using Git without remote repos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#viewing-github-repos" class="nav-link">Viewing GitHub repos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#offering-linkbutton-in-the-repo-readmemd-file" class="nav-link">Offering link/button in the repo readme.md file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#finding-the-stack-version-id" class="nav-link">Finding the stack version ID</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#how-to-manually-import-a-git-repo-into-codio" class="nav-link">How to manually import a Git repo into Codio</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#ssh-keys" class="nav-link">SSH keys</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#very-basic-git-tutorial" class="nav-link">Very basic Git tutorial</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#github-keys" class="nav-link">GitHub Keys</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#experimentation" class="nav-link">Experimentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#your-projects-starting-point" class="nav-link">Your project's starting point</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#check-the-status-with-git-status" class="nav-link">Check the status with 'git status'</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#tracking-files" class="nav-link">Tracking files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#staged-files" class="nav-link">Staged Files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#committing-your-changes" class="nav-link">Committing your changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#reverting" class="nav-link">Reverting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#pushing-to-a-remote-repository" class="nav-link">Pushing to a remote repository</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#pulling-from-a-remote-repository" class="nav-link">Pulling from a remote repository</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#resolving-conflicts" class="nav-link">Resolving Conflicts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#branches" class="nav-link">Branches</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#github-and-other-remotes" class="nav-link">GitHub and other remotes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#remotes-and-github" class="nav-link">Remotes and Github</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#simplified-git-steps" class="nav-link">Simplified Git Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#active-branch" class="nav-link">Active branch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#keyboard-shortcuts" class="nav-link">Keyboard shortcuts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#multiple-cursors" class="nav-link">Multiple cursors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#search-and-replace" class="nav-link">Search and replace</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#local" class="nav-link">Local</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#global" class="nav-link">Global</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#pattern-wildcard-matching-globs" class="nav-link">Pattern &amp; Wildcard Matching (Globs)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#color-preview-and-picker" class="nav-link">Color preview and picker</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#regular-colors" class="nav-link">Regular Colors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#gradients" class="nav-link">Gradients</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#color-picker" class="nav-link">Color Picker</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#beautify-javascript" class="nav-link">Beautify javascript</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#settings" class="nav-link">Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#force-language-highlighting" class="nav-link">Force language highlighting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="productivity-emmet-zen-coding">Productivity, Emmet, Zen Coding<a class="headerlink" href="#productivity-emmet-zen-coding" title="Permanent link"></a></h2>
+<p>We have implemented lots of productivity features into the Codio IDE thanks to <a href="http://www.emmet.io">Emmet</a>, formerly Zen Coding. These features let you saves considerable time when working with HTML, CSS and Javascript files.</p>
+<h2 id="standard-code-editor-keyboard-shortcuts">Standard Code Editor Keyboard Shortcuts<a class="headerlink" href="#standard-code-editor-keyboard-shortcuts" title="Permanent link"></a></h2>
+<p>General keyboard shortcuts can be found <a href="/project/ide/editing/#keyboard-shortcuts">in this section</a>. All other productivity shortcuts are found here in this chapter.</p>
+<h3 id="emmet-keyboard-shortcuts">Emmet Keyboard Shortcuts<a class="headerlink" href="#emmet-keyboard-shortcuts" title="Permanent link"></a></h3>
+<p>A set of powerful <a href="/project/ide/editing/#special-keyboard-actions">productivity shortcuts</a> for HTML5, CSS and Javascript.</p>
+<h3 id="abbreviations">Abbreviations<a class="headerlink" href="#abbreviations" title="Permanent link"></a></h3>
+<p>Thanks to our Emmet support, you get a large number of <a href="/project/ide/editing/#abbreviations_1">HTML and CSS abbreviations</a> that expand to code, a bit like this</p>
+<pre><code class="css">div&gt;ul&gt;li*3
+</code></pre>
+
+<p>which expands to</p>
+<pre><code class="html">  &lt;div&gt;
+      &lt;ul&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+</code></pre>
+
+<p>Be sure to check out the <a href="/project/ide/editing/#complete-reference">complete reference</a> as there are an awful lot of abbreviations for you to take advantage of.</p>
+<h3 id="emmet-docs">Emmet docs<a class="headerlink" href="#emmet-docs" title="Permanent link"></a></h3>
+<p>We would strongly recommend having a good dig around the <a href="http://docs.emmet.io/abbreviations/syntax/">Emmet documentation</a> for a detailed introduction into the general Emmet syntax.</p>
+<h3 id="abbreviations_1">Abbreviations<a class="headerlink" href="#abbreviations_1" title="Permanent link"></a></h3>
+<p>This is a way of generating HTML using a CSS selector inspired approach. Take a look at the following examples.</p>
+<p>You simply enter the abbreviation in the Code Editor and then press the Tab key to expand the abbreviation.</p>
+<h3 id="basic-html-example">Basic HTML Example<a class="headerlink" href="#basic-html-example" title="Permanent link"></a></h3>
+<pre><code class="css">div&gt;ul&gt;li*3
+</code></pre>
+
+<p>results in</p>
+<pre><code class="html">&lt;div&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="juicier-html-example">Juicier HTML Example<a class="headerlink" href="#juicier-html-example" title="Permanent link"></a></h3>
+<pre><code class="css">#page&gt;div.logo+ul#navigation&gt;li*5&gt;a{Item $}
+</code></pre>
+
+<p>results in</p>
+<pre><code class="html">&lt;div id=&quot;page&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;&lt;/div&gt;
+    &lt;ul id=&quot;navigation&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="insertion-stops-edit-points">Insertion Stops / Edit Points<a class="headerlink" href="#insertion-stops-edit-points" title="Permanent link"></a></h3>
+<p>Emmet offers some abbreviations that have insertion points. For example,</p>
+<pre><code class="css">a:link
+</code></pre>
+
+<p>will insert</p>
+<pre><code class="html">&lt;a href=&quot;http://|&quot;&gt;&lt;/a&gt;
+</code></pre>
+
+<p>Where the <code>|</code> character represents the cursor after insertion. After you have entered the <code>href</code> url you should press <code>ctrl+alt+right arrow</code> (not the Tab key) to jump to the next edit point.</p>
+<h3 id="more-html-examples">More HTML Examples<a class="headerlink" href="#more-html-examples" title="Permanent link"></a></h3>
+<p>Be sure to check out <a href="http://docs.emmet.io/abbreviations/">HTML Abbreviations</a>.</p>
+<p>And also take a look at the <a href="/project/ide/editing/#complete-reference">cheat sheet</a> as there are an awful lot of abbreviations for you to take advantage of.</p>
+<h3 id="css-examples">CSS Examples<a class="headerlink" href="#css-examples" title="Permanent link"></a></h3>
+<p><code>w100p</code> results in <code>width: 100%</code>
+<code>m10p30e5x</code> results in <code>margin: 10% 30em 5ex</code></p>
+<p>and</p>
+<pre><code class="cs">p100+m10e
+</code></pre>
+
+<p>results in</p>
+<pre><code class="css">padding: 100px;
+margin: 10em;
+</code></pre>
+
+<p>and how about this for gradients</p>
+<pre><code class="css">lg(left, #fc0, 30%, red)
+</code></pre>
+
+<p>results in</p>
+<pre><code class="css">background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fc0), color-stop(0.5, 30%), to(red));
+background-image: -webkit-linear-gradient(left, #fc0, 30%, red);
+background-image: -moz-linear-gradient(left, #fc0, 30%, red);
+background-image: -o-linear-gradient(left, #fc0, 30%, red);
+background-image: linear-gradient(left, #fc0, 30%, red);
+</code></pre>
+
+<h3 id="fuzzy-search">Fuzzy Search<a class="headerlink" href="#fuzzy-search" title="Permanent link"></a></h3>
+<p>If you take a look at <a href="/project/ide/editing/#complete-reference">cheat sheet</a>, you’ll find that there are too many CSS snippets to remember. Also, some of them might be a bit lengthy for sake of logical separation.</p>
+<p>To make CSS writing a bit easier, Emmet implements fuzzy search logic for CSS snippets: every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition.</p>
+<p>For example, instead of writing <code>ov:h</code> (overflow: hidden;) abbreviation, you can write <code>ov-h</code>, <code>ovh</code> or even <code>oh</code>. You can play around with the fuzzy search in text editor below. Try to find as many variations as possible (use Tab key to expand abbreviations) for <code>bxz:cb</code>, <code>ovx:h</code> and <code>pos:a</code> snippets.</p>
+<h3 id="more-css-examples">More CSS Examples<a class="headerlink" href="#more-css-examples" title="Permanent link"></a></h3>
+<p>For more details on CSS abbreviations, please go to the <a href="http://docs.emmet.io/css-abbreviations/">Emmet documentation</a> and be sure to look at the sub-chapters.</p>
+<p>But also be sure to check out the <a href="/project/ide/editing/#complete-reference">cheat sheet</a>.</p>
+<h3 id="special-keyboard-actions">Special keyboard actions<a class="headerlink" href="#special-keyboard-actions" title="Permanent link"></a></h3>
+<p>Emmet also offers a very nice range of keyboard shortcuts to speed productivity even further. Keyboard actions can be modified in <a href="/project/ide/settings/#user-preferences">Preferences</a></p>
+<h3 id="match-tag-pair">Match Tag Pair<a class="headerlink" href="#match-tag-pair" title="Permanent link"></a></h3>
+<p><code>Mac:Cmd+D (inward) and Shift+Cmd+D (outward)</code>
+<code>WinLin:Ctrl+D (inward) and Shift+Ctrl+D (outward)</code></p>
+<p>A well-known tag balancing: searches for tag or tag's content bounds from current cursor position and selects it. It will expand (outward balancing) or shrink (inward balancing) selection when called multiple times. Not every editor supports both inward and outward balancing due of some implementation issues, most editors have outward balancing only.</p>
+<p><a href="http://docs.emmet.io/actions/match-pair/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="go-to-matching-pair">Go To Matching Pair<a class="headerlink" href="#go-to-matching-pair" title="Permanent link"></a></h3>
+<p><code>Mac: Shift+Cmd+T</code>
+<code>Win: Shift+Ctrl+T</code></p>
+<p>In HTML, allows you to quickly traverse between opening and closing tag.</p>
+<p><a href="http://docs.emmet.io/actions/go-to-pair/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="wrap-with-abbreviation">Wrap with Abbreviation<a class="headerlink" href="#wrap-with-abbreviation" title="Permanent link"></a></h3>
+<p><code>Mac/Win: Shift+Cmd+A</code></p>
+<p>A very powerful feature, it takes an abbreviation, expands it and places currently selected content in the last element of generated snippet. If there’s no selection, action will silently call “Match Tag Pair” to wrap context element.</p>
+<p><a href="http://docs.emmet.io/actions/wrap-with-abbreviation/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="go-to-edit-point">Go to Edit Point<a class="headerlink" href="#go-to-edit-point" title="Permanent link"></a></h3>
+<p><code>Win: Ctrl+Alt+Right Arrow or Left Arrow</code></p>
+<p>This action works for HTML code blocks and allows you to quickly traverse between important code points:</p>
+<ul>
+<li>between tags</li>
+<li>empty attributes</li>
+<li>newlines with indentation</li>
+</ul>
+<p><a href="http://docs.emmet.io/actions/go-to-edit-point/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="select-item">Select Item<a class="headerlink" href="#select-item" title="Permanent link"></a></h3>
+<p><code>Mac/Win: Shift+Cmd+</code></p>
+<p>Action is similar to “Go to Edit Point”, but selects important code parts.</p>
+<p>In HTML, these are tag name, full attribute and attribute value. For class attribute it also selects distinct classes.</p>
+<p>In CSS, it matches selector, full property and property value. For complex values and functions like 1px solid red or url(image.jpg) also selects part of it.</p>
+<p><a href="http://docs.emmet.io/actions/select-item/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="toggle-comment">Toggle Comment<a class="headerlink" href="#toggle-comment" title="Permanent link"></a></h3>
+<p><code>Mac: Cmd+/</code>
+<code>Win: Ctrl+/</code></p>
+<p>This action, as name says, toggles comments on and off for the selected line. Works nicely in CSS and HTML files.</p>
+<p><a href="http://docs.emmet.io/actions/toggle-comment/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="remove-tag">Remove Tag<a class="headerlink" href="#remove-tag" title="Permanent link"></a></h3>
+<p><code>Mac: Cmd+K</code>
+<code>Win: Ctrl+K</code></p>
+<p>Quickly removes tag, found by “Match Tag Pair” from current cursor position, and adjusts indentation.</p>
+<p><a href="http://docs.emmet.io/actions/remove-tag/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="merge-lines">Merge Lines<a class="headerlink" href="#merge-lines" title="Permanent link"></a></h3>
+<p><code>Mac: Shift+Cmd+M</code>
+<code>Win: Shift+Ctrl+M</code></p>
+<p>Merges selected lines into a single line. But when there’s no selection, will match context HTML tag.</p>
+<p><a href="http://docs.emmet.io/actions/merge-lines/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="inline-calculator">Inline Calculator<a class="headerlink" href="#inline-calculator" title="Permanent link"></a></h3>
+<p><code>Mac: Shift+Cmd+Y</code>
+<code>Win: Shift+Ctrl+Y</code></p>
+<p>Evaluates simple math expressions like 2*4 or 10/2 and outputs its result. You can use <code>\</code> operator which is equivalent to round(a/b).</p>
+<p>Very useful in CSS where numeric values should be modified frequently.</p>
+<p><a href="http://docs.emmet.io/actions/evaluate-math/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="incrementdecrement-number">Increment/Decrement Number<a class="headerlink" href="#incrementdecrement-number" title="Permanent link"></a></h3>
+<p><code>Mac/Win : Alt+Up/Down (inc/dec by 0.1)</code>
+<code>Mac/Win : Ctrl+Up/Down (inc/dec by 1)</code>
+<code>Mac/Win : Ctrl+Alt+Up/Down (inc/dec by 10)</code></p>
+<p>This action, as name says, increments or decrements the number under the cursor with different steps: 0.1, 1 or 10.</p>
+<p><a href="http://docs.emmet.io/actions/inc-dec-number/" target"_blank">Click here to see it in the Emmet site.</a></p>
+<h3 id="complete-reference">Complete reference<a class="headerlink" href="#complete-reference" title="Permanent link"></a></h3>
+<p>Emmet has a huge number of shortcuts available. Check out the <a href="http://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a></p>
+<p><img alt="Emmet Cheat Sheet" src="/img/emmet-ref.png" /></p>
+<h2 id="git-mercurial-svn">Git, Mercurial &amp; SVN<a class="headerlink" href="#git-mercurial-svn" title="Permanent link"></a></h2>
+<p>Git, Mercurial and SVN are all preinstalled, so you can <a href="/project/ide/boxes/#terminal-window">open up a Terminal window</a> to access them from the command line.</p>
+<p>You can also configure your <code>.codio</code> file so common commands are accessible from the <strong>Run</strong> menu in the Codio IDE. <a href="/project/ide/boxes/#customizable-run-menu">Refer to the Boxes documentation</a> on how to do this.</p>
+<h3 id="a-few-git-helpers">A few Git helpers<a class="headerlink" href="#a-few-git-helpers" title="Permanent link"></a></h3>
+<p>We have added a few Git helpers to the <strong>Tools-&gt;Git</strong> menu.</p>
+<p><img alt="git overview" src="/img/git-overview.png" /></p>
+<h3 id="using-git-without-remote-repos">Using Git without remote repos<a class="headerlink" href="#using-git-without-remote-repos" title="Permanent link"></a></h3>
+<p>You can use Git commands within your Codio project without needing to ever set up a remote repo. This gives you not only collaborative capabilities, but also comprehensive version control.</p>
+<p>However, one of the benefits of a distributed Source Control Management system is that having your code in more than one place means that there is no single point of failure. For this reason, we recommend that you use a third party provider such as GitHub as an external location to back up your data.</p>
+<h3 id="viewing-github-repos">Viewing GitHub repos<a class="headerlink" href="#viewing-github-repos" title="Permanent link"></a></h3>
+<p>GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and <a href="/project/ide/features/#preview">preview</a> within Codio.</p>
+<h3 id="offering-linkbutton-in-the-repo-readmemd-file">Offering link/button in the repo readme.md file<a class="headerlink" href="#offering-linkbutton-in-the-repo-readmemd-file" title="Permanent link"></a></h3>
+<p>This is great for anyone wanting to offer a link into a GitHub README page and then, when clicked, it initiates the creation of a project, importing in from the repo for the user in their Codio account.</p>
+<p>The advantage of this approach is that changes you make to your repo will be automatically shown in Codio as it creates a brand new Codio project whenever clicked on. If a project of that name already exists, users can change the name on the project creation page.</p>
+<p><img alt="create from GitHub" src="/img/github-readme.png" /></p>
+<p>You just use the following link format in your GitHub README file (or anywhere else for that matter).</p>
+<pre><code>https://codio.com/home/projects/new?importType=git&amp;activeTab=3&amp;name=your_codio_project_name&amp;importGitUrl=git@github.com:your_github_name/your_repo_name&amp;stackVersion=stack_version_id
+
+</code></pre>
+
+<p>In some cases, you may want to specify a specific branch. The common usage for this is if you have a demo or GitHub Pages site that you want to load into Codio. In this case you do the following</p>
+<pre><code>https://codio.com/home/projects/new?importType=git&amp;activeTab=3&amp;name=your_codio_project_name&amp;importGitUrl=git@github.com:your_github_name/your_repo_name&amp;branch=other_branch&amp;stackVersion=stack_version_id
+
+</code></pre>
+
+<h3 id="finding-the-stack-version-id">Finding the stack version ID<a class="headerlink" href="#finding-the-stack-version-id" title="Permanent link"></a></h3>
+<p>Go to the <strong>Stacks</strong> area and find the appropriate stack you wish to be used with your repo. Select <strong>Use Stack</strong> and from the address bar you will see the stack version ID to add to your link</p>
+<p>Example showing the <strong>Empty Stack</strong> stack version ID</p>
+<p><img alt="Empty Stack Version ID" src="/img/stackversionid.png" /></p>
+<p>You are free to use any way of linking to Codio but we would recommend using the following images</p>
+<p><img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png" />
+<img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png" /></p>
+<h3 id="how-to-manually-import-a-git-repo-into-codio">How to manually import a Git repo into Codio<a class="headerlink" href="#how-to-manually-import-a-git-repo-into-codio" title="Permanent link"></a></h3>
+<p><img alt="create from GitHub" src="/img/github-clone-url.png" /></p>
+<ul>
+<li>If you are on the GitHub site and looking at a repo, you will see the <strong>Clone URL</strong> link (circled above).</li>
+<li>Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as <a href="/dashboard/account/#public-key">described here</a></li>
+<li>Login to Codio</li>
+<li>Click on <strong>New Project</strong> and then the <strong>Click here</strong> for more options</li>
+<li>Select <strong>Import</strong> and then from the <strong>Source</strong> drop-down, select <strong>Git</strong></li>
+<li>Paste in the Git URL (see below) and add any additional details you require</li>
+<li>Press <strong>Create</strong> and Codio will load the repo and then display it</li>
+</ul>
+<p><img alt="create from GitHub" src="/img/github-create.png" /></p>
+<h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link"></a></h3>
+<p>If you are new to Git, then here are some resources to get you started.</p>
+<ul>
+<li><a href="http://nfarina.com/post/9868516270/git-is-simpler">Git is simpler than you think</a> (this is worth reading as it explains HOW Git works rather than teaching you usage)</li>
+<li><a href="http://git-scm.com/docs">Git reference</a></li>
+<li><a href="http://git-scm.com/book">Introduction to Git by Scott Chacon</a></li>
+</ul>
+<p>Here is a list of more Git Tutorials in case you want some choice</p>
+<ul>
+<li><a href="http://sixrevisions.com/resources/git-Tutorials-beginners/">10 Git Tutorials for beginners</a></li>
+</ul>
+<h3 id="ssh-keys">SSH keys<a class="headerlink" href="#ssh-keys" title="Permanent link"></a></h3>
+<p>To transfer your public key to Github or other remotes, please refer to this <a href="/dashboard/account/#public-key">section</a>. There is a section on this page that describes setting up keys with Github.</p>
+<p>You may also want to refer to <a href="/project/ide/boxes/#ssh-and-code-access-codio-box-ssh-keys">SSH Keys in the Boxes section</a>.</p>
+<h3 id="very-basic-git-tutorial">Very basic Git tutorial<a class="headerlink" href="#very-basic-git-tutorial" title="Permanent link"></a></h3>
+<p>This is not supposed to be a proper Git tutorial in any sense. Its purpose is to show anyone who is new to Git or Codio how to use it to get all the basic things done.</p>
+<p>For a proper, in-depth overview of Git, refer to the <a href="/project/ide/editing/#resources">resources</a> page.</p>
+<p>Please make sure you read this excellent overview if you are new to Git : <a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">http://git-scm.com/book/en/Getting-Started-Git-Basics</a></p>
+<h3 id="github-keys">GitHub Keys<a class="headerlink" href="#github-keys" title="Permanent link"></a></h3>
+<p>If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is <a href="/dashboard/account/#public-key">described here</a>.</p>
+<h3 id="experimentation">Experimentation<a class="headerlink" href="#experimentation" title="Permanent link"></a></h3>
+<p>The best way to learn Git is to create a really simple project with a few text files in it and then experiment like crazy. You can play around with all the Git commands and sync with GitHub repos to your heart's content without worrying about doing any coding.</p>
+<p>Once you have done this for a while, you will feel a lot more comfortable about using Git for your precious code.</p>
+<h3 id="your-projects-starting-point">Your project's starting point<a class="headerlink" href="#your-projects-starting-point" title="Permanent link"></a></h3>
+<h4 id="you-created-a-project-by-importing-from-a-git-repo">You created a project by importing from a Git repo<a class="headerlink" href="#you-created-a-project-by-importing-from-a-git-repo" title="Permanent link"></a></h4>
+<p>If you have code that already exists in a remote repo, say GitHub, then you should create a new project by importing from that repo. That will automatically load the project and set up the correct association with the remote Git repo.</p>
+<p>Creating a project is <a href="/project/projects/#creating-and-importing-a-project">fully described here</a>.</p>
+<h4 id="i-do-not-yet-have-a-remote-repo">I do not yet have a remote repo<a class="headerlink" href="#i-do-not-yet-have-a-remote-repo" title="Permanent link"></a></h4>
+<p>If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.</p>
+<ol>
+<li>Create a new project in Codio or open up an existing one.</li>
+<li>Open the terminal (Tools &gt; Terminal) and initialize git by typing "git init" and pressing enter</li>
+<li>Create a new, empty repo on GitHub or other provider.</li>
+<li>Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as <a href="/dashboard/account/#public-key">described here</a></li>
+</ol>
+<p><img alt="github repo" src="/img/github-new-repo.png" /></p>
+<ol>
+<li>Within the IDE, go to <strong>Tools &gt; Git &gt; Remotes</strong></li>
+<li>It is recommended you use <code>origin</code> as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.</li>
+<li>Paste the remote url into the URL field.
+<img alt="git overview" src="/img/git-remotes.png" /></li>
+</ol>
+<h3 id="check-the-status-with-git-status">Check the status with 'git status'<a class="headerlink" href="#check-the-status-with-git-status" title="Permanent link"></a></h3>
+<p>Whenever you want to see what the Git status of your project is enter <code>git status</code>. Initially, you will see that there is nothing to report</p>
+<pre><code class="bash">$ git status
+# On branch master nothing to commit, working directory clean
+</code></pre>
+
+<h3 id="tracking-files">Tracking files<a class="headerlink" href="#tracking-files" title="Permanent link"></a></h3>
+<p>Codio uses Git by default and if you import a project from a Git repo, all the existing files will already be 'tracked' (explained in the next section). Any new files you add will need to be tracked using a Git command.</p>
+<p>Tracking means that Git knows about them. If you add a new file, Git will not know about it and needs to be explicitly told.</p>
+<ol>
+<li>Add a new file (<code>test.txt</code>) and add a few random characters to it.</li>
+<li>Open any other existing file (I chose humans.txt) and make a small, harmless change to it.</li>
+<li>Run <code>git status</code> again and you should see</li>
+</ol>
+<pre><code class="bash"># On branch master `
+# Changes not staged for commit:`
+# (use &quot;git add ...&quot; to update what will be committed)
+# (use &quot;git checkout -- ...&quot; to discard changes in working directory)
+#
+#   modified: humans.txt
+#
+# Untracked files:
+# (use &quot;git add ...&quot; to include in what will be committed)
+#
+#   test.txt no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+</code></pre>
+
+<p>This shows you the modified and the new (untracked) files.</p>
+<p>To tell GitHub to track the file, you can do one of the following</p>
+<ul>
+<li><code>git add .</code> which tells Git to track all files in the project that are not yet tracked. This is the quickest and simplest way to track any new files.</li>
+<li><code>git add FILENAME</code> explicitly tracks a single file</li>
+</ul>
+<h3 id="staged-files">Staged Files<a class="headerlink" href="#staged-files" title="Permanent link"></a></h3>
+<p>A staged file is one that is tracked and is ready to commit into the repository. Once you run <code>git add</code> you are tracking and staging that file. But if you modify a tracked file, the modifications are not staged. To correctly stage them, you need to rerun <code>git add</code>.</p>
+<h3 id="committing-your-changes">Committing your changes<a class="headerlink" href="#committing-your-changes" title="Permanent link"></a></h3>
+<p>Committing means that you want to add your staged, files into the repository. There are two ways to do this...</p>
+<ul>
+<li><code>git commit -m 'commit message'</code> will take all staged files and commit them to the repo.</li>
+<li><code>git commit -a -m 'commit message'</code> will do the same but the <code>-a</code> switch tells Git to automatically stage any tracked files before committing them. This means that you don't have to use <code>git add</code> at all (unless you want to add new, untracked files).</li>
+</ul>
+<p>The commit message is important as it allows you to see what general changes were involved in the commit. This can be useful when you want to look back a few days later and no longer remember what was in the commit.</p>
+<p>So I entered <code>git commit -a -m "added test.txt and modified some stuff"</code> and get</p>
+<pre><code class="bash">[master d3e6bb1] added test.txt and modified some stuff
+2 files changed, 2 insertions(+)
+create mode 100644 test.txt`
+</code></pre>
+
+<p>and if I run a <code>git status</code> afterwards, I will see that everything is clean and up-to-date.</p>
+<pre><code class="bash"># On branch master nothing to commit, working directory clean
+</code></pre>
+
+<h3 id="reverting">Reverting<a class="headerlink" href="#reverting" title="Permanent link"></a></h3>
+<p>One of the nice things you can do is to revert your code back to an earlier commit. <code>git revert</code> is the command for rolling back like this. There are a number of ways to use this, simple uses are</p>
+<ul>
+<li><code>git revert 'commit id'</code> reverts back to the SHA (uid) you can see when you type <code>git log</code></li>
+<li><code>git revert HEAD</code> will revert back to the last commit, throwing away any uncommitted changes</li>
+<li><code>git revert HEAD~n</code> for example HEAD~3 will revert to the 4rd last commit.</li>
+<li><code>git revert HEAD^^^</code> (count of ^ is like ~n) will also revert back to the 4th last commit</li>
+</ul>
+<p>There are more advanced usages which you should read up on such as the <code>-n</code>. Try <a href="http://git-scm.com/docs/git-revert.html">looking here</a>.</p>
+<h3 id="pushing-to-a-remote-repository">Pushing to a remote repository<a class="headerlink" href="#pushing-to-a-remote-repository" title="Permanent link"></a></h3>
+<p>If you want to send your committed changes to a remote repository, you will use the <code>git push</code> command. First, however, you need to make sure that you have a <code>remote</code> set up.</p>
+<p>If you created your repository by importing from a Git repo, then the remote will have automatically been created.</p>
+<p>If you want to create a new remote repository, then you will have already done this as described at the top of this page.</p>
+<p>So all you need to do is enter <code>git push origin master</code> . Let's dissect this command</p>
+<ul>
+<li><code>origin</code> is the name of the remote repo. In most cases, this will be called origin, but is not necessarily so.</li>
+<li><code>master</code> is the name of the branch. When you create a new Codio project, a <code>master</code> branch is automatically created and appears in brackets at the top of the file tree next to the project name. Branches are beyond the scope of this topic but they are definitely worth investigating as they are a very powerful feature of Git.</li>
+</ul>
+<p>If you now go to GitHub and look at the repository, you will see that your changes are pushed. You can also see the commits you made.</p>
+<h3 id="pulling-from-a-remote-repository">Pulling from a remote repository<a class="headerlink" href="#pulling-from-a-remote-repository" title="Permanent link"></a></h3>
+<p>Now let's say that someone else is working remotely on the same code (let's assume they are not using Codio). They will push their code to the GitHub repo, too.</p>
+<p>By running <code>git pull origin master</code>, we pull in changes from the remote repo and Git will automatically merge them.</p>
+<h3 id="resolving-conflicts">Resolving Conflicts<a class="headerlink" href="#resolving-conflicts" title="Permanent link"></a></h3>
+<p>When you pull in from the remote, you may get a conflict warning. This will happen if someone else has modified code in a way that Git cannot automatically resolve, usually because you have been editing the same bit of code.</p>
+<p>When this happens, you will need to resolve the conflict. If you open up the file, you will see something like this</p>
+<pre><code class="bash">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:index.html
+&lt;div id=&quot;footer&quot;&gt;contact : email.support@github.com&lt;/div&gt;
+=======
+&lt;div id=&quot;footer&quot;&gt;
+please contact us at support@github.com
+&lt;/div&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
+</code></pre>
+
+<p>You simply need to remove the code block that you want to dispose of. The top block is your code and the bottom comes from the code being merged. If you want to keep your code, you will want to end up with</p>
+<pre><code class="html">&lt;div id=&quot;footer&quot;&gt;contact : email.support@github.com&lt;/div&gt;
+</code></pre>
+
+<p>if you want the merged code to remain, it will be</p>
+<pre><code class="html">&lt;div id=&quot;footer&quot;&gt;
+    please contact us at support@github.com
+&lt;/div&gt;
+</code></pre>
+
+<p>To minimize conflicts, you should 1. Commit little and often and 2. Pull from the remote master often.</p>
+<h3 id="branches">Branches<a class="headerlink" href="#branches" title="Permanent link"></a></h3>
+<p>Branches are important and worth mastering at an early stage. When you create a branch, you are creating a new area to code within. You then <code>merge</code> another branch, usually the <code>master</code> branch, into your new branch. From this point on, you can do whatever you want (add, commit, push etc) without impacting on the <code>master</code> branch on any other branch for that matter.</p>
+<p>For a full overview on branching, please <a href="http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is">read this</a></p>
+<p>The commands you will need to master are</p>
+<ul>
+<li><code>git branch</code> - creates a new branch</li>
+<li><code>git checkout</code> - switches to that branch (be careful about doing this without committing the branch you are leaving as any unstaged files will be lost)</li>
+<li><code>git merge from-branch</code> - merges code from <code>from-branch</code> into your current branch</li>
+</ul>
+<p>Good practice is to switch over to your master branch and pull in changes from the remote (if you're using one). Then switch back to your working branch and merge in changes. Doing this ensures that conflicts are kept to a minimum.</p>
+<h3 id="github-and-other-remotes">GitHub and other remotes<a class="headerlink" href="#github-and-other-remotes" title="Permanent link"></a></h3>
+<p>Most people will want to push to Github and other remote repos. There are various ways to manage this within Codio.</p>
+<h3 id="remotes-and-github">Remotes and Github<a class="headerlink" href="#remotes-and-github" title="Permanent link"></a></h3>
+<p>To work with Github, you need to set up your SSH keys properly as <a href="/dashboard/account/#public-key">described here</a>.</p>
+<h4 id="i-have-a-remote-repo">I have a remote repo<a class="headerlink" href="#i-have-a-remote-repo" title="Permanent link"></a></h4>
+<p>If your starting point is a remote repo, then you should create a new project from the Codio dashboard. Create Project is an option above your project listings.</p>
+<p>You should select the Git tab and enter in the ssh url. This will then create your Codio project by cloning the remote repo you specify and that remote repo will automatically be logged within that project.</p>
+<h4 id="i-do-not-yet-have-a-remote-repo_1">I do not yet have a remote repo<a class="headerlink" href="#i-do-not-yet-have-a-remote-repo_1" title="Permanent link"></a></h4>
+<p>If you have code within Codio and you want to configure it to synchronize with a remote repo, then you should to the following</p>
+<ol>
+<li>Create a new, empty repo on Github or other provider.</li>
+<li>Copy the repo url to the clipboard. If you're using Github, then use the SSH url rather than https.</li>
+<li>Within the IDE, go to <strong>Tools-&gt;Git-&gt;Remotes</strong></li>
+<li>Complete the dialog as shown below. It is recommended you use <code>origin</code> as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.</li>
+</ol>
+<p><img alt="git overview" src="/img/git-remotes.png" /></p>
+<p>If you prefer, you can use the command line interface to achieve the same thing using <code>git remote</code>.</p>
+<p>Once you have set up your remotes, you can now perform sharing and updating commands (push, pull etc.) from Codio's git command line.</p>
+<p>Try pushing your code to the remote using <code>git push --set-upstream origin master</code>. From now on you can use simply <code>git push</code> as the set-upstream command ensure <code>origin master</code> is used by default.</p>
+<h3 id="simplified-git-steps">Simplified Git Steps<a class="headerlink" href="#simplified-git-steps" title="Permanent link"></a></h3>
+<p>We will not attempt any sort of tutorial here, but the following steps cover the absolute basics of Git usage with a remote. If you are new to Git, then you should refer to the <a href="/project/ide/editing/#resources">resources page</a>.</p>
+<ul>
+<li><code>git status</code> gives you the status of your current branch</li>
+<li><code>git add .</code> adds all files, tracked or not, to the staged files</li>
+<li><code>git commit -a -m</code> stages and commits all files to the snapshot</li>
+<li>The first time you push, run the following command to track the new remote <code>git push --set-upstream origin master</code></li>
+<li>Subsequent pushes can be done with <code>git push</code>, which pushes all committed changes of the <code>master</code> branch to the tracked remote (origin).</li>
+</ul>
+<h3 id="active-branch">Active branch<a class="headerlink" href="#active-branch" title="Permanent link"></a></h3>
+<p>You can see which branch you are on by looking in the file tree. The top level item is the project name and to the right of this in brackets is the current branch.</p>
+<p>You may switch branches using the command line interface or the <strong>Tools &gt; Git &gt; Switch Branch</strong> menu item.</p>
+<p><img alt="Git Active" src="/img/git-active-branch.png" /></p>
+<h2 id="keyboard-shortcuts">Keyboard shortcuts<a class="headerlink" href="#keyboard-shortcuts" title="Permanent link"></a></h2>
+<p>You have full control over the keyboard shortcuts for code editing. You should refer to the <a href="/project/ide/settings/#user-preferences">Codio Preferences</a> section to read more about this.</p>
+<p>Codio has its own complete set of defaults, all of which can be overriden. You can use Vim or Emacs key bindings by modifying the <code>keymap</code> preference setting. If you do not use <code>keymap=default</code>, you cannot override keyboard shortcuts.</p>
+<p>The sections that contain productivity specific actions and shortcuts are <code>[Editor]</code> and <code>[Emmet]</code>.</p>
+<h2 id="multiple-cursors">Multiple cursors<a class="headerlink" href="#multiple-cursors" title="Permanent link"></a></h2>
+<p>You can place multiple cursors anywhere in a file using <code>Cmd+Click</code> (Mac) or <code>Ctrl+Click</code> (PC/Linux).</p>
+<p>Click to place the cursor at the desired location, then press and hold Cmd/Ctrl and begin clicking at new locations. When you release Cmd/Ctrl, you can start typing and the content will be duplicated at all cursor locations.</p>
+<p>You can also use <code>Alt-Click</code> to place the cursor everywhere inbetween a start and end position.</p>
+<p><img alt="authtoken" src="/img/multiple-cursor.gif" /></p>
+<h2 id="search-and-replace">Search and replace<a class="headerlink" href="#search-and-replace" title="Permanent link"></a></h2>
+<p>Codio supports local and global search and replace. You can access these feature by hotkey or from the Find menu.</p>
+<p>Hotkey shortcuts can be seen in the Find menu. You can override these from <a href="/project/ide/settings/#user-preferences">Preferences</a>.</p>
+<h3 id="local">Local<a class="headerlink" href="#local" title="Permanent link"></a></h3>
+<p>Search and replace is supported on the currently selected file.</p>
+<p>The hotkeys are defined in <a href="/project/ide/settings/#user-preferences">Preferences</a> and the defaults are</p>
+<pre><code class="ini">;Find.
+; Type: hotkey
+key_find = Cmd+F
+
+;Find next.
+; Type: hotkey
+key_find_next = Cmd+G
+
+;Find previous.
+; Type: hotkey
+key_find_prev = Shift+Cmd+G
+
+;Replace.
+; Type: hotkey
+key_replace = Cmd+Alt+F
+
+;Replace all.
+; Type: hotkey
+key_replace_all = Shift+Cmd+Alt+F
+</code></pre>
+
+<h3 id="global">Global<a class="headerlink" href="#global" title="Permanent link"></a></h3>
+<p>Global search and replace are available within the <strong>Find</strong> menu under <strong>Find in project</strong> and <strong>Replace in project</strong>.</p>
+<p>You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.</p>
+<p><img alt="authtoken" src="/img/global-search.png" /></p>
+<p>Once the search operation has completed you will see matches listed in a Codio tab. Double click on the highlighted match to open up that file in a new tab.</p>
+<p><img alt="global search dialog" src="/img/search-matches.png" /></p>
+<h3 id="pattern-wildcard-matching-globs">Pattern &amp; Wildcard Matching (Globs)<a class="headerlink" href="#pattern-wildcard-matching-globs" title="Permanent link"></a></h3>
+<p>When you are searching, you can specify a search pattern in the <strong>Where</strong> field.</p>
+<p>Lets say you have the following project</p>
+<pre><code class="bash">|-- lib
+|  |-- index.js
+|  |-- hello_world.js
+|-- index.html
+|-- 404.html
+|-- app.js
+`-- gruntfile.coffee
+</code></pre>
+
+<p>then you can use globs to select files in this way:</p>
+<ul>
+<li>All files ending in <code>.js</code>: <code>**/*.js</code>.</li>
+<li><code>index.js</code></li>
+<li><code>hello_world.js</code></li>
+<li><code>app.js</code></li>
+<li>All files ending in <code>.html</code> in the root folder: <code>*.html</code></li>
+<li><code>index.html</code></li>
+<li><code>404.html</code></li>
+<li>All files in <code>lib</code>: <code>lib/*.*</code></li>
+<li><code>index.js</code></li>
+<li><code>hello_world.js</code></li>
+<li>All files ending in <code>.html</code> or <code>.coffee</code>: <code>**/*{.html,.coffee}</code></li>
+<li><code>index.html</code></li>
+<li><code>404.html</code></li>
+<li><code>gruntfile.coffee</code></li>
+<li>All files beginning with <code>index</code>: <code>**/index*</code></li>
+<li><code>index.js</code></li>
+<li><code>index.html</code></li>
+</ul>
+<h4 id="basic-rules">Basic Rules<a class="headerlink" href="#basic-rules" title="Permanent link"></a></h4>
+<p>Any character that appears in a pattern, other than the special pattern characters described below, matches itself. The NULL character may not occur in a pattern. A backslash escapes the following character; the escaping backslash is discarded when matching. The special pattern characters must be quoted if they are to be matched literally.</p>
+<p>The special pattern characters have the following meanings:</p>
+<ul>
+<li>
+<p><code>*</code> Matches any string, including the null string. When the globstar shell option is enabled, and <code>*</code> is used in a filename expansion context, two adjacent <code>*</code>s used as a single pattern will match all files and zero or more directories and subdirectories. If followed by a <code>/</code>, two adjacent <code>*</code>s will match only directories and subdirectories.</p>
+</li>
+<li>
+<p><code>?</code> Matches any single character.</p>
+</li>
+<li>
+<p><code>[…]</code> Matches any one of the enclosed characters. A pair of characters separated by a hyphen denotes a range expression; any character that sorts between those two characters, inclusive, using the current locale's collating sequence and character set, is matched. If the first character following the <code>[</code> is a <code>!</code> or a <code>^</code> then any character not enclosed is matched. A <code>-</code> may be matched by including it as the first or last character in the set. A <code>]</code> may be matched by including it as the first character in the set.</p>
+</li>
+</ul>
+<p>A character class matches any character belonging to that class. The word character class matches letters, digits, and the character <code>_</code>.</p>
+<p>Within <code>[</code> and <code>]</code>, an equivalence class can be specified using the syntax <code>[=c=]</code>, which matches all characters with the same collation weight (as defined by the current locale) as the character c.</p>
+<p>Within <code>[</code> and <code>]</code>, the syntax [.symbol.] matches the collating symbol symbol.</p>
+<ul>
+<li>
+<p><code>?(pattern-list)</code> Matches zero or one occurrence of the given patterns.</p>
+</li>
+<li>
+<p><code>*(pattern-list)</code> Matches zero or more occurrences of the given patterns.</p>
+</li>
+<li>
+<p><code>+(pattern-list)</code> Matches one or more occurrences of the given patterns.</p>
+</li>
+<li>
+<p><code>@(pattern-list)</code> Matches one of the given patterns.</p>
+</li>
+<li>
+<p><code>!(pattern-list)</code> Matches anything except one of the given patterns.</p>
+</li>
+</ul>
+<h2 id="color-preview-and-picker">Color preview and picker<a class="headerlink" href="#color-preview-and-picker" title="Permanent link"></a></h2>
+<h3 id="regular-colors">Regular Colors<a class="headerlink" href="#regular-colors" title="Permanent link"></a></h3>
+<p>If you are in any file, of any type, that contains something that looks like an RGB hex value, rgb(100, 100, 100), hsla(0,100%,50%,0.2) etc., just hover over the code and a popup will appear that shows the color preview.</p>
+<p><img alt="authtoken" src="/img/color-preview.png" /></p>
+<h3 id="gradients">Gradients<a class="headerlink" href="#gradients" title="Permanent link"></a></h3>
+<p>This works for gradients as well.</p>
+<p><img alt="authtoken" src="/img/gradient-preview.png" /></p>
+<h3 id="color-picker">Color Picker<a class="headerlink" href="#color-picker" title="Permanent link"></a></h3>
+<p>If you move your mouse into the color preview area and then click, a color picker dialog will appear that allows you to choose a new color. You can drag things around as well as edit the values directly.</p>
+<p><img alt="authtoken" src="/img/picker-1.png" /></p>
+<p><img alt="authtoken" src="/img/picker-2.png" /></p>
+<h2 id="beautify-javascript">Beautify javascript<a class="headerlink" href="#beautify-javascript" title="Permanent link"></a></h2>
+<p>You can format your Javascript code by pressing the keyboard shortcut as defined in the <a href="/project/ide/settings/#user-preferences">User Preferences</a>. By default, it is</p>
+<ul>
+<li><code>key_format_code</code> = <code>Cmd+Alt+F</code> (for a Mac)</li>
+<li><code>key_format_code</code> = <code>Ctrl+Alt+F</code> (for anything else)</li>
+</ul>
+<p>It will indent your code correctly and manage spaces and other cool things.</p>
+<p>For example, if you start out with this</p>
+<pre><code class="js">if ('this_is'==/an_example/){of_beautifer();}else{var a=b?(c%d):e[f];}
+</code></pre>
+
+<p>Then after beautifying, you will end up with this</p>
+<pre><code class="js">if ('this_is' == /an_example/) {
+    of_beautifer();
+} else {
+    var a = b ? (c % d) : e[f];
+}
+</code></pre>
+
+<h3 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link"></a></h3>
+<p>If you look within the [code-beautifier] section of the Codio Preferences, you will see the various beautification settings available.</p>
+<p>Don't forget, you can force these in <a href="/project/ide/settings/#project-preferences">Project preferences</a> if you want to have consistently beautified code regardless of who edits your code.</p>
+<h2 id="force-language-highlighting">Force language highlighting<a class="headerlink" href="#force-language-highlighting" title="Permanent link"></a></h2>
+<p>Codio will automatically select the syntax highlighting rules based on the file extension.</p>
+<p>If you open a file whose extension is not known then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking on the name in the status bar of the code window.</p>
+<p><img alt="authtoken" src="/img/ide-force-lang.png" /></p>
+<p>You can override the language highlighting by clicking as shown (circled) in the above screenshot.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../javascripts/extra.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

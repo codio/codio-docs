@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/courses/lti1_0/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Integrating with LTI 1.1 systems - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../grading/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../lti1_3/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#lti-keys-and-urls" class="nav-link">LTI Keys and URLs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#lti-keys" class="nav-link">LTI Keys</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#course-lms-url" class="nav-link">Course LMS URL</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#assignment-url" class="nav-link">Assignment URL</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#exporting-lti-settings" class="nav-link">Exporting LTI settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#codio-lti-app" class="nav-link">Codio LTI App</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#preparation" class="nav-link">Preparation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#course-lms-url_1" class="nav-link">Course LMS URL</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#mapping-codio-assignment-to-canvas-assignment" class="nav-link">Mapping Codio assignment to Canvas assignment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#lti-constant-urls" class="nav-link">LTI Constant URLs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#lti-course-copy" class="nav-link">LTI Course copy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#grading" class="nav-link">Grading</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#canvas" class="nav-link">Canvas</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#preparation_1" class="nav-link">Preparation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#mapping-an-assignment-to-a-canvas-assignment" class="nav-link">Mapping an Assignment to a Canvas Assignment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#adding-faculty-and-students" class="nav-link">Adding faculty and students</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#single-sign-in-and-account-creation" class="nav-link">Single sign-in and account creation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#generating-scores" class="nav-link">Generating scores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#releasing-grades" class="nav-link">Releasing grades</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#blackboard" class="nav-link">Blackboard</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#preparation_2" class="nav-link">Preparation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#codio-course-setup_1" class="nav-link">Codio course setup</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#mapping-an-assignment-to-blackboard-content" class="nav-link">Mapping an assignment to Blackboard Content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#adding-faculty-and-students_1" class="nav-link">Adding faculty and students</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#single-sign-in-and-account-creation_1" class="nav-link">Single sign-in and account creation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#generating-scores_1" class="nav-link">Generating scores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#releasing-grades_1" class="nav-link">Releasing grades</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#moodle" class="nav-link">Moodle</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#setup-and-configuration" class="nav-link">Setup and configuration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#authentication-and-account-creation" class="nav-link">Authentication and account creation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Learning Tools Interoperability (LTI) is a standard for passing user, organization, and course information between learning management systems (tool consumers) and learning tools and tool providers, such as Codio.</p>
+<p><strong>Video: LMS Integration Overview</strong>
+<p><a href="https://codio.wistia.com/medias/mgakczk3y4?wvideo=mgakczk3y4"><img src="https://embedwistia-a.akamaihd.net/deliveries/5b9850e6e1367110c0adacfe46dd4dc9a8f8f0e6.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p></p>
+<h2 id="lti-keys-and-urls">LTI Keys and URLs<a class="headerlink" href="#lti-keys-and-urls" title="Permanent link"></a></h2>
+<p><strong>LTI Keys</strong> are used to integrate your LMS to Codio. These keys are required by your LMS administrator one time only so that Codio can be added as an LTI provider. Once Codio has been added as an LTI provider, you will not need them again and the remaining actions can be completed by LMS users who have Teacher/Instructor permissions.</p>
+<p><strong>Course and assignment URLs</strong> will be copied and pasted into your LMS system, once for the LMS course/course and once for each LMS assignment.</p>
+<p>We have platform specific integration documentation for the following LMS platforms, although for most LMS systems you should be able to utilise the <strong><a href="/courses/lti1_0/#codio-lti-app">Codio LTI App</a></strong></p>
+<ul>
+<li><a href="/courses/lti1_0/#canvas">Canvas</a></li>
+<li><a href="/courses/lti1_0/#blackboard">Blackboard</a></li>
+<li><a href="/courses/lti1_0/#moodle">Moodle</a></li>
+</ul>
+<h3 id="lti-keys">LTI Keys<a class="headerlink" href="#lti-keys" title="Permanent link"></a></h3>
+<p>LTI keys are accessible to <a href="/dashboard/organisations/#add-organization-owners">Codio Organization Owners</a> only.</p>
+<p>To find these keys:</p>
+<ul>
+<li>Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within <strong>My Organizations</strong>.</li>
+<li>Select the <strong>LTI Integrations</strong> tab.</li>
+<li>Scroll down to the <strong>LTI Integration 1.0</strong> section. You should see the following fields.</li>
+</ul>
+<p><img alt="lti-keys" src="/img/lti/lti-org-fields.png" /></p>
+<h3 id="course-lms-url">Course LMS URL<a class="headerlink" href="#course-lms-url" title="Permanent link"></a></h3>
+<p>The <strong>Course LMS URL</strong> is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard.</p>
+<p>The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.</p>
+<ul>
+<li>In Codio, go to the <strong>Admin</strong> tab near the top.</li>
+<li>Select <strong>Edit Details</strong> in the bottom of the page.</li>
+<li>Near the bottom is a switch <strong>Enable LTI</strong> which you should enable.</li>
+<li>Below this is an empty field <strong>Course LMS URL</strong>. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.</li>
+</ul>
+<p><img alt="lti-class-url" src="/img/lti/lti-class-url.png" /></p>
+<h3 id="assignment-url">Assignment URL<a class="headerlink" href="#assignment-url" title="Permanent link"></a></h3>
+<p>Please be sure to check out the <a href="/courses/lti1_0/#codio-lti-app">Codio LTI App</a> which allows for an easy way to integrate and to map Codio course assignments to your LMS system.</p>
+<p>If you are unable to utilise the Codio LTI App, the <strong>Assignment URL</strong> is where you map each individual assignment within your Codio course to the corresponding assignment in your LMS. It directs a student to the correct Codio assignment and will automatically open the Codio assignment.</p>
+<ul>
+<li>On the main course screen, click the icon with 3 blue dots for each of the assignments you wish to map and select <strong>LTI Integration URL</strong>.</li>
+<li>You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).</li>
+</ul>
+<p><img alt="authtoken" src="/img/lti/LMS-Unit-URL.png" /></p>
+<ul>
+<li>Complete the mapping in your LMS.</li>
+</ul>
+<h3 id="exporting-lti-settings">Exporting LTI settings<a class="headerlink" href="#exporting-lti-settings" title="Permanent link"></a></h3>
+<p>The LTI integration URLs for the assignments in a course can be exported.</p>
+<ul>
+<li>Select the course, go to the Admin area and then press the <strong>Export LTI Settings</strong> button.</li>
+</ul>
+<p><img alt="Export LTI" src="/img/class_lti_export.png" /></p>
+<h2 id="codio-lti-app">Codio LTI App<a class="headerlink" href="#codio-lti-app" title="Permanent link"></a></h2>
+<p>The <strong>Codio LTI App</strong> allows an easy way to integrate Codio with supported LMS systems.</p>
+<p><strong>Video - Connect Codio to Canvas using the LTI App:</strong>
+<p><a href="https://codio.wistia.com/medias/wem4eaq6zz?wvideo=wem4eaq6zz"><img src="https://embed-fastly.wistia.com/deliveries/a95678224d8638648a7b207c48e82e045c6cb8c0.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p></p>
+<p><strong>Please note the steps below are for implementation in Canvas.</strong></p>
+<p>For details of other supported systems see <a href="https://www.eduappcenter.com/tutorials">https://www.eduappcenter.com/tutorials</a>.</p>
+<h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link"></a></h3>
+<p>The following steps need to be taken only one time per course.</p>
+<h4 id="in-codio">In Codio<a class="headerlink" href="#in-codio" title="Permanent link"></a></h4>
+<ul>
+<li>Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within <strong>My Organizations</strong>.</li>
+<li>Select the <strong>LTI Integrations</strong> tab.</li>
+<li>Scroll down to the <strong>LTI Integration 1.0</strong> section. You should see the following fields. Remain on this screen for the time being.</li>
+</ul>
+<p><img alt="LTI Fields" src="/img/lti/lti-org-fields.png" /></p>
+<h4 id="in-canvas">In Canvas<a class="headerlink" href="#in-canvas" title="Permanent link"></a></h4>
+<p>The Canvas user who carries out these steps must be a system administrator.</p>
+<ul>
+<li>Create a new Course in your LMS system. We suggest you create a test course called <strong>Codio Test Course</strong> before you do it with a production course.</li>
+<li>Select the Course.</li>
+<li>Click on <strong>Settings</strong> in the left set of options.</li>
+<li>In the top links, select <strong>Apps</strong>.</li>
+<li>Click the large button <strong>View App Configurations</strong>.</li>
+<li>Click on the <strong>View App Center</strong> button.</li>
+</ul>
+<p><img alt="appcenter" src="/img/lti/appcenter.png" /></p>
+<ul>
+<li>Navigate (or filter) to find the <strong>Codio</strong> app, select and <strong>+ Add App</strong></li>
+</ul>
+<h4 id="in-codio-and-canvas">In Codio and Canvas<a class="headerlink" href="#in-codio-and-canvas" title="Permanent link"></a></h4>
+<p>We will now copy the following global integration fields from Codio to Canvas.</p>
+<ul>
+<li>LTI Consumer -&gt; Consumer Key</li>
+<li>LTI Secret -&gt; Shared Secret</li>
+</ul>
+<p>and select the <strong>Add App</strong> button to confirm.
+You should then have something similar to this:</p>
+<p><img alt="appconfigured" src="/img/lti/appsetup.png" /></p>
+<h3 id="course-lms-url_1">Course LMS URL<a class="headerlink" href="#course-lms-url_1" title="Permanent link"></a></h3>
+<p>The <strong>Course LMS URL</strong> is used to map an LMS course to a Codio course. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the course through the Codio dashboard. If not entered and students log into Codio to try to start new assignments there will be no link for them to click to be passed to your LMS Course.</p>
+<p>The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.</p>
+<p><strong>Video - Course LMS URL:</strong> </p>
+<p><a href="https://codio.wistia.com/medias/q17567v2nr?wvideo=q17567v2nr"><img src="https://embedwistia-a.akamaihd.net/deliveries/cc2759addeb52ba5cdde2877ae9b304ccbe052ae.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<ul>
+<li>In Codio, go to the <strong>Admin</strong> tab near the top.</li>
+<li>Select <strong>Edit Details</strong> in the bottom of the page.</li>
+<li>Near the bottom is a switch <strong>Enable LTI</strong> which you should enable.</li>
+<li>Below this is an empty field <strong>Course LMS URL</strong>. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.</li>
+</ul>
+<p><img alt="lti-class-url" src="/img/lti/lti-class-url.png" /></p>
+<h3 id="mapping-codio-assignment-to-canvas-assignment">Mapping Codio assignment to Canvas assignment<a class="headerlink" href="#mapping-codio-assignment-to-canvas-assignment" title="Permanent link"></a></h3>
+<p>The <strong>Assignment URL</strong> is where you map each individual assignment within your Codio course to the corresponding assignment in your LMS.</p>
+<p>Where you have enabled the Codio LTI App in your LMS system, you can easily integrate assignments from your Codio course.</p>
+<ul>
+<li>Go to your Canvas Course and to <strong>Pages</strong> to add a new page,</li>
+<li>Click the Codio icon that will be available</li>
+</ul>
+<p><img alt="codioicon" src="/img/lti/codioicon.png" /></p>
+<ul>
+<li>A list of the Codio course contents will be shown, simply select the assignment(s) you wish to add to Canvas and Save</li>
+</ul>
+<p><img alt="classunits" src="/img/lti/classunits.png" /></p>
+<p>The assignment(s) and course will need to be published before students will be able to access them</p>
+<p>For other methods to integrate Codio with LMS systems, check out the sections below.</p>
+<h2 id="lti-constant-urls">LTI Constant URLs<a class="headerlink" href="#lti-constant-urls" title="Permanent link"></a></h2>
+<p>Enabling this setting enables constant URL for course assignments, course detection will be done based on the custom parameter your LMS should pass.</p>
+<p>Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to copy Codio courses and LMS Courses. See <a href="/courses/lti1_0/#lti-course-copy">LTI Course Copy</a> for more on this.</p>
+<p><strong>Video - LTI Constant URL:</strong>
+<p><a href="https://codio.wistia.com/medias/8asg6lncd3?wvideo=8asg6lncd3"><img src="https://embed-fastly.wistia.com/deliveries/4a815e24ca6a16dca3de2b254a7028dad9d088b2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p></p>
+<p><strong>Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance</strong></p>
+<ul>
+<li>Create an External app in your LMS using the configuration type: By URL</li>
+</ul>
+<p><img alt="LTI URL config" src="/img/lti/canvas_url.png" /></p>
+<ul>
+<li>Enter in the Consumer Key and Shared Secret from your Codio organisation</li>
+</ul>
+<p><img alt="LTI Fields" src="/img/lti/lti-org-fields.png" /></p>
+<ul>
+<li>Copy the XML URL into the Config URL field</li>
+<li>Submit</li>
+<li>Return to your Codio course and enable the <strong>Enable LTI constant URL's</strong> button, and save your changes</li>
+<li>Copy the <strong>LTI constant URL's enabled</strong> link</li>
+</ul>
+<p><strong>N.B. If your LMS supports it, <code>lis_course_offering_sourcedid</code> is also supported as a unique course identifier so you can replace <code>codio_class_target_id</code> if required</strong></p>
+<p><img alt="Enable Constant URL" src="/img/lti/constant_url.png" /></p>
+<ul>
+<li>Return to your LMS external app and 'edit'</li>
+<li>Paste the <strong>LTI constant URL's enabled</strong> link into the Custom Field</li>
+<li>Submit</li>
+</ul>
+<h2 id="lti-course-copy">LTI Course copy<a class="headerlink" href="#lti-course-copy" title="Permanent link"></a></h2>
+<p>Enabling this setting allows existing Codio course content used in your LMS to be copied into a new Codio course and a new course in your LMS. This should be enabled for the courses connected with the "Master" course in your LMS. The parameter will be disabled by default for for all copied courses.</p>
+<p><strong>Video - LTI Course Copy:</strong>
+<p><a href="https://codio.wistia.com/medias/x5lwfhay39?wvideo=x5lwfhay39"><img src="https://embed-fastly.wistia.com/deliveries/ae4739e0cbcd5135b92b4b62a4742c8dbab5a373.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p></p>
+<p>Note: This video was created before a recent naming change from LTI Course Fork to LTI Course Copy</p>
+<p><strong>Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance</strong></p>
+<p>First enable <a href="/courses/lti1_0/#lti-constant-urls">LTI Constant URLs</a> for your course.</p>
+<ul>
+<li>In your existing Codio course, enable the <strong>Enable LTI course copy</strong> button, and save your changes</li>
+</ul>
+<p><img alt="Enable course copy field" src="/img/lti/enable_class_fork.png" /></p>
+<ul>
+<li>In your LMS "Copy this Course" (or equivalent term for your LMS) and create your new course</li>
+</ul>
+<p><img alt="Copy LMS Course" src="/img/lti/copy_course.png" /></p>
+<ul>
+<li>When completed go to <strong>External Apps</strong> and edit the existing app connecting Codio to your LMS</li>
+<li>Replace the existing custom field that was set from your original Codio course with an id of your own (e.g something like codio_class_target_id=my_class_id_10)</li>
+</ul>
+<p><strong>N.B. If your LMS supports <code>lis_course_offering_sourcedid</code> you do not need to specify <code>codio_class_target_id</code> for the copied course, <code>lis_course_offering_sourcedid</code> will be used automatically to detect the course</strong></p>
+<p><img alt="course fork id" src="/img/lti/fork_class_id.png" /></p>
+<ul>
+<li>In your existing Codio course, copy the content of the LTI course copy enabled field into a new line in the 'Edit App' custom field</li>
+</ul>
+<p><img alt="Parent course ID" src="/img/lti/parent_class.png" /></p>
+<ul>
+<li>
+<p>Submit</p>
+</li>
+<li>
+<p>In the new course created in your LMS, open one of the new assignments and this will then create the new course in Codio containing the content from your original Codio course.</p>
+</li>
+</ul>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link"></a></h2>
+<p>When grades are <a href="/courses/grading/#releasing-grades">released</a> a URL is passed to the LMS where students/teachers can access the grading information for the assignment in the grading area of the LMS</p>
+<p>By default, only the course teachers and the individual student can access the grading preview URL but by enabling the <a href="/courses/classes/#lms-shared-feedback">LMS shared feedback</a> option for the course, this will pass a different URL back to your LMS system where anyone who knows the URL can access the students grading information</p>
+<h2 id="canvas">Canvas<a class="headerlink" href="#canvas" title="Permanent link"></a></h2>
+<p>Please be sure to check out the <a href="/courses/lti1_0/#codio-lti-app">Codio LTI App</a> which allows for an easy way to integrate and to map Codio course assignments to your Canvas system but if that can't be used you can manually integrate following these steps</p>
+<h3 id="preparation_1">Preparation<a class="headerlink" href="#preparation_1" title="Permanent link"></a></h3>
+<p>The following steps need to be taken only one time per course.</p>
+<h4 id="in-codio_1">In Codio<a class="headerlink" href="#in-codio_1" title="Permanent link"></a></h4>
+<ul>
+<li>Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within <strong>My Organizations</strong>.</li>
+<li>Select the <strong>LTI Integrations</strong> tab.</li>
+<li>Scroll down to the <strong>LTI Integration 1.0</strong> section. You should see the following fields. Remain on this screen for the time being.</li>
+</ul>
+<p><img alt="LTI Fields" src="/img/lti/lti-org-fields.png" /></p>
+<h4 id="in-canvas-adding-codio-as-an-app">In Canvas, adding Codio as an App<a class="headerlink" href="#in-canvas-adding-codio-as-an-app" title="Permanent link"></a></h4>
+<p>The Canvas user who carries out these steps must be a system administrator.</p>
+<ul>
+<li>Create a new Course in Canvas. We suggest you create a test course called <strong>Codio Canvas</strong> before you do it with a production course.</li>
+<li>Select the Course.</li>
+<li>Click on <strong>Settings</strong> in the left set of options.</li>
+<li>In the top links, select <strong>Apps</strong>.</li>
+<li>Click the large button <strong>View App Configurations</strong>.</li>
+<li>Click on the blue <strong>+ App</strong> button.</li>
+</ul>
+<h4 id="in-codio-and-canvas_1">In Codio and Canvas<a class="headerlink" href="#in-codio-and-canvas_1" title="Permanent link"></a></h4>
+<p>We will now copy the following global integration fields from Codio to Canvas.</p>
+<ul>
+<li>LTI Consumer -&gt; Consumer Key</li>
+<li>LTI Secret -&gt; Shared Secret</li>
+<li>LTI URL -&gt; Launch URL</li>
+</ul>
+<p>In Canvas you should then use one of the following steps</p>
+<h4 id="manual-entry">Manual Entry<a class="headerlink" href="#manual-entry" title="Permanent link"></a></h4>
+<ul>
+<li>Enter a suitable name (Codio Canvas LTI) in the <strong>Name</strong> field.</li>
+<li>Enter <strong>apollo.codio.com</strong> into the <strong>Domain</strong> field.</li>
+<li>
+<p>In the <strong>Privacy</strong> field, select <strong>Public</strong></p>
+<ul>
+<li>If you do not wish your LMS to share your students name/email addresses to Codio you can select the Anonymous privacy setting but be aware if doing so, any <a href="/courses/classes/#notification-emails">notifications</a> you may wish to set up will not reach those students.</li>
+</ul>
+</li>
+<li>
+<p>Paste in the 3 Codio fields to the appropriate fields</p>
+</li>
+</ul>
+<p>You should end up with something like this.</p>
+<p><img alt="Canvas Global" src="/img/lti/canvas-global.png" /></p>
+<h4 id="by-url">By URL<a class="headerlink" href="#by-url" title="Permanent link"></a></h4>
+<ul>
+<li>Enter a suitable name (Codio Canvas LTI) in the <strong>Name</strong> field.</li>
+<li>In Codio select the Copy Consumer button to copy in to the Consumer Key field.</li>
+<li>select the Copy Secret Key to copy in to the Shared Secret field.</li>
+<li>select the Copy XML URL to copy in the to the Config URL field.</li>
+<li>and Submit</li>
+</ul>
+<h4 id="paste-xml">Paste XML<a class="headerlink" href="#paste-xml" title="Permanent link"></a></h4>
+<ul>
+<li>Enter a suitable name (Codio Canvas LTI) in the <strong>Name</strong> field.</li>
+<li>In Codio select the Copy Consumer button to copy in to the Consumer Key field.</li>
+<li>select the Copy Secret Key to copy in to the Shared Secret field.</li>
+<li>click on the <code>XML Configuration</code> link to open the XML and then copy in the to the XML Configuration field.</li>
+<li>and Submit</li>
+</ul>
+<h4 id="codio-course-setup">Codio course setup<a class="headerlink" href="#codio-course-setup" title="Permanent link"></a></h4>
+<p>You need to perform the following actions one time only for a course. The Canvas user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.</p>
+<ul>
+<li>In Codio, create a new course and name it <strong>Canvas Demo</strong>.</li>
+<li>Click on the <strong>Admin</strong> tab near the top.</li>
+<li>Select <strong>Edit Details</strong> in the bottom of the page.</li>
+<li>Near the bottom is a switch <strong>Enable LTI</strong> which you should enable.</li>
+<li>Below this is an empty field <strong>Course LMS URL</strong>. Switch back to Canvas and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio. The url format should end with something like <code>/courses/1121212</code> although the number will be different.</li>
+</ul>
+<p>This URL ensures that Codio knows how to redirect students back to the correct Canvas course should they attempt to access the course through their dashboard.</p>
+<h3 id="mapping-an-assignment-to-a-canvas-assignment">Mapping an Assignment to a Canvas Assignment<a class="headerlink" href="#mapping-an-assignment-to-a-canvas-assignment" title="Permanent link"></a></h3>
+<p>The final mapping step needs to be taken for each individual assignment within Codio. It maps a Canvas assignment to a Codio assignment.</p>
+<h4 id="in-codio_2">In Codio<a class="headerlink" href="#in-codio_2" title="Permanent link"></a></h4>
+<ul>
+<li>On the main course screen, make sure the <strong>Assignments</strong> tab is selected.</li>
+<li>Click the <strong>+</strong> button and select <strong>Add Project</strong>.</li>
+<li>Select a project that has some autograded assessments. The <strong>My First Project</strong> that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the assignment so there are some scores to pass back to the Canvas gradebook.</li>
+<li>Once the assignment has been added to the course, you should click the icon with 3 blue dots and select <strong>LTI Integration URL</strong>.</li>
+<li>You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).</li>
+</ul>
+<p><img alt="Unit URL" src="/img/lti/LMS-Unit-URL.png" /></p>
+<h4 id="in-canvas_1">In Canvas<a class="headerlink" href="#in-canvas_1" title="Permanent link"></a></h4>
+<p>We now return to Canvas complete the mapping.</p>
+<ul>
+<li>Make sure you are in the Courses area.</li>
+<li>Click on the <strong>Assignments</strong> link in the left hand side.</li>
+<li>Provide a name for the Assignment.</li>
+<li>Set the points for the Assignment. When the grades get passed back later, the Codio percentage score will be scaled to the points value you specify here.</li>
+<li>Scroll down and look for the <strong>Submission Type</strong> field.</li>
+</ul>
+<p><img alt="Canvas Submission" src="/img/lti/canvas-submission-type.png" /></p>
+<ul>
+<li>You should now click on the dropdown list and select <strong>External Tool</strong>.</li>
+<li>In the new set of fields that appear, paste the Codio <strong>LTI Integration URL</strong> field into the url field in Canvas.</li>
+<li>Select <strong>Load This Tool In a New Tab</strong>.</li>
+<li>Click the <strong>Save and Publish</strong> button.</li>
+<li>Make sure the Canvas course is published.</li>
+</ul>
+<h3 id="adding-faculty-and-students">Adding faculty and students<a class="headerlink" href="#adding-faculty-and-students" title="Permanent link"></a></h3>
+<p>The final step is to add students to your course. This is done from the People tab. We recommend that you add the same test students to Canvas that you have in Codio. The only field of data that needs to match is the email address. So, look up the Codio test student email addresses and add them to Canvas in the student role.</p>
+<p>When you add a student in Canvas you will need to confirm from the email you are sent.</p>
+<p><strong>Important</strong> : make sure you log out of your teacher based Canvas session before doing this.</p>
+<p>Next, you should login to Canvas as a test student and start the assignment. Please read on to see what happens next, which is dependent.</p>
+<p><strong>Important</strong> : when you access Codio from Canvas, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and you start an assignment from Canvas as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.</p>
+<h3 id="single-sign-in-and-account-creation">Single sign-in and account creation<a class="headerlink" href="#single-sign-in-and-account-creation" title="Permanent link"></a></h3>
+<p>It is important to understand how Codio maps Canvas users to Codio users. The following rules should be understood. If students or faculty access Codio via a Canvas assignment then Codio will initially use the Canvas email address to identify the user and create the Codio account. In all subsequent access, the Canvas userID will be used so in the event the user changes their email address in Canvas, the user will be mapped to the same Codio account.</p>
+<ul>
+<li>If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Canvas user role will be carried over as well.</li>
+<li>If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.</li>
+<li></li>
+</ul>
+<h4 id="teacher-roles">Teacher Roles<a class="headerlink" href="#teacher-roles" title="Permanent link"></a></h4>
+<p>Based on the LMS role, if teachers join Codio via the LMS, the following will apply:</p>
+<table>
+<thead>
+<tr>
+<th align="left">LMS Role</th>
+<th align="center">Will be added to Codio with these rights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Teaching Assistant</td>
+<td align="center">TEACHER</td>
+</tr>
+<tr>
+<td align="left">Content Developer</td>
+<td align="center">TEACHER</td>
+</tr>
+<tr>
+<td align="left">Mentor</td>
+<td align="center">TEACHER (with <a href="/courses/classes/#adding-teachers-to-a-course">read only</a> access to the course}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="generating-scores">Generating scores<a class="headerlink" href="#generating-scores" title="Permanent link"></a></h3>
+<p>You should now generate some scores to pass back to Codio. You can do either of the following.</p>
+<ul>
+<li>If your assigned Codio assignment has some autograded assessments (simple MCQs will do fine) then access the Codio content as students as answer the questions to generate a score</li>
+<li>You can also manually grade the student assignment in Codio. You will need to enter a percentage value here as the LMS/LTI interface requires this.</li>
+</ul>
+<h3 id="releasing-grades">Releasing grades<a class="headerlink" href="#releasing-grades" title="Permanent link"></a></h3>
+<p>By default, grades in Codio are neither passed back to the student nor to Canvas until they are</p>
+<ul>
+<li>Marked as complete by either the student or the teacher and</li>
+<li>the <strong>Release Grades</strong> switch is enabled (or if you have set the course to automatically release grades when completed)</li>
+</ul>
+<p>Once <strong>Release Grades</strong> is enabled, all completed student assignments are automatically sent through.</p>
+<p><img alt="Release Grades" src="/img/lti/release-complete.png" /></p>
+<p>There are various ways to mark a student's work as complete</p>
+<ul>
+<li>The student can do this from either the Course dashboard or from the <strong>Education-&gt;Mark as Complete</strong> menu in the assignment itself.</li>
+<li>The teacher can do the same in the assignment when <a href="/courses/grading/#accessing-student-work">viewing students code</a></li>
+<li>The teacher can do the same from the assignment in the Course dashboard by hovering in the left side of a student entry and then setting the completed switch.</li>
+<li>The teacher can mark all student assignments as completed in one action. This is done by<ul>
+<li>selecting the assignment in the Course</li>
+<li>pressing the <strong>Action</strong> button</li>
+<li>pressing the <strong>Mark all as Completed</strong> button</li>
+</ul>
+</li>
+</ul>
+<h2 id="blackboard">Blackboard<a class="headerlink" href="#blackboard" title="Permanent link"></a></h2>
+<p>Please be sure to check out the <a href="/courses/lti1_0/#codio-lti-app">Codio LTI App</a> which allows for an easy way to integrate and to map Codio course assignments to your LMS system. The <a href="http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm">following page</a> explains how to set up external apps in Blackboard Learn.</p>
+<h3 id="preparation_2">Preparation<a class="headerlink" href="#preparation_2" title="Permanent link"></a></h3>
+<p>The following steps need to be taken only one time per course.</p>
+<h4 id="in-codio_3">In Codio<a class="headerlink" href="#in-codio_3" title="Permanent link"></a></h4>
+<ul>
+<li>Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within <strong>My Organizations</strong>.</li>
+<li>Select the <strong>LTI Integrations</strong> tab.</li>
+<li>Scroll down to the <strong>LTI Integration 1.0</strong> section. You should see the following fields. Remain on this screen for the time being.</li>
+</ul>
+<p><img alt="LTI Fields" src="/img/lti/lti-org-fields.png" /></p>
+<h4 id="in-blackboard">In Blackboard<a class="headerlink" href="#in-blackboard" title="Permanent link"></a></h4>
+<p>The Blackboard user who carries out these steps must be a Blackboard system administrator.</p>
+<ul>
+<li>Create a new Course in Blackboard. We suggest you create a test course called <strong>Codio Blackboard</strong> before you do it with a production course.</li>
+<li>Look for the <strong>System Admin</strong> tab near the top right of the page and select it.</li>
+<li>Look for the <strong>Building Blocks</strong> section and select it.</li>
+<li>Click on <strong>LTI tool providers</strong>.</li>
+<li>Click on <strong>Register Provider Domain</strong> in the menu bar.</li>
+<li>In the <strong>Provider Domain</strong> field, enter <code>apollo.codio.com</code>.</li>
+<li>In the <strong>Default Configuration</strong> section, set <strong>Default Configuration</strong> to be <strong>Set globally</strong>.</li>
+<li>In the <strong>Organization Policies</strong> section you should</li>
+<li>set <strong>Send User Data</strong> to <strong>Send user data only over SSL</strong>.</li>
+<li>in <strong>User Fields to Send</strong> you should set all 3 fields (Constituency in Course, Name, Email Address).<ul>
+<li>If you do not wish your LMS to share your students name/email addresses to Codio you can deselect the Name, Email address but be aware if doing so, any <a href="/courses/classes/#notification-emails">notifications</a> you may wish to set up will not reach those students.</li>
+</ul>
+</li>
+</ul>
+<h4 id="in-codio-and-blackboard">In Codio and Blackboard<a class="headerlink" href="#in-codio-and-blackboard" title="Permanent link"></a></h4>
+<p>Now return to the <strong>Default Configuration</strong> section in Blackboard. We will now copy the following global integration fields from Codio to Blackboard.</p>
+<ul>
+<li>LTI Consumer -&gt; Tool Provider Key</li>
+<li>LTI Secret -&gt; Tool Provider Secret</li>
+</ul>
+<h3 id="codio-course-setup_1">Codio course setup<a class="headerlink" href="#codio-course-setup_1" title="Permanent link"></a></h3>
+<p>You need to perform the following actions one time only for a course. The Blackboard user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.</p>
+<ul>
+<li>Create a new course and name it <strong>Blackboard Demo</strong>.</li>
+<li>In the main course screen, click on the <strong>Admin</strong> tab near the top.</li>
+<li>Select <strong>Edit Details</strong> in the bottom of the page.</li>
+<li>Near the bottom is a switch <strong>Enable LTI</strong> which you should enable.</li>
+<li>Below this is an empty field <strong>Course LMS URL</strong>. Switch back to Blackboard and make sure you are on the main the Codio Blackboard course you created earlier. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.</li>
+</ul>
+<p>This URL ensures that Codio knows how to redirect students back to the correct Blackboard course should they attempt to access the course through their dashboard.</p>
+<h3 id="mapping-an-assignment-to-blackboard-content">Mapping an assignment to Blackboard Content<a class="headerlink" href="#mapping-an-assignment-to-blackboard-content" title="Permanent link"></a></h3>
+<p>The final mapping step needs to be taken for each individual assignment within Codio. It maps a piece of Blackboard content to a Codio assignment.</p>
+<h4 id="in-codio_4">In Codio<a class="headerlink" href="#in-codio_4" title="Permanent link"></a></h4>
+<ul>
+<li>On the main course screen, make sure the <strong>Assignments</strong> tab is selected.</li>
+<li>Click the <strong>+</strong> button and select <strong>Add Project</strong>.</li>
+<li>Select a project that has some autograded assessments. The <strong>My First Project</strong> that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the assignment so there are some scores to pass back to the Blackboard gradebook.</li>
+<li>Once the assignment has been added to the course, you should click the icon with 3 blue dots and select <strong>LTI Integration URL</strong>.</li>
+<li>You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).</li>
+</ul>
+<p><img alt="Unit URL" src="/img/lti/LMS-Unit-URL.png" /></p>
+<h4 id="in-blackboard_1">In Blackboard<a class="headerlink" href="#in-blackboard_1" title="Permanent link"></a></h4>
+<p>We now return to Blackboard complete the mapping.</p>
+<ul>
+<li>Make sure you have selected the Blackboard course.</li>
+<li>Click <strong>Content</strong> in the left hand menu.</li>
+<li>Select or hover over <strong>Build Content</strong> in the menu bar</li>
+<li>Select <strong>Web Link</strong>.</li>
+<li>In the <strong>Web Link Information</strong> section ...</li>
+<li>Enter a name for the content</li>
+<li>Paste in the <strong>LTI Integration URL</strong> that you just copied to the clipboard from Codio</li>
+<li>Check the box <strong>Ths is a link to a tool provider</strong></li>
+<li>Select <strong>Yes</strong> for the field <strong>Enable Evaulation</strong> after which more fields will appear</li>
+<li>Set the points you want to award for this content (Codio will automatically scale the percentage value it uses to the points you specify here)</li>
+<li>Save the content settings.</li>
+</ul>
+<h3 id="adding-faculty-and-students_1">Adding faculty and students<a class="headerlink" href="#adding-faculty-and-students_1" title="Permanent link"></a></h3>
+<p>The final step is to add students to your course. This is done from the People tab. We recommend that you add the same test students to Blackboard that you have in Codio. The only field of data that needs to match is the email address. So, look up the Codio test student email addresses and add them to Blackboard in the student role.</p>
+<p>Next, you should login to Blackboard as a test student and start the assignment. Please read on to see what happens next, which is dependent.</p>
+<p><strong>IMPORTANT</strong> : when you access Codio from Blackboard, this user will become the dominant Codio user in the browser. This means that if you have a Codio session open (say you are logged in as faculty) and open some content from Blackboard as a student, the old Codio session will be invalidated. To get around this, you should think about running your teacher account in a separate browser type or in an incognito window. Just be aware of this when testing.</p>
+<h3 id="single-sign-in-and-account-creation_1">Single sign-in and account creation<a class="headerlink" href="#single-sign-in-and-account-creation_1" title="Permanent link"></a></h3>
+<p>It is important to understand how Codio maps Blackboard users to Codio users. The following rules should be understood. If students or faculty access Codio via a Blackboard assignment then Codio will initially use the Blackboard email address to identify the user and create the Codio account. In all subsequent access, the Blackboard userID will be used so in the event the user changes their email address in Blackboard, the user will be mapped to the same Codio account.</p>
+<ul>
+<li>If the user is not known to Codio then we will sign up the user as a new Codio user in the background and take the user directly into the Codio content. The Blackboard user role will be carried over as well.</li>
+<li>If the user is known to Codio then Codio will take them directly into the Codio content without any sign-in required. If they are a Codio user but are not a member of your organization then they will be required to complete a verification via email.</li>
+</ul>
+<h4 id="teacher-roles_1">Teacher Roles<a class="headerlink" href="#teacher-roles_1" title="Permanent link"></a></h4>
+<p>Based on the LMS role, if teachers join Codio via the LMS, the following will apply:</p>
+<table>
+<thead>
+<tr>
+<th align="left">LMS Role</th>
+<th align="center">Will be added to Codio with these rights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Teaching Assistant</td>
+<td align="center">TEACHER</td>
+</tr>
+<tr>
+<td align="left">Content Developer</td>
+<td align="center">TEACHER</td>
+</tr>
+<tr>
+<td align="left">Mentor</td>
+<td align="center">TEACHER (with <a href="/courses/classes/#adding-teachers-to-a-course">read only</a> access to the course}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="generating-scores_1">Generating scores<a class="headerlink" href="#generating-scores_1" title="Permanent link"></a></h3>
+<p>You should now generate some scores to pass back to Codio. You can do either of the following.</p>
+<ul>
+<li>If your assigned Codio assignment has some autograded assessments (simple MCQs will do fine) then access the Codio content as students as answer the questions to generate a score</li>
+<li>You can also manually grade the student assignment in Codio. You will need to enter a percentage value here as the LMS/LTI interface requires this.</li>
+</ul>
+<h3 id="releasing-grades_1">Releasing grades<a class="headerlink" href="#releasing-grades_1" title="Permanent link"></a></h3>
+<p>By default, grades in Codio are neither passed back to the student nor to Blackboard until they are</p>
+<ul>
+<li>Marked as complete by either the student or the teacher and</li>
+<li>the <strong>Release Grades</strong> switch is enabled.</li>
+</ul>
+<p>Once <strong>Release Grades</strong> is enabled, all completed student assignments are automatically sent through.</p>
+<p><img alt="Release Grades" src="/img/lti/release-complete.png" /></p>
+<p>There are various ways to mark a student's work as complete</p>
+<ul>
+<li>The student can do this from either the course dashboard or from the <strong>Education-&gt;Mark as Complete</strong> menu in the assignment itself.</li>
+<li>The teacher can do the same in the assignment when <a href="/courses/grading/#accessing-student-work">viewing students code</a></li>
+<li>The teacher can do the same from the assignment in the course dashboard by hovering in the left side of a student entry and then setting the completed switch.</li>
+<li>The teacher can mark all student assignments as completed in one action. This is done by<ul>
+<li>selecting the assignment in the Course</li>
+<li>pressing the <strong>Action</strong> button</li>
+<li>pressing the <strong>Mark all as Completed</strong> button</li>
+</ul>
+</li>
+</ul>
+<p><strong>Important</strong> : If you are running a staging or test Blackboard environment then you must have a valid SSL certificate on your Blackboard server otherwise grades will not be pass back to Blackboard successfully.</p>
+<h2 id="moodle">Moodle<a class="headerlink" href="#moodle" title="Permanent link"></a></h2>
+<p>Please be sure to check out the <a href="/courses/lti1_0/#codio-lti-app">Codio LTI App</a> which allows for an easy way to integrate and to map Codio course assignments to your LMS system. Moodle added support for LTI™ apps in version 2.2. The <a href="https://docs.moodle.org/32/en/External_tool_settings">following page</a> explains how to set up external apps in Moodle.</p>
+<h3 id="setup-and-configuration">Setup and configuration<a class="headerlink" href="#setup-and-configuration" title="Permanent link"></a></h3>
+<p><strong>Important</strong> : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled. If they are not available, contact Moodle support who can help you enable this. If enabled after you have mapped Codio content to Moodle, you may need to re publish for the changes to be implemented</p>
+<p><strong>Video: Connect Moodle to Codio using the LTI Integration URL</strong> 
+<p><a href="https://codio.wistia.com/medias/awib5ehvj0?wvideo=awib5ehvj0"><img src="https://embed-fastly.wistia.com/deliveries/8c1973fe20aa40f892a7c617d2b2326c9b83583d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p></p>
+<iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h3 id="authentication-and-account-creation">Authentication and account creation<a class="headerlink" href="#authentication-and-account-creation" title="Permanent link"></a></h3>
+<p>Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.</p>
+<p>If a Moodle user has never used Codio before then an account will automatically be created from their email address when they access their first Codio course materials.</p>
+<ul>
+<li>If you do not wish your LMS to share your students name/email addresses to Codio you can select the Anonymous privacy setting but be aware if doing so, any <a href="/courses/classes/#notification-emails">notifications</a> you may wish to set up will not reach those students.</li>
+</ul>
+<p>If a Moodle user already has a Codio account then provided the email address of their Moodle account is the same, the same Codio account will be used. </p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

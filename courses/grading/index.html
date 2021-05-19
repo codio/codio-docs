@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/courses/grading/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Grading and accessing student projects - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../google-classroom/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../lti1_0/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="3"><a href="#previewing-assignments" class="nav-link">Previewing assignments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="3"><a href="#overview-of-student-progress" class="nav-link">Overview of student progress</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#download-csv-summary" class="nav-link">Download CSV summary</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#accessing-student-work" class="nav-link">Accessing student work</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#cursor-presence" class="nav-link">Cursor presence</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#audiovideo-chat-support" class="nav-link">Audio/Video Chat Support</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#permissions" class="nav-link">Permissions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#code-playback" class="nav-link">Code Playback</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#auto-graded-assessments" class="nav-link">Auto-graded assessments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#nbgrader-autograding" class="nav-link">nbgrader autograding</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#configuration" class="nav-link">Configuration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#extend-timeout-period" class="nav-link">Extend Timeout period</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lock-all-cells" class="nav-link">Lock all cells</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lock-all-grade-cells" class="nav-link">Lock all grade cells</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lock-all-read-only-cells" class="nav-link">Lock all read-only cells</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lock-all-solution-cells" class="nav-link">Lock all solution cells</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#execute-preprocessor-on-timeout" class="nav-link">Execute preprocessor on timeout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#to-run-custom-grading-with-jupyter" class="nav-link">To run custom grading with jupyter</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#clearsolutionscode_stub" class="nav-link">ClearSolutions.code_stub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#grading-project-work" class="nav-link">Grading project work</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#the-grading-process" class="nav-link">The grading process</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#releasing-grades" class="nav-link">Releasing Grades</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#grading-free-text-questions" class="nav-link">Grading free text questions</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#partial-point-rubric" class="nav-link">Partial Point Rubric</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#rubric" class="nav-link">Rubric</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#editing" class="nav-link">Editing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#cloning" class="nav-link">Cloning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#points-adjust" class="nav-link">Points adjust</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#feedback" class="nav-link">Feedback</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h3 id="previewing-assignments">Previewing assignments<a class="headerlink" href="#previewing-assignments" title="Permanent link"></a></h3>
+<p>You can open the assignments in teachmode. This allows you to see any content that is for teachers' eyes only. This includes hidden content and teacher solutions auto-graded assessments.</p>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> screen, click on your course to open and go to the <strong>Teach</strong> tab. If your teacher account is read only you will only have access to this tab.</p>
+</li>
+<li>
+<p>You will see the assignments you have assigned to your course. To open the assignment to preview it, click the <strong>Preview</strong> button </p>
+</li>
+</ol>
+<p><img alt="Preview" src="/img/manage_classes/previewassignment.png" /></p>
+<p><strong>Important</strong>: Each time you preview the assignment it opens as new. i.e. anything you may add as notes to your preview is not saved</p>
+<h3 id="overview-of-student-progress">Overview of student progress<a class="headerlink" href="#overview-of-student-progress" title="Permanent link"></a></h3>
+<p>You can monitor student progress and time spent on individual assignments.</p>
+<p><strong>Video: Viewing Student Work and Adjusting Individual Due Dates</strong></p>
+<p><a href="https://codio.wistia.com/medias/dvoe0bx9nr?wvideo=dvoe0bx9nr"><img src="https://embedwistia-a.akamaihd.net/deliveries/be47ddc70ba95a6ddc93170209f3f95b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<ol>
+<li>From the <strong>Courses</strong> screen, click on your course to open it.</li>
+</ol>
+<p><img alt="authtoken" src="/img/monitor_students/year10class.png" /></p>
+<ol>
+<li>Click on the <strong>Students</strong> tab, top centre of your screen.</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/students_tab.png" /></p>
+<ol>
+<li>You will see all students in your course displayed on this screen. You will see progress data for assignments started and assignments completed alongside their names.</li>
+<li>To see an individual student's progress in more detail click on their name. You will then see an individual breakdown of auto-graded assessment results, along with time spent on each assignment.</li>
+</ol>
+<p><img alt="authtoken" src="/img/monitor_students/breakdown.png" /></p>
+<ol>
+<li>To see a more detailed breakdown of each assignment the student has attempted, click on the assignment name. You will be able to view a breakdown of the challenges attempted along with corresponding results.</li>
+</ol>
+<h2 id="download-csv-summary">Download CSV summary<a class="headerlink" href="#download-csv-summary" title="Permanent link"></a></h2>
+<p>You can also download a CSV file of your students progress. You can do this for individual assignments to see all your students by clicking on the blue triple dot icon to the right of the assignment name:</p>
+<p><img alt="Download Assignment CSV" src="/img/downloadcsv_unit.png" /></p>
+<p>or you can download a CSV file for the Course module to see all your students progress in all the assignments in a Module by selecting <strong>Download CSV</strong>:</p>
+<p><img alt="Download Module CSV" src="/img/downloadcsv_module.png" /></p>
+<p>or you can export all the data from a course (including the students workspaces) by exporting course data. See <a href="/courses/classes/#exporting-course-data">export course data</a> for more details</p>
+<h2 id="accessing-student-work">Accessing student work<a class="headerlink" href="#accessing-student-work" title="Permanent link"></a></h2>
+<p>As a teacher you have access to your students cloud area within Codio. This allows you to view and access any work your students have completed at any time. You can enable writable mode at any time to be able to make changes without them affecting the students work. Any changes you may make will be discarded when you exit the assignment.</p>
+<ol>
+<li>From the <strong>Courses</strong> area, click on your course to open it.</li>
+</ol>
+<p><img alt="Course" src="/img/monitor_students/year10class.png" /></p>
+<ol>
+<li>Click on the <strong>Students</strong> tab, top centre of your screen.</li>
+</ol>
+<p><img alt="Students tab" src="/img/monitor_students/students_tab.png" /></p>
+<ol>
+<li>
+<p>You will see all students in your course displayed on this screen. By default they will show sorted alphabetically by first name but you can also sort them by last name, number of started or number of completed assignments if preferred.</p>
+</li>
+<li>
+<p>To view/access an individual students work click on their name. On the far right of the screen, under the heading <strong>Open</strong>, click the blue arrow to open the students work.</p>
+</li>
+</ol>
+<p><img alt="Open student work" src="/img/openstudent.png" /></p>
+<h2 id="cursor-presence">Cursor presence<a class="headerlink" href="#cursor-presence" title="Permanent link"></a></h2>
+<p>When accessing a students assignment, all active users in a project/assignment will be shown with a color in an icon showing in the menu bar when files are being accessed/edited</p>
+<p>Clicking on the icon will change focus to show what that user is currently editing highlighted in that color and will show the users cursor. 
+Hovering over the icon will show the filename and line currently being edited.</p>
+<p><img alt="Cursor Presence" src="/img/monitor_students/cursorpresences.png" /></p>
+<p>This can be very useful if a student needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing</p>
+<h2 id="audiovideo-chat-support">Audio/Video Chat Support<a class="headerlink" href="#audiovideo-chat-support" title="Permanent link"></a></h2>
+<p>When accessing a students assignment, a <strong>Call</strong> button will show allowing Audio/Video calls and or real time chat with the student if they are also accessing the assignment at the same time</p>
+<p><img alt="A/V Call" src="/img/monitor_students/call.png" /></p>
+<h3 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link"></a></h3>
+<p>Permission for your camera/microphone is required and your browser will prompt you to allow.Permission</p>
+<p>If permission has been denied, you can re enable in your browser</p>
+<p><strong>Google Chrome:</strong></p>
+<p>If you are using Google Chrome you can access your settings through the padlock icon in the top left of your screen, next to the URL of the page you are currently on.</p>
+<p>Click Site settings and make sure your camera and microphone both say Allow</p>
+<p><strong>Firefox:</strong></p>
+<p>If you are using Firefox as your internet browser you can access your settings by typing "about:permissions" into the location bar as if it were a website and hitting enter.</p>
+<p>This will take you to your settings page, click the following link to find out more about changing your settings:</p>
+<p>https://support.mozilla.org/en-US/kb/permissions-manager-give-ability-store-passwords-set-cookies-more?redirectlocale=en-US&amp;redirectslug=how-do-i-manage-website-permissions</p>
+<p><strong>Safari:</strong></p>
+<p>If you are using Safari, you can access your browser settings by clicking Safari and then Preferences. </p>
+<p>You will see a pop up box and can update your settings. Learn more about how to update the settings through the following link:</p>
+<p>https://support.apple.com/en-nz/guide/safari/ibrwe2159f50/mac</p>
+<h2 id="code-playback">Code Playback<a class="headerlink" href="#code-playback" title="Permanent link"></a></h2>
+<p>Teachers have access to all of the files that students produce on Codio. In order to see how these code files were built, teachers can use <strong>Code Playback</strong>. If your cursor is in the code file you want to see the playback of, simply select  Tools-&gt;Code Playback menu. If you are looking into a multi-file program or did not have the file you want to investigate in-focus, search for the student’s file by clicking on the folder icon.</p>
+<p><img alt="Code Playback" src="/img/codeplayback/CodePlayback1.gif" /></p>
+<p>To watch the code be built, click the play button. You can change the speed using the <strong>Speed</strong> drop down which is in changes per second. To walk through the changes manually, you can use the “Previous change” and “Next change” buttons. You can drag along the playback slider to find points of interest.</p>
+<p><img alt="Code Playback" src="/img/codeplayback/CodePlayback2.gif" /></p>
+<h2 id="auto-graded-assessments">Auto-graded assessments<a class="headerlink" href="#auto-graded-assessments" title="Permanent link"></a></h2>
+<p>Auto-graded assessments will appear in the teacher dashboard.</p>
+<p><img alt="Teacher Dashboard" src="/img/teacherdash.png" /></p>
+<h2 id="nbgrader-autograding">nbgrader autograding<a class="headerlink" href="#nbgrader-autograding" title="Permanent link"></a></h2>
+<p><strong><a href="https://jupyter.org/">Jupyter notebook</a></strong> has auto-grade functionality through <strong><a href="http://nbgrader.readthedocs.io/en/stable/index.html">nbgrader</a></strong> that Codio supports</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link"></a></h3>
+<p>Assignment creators create the assignment with <a href="https://jupyter.org/">Jupyter notebook</a> files for the assignment.</p>
+<p><strong>nbgrader</strong> support doesn't require <a href="/courses/authoring/">guides</a> or any other <a href="/courses/assessments/">assessments</a>.</p>
+<p>Any user configurations required should be stored in a <code>.codio-jupyter</code> file.</p>
+<p>if a <code>.codio-jupyter</code> file exists in a project we assume it is <strong>jupyter</strong> based grader, and therefore only <strong>nbgrader</strong> can be selected for the assessment scripts in the assignment</p>
+<p>When the assignment is published to a course, either as an <a href="/courses/classes/#assign-a-project-to-the-course">individual project</a> or as part of a course <a href="/courses/classes/#assign-resource-modules-to-the-course">module</a>, the release version is created for the student.</p>
+<p>If the assignment is updated in the future, when published it will overwrite all tests and read only cells with the new version and the release version for the students will be updated.</p>
+<p>When the student submits the assignment by marking the assignment as complete, it will be <a href="/courses/classes/#autograde-on-assignment-complete">autograded</a> automatically.</p>
+<p><a href="/courses/grading/#grading-project-work">Manual grading</a> is also available if required</p>
+<h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link"></a></h3>
+<h3 id="extend-timeout-period">Extend Timeout period<a class="headerlink" href="#extend-timeout-period" title="Permanent link"></a></h3>
+<p>To extend the time required for completion (to 90 seconds in this example), you can add</p>
+<pre><code class="yaml">nbgrader:
+   ExecutePreprocessor.timeout: 90
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="lock-all-cells">Lock all cells<a class="headerlink" href="#lock-all-cells" title="Permanent link"></a></h3>
+<p>To lock all cells (Default: False)</p>
+<pre><code class="yaml">nbgrader:
+   LockCells.lock_all_cells: True
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="lock-all-grade-cells">Lock all grade cells<a class="headerlink" href="#lock-all-grade-cells" title="Permanent link"></a></h3>
+<p>To lock all grade cells (Default: True) where grade cells are locked (non-deletable)</p>
+<pre><code class="yaml">nbgrader:
+   LockCells.lock_grade_cells: True
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="lock-all-read-only-cells">Lock all read-only cells<a class="headerlink" href="#lock-all-read-only-cells" title="Permanent link"></a></h3>
+<p>To lock all grade cells (Default: True) where read only cells are locked (non-deletable and non-editable)</p>
+<pre><code class="yaml">nbgrader:
+   LockCells.lock_readonly_cells: True
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="lock-all-solution-cells">Lock all solution cells<a class="headerlink" href="#lock-all-solution-cells" title="Permanent link"></a></h3>
+<p>To lock all solution cells (Default: True) where solution cells are locked (non-deletable and non-editable)</p>
+<pre><code class="yaml">nbgrader:
+   LockCells.lock_solution_cells: True
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="execute-preprocessor-on-timeout">Execute preprocessor on timeout<a class="headerlink" href="#execute-preprocessor-on-timeout" title="Permanent link"></a></h3>
+<p>If execution of a cell times out, interrupt the kernel and continue executing other cells rather than throwing an error and stopping.</p>
+<pre><code class="yaml">nbgrader:
+   ExecutePreprocessor.interrupt_on_timeout: True
+</code></pre>
+
+<p>to the <code>.codio-jupyter</code> file</p>
+<h3 id="to-run-custom-grading-with-jupyter">To run custom grading with jupyter<a class="headerlink" href="#to-run-custom-grading-with-jupyter" title="Permanent link"></a></h3>
+<p>To avoid execution of autograder with nbgrader and allow codio script autograder to be executed. When set this will not show jupyter files as assessments in codio and will not submit through nbrader after mark as completed, so not assessments and points set in the assignment.</p>
+<pre><code class="yaml">codio:
+  grader: false
+</code></pre>
+
+<h3 id="clearsolutionscode_stub">ClearSolutions.code_stub<a class="headerlink" href="#clearsolutionscode_stub" title="Permanent link"></a></h3>
+<pre><code class="yaml">nbgrader:
+    ClearSolutions.code_stub:
+        R: |
+            # BEGIN YOUR CODE
+            # END YOUR CODE
+        python: |
+            # YOUR CODE HERE
+            raise NotImplementedError()
+        ruby: |
+            # BEGIN YOUR CODE
+            raise NotImplementedError.new()
+            #END YOUR CODE
+</code></pre>
+
+<p>If you require any assistance at all, or would like us to consider adding additional functions, please don't hesitate to <a href="/dashboard/support/">contact us</a></p>
+<h2 id="grading-project-work">Grading project work<a class="headerlink" href="#grading-project-work" title="Permanent link"></a></h2>
+<p>Codio's grading features address four important aspects when grading student projects.</p>
+<ul>
+<li><strong>Assign grade</strong> - manually reviewing student projects and then assigning a grade.</li>
+<li><strong>Grading moderation</strong> - having other lecturers review grades already assigned in order to monitor consistency of grading.</li>
+<li><strong>Grading rubric</strong> - This provides a grading guideline framework for teachers. Please <a href="/courses/classes/#grading-rubric-templates">click here</a> for details.</li>
+<li><strong>LMS gradebook sycnhronization</strong> - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.</li>
+</ul>
+<h3 id="the-grading-process">The grading process<a class="headerlink" href="#the-grading-process" title="Permanent link"></a></h3>
+<p>Once students have completed their assignments, they should notify the teacher of completion by going to the <strong>Education-&gt;Mark as Completed</strong> menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).</p>
+<p>The teacher is also able to filter either finding specific students or to view students based on the status of the assignment.</p>
+<p><img alt="Filtering" src="/img/filter.png" /></p>
+<p>Students can be filtered by:</p>
+<ul>
+<li>Any Status</li>
+<li>Started</li>
+<li>Not Started</li>
+<li>Has Final Grade</li>
+<li>No Final Grade</li>
+<li>Completed</li>
+<li>Uncompleted</li>
+<li>Needs Grading</li>
+<li>Has Extra Credit</li>
+</ul>
+<p>You can access the student's project from the same screen by clicking on the 3 blue dots on the extreme right (see below image with dots circled right). You can then review the project.</p>
+<p><img alt="Grading access" src="/img/grading-unit.png" /></p>
+<p>The teacher can also mark the assignment as complete going to the <strong>Education-&gt;Mark as Completed</strong> menu item within the IDE and if already marked as complete, can change the status to incomplete</p>
+<p>There are two ways to assign the grade.</p>
+<ul>
+<li>Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.</li>
+<li>Or you can grade from the course dashboard. You must first have selected the assignment associated with the project and then press the grading icon.</li>
+</ul>
+<p>Also see <a href="/courses/classes/#autograde-on-assignment-complete">Autograding</a></p>
+<p>To grade from the course dashboard, you should first select the assignment. You can see the check mark next to those students who have completed the assignment.</p>
+<p>To assign comments or a grade, <a href="/courses/classes/#teachers-grading">Teachers Grading</a> needs to be enabled. When it is click on the Grade icon (see image above with grading icons circled center) and select 'Add Grade' button. You can then modify the comments and grade fields for any individual student. Due to the weighting feature, we only allow numeric grades. If you are using a <a href="/courses/classes/#grading-rubric-templates">Rubric Template</a>, this will present as you click on the grade field.</p>
+<p><img alt="Assign Grades" src="/img/grading-assign.png" /></p>
+<p>If the students assignment has already been graded, any other teacher in the course can edit the grade with additional comments if required selecting the 'Override Grade' button.</p>
+<h4 id="extra-credit">Extra Credit<a class="headerlink" href="#extra-credit" title="Permanent link"></a></h4>
+<p>Extra credit can be given to students if required. Extra credit points are not added to the grade, instead the student's score is shown as grade + extra in the interface. This is done because LTI does not allow a grade &gt; 100. To make transferring extra credit points to your LMS easier, we have included a <code>Has Extra Credit</code> filter. </p>
+<p>Extra credit can be added manually by the teacher using the Extra Credit button shown above but can also be set within an autograde script. See <a href="/courses/classes/#autograding-enhancements">Autograding Enhancements</a> for more information.</p>
+<h4 id="anonymous-grading">Anonymous Grading<a class="headerlink" href="#anonymous-grading" title="Permanent link"></a></h4>
+<p>If required, anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.
+For more information and how to enable this <a href="/courses/classes/#anonymous-grading">click here</a></p>
+<h4 id="code-commenting">Code Commenting<a class="headerlink" href="#code-commenting" title="Permanent link"></a></h4>
+<p>Teachers can also comment on code within students files. 
+To do this, open the students project and open the file. Hover over the left hand side of the gutter bar and click the <code>+</code> to open the comment window and enter the comments as required. This comment will be visible to the student when they next view the file</p>
+<p><img alt="Single-line comments on the left files and a multi-line comment on the file on the right" src="/img/commentcode.png" /></p>
+<p>Multiple lines of code can be selected and the teacher can also edit/delete or add additional comments (from the 3 dots to the right of the comment window when the comment is saved) if required.</p>
+<p>When actioned by the student, the comment will be marked as resolved but will still be available for review in the <strong>Education -&gt; Code Comments</strong> menu item or from the Guides settings area.</p>
+<p><img alt="Guides Code Comments" src="/img/guides/codecommentguides.png" /></p>
+<p>Students can also go to this to see all comments and click to open the neccessary file.</p>
+<h3 id="releasing-grades">Releasing Grades<a class="headerlink" href="#releasing-grades" title="Permanent link"></a></h3>
+<p><strong>Video: Releasing Grades to Students and LMS</strong></p>
+<p><a href="https://codio.wistia.com/medias/z7xmzl5xbd?wvideo=z7xmzl5xbd"><img src="https://embedwistia-a.akamaihd.net/deliveries/24fb44ce2093addaf89029876ce11424.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<p>By default students are not shown the grades until you decide to release them to the course. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go you can:</p>
+<ul>
+<li>enable this for the course in the <strong>Course&gt;Admin</strong> area </li>
+</ul>
+<p><img alt="Course Release Grades" src="/img/changereleasegrades.png" /></p>
+<ul>
+<li>set this at the organisation level so any courses created will have this enabled automatically. See <a href="/dashboard/organisations/#organisation-release-grades">organisation release grades</a> for more information.</li>
+</ul>
+<p><img alt="Grading" src="/img/grading-release.png" /></p>
+<ul>
+<li>You can also release grades from the main assignment view flipping the switch in the  <strong>Release grades</strong> column for the assignment(s) you wish to release the grades for.</li>
+</ul>
+<p><img alt="Release Grades" src="/img/grading-release2.png" /></p>
+<p>Students are able to see their grades either from their Course view or by opening the assignment and going to <strong>Education-&gt;Feedback</strong></p>
+<p>You can also set up <a href="/courses/classes/#notification-emails">Notification</a> emails to be sent to the students when new feedback is available for them to view</p>
+<h2 id="grading-free-text-questions">Grading free text questions<a class="headerlink" href="#grading-free-text-questions" title="Permanent link"></a></h2>
+<p>Free text questions will normally require a manual grading process. In order to grade these questions, you should first select the assignment. You will then be shown the student list, as you can see below.</p>
+<p><img alt="StudentList" src="/img/studentlist.png" /></p>
+<p>You can now select a student. You will then be shown the list of all assessments for that student within the assignment. Free text questions are denoted by the icon highlighted below.</p>
+<p><img alt="Free Text Grading" src="/img/guides/freetext-grading.png" /></p>
+<p>Note that if a student has started to answer a question but not submitted the answer, then you will see <strong>DRAFT</strong> written next to it. Once they submit, you will see <strong>GRADE</strong> indicating that the question has been submitted and is ready to be graded.</p>
+<h3 id="partial-point-rubric">Partial Point Rubric<a class="headerlink" href="#partial-point-rubric" title="Permanent link"></a></h3>
+<p>Partial point assessments, where full points have not been awarded, will show the icon:</p>
+<p><img alt="Partial Point Icon" src="/img/guides/partialpointicon.png" /></p>
+<p>Where an answer is set to allow partial points, a rubric is provided to allow graders to dynamically deduct points from the maximum score.
+A grader can add an item, change an item weight or remove an item at any time in grading. The change will be applied for all students in this assignment, and any changes in rubric will upgrade already graded students to implement changes. The rubric is dynamic for each assignment, and every new assignment starts with an empty rubric.  </p>
+<p><img alt="Free Text Grading" src="/img/guides/partialpointrubric.png" /></p>
+<h3 id="rubric">Rubric<a class="headerlink" href="#rubric" title="Permanent link"></a></h3>
+<p>Every rubric item is 2 fields, first is the rubric item weight and the second one line item name.</p>
+<ul>
+<li>If an item is selected, then the weight is deducted from students score.</li>
+<li>The grader can select multiple items.</li>
+<li>The total score can't be negative even if sum of rubric items weights is more than maximum points.</li>
+</ul>
+<h3 id="editing">Editing<a class="headerlink" href="#editing" title="Permanent link"></a></h3>
+<p>Editing is allowed while grading so the teacher can:</p>
+<ul>
+<li>add a new item into the form</li>
+<li>remove an item. As this action will effect all students already graded and their total score updated, a warning is shown for confirmation</li>
+<li>edit the weight or name.  If weight is changed a warning will be shown for confirmation</li>
+</ul>
+<h3 id="cloning">Cloning<a class="headerlink" href="#cloning" title="Permanent link"></a></h3>
+<p>A rubric can be cloned from another assignment if required in preference to creating manually. Select the gear icon (circled in image above) to select the assignment.</p>
+<h3 id="points-adjust">Points adjust<a class="headerlink" href="#points-adjust" title="Permanent link"></a></h3>
+<p>The points adjust field allows the teacher/instructor to manually adjust (ie reduce) the students total score if required without having to edit/change the rubric</p>
+<h3 id="feedback">Feedback<a class="headerlink" href="#feedback" title="Permanent link"></a></h3>
+<p>A comments field is provided to allow teacher/instructors manual feedback</p>
+<p>If a course deadline is reached, then you can grade questions that are  set to <strong>DRAFT</strong> and where the student may have forgotten to submit the answer fully.</p>
+<p>You can also see the date and time for each submitted answer as well as the date that the assignment was marked as complete by the student.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

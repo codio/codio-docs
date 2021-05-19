@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/ide/features/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Advanced IDE Features - Codio</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../editing/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../introduction/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#debugging" class="nav-link">Debugging</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#sample-project" class="nav-link">Sample project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#video-overview" class="nav-link">Video overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#prerequisites" class="nav-link">Prerequisites</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#creating-and-managing-debug-targets" class="nav-link">Creating and managing debug targets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#single-file-confgurations" class="nav-link">Single file confgurations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#starting-a-debugging-session" class="nav-link">Starting a debugging session</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#breakpoints" class="nav-link">Breakpoints</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#controlling-the-debugger" class="nav-link">Controlling the debugger</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#other-features" class="nav-link">Other features</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#support-for-the-standard-input-when-debugging" class="nav-link">Support for the standard input when debugging</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#launching-the-debugger-from-codio-content" class="nav-link">Launching the debugger from Codio content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#junit-testing-framework" class="nav-link">JUnit testing framework</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#configuration" class="nav-link">Configuration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#timeout-settings" class="nav-link">Timeout settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#execution" class="nav-link">Execution</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#autocomplete" class="nav-link">Autocomplete</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#html-tags" class="nav-link">HTML Tags</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#html-attribtues" class="nav-link">HTML Attribtues</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#tern-javascript" class="nav-link">Tern &amp; Javascript</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#css" class="nav-link">CSS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#command-bar" class="nav-link">Command bar</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#copying-a-project" class="nav-link">Copying a project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#code-beautification" class="nav-link">Code beautification</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#settings" class="nav-link">Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#preview" class="nav-link">Preview</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#static-content" class="nav-link">Static content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#dynamic-content" class="nav-link">Dynamic content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#instructions" class="nav-link">Instructions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#preview-in-a-codio-tab-or-new-browser-tab" class="nav-link">Preview in a Codio tab or new browser tab</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#insecure-content-with-in-tab-preview-and-front-end-code-mixed-content" class="nav-link">Insecure Content with In-Tab preview and front-end code (#mixed-content)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#quick-open" class="nav-link">Quick open</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#real-time-code-collaboration" class="nav-link">Real time code collaboration</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#cursor-presence" class="nav-link">Cursor Presence</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#audiovideo-chat-support" class="nav-link">Audio/Video Chat Support</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#saving-files" class="nav-link">Saving files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#sharing-and-embedding" class="nav-link">Sharing and embedding</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#retaining-layout-status-automatically-starting-tutorials" class="nav-link">Retaining layout status &amp; automatically starting tutorials</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#markdown-or-html" class="nav-link">Markdown or HTML</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#suggested-buttons" class="nav-link">Suggested Buttons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Our IDE features also include autocomplete, code-folding, key-bindings, line-numbering, multiple cursors, detailed control over visual themes and preferences, key bindings, standard and regex search and replace.</p>
+<p>Additional advanced features include multiple code panels and syntax highlighting support for all programming languages.</p>
+<h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link"></a></h2>
+<p>Codio offers an integrated, language specific debugger. Codio currently supports the following languages.</p>
+<ul>
+<li>Java</li>
+<li>Python 2</li>
+<li>Python 3</li>
+<li>NodeJS</li>
+<li>C and C++</li>
+</ul>
+<p>If you would like support for any languages that do not appear in the list, please <a href="/dashboard/support/">contact us</a> and we can look into adding it.</p>
+<h3 id="sample-project">Sample project<a class="headerlink" href="#sample-project" title="Permanent link"></a></h3>
+<p>If you created the account for your Codio Trial account then you will find <strong>Demo Codio Debugger</strong> in your My Projects list. You will find instructions in the README.md file when you open the project.</p>
+<p>If you cannot see it then <a href="https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/">click here</a> to create it now. Press the <strong>Use Pack</strong> button to install.</p>
+<h3 id="video-overview">Video overview<a class="headerlink" href="#video-overview" title="Permanent link"></a></h3>
+<p>For anyone who has not used a debugger before, here is a useful video tutorial.</p>
+<iframe src="https://player.vimeo.com/video/165269077" width="640" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link"></a></h3>
+<p>If you install Java, C or NodeJS from a stack, then the GBD components that support debugging will be automatically installed. However, if you have installed these languages manually then when you run the debugger, you will get a warning telling you to install the GDB component. A link will be provided to the Install Software feature that allows you to install it with a single click.</p>
+<p><a name="debugfilepath"></a></p>
+<h3 id="creating-and-managing-debug-targets">Creating and managing debug targets<a class="headerlink" href="#creating-and-managing-debug-targets" title="Permanent link"></a></h3>
+<p>You should first configure a debug target. Having multiple debug targets is useful for the following reasons.</p>
+<ul>
+<li>It allows you to quickly debug the same application with different command line arguments, allowing you to test different scenarios.</li>
+<li>You can debug more than one application.</li>
+</ul>
+<p>You manage debug targets from the following locations</p>
+<ul>
+<li>the rightmost toolbar menu item, select the <strong>Configure...</strong> option</li>
+<li><strong>Tools-&gt;Debugger Settings</strong></li>
+</ul>
+<p>This will bring up the list of any debug targets you may have previously configured.</p>
+<p><img alt="authtoken" src="/img/debug-targets.png" /></p>
+<p>To create a new target, press the Create button. You can then configure your target. You can also edit any existing debug target. The following parameters can be configured.</p>
+<ul>
+<li>The programming language</li>
+<li>A friendly name to give the configuration</li>
+<li>The command to execute to your program along with any command line parameters you may wish to include</li>
+<li>Any command to execute before debugging starts. This is usually a compile process.</li>
+<li>You can also reference the active file in use using {{filepath}} token which inserts the path and full file name /path/to/file.ext</li>
+</ul>
+<p><img alt="authtoken" src="/img/debug-target.png" /></p>
+<p>When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.</p>
+<h3 id="single-file-confgurations">Single file confgurations<a class="headerlink" href="#single-file-confgurations" title="Permanent link"></a></h3>
+<p>If you are using C, C++ or Java and debugging a simple single code file project (common in early programmng courses) then you should choose Single C File, Single C++ file or Single Java file Debugger Type. This frees you from having to worry about the detailed compile and run configuration.</p>
+<h4 id="language-specific-compilation-commands">Language specific compilation commands<a class="headerlink" href="#language-specific-compilation-commands" title="Permanent link"></a></h4>
+<p>If you are not using a single file configuration then you will need to provide the following information</p>
+<ul>
+<li><strong>Before Launch</strong> will typically be a compilation or build command</li>
+<li><strong>Launch</strong> will be the command to launch the program</li>
+</ul>
+<p>In java you are asked for a port number, which should always be set to <code>5105</code>.</p>
+<h3 id="starting-a-debugging-session">Starting a debugging session<a class="headerlink" href="#starting-a-debugging-session" title="Permanent link"></a></h3>
+<p>There are two ways you can launch an application in debug mode.</p>
+<ul>
+<li>from the rightmost toolbar menu you can select the debug target from the dropdown menu or just press the button to re-run the last executed debug target.</li>
+<li>from the debug targets list you can press the <strong>Debug</strong> button.</li>
+</ul>
+<p><img alt="authtoken" src="/img/debug-launch.png" /></p>
+<p>At this point, the debugger will fire up and you will see a screen similar to the one show below.</p>
+<p><img alt="authtoken" src="/img/debug-started.png" /></p>
+<p>You may need to wait a second or two for the debugger to load. It will automatically stop on the first line of code, regardless of whether there is a breakpoint set or not.</p>
+<h3 id="breakpoints">Breakpoints<a class="headerlink" href="#breakpoints" title="Permanent link"></a></h3>
+<p>A breakpoint is a line of code where the debugger will pause code execution if in debug mode. To set a breakpoint you click in the gutter next to the line number. You can remove a breakpoint in the same way.</p>
+<p>When a breakpoint is set, a red dot will appear on the line.</p>
+<h3 id="controlling-the-debugger">Controlling the debugger<a class="headerlink" href="#controlling-the-debugger" title="Permanent link"></a></h3>
+<p>Once the debugger stops code execution you can control execution using the buttons at the top of the debug panel.</p>
+<p><img alt="authtoken" src="/img/debug-buttons.png" /></p>
+<ul>
+<li><strong>Resume</strong> - this tells the debugger to carry on execution without stopping until another breakpoint is encountered.</li>
+<li><strong>Stop</strong> - execution will stop and the debug window will be closed.</li>
+<li><strong>Step over</strong> - the debugger will execute the next line of code and then stop. If the line of code about to be executed is a function, then it will execute the contents of that function but will not stop within it unless the function contains a breakpoint.</li>
+<li><strong>Step into</strong> - the debugger will execute the next line of code and then stop. If the line of code about to be executed is a function, then it will stop on the first line within that function.</li>
+<li><strong>Step out</strong> - the debugger will exit the current function and stop on the next line of the calling function. If the current line is the main entry function of the application then execution will cease but and the debugger will restart automatically.</li>
+</ul>
+<h3 id="other-features">Other features<a class="headerlink" href="#other-features" title="Permanent link"></a></h3>
+<p>The debug panel also contains other useful features.</p>
+<ul>
+<li><strong>Call stack</strong> - this shows the parent functions relative to the function that contains the currently executing line of code.</li>
+<li><strong>Local variables</strong> - all local variables of the current function and their current values are automatically displayed.</li>
+<li><strong>Watches</strong> - this allows you to watch a specific variable, and for some languages also expressions,</li>
+<li><strong>Breakpoints</strong> - this lists all the breakpoints currently set in any of your code files. You can disable them by unchecking the boxes.</li>
+<li><strong>Console</strong> - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a <code>print('message')</code> statement in Python).</li>
+</ul>
+<h3 id="support-for-the-standard-input-when-debugging">Support for the standard input when debugging<a class="headerlink" href="#support-for-the-standard-input-when-debugging" title="Permanent link"></a></h3>
+<p>Support for stdin is available for:</p>
+<ul>
+<li>C/C++</li>
+<li>Node.js</li>
+<li>GDB</li>
+</ul>
+<p>Node example:</p>
+<pre><code class="javascript">function testStdIn() {
+    console.log(&quot;What is your name?&quot;);
+    process.stdin.once('data', (chunk) =&gt; {
+        let name = chunk.toString();
+        console.log(&quot;Hello, &quot; + name + &quot;!&quot;);
+    });
+}
+
+testStdIn()
+</code></pre>
+
+<h3 id="launching-the-debugger-from-codio-content">Launching the debugger from Codio content<a class="headerlink" href="#launching-the-debugger-from-codio-content" title="Permanent link"></a></h3>
+<p>It is also possible to launch any debugger configuration from a page. Please <a href="/courses/authoring/#custom-buttons">click here</a> for details.</p>
+<h2 id="junit-testing-framework">JUnit testing framework<a class="headerlink" href="#junit-testing-framework" title="Permanent link"></a></h2>
+<p>Codio provides a simple way to execute <a href="https://junit.org/junit4/">JUnit</a> tests for Java in your project.</p>
+<p>To use JUnit, your project requires Java and so should</p>
+<ul>
+<li>either use the <a href="https://codio.com/home/stacks/cf71b65b-ab7a-4f9b-9885-34009fccb476/?tab=details">Java 8</a> stack</li>
+<li>or you should have manually installed Java in your box</li>
+<li>or install from <strong>Tools&gt;Install Software</strong>. See <a href="/project/ide/boxes/#installing-software-packages">Installing Software Packages</a> for more information</li>
+</ul>
+<h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link"></a></h3>
+<p>Open the JUnit dialog <strong>Tools-&gt;JUnit</strong> or use the <strong>Shift+Alt+J</strong> hotkey. Then configure the</p>
+<ul>
+<li><strong>Source path</strong> is the location of the student source code</li>
+<li><strong>Test source path</strong> is the location of the test cases source folder</li>
+<li><strong>Library path</strong> is the path to any libraries used by the student application</li>
+<li><strong>Working directory</strong> is the path where the compiled student code should execute</li>
+</ul>
+<p>All paths are relative to the root of the workspace folder.</p>
+<p><img alt="junit" src="/img/junit.png" /></p>
+<p>Individual test cases can be added</p>
+<ul>
+<li>by specifying the paths to a file with JUnit tests in the add test case fields</li>
+<li>or by dragging and dropping the file into the JUnit tab.</li>
+</ul>
+<p><strong><em>Please note</em></strong> that if using multiple cases in an assignment/project, the files for each should all be in separate folders for them to work independently of each other. This applies to student code files as well as the code used for the cases.</p>
+<h3 id="timeout-settings">Timeout settings<a class="headerlink" href="#timeout-settings" title="Permanent link"></a></h3>
+<p>The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well</p>
+<p><img alt="junitsettings" src="/img/junitsettings.png" /></p>
+<p>To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a <a href="/project/ide/settings/#project-preferences">project preference</a></p>
+<h3 id="execution">Execution<a class="headerlink" href="#execution" title="Permanent link"></a></h3>
+<p>You can Execute the tests from the <strong>JUnits Execution</strong> tab. Once completed, the results will be listed below.</p>
+<p><img alt="junitexecute" src="/img/junitexecution.png" /></p>
+<p>If you publish your project as a unit to a class, the JUnit configurations you set up will be included in the Unit for students.</p>
+<h3 id="autocomplete">Autocomplete<a class="headerlink" href="#autocomplete" title="Permanent link"></a></h3>
+<p>Autocomplete is supported within HTML, CSS and Javascript files. Just type away and we will automatically show you matches for what you are typing.</p>
+<p>If you don't like your auto-complete auto-completing, just set the preference <code>automatic_completions = false</code>.</p>
+<p>Other languages are supported with <strong>language server protocol</strong> although in such files, autocomplete is not automatically involved. See <a href="/project/ide/boxes/#language-server-protocol">language server protocol</a> for more information.</p>
+<h3 id="html-tags">HTML Tags<a class="headerlink" href="#html-tags" title="Permanent link"></a></h3>
+<p>Auto complete is context sensitive, so you will only be shown Tags that are relevant to your location within the HTML file.</p>
+<p>For example, if you are not within <code>&lt;body&gt;&lt;/body&gt;</code>, you will see a much reduced set of options in the auto complete popup. However, place your cursor inside the <code>&lt;body&gt;&lt;/body&gt;</code> tags and you will see the full list of standard HTML tags.</p>
+<h3 id="html-attribtues">HTML Attribtues<a class="headerlink" href="#html-attribtues" title="Permanent link"></a></h3>
+<p>If you have entered <code>&lt;a</code>, then invoke auto complete, you are presented with a list of relevant attributes for the <code>&lt;a&gt;</code> tag.</p>
+<h3 id="tern-javascript">Tern &amp; Javascript<a class="headerlink" href="#tern-javascript" title="Permanent link"></a></h3>
+<p>We support intelligent autocomplete using TernJS. Tern also support explicit directives in the <code>.tern-project</code> file you can place in the root of your project.</p>
+<p>This file looks like this</p>
+<pre><code class="json">{
+  &quot;libs&quot;: [
+    &quot;browser&quot;,
+    &quot;jquery&quot;
+  ],
+  &quot;loadEagerly&quot;: [
+    &quot;importantfile.js&quot;
+  ],
+  &quot;plugins&quot;: {
+    &quot;requirejs&quot;: {
+      &quot;baseURL&quot;: &quot;./&quot;,
+      &quot;paths&quot;: {}
+    }
+  }
+}
+</code></pre>
+
+<p>You should note that Codio currently only supports autocomplete for the currently opened file as well as items specified in the <code>libs</code> section of the <code>.tern-project</code> file.</p>
+<p>Please refer to the <a href="https://ternjs.net/doc/manual.html#configuration">Tern documentation</a> for full details on how to configure this file.</p>
+<h3 id="css">CSS<a class="headerlink" href="#css" title="Permanent link"></a></h3>
+<p>Use <code>ctrl+space</code> within your CSS to invoke auto complete.</p>
+<h2 id="command-bar">Command bar<a class="headerlink" href="#command-bar" title="Permanent link"></a></h2>
+<p>The Command Bar allows you to access almost all of the Codio actions from a searchable list. It is also a great way of looking up keyboard shortcuts without having to explore the menu.</p>
+<p>You invoke the Command Bar with</p>
+<ul>
+<li><strong>Tools &gt; Command Bar</strong></li>
+<li><code>Cmd+Shift+P</code> (Mac) / <code>Ctrl+Shift+P</code> (PC/Linux)</li>
+</ul>
+<p>You will then see the following popup dialog.</p>
+<p><img alt="Command Bar" src="/img/command-bar.png" /></p>
+<p>Now just start typing and the list will refine as you type.</p>
+<h2 id="copying-a-project">Copying a project<a class="headerlink" href="#copying-a-project" title="Permanent link"></a></h2>
+<p>You can copy any 3rd party public project into your account going to <code>Project&gt;Create Copy</code>. If you are looking at a copied project, then it will look like this.</p>
+<p><img alt="Copied Project" src="/img/fork-ide.png" /></p>
+<p>If you are signed into Codio, copying a project will create the copy in your account.</p>
+<p>If the project owner has allowed box cloning you will also be able to clone the box as well as the project.</p>
+<p><img alt="Clone box" src="/img/fork-clone.png" /></p>
+<h2 id="code-beautification">Code beautification<a class="headerlink" href="#code-beautification" title="Permanent link"></a></h2>
+<p>You can format your code by pressing the keyboard shortcut as defined in the <a href="/project/ide/settings/#user-preferences">User Preferences</a>. By default, it is</p>
+<ul>
+<li><code>key_format_code</code> = <code>Cmd+Shift+B</code> (for a Mac)</li>
+<li><code>key_format_code</code> = <code>Ctrl+Shift+B</code> (for anything else)</li>
+</ul>
+<p>It will indent your code correctly and manage spaces and other cool things.</p>
+<p>For example, if you start out with this</p>
+<pre><code class="js">if ('this_is'==/an_example/){of_beautifer();}else{var a=b?(c%d):e[f];}
+</code></pre>
+
+<p>Then after beautifying, you will end up with this</p>
+<pre><code class="js">if ('this_is' == /an_example/) {
+    of_beautifer();
+} else {
+    var a = b ? (c % d) : e[f];
+}
+</code></pre>
+
+<h3 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link"></a></h3>
+<p>If you look within the <code>[code-beautifier]</code> section of the Codio Preferences, you will see the various beautification settings available.</p>
+<p>Don't forget, you can force these at the <a href="/project/ide/settings/#project-preferences">Project level preferences</a> if you want to have consistently beautified code regardless of who edits your code.</p>
+<h2 id="preview">Preview<a class="headerlink" href="#preview" title="Permanent link"></a></h2>
+<p>It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content.</p>
+<h3 id="static-content">Static content<a class="headerlink" href="#static-content" title="Permanent link"></a></h3>
+<p>You can use <strong>Preview static</strong> options on Static content only (HTML, CSS, JS and text).
+You can also preview static content on your mobile device easily using <strong>Project&gt;QR Code for Preview URL</strong> to generate a QR code you can scan with a QR Reader on your device.</p>
+<h3 id="dynamic-content">Dynamic content<a class="headerlink" href="#dynamic-content" title="Permanent link"></a></h3>
+<p>To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application by:</p>
+<ul>
+<li>word1-word2-port.codio.io which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.</li>
+</ul>
+<p><code>word1-word2</code> is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports defining the port in the URL, but please be aware than Codio supported a restricted range of ports. Please refer to <a href="/project/ide/boxes/#accessing-boxes-and-ports">this section</a> for more details.</p>
+<p>Read on for information on how to configure your Static and Dynamic preview menus.</p>
+<h3 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link"></a></h3>
+<p>The Preview button lets you preview one or more web pages with a simple button press. Codio creates three default entries in the Preview menu automatically.</p>
+<p><img alt="authtoken" src="/img/preview-deploy.png" /></p>
+<ul>
+<li><strong>Project Index</strong> - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically <code>.html</code> files). For PHP, Ruby etc. you should use the <strong>Box URL</strong> option.</li>
+<li><strong>Current File</strong> - whichever code file currently has focus. This option should only be used to preview static content (typically <code>.html</code> files). For PHP, Ruby etc. you should use the <strong>Box URL</strong> option.</li>
+<li><strong>Box URL</strong> - use this option for previewing PHP, Ruby or other server side languages over https. <a href="/project/ide/boxes/#accessing-boxes-and-ports">Click here</a> for more information on configuring port access for https.</li>
+</ul>
+<p>If you right-click a file in the file tree or the Tab, you can also select <strong>Preview Static</strong>.</p>
+<p><img alt="authtoken" src="/img/preview-deploy-right-click.png" /></p>
+<h3 id="preview-in-a-codio-tab-or-new-browser-tab">Preview in a Codio tab or new browser tab<a class="headerlink" href="#preview-in-a-codio-tab-or-new-browser-tab" title="Permanent link"></a></h3>
+<p>In the Preview dropdown menu, you can select one of the following ways to preview</p>
+<ul>
+<li><strong>Inside Codio</strong> : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. <a href="/project/ide/boxes/#accessing-boxes-and-ports">See here</a> for more details on using HTTPS.</li>
+<li><strong>New browser tab</strong> : it will open up a new browser tab or window.</li>
+</ul>
+<p>If you are previewing a private project containing Static content and you have not enabled <strong>Allow Private Static Preview</strong> option (available only via <strong>Project&gt;Settings</strong>) you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to <strong>Codio&gt;Account</strong> and on the Account tab you can set up a password of your own choosing.</p>
+<p>If though you have enabled this option, then you can preview static content without authentication. A new backend URL will be generated for this purpose that you can then share with anyone else you wish to be able to preview your project. You are also able to regenerate this URL at any time and access using the old URL will no longer function.</p>
+<p>This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.</p>
+<p>See <a href="https://wiki.apache.org/httpd/PasswordBasicAuth">Apache Password Basic Authentication</a> and <a href="https://php.net/manual/en/features.http-auth.php">HTTP Authentication with PHP</a> for some examples.</p>
+<h4 id="modifying-the-preview-menu">Modifying the Preview menu<a class="headerlink" href="#modifying-the-preview-menu" title="Permanent link"></a></h4>
+<p>You are free to customize the menu in either of the following ways</p>
+<ul>
+<li>From the <strong>Preview</strong> or <strong>Run</strong> drop down menus (the 2nd and 3rd right most Codio menu items), select <strong>Configure...</strong></li>
+<li>If it exists already, open the <code>.codio</code> file that lives in the root of your project.</li>
+</ul>
+<p>For details about the various tokens that can be inserted, please refer to <strong><a href="/project/ide/boxes/#customizable-run-menu">Customizing the Run menu</a></strong>.</p>
+<p><code>{{domain3000}}</code> is the most important token for the <strong>Preview menu</strong>. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+<code>{{domain}}</code> can also be used in the <strong>Preview</strong> menu. In most cases you will want to add the Port number (default 3000) to your service. e.g <code>"Box URL": "https://{{domain3000}}/",</code></p>
+<pre><code class="json">{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  &quot;commands&quot;: {
+        &quot;Node version&quot;: &quot;node --version&quot;
+  },
+
+// Preview button configuration
+  &quot;preview&quot;: {
+        &quot;Project Index (static)&quot;: &quot;https://{{domain}}/{{index}}&quot;,
+        &quot;Current File (static)&quot;: &quot;https://{{domain}}/{{filepath}}&quot;,
+        &quot;Box URL&quot;: &quot;https://{{domain3000}}/&quot;
+  }
+}
+</code></pre>
+
+<p>Note that static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.</p>
+<p>The full range of Codio <code>{{tokens}}</code> is explained in <a href="/project/ide/boxes/#codio-tokens">this section</a>.</p>
+<h3 id="insecure-content-with-in-tab-preview-and-front-end-code-mixed-content">Insecure Content with In-Tab preview and front-end code (#mixed-content)<a class="headerlink" href="#insecure-content-with-in-tab-preview-and-front-end-code-mixed-content" title="Permanent link"></a></h3>
+<p>Codio runs over a secure connection using HTTPS, and therefore so does the inline preview. If your code references an external resource (script, font, image, etc.). For example:</p>
+<pre><code class="html">&lt;script src=&quot;http://code.angularjs.org/1.1.5/angular.js&quot;&gt;
+</code></pre>
+
+<p>You will get a browser error indicating that there is some form of insecure or mixed content because you are running in a mixed HTTP/HTTPS mode. This is a restriction of the browser, and cannot be modified easily, or in some browsers, it cannot be modified at all. It is intended to protect you from insecure content.</p>
+<p>There are 2 ways to avoid this:</p>
+<ul>
+<li>Modify your external references to use HTTPS.</li>
+<li>Modify your references to use the 'current protocol' by including '//' without http or https, so <code>&lt;script src="//code.angularjs.org/1.1.5/angular.js"&gt;</code>.</li>
+<li>If none of the above work, then download the external file, and include and reference it within the Codio project itself.</li>
+</ul>
+<h2 id="quick-open">Quick open<a class="headerlink" href="#quick-open" title="Permanent link"></a></h2>
+<p>Quick open (fast open) is a great way of opening files without the need to access the file tree. Invoke Quick Open from</p>
+<ul>
+<li><strong>File &gt; Open File</strong> from the menu</li>
+<li><code>Cmd+O</code> (Mac) / <code>Ctrl+O</code> (PC/Linux)</li>
+</ul>
+<p>... and the quick open dialog will appear.</p>
+<p><img alt="Quick Open" src="/img/quick-open.png" /></p>
+<p>You now start typing the name of a file and as you type, the list will narrow down. You can then select the file you want using the mouse or use the keyboard, pressing Enter on the required file.</p>
+<h2 id="real-time-code-collaboration">Real time code collaboration<a class="headerlink" href="#real-time-code-collaboration" title="Permanent link"></a></h2>
+<p>If you give other Codio users permissions to access to your project, then Codio allows more than one user to view and edit files simultaneously.</p>
+<p>Rather like Google Docs, you will be able to see other people editing the file in real time.</p>
+<p>Because of this collaboration feature, your files are saved in real time and there is no need to press the save button. It just happens automatically.</p>
+<p>You can change full access to your project from the <strong>Project-&gt;Permissions</strong> menu, but this is risky and we advise strongly against this unless you are sure only one person will be editing the project at a time.</p>
+<p>The better approach is to use Git. If you are familiar with Git then each person has their own project but they all use Git to synchronize the content with a remote repository hosted on a platform like GitHub or BitBucket.</p>
+<h3 id="cursor-presence">Cursor Presence<a class="headerlink" href="#cursor-presence" title="Permanent link"></a></h3>
+<p>When accessing another users project where <a href="/project/ide/settings/#project-permissions">permissions</a> have been granted by the project owner, all active users in a project will be shown with a color in an icon showing in the menu bar when files are being accessed/edited</p>
+<p>Clicking on the icon will change focus to show what that user is currently editing highlighted in that color and will show the users cursor. 
+Hovering over the icon will show the filename and line currently being edited.</p>
+<p><img alt="Cursor Presence" src="/img/monitor_students/cursorpresences.png" /></p>
+<p>This can be very useful if a colleague needs assistance as you can see what they are doing, real time and if you need to demonstrate something to them, they can see what you are doing</p>
+<h3 id="audiovideo-chat-support">Audio/Video Chat Support<a class="headerlink" href="#audiovideo-chat-support" title="Permanent link"></a></h3>
+<p>When accessing another users project where <a href="/project/ide/settings/#project-permissions">permissions</a> have been granted by the project owner or for teachers viewing the students assignment, a <strong>Call</strong> button will show allowing Audio/Video calls and or real time chat.</p>
+<p><img alt="A/V Call" src="/img/monitor_students/call.png" /></p>
+<h2 id="saving-files">Saving files<a class="headerlink" href="#saving-files" title="Permanent link"></a></h2>
+<p>There is generally no need to save your files as content is saved automatically. You can still save manually using the <code>Ctrl+S|Cmd+S</code> keyboard shortcut, which most of you should be familiar with, but you don’t need to.
+If you make mistakes, then use the regular undo (<code>Ctrl+Z</code>).</p>
+<p>Version Control is the best possible way of managing restores and this is comprehensively supported thanks to our <a href="/project/ide/editing/#git-mercurial-svn">Git integration</a>.</p>
+<h2 id="sharing-and-embedding">Sharing and embedding<a class="headerlink" href="#sharing-and-embedding" title="Permanent link"></a></h2>
+<p>To share a project or link to a project from a web page, go to the <strong>Project &gt; Share</strong> menu item.</p>
+<p><img alt="Sharing" src="/img/sharing.png" /></p>
+<h3 id="retaining-layout-status-automatically-starting-tutorials">Retaining layout status &amp; automatically starting tutorials<a class="headerlink" href="#retaining-layout-status-automatically-starting-tutorials" title="Permanent link"></a></h3>
+<p>You'll notice the three options at the top of the dialog. When you embed or link to a Codio project you have three ways of the IDE rendering it</p>
+<ul>
+<li><strong>Project URL</strong> : use this URL to display the project with whatever panel and open file configuration happens to be active at the time. This can change all the time depending on what the user happens to have active at any given time.</li>
+<li><strong>Guide URL</strong>: use this URL to display your project with your <a href="/courses/authoring/">Guide</a> automatically starting.</li>
+<li><strong>With Layout</strong> : use this URL if you want to always use the precise panel and file configuration that you currently have open. This is the right option if you want to embed it in a blog post or page and a precise configuration should be retained no matter what the project owner is doing with the layout at any given time.</li>
+</ul>
+<p>You can use either of these basic URLs by copying and pasting.</p>
+<p>But if you want to use one of our preconfigured button options, read on.</p>
+<h3 id="markdown-or-html">Markdown or HTML<a class="headerlink" href="#markdown-or-html" title="Permanent link"></a></h3>
+<p>You can choose between Markdown or HTML by clicking on the HTML or Markdown label. Markdown is great for your GitHub README.md pages.</p>
+<p>Once you have made your selection you can copy and paste from one of the button options below.</p>
+<h3 id="suggested-buttons">Suggested Buttons<a class="headerlink" href="#suggested-buttons" title="Permanent link"></a></h3>
+<p>You will notice that there are two suggested buttons available for Project URL and With Layout modes.</p>
+<ul>
+<li><strong>Demo</strong> : the suggested button for any situation where you want to link to a demo project. A great example would be on your GitHub page, where you want to be able to show a demo of your code as well as allowing the user to browse around the code itself.</li>
+<li><strong>Show me the code</strong> : the suggested button for any situation where you want to link a blog, tutorial or some documentation to a real code sample.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../javascripts/extra.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

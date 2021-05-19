@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/dashboard/desktopapp/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Desktop App - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../account/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../navigation/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#excluding-files" class="nav-link">Excluding files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#starting-the-app" class="nav-link">Starting the app</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#accessing-and-connecting-to-your-online-content" class="nav-link">Accessing and connecting to your online content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#managing-your-offline-content" class="nav-link">Managing your offline content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#local-workspace-folder-settings" class="nav-link">Local workspace folder settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>A brief overview of the Codio desktop app.</p>
+<iframe src="https://player.vimeo.com/video/273506364" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>The desktop app is to allow a local code workspace to synchronize with a Codio box.</p>
+<p>Assignments/Projects from the <a href="/students/#courses">Courses dashboard</a> and <a href="/students/#creating-projects">My Projects</a> area can be connected.</p>
+<p>A Codio account is required</p>
+<h2 id="excluding-files">Excluding files<a class="headerlink" href="#excluding-files" title="Permanent link"></a></h2>
+<p>Files/folders can be excluded from synchronisation by using <code>.codioignore</code> file in the source project.
+Enter on a new line the file/folders to be excluded defining them relative to the location of the <code>.codioignore</code> file and defining folders with <code>/</code></p>
+<p>For example if the <code>.codioignore</code> file is located in the project workspace and you wish to exclude</p>
+<ul>
+<li><code>bin</code> &amp; <code>node_modules</code> folder</li>
+<li>the file <code>error.jade</code> in the <code>views</code> folder</li>
+<li>the files <code>app.js</code> and <code>README.md</code></li>
+</ul>
+<p>the <code>.codioignore</code> file will be</p>
+<pre><code>/bin
+/node_modules
+/views/error.jade
+app.js
+README.md
+</code></pre>
+
+<p><img alt="codioignore" src="/img/codioignore.png" /></p>
+<p>Please note that the <code>.codioignore</code> file is included in the desktop app files.</p>
+<p>If students wish to exclude files when pushing back to their Codio account they can do so, either by editing any existing <code>.codioignore</code> file or creating the file themselves. If the teacher creates the <code>.codioignore</code> file, adding a 'comment' line to the top of the file to make it clear to any students what they should not change could help avoid potential problems.
+A line starting with <code>#</code> serves as a comment</p>
+<p><strong><a href="https://www.codio.com/download">Click here</a></strong> to go to the download page and install to your local machine</p>
+<h2 id="starting-the-app">Starting the app<a class="headerlink" href="#starting-the-app" title="Permanent link"></a></h2>
+<p>When first starting the app you need to choose the server to connect to. In most cases this will be <strong>https://codio.com</strong> but if you are in the United Kingdom/Europe, it maybe <strong>https://codio.co.uk</strong>.</p>
+<p><img alt="desktop server" src="/img/desktop_server.png" /></p>
+<p>You can check by logging into your Codio account in your browser and you will see the server domain noted there</p>
+<p>Having selected the server log in using your codio credentials.</p>
+<p><i><strong>Note:</strong> that if you usually access Codio through an <a href="/courses/lti1_0/">LMS</a>, you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the <a href="/dashboard/account/#forgot-your-password">lost password</a> process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i></p>
+<h2 id="accessing-and-connecting-to-your-online-content">Accessing and connecting to your online content<a class="headerlink" href="#accessing-and-connecting-to-your-online-content" title="Permanent link"></a></h2>
+<p><img alt="desktop options" src="/img/desktop_options.png" /></p>
+<p>When logged in you first see a list of all courses you are a member of and can access your content either from <strong>Courses</strong> or <strong>My Projects</strong> area. </p>
+<p>To pull the code, click on your course or My Projects </p>
+<p><img alt="desktop connect" src="/img/desktop_connect.png" /> </p>
+<p>and then select either:</p>
+<ul>
+<li><strong>connect</strong> - to pull all the code from the selected assignment to a folder on your PC that you define.</li>
+</ul>
+<p><img alt="desktop workspace" src="/img/desktop_workspace.png" />.</p>
+<ul>
+<li><strong>Open in Codio</strong> - to open the assignment in your Codio account</li>
+</ul>
+<p>When connecting, browse to a folder on your PC where you would like to store the code and pull the content</p>
+<h2 id="managing-your-offline-content">Managing your offline content<a class="headerlink" href="#managing-your-offline-content" title="Permanent link"></a></h2>
+<p>When you have connected you can then push/pull/open the assignment in Codio and manage the local workspace folder settings.</p>
+<p><img alt="desktop connected" src="/img/desktop_connected.png" /></p>
+<p><strong>1.</strong> Click the <strong>pull</strong> button to pull content in from your Codio account. <strong>Note</strong> Any files you already have stored locally will be overwritten</p>
+<p><strong>2.</strong> Click the <strong>push</strong> button to push the content from your local workspace folder back to your Codio account. <strong>Note</strong> This will overwrite the project/assignment in your Codio account</p>
+<p><strong>3.</strong> Click the <strong>Open in Codio</strong> button to open your assignment in a browser tab. This can be useful if you wish to compare what you have stored locally to what you last pulled from your Codio account</p>
+<p><strong>4.</strong> Click the <strong>folder</strong> icon to manage your local workspace folder settings</p>
+<h2 id="local-workspace-folder-settings">Local workspace folder settings<a class="headerlink" href="#local-workspace-folder-settings" title="Permanent link"></a></h2>
+<p><img alt="desktop workspace settings" src="/img/desktop_worspacesettings.png" /></p>
+<p><strong>1.</strong> Click the <strong>Open the folder</strong> button to open the folder containing your local files</p>
+<p><strong>2.</strong> Click the <strong>Change folder</strong> button to change the folder storing your local files. <strong>Note</strong> the content of the previous folder will not be automatically copied or transferred to the newly selected folder. If you wish to do this, you should return to the previous screen and <strong>pull</strong> to that new folder</p>
+<p><strong>3.</strong> Click the <strong>Disconnect</strong> button to disconnect the assignment from your Codio account. You will be returned to the previous screen where you can then <a href="/dashboard/desktopapp/#accessing-and-connecting-to-your-online-content">connect</a> the assignment again if you wish</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

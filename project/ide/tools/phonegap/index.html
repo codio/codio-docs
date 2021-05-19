@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/ide/tools/phonegap/">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>Phonegap - Codio</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../../projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../../stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../guides/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../ssh/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#authentication" class="nav-link">Authentication</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#the-configxml-file" class="nav-link">The config.xml file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#build" class="nav-link">Build</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#a-bit-about-keys" class="nav-link">A bit about Keys</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#build-settings" class="nav-link">Build Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#initiate-build" class="nav-link">Initiate Build</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#download-your-app" class="nav-link">Download your App</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>You access Codio's <strong>Phonegap:Build</strong> features from the <strong>Tools-&gt;Phonegap</strong> menu.</p>
+<p>Our Phonegap support provides a comfortable integration with Adobe's Phonegap Build platform. You should first create an account at <a href="http://build.phonegap.com">http://build.phonegap.com</a>.</p>
+<p><strong>Note:</strong> At the time of writing, the <strong>PhoneGap:Build</strong> free plan supports a maximum project size of 50MB and 1000MB or 1GB for paid plans. Account plan details can be found <a href="https://build.phonegap.com/plans">here</a>.</p>
+<h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link"></a></h2>
+<p>To access Phonegap:Build from Codio you should set up an Authentication token. This is available in your Phonegap:Build account.</p>
+<p>Go to your Phonegap <a href="https://build.phonegap.com/people/edit">account details</a> and select the <strong>Client Application</strong> tab. If you do not see an authentication token, click <strong>Reset</strong> to obtain one.</p>
+<p><img alt="instructions" src="/img/phonegap-token-help.gif" /></p>
+<p>In Codio, select the <strong>Change Token</strong> button and paste in your key.</p>
+<p><img alt="authtoken" src="/img/authtoken.png" /></p>
+<h2 id="the-configxml-file">The config.xml file<a class="headerlink" href="#the-configxml-file" title="Permanent link"></a></h2>
+<p>To build apps at Phonegap:Build, a <code>config.xml</code> file is required in the root of your project. If one does not yet exist, Codio will ask if you want to create one.</p>
+<p><img alt="authtoken" src="/img/config.png" /></p>
+<p>This will create a default file for you and associated image resources for Splash Screen and Icon images in <code>pg-images</code> folder.</p>
+<p>Your <code>config.xml</code> needs to contain specific lines for each platform you want to target. For example, to build for iOS, Android and Windows Phone you need to include</p>
+<pre><code class="xml">&lt;gap:platforms&gt;
+    &lt;gap:platform name=&quot;ios&quot; /&gt;
+    &lt;gap:platform name=&quot;android&quot; /&gt;
+    &lt;gap:platform name=&quot;winphone&quot; /&gt;
+&lt;/gap:platforms&gt;
+</code></pre>
+
+<p>If you only want to build for one platform (for example Android) you would only need to include</p>
+<pre><code class="xml">&lt;gap:platforms&gt;
+    &lt;gap:platform name=&quot;android&quot; /&gt;
+&lt;/gap:platforms&gt;
+</code></pre>
+
+<p>Useful resources and references for the config.xml file can be found on the Phonegap site:</p>
+<ul>
+<li><a href="http://docs.phonegap.com/phonegap-build/configuring/">config.xml</a></li>
+<li><a href="http://docs.phonegap.com/phonegap-build/configuring/preferences/">Custom preferences</a></li>
+<li><a href="http://docs.phonegap.com/phonegap-build/configuring/icons-and-splash/">Icons and Splash Screens</a></li>
+<li><a href="http://docs.phonegap.com/phonegap-build/configuring/plugins/">Phonegap:Build plugins</a></li>
+</ul>
+<h2 id="build">Build<a class="headerlink" href="#build" title="Permanent link"></a></h2>
+<p>When you are ready to build your app, you press the <strong>Build</strong> button in the Phonegap Build Area section. Make sure you have <a href="/project/ide/tools/phonegap/#the-configxml-file">created and configured your <code>config.xml</code> file</a>.</p>
+<p>You should have set up your code signing keys in your Phonegap:Build account (more on keys below) and you should select which keys you wish to use for each platform you defined in your <code>&lt;gap:platforms&gt;</code> tag in the <code>config.xml</code> file.</p>
+<p>Keys are configured from the <strong>Account &gt; Edit Setting &gt; Signing Keys</strong> tab in your Phonegap:Build account.</p>
+<p><img alt="Build settings" src="/img/buildsettings.png" /></p>
+<h3 id="a-bit-about-keys">A bit about Keys<a class="headerlink" href="#a-bit-about-keys" title="Permanent link"></a></h3>
+<p>Phonegap has very good documentation on how to generate your keys as well as how to configure your Phonegap:Build account.</p>
+<ul>
+<li><a href="http://docs.phonegap.com/phonegap-build/signing/android/">Android</a></li>
+<li><a href="http://docs.phonegap.com/phonegap-build/signing/ios/">iOS</a></li>
+</ul>
+<p><em>Note If you do not see anything in the <code>Keys</code> area, review your <code>&lt;gap:platforms&gt;</code> content in the config.xml file</em></p>
+<h4 id="android">Android<a class="headerlink" href="#android" title="Permanent link"></a></h4>
+<p>To build and test, you don't need to do anything. You can leave the field empty . If you want to deploy a codesigned App, (which you will need to deploy via Google Play) then you need to generate a proper Certificate.</p>
+<h4 id="ios">iOS<a class="headerlink" href="#ios" title="Permanent link"></a></h4>
+<p>Apple requires both a Codesigning Certificate and a Mobile Provisioning Profile. You need different ones for development and for App Store deployment.</p>
+<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link"></a></h4>
+<p>Windows does not require any certificates to build.</p>
+<h3 id="build-settings">Build Settings<a class="headerlink" href="#build-settings" title="Permanent link"></a></h3>
+<h4 id="private-application">Private Application<a class="headerlink" href="#private-application" title="Permanent link"></a></h4>
+<p>Depending on the Phonegap:Build account plan you have, you can build a number of private applications. Check this box if you want to build as a private application. See <a href="https://build.phonegap.com/plans">here</a> for more information on Phonegap:Build plans</p>
+<h4 id="enable-debug">Enable Debug<a class="headerlink" href="#enable-debug" title="Permanent link"></a></h4>
+<p>Checking this box enables Phonegap Build debugging to allow you to use standard Web Inspector tools available from the PhoneGap Build site to debug PhoneGap apps while they are running on your device.</p>
+<p>For more information on this see <a href="http://docs.phonegap.com/references/developer-app/debugging/">Remote Debugging Tools</a></p>
+<h4 id="enable-hydrates">Enable Hydrates<a class="headerlink" href="#enable-hydrates" title="Permanent link"></a></h4>
+<p>Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has two main benefits:</p>
+<ul>
+<li>Compilation times are improved significantly.</li>
+<li>Updates are pushed directly to the application installed on a device.</li>
+</ul>
+<p>For more information on this see <a href="http://docs.phonegap.com/phonegap-build/tools/hydration/">Hydration</a></p>
+<h3 id="initiate-build">Initiate Build<a class="headerlink" href="#initiate-build" title="Permanent link"></a></h3>
+<p>When you have selected keys and any settings, simply press the Build button. Codio now passes all information through to the Phonegap:Build platform, where the build is run in the background.</p>
+<p>If the status does not complete in a reasonable time, you can do one of the following</p>
+<ul>
+<li>go to your Phonegap:Build account and click the main Apps tab, where you should see your app and its status</li>
+<li>check the status of the Phonegap:Build service <a href="http://status.build.phonegap.com/">here</a></li>
+</ul>
+<h3 id="download-your-app">Download your App<a class="headerlink" href="#download-your-app" title="Permanent link"></a></h3>
+<p>When the build is completed you can deploy the app to your device in the following ways.</p>
+<ul>
+<li>download the native file and manually upload to your device</li>
+<li>scan the QR code to download from Phonegap:Build to your device</li>
+</ul>
+<p><img alt="Build" src="/img/build.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../../js/base.js" defer></script>
+        <script src="../../../../javascripts/extra.js" defer></script>
+        <script src="../../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

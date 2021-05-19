@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/resources/Resource-Tools/crunch/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Crunch - Codio</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">Crunch</a>
+</li>
+            
+<li>
+    <a href="../flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../changelog/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../flode/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#crunch-course" class="nav-link">Crunch Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#lexikon" class="nav-link">Lexikon</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#crunch-module" class="nav-link">Crunch Module</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#video-overview" class="nav-link">Video Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-a-crunch-file" class="nav-link">Creating a Crunch file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#saving-changes" class="nav-link">Saving changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#source-code-editing" class="nav-link">Source Code Editing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#instructions" class="nav-link">Instructions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#adding-labels" class="nav-link">Adding labels</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#comments" class="nav-link">Comments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#selecting-lines-of-code-deleting-or-moving" class="nav-link">Selecting lines of code - deleting or moving</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#running-your-code" class="nav-link">Running your code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#step-debug-mode" class="nav-link">Step / debug mode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#run-mode" class="nav-link">Run mode</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#output-window" class="nav-link">Output window</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#stack-contents" class="nav-link">Stack contents</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#undo-redo" class="nav-link">Undo &amp; redo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax.</p>
+<h2 id="crunch-course">Crunch Course<a class="headerlink" href="#crunch-course" title="Permanent link"></a></h2>
+<p>We have built a 3 assignment Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking.</p>
+<p>From the Dashboard, go to <strong>Resources</strong> and then look for <strong>Crunch - Little Man Computer on Steroids</strong>.</p>
+<h2 id="lexikon">Lexikon<a class="headerlink" href="#lexikon" title="Permanent link"></a></h2>
+<p>We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the <strong>Tools</strong> menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering <strong>Overview</strong> in the search box for an overview of all the Crunch commands.</p>
+<h2 id="crunch-module">Crunch Module<a class="headerlink" href="#crunch-module" title="Permanent link"></a></h2>
+<p>We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the <strong>Crunch - Little Man Computer on Steroids</strong> Course. From the Dashboard, go to <strong>Reources</strong> and then look for <strong>Crunch - Little Man Computer on Steroids</strong>, within that course you will find the Crunch module.</p>
+<p>If you are teaching a Course, then we suggest you assign the Crunch module to the course. <a href="/courses/classes/#assign-resource-modules-to-the-course">Click here</a> for details.</p>
+<h2 id="video-overview">Video Overview<a class="headerlink" href="#video-overview" title="Permanent link"></a></h2>
+<div class="video">
+<div class="video-wrapper">
+<iframe src="//player.vimeo.com/video/130090893" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowflscreen allowfullscreen></iframe>
+</div>
+</div>
+
+<h2 id="creating-a-crunch-file">Creating a Crunch file<a class="headerlink" href="#creating-a-crunch-file" title="Permanent link"></a></h2>
+<p>If you want to create your own Crunch files in a Codio project, create a new file of type Crunch by giving it the <code>.crunch</code> extension.</p>
+<p>A new file is created from either the File menu or by right-clicking on the project name line in the file tree.</p>
+<p><img alt="authtoken" src="/img/new-file.png" /></p>
+<h2 id="saving-changes">Saving changes<a class="headerlink" href="#saving-changes" title="Permanent link"></a></h2>
+<p>All changes are changed automatically, so you don't have to explicitly save.</p>
+<h2 id="source-code-editing">Source Code Editing<a class="headerlink" href="#source-code-editing" title="Permanent link"></a></h2>
+<p>Editing source code is done by hovering over a line until the popup button bar appears.</p>
+<p><img alt="authtoken" src="/img/crunch-insert.png" /></p>
+<p>If you have not yet added any code, then you should see the button bar already there in the top of the code area.</p>
+<p>Click on the <strong>+</strong> to add a new instruction.</p>
+<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link"></a></h2>
+<p>Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to <strong>Tools&gt;Lexicon</strong> and select the <strong>Crunch</strong> option to search.</p>
+<p>The following instructions are not available in Little Man Computer and provide a more complete experience.</p>
+<ul>
+<li><code>BGT</code> branch if greater than</li>
+<li><code>BGE</code> branch if greater than or equal to</li>
+<li><code>BLT</code> branch if less than</li>
+<li><code>BLE</code> branch if less than or equal to</li>
+<li><code>BEQ</code> branch if equal to</li>
+<li><code>BNE</code> branch if not equal to</li>
+<li><code>JMP</code> jump to a label</li>
+<li><code>PSH</code> push accumulator onto a stack</li>
+<li><code>POP</code> pop accumulator off the stack</li>
+<li><code>MUL</code> multiply the accumulator by a literal value of a value stored in a memory location</li>
+<li><code>INC</code> increment the accumulator by 1</li>
+<li><code>DEC</code> decrement the acculumator by 1</li>
+</ul>
+<p>You can access the full instruction list from the dropdown when you add a new instruction or you can simply type the instruction mnemonic (3 letter instruction) and press enter.</p>
+<h2 id="adding-labels">Adding labels<a class="headerlink" href="#adding-labels" title="Permanent link"></a></h2>
+<p>Instructions such as <code>BEQ</code>, <code>BNE</code>, <code>BLT</code>, <code>BLE</code>, <code>BGT</code>, <code>BGE</code>, <code>JMP</code> require that you jump to a specific label if the condition is met. You can add such a label by pressing the add label button from the floating toolbar.</p>
+<p><img alt="authtoken" src="/img/crunch-label.png" /></p>
+<p>Enter a label name that can be used as a target for the above listed instructions.</p>
+<h2 id="comments">Comments<a class="headerlink" href="#comments" title="Permanent link"></a></h2>
+<p>If you want to add comments to your code, click the comment button, circled below, and you can add a comment description into the code.</p>
+<p><img alt="authtoken" src="/img/crunch-comment.png" /></p>
+<h2 id="selecting-lines-of-code-deleting-or-moving">Selecting lines of code - deleting or moving<a class="headerlink" href="#selecting-lines-of-code-deleting-or-moving" title="Permanent link"></a></h2>
+<p>If you want to select one or more lines of code (to delete or move to another location) then you should do the following</p>
+<ul>
+<li>click on a line you want to select but make sure you click away from a field that requires input</li>
+<li>to select more multiple lines, then press the shift key and click on another line in order that all lines between the first line and this line are selected. You should then see the multiple lines highlighted.</li>
+</ul>
+<p>Once you have the one or more lines selected, you can either delete all lines (by pressing delete from the toolbar on the right) or by dragging the selected lines to the required destination.</p>
+<h2 id="running-your-code">Running your code<a class="headerlink" href="#running-your-code" title="Permanent link"></a></h2>
+<h1 id="step-debug-mode">Step / debug mode<a class="headerlink" href="#step-debug-mode" title="Permanent link"></a></h1>
+<p>One very nice way of running your code is to step through it line by line so you can see how it executes at your own pace. To do this, press the <strong>Step</strong> button on the right hand side. It will immediately start executing.</p>
+<p>At any time, you can press the <strong>Run</strong> button to run to completion at full speed.</p>
+<p><img alt="authtoken" src="/img/crunch-step.png" /></p>
+<h1 id="run-mode">Run mode<a class="headerlink" href="#run-mode" title="Permanent link"></a></h1>
+<p>This runs your program at full speed.</p>
+<h3 id="output-window">Output window<a class="headerlink" href="#output-window" title="Permanent link"></a></h3>
+<p>All output is written to the output window at the bottom of the screen, which is scrollable.</p>
+<h2 id="stack-contents">Stack contents<a class="headerlink" href="#stack-contents" title="Permanent link"></a></h2>
+<p>If you push the accumulator to the stack using the <code>PSH</code> command, the stack content is displayed in a scrollable window within the display below the code window. As you <code>POP</code> items off the stack, you will see the topmost item being removed.</p>
+<h2 id="undo-redo">Undo &amp; redo<a class="headerlink" href="#undo-redo" title="Permanent link"></a></h2>
+<p>You can undo and redo changes using the buttons on the right hand side.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../javascripts/extra.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

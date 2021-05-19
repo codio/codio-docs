@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/courses/classes/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Understanding Courses - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../authoring/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../coursemanagement/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#creating-a-new-course" class="nav-link">Creating a new course</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#creating-new-course-from-share-code" class="nav-link">Creating new course from share code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#sharing-your-course-with-others" class="nav-link">Sharing your course with others</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#restricting-child-courses-from-being-clonedshared" class="nav-link">Restricting child courses from being cloned/shared</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#publishing-and-revisions" class="nav-link">Publishing and revisions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#cloning-a-course" class="nav-link">Cloning a Course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#searching-and-ordering-courses" class="nav-link">Searching and ordering courses</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#ordering-courses-within-their-groups" class="nav-link">Ordering courses within their groups</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#searching" class="nav-link">Searching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#add-as-a-tab" class="nav-link">Add as a Tab</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#archiving-courses" class="nav-link">Archiving Courses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#adding-teachers-to-a-course" class="nav-link">Adding teachers to a course</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#teaching-assistants" class="nav-link">Teaching Assistants</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#enabling-teachers-to-be-student-in-a-course" class="nav-link">Enabling teachers to be student in a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#add-students-to-a-course" class="nav-link">Add students to a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#change-student-passwords" class="nav-link">Change student passwords</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#remove-a-student-from-a-course" class="nav-link">Remove a student from a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#deleting-a-course" class="nav-link">Deleting a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#exporting-course-data" class="nav-link">Exporting course data</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#course-data" class="nav-link">Course Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#user-access-data" class="nav-link">User Access Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#pdf" class="nav-link">PDF</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#autograde-notification-failure" class="nav-link">Autograde Notification Failure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lti-settings" class="nav-link">LTI Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#working-with-student-workspaces" class="nav-link">Working with student workspaces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#course-contact-url" class="nav-link">Course contact url</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#lms-shared-feedback" class="nav-link">LMS shared feedback</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#grading-rubric-templates" class="nav-link">Grading rubric templates</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#grading-rubric-templates_1" class="nav-link">Grading Rubric templates</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#calculation-of-scores" class="nav-link">Calculation of scores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#applying-a-grading-template-to-an-assignment" class="nav-link">Applying a grading template to an assignment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#grading-student-work" class="nav-link">Grading student work</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#gigaboxes" class="nav-link">Gigaboxes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#assign-a-project-to-the-course" class="nav-link">Assign a project to the course</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#assign-a-project" class="nav-link">Assign a project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#assign-existing-modules-to-the-course" class="nav-link">Assign existing modules to the course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#removing-course-module-from-a-course" class="nav-link">Removing course module from a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#updating-courses" class="nav-link">Updating courses</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#updating-assignment-content" class="nav-link">Updating assignment content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#updating-stack" class="nav-link">Updating Stack</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#test-students" class="nav-link">Test students</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#excluding-files" class="nav-link">Excluding Files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#managing-assignments" class="nav-link">Managing Assignments</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#assignment-settings" class="nav-link">Assignment Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#exam-proctoring" class="nav-link">Exam Proctoring</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#grade-weights" class="nav-link">Grade Weights</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#actions-area-settings" class="nav-link">Actions area settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#notification-emails" class="nav-link">Notification Emails</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<hr />
+<p>A course has the following properties.</p>
+<ul>
+<li>It is a grouping of students who are taught as a logical group.</li>
+<li>It can have one or more teachers/instructors.</li>
+<li>You can add content to it.</li>
+<li>You can instantly access student code and projects.</li>
+<li>You can integrate the course with any LTI enabled LMS platform such as Canvas, D2L, Moodle, Blackboard and many others. Your LMS can auto-populate courses and grade data can be fed back from Codio to the LMS.</li>
+</ul>
+<p><strong>Video: Courses Overview</strong>
+<p><a href="https://codio.wistia.com/medias/qk7l9qi31y?wvideo=qk7l9qi31y"><img src="https://embedwistia-a.akamaihd.net/deliveries/b0b4255c1cfbc9a7ec79c65887e436a2.jpg?image_play_button_size=2x&amp;image_crop_resized=960x523&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="217.5" style="width: 400px; height: 217.5px;"></a></p></p>
+<h2 id="creating-a-new-course">Creating a new course<a class="headerlink" href="#creating-a-new-course" title="Permanent link"></a></h2>
+<p>To work with the course features in Codio you will first need to set up a course for your students.</p>
+<ol>
+<li>
+<p>Sign in to Codio at www.codio.com</p>
+</li>
+<li>
+<p>If you are in the IDE, click the Codio icon in the top left corner to take you back to the <strong>Courses</strong> screen. If you are in the dashboard, click on <strong>Courses</strong> in the left menu.</p>
+</li>
+<li>
+<p>Click the <strong>New Course</strong> button at the top left of the page.</p>
+</li>
+</ol>
+<p><img alt="New Course" src="/img/manage_classes/addcourse.png" /></p>
+<ol>
+<li>Select <strong>Add Empty Course</strong> , complete the details requested, then click <strong>Create Course</strong>.</li>
+</ol>
+<p><img alt="Add Empty Course" src="/img/manage_classes/create_class/new-class.png" /></p>
+<ol>
+<li>Your new course will appear in your <strong>Courses</strong> area.</li>
+</ol>
+<h3 id="creating-new-course-from-share-code">Creating new course from share code<a class="headerlink" href="#creating-new-course-from-share-code" title="Permanent link"></a></h3>
+<p>You can create courses from a code other users in other organisations can share to you. A relationship between your course and those created using the share code will be established so any updates/changes you may make in your course content can be pulled in by the other users. See <a href="/courses/classes/#working-with-masterchild-courses">working with master/child courses</a> below for more information</p>
+<ol>
+<li>Select the <strong>Add From Share Code</strong> option</li>
+</ol>
+<p><img alt="Share Course Dash" src="/img/manage_classes/sharecode.png" /></p>
+<ol>
+<li>Enter the code given and complete all other details and the course will be created for you.</li>
+</ol>
+<h3 id="sharing-your-course-with-others">Sharing your course with others<a class="headerlink" href="#sharing-your-course-with-others" title="Permanent link"></a></h3>
+<p>To share your course with others</p>
+<ol>
+<li>
+<p>Select the existing course, go to the <strong>Admin</strong> area.</p>
+</li>
+<li>
+<p>Enable <strong>Course share code</strong> and a code will be generated.</p>
+</li>
+</ol>
+<p><img alt="Create Share Code" src="/img/manage_classes/createsharecode.png" /></p>
+<ol>
+<li>
+<p>Copy to your clipboard and share out as required.</p>
+</li>
+<li>
+<p>In order that you can manage access you can disable the code and/or regenerate to create a new code and the original code can no longer be used.  </p>
+</li>
+</ol>
+<h3 id="restricting-child-courses-from-being-clonedshared">Restricting child courses from being cloned/shared<a class="headerlink" href="#restricting-child-courses-from-being-clonedshared" title="Permanent link"></a></h3>
+<p>To restrict a course that is shared/cloned from a master course from being shared/cloned further, enable <strong>Course share code</strong> as above and enable <strong>Licensed</strong></p>
+<p>When enabled you can also manage IP Consent by clicking the <strong>Manage IP Consent</strong> link offered.</p>
+<p><img alt="Manage IP consent" src="/img/manage_classes/course_ipconsent.png" /></p>
+<p>You should first create the content that you wish to display. You enter your text in the lower portion of the screen. You can use markdown or HTML to format your text. If you are not familiar with markdown, here is a reference for markdown:</p>
+<ul>
+<li><a href="http://daringfireball.net/projects/markdown/basics">Daring Fireball</a> - the author of markdown</li>
+</ul>
+<p>You can press the <strong>Save Draft</strong> button to save your changes and continue editing later.</p>
+<p>You can also <strong>Preview</strong> your changes to see how the rendered output appears.</p>
+<p>When you are happy you can then publish and then <strong>enable IP consent</strong> that will then require teachers to accept your terms</p>
+<h3 id="publishing-and-revisions">Publishing and revisions<a class="headerlink" href="#publishing-and-revisions" title="Permanent link"></a></h3>
+<p>You need to publish your changes so that they appear to the student. You can create new versions over time. Earlier versions of the form can be recalled by selecting the version from the drop down list.</p>
+<p>Once you are happy with your text, you press the <strong>Publish new version</strong> button.</p>
+<p>Please note:</p>
+<ul>
+<li>Child courses created from licensed master courses cannot be shared/cloned and the content cannot be added into other courses/modules or as assignments</li>
+<li>The ability to enable/disable course share code is restricted in such child courses</li>
+</ul>
+<h3 id="cloning-a-course">Cloning a Course<a class="headerlink" href="#cloning-a-course" title="Permanent link"></a></h3>
+<p>You can clone an existing course to create a new course in 2 ways</p>
+<ol>
+<li>Sign in to Codio at www.codio.com</li>
+</ol>
+<p>Either:
+1. Click the 3 blue dot menu item shown on the main course dashboard and select <strong>Clone Course</strong>
+<img alt="Clone Course Dash" src="/img/manage_classes/maincloneclass.png" /></p>
+<p>or</p>
+<ol>
+<li>
+<p>Select the existing course, go to the <strong>Admin</strong> area.</p>
+</li>
+<li>
+<p>Click the <strong>Clone Course</strong> button at the bottom of the page.
+<img alt="Clone Course" src="/img/manage_classes/cloneclass.png" /></p>
+</li>
+<li>
+<p>Complete the details requested for the name of the new course, then click <strong>Create Course</strong>.</p>
+</li>
+<li>
+<p>Your new course will appear in your <strong>Courses</strong> area.</p>
+</li>
+</ol>
+<p>Please note, students in the existing course will not be added to the new course.</p>
+<h4 id="working-with-masterchild-courses">Working with Master/Child courses<a class="headerlink" href="#working-with-masterchild-courses" title="Permanent link"></a></h4>
+<p>Where you have cloned a course or created using a share code, there will be a relationship between the original (Master) course content and the clone (Child) course content so that if you have need to edit/update an assignment in the master course these changes can be pulled into the child courses.</p>
+<p>After publishing the updates from the original course, you can send notifications so that teachers (not 'read only' teachers) in the course will see a banner advising them of the available updates.</p>
+<h5 id="updating-and-sending-notifications-to-child-courses">Updating and sending notifications to child courses<a class="headerlink" href="#updating-and-sending-notifications-to-child-courses" title="Permanent link"></a></h5>
+<p>To send notifications, go to the <strong>Admin</strong> tab and select <strong>Send New Notification</strong></p>
+<p><img alt="Notify Child Courses" src="/img/manage_classes/notifychild.png" /> </p>
+<p>where you can then enter a notification message to assist teachers in the child course to understand what changes have been made available and can be updated</p>
+<p><img alt="Send Notification" src="/img/manage_classes/sendnotification.png" /> </p>
+<p>This message can include details of all the changes made in each assignment or just be a summary. If a summary used and the teachers in the child course wish to check the changes made for individual assignments, they can <strong><a href="/courses/classes/#updating-and-not-sending-notifications-to-child-courses">pull</a></strong> the assignments to review the information entered in the publish assignment changelog</p>
+<p>The history of all notifications sent for published updates in the master course can be seen selecting the <strong>View Sent Notification</strong></p>
+<p>Where notifications have been sent, teachers will then see an icon on the course view</p>
+<p><img alt="Course Update List" src="/img/manage_classes/courseupdatelist.png" /> </p>
+<p>and when accessing the course, details of the notification changes available in the associated child course</p>
+<p><img alt="Course Update Banner" src="/img/manage_classes/courseupdates.png" /> </p>
+<p>Clicking on <strong>Show Changes</strong> will then show details of the assignments updated tagged with the parts of the assignment that have been updated</p>
+<p><img alt="Course Update Details" src="/img/manage_classes/detailcourseupdates.png" /> </p>
+<p>Clicking on the <strong>?</strong> for updated part will show information on the meaning of the tags</p>
+<p><img alt="Tag Meanings" src="/img/manage_classes/tagmeaning.png" /> </p>
+<p>Clicking on <strong>Update History</strong> will show the notification message sent for that update</p>
+<p>Select the assignments you wish to update and <strong>Apply</strong>. A confirmation dialog will be shown for you to confirm you wish to update the assignments</p>
+<h5 id="updating-and-not-sending-notifications-to-child-courses">Updating and not sending notifications to child courses<a class="headerlink" href="#updating-and-not-sending-notifications-to-child-courses" title="Permanent link"></a></h5>
+<p>After publishing the update from the original course, go to the cloned course where (in 'edit' mode) you will see the option to Pull for the individual assignments.</p>
+<p><img alt="Pull" src="/img/manage_classes/pull.png" /></p>
+<p>Details will be shown of the update published in the original course to allow for confirmation and on acceptance the update will be pulled in to the assignment in the cloned course.</p>
+<p><img alt="Update" src="/img/manage_classes/updatedialog.png" /></p>
+<p>You can also <strong>Pull All</strong> to pull all updates available for each module but be aware this will not show you the details for each updated assignment. To see this information, use the individual <strong>Pull</strong> for the assignment.</p>
+<p><img alt="Pull All" src="/img/manage_classes/pullall.png" /> </p>
+<p>The option to pull at the module or individual level will only be shown if an update to the assignment has been published in the original course.</p>
+<h4 id="adding-new-assignments-from-master-to-child-courses">Adding new assignments from Master to Child courses<a class="headerlink" href="#adding-new-assignments-from-master-to-child-courses" title="Permanent link"></a></h4>
+<p>Having added and published a new assignment to a master course you can add this into child courses and allow future updates to be pulled as above.</p>
+<p>Go to the child course, select the module and click on the <strong>+ Add assignment</strong> and select <strong>Existing</strong></p>
+<p><img alt="Add assignment" src="/img/manage_classes/addchild.png" /> </p>
+<p>Select the master course and module and select the assignment(s) to be added to the child course.</p>
+<p>The assignment in the child course will automatically be published.</p>
+<h4 id="reverting-to-an-earlier-version">Reverting to an earlier version<a class="headerlink" href="#reverting-to-an-earlier-version" title="Permanent link"></a></h4>
+<p>You can revert to earlier published versions, see <a href="/courses/coursemanagement/#reverting-to-an-earlier-version">Revert to earlier versions</a></p>
+<h2 id="searching-and-ordering-courses">Searching and ordering courses<a class="headerlink" href="#searching-and-ordering-courses" title="Permanent link"></a></h2>
+<p>Courses are shown grouped together by their creation date with the most recently created first.</p>
+<p>The grouping intervals are</p>
+<ul>
+<li>Sep-Dec - Autumn</li>
+<li>Jan-May - Spring</li>
+<li>Jun-Aug - Summer</li>
+</ul>
+<h3 id="ordering-courses-within-their-groups">Ordering courses within their groups<a class="headerlink" href="#ordering-courses-within-their-groups" title="Permanent link"></a></h3>
+<p>Courses can be ordered by Name, Created Date, Student Count or Start Date within the groups</p>
+<p><img alt="CreateDate" src="/img/manage_classes/orderclass.png" /></p>
+<h3 id="searching">Searching<a class="headerlink" href="#searching" title="Permanent link"></a></h3>
+<p>If you have a large number of courses, you can also search by Name, Created Date, Student Count or Start Date. Select the appropriate option and simply start typing, whereupon Codio will search within all course names and filter your list accordingly.
+<img alt="Name" src="/img/manage_classes/nameclass.png" /></p>
+<h3 id="add-as-a-tab">Add as a Tab<a class="headerlink" href="#add-as-a-tab" title="Permanent link"></a></h3>
+<p>You can then 'Add as a Tab' to save the search parameters and in future quickly access them by clicking on the tab that will be created for you.</p>
+<h3 id="archiving-courses">Archiving Courses<a class="headerlink" href="#archiving-courses" title="Permanent link"></a></h3>
+<p>To help manage the number of courses visible to teachers they can be archived so they no longer show on the active screen for teachers and in the students dashboard the course will show as archived and their assignments will be read-only. Go to the 3 blue dot menu and select 'Archive Course'. You will then be prompted to confirm your action by typing in a phrase 'make-read-only'</p>
+<p>Archiving a course does not effect students being able to see their grades/feedback but they will not be able to continue working on assignments.  They are not deleted and can be unarchived at any time in the future if they are required either by clicking on the course in the archived tab or from the 3 blue dot menu and selecting 'Unarchive Course'</p>
+<h2 id="adding-teachers-to-a-course">Adding teachers to a course<a class="headerlink" href="#adding-teachers-to-a-course" title="Permanent link"></a></h2>
+<p>Your course may be taught by more than one teacher. If this is the case, you can add another teacher to your Codio course in the following way:</p>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> area, click on your course to open it.</p>
+</li>
+<li>
+<p>Click on the <strong>Admin</strong> tab, centre right near the top.</p>
+<p><img alt="CourseAdmin" src="/img/manage_classes/adding_teachers/admin_tab.png" /></p>
+</li>
+<li>
+<p>Find the <strong>Teachers</strong> area on the left, and then click <strong>Edit</strong>.</p>
+<p><img alt="EditTeacher" src="/img/manage_classes/adding_teachers/edit_teachers.png" /></p>
+</li>
+<li>
+<p>Click <strong>Add Teacher</strong></p>
+<p><img alt="Add Teacher" src="/img/manage_classes/adding_teachers/add_teacher.png" /></p>
+</li>
+<li>
+<p>Search for the teacher you want to add, then click done.</p>
+<p><img alt="Search Teacher" src="/img/manage_classes/adding_teachers/search_teacher.png" /></p>
+</li>
+<li>
+<p>The teacher should then appear in your teacher list for that course. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so checking <strong>Add this teacher as read-only</strong> option. If needed to be changed later, this can be done toggling the <strong>Read Only</strong> switch. With this enabled, these teachers will not be able to switch into <strong>Edit</strong> mode.</p>
+<p><img alt="Course Read Only Teacher" src="/img/manage_classes/adding_teachers/coursereadonly.png" /></p>
+</li>
+</ol>
+<p>Click <strong>Done</strong> to save your changes.</p>
+<ol>
+<li>
+<p>If the teacher is not a member of your Organization, you can send them an invitation email.
+    <img alt="Invite Teacher" src="/img/manage_classes/adding_teachers/inviteteacher.png" /></p>
+</li>
+<li>
+<p>An email will be sent to your colleague containing a link where they can sign up for a Codio account and on completion they will be added into your organization and course automatically. If you wish the teachers to be restricted to only viewing the course but not to be able to add/edit/change the course content, you can do so checking <strong>Add this teacher as read-only</strong> option. If needed to be changed later, this can be done toggling the <strong>Read Only</strong> switch. With this enabled, these teachers will not be able to switch into <strong>Edit</strong> mode as above.</p>
+</li>
+</ol>
+<h3 id="teaching-assistants">Teaching Assistants<a class="headerlink" href="#teaching-assistants" title="Permanent link"></a></h3>
+<p>Teaching assistants can be invited into courses by sending then the invitation email and they will then be able to switch between being a teacher and student. When they are in teacher mode they will see all the courses in which they are set as a teacher and when in student mode will see all the courses in which they are set as a student. </p>
+<h3 id="enabling-teachers-to-be-student-in-a-course">Enabling teachers to be student in a course<a class="headerlink" href="#enabling-teachers-to-be-student-in-a-course" title="Permanent link"></a></h3>
+<p>If a teacher wishes to be a student in a course that they are already a teacher in, this can be done by using the <strong>Student Invite URL</strong> that can be found on the course admin tab. Enter that into the browser and it will add them into that course as a student. </p>
+<h2 id="add-students-to-a-course">Add students to a course<a class="headerlink" href="#add-students-to-a-course" title="Permanent link"></a></h2>
+<p><strong>Video: Adding Student and Test Students</strong></p>
+<p><a href="https://codio.wistia.com/medias/zebku9t15m?wvideo=zebku9t15m"><img src="https://embed-fastly.wistia.com/deliveries/a804c551a6f6ec0259517365ce1f55575798654f.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<p>You can add students to your organization and your course easily by giving each student a unique two-word phrase called a token or by giving them in Student Invite URL.  A student will enter the token and will automatically be added to the your organization and the correct course as they complete the process to create a Codio account.  To do this follow the steps below:</p>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> area, click on your course to open it.</p>
+</li>
+<li>
+<p>Click on the <strong>Students</strong> tab, top centre of your screen.</p>
+</li>
+</ol>
+<p><img alt="Students Tab" src="/img/manage_classes/students_tab.png" /></p>
+<ol>
+<li>
+<p>Click on the <strong>Add a student</strong> button.</p>
+</li>
+<li>
+<p>You can then send the 2 word token to your students or send them the Invite URL to join the course or you can add the Test students to your course. We recommend you use the <strong>Invite URL</strong> to avoid students going through the process to create a new organisation where they may click on the <strong>Free Trial</strong> button in error. There maybe a delay in us being able to get back to them to advise them of the correct steps to take but if you use the Invite URL, they should be able to get started a lot quicker.</p>
+</li>
+</ol>
+<p><img alt="Add Students" src="/img/manage_classes/addstudents.png" /></p>
+<ol>
+<li>
+<p>If using the token then ask them to go to <a href="https://codio.com/p/join-class">https://codio.com/p/join-class</a> or select the <strong>Join Course</strong> button on our main website. They should enter the token when requested and proceed to register for a Codio account.</p>
+</li>
+<li>
+<p>If using the URL, the students can just click that and proceed as above.</p>
+</li>
+<li>
+<p>To view the students in your course, select the course and the <strong>Students</strong> tab once again. You will see a list of students who have successfully completed the sign-up process.</p>
+</li>
+</ol>
+<p><strong>Please note:</strong> If your course is LTI enabled, students cannot be added this way to avoid them having duplicate accounts with different registered email addresses. They do so by logging into the LMS and when accessing an assignment an account will be created for them. See [Single sign-in and account creation]{/courses/lti1_0/#single-sign-in-and-account-creation).</p>
+<h2 id="change-student-passwords">Change student passwords<a class="headerlink" href="#change-student-passwords" title="Permanent link"></a></h2>
+<p>You can change a student's password in the following way:</p>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> area, click on your course to open it.</p>
+</li>
+<li>
+<p>Click on the <strong>Students</strong> tab, top centre of your screen.</p>
+</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/students_tab.png" /></p>
+<ol>
+<li>You will see all students in your course displayed on this screen. Find the student whose password needs to be changed and click on the blue triple dot icon to the right of their name. Choose <strong>Change student's password</strong> and follow the steps to reset.</li>
+</ol>
+<h2 id="remove-a-student-from-a-course">Remove a student from a course<a class="headerlink" href="#remove-a-student-from-a-course" title="Permanent link"></a></h2>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> area, click on your course to open it.</p>
+</li>
+<li>
+<p>Click on the <strong>Students</strong> tab, top centre of your screen.</p>
+</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/students_tab.png" /></p>
+<ol>
+<li>You will see all students in your course displayed on this screen. Find the student that you want to remove from the course and click on the blue triple dot icon to the right of their name. Choose <strong>Remove student</strong> to take them out of the course. (Note: this does not remove your student entirely from your organization - if you wish to do this, see <a href="/dashboard/organisations/#remove-members">Remove Members</a>)</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/remove_student.png" /></p>
+<h2 id="deleting-a-course">Deleting a course<a class="headerlink" href="#deleting-a-course" title="Permanent link"></a></h2>
+<p>A course can be deleted by course teachers and organization owners. All the course data can also be exported. See <a href="/courses/classes/#exporting-course-data">Export course data</a> for more information</p>
+<ul>
+<li>Select the course, go to the <strong>Admin</strong> area and then press the <strong>Delete Course</strong> button.</li>
+</ul>
+<p><img alt="Course delete" src="/img/class_delete.png" /></p>
+<ul>
+<li>You can delete just the course or you can also delete the course AND remove the students from your organization as well. If you select the option to <strong>Delete the Course and Students</strong> and any of the students in this course are also members in other courses, they will not show in the list of students. They will not be removed from the organization or from other courses they are also members of. The option <strong>Delete Course Only</strong> will just delete the course but not remove any students.</li>
+</ul>
+<p><img alt="Delete course confirmation" src="/img/deleteclass.png" /></p>
+<ul>
+<li><a href="/dashboard/organisations/#administrator-role">Organization owners</a> are able to view a list of any members that are no longer members of any courses and remove any users from the organization. See <a href="/dashboard/organisations/#view-organization-members">View organization members</a> for more information.</li>
+</ul>
+<h2 id="exporting-course-data">Exporting course data<a class="headerlink" href="#exporting-course-data" title="Permanent link"></a></h2>
+<h3 id="course-data">Course Data<a class="headerlink" href="#course-data" title="Permanent link"></a></h3>
+<p>Course data (including students workspaces) can be exported. We would recommend the data is exported before you <a href="/courses/classes/#deleting-a-course">Delete a Course</a></p>
+<ul>
+<li>Select the course, go to the <strong>Admin</strong> area and then press the <strong>Course Data</strong> button.</li>
+</ul>
+<p><img alt="Course Export" src="/img/class_export.png" /></p>
+<ul>
+<li>
+<p>All the data from the course will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download.</p>
+</li>
+<li>
+<p>The link will be active for 7 days and after this time the zip file will be removed</p>
+</li>
+<li>
+<p>You can also access any active files to download (and generate a new export if required) by clicking on the <strong>Course Data</strong> button</p>
+</li>
+</ul>
+<p><img alt="Course Export Links" src="/img/class_exportlinks.png" /></p>
+<p>Individual assignments data can also be exported separately if required. See <a href="/courses/classes/#managing-assignments">managing assignments</a> for more details</p>
+<p>If your course is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See <a href="/courses/lti1_0/#exporting-lti-settings">Exporting LTI settings</a> for more information.</p>
+<h3 id="user-access-data">User Access Data<a class="headerlink" href="#user-access-data" title="Permanent link"></a></h3>
+<p>Use this to download a CSV of user access to assignments in the course. Details include</p>
+<ul>
+<li>Username</li>
+<li>Users registered email address</li>
+<li>First name</li>
+<li>Last name</li>
+<li>Date/time when user logged in</li>
+<li>Access type (Log In, Log Out, Project Open, Project Close)</li>
+<li>Assignment name (n.b Book based assignments will report the name of the book)</li>
+<li>Role in course (ie Teacher/Student)</li>
+<li>Project path</li>
+<li>
+<p>IP address (IP address associated with login session)</p>
+</li>
+<li>
+<p>Select the course, go to the <strong>Admin</strong> area and then press the <strong>Export User Access Data</strong> button.</p>
+</li>
+</ul>
+<p><img alt="course Export" src="/img/user_access_export.png" /></p>
+<p>Collection and storage of this data will be retained for maximum of 6 months.</p>
+<h3 id="pdf">PDF<a class="headerlink" href="#pdf" title="Permanent link"></a></h3>
+<p><img alt="PDF export" src="/img/pdf_export.png" /></p>
+<p>Use this to obtain PDF versions of the guides content in your assignments. When selected, a dialog shows allowing you to select the assignments to obtain the PDF version</p>
+<ul>
+<li>
+<p>You can select a single PDF where all selected assignments are compiled into one PDF file or to receive a PDF for each selected assignment</p>
+</li>
+<li>
+<p>The link will be active for 7 days and after this time the file will be removed.</p>
+</li>
+</ul>
+<h3 id="autograde-notification-failure">Autograde Notification Failure<a class="headerlink" href="#autograde-notification-failure" title="Permanent link"></a></h3>
+<p>Where autograde scripts are implemented, Codio can send email notifications of such failures to the teachers in the course.
+By default, all teachers in the course will receive them but you can change this to either:</p>
+<ul>
+<li><strong>Off</strong> - no notification emails will be sent</li>
+<li><strong>Teachers</strong> - all teachers in the course will receive the notification email (default)</li>
+<li><strong>Custom</strong> - where you can enter specific email addresses to receive the notifications (one entry per line)</li>
+</ul>
+<p><img alt="Autograde_Notification_Emails" src="/img/notificationemails.png" /></p>
+<h3 id="lti-settings">LTI Settings<a class="headerlink" href="#lti-settings" title="Permanent link"></a></h3>
+<p>For more information see <a href="/courses/lti1_0/#exporting-lti-settings">Exporting LTI settings</a></p>
+<h3 id="working-with-student-workspaces">Working with student workspaces<a class="headerlink" href="#working-with-student-workspaces" title="Permanent link"></a></h3>
+<p>If in the future you have need to review any students workspace, these can be imported back into your Codio account.
+Simply 'zip' up the folder and you can then import the project into your account. See <a href="/project/projects/#creating-and-importing-a-project">creating and importing a project</a> for more information.</p>
+<p>Please note, the stack used in the original workspace is not included in the exported workspace so if you need to 'run' the project you should select the appropriate stack when importing the project or by switching the stack, either from the gear icon in the main projects listing or by going to <strong>Project-&gt;Stack-&gt;Settings</strong> in the project</p>
+<h2 id="course-contact-url">Course contact url<a class="headerlink" href="#course-contact-url" title="Permanent link"></a></h2>
+<p>Contact URL's can be set at the course level so if you have specific areas/forums for your courses for students to raise questions, you can set the contact URL's there and it will override the <a href="/dashboard/organisations/#organization-contact-url">organisation contact url</a> if set. You can set as many options as you require and also define the default option that will be checked automatically for the students.</p>
+<p>Students will then be shown all the options in addition to contact Codio directly if they have a problem accessing the Codio platform, or loading a assignment.</p>
+<p><img alt="Student options" src="/img/manage_organization/studentoptions.png" /></p>
+<ul>
+<li>Select the course, go to the <strong>Admin</strong> area and <strong>Edit Details</strong> where you can then enter the text and URL's to direct students to when they use any of the Contact us options.</li>
+</ul>
+<p><img alt="Course contact url" src="/img/classcontacturl.png" /></p>
+<p><strong>N.B. "Teacher" accounts will not be effected by this setting and they will still be able to contact Codio in the usual manner. See <a href="/dashboard/account/#contact-us">Support</a> for more on this</strong></p>
+<h2 id="lms-shared-feedback">LMS shared feedback<a class="headerlink" href="#lms-shared-feedback" title="Permanent link"></a></h2>
+<p>If your organisation uses an LMS, when grades are released a URL is passed to the LMS grading area where students/teachers can access the grading information for the assignment.</p>
+<p>By default, only the course teachers and the individual student can access the grading preview but by enabling the LMS shared feedback option,</p>
+<p><img alt="LMS shared feedback" src="/img/lmssharedfeedback.png" /></p>
+<p>this will pass a different URL back to your LMS system where anyone who knows the URL can access the students grading information</p>
+<h2 id="grading-rubric-templates">Grading rubric templates<a class="headerlink" href="#grading-rubric-templates" title="Permanent link"></a></h2>
+<p>The Grading Rubric feature provides a two dimensional grid that provides grading guidance for manually assessing a coding project.</p>
+<p><img alt="rubric example" src="/img/class_administration/grading/template-example.png" /></p>
+<h3 id="grading-rubric-templates_1">Grading Rubric templates<a class="headerlink" href="#grading-rubric-templates_1" title="Permanent link"></a></h3>
+<p>You will only have access to this feature if you are a member of the <a href="/dashboard/organisations/#administrator-role">owners group</a> or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name.</p>
+<p>You should see a <strong>Grading Templates</strong> tab item. There will be fewer tabs visible if you are not an organization owner.</p>
+<p><img alt="rubric setup" src="/img/class_administration/grading/templates.png" /></p>
+<p>Click the <strong>New</strong> button in the to right to create a new template. You should then add rows and columns.</p>
+<ul>
+<li>
+<p><strong>Rows</strong> : a row addresses a single assessment criterion. Each row has a weighting % value that you should supply. All rows must add up to 100%.</p>
+</li>
+<li>
+<p><strong>Columns</strong> : each column contains a score that you can freely assign. Typically, you would have a 0 value in the first column that corresponds to a complete failure to address the criterion. The remaining columns contain a range of values that you choose with the right most column being the score for fully meeting the assessment criterion. Please read the following paragraph before choosing column values.</p>
+</li>
+</ul>
+<h3 id="calculation-of-scores">Calculation of scores<a class="headerlink" href="#calculation-of-scores" title="Permanent link"></a></h3>
+<p>When you are grading student code, the grading rubric will appear and is clickable. Points are awarded according to where you click. Codio will then weight the scores according to the weightings that were provided for each row.</p>
+<p>A final score is calculated based on your selections and is re-based to the maximum column value. You should be aware of this when choosing your column values. If you wanted your scores to calculate directly to percentages then you should choose a maximum value of 100 with other column values distributed between 0 and 100.</p>
+<h3 id="applying-a-grading-template-to-an-assignment">Applying a grading template to an assignment<a class="headerlink" href="#applying-a-grading-template-to-an-assignment" title="Permanent link"></a></h3>
+<p>To use a grading template you should select the course so you see the full assignment listing. Go to the <strong>Edit</strong> tab, select <strong>Settings</strong> </p>
+<p><img alt="asignmentsettings" src="/img/class_administration/asignmentsettings.png" /></p>
+<p>and scroll down to the <strong>Grading Weights</strong> from the list, select <a href="/courses/classes/#teachers-grading">Teachers Grading</a>, enable <strong>Rubrics</strong> and choose the grading template from the list. If there are no templates set up, follow the link to the organisation area to create a new template.</p>
+<p><img alt="Grading Weights" src="/img/gradingweights.png" /></p>
+<p>See <a href="/courses/classes/#grade-weights">Grade weights</a> for more information on grading weights</p>
+<h3 id="grading-student-work">Grading student work<a class="headerlink" href="#grading-student-work" title="Permanent link"></a></h3>
+<p>You perform the actual grading from the course. <a href="/courses/classes/#teachers-grading">Teachers Grading</a> needs to be enabled before teachers can grade. See <a href="/courses/grading/#the-grading-process">the grading process</a> for more information.</p>
+<p>Select an assignment to grade so you see the students listed.</p>
+<p><img alt="grading with rubric" src="/img/class_administration/grading/classroom.png" /></p>
+<p>You can then grade in the usual two ways.</p>
+<ul>
+<li>either from the student course. With an assignment selected from the course, you click the grading box for the student and then the grading dialog appears. Press edit and click within the grading field and the template appears.</li>
+<li>or from with a student's code, select the <strong>Education-&gt;Grading</strong> menu item to bring up the same grading dialog.</li>
+</ul>
+<p>You can then click within the template to assign a score for each criterion. Large cells are partially collapsed but will maximize when you click within the row. The score is calculated as you click.</p>
+<p>If you have enabled a <a href="/courses/classes/#grading-rubric-templates">grading rubric template</a>, clicking in the 'grade' field will pop up the rubric</p>
+<p>It is important that you click the Apply button to save the score correctly.</p>
+<h4 id="anonymous-grading">Anonymous Grading<a class="headerlink" href="#anonymous-grading" title="Permanent link"></a></h4>
+<p>Anonymous grading can be set for the course so that students will not see the names of the teachers who graded their work.</p>
+<p>The teacher names are not shown for the grades and code comments with the setting:</p>
+<ul>
+<li>in the shared feedback,</li>
+<li>in the project and dashboard for the user who started the graded assignment, regardless of their role. </li>
+</ul>
+<p>These users see their own names for their comments.</p>
+<p>To enable this go to the <strong>Admin</strong> tab for the course, <strong>Edit Details</strong>, enable <strong>Anonymous Grading</strong> and <strong>Save</strong> for the changes to be applied</p>
+<p><img alt="Anonymous Grading" src="/img/class_administration/grading/anongrading.png" /></p>
+<h2 id="gigaboxes">Gigaboxes<a class="headerlink" href="#gigaboxes" title="Permanent link"></a></h2>
+<p>A Gigabox is a box that has a higher memory allocation than the standard Codio boxes. The default memory allocation is 512MB, which is fine for most applications.</p>
+<p>If you need your students to have more memory then we offer 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes. These need to be purchased separately and you can add any number of either box size to your organization. You will need to specify the Gigabox size and then each student accessing the assignment will have a Gigabox for that assignment. </p>
+<p>You can set the required Gigabox in your project or assignment in the course module and this setting will be automatically applied to the assignments as you add the module into a course. If students have already started the assignment, the gigabox settings will be applied to their assignment when they next run the assignment.</p>
+<p>You should be aware that if you do not have enough Gigaboxes in your organization then they will be allocated on a first come, first served basis. Students who access the assignment after your Gigabox limit has been reached will see a warning.</p>
+<p>An organization owner can see the status of the Gigabox count in the organization settings screen.</p>
+<h2 id="assign-a-project-to-the-course">Assign a project to the course<a class="headerlink" href="#assign-a-project-to-the-course" title="Permanent link"></a></h2>
+<p>In Codio, a teaching assignment is a project that has been assigned to a course. The scope of an assignment is entirely up to you but it could be a project assignment that a course works on. It could also be some tutorial content built using Guides. We generally recommend that it relates reasonably closely to a lesson or two. But if you prefer and it suits your structure better then you can assign as much or as little content to a Unit as you like.</p>
+<p>There are two ways you can assign an assessment to a course.</p>
+<h3 id="assign-a-project">Assign a project<a class="headerlink" href="#assign-a-project" title="Permanent link"></a></h3>
+<p>The simplest and quickest thing you can do is to assign one of your projects to a course. Once assigned, we refer to it as an assessment but the assessment's source is simply a project.</p>
+<ul>
+<li>With the course selected, click on the Assessment tab at the top of the page. The list will be empty at this point.</li>
+<li>Now click the <strong>+</strong> button in the top left.</li>
+<li>Select <strong>Empty Module</strong> and create a new module.</li>
+<li>When created click <strong>Add Assignment</strong> and then select <strong>Project Based</strong></li>
+<li>From here you can either start creating a new project or import projects in.</li>
+<li>To import an existing project see: </li>
+</ul>
+<p><img alt="" src="/img/import.png" /></p>
+<ul>
+<li>Then select <strong>Copy Project</strong> and your project will show. If you have other projects in your <strong>My Projects</strong> area you can browse to select one of them.</li>
+<li>At this point you can set the name of the assignment (by default it will be the name of your project with 'copy' appended) and add a description if you wish.</li>
+<li>When ready, click the <strong>Create</strong> button and the assignment will be added to the course module.</li>
+<li>To create a new assignment, select your starting point (the stack you wish to start from) and you can create your assignment. For more information on authoring your content, strategies etc, see <a href="/courses/coursemanagement">creating course content</a></li>
+<li>For the assignments to be visible to your students, you need to <strong>Publish</strong> the assignment. </li>
+<li>To publish your assignment, either press the <strong>Publish</strong> button visible in the assignment or go to <strong>Education-&gt;Publish Assignment</strong></li>
+</ul>
+<p><img alt="" src="/img/publish.png" /></p>
+<ul>
+<li>Any changes you make in future to assignments will not be visible to students until you publish again. Details of previously published versions is available in the log area.</li>
+</ul>
+<p>At this point, we take a snapshot of your source project, ready for the students to clone when they start the assignment. Any changes you make to the source project will not be reflected automatically in the student assignment.</p>
+<p>Once assigned to the course, each student will be able to access the assignment from their dashboard. Go to the <strong>Students</strong> tab and login as one of the test students. Make sure you have the correct course and module selected form the dropdowns. You will now see the assignment in the list. If you don't, make sure the module dropdown has the correct module name selected.  You can then switch back to your teacher account.</p>
+<h3 id="assign-existing-modules-to-the-course">Assign existing modules to the course<a class="headerlink" href="#assign-existing-modules-to-the-course" title="Permanent link"></a></h3>
+<p>You can assign existing course modules and all of its assignments to your course with a single action.</p>
+<p>To assign an existing course module, follow the steps below:</p>
+<ol>
+<li>
+<p>From the <strong>Courses</strong> screen, click on your course to open it.</p>
+</li>
+<li>
+<p>Click on the <strong>New Module</strong> button, and choose <strong>Add Copy from Existing</strong>.</p>
+</li>
+</ol>
+<p><img alt="Add Copy" src="/img/manage_classes/addcopy.png" /></p>
+<ol>
+<li>
+<p>Choose the course you want to copy the content from and select the modules you wish and click <strong>Select</strong></p>
+</li>
+<li>
+<p>The module will appear in your course.</p>
+</li>
+</ol>
+<p>To add Codio resources to your courses see <a href="/resources/Codio-Resources">Creating from Resources</a></p>
+<h2 id="removing-course-module-from-a-course">Removing course module from a course<a class="headerlink" href="#removing-course-module-from-a-course" title="Permanent link"></a></h2>
+<p>You can remove course modules from a course selecting the <strong>Delete</strong> button</p>
+<p><img alt="delete module" src="/img/manage_classes/deletemodule.png" /></p>
+<p>You can also remove individual assignments from a module, clicking the <strong>Delete</strong> button for that assignment</p>
+<p><img alt="deleteassignment" src="/img/manage_classes/deleteassignment.png" /></p>
+<p><strong>Warning</strong>
+Deleting a module or assignment from your course also removes all student data for all the assignments in the module (including assessment data and results) and cannot be restored so you may wish to <a href="/courses/grading/#download-csv-summary">Download CSV</a> before removing the module or assignment.</p>
+<h2 id="updating-courses">Updating courses<a class="headerlink" href="#updating-courses" title="Permanent link"></a></h2>
+<h3 id="updating-assignment-content">Updating assignment content<a class="headerlink" href="#updating-assignment-content" title="Permanent link"></a></h3>
+<p>It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc) where you can push your work. As well as giving you full versioning control it also allows you to </p>
+<ul>
+<li>
+<p>easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish. Where you have courses that do not have a relationship (see <a href="/courses/classes/#working-with-masterchild-courses">Working with Master/Child courses</a>) this will allow you to easily update all courses where an assignment has been updated in one course.</p>
+</li>
+<li>
+<p>collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published</p>
+</li>
+</ul>
+<p><strong>Please note</strong> the code workspace can be updated with new files added but existing files will not be updated as this can invalidate work for students who have already started the assignment. Any students who haven't started the assignment will see the updated content but for those that have already started the assignment they will not. </p>
+<p>To enable students who have started the unit to see the new content, the assignment can be <strong>Reset</strong> (see <a href="/courses/classes/#actions-area-settings">Actions Area Settings</a> for more information) but be aware that any existing work they may have done will be lost.</p>
+<h3 id="updating-stack">Updating Stack<a class="headerlink" href="#updating-stack" title="Permanent link"></a></h3>
+<p>If changes to the stack used in the assignment are required, when completed (and tested) remember to update your stack before publishing. Either create a new version of the stack if you have permissions or create a new stack. See <a href="/project/stacks/#modifying-a-stack">Modifying a stack</a> for more information.</p>
+<p>Most assessment changes can be safely upgraded but if you have altered the structure of a question (for example multiple choice changed from single response to multiple response) then student response data can be invalidated.</p>
+<p>Any changes to guides content can be applied. You should be careful about making major structural changes as students who have already started the assignment could be confused. The code workspace folder will not be impacted, so any student work in this folder will not be impacted.</p>
+<h2 id="test-students">Test students<a class="headerlink" href="#test-students" title="Permanent link"></a></h2>
+<p>Codio automatically creates 3 test students for you. This allows instructors to view the student experience when assignments are assigned to courses even if your course is integrated with an LMS</p>
+<ol>
+<li>They can be seen in the members section. If there are not 3 student listed then you can regenerate them from this screen.</li>
+</ol>
+<p><img alt="Create Organization" src="/img/class_administration/createanorganization/org_teams.png" /></p>
+<ol>
+<li>You can log in as the student here by clicking the <strong>Login as</strong> button:</li>
+</ol>
+<p><img alt="Student login" src="/img/class_administration/createanorganization/studentlogin.png" /></p>
+<ol>
+<li>Or you can also log in as the student within a course as well:</li>
+</ol>
+<p><img alt="Student course login" src="/img/class_administration/createanorganization/classteststudents.png" /></p>
+<ol>
+<li>You can switch back to teacher mode by clicking <strong>Switch back to teacher account</strong>.</li>
+</ol>
+<p><img alt="Swtich Teacher" src="/img/class_administration/createanorganization/test-student-view.png" /></p>
+<h2 id="excluding-files">Excluding Files<a class="headerlink" href="#excluding-files" title="Permanent link"></a></h2>
+<p>Files/folders may need to be excluded from students assignments. Such files may be
+unused resources/logs and other files used when testing the assignment prior to publishing.</p>
+<p>This can be handled by using <code>.unitignore</code> file in the source project and when published to a course, these files/folders will not be available to the students.</p>
+<p>Enter on a new line the file/folders to be excluded defining them relative to the location of the <code>.unitignore</code> file and defining folders with <code>/</code></p>
+<p>For example if the <code>.unitignore</code> file is located in the project workspace and you wish to exclude</p>
+<ul>
+<li><code>testing</code> &amp; <code>node_modules</code> folder</li>
+<li>the file <code>checkscore.js</code> in the <code>views</code> folder</li>
+<li>the files <code>app.js</code> and <code>README.md</code></li>
+</ul>
+<p>the <code>.codioignore</code> file will be</p>
+<pre><code>/testing
+/node_modules
+/views/checkscore.js
+app.js
+README.md
+</code></pre>
+
+<h2 id="managing-assignments">Managing Assignments<a class="headerlink" href="#managing-assignments" title="Permanent link"></a></h2>
+<p>On the module assignment screen you can manage the following settings</p>
+<p><img alt="assignmentscreen" src="/img/class_administration/modulesettings.png" /></p>
+<ol>
+<li>Change the name of the module</li>
+<li>Change the name of the assignment</li>
+<li>View the version history of the assignment publications, This allows you to view the version history. You can see<ul>
+<li>date/time when the assignment was published,</li>
+<li>name of the person who published the assignment,</li>
+<li>the name and version of the stack assigned to the assignment.
+<img alt="versions" src="/img/versiondetails.png" /></li>
+</ul>
+</li>
+<li>Delete the individual assignment from the module. You are required to enter a confirmation code to proceed and you can then do one of the following<ul>
+<li>Select <strong>Convert content to a project</strong> to delete the assignment and save the assignment contents to your projects list.</li>
+<li>Select <strong>Delete content</strong> to delete the assignment and its content entirely.</li>
+</ul>
+</li>
+<li>Delete the entire module. You are required to enter a confirmation code to proceed</li>
+<li>Reorder the modules in the course. </li>
+<li>Duplicate the assignment </li>
+</ol>
+<p>You can also change the order of the assignments within a module by dragging an assignment into its desired position in the list.</p>
+<p><strong>Video: Rearranging and Deleting Assignments</strong></p>
+<p><a href="https://codio.wistia.com/medias/xmubhjvxdd?wvideo=xmubhjvxdd"><img src="https://embedwistia-a.akamaihd.net/deliveries/3058be9b2705dc8a7fc41d7939157010.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<p>When on the <strong>Edit</strong> tab</p>
+<p><img alt="asignmentedit" src="/img/class_administration/editassignment.png" /></p>
+<p>you can:</p>
+<ul>
+<li><a href="/courses/classes/#pinunpin-units">Pin</a> the assignment</li>
+<li>Amend the <a href="/courses/classes/#unit-duration">Unit Duration</a> of the assignment</li>
+<li>See at a glance how many students have started and completed the assignment</li>
+<li><a href="/courses/grading/#releasing-grades">Release the grades</a></li>
+<li>View Insights for the assignment</li>
+<li>Access the <a href="/courses/classes/#assignment-settings">assignment settings</a></li>
+</ul>
+<p>From the 3 blue dot menu area you can:</p>
+<ul>
+<li>Run the <a href="/courses/plagiarism/">Plagiarism Checker</a></li>
+<li>Download CSV with student grade data for the assignment</li>
+<li>Export assignment data. This allows you to export all the data for the assignment, including the students workspaces. All the data from the course will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. The link will be active for 7 days and after this time the zip file will be removed. All the data from all the courses/modules/assignments in the course can also be exported. </li>
+</ul>
+<h3 id="assignment-settings">Assignment Settings<a class="headerlink" href="#assignment-settings" title="Permanent link"></a></h3>
+<p>Click on the settings icon to view the assignment settings
+<img alt="asignmentsettings" src="/img/class_administration/asignmentsettings.png" /></p>
+<h4 id="assignment-settings_1">Assignment Settings<a class="headerlink" href="#assignment-settings_1" title="Permanent link"></a></h4>
+<p>Available from the <strong>Settings</strong> area.</p>
+<p><img alt="Unit actions" src="/img/unitactions.png" /></p>
+<h4 id="pinunpin-units">Pin/unpin units<a class="headerlink" href="#pinunpin-units" title="Permanent link"></a></h4>
+<p>This allows you to pin or unpin an assignment. Pinning an assignment ensures that the assignment is shown in a large box at the top of the student dashboard. You would typically pin an assignment if this is the assignment you are currently teaching. When you have finished teaching it, you would unpin it. You should not have more than four assignments pinned.</p>
+<p><img alt="Pinned" src="/img/pinned.png" /></p>
+<h4 id="disableenable-assignment">Disable/enable assignment<a class="headerlink" href="#disableenable-assignment" title="Permanent link"></a></h4>
+<p>You can enable or disable assignments that have been assigned to a course. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
+For book based assignments, you should be aware that if another assignment gives access to the book then students can access the book. and if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project assignments and normal projects, preventing access can be guaranteed.</p>
+<h4 id="visibility-on-completed">Visibility on completed<a class="headerlink" href="#visibility-on-completed" title="Permanent link"></a></h4>
+<p>You can specify the students ability to access the assignment when completed. <strong>Not available for book based assignments</strong></p>
+<ul>
+<li>'Read Only with Resubmit' will allow students access the assignment in read only mode, but also to change the status of their assignment from completed to not completed regain full access and re-submit their work again. Any assessments that are not limited to 'one attempt only' can also be submitted again.</li>
+<li>'Read-Only' will allow students to access their assignment but not make any changes.</li>
+<li>'No Access' will not allow the students to access their assignment.</li>
+</ul>
+<h4 id="visibility-on-disabled">Visibility on disabled<a class="headerlink" href="#visibility-on-disabled" title="Permanent link"></a></h4>
+<p>You can specify the students ability to access the assignment when disabled.  <strong>Not available for book based assignments</strong></p>
+<ul>
+<li>'Read-Only' will allow students to access their assignment but not make any changes.</li>
+<li>'No Access' will not allow the students to access their assignment.</li>
+</ul>
+<h4 id="disable-mark-as-completed">Disable Mark as Completed<a class="headerlink" href="#disable-mark-as-completed" title="Permanent link"></a></h4>
+<p>Disabling will not allow students to mark the assignment as completed. If assignments in your course are of a ‘playground’ type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the assignment in error and then having to ask the teacher/instructor to change the status back so they can continue working.
+If your assignment contains guides content, you should also disable the option to show Mark as Completed button in guides</p>
+<h4 id="reset-assignment-by-student">Reset Assignment by Student<a class="headerlink" href="#reset-assignment-by-student" title="Permanent link"></a></h4>
+<p>You can allow students to be able to reset their assignments in the course to start again. All work they may have done will be lost.</p>
+<p>When enabled, students can reset their completed assignments either from the <strong>Education -&gt; Reset Assignment</strong> menu option or selecting the <strong>Reset Assignment</strong> button offered to them in the pop up message</p>
+<h4 id="unit-duration">Unit duration<a class="headerlink" href="#unit-duration" title="Permanent link"></a></h4>
+<p>You can specify a start and a stop date and time for an assignment. The assignment will be disabled prior to the start date at which point it becomes available to students in their dashboard.</p>
+<p><strong>Video: Setting Due Dates and Late Work Penalties</strong> </p>
+<p><a href="https://codio.wistia.com/medias/vm8r1lte74?wvideo=vm8r1lte74"><img src="https://embed-fastly.wistia.com/deliveries/25c4df6b8be34c465c9f796f54d601ca78e49fed.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<p>Once the stop date and time is reached you can set the assignment to be marked as complete and/or disabled. If you elect to disable access, then depending on your <a href="/courses/classes/#disableenable-assignment">disabled assignment settings</a> students will either be refused all access or can have read-only access to the assignment.</p>
+<p>Please note, that selecting mark as complete will not stop students who have not started the assignment from being able to access the assignment after the stop date/time has been reached. If you wish to manage this, look at using the disable assignment and mark as complete option.</p>
+<p>For book based assignments, you should read the caveats mentioned in the <strong>Disable/enable assignment</strong> section above.</p>
+<p><img alt="unit duration" src="/img/manage_classes/unitduration.png" /></p>
+<p>For more information on using <strong>Mark as complete</strong> please <a href="/courses/assessments/#mark-as-complete">click here</a>.</p>
+<p>You can also set up <a href="/courses/classes/#notification-emails">Notification</a> emails to be sent to the students where they have either not started or completed an assignment before the end time and if penalties applied (see below) email notifications can be sent before penalties apply</p>
+<h4 id="penalties">Penalties<a class="headerlink" href="#penalties" title="Permanent link"></a></h4>
+<p>If applying penalties for late submission it is recommended that you set the end date/time for the assignment to the last date/time of your penalties.
+You can set the penalty date/time after the assignment end date/time but for students to then be able to work you will need to change the individual students assignment status from <a href="/courses/classes/#actions-area-settings">Completed</a> and also adjust the <a href="/courses/classes/#adjustdeadline">deadline</a> for each of them.</p>
+<p><strong>Time Zones</strong>
+The time zone is taken automatically from your browser, so please check your time settings are correct.</p>
+<h5 id="set-assignment-penalties"><strong>Set assignment penalties</strong><a class="headerlink" href="#set-assignment-penalties" title="Permanent link"></a></h5>
+<p>You can specify penalties in the event that students do not complete the assignment within agreed timescales. Incremental penalties can be applied if required.</p>
+<p><img alt="penalties" src="/img/penalties.png" /></p>
+<p>Each row in the table will contain the following fields :</p>
+<ul>
+<li>Number (auto-incremental)</li>
+<li>Date</li>
+<li>Time</li>
+<li>Penalty % (The % of the total score for the assignment to be deducted as a penalty)</li>
+<li>Message (If the message field is not specified, then a default message will be generated - see below)</li>
+</ul>
+<h5 id="default-messages"><strong>Default Messages:</strong><a class="headerlink" href="#default-messages" title="Permanent link"></a></h5>
+<p>1: If a student opens a project after deadline or the student is working in the assignment when deadline is reached</p>
+<p><code>Deadline X (the table row number) has been reached. This deadline carries a penalty of Y%. You can review your answers with no penalty. However, if you decide to change any answers by pressing the Modify button beneath a question, a Y% penalty deduction will be applied to your overall results. Once a modify button has been pressed once, the penalty deduction will be applied and you will be free to modify as many questions as you like with no additional penalty</code></p>
+<p>2: If a student presses a Modify button past a deadline</p>
+<p><code>Deadline X (the table row number) has been reached. This deadline carries a penalty of Y%. If you proceed, a Y% penalty deduction will be applied to your overall results. You will then be able to modify as many questions as you like with no additional penalty</code></p>
+<p>3: Final deadline (assignment end date)</p>
+<p>Once the final deadline hits (if one is set), the assignment will be forced to read-only and then following message will be displayed to the student :</p>
+<p><code>You have exceeded the final deadline. You are no longer able to make changes to your answers. You are free to review your answers.</code></p>
+<h5 id="teacherinstructors-dashboard"><strong>Teacher/Instructors Dashboard:</strong><a class="headerlink" href="#teacherinstructors-dashboard" title="Permanent link"></a></h5>
+<p><strong>Penalty indicator:</strong> If a penalty was applied then the grade field will have a light red background. This should be the case even if no grade has been calculated yet. Hover above the field to see the penalty details (#, date/time, penalty %).
+<img alt="dashboard penalty" src="/img/penaltydashboard.png" />
+<strong>Final grade field:</strong> this field will show the final graded score less any penalty deduction. If the field is overwritten by the teacher/instructor, then the penalty deduction will not be applied.</p>
+<p><a name="adjustdeadline"></a></p>
+<h5 id="adjusting-deadline-for-individual-students"><strong>Adjusting deadline for individual students</strong><a class="headerlink" href="#adjusting-deadline-for-individual-students" title="Permanent link"></a></h5>
+<p>The set deadline(s) can be adjusted forward by a number of days if required for individual students.</p>
+<p>Select the assignment from the course assignments list and click on the 3 blue vertical dots and select 'Adjust deadline'</p>
+<p><img alt="penalties" src="/img/penaltydeadline.png" /></p>
+<p>You can then adjust the deadline forward by as many days/hours/minutes as you require.
+If a deadline is already set, you can remove it</p>
+<p><img alt="penalties" src="/img/deadlineadjust.png" /></p>
+<p>When applied, the adjustment will then show next to the grade field in the teacher/instructors dashboard. The deadline in the image below was adjusted by 4 days</p>
+<p><img alt="penalties" src="/img/adjusted.png" /></p>
+<h3 id="exam-proctoring">Exam Proctoring<a class="headerlink" href="#exam-proctoring" title="Permanent link"></a></h3>
+<p>Where you can enable various options to help support running an assignment in exam conditions</p>
+<p><img alt="examproctoring" src="/img/examproctoring.png" /></p>
+<ul>
+<li>
+<p><strong>Time Limit</strong> - when enabled assignments will be marked as complete after the indicated amount of time has passed since the student started the assignment or the End Time of the assignment is reached, whichever is first.</p>
+<p>Students can be granted additional time if required. Select the 3 blue dot menu for the students assignment and <strong>Extend Time</strong></p>
+</li>
+</ul>
+<p><img alt="Extend Time" src="/img/extendtime.png" /></p>
+<ul>
+<li>
+<p><strong>Shuffle Question Order</strong> - when enabled, each student will receive the pages of the assignment in a random order</p>
+</li>
+<li>
+<p><strong>Forward Only Navigation</strong> - When enabled, navigation buttons and menus that allow students to re-visit questions will be hidden so students can only go forward through the pages. If any assessments on a page are unanswered, a pop-up dialogue will encourage students to review the assessment on the current page before proceeding to the next page.</p>
+</li>
+</ul>
+<p><img alt="Forward Only" src="/img/forwardonly.png" /></p>
+<ul>
+<li>
+<p><strong>Single Login</strong> - Once a student has started this assignment, until they mark it as complete, all other account login attempts will be blocked. </p>
+<p>As students start the assignment, they will be advised that it is restricted to single login and to ensure</p>
+<ol>
+<li>They have closed other tabs or browsers with Codio open</li>
+<li>They have a stable internet connection</li>
+<li>They have enough power in their device</li>
+<li>They have plenty of time to complete the assignment</li>
+</ol>
+<p>If students attempt to access the assignment from a different IP address or browser, they will be restricted and advised to contact their course instructor/professor for assistance. </p>
+<p>If students try to logout of Codio before the assessment is fully completed, they will be advised if they continue they will not be able to access it again. </p>
+<p>Instructor/Professors will be able to release the lock for the individual students if they feel it is appropriate. Either go to the students tab in the course, find the student and go to the 3 blue dot menu where you will see the option to release the lock or when in the assignment, on the student tab there, also on the 3 dot blue menu</p>
+</li>
+</ul>
+<h3 id="grade-weights">Grade Weights<a class="headerlink" href="#grade-weights" title="Permanent link"></a></h3>
+<p>Where you can enable/disable Teachers Grading, Assessments Grading, Script Grading, set the grading rubric to use for the assignment and manage the weighting for all/any grade options you have enabled.</p>
+<p><img alt="Grading Weights" src="/img/gradingweights.png" /></p>
+<p><strong>Video: Combining Grading Sources</strong></p>
+<p><a href="https://codio.wistia.com/medias/5xp528jt6x?wvideo=5xp528jt6x"><img src="https://embed-fastly.wistia.com/deliveries/87b426566dfe4e3013c49403a2f5a686.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<p>These are relative weightings against all 3 grade options. </p>
+<p>You can set any number for these. For example, if
+the teachers grading has weight 2 and assessments grading has 1, that means the final grade will be calculated like <code>(teachersgrading_points * 2 + assessmentgrading_points * 1) /3</code>. </p>
+<p>If you have only one option enabled 100% of the points of the enabled grading will go to the final grade.</p>
+<h4 id="teachers-grading">Teachers Grading<a class="headerlink" href="#teachers-grading" title="Permanent link"></a></h4>
+<p>Where you can set a <a href="/courses/classes/#grading-rubric-templates">Grading Rubric Template</a> to use with an assignment and set the weighting for this.</p>
+<h4 id="assessments-grading">Assessments Grading<a class="headerlink" href="#assessments-grading" title="Permanent link"></a></h4>
+<p>If your assignment includes <a href="/courses/assessments/">assessments</a> this will be enabled by default. If you do not wish the results of the assessments to be included in the grading you can disable this.</p>
+<p>You can also set the weighting for this. </p>
+<h4 id="script-grading">Script Grading<a class="headerlink" href="#script-grading" title="Permanent link"></a></h4>
+<p>This allows you to specify an auto-grade script that should run when the assignment is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.</p>
+<p>You can also set the weighting for this.</p>
+<p>An assignment is marked as complete in any of the following ways</p>
+<ol>
+<li>Students mark the assignment as complete from their dashboard.</li>
+<li>The teacher can also mark the assignment as complete for a student from the Course dashboard with the assignment selected.</li>
+<li>The teacher can mark all assignments as complete for all students by pressing the <strong>Actions</strong> button. This button appears on the assignment screen.</li>
+<li>If you are using the <strong>Assignment Duration</strong> feature, all student assignments are marked as complete as soon as the assignment duration expiry date and time is reached.</li>
+</ol>
+<h4 id="running-an-auto-grade-script">Running an auto-grade script<a class="headerlink" href="#running-an-auto-grade-script" title="Permanent link"></a></h4>
+<p>To populate the grading field, you write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field.</p>
+<p>If you are using an LMS platform with Codio then be sure to write a percentage value into this field to maintain compatibility with LMS gradebooks. This grading field is then transferred into your LMS gradebook once you <a href="/courses/grading/#releasing-grades">release the grades</a>.</p>
+<p><a name="securescripts"></a></p>
+<h4 id="secure-scripts">Secure scripts<a class="headerlink" href="#secure-scripts" title="Permanent link"></a></h4>
+<p>If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the <code>.guides/secure</code> folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as an assignment, it is not accessible in any way and the script runs in an ephemeral container isolated from the students assignment.</p>
+<h4 id="timeout">Timeout<a class="headerlink" href="#timeout" title="Permanent link"></a></h4>
+<p>Your script must execute within 3 minutes or a timeout error will occur.</p>
+<h4 id="accessing-authored-content-assessment-results">Accessing authored content assessment results<a class="headerlink" href="#accessing-authored-content-assessment-results" title="Permanent link"></a></h4>
+<p>You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the <code>CODIO_AUTOGRADE_ENV</code> environment variable. Below is an example.</p>
+<pre><code>{
+  &quot;assessments&quot;: {
+    &quot;stats&quot;: {
+      &quot;total&quot;: 2,
+      &quot;answered&quot;: 2,
+      &quot;correct&quot;: 2,
+      &quot;totalPoints&quot;: 12,
+      &quot;points&quot;: 8
+    },
+    &quot;info&quot;: [{
+      &quot;name&quot;: &quot;Test 1&quot;,
+      &quot;points&quot;: 5,
+      &quot;answer&quot;: {
+        &quot;correct&quot;: true,
+        &quot;points&quot;: 5
+      }
+    }, {
+      &quot;name&quot;: &quot;Test 2&quot;,
+      &quot;points&quot;: 7,
+      &quot;answer&quot;: {
+        &quot;correct&quot;: true,
+        &quot;points&quot;: 3
+      }
+    }]
+  },
+  &quot;completedDate&quot;: &quot;2017-02-07T09:47:54.471Z&quot;
+}
+</code></pre>
+
+<p>You can get both summary data and data for each assessment individually.</p>
+<h4 id="participation-grading">Participation Grading<a class="headerlink" href="#participation-grading" title="Permanent link"></a></h4>
+<p>Participation grading can be enabled if required. </p>
+<p>To enable this:</p>
+<ul>
+<li>Add the script below as .py file to <code>.guides/secure</code> folder</li>
+</ul>
+<pre><code class="python">
+import os
+import json
+
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade
+
+env = os.environ.get('CODIO_AUTOGRADE_ENV')
+
+parsed = json.loads(env)
+
+answered = parsed['assessments']['stats']['submitted']
+
+total=parsed['assessments']['stats']['total']
+
+grade=answered*100/total
+res = send_grade(int(round(grade)))
+exit( 0 if res else 1)
+</code></pre>
+
+<ul>
+<li>Add the file to <strong>Education&gt; Test Autograde Script</strong> </li>
+<li>Go to the assignment settings, enable <strong>Script Grading</strong> set to that file and disable <strong>Assessments Grading</strong></li>
+</ul>
+<p><a name="regrading"></a></p>
+<h4 id="regrading-for-an-individual-student">Regrading for an individual student<a class="headerlink" href="#regrading-for-an-individual-student" title="Permanent link"></a></h4>
+<p>If students set their work to 'complete' such that the custom script step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the custom script.</p>
+<h4 id="regrading-all-students">Regrading all students<a class="headerlink" href="#regrading-all-students" title="Permanent link"></a></h4>
+<p>From the <strong>Actions</strong> area of the assignment, you can regrade all students that have already been auto-graded by pressing the <strong>Regrade All</strong> button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.</p>
+<h4 id="testing-and-debugging-your-grading-scripts">Testing and debugging your grading scripts<a class="headerlink" href="#testing-and-debugging-your-grading-scripts" title="Permanent link"></a></h4>
+<p><strong>IMPORTANT</strong>: please read this section carefully.</p>
+<p>We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a course.</p>
+<p>You should be aware that once the assignment has been published to the course, any changes made to the assignment's source project are not automatically reflected in the published assignment. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the assignment, fixing the bug and finally republishing the assignment. All student data will be lost as a result. However, if all your scripts are stored in <code>.guides/secure</code> folder, you can update and test them and you can then publish the new version.</p>
+<p>Another strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.</p>
+<p>The following example bash script shows a Python script that is located as a Gist on GitHub. This script might be called <code>.guides/secure/launcher.sh</code>.</p>
+<pre><code>#!/bin/bash
+URL=&quot;https://gist.githubusercontent.com/MaximKraev/11cd4e43b0c43f79d9478efbe21ba1b9/raw/validate.py&quot;
+curl -fsSL $URL | python - $@
+</code></pre>
+
+<p>It is important that it is located in the <code>.guides/secure</code> folder. You then specify the full filepath <code>.guides/secure/launcher.sh</code> in the <strong>Set custom script path</strong> field in the assignment settings.</p>
+<p>You are now free to debug the Python script and fix any bugs that you may have noticed once students have started work on the assignment.</p>
+<h4 id="testing-your-script-in-the-ide">Testing your script in the IDE<a class="headerlink" href="#testing-your-script-in-the-ide" title="Permanent link"></a></h4>
+<p>We provide the ability to test your autograding script from the <strong>Education -&gt; Test Autograde Script</strong> menu.</p>
+<p>This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide and select which autograded assessments to test.</p>
+<p><img alt="authtoken" src="/img/autograde-test.png" /></p>
+<p>You should be aware of the following points.</p>
+<ul>
+<li>When you press the <strong>Test Script</strong> button</li>
+<li>all output to <code>stdout</code> and <code>stderr</code> are displayed within the dialog</li>
+<li>the grade as returned by your test script is at the bottom of the output section</li>
+<li><code>stdout</code> and <code>stderr</code> output is not available when running for real (not in this test mode) as the autograding script runs invisibly when the assignment is marked as complete. As such, you should generate output for testing and debugging purposes only.</li>
+<li>If you want your script to provide any feedback to the student, then you should output it to a file that the student can access when opening the project at a later date. In this case you will need to allow read-only access to the project from the assignment settings after being marked as complete.</li>
+<li>Your script must execute within 3 minutes to avoid a timeout error.</li>
+</ul>
+<p>If the Guide has autograded assessments then the test takes its data from the fields shown in the dialog. All of your assessment settings are accessed as described above under <strong>Accessing Guide assessment results</strong>.</p>
+<h5 id="example-python-grading-script">Example Python grading script<a class="headerlink" href="#example-python-grading-script" title="Permanent link"></a></h5>
+<p>Below is an example Python file that might be loaded by the bootstrap script above.</p>
+<p>Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any assignment.</p>
+<pre><code class="python">import os
+import random
+import requests
+import json
+import datetime
+
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade
+
+##################
+# Helper functions #
+##################
+
+
+# Get the url to send the results to
+CODIO_AUTOGRADE_URL = os.environ[&quot;CODIO_AUTOGRADE_URL&quot;]
+CODIO_UNIT_DATA = os.environ[&quot;CODIO_AUTOGRADE_ENV&quot;]
+
+def main():
+  # Execute the test on the student's code
+  grade = validate_code()
+  # Send the grade back to Codio with the penatly factor applied
+  res = send_grade(int(round(grade)))
+  exit( 0 if res else 1)
+
+########################################
+# You only need to modify the code below #
+########################################
+
+# Your actual test logic
+# Our demo function is just generating some random score
+def validate_code():
+  return random.randint(10, 100)
+
+main()
+</code></pre>
+
+<p><a name="examplebashscript"></a></p>
+<h5 id="example-bash-grading-script">Example Bash grading script<a class="headerlink" href="#example-bash-grading-script" title="Permanent link"></a></h5>
+<p>Below is an example bash script file that would be stored  in .guides/secure folder</p>
+<pre><code>#!/bin/bash
+set -e
+# Your actual test logic
+# Our demo function is just generating some random score
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+# Show json based passed environment
+echo $CODIO_AUTOGRADE_ENV
+# Send the grade back to Codio
+curl --retry 3 -s &quot;$CODIO_AUTOGRADE_URL&amp;grade=$POINTS&quot;
+</code></pre>
+
+<h4 id="autograding-enhancements">Autograding enhancements<a class="headerlink" href="#autograding-enhancements" title="Permanent link"></a></h4>
+<p>To provide instructors with more robust auto-grade scripts, you can also now </p>
+<ul>
+<li>Send back feedback in different formats HTML/Markdown/plainText</li>
+<li>Allow separate debug logs</li>
+<li>Notify (instructors and students) and reopen assignments for a student on grade script failure.</li>
+</ul>
+<p>To support this additional feedback, this URL (passed as an environment variable) can be used:<code>CODIO_AUTOGRADE_V2_URL</code></p>
+<p>These variables allow POST and GET requests with the following parameters:</p>
+<ul>
+<li><strong>Grade</strong> (<code>CODIO_AUTOGRADE_V2_URL</code>): 0-100 grade result</li>
+<li><strong>Feedback</strong> - text</li>
+<li><strong>Format</strong> - html|md|txt - txt is default if used (optional)</li>
+<li><strong>Extra Credit</strong> - where extra credit points can be given to students (optional)</li>
+</ul>
+<p>If the grade is submitted to these urls script output is saved as debug log.
+If the script fails, the attempt is recorded, the assignment is not locked (if due date is not passed) and an email  notification with information about the problem is sent to the course instructor(s) containing the debug output from the script.</p>
+<h5 id="example-python-grading-script_1">Example Python grading script<a class="headerlink" href="#example-python-grading-script_1" title="Permanent link"></a></h5>
+<pre><code class="python">import os
+import random
+import requests
+import json
+# import grade submit function
+import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade_v2, FORMAT_V2_MD, FORMAT_V2_HTML, FORMAT_V2_TXT
+def main():
+  # Execute the test on the student's code
+  grade = random.randint(10, 100)
+  # Send the grade back to Codio with the penatly factor applied
+
+  res = send_grade_v2(int(round(grade)), feedback='Simple text here', format=FORMAT_V2_HTML, extra_credit=int(round(grade)))
+  exit( 0 if res else 1)
+
+main()
+</code></pre>
+
+<h5 id="example-bash-grading-script_1">Example Bash grading script<a class="headerlink" href="#example-bash-grading-script_1" title="Permanent link"></a></h5>
+<pre><code class="bash">#!/bin/bash
+set -e
+POINTS=$(( ( RANDOM % 100 )  + 1 ))
+curl --retry 3 -s &quot;$CODIO_AUTOGRADE_V2_URL&quot; -d grade=$POINTS -d format=txt -d feedback='Simple text here'  -d extra_credit=$POINTS
+</code></pre>
+
+<h3 id="actions-area-settings">Actions area settings<a class="headerlink" href="#actions-area-settings" title="Permanent link"></a></h3>
+<p>Additional options are also available if you select the <strong>Actions</strong> button.</p>
+<p><img alt="Action Area" src="/img/actionarea.png" /></p>
+<ul>
+<li><strong>Plagiarism checker</strong></li>
+</ul>
+<p>You can run <a href="/courses/plagiarism/">plagiarism detection</a> from the blue dots menu on the assignment or the <strong>Actions</strong> area.</p>
+<ul>
+<li><strong>Mark all as completed</strong></li>
+</ul>
+<p>Certain actions can be triggered when a student marks an assignment as complete: <a href="/courses/classes/#transferring-authored-content-assessment-total">Auto-graded assessment scores can be passed directly to the grade field</a> and/or <a href="/courses/classes/#running-a-custom-script">Scripts can be executed for assessing the student code and assigning the grade</a></p>
+<p>Students can mark the assignment as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students either by pressing the <strong>Marking All As Completed</strong> button to mark all student assignments as complete, hover over a student to see the switch appear to the left of the students name, which you can then activate or <a href="/courses/grading/#accessing-student-work">Accessing student work</a> and going to the <strong>Education-&gt;Mark as Completed</strong> menu item within the IDE.</p>
+<p>Teachers can also mark complete assignments as incomplete for all students in the course or for individual students selecting the switch or by accessing their assignment.</p>
+<p><img alt="assignment actions" src="/img/mark-complete.png" /></p>
+<ul>
+<li><strong>Unmark as complete</strong></li>
+</ul>
+<p>Where the assignment can be marked as not complete for all students</p>
+<ul>
+<li><strong>Download CSV</strong></li>
+</ul>
+<p>This allows you to download a CSV file with student grade data for the assignment.</p>
+<ul>
+<li><strong>Reset</strong> </li>
+</ul>
+<p><strong>This option will destroy all student work.</strong></p>
+<p>In the event that an assignment in your course is updated you can reset it so <strong>all</strong> students, including those who have already started the assignment, are updated with the new assignment.</p>
+<p>You can reset the assignment for all your students by selecting either</p>
+<ul>
+<li>the <strong>Actions</strong> button and then the <strong>Reset</strong> button</li>
+</ul>
+<p><img alt="resetunit" src="/img/resetunitall.png" /></p>
+<p>or</p>
+<ul>
+<li>you can reset the assignment for individual students from the 3 blue dot menu</li>
+</ul>
+<p><img alt="resetunit" src="/img/resetunitstudent.png" /></p>
+<ul>
+<li>
+<p>Regrade completed
+This option should be selected if you are running an auto-grade script when the assignment is marked as completed and you want the script to be re-run. </p>
+</li>
+<li>
+<p>Release Grades
+By default, grades are not shown to students or transferred to the LMS gradebook if you are using LMS integration for a course. When you are ready to do so, you can select the option from here.</p>
+</li>
+</ul>
+<h3 id="notification-emails">Notification Emails<a class="headerlink" href="#notification-emails" title="Permanent link"></a></h3>
+<p>Automatic email notifications can be set up in your courses to send emails to your students. Go to the <strong>Notifications</strong> tab in your course to create notifications. Not available for <a href="/courses/classes/#adding-teachers-to-a-course">Read only</a> teachers in the course.</p>
+<p><img alt="notifications" src="/img/notificationdetails.png" /></p>
+<h4 id="notification-details">Notification details<a class="headerlink" href="#notification-details" title="Permanent link"></a></h4>
+<ul>
+<li><strong>Not Started Assignment:</strong> you can schedule the notifications to be sent to all students in the course that have never opened the assignment that is due soon</li>
+<li><strong>Incomplete Assignment:</strong> you can schedule the notifications to be sent to all students who have started but not finished an assignment that is due soon. Students that have also not started will also be notified</li>
+<li><strong>New Feedback:</strong> the email notification will be sent when new feedback is available for the student</li>
+</ul>
+<h5 id="before"><strong>Before</strong><a class="headerlink" href="#before" title="Permanent link"></a></h5>
+<ul>
+<li><strong>Due Date (before late penalties)</strong> where <a href="/courses/classes/#set-assignment-penalties">penalties deadlines</a> are set and the <strong>End Time</strong> is set to the final date of completion, the <strong>Due Date</strong> is taken from the penalty deadline date</li>
+<li><strong>End Date</strong> is taken from the <strong>End Time</strong> set for the assignment duration</li>
+</ul>
+<p><strong>Reply to Email Address:</strong> enter an email address that students can then reply to if they have questions or require further assistance.</p>
+<h4 id="notification-template">Notification Template<a class="headerlink" href="#notification-template" title="Permanent link"></a></h4>
+<p>We prefill a default title name and the body text including links (in the <code>&lt;&lt;&lt;  &gt;&gt;&gt;</code> tags) that will assist the students.</p>
+<p>You may edit this as you wish.</p>
+<p><strong>Supported tags</strong></p>
+<ul>
+<li>Student name <code>&lt;&lt;&lt;student name&gt;&gt;&gt;</code> : Students name</li>
+<li>Assignment name <code>&lt;&lt;&lt;assignment name&gt;&gt;&gt;</code>: Assignment name</li>
+<li>Course name <code>&lt;&lt;&lt;course name&gt;&gt;&gt;</code>: Codio course name</li>
+<li>Course link <code>&lt;&lt;&lt;course link&gt;&gt;&gt;</code>: link to Codio course for non LTI and for LTI enabled courses the <a href="/courses/lti1_0/#course-lms-url"><code>COURSE LMS URL</code></a></li>
+<li>Assignment link <code>&lt;&lt;&lt;assignment link&gt;&gt;&gt;</code>: link to students project (if the project is not started then the course link as above used)</li>
+<li>Feedback link <code>&lt;&lt;&lt;feedback link&gt;&gt;&gt;</code>: Link to assignment feedback</li>
+<li>Due In <code>&lt;&lt;&lt;due in&gt;&gt;&gt;</code>: when the assignment is due for completion relative to current date/time</li>
+</ul>
+<p><strong>Please note:</strong> we have plans to develop this feature in the future but if you have ideas/suggestions please raise in our <a href="https://docs.codio.com/dashboard/support/#feedback">Feedback</a> area.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/projects/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Project Templates - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../packs/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../stacks/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#what-is-a-project" class="nav-link">What is a project?</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#strong-recommendations" class="nav-link">Strong recommendations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-and-importing-a-project" class="nav-link">Creating and importing a project</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#creating-an-empty-project" class="nav-link">Creating an empty project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#importing-code-into-a-project" class="nav-link">Importing code into a project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#selecting-a-stack" class="nav-link">Selecting a Stack</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#details" class="nav-link">Details</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#visibility" class="nav-link">Visibility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#accessing-your-projects" class="nav-link">Accessing your projects</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#opening-a-project" class="nav-link">Opening a Project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#sorting" class="nav-link">Sorting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#filtering" class="nav-link">Filtering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#project-settings" class="nav-link">Project Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#searching-projects" class="nav-link">Searching projects</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#normal-searching" class="nav-link">Normal Searching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#advanced-searching" class="nav-link">Advanced Searching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#tokens-with-parameters" class="nav-link">Tokens with parameters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#tokens-without-parameters" class="nav-link">Tokens without parameters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#examples" class="nav-link">Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#accessing-another-users-project" class="nav-link">Accessing another user's project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Codio works with a series of templates, or Codio stacks.</p>
+<p>You can use our pre-configured stacks or create your own. This template approach makes Codio easy to use, configure and adapt.</p>
+<p>Codio's templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration..</p>
+<p>You can use our pre-configured stacks or create your own.</p>
+<h2 id="what-is-a-project">What is a project?<a class="headerlink" href="#what-is-a-project" title="Permanent link"></a></h2>
+<p>Here are the key things you need to know about projects.</p>
+<ul>
+<li>A project is an Ubuntu server.</li>
+<li>We commonly refer to your project server as a <strong>box</strong>.</li>
+<li>You can create as many projects as you need.</li>
+<li>Each project box is fully isolated from every other one.</li>
+<li>When you open a project you are taken into the box and are shown the Codio IDE.</li>
+<li>You have access to the command line via a terminal window.</li>
+<li>You have sudo level privileges to your server, so you can install and configure any box exactly as you please.</li>
+<li>You can snapshot the software configuration, commonly referred to as a <strong>stack</strong>, of any box and add it to the <strong>Stacks</strong> template library.</li>
+<li>You can snapshot the combination of a Stack and the project code workspace and add it to the <strong>Starter Packs</strong> template library.</li>
+</ul>
+<h3 id="strong-recommendations">Strong recommendations<a class="headerlink" href="#strong-recommendations" title="Permanent link"></a></h3>
+<p>We strongly recommend that you are familiar with the following concepts if you plan to assign projects to classes of students. Even if you don't, knowledge of the following project related features will stand you in good stead.</p>
+<ul>
+<li>Boxes and the IDE section, available on the main index page of the <a href="https://docs.codio.com">documentation</a> </li>
+</ul>
+<p><img alt="Boxes" src="/img/docmenu.png" /></p>
+<ul>
+<li><a href="/project/stacks/">Stacks</a></li>
+<li><a href="/project/packs/">Starter Packs</a></li>
+<li><a href="/courses/authoring">Authoring tutorial content with Codio Guides and Books</a></li>
+<li><a href="/courses/coursemanagement/#introduction">Creating Course Content</a></li>
+<li><a href="/courses/classes">Courses</a></li>
+</ul>
+<h2 id="creating-and-importing-a-project">Creating and importing a project<a class="headerlink" href="#creating-and-importing-a-project" title="Permanent link"></a></h2>
+<p>Create a new project, or import one by, clicking on the New Project button on the Dashboard.</p>
+<p><img alt="Create Project" src="/img/project_create.png" /></p>
+<p>You can then choose which of the following Project creation methods you want to use.</p>
+<h3 id="creating-an-empty-project">Creating an empty project<a class="headerlink" href="#creating-an-empty-project" title="Permanent link"></a></h3>
+<p>Select a commonly used template from the available list:</p>
+<ul>
+<li><strong>Java 11:</strong>  </li>
+<li><strong>Python:</strong> </li>
+<li><strong>Nodejs</strong> </li>
+<li><strong>C</strong></li>
+<li><strong>C++</strong></li>
+<li><strong>Empty Stack:</strong> </li>
+</ul>
+<p>Projects created from a template will include an explanatory README.md file providing useful information to help you get started and with the exception of the <strong>Empty Stack</strong> will also include a pre-configured .codio menu set up with basic actions such a project would require.  If you wish to re configure the .codio menu file, you can. See <a href="/project/ide/boxes/#customizable-run-menu">Customizable Run Menu</a> for more information</p>
+<p>The list of stack templates is only a starting point. You can take any stack and then customize it from the command line. Users have <strong>sudo</strong> level privileges and so can install and configure exactly as they please.</p>
+<p>Refer to the <a href="/project/stacks">section on Stacks</a> to learn how to create and manage your own software configuration templates.</p>
+<h3 id="importing-code-into-a-project">Importing code into a project<a class="headerlink" href="#importing-code-into-a-project" title="Permanent link"></a></h3>
+<p>Click on the <strong>'Click here....'</strong> link to import or select an alternative software configuration:</p>
+<ul>
+<li><strong>Empty with Stack</strong> will create a new project with a stack you select from the full stack options, rather than the limited options available on the main <strong>New Project</strong> screen.</li>
+<li><strong>Copy project</strong> lets you create a new project from another of your projects.</li>
+<li><strong><a href="/project/packs/">Starter Pack</a></strong> which is the combination of a Stack and a pre-configured code workspace.</li>
+<li><strong>Import</strong> lets you import from Git or from a Zip file of a Codio project.</li>
+</ul>
+<p><img alt="Import Project" src="/img/project_create_other.png" /></p>
+<h3 id="selecting-a-stack">Selecting a Stack<a class="headerlink" href="#selecting-a-stack" title="Permanent link"></a></h3>
+<p>If you have clicked on the <strong>click here</strong> link, you can then specify the Stack your new Project will be assigned.</p>
+<h3 id="details">Details<a class="headerlink" href="#details" title="Permanent link"></a></h3>
+<p>You should give your project a name and a description, which will appear in the projects listing.</p>
+<h3 id="visibility">Visibility<a class="headerlink" href="#visibility" title="Permanent link"></a></h3>
+<p>Projects that are public can be found by any Codio user. Organization owners can enable the ability for you to create public projects. See <a href="/dashboard/organisations/#publicprivate-settings">Public/Private Settings</a>.</p>
+<p>By default, projects are created as private. In <strong>My Projects</strong> you will see a padlock icon for any Projects that are private.</p>
+<p>You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the <strong>Project-&gt;Permissions</strong> menu.</p>
+<h2 id="accessing-your-projects">Accessing your projects<a class="headerlink" href="#accessing-your-projects" title="Permanent link"></a></h2>
+<p>The <strong>My Projects</strong> area shows all your coding Projects.</p>
+<h3 id="opening-a-project">Opening a Project<a class="headerlink" href="#opening-a-project" title="Permanent link"></a></h3>
+<p>To view a project in the IDE, simply click on one of your projects.</p>
+<h3 id="sorting">Sorting<a class="headerlink" href="#sorting" title="Permanent link"></a></h3>
+<p>Your Projects can be sorted by name or by date last accessed.</p>
+<h3 id="filtering">Filtering<a class="headerlink" href="#filtering" title="Permanent link"></a></h3>
+<p>You can search for a specific project by typing into the Search field. The file list will dynamically filter for you as you type.</p>
+<h3 id="project-settings">Project Settings<a class="headerlink" href="#project-settings" title="Permanent link"></a></h3>
+<p>You can access your project settings by opening the project and going to <strong>Project&gt;Settings</strong> or clicking the gear icon in the right side of the listing.</p>
+<h2 id="searching-projects">Searching projects<a class="headerlink" href="#searching-projects" title="Permanent link"></a></h2>
+<p>Codio lets you locate projects in a number of different ways from your project dashboard.</p>
+<h3 id="normal-searching">Normal Searching<a class="headerlink" href="#normal-searching" title="Permanent link"></a></h3>
+<p>The simplest and most powerful way to use search is to simply start typing, whereupon Codio will search within all project names, project description and owner fields and filter your project list accordingly.</p>
+<h3 id="advanced-searching">Advanced Searching<a class="headerlink" href="#advanced-searching" title="Permanent link"></a></h3>
+<p>If you want to search in different ways, you can use search tokens to narrow your search. Codio supports the following tokens:</p>
+<h3 id="tokens-with-parameters">Tokens with parameters<a class="headerlink" href="#tokens-with-parameters" title="Permanent link"></a></h3>
+<p>The following tokens allow you to type something after the colon delimiter</p>
+<ul>
+<li><code>name:</code> search the project name</li>
+<li><code>desc:</code> search the project description</li>
+<li><code>owner:</code> search the project owner</li>
+<li><code>org:</code> search for an organization name</li>
+<li><code>begin:</code> search for a class start date (Education feature)</li>
+<li><code>end:</code> search for a class end date (Education feature)</li>
+</ul>
+<h3 id="tokens-without-parameters">Tokens without parameters<a class="headerlink" href="#tokens-without-parameters" title="Permanent link"></a></h3>
+<p>These tokens do not take any parameters so add a space after them if you have anything else to enter in the search line.</p>
+<ul>
+<li><code>my:</code> show only projects owned by me.</li>
+<li><code>shared:</code> show only projects that are shared with me.</li>
+<li><code>public:</code> show only my public projects.</li>
+<li><code>private:</code> show only my private projects.</li>
+</ul>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link"></a></h3>
+<ul>
+<li><code>public: desc:javascript</code> searches your public projects where 'javascript' appears in the project description.</li>
+<li><code>owner:superman javascript</code> searches projects owned by the user 'superman'' where 'javascript' appears in the project name or description.</li>
+</ul>
+<h2 id="accessing-another-users-project">Accessing another user's project<a class="headerlink" href="#accessing-another-users-project" title="Permanent link"></a></h2>
+<p>If you know the user name of another Codio user, you can enter the URL for their account which is of the format:</p>
+<p><code>https://codio.com/username</code></p>
+<p>You will then see that user's Dashboard and all public projects will be displayed. You can then load any of those projects into the IDE by clicking on it.</p>
+<p>You will not be able to edit the project but you can <a href="/project/ide/features/#copying-a-project">copy</a> it into your own account.</p>
+<p>If a project has been <a href="/project/ide/settings/#project-permissions">shared</a> to you, you will be able to view this from your <strong>My Projects &gt; Shared with me</strong> area.</p>
+<p><img alt="Shared Project" src="/img/console-shared.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

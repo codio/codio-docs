@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/stacks/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Stacks - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../projects/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../ide/boxes/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#what-is-a-stack" class="nav-link">What is a stack?</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#how-a-codio-project-works" class="nav-link">How a Codio project works.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#stack-modifications" class="nav-link">Stack modifications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#use-case" class="nav-link">Use Case</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#stacks-and-stack-versions" class="nav-link">Stacks and Stack Versions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#what-to-do-prior-to-assigning-to-a-course" class="nav-link">What to do prior to assigning to a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#switching-stacks" class="nav-link">Switching Stacks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#books" class="nav-link">Books</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#modifying-a-stack" class="nav-link">Modifying a stack</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#you-are-the-owner-or-have-write-access" class="nav-link">You are the owner or have write access</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#you-are-not-the-owner-and-do-not-have-write-access" class="nav-link">You are not the owner and do not have write access</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-a-stack" class="nav-link">Creating a stack</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#create-new-stack-from-the-ide" class="nav-link">Create new stack from the IDE</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#create-new-stack-from-the-dashboard" class="nav-link">Create new stack from the dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#stack-guidelines" class="nav-link">Stack Guidelines</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#starting-stack" class="nav-link">Starting Stack</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#long-description" class="nav-link">Long Description</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#example-from-codio-certified-lamp-stack" class="nav-link">Example (from Codio Certified LAMP Stack)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#visibility-and-ownership" class="nav-link">Visibility and Ownership</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#owner" class="nav-link">Owner</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#switching-a-projects-stack" class="nav-link">Switching a project's stack</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#important" class="nav-link">Important</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#from-the-projects-listing" class="nav-link">From the projects listing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#updating-a-stack-version" class="nav-link">Updating a stack (version)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#updating-from-the-dashboard" class="nav-link">Updating from the dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#updating-from-the-ide" class="nav-link">Updating from the IDE</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#viewing-version-history" class="nav-link">Viewing version history</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#using-a-stack" class="nav-link">Using a stack</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#stack-versions" class="nav-link">Stack Versions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#stack-listings" class="nav-link">Stack listings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#excluding-files-folders" class="nav-link">Excluding files &amp; folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Codio projects are mounted to software configuration templates, known as Codio stacks.</p>
+<p>You can use our pre-configured stacks or create your own. This template approach makes Codio easy to use, configure and adapt.</p>
+<p>Codio’s templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration.</p>
+<h2 id="what-is-a-stack">What is a stack?<a class="headerlink" href="#what-is-a-stack" title="Permanent link"></a></h2>
+<p>It is very important to understand how Stacks work in Codio, especially when working with courses. Incorrect usage can result in a project working when being edited but failing when run by students.</p>
+<p>A stack refers to the software configuration of a project server (Box). This incorporates everything on the server outside the code workspace (<code>/home/codio/workspace</code>) that you see in the IDE's file tree.</p>
+<p>You can <a href="/project/stacks/#creating-a-stack">snapshot a box's stack</a> at any point and add it to the <strong>Stacks</strong> template library as we explain later.</p>
+<h3 id="how-a-codio-project-works">How a Codio project works.<a class="headerlink" href="#how-a-codio-project-works" title="Permanent link"></a></h3>
+<p>When you create a new Codio project, course assignment or book, you always specify a stack. The specified stack will contain the operating system (always) and other components such as languages, databases and tools.</p>
+<h3 id="stack-modifications">Stack modifications<a class="headerlink" href="#stack-modifications" title="Permanent link"></a></h3>
+<p>You will often want to make changes to the software on your server. Any such changes you, or an application, makes outside the workspace folder represents a stack change. Whether such changes are made using <code>sudo apt-get install</code>, manually editing a config file, changes to a database due to application usage etc., these changes all represent stack modifications.</p>
+<p>Any modifications you make will work fine on the project you are working on as the owner, but as soon as run by students, the modifications will not be transferred.</p>
+<p>In order to address this, you need to ensure that any project with a modified stack first has a clean stack created that includes your modifications and that the project points to that clean stack.</p>
+<p>The process for <a href="/project/stacks/#creating-a-stack">creating a stack</a> and <a href="/project/stacks/#switching-a-projects-stack">switching the project to point to the new stack</a> is straightforward.</p>
+<h3 id="use-case">Use Case<a class="headerlink" href="#use-case" title="Permanent link"></a></h3>
+<p>Let’s consider a MySQL database use case. If the database data location is in the usual place within the stack (<code>/var/lib/mysql/</code>) then when the project is assigned to the course, each student gets their own database, independent of others students, as you would expect.</p>
+<p>However, if the stack is changed for any reason (you, as project owner, change the stack or stack version of stack for an already assigned assignment) then all database data would be reset to the state of the new stack as the database data folder is not a part of the workspace.</p>
+<p>If you want to keep the database independent of the stack, then you would need to locate the database file in the workspace folder itself (by editing <code>/etc/mysql/mysql.conf.d/mysqld.cnf</code>. This way, you could update the database software via a stack change but the database data remains intact when you switch stacks.</p>
+<p>In summary, you should remember the following …</p>
+<ul>
+<li>Assignment = Selected Stack + Stack Changes + Workspace Folder</li>
+<li>When run by students in the course then at the point of the assignment: Assignment = Selected Stack + Workspace (no stack modifications)</li>
+<li>Stack modifications in the source project or assignment are <strong>not transferred</strong> when launched by students</li>
+</ul>
+<p>Once the project or assignment is run by students, if they happen to make changes to their stacks, then each one is individually handled so there are no issues unless you or they select a new stack from <strong>Project-&gt;Stacks-&gt;Settings</strong>.</p>
+<h3 id="stacks-and-stack-versions">Stacks and Stack Versions<a class="headerlink" href="#stacks-and-stack-versions" title="Permanent link"></a></h3>
+<p>When you create a brand new stack or a new stack version, in both cases you are creating a new stack internally. The only difference between a stack and a stack version is that the stack versions are nicely organized under an already named stack. This makes them easy to find and prevents your stack list getting unnecessarily long.</p>
+<p>So, when referring to a stack in the documentation, we mean either a single stack or a stack version. Assigning a different stack version will also reset all project contents outside the workspace folder to those of the new stack version.</p>
+<h3 id="what-to-do-prior-to-assigning-to-a-course">What to do prior to assigning to a course<a class="headerlink" href="#what-to-do-prior-to-assigning-to-a-course" title="Permanent link"></a></h3>
+<p>If you have modified the stack in any way, then there are a few use-cases that commonly occur when working with modified stacks prior to assigning to a course.</p>
+<ul>
+<li><strong>Projects</strong>: generally speaking, if you have made any modifications then you should <a href="/project/stacks/#creating-a-stack">create a new stack</a> and <a href="/project/stacks/#switching-a-projects-stack">switch your project to the new stack</a> once it is created. This ensures maximum efficiency and speed. If you have not yet created a new stack to incorporate the modifications then you can create a new one by going to <strong>Project-&gt;Stack-&gt;Create New</strong> before you publish the assignment. It is good practice to go to your project and set it to point to this stack as soon as possible. It is however, much better practice to update the stack before you publish the assignment in the course module.</li>
+<li><strong>Course assignments</strong> : you should always first <a href="/project/stacks/#creating-a-stack">create a custom stack</a> and then <a href="/project/stacks/#switching-a-projects-stack">switch the assignment’s stack</a>, and any other assignments that use the same configuration, to the newly created stack. You can then <a href="/courses/classes/#assign-resource-modules-to-the-course">assign a course module</a> (which assigns all its assignments) to the course.</li>
+<li><strong>Books</strong> : if you are working with a book then the Book points to a stack. If you make any modifications, you have to create a new stack version (or new stack if appropriate) and then <a href="/project/stacks/#switching-a-projects-stack">switch your stack settings</a> to point to the new stack version. Once this has been done, you should publish a new version of your book. The final step is to update the course to update all assignments that point to a book.</li>
+</ul>
+<h3 id="switching-stacks">Switching Stacks<a class="headerlink" href="#switching-stacks" title="Permanent link"></a></h3>
+<p>Remember, when you <a href="/project/stacks/#switching-a-projects-stack">switch a project’s stack</a> from <strong>Project-&gt;Stack-&gt;Settings</strong>, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching.</p>
+<h3 id="books">Books<a class="headerlink" href="#books" title="Permanent link"></a></h3>
+<p>Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can <a href="/project/books/#publishing-and-the-stack">refer to the main Books section</a>.</p>
+<h2 id="modifying-a-stack">Modifying a stack<a class="headerlink" href="#modifying-a-stack" title="Permanent link"></a></h2>
+<p>A Codio project, course assignment or book always has a stack associated with it. When you create a new project you specify the stack. You can also <a href="/project/stacks/#switching-a-projects-stack">switch a project's stack</a> at any time.</p>
+<p>You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course assignment or book and make the stack changes from the <a href="/project/ide/boxes/#terminal-window">command line</a>. The concepts behind this are explained in detail on the <a href="/project/stacks/#what-is-a-stack">What is a stack?</a> section.</p>
+<p>To modify a stack you should be aware of the following rules.</p>
+<h3 id="you-are-the-owner-or-have-write-access">You are the owner or have write access<a class="headerlink" href="#you-are-the-owner-or-have-write-access" title="Permanent link"></a></h3>
+<p>If you are the stack owner or have write access to the stack then you are able to create new versions of an existing stack. See <a href="/project/stacks/#visibility-and-ownership">visibility settings</a> for information on ownership.</p>
+<h3 id="you-are-not-the-owner-and-do-not-have-write-access">You are not the owner and do not have write access<a class="headerlink" href="#you-are-not-the-owner-and-do-not-have-write-access" title="Permanent link"></a></h3>
+<p>If you do not have write access to the stack, which is the case for the Codio certified stacks, then you will first need to create a new stack. After this you can create your own versions from that stack as you will be the owner.</p>
+<p>If the stack is <strong>Private</strong> and the owner is set to an organization of which you are a member, then you will have write access and will be able to create new versions of that stack. See <a href="/project/stacks/#visibility-and-ownership">visibility settings</a> for information on ownership.</p>
+<h2 id="creating-a-stack">Creating a stack<a class="headerlink" href="#creating-a-stack" title="Permanent link"></a></h2>
+<p>Please make sure you have read <a href="/project/stacks/#what-is-a-stack">What is a stack?</a> as this contains important concepts and information.</p>
+<p>This page explains how to create a new stack or a new stack version from a project or assignment in a course. </p>
+<h3 id="create-new-stack-from-the-ide">Create new stack from the IDE<a class="headerlink" href="#create-new-stack-from-the-ide" title="Permanent link"></a></h3>
+<p>With the project open in the IDE, select the menu option <strong>Project-&gt;Stack-&gt;Create New</strong>. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the <strong>Visibility</strong> information below. We would recommend you set the owner to your organization.</p>
+<p><img alt="Stacks Create New" src="/img/stacks_createnew.png" /></p>
+<h3 id="create-new-stack-from-the-dashboard">Create new stack from the dashboard<a class="headerlink" href="#create-new-stack-from-the-dashboard" title="Permanent link"></a></h3>
+<p>From the dashboard, click on the <strong>Stacks</strong> item on the left hand side. On the stacks listing page, press the large blue <strong>New Stack</strong> button to create a new stack. You then point to your project.
+<img alt="Stacks Create" src="/img/stacks_create.png" /></p>
+<p>When you have completed the required fields and pressed the <code>Create</code> button, we will generate a Stack image for you. This can take a few minutes, depending on the size of the Stack image. You do not need to remain on this screen while the Stack is created, so feel free to continue to other parts of Codio. The source project will not be accessible until the stack has been created.</p>
+<ul>
+<li><strong>Stack Blueprint</strong>: you should specify is the Codio project that you want to use for your Stack blueprint. Enter any part of your Project name and you will see them listed in a dropdown.</li>
+<li><strong>Name and Description</strong>: next, add a short name for your Stack and a longer description. You can also add a more detailed overview of your Stack by selecting the "add a long description" link. You can write this long description in Markdown.</li>
+<li><strong>Image</strong>: you can also add an image to make your Stack more instantly recognizable in the listing. This should be a square image, which will be reduced in size and will appear in a circle as shown below.</li>
+<li><strong>Tags</strong>: you can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.</li>
+</ul>
+<h2 id="stack-guidelines">Stack Guidelines<a class="headerlink" href="#stack-guidelines" title="Permanent link"></a></h2>
+<p>When creating a Stack, here are some ideas on strategy and how to make them as useful as possible.</p>
+<h3 id="starting-stack">Starting Stack<a class="headerlink" href="#starting-stack" title="Permanent link"></a></h3>
+<p>When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then <a href="/project/ide/boxes/#installing-software-packages">install your own components</a>.</p>
+<h3 id="long-description">Long Description<a class="headerlink" href="#long-description" title="Permanent link"></a></h3>
+<p>You should include a full description of your Stack that appears when someone clicks on it within the Stacks listing. This information will also be available to users in Projects by going to <code>Project-&gt;Stack-&gt;Info</code> in their Project, which should open automatically. Check out some of Codio Certified Pack long descriptions.</p>
+<p>Below is a template you could use.</p>
+<pre><code class="markdown"># Title
+Put the name of your Stack here.
+
+## Using the Stack
+Describe how the user should get started.
+
+## Starter Pack
+If there are related Starter Packs you have created from this Stack that include code files, detail them here.
+
+## Components Installed
+It can be helpful to others or even to you later on to describe the installed Components and versions.
+
+## Configuration Files
+Detail where any component configuration files can be found. As you install components from `Tools&gt;Install Software` a log file of all this information will be opened.
+
+## General Information
+Include any general information on the use and operation of any installed components.
+
+## Codio Documentation
+We recommend you include useful links to the Codio Documentation.
+
+##Stack Specific Links
+Provide useful links on the Stack components.
+</code></pre>
+
+<h2 id="example-from-codio-certified-lamp-stack">Example (from Codio Certified LAMP Stack)<a class="headerlink" href="#example-from-codio-certified-lamp-stack" title="Permanent link"></a></h2>
+<pre><code class="markdown"># LAMP
+
+## Using this Stack
+This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running.
+
+## Related Stacks &amp; Starter Packs
+There are various other Stacks and Starter Packs that may be of interest. Please search the listing for
+
+- Stack : **LEMP**
+- Stack : **LAPP**
+- Stack : **LAMP** + Composer
+- Starter Pack : **Laravel** (LAMP + Composer + Laravel)
+
+## Components Installed
+This Stack contains the following major component versions
+
+- **PHP** 5.5.9
+- **Apache** 2.4.7
+- **MySQL** 14.14 Distrib 5.5.46
+
+## Configuration Files
+You can find configuration files in the following locations
+
+- **PHP config file** : `/etc/php5/apache2/php.ini`
+- **Apache config** : `/etc/apache2/apache2.conf`
+- **MySQL default config file** :  `/etc/mysql/my.cnf`
+
+## General Information
+
+# Apache Server
+Apache should be started by default. You can manually start, stop and restart it using the following terminal commands:
+
+$ sudo service apache2 start
+$ sudo service  apache2 stop
+$ sudo service  apache2 restart
+
+
+# MySQL
+
+## Start, Stop, Restart the MySQL server
+MySQL should be started by default. You can manually start, stop and restart the MySQL server using the following terminal commands:
+
+$ sudo service mysql start
+$ sudo service mysql stop
+$ sudo service mysql restart
+
+
+## Connecting to the MySQL monitor
+Assuming the MySQL server is started, you can connect to it using `mysql` from the terminal. Exit using `ctrl+c`.
+
+## Root Password
+If you want to set the root password, use the following command from the terminal
+
+mysqladmin -u root password NEWPASSWORD`
+
+
+## Codio Documentation
+Please be aware of the following useful links
+
+- [How to Access your Box](/prpject/ide/boxes/)
+- [If your firewall only allows access to port 80](/project/ide/boxes/ext-access/)
+- [Creating Codio menu items to avoid repetitive terminal commands](/project/ide/boxes/runmenu/)
+- [Using Git in Codio](/project/ide/editing/git/)
+- [Customizing the IDE settings](/project/ide/customization/)
+- [Restarting your Box](/project/ide/boxes/restart-reset/)
+- [Creating multiple code editing panels in the IDE](/project/ide/panels/)
+
+## Stack Specific Links
+
+- [PHP](http://php.net)
+- [Apache](http://httpd.apache.org)
+- [MySQL](http://dev.mysql.com)
+
+## Updating Components
+If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
+</code></pre>
+
+<h2 id="visibility-and-ownership">Visibility and Ownership<a class="headerlink" href="#visibility-and-ownership" title="Permanent link"></a></h2>
+<ul>
+<li>
+<p>By default, Stacks are kept private to your account. They can be made public, at which point they will appear in <strong>All</strong> Stacks listings for all Codio Users.</p>
+</li>
+<li>
+<p>If you set the owner of the Stack to your Organization, they will appear in the <strong>My Stacks</strong> listing for members of your Organization shown as owned by the organization.</p>
+</li>
+<li>
+<p>If you are an owner in the Oranization, you can enable the ability for you to create public Stacks. See <a href="/dashboard/organisations/#publicprivate-settings">Public/Private Settings</a>.</p>
+</li>
+<li>
+<p>If you want to keep your Stack private to your Organization, select the Private option and set the Owner option to your Organization. We would recommend this option especially if you may want to <a href="/courses/coursemanagement/#collaborating-on-project-assignments">collaborate</a> with other teachers in authoring/editing content.</p>
+</li>
+</ul>
+<h3 id="owner">Owner<a class="headerlink" href="#owner" title="Permanent link"></a></h3>
+<p>By default, you will be the owner of this Stack and only you can edit it and <a href="/project/stacks/#updating-a-stack-version">create new versions</a> of the Stack.</p>
+<p>If you want to allow others to see and administer your Stack, you can assign it to another organization.</p>
+<h2 id="switching-a-projects-stack">Switching a project's stack<a class="headerlink" href="#switching-a-projects-stack" title="Permanent link"></a></h2>
+<p>There are various reasons why you might want to switch your project's stack to a new one.</p>
+<ul>
+<li><strong>Created new stack</strong> : this is the most important and common use case. If you have modified your stack and then created a new stack (or a new version) from it then it makes sense to point your project to it once it has been created.</li>
+<li><strong>Mistake</strong> : you specified the wrong stack when you created the project.</li>
+<li><strong>New stack version</strong> : a new version of a stack has been created and you want to point to the latest one.</li>
+</ul>
+<h3 id="important">Important<a class="headerlink" href="#important" title="Permanent link"></a></h3>
+<p>You should remember that when you switch a stack, everything outside the workspace folder you see in the tree (<code>/home/codio/workspace</code>) will be replaced by the new stack. This is discussed at length in the <a href="/project/stacks/#what-is-a-stack">What is a stack?</a> section.</p>
+<h3 id="from-the-projects-listing">From the projects listing<a class="headerlink" href="#from-the-projects-listing" title="Permanent link"></a></h3>
+<p>Select the gear icon for the project from the main projects listing. You will then be able to change the stack or the stack version.</p>
+<h2 id="updating-a-stack-version">Updating a stack (version)<a class="headerlink" href="#updating-a-stack-version" title="Permanent link"></a></h2>
+<p>Having created a new stack, you may later want to update the Stack properties or take another stack snapshot from a Codio project.</p>
+<p>You can update your stack</p>
+<ul>
+<li>from the <strong>Stacks</strong> area of the Codio dashboard</li>
+<li>from the IDE</li>
+</ul>
+<h3 id="updating-from-the-dashboard">Updating from the dashboard<a class="headerlink" href="#updating-from-the-dashboard" title="Permanent link"></a></h3>
+<p><img alt="Stacks Dashboard" src="/img/stackdetails.png" course="simple"/></p>
+<p>To update the Stack, first select it from the stack list. You can then update the stack name or description fields by pressing the <strong>Edit</strong> button.</p>
+<p>To create a new version of a stack, press the <strong>New Version</strong> button. Then choose the project from which the stack should be generated from the <strong>Source</strong> field. Add a comment describing what has changed since the last version. At that point, a new version will be generated. This can take a few minutes.</p>
+<p><a name="stackide"></a></p>
+<h3 id="updating-from-the-ide">Updating from the IDE<a class="headerlink" href="#updating-from-the-ide" title="Permanent link"></a></h3>
+<p>It is often simpler to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.) you can create a new stack version from the <strong>Projects-&gt;Stack-&gt;Create New</strong> menu.</p>
+<p><img alt="Stacks New Version" src="/img/stacknewversion.png" course="simple"/></p>
+<p>You should now press the <strong>New Version</strong> button and enter some text to describe the stack changes since the last version.</p>
+<p>It will take a few minutes to build the new version. If your stack is pointing to the latest version then you need not do anything more. If it is pointing to a specific stack version, then you will need to change the stack to point to either the 'latest version' or to the version of the stack that was just built. You do this from the the <strong>Project-&gt;Stack-&gt;Settings</strong> menu item.</p>
+<h3 id="viewing-version-history">Viewing version history<a class="headerlink" href="#viewing-version-history" title="Permanent link"></a></h3>
+<p>You can view the version history of a stack by from the <strong>Stacks</strong> area of the Codio dashbaord. Select the stack from the listing and then click on the <strong>Versions</strong> link at the top of the page.</p>
+<p><img alt="Stacks Versions" src="/img/stacks_versions.png" course="simple"/></p>
+<h2 id="using-a-stack">Using a stack<a class="headerlink" href="#using-a-stack" title="Permanent link"></a></h2>
+<p>You can select a stack</p>
+<ul>
+<li>when a new project is created</li>
+<li>or by <a href="/project/stacks/#switching-a-projects-stack">switching the stack</a> if the project is already created</li>
+<li>or directly from the stacks listing, as explained below.</li>
+</ul>
+<p>To create a new project from the Stack listing, you should first locate your Stack. You can select from My Stacks, Certified or All.</p>
+<p><img alt="Stacks List" src="/img/stacks_list.png" /></p>
+<p>To search for a Stack, enter appropriate search text in the search field. This will typically be the name of the main Stack component(s) you are searching for. This will search the Stack name and description as well as any tags used.</p>
+<p>Having located a Stack, you can click on the item to get more detailed information. If you want to create a new Project immediately without seeing any further detailed information, click on the icon on the right hand side of the Stack item. If there are multiple versions of this Stack, it will use the latest.</p>
+<p>Once you select a Stack, you will be taken to the Create Project dialog and your chosen Stack will be pre-selected. The latest version of the stack will always be used. If you want to choose a specific version of the stack, then read the following section.</p>
+<h3 id="stack-versions">Stack Versions<a class="headerlink" href="#stack-versions" title="Permanent link"></a></h3>
+<p>By default, Codio will use the latest version of the selected Stack. Codio Stacks also supports versioning.</p>
+<p>There are a number if ways to use a version but setting to <strong>Use the latest version</strong> is recommended.</p>
+<ol>
+<li>Click on the body of a Stack item, which takes you to the information screen for the selected stack. On the top right of the information panel, you can drop down the Use Stack button and select a Stack version.</li>
+<li>You can also select the <strong>Versions</strong> link above the main listing and see information about each version.</li>
+<li>If used in an assignment in a course, go to the <strong>Stack</strong> button when in <strong>Edit</strong> mode and you can set the version to use there.</li>
+</ol>
+<p><img alt="Stacks Versions" src="/img/stacks_versions.png" /></p>
+<h2 id="stack-listings">Stack listings<a class="headerlink" href="#stack-listings" title="Permanent link"></a></h2>
+<p>Codio Stacks lets you create and manage the combination of a Codio Box and installed system level components (languages, databases, web servers etc.) so that you can instantly create new Projects and Boxes from Stack libraries.</p>
+<p><img alt="Stacks List" src="/img/stacks_list.png" /></p>
+<p>Stacks are divided up into the following searchable areas within the Stacks listing</p>
+<ul>
+<li><strong>My Stacks</strong> are Stacks that were created by you or set to be owned by the organisation.</li>
+<li><strong>Certified</strong> are Stacks that are approved by Codio and cover a wide range of common stack configurations.</li>
+<li><strong>All</strong> gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.</li>
+</ul>
+<p>If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library <a href="/project/stacks/#creating-a-stack">as described here</a>.</p>
+<h2 id="excluding-files-folders">Excluding files &amp; folders<a class="headerlink" href="#excluding-files-folders" title="Permanent link"></a></h2>
+<p>When you create a Stack, it will base the Stack on the contents of the <code>/home/codio</code> folder but omit your code workspace.</p>
+<p>If you want to exclude other files or folders then you should follow these steps</p>
+<ul>
+<li>Create a file <code>~/.codio/stack_exclusions</code> in the Project you will be basing the Stack on.</li>
+<li>add the paths to any file or folder you wish to be excluded from the Stack</li>
+<li>add the full path to the file (when in the folder, run <code>readlink -f &lt;filename&gt;</code> to get the full path)</li>
+<li>currently, globbing and wildcards are not supported</li>
+<li>one path per line</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

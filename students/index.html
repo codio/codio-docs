@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/students/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Students - Codio</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../courses/assessments-library/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#joining-a-course" class="nav-link">Joining a course</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#courses" class="nav-link">Courses</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#default-dashboard" class="nav-link">Default Dashboard</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-projects" class="nav-link">Creating projects</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#dyslexia-support" class="nav-link">Dyslexia support</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#forgotten-passwords" class="nav-link">Forgotten passwords</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#play-mode" class="nav-link">Play mode</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#player-options" class="nav-link">Player Options</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#guides" class="nav-link">Guides</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#restore-current-files" class="nav-link">Restore Current Files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#completing-assignments" class="nav-link">Completing assignments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lexikon" class="nav-link">Lexikon</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#grade-feedback" class="nav-link">Grade Feedback</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#code-commenting" class="nav-link">Code Commenting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#exam-mode" class="nav-link">Exam Mode</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#code-playback" class="nav-link">Code Playback</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#audiovideo-chat-support" class="nav-link">Audio/Video Chat Support</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#permissions" class="nav-link">Permissions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>The student dashboard is the main ‘home’ area that you use to navigate Codio. There are currently 2 dashboard views and you can swap between them toggling the <strong>New Look</strong> button on the top right.</p>
+<p>Default Dashboard:</p>
+<p><img alt="studentdash" src="/img/what_students_do/newstudentdashboard.png" /></p>
+<p>Alternative Dashboard:  </p>
+<p><img alt="alternatestudentdash" src="/img/what_students_do/studentdashboard.png" /></p>
+<p>From the <strong>Courses</strong> screen you can view your classes, courses, projects and help by using the links on the left hand panel.</p>
+<ul>
+<li><strong>STUDY</strong> links give your students access to courses</li>
+<li><strong>BUILD</strong> links give your students access to project tools and our professional IDE</li>
+<li><strong>HELP</strong> links give your students access to our customer service team and our help documentation.</li>
+</ul>
+<h2 id="joining-a-course">Joining a course<a class="headerlink" href="#joining-a-course" title="Permanent link"></a></h2>
+<p>If your course is working with an LMS platform such as Canvas, Blackboard, Moodle etc. then you will access Codio directly from it.</p>
+<p>If you are not using and LMS then your instructor should have given you one of the following ways of joining.</p>
+<ul>
+<li>
+<p>If your teacher has sent you an Invitation URL, copy/paste that into your browser.</p>
+</li>
+<li>
+<p>If your teacher has sent you a 2 word token, go to <strong><a href="https://codio.com/p/join-class">Join a course</a></strong> button on our website and enter the token.</p>
+</li>
+</ul>
+<p><img alt="authtoken" src="/img/joinclass.png" /></p>
+<p>To access your course after this point, log in to your Codio account and go to the Courses area</p>
+<h2 id="courses">Courses<a class="headerlink" href="#courses" title="Permanent link"></a></h2>
+<h3 id="default-dashboard">Default Dashboard<a class="headerlink" href="#default-dashboard" title="Permanent link"></a></h3>
+<p>Below is an example of a student’s <strong>Courses</strong> area with the default dashboard:</p>
+<p><img alt="studentdash" src="/img/what_students_do/newstudentdashboard1.png" /></p>
+<ul>
+<li><strong>1:</strong> - Where you can toggle between list view or tile view of the courses you are enrolled in.</li>
+<li><strong>2:</strong> - Where you will see a list of assignments including due dates (if set by your instructor/teacher) to do including any pinned assignments. The pane can be collapsed clicking on the arrow. Click the assignment pane to open it.</li>
+<li><strong>3:</strong> - Where you will see a list of recent feedback for your assignments when grades are released by your instructor/teacher. The pane can be collapsed clicking on the arrow. Click to open the assignment feedback where you can then review your assessments, grading comments and any code comments from your instructor/teacher.</li>
+<li><strong>4:</strong> - Where you can open the course to see the details of the modules/assignments in that course where you can also open the assignment, view grade/comments etc.</li>
+</ul>
+<h4 id="expanded-course">Expanded Course<a class="headerlink" href="#expanded-course" title="Permanent link"></a></h4>
+<p><img alt="studentcourse" src="/img/what_students_do/expandedcourse.png" /></p>
+<p>Below is an example of a student’s <strong>Courses</strong> area with the alternative dashboard:</p>
+<p><img alt="Student Dashboard" src="/img/what_students_do/studentdashboard.png" /></p>
+<p>The <strong>Courses</strong> area is where you can see the modules and assignments that have been assigned to you. Up to 5 pinned assignments will be displayed more prominently at the top of the page and where your teacher has set an end date for the assignment, this will be shown in the card.</p>
+<p>Using the <strong>Courses</strong> area, you can easily re-open the assignment you were last working on, or start/open any of the other assignments that have been assigned to you. You  start or open assignments using the navigation buttons displayed.</p>
+<h2 id="creating-projects">Creating projects<a class="headerlink" href="#creating-projects" title="Permanent link"></a></h2>
+<p>You can create your own projects using the web-based IDE in Codio. To access the project area, use the <strong>BUILD</strong> links in the left-hand navigation panel.</p>
+<p>To learn about how to create projects, jump to the main <a href="/project/projects/#creating-and-importing-a-project">Creating Project</a> section.</p>
+<h2 id="dyslexia-support">Dyslexia support<a class="headerlink" href="#dyslexia-support" title="Permanent link"></a></h2>
+<p>Codio has a built in dyslexia support feature. If you have students who would prefer to view their screen in dyslexia support mode they should do the following:</p>
+<ol>
+<li>
+<p>Open the assignment they are working on.</p>
+</li>
+<li>
+<p>From the menu at the top right of the screen, select the setting icon (the gear icon), then <strong>Theme</strong>, then select the <strong>Dyslexic</strong> option.</p>
+</li>
+</ol>
+<p><img alt="DsylexiaSettings" src="/img/settings.png" /></p>
+<ol>
+<li>The screen should now display like this:</li>
+</ol>
+<p><img alt="DsylexiaView" src="/img/dyslexicview.png" /></p>
+<h2 id="forgotten-passwords">Forgotten passwords<a class="headerlink" href="#forgotten-passwords" title="Permanent link"></a></h2>
+<p>If you have forgotten your password, you should use the <strong>lost password</strong> link on the log-in page or enter your email in the reset password area (see image below) to reset your password automatically via email. If you do not have access to the email address you used in creating your Codio account, contact your teachers who can reset the password for you.</p>
+<p>If you wish to change your password (you should also do this if you forgot your password and/or it was reset by your teacher) follow these steps:</p>
+<ol>
+<li>Click on your name and profile picture (bottom left of screen)</li>
+</ol>
+<p><img alt="Profile Picture" src="/img/what_students_do/forgotpassword/profilepic.png" /></p>
+<ol>
+<li>From the options along the top of the page, choose <strong>Account</strong></li>
+</ol>
+<p><img alt="Account settings area" src="/img/what_students_do/forgotpassword/account.png" /></p>
+<ol>
+<li>About halfway down the <strong>Account</strong> page is the <strong>Change Password</strong> area. The student should enter their existing password and the new password, and then click <strong>Update password</strong>.</li>
+</ol>
+<p><img alt="Change Password" src="/img/what_students_do/forgotpassword/change.png" /></p>
+<p>Three attempts are allowed before your account will be temporarily suspended. You can try again in 15 minutes</p>
+<h2 id="play-mode">Play mode<a class="headerlink" href="#play-mode" title="Permanent link"></a></h2>
+<p>To see your content running, you need to <em>Play</em> it. If the content does not automatically start or if you have closed it, go to <strong>Tools-&gt;Guide-&gt;Play</strong> menu option or click the <strong>Start Guide</strong> icon in the file tree:</p>
+<p><img alt="StartGuides" src="/img/guides/startguides.png" /></p>
+<p>At this point the panel layout is set up automatically according to the layout specified in the first section and it will be displayed.</p>
+<h3 id="player-options">Player Options<a class="headerlink" href="#player-options" title="Permanent link"></a></h3>
+<p><img alt="Play Mode" src="/img/guides/studentplaymode.png" /></p>
+<p>Within the player various options can be controlled by the user</p>
+<ul>
+<li><strong>Navigation Buttons</strong> allows the user to navigate forward/backward in the content.</li>
+<li><strong>Settings</strong> allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts, restore the current files (see below) and access Code Comments. See <a href="/students/#dyslexia-support">Dyslexia Support</a> section</li>
+<li><strong>Show/Hide Section List Hamburger Ico</strong> allows the user to show/hide the section list.</li>
+<li><strong>Collapse</strong> button will not show if the page layout is One Pane.</li>
+</ul>
+<p><a name="restore"></a></p>
+<h2 id="guides">Guides<a class="headerlink" href="#guides" title="Permanent link"></a></h2>
+<h3 id="restore-current-files">Restore Current Files<a class="headerlink" href="#restore-current-files" title="Permanent link"></a></h3>
+<p>Sometimes you might make changes to your work that you don’t like or that you don’t want to keep.</p>
+<p>The easiest way to get rid of these is to restore the original files in a assignment.
+To do this:</p>
+<ol>
+<li>Open the assignment you are working on. In the top right, choose the settings icon, and then <strong>Restore current files</strong>
+<img alt="RestoreCurrentFiles" src="/img/guides/reset.png" /></li>
+</ol>
+<p>If this does not achieve what you need, you can contact your class instructor who can reset the assignment back to its default state and you can start again as new.</p>
+<p><a name="completed"></a></p>
+<h3 id="completing-assignments">Completing assignments<a class="headerlink" href="#completing-assignments" title="Permanent link"></a></h3>
+<p>When you have completed a assignment you can mark it as completed if the content author has not disabled this option for you. This can be done from either:</p>
+<ul>
+<li>In the settings (click the gear icon)</li>
+</ul>
+<p><img alt="Complete" src="/img/guides/complete.png" /></p>
+<ul>
+<li>
+<p>From the last page in the guide.</p>
+</li>
+<li>
+<p>Going to <strong>Education&gt;Mark as Completed</strong> menu item in the assignment</p>
+</li>
+</ul>
+<p>If there are any assessments in the assignment that have not been submitted, details of these will be shown to allow you to review them before completing the assignment.</p>
+<p>If you mark a assignment as complete in error, contact your class instructor/teacher who can reset the status of the assignment so you can access it again.</p>
+<h3 id="lexikon">Lexikon<a class="headerlink" href="#lexikon" title="Permanent link"></a></h3>
+<p>The Codio Lexikon is an integrated help system that lets you lookup information on a variety of languages and topics quickly and easily. Having access to concise reference information as new topics are learned is extremely useful and saves having to search the web and separate the wheat from the chaff!</p>
+<p>You can access the Lexikon at any time from within a coding project or assignment if enabled by the author or by going to <strong>Tools&gt;Lexicon</strong> in the top menu. If the top menu is restricted for you, the default keyboard shortcut is <strong>Ctrl+Alt+L</strong>. If that does not open the Lexicon, contact your class instructor/teacher for assistance.</p>
+<p>The Lexikon is organized into Topics. We currently have added</p>
+<ul>
+<li>Crunch</li>
+<li>CSS</li>
+<li>HTML</li>
+<li>Javascript</li>
+<li>Linux</li>
+<li>CyberSecurity</li>
+</ul>
+<p><img alt="Lexicon" src="/img/lexicon.png" /></p>
+<h2 id="grade-feedback">Grade Feedback<a class="headerlink" href="#grade-feedback" title="Permanent link"></a></h2>
+<p>When your work has been graded and released by your class instructor, you will see 'graded' showing in your dashboard</p>
+<p><img alt="graded work" src="/img/graded.png" /></p>
+<p>To view details of the grades given, either open the project and go to <strong>Education&gt;Feedback</strong> in the top menu</p>
+<p><img alt="feedback" src="/img/feedback.png" /></p>
+<p>or click on the 'Grade' field showing in the dashboard</p>
+<p><img alt="access grades" src="/img/accessgrades.png" /></p>
+<p>Click on 'details' for the assessment and you can drill down to see more information on that assessment</p>
+<p><img alt="grade detail" src="/img/gradedetail.png" /></p>
+<p>Assessments that support partial points and full points were not awarded can be identified with this icon:</p>
+<p><img alt="Partial Point Icon" src="/img/guides/partialpointicon.png" /></p>
+<p><strong>Note</strong> If the project has been marked as completed, you can click on the 'completed' button to access the grade feedback but if you wish to view the project, click on the name of the project on the left hand side. As the assignment is completed you will not be able to edit anything but can view the content</p>
+<p>If your organisation uses an LMS system a URL of the grading detail will also be passed to your LMS that you can access from the grading area in the LMS.</p>
+<h3 id="code-commenting">Code Commenting<a class="headerlink" href="#code-commenting" title="Permanent link"></a></h3>
+<p>Your teachers can also add comments to your code to help. As you view the files commented, you will see the comment. You can also view all comments from <strong>Education -&gt; Code Comments</strong> menu item and click there to open the required file</p>
+<p><img alt="A student asking a clarifying question about a comment, creating a comment thread in the code file" src="/img/studentcodecomment.png" /></p>
+<p>You can add your own comments if you require for the teacher to review.  As you update your code the comment will be marked as resolved but still available for review later from the <strong>Education -&gt; Code Comments</strong> menu item or from the Guides settings area.</p>
+<p><img alt="Guides Code Comments" src="/img/guides/codecommentguides.png" /></p>
+<h2 id="exam-mode">Exam Mode<a class="headerlink" href="#exam-mode" title="Permanent link"></a></h2>
+<p>Your teacher/instructor can enable assignments with a number of exam mode options.</p>
+<ul>
+<li>
+<p><strong>Shuffle Question Order</strong> - when enabled, you will receive the pages of the assignment in a random order</p>
+</li>
+<li>
+<p><strong>Forward Only Navigation</strong> - when enabled, you can only go forward through the pages. You will not be able to go back to previous pages. If you attempt to go to the next page and have any un-answered assessments, you will be advised to review your answers.</p>
+</li>
+<li>
+<p><strong>Single Login</strong> - Once you start the assignment, until you mark it as complete, all other account login attempts will be blocked. </p>
+<p>As you start the assignment, you will be advised that it is restricted to single login and to ensure</p>
+<ol>
+<li>You have closed other tabs or browsers with Codio open</li>
+<li>You have a stable internet connection</li>
+<li>You have enough power in their device</li>
+<li>You have plenty of time to complete the assignment</li>
+</ol>
+<p>If you attempt to access the assignment from a different IP address or browser, you will be restricted and advised to contact your course instructor/professor for assistance. </p>
+<p>If you try to logout of Codio before the assessment is fully completed, you will be advised if you continue you will not be able to access it again. </p>
+<p>Instructor/Professors are be able to release the lock for you so if that happens, contact them.</p>
+</li>
+</ul>
+<h3 id="code-playback">Code Playback<a class="headerlink" href="#code-playback" title="Permanent link"></a></h3>
+<p>You also have access to the <strong>Code Playback</strong> feature. If you wish to review how you built the code in a file select  <strong>Tools-&gt;Code Playback</strong> menu. The file that is currently active will be presented to you but you can review other files you can search for them by clicking on the folder icon shown to the right of the file name shown in the code playback tab.</p>
+<p>If you do not have access to the <strong>Tools</strong> menu, you can right click on a file open in any tab to access <strong>Code Playback</strong></p>
+<p>To watch the code be built, click the play button. You can change the speed using the <strong>Speed</strong> drop down which is in changes per second. To walk through the changes manually, you can use the “Previous change” and “Next change” buttons. You can drag along the playback slider to find points of interest.</p>
+<h4 id="deleted-files">Deleted files<a class="headerlink" href="#deleted-files" title="Permanent link"></a></h4>
+<p>If you delete a file in error, you can also use <strong>Code Playback</strong> to find that file, review how it was built and where you find your last saved work you can copy/paste from the code playback into a new file you can create</p>
+<h2 id="audiovideo-chat-support">Audio/Video Chat Support<a class="headerlink" href="#audiovideo-chat-support" title="Permanent link"></a></h2>
+<p>When your teacher/instructor is also accessing your assignment, a <strong>Call</strong> button will show allowing Audio/Video calls and or real time chat.</p>
+<p><img alt="A/V Call" src="/img/monitor_students/call.png" /></p>
+<h3 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link"></a></h3>
+<p>Permission for your camera/microphone is required and your browser will prompt you to allow.Permission</p>
+<p>If permission has been denied, you can re enable in your browser</p>
+<p><strong>Google Chrome:</strong></p>
+<p>If you are using Google Chrome you can access your settings through the padlock icon in the top left of your screen, next to the URL of the page you are currently on.</p>
+<p>Click Site settings and make sure your camera and microphone both say Allow</p>
+<p><strong>Firefox:</strong></p>
+<p>If you are using Firefox as your internet browser you can access your settings by typing "about:permissions" into the location bar as if it were a website and hitting enter.</p>
+<p>This will take you to your settings page, click the following link to find out more about changing your settings:</p>
+<p>https://support.mozilla.org/en-US/kb/permissions-manager-give-ability-store-passwords-set-cookies-more?redirectlocale=en-US&amp;redirectslug=how-do-i-manage-website-permissions</p>
+<p><strong>Safari:</strong></p>
+<p>If you are using Safari, you can access your browser settings by clicking Safari and then Preferences. </p>
+<p>You will see a pop up box and can update your settings. Learn more about how to update the settings through the following link:</p>
+<p>https://support.apple.com/en-nz/guide/safari/ibrwe2159f50/mac</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../javascripts/extra.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

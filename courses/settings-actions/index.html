@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/courses/settings-actions/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Guides Settings and Page actions - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../plagiarism/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../dashboard/account/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#page" class="nav-link">Page</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#layout" class="nav-link">Layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#showhide-folders" class="nav-link">Show/Hide Folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#full-file-tree" class="nav-link">Full File Tree:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#hiding-of-folders" class="nav-link">Hiding of Folders:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#defining-folders" class="nav-link">Defining folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#content-type" class="nav-link">Content Type</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#teacher-only-content" class="nav-link">Teacher only content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#learning-objectives" class="nav-link">Learning Objectives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#open-tabs" class="nav-link">Open tabs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#page-close-tabs" class="nav-link">Page - Close Tabs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#open-tabs_1" class="nav-link">Open Tabs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#opening-files" class="nav-link">Opening Files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#previewing" class="nav-link">Previewing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#opening-the-terminal-and-running-system-commands" class="nav-link">Opening the terminal and running system commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#highlighting-lines-in-your-code" class="nav-link">Highlighting lines in your code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#visualiser" class="nav-link">Visualiser</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#examples" class="nav-link">Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#specifying-the-panel-number" class="nav-link">Specifying the panel number</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#assessments" class="nav-link">Assessments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#media" class="nav-link">Media</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#global" class="nav-link">Global</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#scripts" class="nav-link">Scripts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#html-header-and-footer" class="nav-link">HTML header and footer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#theme" class="nav-link">Theme</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#lexikon-topic" class="nav-link">Lexikon Topic</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#suppress-page-numbering" class="nav-link">Suppress page numbering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#hide-menu" class="nav-link">Hide Menu</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#allow-guide-to-be-closed" class="nav-link">Allow Guide to be closed</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#use-mark-as-complete" class="nav-link">Use Mark as Complete</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#use-submit-buttons" class="nav-link">Use Submit Buttons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#collapsed-on-start" class="nav-link">Collapsed on Start</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#hide-sections-toggle" class="nav-link">Hide Sections Toggle</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#hide-back-to-dashboard-button" class="nav-link">Hide Back to Dashboard button</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#protect-layout" class="nav-link">Protect Layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="page">Page<a class="headerlink" href="#page" title="Permanent link"></a></h2>
+<h3 id="layout">Layout<a class="headerlink" href="#layout" title="Permanent link"></a></h3>
+<p>You can choose from a variety of panel layouts for each page of content.</p>
+<p><img alt="authtoken" src="/img/guides/layouts.png" /></p>
+<p>The layouts we currently offer can be found in the dropdown list.</p>
+<p><a href="/courses/settings-actions/#specifying-the-panel-number">Click here</a> for information on how to reference these panels when auto opening code files, url previews or terminal windows.</p>
+<p>The top-most and default entry in the Layout dropdown is <strong>Previous</strong>. This means it will use the same panel layout as specified on the previous page.</p>
+<p><a name="show-hide"></a></p>
+<h3 id="showhide-folders">Show/Hide Folders<a class="headerlink" href="#showhide-folders" title="Permanent link"></a></h3>
+<p>Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using the page settings, you can specify that folder. All non-specified folders are hidden from view in the file tree.</p>
+<p>The benefit of hiding folders is that the student is not distracted by a large list of folders and files that are not relevant to the topic your are explaining.</p>
+<h3 id="full-file-tree">Full File Tree:<a class="headerlink" href="#full-file-tree" title="Permanent link"></a></h3>
+<p><img alt="authtoken" src="/img/guides/project_1.png" /></p>
+<h3 id="hiding-of-folders">Hiding of Folders:<a class="headerlink" href="#hiding-of-folders" title="Permanent link"></a></h3>
+<p><img alt="authtoken" src="/img/guides/project_2.png" /></p>
+<h3 id="defining-folders">Defining folders<a class="headerlink" href="#defining-folders" title="Permanent link"></a></h3>
+<p>To define which folders to show make sure your page is selected. Next, in the <strong>Show Folders</strong> field, specify the folder or folders which should be shown in the file tree. Use the <code>;</code> character to separate multiple folders.</p>
+<p><img alt="authtoken" src="/img/guides/project_3.png" /></p>
+<p>If you have several pages that show the same folders, you only need define the folders on the first page of the set of pages. All subsequent pages will use the same <strong>Show Folders</strong> setting until a new one is encountered.</p>
+<h3 id="content-type">Content Type<a class="headerlink" href="#content-type" title="Permanent link"></a></h3>
+<p>You can specify whether the page content type is markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in <a href="/courses/settings-actions/#global">Global Settings</a>.</p>
+<p><a name="teacheronly"></a></p>
+<h3 id="teacher-only-content">Teacher only content<a class="headerlink" href="#teacher-only-content" title="Permanent link"></a></h3>
+<p>If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they open an assignment in a course or when opening a students assignment.</p>
+<h3 id="learning-objectives">Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permanent link"></a></h3>
+<p>This is a tag field that can be useful for data analysis.</p>
+<h2 id="open-tabs">Open tabs<a class="headerlink" href="#open-tabs" title="Permanent link"></a></h2>
+<p>You can automatically perform any of the following actions when a page is shown:</p>
+<ul>
+<li>Reconfigure the overall IDE panel layout.</li>
+<li>Open files.</li>
+<li>Open a url preview including external websites.</li>
+<li>Open a terminal window and optionally run a terminal command.</li>
+<li>Select lines you wish to highlight within each file.</li>
+</ul>
+<p>You should also be aware that you can achieve the same actions from Markdown directives on a page. <a href="/courses/authoring/#openclose-tabs-from-content">Click here</a> for details.</p>
+<h3 id="page-close-tabs">Page - Close Tabs<a class="headerlink" href="#page-close-tabs" title="Permanent link"></a></h3>
+<p>Enable this to close all panels open from the previous page.</p>
+<ul>
+<li><strong>Close Terminal Session</strong> when Close tabs enabled, allows you the option to retain terminal session from previous section. By default, terminal session will close</li>
+</ul>
+<p><img alt="Page_tab_options" src="/img/guides/page.png" /></p>
+<p><a name="opentabs"></a></p>
+<h3 id="open-tabs_1">Open Tabs<a class="headerlink" href="#open-tabs_1" title="Permanent link"></a></h3>
+<p><img alt="Open Tabs tab options" src="/img/guides/guide_files.png" /></p>
+<p>Files can be opened automatically to present the student with relevant files.</p>
+<p>The <strong>Add Tab</strong> button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.</p>
+<p>You can also drag and drop files in from your project file tree to the page to add them to the <strong>Open Tabs</strong> section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in the content.</p>
+<p><strong>Please note:</strong> image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.</p>
+<h3 id="opening-files">Opening Files<a class="headerlink" href="#opening-files" title="Permanent link"></a></h3>
+<p>To open files, select the file type and enter the file name, including the path to the file if not in the root of the project workspace.</p>
+<p><img alt="openfile" src="/img/guides/type_file.png" /></p>
+<p>To open multiple files in the same panel, enter in the following format:</p>
+<pre><code>index.html, main.css
+</code></pre>
+
+<h3 id="previewing">Previewing<a class="headerlink" href="#previewing" title="Permanent link"></a></h3>
+<p>To preview your project, select the <strong>Preview</strong> Type. If you wish to show a workspace or external website page, use the <strong>Preview</strong> option and enter the appropriate URL.</p>
+<p><img alt="preview" src="/img/guides/type_preview.png" /></p>
+<p><strong>Please note:</strong> If the URL you are previewing does not allow embedding in an <code>&lt;iframe&gt;</code>, then you won't be able to use <code>https</code> addresses. You would have to use an <code>http</code> address instead, in which case it will automatically open in an new browser tab and not within Codio.</p>
+<h3 id="opening-the-terminal-and-running-system-commands">Opening the terminal and running system commands<a class="headerlink" href="#opening-the-terminal-and-running-system-commands" title="Permanent link"></a></h3>
+<p>To open a terminal window, select the <strong>Terminal</strong> option.</p>
+<p>You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the <code>/.guides</code> folder (which is hidden when content is running) at a certain point in your content.</p>
+<p><img alt="authtoken" src="/img/guides/type_terminal.png" /></p>
+<p>You can also specify system commands in a new terminal window like so:</p>
+<p><img alt="authtoken" src="/img/guides/terminal_command.png" /></p>
+<h3 id="highlighting-lines-in-your-code">Highlighting lines in your code<a class="headerlink" href="#highlighting-lines-in-your-code" title="Permanent link"></a></h3>
+<p>To highlight one or more lines within an auto-opened file, select the <strong>Highlight</strong> option and then</p>
+<ol>
+<li>Enter a piece of reference text, contained within your target file, into the <strong>Reference ...</strong> field</li>
+<li>Specify the number of lines, from that reference point, you want to highlight</li>
+</ol>
+<p><img alt="authtoken" src="/img/guides/type_highlight.png" /></p>
+<p>Using reference text rather than a line number means that if you insert anything into your file in the future, Codio is able to adjust the highlighted block based on the reference text. If you insert or remove lines within the block then you would need to adjust the line count.</p>
+<p>If there is any potential ambiguity with this approach, simply insert a comment which is guaranteed unique and reference that.</p>
+<p>Any combinations are acceptable and they will be opened in the order specified.</p>
+<p><a name="tutor"></a></p>
+<h3 id="visualiser">Visualiser<a class="headerlink" href="#visualiser" title="Permanent link"></a></h3>
+<p>Codio supports <a href="http://pythontutor.com/">Python Tutor</a>, allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code.
+Select <code>Visualiser</code> and enter the path to your file.</p>
+<p><strong>Supported languages:</strong></p>
+<ul>
+<li>Python</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>TypeScript</li>
+<li>Ruby</li>
+<li>C</li>
+<li>C++</li>
+</ul>
+<p>Students can visualise what the computer is doing step-by-step as it executes those programs.</p>
+<p><img alt="authtoken" src="/img/guides/pythontutor.png" /></p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link"></a></h3>
+<p><strong>Python</strong></p>
+<pre><code class="python">nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'], [1, 2, 3]]
+for temp in nested:
+  print(temp)
+</code></pre>
+
+<p><img alt="authtoken" src="/img/guides/PythonVisualizerExample.png" /></p>
+<p><strong>Java</strong></p>
+<pre><code class="java">public static void countdown(int n) {
+  if (n == 0) {
+    System.out.println(&quot;Blastoff!&quot;);
+  } else {
+    System.out.println(n);
+    countdown(n - 1);
+  }
+}
+</code></pre>
+
+<p><img alt="authtoken" src="/img/guides/JavaVisualizerExample.png" /></p>
+<p>For more information and examples see <a href="http://pythontutor.com/">Python Tutor</a>.</p>
+<p><a name="specifypanel"></a></p>
+<h3 id="specifying-the-panel-number">Specifying the panel number<a class="headerlink" href="#specifying-the-panel-number" title="Permanent link"></a></h3>
+<p>If your <a href="/courses/settings-actions/#page">layout</a> for this page involves multiple panels, then you can also specify the panel number to display the file in.</p>
+<p><img alt="authtoken" src="/img/guides/panel.png" /></p>
+<p>If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.</p>
+<p>The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).</p>
+<p><strong>Important:</strong> The first panel is 0, not 1.</p>
+<h2 id="assessments">Assessments<a class="headerlink" href="#assessments" title="Permanent link"></a></h2>
+<p>This settings item is rarely used. It shows a complete reference of all <a href="/courses/assessments/#assessments">assessments</a> in the book or guide. The usual place from which you edit assessments is the assessments button at the top of the page.</p>
+<p><img alt="assessments" src="/img/guides/settings_assessments.png" /></p>
+<p>If there are any assessments that had been created but subsequently deleted, they will be highlighted in red. You can then delete them from the project.</p>
+<h2 id="media">Media<a class="headerlink" href="#media" title="Permanent link"></a></h2>
+<p>This setting allows you to add a soundtrack to your page, that plays when the page is shown. It can trigger opening of files, terminal windows and preview windows at designated times within the track.</p>
+<p><a href="/courses/authoring/#adding-media">Click here</a> for details on how to use this feature.</p>
+<h2 id="global">Global<a class="headerlink" href="#global" title="Permanent link"></a></h2>
+<p>The settings on this page apply to the entire guide or book.</p>
+<p><img alt="Global settings" src="/img/guides/globalsettings.png" /></p>
+<h3 id="scripts">Scripts<a class="headerlink" href="#scripts" title="Permanent link"></a></h3>
+<p>This allows you to include the path and file name of a script file from a page using an HTML <code>&lt;src&gt;</code> tag. Provide one script path per line.</p>
+<h3 id="html-header-and-footer">HTML header and footer<a class="headerlink" href="#html-header-and-footer" title="Permanent link"></a></h3>
+<p>This is used for any pages which are designated in the <a href="/courses/authoring/#html-content-editing">page settings</a> as an HTML page. The header/footer will be placed before/after the HTML page content.</p>
+<h3 id="theme">Theme<a class="headerlink" href="#theme" title="Permanent link"></a></h3>
+<p>There is currently only a single theme.</p>
+<h3 id="lexikon-topic">Lexikon Topic<a class="headerlink" href="#lexikon-topic" title="Permanent link"></a></h3>
+<p>If you want a lexikon topic to appear you should place the name of the Lexikon topic here.</p>
+<h3 id="suppress-page-numbering">Suppress page numbering<a class="headerlink" href="#suppress-page-numbering" title="Permanent link"></a></h3>
+<p>Removes any page numbers from the table of contents when the content is shown.</p>
+<h3 id="hide-menu">Hide Menu<a class="headerlink" href="#hide-menu" title="Permanent link"></a></h3>
+<p>Hides the Codio menu. You should be aware that this will prohibit access to functions that are accessible via the menu.</p>
+<h3 id="allow-guide-to-be-closed">Allow Guide to be closed<a class="headerlink" href="#allow-guide-to-be-closed" title="Permanent link"></a></h3>
+<p>Allows students to close the guide content. The content can be restarted by selecting the 'start guide' icon in the file tree:
+<img alt="StartGuides" src="/img/guides/startguides.png" /></p>
+<h3 id="use-mark-as-complete">Use Mark as Complete<a class="headerlink" href="#use-mark-as-complete" title="Permanent link"></a></h3>
+<p>For a discussion on the use of the this feature, please <a href="/courses/assessments/#student-submission-options">click here</a>.</p>
+<p>This setting is enabled by default and will show students a button at the end of the assignment, from their <a href="/students/#my-classroom">dashboard</a> and from <strong>Education</strong> menu in the IDE they can select to mark as complete.</p>
+<p>If you have set the <a href="/courses/classes/#unit-duration">assignment duration</a> 'On assignment End' action to mark as complete or disable and mark as complete, the assignment will automatically be marked as complete when the end date/time of the assignment is reached and you can elect to suppress the ability for students to have to mark their assignments as complete by disabling this setting.</p>
+<h3 id="use-submit-buttons">Use Submit Buttons<a class="headerlink" href="#use-submit-buttons" title="Permanent link"></a></h3>
+<p>For a discussion on the use of the this feature, please <a href="/courses/assessments/#student-submission-options">click here</a>.</p>
+<p>This is enabled by default and shows students a button for <a href="/courses/assessments/#assessments">assessments</a> for them to submit their answers.
+If you have set the <a href="/courses/classes/#unit-duration">assignment duration</a>, when the end of assignment duration date/time is reached, all answers to the assessments will be automatically submitted</p>
+<p><a name="guidescollapse"></a></p>
+<h3 id="collapsed-on-start">Collapsed on Start<a class="headerlink" href="#collapsed-on-start" title="Permanent link"></a></h3>
+<p>Enable this to collapse the guides pane in the assignment/project when the <a href="/courses/settings-actions/#page">layout</a> is not <code>1 Panel</code>. Performs similar task to the <a href="/courses/authoring/#player-options">collapse</a> button in playmode.</p>
+<p>The guides can be reopened by clicking the hamburger icon:
+<img alt="StartGuides" src="/img/openguides.png" /></p>
+<h3 id="hide-sections-toggle">Hide Sections Toggle<a class="headerlink" href="#hide-sections-toggle" title="Permanent link"></a></h3>
+<p>Enable this to hide the option for students to switch sections using the Section list hamburger icon</p>
+<h3 id="hide-back-to-dashboard-button">Hide Back to Dashboard button<a class="headerlink" href="#hide-back-to-dashboard-button" title="Permanent link"></a></h3>
+<p>Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the assignment</p>
+<p><a name="guidesprotect"></a></p>
+<h3 id="protect-layout">Protect Layout<a class="headerlink" href="#protect-layout" title="Permanent link"></a></h3>
+<p>Enable this to prevent tabs being opened or closed by students in the assignment</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

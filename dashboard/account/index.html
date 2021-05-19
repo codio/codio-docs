@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/dashboard/account/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Account - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Account</a>
+</li>
+                                    
+<li>
+    <a href="../desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../courses/settings-actions/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../desktopapp/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#account-settings-overview" class="nav-link">Account settings overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#cookie-requirements" class="nav-link">Cookie Requirements</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#to-enable-cookies-in-chrome" class="nav-link">To enable cookies in Chrome:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#to-enable-cookies-in-firefox" class="nav-link">To enable cookies in Firefox:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#to-enable-cookies-in-safari" class="nav-link">To enable cookies in Safari:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#firewall-and-network-settings" class="nav-link">Firewall and network settings</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#firewall-settings" class="nav-link">Firewall settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#ports" class="nav-link">Ports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#working-from-home" class="nav-link">Working from home</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#connectivity-test" class="nav-link">Connectivity Test</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#browser-support" class="nav-link">Browser support</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#disable-ie-compatibility-view" class="nav-link">Disable IE Compatibility View</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#resetting-student-passwords" class="nav-link">Resetting student passwords</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#forgot-your-password" class="nav-link">Forgot your password</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#public-key" class="nav-link">Public key</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#where-is-it-used" class="nav-link">Where is it used?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#adding-your-public-key-to-a-remote-server" class="nav-link">Adding your public key to a remote server</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#adding-your-public-key-to-github-or-bitbucket" class="nav-link">Adding your public key to GitHub or BitBucket</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#github" class="nav-link">GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#bitbucket" class="nav-link">BitBucket</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#change-account-details" class="nav-link">Change account details</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#delete-your-account" class="nav-link">Delete your account</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#organisation-billing" class="nav-link">Organisation Billing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#individual-billing" class="nav-link">Individual Billing</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#bookstores" class="nav-link">Bookstores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#activating-a-bookstore-license" class="nav-link">Activating a bookstore license</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#educational-discounts" class="nav-link">Educational Discounts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#contact-us" class="nav-link">Contact us</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#customer-technical-support" class="nav-link">Customer Technical Support</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#sales-inquiries" class="nav-link">Sales Inquiries</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="account-settings-overview">Account settings overview<a class="headerlink" href="#account-settings-overview" title="Permanent link"></a></h2>
+<p>A brief overview of interesting account settings.</p>
+<iframe src="https://player.vimeo.com/video/236066104" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>-</p>
+<h2 id="cookie-requirements">Cookie Requirements<a class="headerlink" href="#cookie-requirements" title="Permanent link"></a></h2>
+<p>In order for Codio to work correctly you need to allow cookies. Check our <a href="https://www.codio.com/legal-stuff">Privacy Policy</a> for more information about cookies.</p>
+<p>The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.</p>
+<h3 id="to-enable-cookies-in-chrome">To enable cookies in Chrome:<a class="headerlink" href="#to-enable-cookies-in-chrome" title="Permanent link"></a></h3>
+<p>In your browser enter: <code>chrome://settings/content/cookies</code>
+and</p>
+<ul>
+<li>enable <strong>Allow sites to save and read cookie data (recommended)</strong></li>
+<li>disable <strong>Block third party cookies</strong>
+<img alt="Chrome Cookies" src="/img/chromecookies.png" /></li>
+</ul>
+<p><em>Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)</em></p>
+<h3 id="to-enable-cookies-in-firefox">To enable cookies in Firefox:<a class="headerlink" href="#to-enable-cookies-in-firefox" title="Permanent link"></a></h3>
+<p>In your browser enter: <code>about:preferences#privacy</code>
+Select <strong>User custom settings for history</strong> from the drop down in the History section and</p>
+<ul>
+<li>check <strong>Accept cookies from sites</strong></li>
+<li>select 'Always' in the drop down for <strong>Accept third-party cookies</strong>
+<img alt="Firefox Cookies" src="/img/firefoxcookies.png" /></li>
+</ul>
+<p><em>Image from Firefox 55.0.2 (64-bit)</em></p>
+<h3 id="to-enable-cookies-in-safari">To enable cookies in Safari:<a class="headerlink" href="#to-enable-cookies-in-safari" title="Permanent link"></a></h3>
+<p>In your browser go to <code>Safari&gt; Preferences</code>
+<img alt="Safari" src="/img/safari.png" />
+Select the <strong>Privacy</strong> tab and ensure check <strong>Block all cookies</strong> and <strong>Prevent cross-site tracking</strong> are not checked.</p>
+<p><img alt="Safari Cookies" src="/img/crosssitetracking.png" /></p>
+<p>If using an earlier version of Safari, check <strong>Always Allow</strong> in the Cookies and website data section</p>
+<p><em>Image from Safari 12.0 on macOS Sierra 10.12.6</em></p>
+<h2 id="firewall-and-network-settings">Firewall and network settings<a class="headerlink" href="#firewall-and-network-settings" title="Permanent link"></a></h2>
+<p>Codio can usually run from anywhere in your browser without any special settings. However, some school or university firewall settings may require special configuration.</p>
+<p>This page contains information for</p>
+<ul>
+<li>School network system administrators</li>
+<li>Students and teachers who may be using Codio from home</li>
+</ul>
+<h3 id="firewall-settings">Firewall settings<a class="headerlink" href="#firewall-settings" title="Permanent link"></a></h3>
+<p>The following is a list of ports and URLs that Codio access from time to time. We have put these in priority order.</p>
+<ul>
+<li><strong>*.codio.com</strong> the main Codio site and application</li>
+<li><strong>*.codio.io</strong> domains that are auto-generated for each user project</li>
+<li><strong>api.keen.io</strong> statistics gathering to measure student time spent in units   (stats)</li>
+<li><strong>*.typekit.net</strong> web fonts</li>
+<li><strong>fonts.gstatic.com</strong> web fonts</li>
+<li><strong>fast.fonts.net</strong> web fonts</li>
+<li><strong>*.cloudfront.net</strong> our CDN for speeding up static content</li>
+<li><strong><em>.youtube.com &amp; </em>.vimeo.com</strong> for video's included in Course content</li>
+<li>
+<p><strong>gravatar.com</strong> used for user gravatars (pictures)</p>
+</li>
+<li>
+<p><strong><em>.intercom.io__, <strong>cdnjs.cloudflare.com</strong> and __</em>.pubnub.com</strong> are highly recommended as they relate to  the help and support application (Intercom) built into Codio.</p>
+</li>
+</ul>
+<p>If your institution blocks access to YouTube as a general rule, your IT department can whitelist YouTube access that only allows access to content from registered and accredited educational content repositories. See <a href="https://support.google.com/youtube/answer/2695317?hl=en-GB">here</a> for more information on this.</p>
+<h3 id="ports">Ports<a class="headerlink" href="#ports" title="Permanent link"></a></h3>
+<p>We recommend opening the following ports</p>
+<ul>
+<li><strong>80 and 443</strong> for standard communications</li>
+<li><strong>3000</strong> is a standard port for user projects</li>
+<li><strong>9500</strong> is a standard SSL port for user projects</li>
+</ul>
+<h3 id="working-from-home">Working from home<a class="headerlink" href="#working-from-home" title="Permanent link"></a></h3>
+<p>Sometimes the anti-virus/firewall settings on your personal devices may interfere with home usage and make the experience slow.</p>
+<p>You should check your settings and ensure that items in the above <strong>Firewall settings</strong> list are added to your exclusion list.</p>
+<h3 id="connectivity-test">Connectivity Test<a class="headerlink" href="#connectivity-test" title="Permanent link"></a></h3>
+<p>If you continue to experience difficulties, visit the <a href="https://codio.com/connectivity/index.html">Connection Diagnostics</a> page and send us back the generated output going to <strong>Help &gt; Support/Contact Us</strong> and attach the output file using the paperclip icon)
+<img alt="authtoken" src="/img/contactus.png" /></p>
+<h2 id="browser-support">Browser support<a class="headerlink" href="#browser-support" title="Permanent link"></a></h2>
+<p>Codio is best experienced on the very latest browsers, in particular Chrome, but should run fine on the following browsers:</p>
+<ul>
+<li><strong>Chrome</strong> 21 or later</li>
+<li><strong>Firefox</strong> - 22 or later</li>
+<li><strong>IE</strong> - 10 or later</li>
+<li><strong>Safari</strong> - 6 or later</li>
+<li><strong>Opera</strong> - 15 or later</li>
+</ul>
+<p>If using <strong>Safari</strong> and accessing Codio via an <a href="/courses/lti1_0/">LMS</a>, disable "Prevent cross-site tracking" to ensure access.</p>
+<p><img alt="Safari settings" src="/img/crosssitetracking.png" /></p>
+<p>If you are experiencing any issue where Codio will not run as it should, please send an email to help@codio.com.</p>
+<p><a name="ie-compatibility"></a></p>
+<h3 id="disable-ie-compatibility-view">Disable IE Compatibility View<a class="headerlink" href="#disable-ie-compatibility-view" title="Permanent link"></a></h3>
+<p>It could happen that even if you have Internet Explorer 10 or a later version, we detect a older version of the browser.</p>
+<p>This is due to the <em>Compatibility Mode</em> of the Browser which enables old features we no longer support.</p>
+<p>To disable this option, please go to <strong><em>Tools → F12 developer tools</em></strong> and be sure that in <strong>Browser Mode</strong> is selected <strong>«Internet Explorer 10»</strong> and in <strong>Document Mode</strong> is selected <strong>«Standards (Page default)»</strong>.</p>
+<h2 id="resetting-student-passwords">Resetting student passwords<a class="headerlink" href="#resetting-student-passwords" title="Permanent link"></a></h2>
+<p>You can change a student's password in the following way:</p>
+<ol>
+<li>From the <strong>Courses</strong> area, click on your course to open it.</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/year_10_class.png" /></p>
+<ol>
+<li>Click on the <strong>Students</strong> tab, top centre of your screen.</li>
+</ol>
+<p><img alt="authtoken" src="/img/manage_classes/students_tab.png" /></p>
+<ol>
+<li>You will see all students in your course displayed on this screen. Find the student whose password needs to be changed and click on the blue triple dot icon to the right of their name. Choose <strong>Change students password</strong> and follow the steps to reset.</li>
+</ol>
+<h2 id="forgot-your-password">Forgot your password<a class="headerlink" href="#forgot-your-password" title="Permanent link"></a></h2>
+<p>If you have forgotten your password, you should use the <strong>lost password</strong> link on the log-in page or enter your email in the reset password area (see image below) to reset your password automatically via email.</p>
+<p><strong>For School and University students only:</strong> If you do not have access to the email address you used in creating your Codio account and you are a student, please contact your teacher. He or she will be able to reset your password for you.</p>
+<p>If you wish to change your password (you should also do this if you forgot your password and it was reset) follow these steps:</p>
+<ol>
+<li>Click on your name and gravatar (bottom left of screen)</li>
+</ol>
+<p><img alt="Profile Picture" src="/img/what_students_do/forgotpassword/profilepic.png" /></p>
+<ol>
+<li>From the options along the top of the page, choose <strong>Account</strong></li>
+</ol>
+<p><img alt="Account settings area" src="/img/what_students_do/forgotpassword/account.png" /></p>
+<ol>
+<li>About halfway down the <strong>Account</strong> page is the <strong>Change Password</strong> area. The student should enter their existing password and the new password, and then click <strong>Update password</strong>.</li>
+</ol>
+<p><img alt="Change Password" src="/img/what_students_do/forgotpassword/change.png" /></p>
+<p>Three attempts are allowed before your account will be temporarily suspended. You can try again in 15 minutes</p>
+<h2 id="public-key">Public key<a class="headerlink" href="#public-key" title="Permanent link"></a></h2>
+<p>Codio automatically generates a public key for your account. This key can then be used whenever Codio attempts communication with an external server that requires public/private key based authentication such as SSH or SFTP access.</p>
+<p><img alt="public key dialog" src="/img/prefs-account-ssh.png" /></p>
+<h3 id="where-is-it-used">Where is it used?<a class="headerlink" href="#where-is-it-used" title="Permanent link"></a></h3>
+<p>Codio makes use of the public key in the following places</p>
+<ul>
+<li><a href="/project/ide/tools/deployment/#sftp-target-type">SFTP deployment target</a></li>
+<li><a href="/project/ide/tools/deployment/#rsync-target-type">RSYNC deployment target</a></li>
+<li><a href="/project/ide/tools/ssh/">SSH Terminal</a></li>
+<li><a href="/project/ide/editing/#git-mercurial-svn">Git</a></li>
+</ul>
+<p>In both cases, you will need to install the public key onto the remote system. In the case of SFTP, you should know how to do this already.</p>
+<h3 id="adding-your-public-key-to-a-remote-server">Adding your public key to a remote server<a class="headerlink" href="#adding-your-public-key-to-a-remote-server" title="Permanent link"></a></h3>
+<p>If you want to get your Codio public key onto a remote server, just press the Upload Public Key button. You enter your user credentials on the remote and Codio will get it installed in the <code>~/.ssh/authorized_keys</code> file.</p>
+<p><img alt="authtoken" src="/img/prefs-account-ssh-dialog.png" /></p>
+<h3 id="adding-your-public-key-to-github-or-bitbucket">Adding your public key to GitHub or BitBucket<a class="headerlink" href="#adding-your-public-key-to-github-or-bitbucket" title="Permanent link"></a></h3>
+<p>If you are working with GitHub or BitBucket, then you need to install the public key. Codio makes this very easy for you. Goto <strong>Codio&gt;Account</strong> and select GitHub or BitBucket tab and select 'Upload your public key to GitHub/BitBucket'</p>
+<p><img alt="SSH Public" src="/img/prefs-account-gh1.png" /></p>
+<p>You will be redirected to your GitHub/BitBucket account and asked to authorise the application</p>
+<p>On accepting this you will then be redirected back to your Codio account.</p>
+<h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link"></a></h2>
+<p>The GitHub tab lets you associate your account with your GitHub account and where you can upload your public key. See <a href="/dashboard/account/#public-key">SSH Key</a></p>
+<p><img alt="SSH Public" src="/img/prefs-account-gh1.png" /></p>
+<p>You can sign in with GitHub as well.</p>
+<h2 id="bitbucket">BitBucket<a class="headerlink" href="#bitbucket" title="Permanent link"></a></h2>
+<p>The BitBucket tab lets you associate your account with your BitBucket account and where you can upload your public key. See <a href="/dashboard/account/#public-key">SSH Key</a></p>
+<p>You can sign in with BitBucket as well.</p>
+<h2 id="change-account-details">Change account details<a class="headerlink" href="#change-account-details" title="Permanent link"></a></h2>
+<p>You can change the following settings</p>
+<ul>
+<li><strong>Account name</strong> - changing this will not affect the URL associated with your account name. This name is for display and communication purposes only.</li>
+<li><strong>Email address</strong></li>
+</ul>
+<p><img alt="Profile Settings" src="/img/prefs-ac-profile.png" /></p>
+<h2 id="delete-your-account">Delete your account<a class="headerlink" href="#delete-your-account" title="Permanent link"></a></h2>
+<p>You can delete your account at any time from the <strong>Codio &gt; Account</strong> menu item and going to the <strong>Account</strong> tab</p>
+<p><img alt="authtoken" src="/img/delete.png" /></p>
+<p>Please be warned that when you do finally close the account, it cannot be retrieved, nor can its contents, so please make sure you export any projects you want to keep or push the to a remote Git repo.</p>
+<h2 id="organisation-billing">Organisation Billing<a class="headerlink" href="#organisation-billing" title="Permanent link"></a></h2>
+<p><img alt="Organizations Billing" src="/img/organisations_billing.png" /></p>
+<p>For Schools and University organisations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts),for active subscriptions, view the details of the current plan, enter the email of the person who should receive billing notifications and also where you can switch your organisation to <strong>Student Pay</strong> where students are prompted to enter a credit card when they sign up.</p>
+<p>To access the organsisation billing screen:</p>
+<ol>
+<li>Click on your profile picture (bottom left of <strong>Courses</strong>)</li>
+</ol>
+<p><img alt="Profile" src="/img/class_administration/profilepic.png" />
+1. Click the name of your school (under <strong>My Organizations</strong>)</p>
+<p><img alt="Org Name" src="/img/class_administration/addteachers/myschoolorg.png" />
+1. You will see billing options listed across the top of the page.
+<img alt="Org Billing" src="/img/class_administration/orgbilling.png" /></p>
+<p>Select the country you are in and 'Save'. Then enter the number of student licenses required. The plans available will be shown , select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.</p>
+<p>If you have a promotion code, enter it in the appropriate field. Validation is case insensitive.</p>
+<ul>
+<li>If the promotion code is invalid, the message <code>Invalid promotion code</code> will be shown</li>
+<li>If the promotion code has expired, the message <code>This promotion code has expired</code> will be shown</li>
+<li>Promotion codes are only available for new users and not available for self pay plans.</li>
+</ul>
+<p>When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.</p>
+<p>The option to switch to a Self Pay plan where students are prompted to enter a credit card when they sign up is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.</p>
+<p><img alt="Organizations Billing" src="/img/organisations_invoicing.png" /></p>
+<p><strong>Important</strong> : This is accessed from the Organization screens and having clicked on your Organization. Please do not use the normal Billing area for individuals that you can access by clicking on your name/gravatar (bottom left of screen) and selecting the <strong>Billing</strong> tab unless you wish to subscribe as an <strong>Individual</strong> or already are subscribed as an <strong>Individual</strong></p>
+<h2 id="individual-billing">Individual Billing<a class="headerlink" href="#individual-billing" title="Permanent link"></a></h2>
+<p>The user billing screen can be found on the Billing tab of your Account Settings. You can find both your subscription details and billing history here.</p>
+<p><img alt="Account Billing" src="/img/account_billing.png" /></p>
+<p>To access your individual billing area, follow these steps:</p>
+<ol>
+<li>
+<p>Click on your name and gravatar (bottom left of screen)
+<img alt="authtoken" src="/img/what_students_do/forgotpassword/profilepic.png" /></p>
+</li>
+<li>
+<p>From the options along the top of the page, choose <strong>Billing</strong></p>
+</li>
+</ol>
+<p><a name="bookstore"></a></p>
+<h3 id="bookstores">Bookstores<a class="headerlink" href="#bookstores" title="Permanent link"></a></h3>
+<p>Some institutions may provide Codio licenses via the bookstore. Your course instructor or course syllabus will specify if this is available at your particular school.</p>
+<p>A single license can be used for a specified timeframe - 1 semester (5 months), 2 semesters (10 months) or a year. Specific licenses options may depend on your local bookstore.</p>
+<p>Purchasing a license</p>
+<p>To purchase a license, you can request the following from your bookstore</p>
+<pre><code>1 Semester  - Codio 1-Semester Subscription - ISBN: 978-1-7331872-5-1
+2 Semesters - Codio 2 Semester Subscription ISBN 978-1-73331872-8-2
+Annual - Codio Annual Subscription ISBN # 978-1-7331872-1-3
+</code></pre>
+<p>Your bookstore will provide you with a sheet that contains a code that can be used to activate your subscription for the specified timeframe.</p>
+<p>NOTE: A single subscription can be used for multiple courses using Codio during the specified timeframe.</p>
+<h3 id="activating-a-bookstore-license">Activating a bookstore license<a class="headerlink" href="#activating-a-bookstore-license" title="Permanent link"></a></h3>
+<p>To log in to Codio, please follow your instructor's directions. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc) or through Codio.com using a course token.</p>
+<p>The first time you log in, there will be a small banner at the top requesting you go to “Billing”. Please click on it or navigate to it by clicking on your username in the bottom left and selecting the “Billing” tab and after selecting the "Plan" drop down field go to the <strong>Redeem Code</strong> option and click the <strong>Upgrade</strong> button where you can then enter the code provided to you. Please note the code is case sensitive so enter it exactly as given.
+If you have any problems <a href="/dashboard/support/">contact us</a> through your Codio account or email us at <a href="mailto:help@codio.com">help@codio.com</a></p>
+<h3 id="educational-discounts">Educational Discounts<a class="headerlink" href="#educational-discounts" title="Permanent link"></a></h3>
+<p>We offer substantial <strong>Whole School</strong> license discounts for Schools, Colleges and Universities as well as a full 30 day trial of all the Education Features</p>
+<h2 id="contact-us">Contact us<a class="headerlink" href="#contact-us" title="Permanent link"></a></h2>
+<h3 id="customer-technical-support">Customer Technical Support<a class="headerlink" href="#customer-technical-support" title="Permanent link"></a></h3>
+<p>We have an extensive documentation section where you can find out how to <a href="/courses/classes/#add-students-to-a-course">add students</a>, <a href="/dashboard/organisations/#add-teachers">add teachers</a> and much more.</p>
+<p>To access the documentation</p>
+<ul>
+<li>Click <strong>Help</strong> in the top menu bar on our website.</li>
+</ul>
+<p>If you are logged into Codio, you can access the documentation section in 2 ways:</p>
+<ul>
+<li>if on the Dashboard, by selecting the <strong>Help</strong> button from the left-hand menu.</li>
+<li>or if you have a project/unit open, from the top menu bar using Help&gt;Documentation</li>
+</ul>
+<p>To contact us:</p>
+<p><strong>Video: Access In-Product Support</strong></p>
+<p><a href="https://codio.wistia.com/medias/ltj04dugy8?wvideo=ltj04dugy8"><img src="https://embedwistia-a.akamaihd.net/deliveries/4c8f0e09eb9ab625c0eeb49f7d4043b1.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p>
+
+<ul>
+<li>There is a contact button on the bottom right hand corner of our website.</li>
+</ul>
+<p>If you are logged into Codio:</p>
+<ul>
+<li>if on the Dashboard, you can use the <strong>Support</strong> button from the left-hand menu (just below the <strong>Help</strong> button)</li>
+<li>or if you have a project/unit open, from the top menu bar using <strong>Help&gt;Support/Contact Us</strong>.</li>
+</ul>
+<p>If it is out of our office hours, we will get back to you as soon as possible.</p>
+<h3 id="sales-inquiries">Sales Inquiries<a class="headerlink" href="#sales-inquiries" title="Permanent link"></a></h3>
+<p>If you are interested in purchasing Codio, please see our <a href="https://www.codio.com/pricing">pricing</a>. If you have any questions about how Codio could be right for you, we offer <a href="https://www.codio.com/demo">demos and webinars</a> for you and your colleagues. Or alternatively, please email us at help@codio.com, and we will get in touch as soon as possible.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

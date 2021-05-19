@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/resources/changelog/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Changelog - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Codio-Resources/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Resource-Tools/crunch/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>This page contains a list of recent updates made to the Codio platform. We update Codio regularly, so this page should provide information to help you.</p>
+<p>We do not report small bug fixes or issues that affect individual users, who we will notify directly.</p>
+<p><code>[I]</code> = Update or improvement
+<code>[F]</code> = New feature</p>
+<p><strong>May 2021</strong></p>
+<ul>
+<li><code>[I] [18th]</code>: Add extra credit field to csv downloads of students work</li>
+<li><code>[F] [13th]</code>: Add support for <a href="/resources/Resource-Tools/pyret">Pyret</a></li>
+<li><code>[I] [12th]</code>: Remove students ability to grant permissions to other students in assignments</li>
+<li><code>[F] [11th]</code>: Add support for realtime <a href="/project/ide/features/#audiovideo-chat-support">Audio/Video/Chat</a> between active users in assignments/projects</li>
+<li><code>[I] [ 6th]</code>: Fix problem with top menu hiding when students mark assignments as complete</li>
+<li><code>[I] [ 6th]</code>: Improve <a href="courses/authoring/#page">Close Tabs</a> to allow option to retain terminal session from previous sections</li>
+<li><code>[F] [ 5th]</code>: Add support for teachers to enable a <a href="/courses/grading/#accessing-student-work">writable copy</a> of students work at any time</li>
+<li><code>[F] [ 4th]</code>: Add support for <a href="/courses/classes/#participation-grading">Participation Grading</a></li>
+</ul>
+<p><strong>April 2021</strong></p>
+<ul>
+<li><code>[F] [30th]</code>: Add support to integrate with <a href="/courses/google-classroom/">Google Classrooms</a></li>
+<li><code>[I] [27th]</code>: Update handling of guides opening in teachers working copies</li>
+<li><code>[I] [27th]</code>: Fix problem with Junit test output</li>
+<li><code>[F] [21st]</code>: Add support for <a href="/resources/Resource-Tools/pencilcode">Pencil Code</a></li>
+<li><code>[I] [21st]</code>: Improve [PDF export](/courses/classes/#pdf allowing all selected assignments to be compiled into separate or one PDF file</li>
+<li><code>[I] [21st]</code>: Add SQL query grading support to <a href="/courses/assessments/#execution">Standard Code Test</a></li>
+<li><code>[I] [20th]</code>: Add support to allow <a href="/courses/lti1_0/#manual-entry">anonymous</a> LTI connections so students name/email addresses not passed to Codio</li>
+<li><code>[I] [14th]</code>: Improve handling of student grading for teachers</li>
+<li><code>[F] [14th]</code>: Add support for teachers to allow students to <a href="/courses/classes/#reset-assignment-by-student">reset</a> assignments in the course</li>
+<li><code>[I] [12th]</code>: Improve playing of video files within projects</li>
+<li><code>[I] [ 8th]</code>: Fix problem with handling of variables in debugger</li>
+<li><code>[I] [ 7th]</code>: Improve <a href="/courses/classes/#testing-your-script-in-the-ide">Test Autograde Script</a> to allow control of which autograded assessments to test</li>
+<li><code>[I] [ 6th]</code>: Fix issue allowing students to access assignments before start date where Visibility on Disabled = Read Only</li>
+<li><code>[I] [ 6th]</code>: Add support for custom feedback message handling in <a href="/courses/assessments/#using-junit">Junit</a> advanced code test</li>
+<li><code>[I] [ 6th]</code>: Improve publish assignment dialog</li>
+<li><code>[F] [ 1st]</code>: Added support for <a href="/resources/Resource-Tools/jeroo">Jeroo</a></li>
+</ul>
+<p><strong>March 2021</strong></p>
+<ul>
+<li><code>[F] [29th]</code>: Add support to <a href="/courses/classes/#exam-proctoring">extend time</a> for individual students when a time limit is enabled for exam proctoring</li>
+<li><code>[I] [25th]</code>: Add ability to filter by <a href="/courses/assessments/#deleting-an-assessment">assessments</a> not used and delete all together</li>
+<li><code>[I] [25th]</code>: Fix problem adding complex assessments from <a href="/courses/assessments-library/#codios-global-assessments-library">assessment library</a></li>
+<li><code>[I] [23rd]</code>: Improve visibility for teachers to <a href="/courses/grading/#previewing-assignments">preview</a> course assignments</li>
+<li><code>[I] [22nd]</code>: Fix formatting in <a href="/courses/grading/#download-csv-summary">Download CSV</a></li>
+<li><code>[I] [22nd]</code>: Fix problem with <a href="/project/ide/editing/#beautify-javascript">Beautify</a></li>
+<li><code>[I] [17th]</code>: Fix problem with handling of LTI Course Copy when user creating parent course is removed from organisation</li>
+<li><code>[I] [17th]</code>: Fix problem with Teach &amp; Edit tabs not synching location when changing tabs</li>
+<li><code>[F] [15th]</code>: Add ability to send <a href="/courses/classes/#notification-emails">Notification</a> emails to students when either not started, started but not completed and also when grade feedback is available for them to view</li>
+<li><code>[I] [12th]</code>: Add feature for teachers to obtain <a href="/courses/classes/#pdf">PDF</a> export of guides content for course assignments </li>
+<li><code>[I] [11th]</code>: Update Teacher Dashboard view separating 'Assignments' to 'Teach' &amp; 'Edit' tabs</li>
+<li><code>[I] [ 5th]</code>: Add filter tag to allow search by name in <a href="/courses/assessments-library/#using-the-global-assessments-library">Assessment Library</a></li>
+<li><code>[I] [ 4th]</code>: Restrict students from signing up by token or invite URL where course is LTI enabled. See <a href="/courses/classes/#add-students-to-a-course">Adding students to a course</a> for more information</li>
+<li><code>[I] [ 4th]</code>: Increase limit allowed on uploading files</li>
+<li><code>[F] [ 2nd]</code>: Add ability for students to earn <a href="/courses/grading/#extra-credit">extra credit</a> on assignments</li>
+<li><code>[I] [ 1st]</code>: Add shortcut for <a href="/courses/coursemanagement/#publishing">publishing</a> assignments in courses</li>
+<li><code>[I] [ 1st]</code>: Update handling of <a href="/courses/classes/#exam-proctoring">Forward Only Navigation</a> function to warn students of un-answered assessments before allowing them to proceed to next page. They will have the option to review their answers or leave un-answered if they wish</li>
+</ul>
+<p><strong>February 2021</strong></p>
+<ul>
+<li><code>[I] [17th]</code>: Update handling of <a href="/courses/assessments/#autograde-free-text">Autograde Free Text</a> assessment feedback</li>
+<li><code>[I] [ 2nd]</code>: Allow teachers to make <a href="/courses/grading/#accessing-student-work">changes to students</a> completed/read-only assignments</li>
+<li><code>[F] [ 2nd]</code>: Allow <a href="/courses/classes/#restricting-courses-from-being-clonedshared">cloning/sharing</a> of courses to be restricted</li>
+</ul>
+<p><strong>January 2021</strong></p>
+<ul>
+<li><code>[I] [25th]</code>: Add configuration option for nbgrader/jupyter units to allow ClearSolutions.code_stub to be used</li>
+<li><code>[I] [25th]</code>: Fix problem with teacher guidance not showing when previewing assignment in course</li>
+<li><code>[I] [22nd]</code>: Add support for <a href="/courses/assessments/#ungraded-assessments">ungraded assessments</a> and for survey usage</li>
+<li><code>[I] [19th]</code>: Update <a href="/dashboard/desktopapp/">Desktop App</a> for new student dashboard</li>
+<li><code>[I] [18th]</code>: Add Student Path field for python unit tests</li>
+<li><code>[I] [18th]</code>: Add prolog syntax highlighting support</li>
+<li><code>[F] [18th]</code>: Added <a href="/project/ide/tools/ghapi/">Git Hub API</a> that can be used with <a href="https://github.com/features/actions">Git Hub Actions</a> to automate the publication of assignments.</li>
+<li><code>[I] [15th]</code>: Add support for HTML to be used in creating <a href="/dashboard/organisations/#creating-content">student consent form</a></li>
+<li><code>[F] [11th]</code>: New <a href="/students/">Student Dashboard</a> released with ability for students to switch back to old dashboard if they wish for next month</li>
+<li><code>[I] [ 5th]</code>: Fix issue with teachers seeing different standard code test output to students</li>
+<li><code>[I] [ 5th]</code>: Improve standard and advanced code tests allowing files to be dragged into command/pre-exec command fields and automatically populate with relevant execution code</li>
+<li><code>[I] [ 5th]</code>: Improve handling of Multiple Choice questions to recalculate score for students where initially published with incorrect settings</li>
+</ul>
+<p><strong>December 2020</strong></p>
+<ul>
+<li><code>[I] [24th]</code>: Add support to show images in <a href="/courses/assessments/#fill-in-the-blank">Fill in the Blank</a> drop down option, and also in distractor field</li>
+<li><code>[I] [23rd]</code>: Add support for partial points in <a href="/courses/assessments/#grading_2">Multiple Choice</a> assessment</li>
+<li><code>[I] [22nd]</code>: Update course creation changing to show button consistent with creating new projects/stacks/packs</li>
+<li><code>[I] [18th]</code>: Improve handling of adding new teachers to organisation and/or course as <strong>Read-Only</strong> teachers</li>
+<li><code>[I] [18th]</code>: Fix problem with UnitTestGrader type of Parsons Puzzle assessment not showing correctly in student's assignment</li>
+<li><code>[I] [18th]</code>: Improve handling for saving of <a href="/resources/Resource-Tools/scratch/">Scratch</a> projects</li>
+<li><code>[I] [16th]</code>: Add support for partial points with <a href="/courses/assessments/#grading_3">Fill in the Blanks</a> assessment allowing student to get % of total points based on % of blanks they get correct</li>
+<li><code>[I] [ 2nd]</code>: Improve handling of publishing Jupyter Notebook assignments to better update students version if already started</li>
+</ul>
+<p><strong>November 2020</strong></p>
+<ul>
+<li><code>[F] [27th]</code>: Add ability to <a href="/courses/coursemanagement/#reverting-to-an-earlier-version">Revert to earlier versions</a></li>
+<li><code>[I] [25th]</code>: Improve handling of <a href="/dashboard/account/#organisation-billing">self-invoicing</a></li>
+<li><code>[I] [24th]</code>: Update handling of <a href="/courses/assessments/#parsons-puzzle-assessments">Parsons Puzzle</a> assessments to always show check/submit button irrespective of submit button surpressed in guides</li>
+<li><code>[I] [23rd]</code>: Add ability to <a href="/courses/assessments/#execution_2">randomise</a> answers to students for Multiple Choice assessment</li>
+<li><code>[I] [19th]</code>: Fix problem with final grades in disabled assignments</li>
+<li><code>[I] [19th]</code>: Fix problem with time shown in assessments being for when assignment opened, not when assessment run</li>
+<li><code>[I] [19th]</code>: Improve handling <a href="/courses/classes/#updating-and-sending-notifications-to-child-courses">Master/Child</a> to make pulling into child courses simpler</li>
+<li><code>[I] [17th]</code>: Improve handling of export course data for large courses</li>
+<li><code>[I] [17th]</code>: Update handling of adjusting deadline for assignments past end time where not previously started</li>
+<li><code>[I] [12th]</code>: Fix issue with submission of assessments in completed assignment when in disabled state</li>
+<li><code>[I] [11th]</code>: Improve switch to self pay dialogs</li>
+<li><code>[I] [10th]</code>: Improve handling of course view remembering module collapsed state on next visit</li>
+<li><code>[I] [10th]</code>: Fix issue with org owners not seeing student count in all courses</li>
+<li><code>[I] [10th]</code>: Improve handling of partial point grading</li>
+<li><code>[I] [ 9th]</code>: Update handling of changes to grading rubrics for students grandes</li>
+<li><code>[F] [ 5th]</code>: Add support for code test assessments output box to be expanded</li>
+<li><code>[I] [ 2nd]</code>: Fix problem with MCQ answer colours showing incorrectly</li>
+<li><code>[I] [ 2nd]</code>: Fix problem in Junit test parsing</li>
+</ul>
+<p><strong>October 2020</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Update handling of code blocks in guides</li>
+<li><code>[I] [30th]</code>: Fix problem with courses not showing correctly when switching between teacher and student views</li>
+<li><code>[F] [30th]</code>: <a href="/resources/Resource-Tools/scratch">Scratch</a> added</li>
+<li><code>[I] [29th]</code>: Fix problem with LTI navigation to large codio courses</li>
+<li><code>[I] [23rd]</code>: Fix issue with Mark as Completed button in Guides not updating promptly</li>
+<li><code>[I] [22nd]</code>: Fix problem with unittest not correctly parsing test outputs</li>
+<li><code>[F] [22nd]</code>: Add configuration option for nbgrader/jupyter units to allow <a href="/courses/grading/#to-run-custom-grading-with-jupyter">custom grading scripts</a> with jupyter </li>
+<li><code>[F] [20th]</code>: Add feature to allow teachers to control receipt of <a href="/courses/classes/#autograde-notification-failure">autograde failure notifications</a> in a course</li>
+<li><code>[I] [20th]</code>: Update user identification handling in LMS based on LMS userID to allow users to change email address in their LMS and continue to use same Codio account</li>
+<li><code>[I] [19th]</code>: Add 'Parent Course' section to Module browser when <a href="/courses/coursemanagement/#adding-a-module">adding new module</a> into a course</li>
+<li><code>[I] [19th]</code>: Add copy to clipboard icon to <a href="/courses/authoring/#code-blocks">Code Blocks</a></li>
+<li><code>[I] [14th]</code>: Update handling of filters on assessments listings</li>
+<li><code>[I] [ 7th]</code>: Further updates to improve handling of course dashboard loading</li>
+<li><code>[I] [ 7th]</code>: Add ability to reorder answers for <a href="/courses/assessments/#execution_2">Multiple choice question</a> assessment</li>
+<li><code>[I] [ 5th]</code>: Improve handling of dragging/dropping assignments into modules to place where dropped</li>
+<li><code>[I] [ 5th]</code>: Update handling of changing passwords to require existing password</li>
+<li><code>[I] [ 2nd]</code>: Update handling of course dashboard loading to improve loading times on slow/intermittent internet connections</li>
+<li><code>[I] [ 1st]</code>: Add ability to seach list of assessments in a project by name,point or order in guides.</li>
+</ul>
+<p><strong>September 2020</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Fix issue with <a href="/dashboard/desktopapp/">Desktop App</a> when connecting to assignments in courses</li>
+<li><code>[F] [29th]</code>: Add distractors for <a href="courses/assessments/#execution_3">Fill in the blank</a> assessment when showing possible values</li>
+<li><code>[F] [25th]</code>: Add Time Limit option for <a href="/courses/classes/#exam-proctoring">exam proctoring</a></li>
+<li><code>[I] [25th]</code>: Allow <a href="/courses/classes/#adjusting-deadline-for-individual-students">deadlines</a> to be adjusted forward by days/hours and minutes</li>
+<li><code>[I] [23rd]</code>: Update handling of visibility on completed to require students to change status of assignment from completed to be able to continue working</li>
+<li><code>[I] [18th]</code>: Update handling of visibility on disabled for assignments not started before end date of course</li>
+<li><code>[F] [16th]</code>: Add ability to more easily <a href="/courses/assessments/#generate-items">generate items</a> for Standard Code test</li>
+<li><code>[I] [16th]</code>: Fix problem with Code Commenting where guides layout protected</li>
+<li><code>[I] [15th]</code>: Improvements for Code Commenting to remember toggled state and to show new comments in real time</li>
+<li><code>[I] [15th]</code>: Improve handling of .svg files in books</li>
+<li><code>[I] [14th]</code>: Fix problem with Fill in the Blank assessment points allocation</li>
+<li><code>[I] [14th]</code>: Improve handling of <code>&lt;pre&gt;</code> tags used in Fill in the Blank assessments</li>
+<li><code>[I] [14th]</code>: Improve presentation of adjusted deadline details to students and teachers</li>
+<li><code>[I] [ 9th]</code>: Further improvements in handling of adjusting deadlines past end date of assignments</li>
+<li><code>[I] [ 3rd]</code>: Improve handling of adjusting deadlines past end date of assignments</li>
+<li><code>[I] [ 3rd]</code>: Improve course assignment list handling remembering scroll location from previous visit</li>
+<li><code>[I] [ 3rd]</code>: Add additional student sorting options at assignment level</li>
+<li><code>[I] [ 3rd]</code>: Improve handling for resolving Code comments</li>
+<li><code>[I] [ 1st]</code>: Add support for 'pull' in child courses for books</li>
+</ul>
+<p><strong>August 2020</strong></p>
+<ul>
+<li><code>[I] [27th]</code>: Improve handling of teacher/student switching</li>
+<li><code>[I] [26th]</code>: Add support for grading rubric items with <a href="/courses/assessments/#grade-book-assessments">Grade Book assessment</a></li>
+<li><code>[I] [26th]</code>: Add support for <a href="/courses/classes/#anonymous-grading">Anonymous Grading</a></li>
+<li><code>[I] [21st]</code>: Improve information shown to students from <a href="/courses/classes/#teachers-grading">teacher grading</a></li>
+<li><code>[I] [19th]</code>: Improve accesssibility in clickable buttons/icons for screen readers</li>
+<li><code>[I] [17th]</code>: Improve access to Code Comments within Guides settings</li>
+<li><code>[I] [13th]</code>: Fix problem with FITB assessment overflowing callout area</li>
+<li><code>[I] [12th]</code>: Fix issue with downloading user access data</li>
+<li><code>[I] [12th]</code>: Improve rubric handling allowing word wrapping and multiple lines</li>
+<li><code>[I] [12th]</code>: Fix problem with guides edit button</li>
+<li><code>[I] [12th]</code>: Improve view of modules when adding existing into courses</li>
+<li><code>[I] [11th]</code>: Add <a href="/courses/grading/#code-commenting">Code Commenting</a> support</li>
+<li><code>[I] [10th]</code>: Fix problem selecting book based content in assignment</li>
+<li><code>[I] [ 5th]</code>: Add support for <a href="/courses/lti1_0/#teacher-roles">LTI Roles</a></li>
+<li><code>[I] [ 5th]</code>: Add support for new files to be added to existing assignments</li>
+</ul>
+<p><strong>July 2020</strong></p>
+<ul>
+<li><code>[I] [31st]</code>: UI/icon changes for guides editor</li>
+<li><code>[I] [30th]</code>: Improve handling of autograde scripts where error causes autograde URL not to be called</li>
+<li><code>[I] [29th]</code>: Add ability to easily amend <a href="/courses/assessments/#editing-points-given-for-an-assessment">assessment points</a> for multiple assessments</li>
+<li><code>[I] [28th]</code>: Accessibility improvements</li>
+<li><code>[I] [21st]</code>: Add support for partial points in <a href="/courses/assessments/#standard-code-tests">standard code test</a> assessment</li>
+<li><code>[F] [21st]</code>: Add <a href="/courses/grading/#cursor-presence">cursor presence</a> to show other users activity in project/assignment in real time</li>
+<li><code>[I] [16th]</code>: UI updates for <a href="/courses/assessments-library/">Assessment Library</a></li>
+<li><code>[I] [14th]</code>: Fix issue switching Guides to edit mode</li>
+<li><code>[I] [14th]</code>: Improve password management advising users if password used has been leaked</li>
+<li><code>[I] [14th]</code>: Fix issues opening 'Shared with me' projects</li>
+<li><code>[I] [14th]</code>: Hide <code>.codio</code> file in assignments without guides</li>
+<li><code>[I] [14th]</code>: Enlarge the grade field on course-assignment screen</li>
+<li><code>[I] [14th]</code>: Fix issue with Parsons puzzle</li>
+<li><code>[I] [ 8th]</code>: Add support for AST Parser for the Processing Language</li>
+<li><code>[I] [ 8th]</code>: Improve handling of script output for free text auto assessment if script passes</li>
+<li><code>[I] [ 8th]</code>: Improve handling of incompatible assessments when updating course assignments</li>
+<li><code>[I] [ 8th]</code>: Remove http preview option</li>
+<li><code>[I] [ 7th]</code>: Allow updating to the latest version of the book for all assignments in a course</li>
+<li><code>[I] [ 3rd]</code>: Update guides table of contents, moving buttons to the top</li>
+<li><code>[I] [ 3rd]</code>: Fix problem with release grade settings not passing correctly when cloning course</li>
+<li><code>[I] [ 3rd]</code>: Add example using <a href="courses/authoring/#collapsible-content">collapsible content</a> in guides</li>
+<li><code>[I] [ 2nd]</code>: Update default points for assessments from 1 to allow better implementation of partial points</li>
+<li><code>[F] [ 2nd]</code>: Add support for <a href="https://en.wikipedia.org/wiki/Regular_expression">Regular Expressions</a> in <a href="/courses/assessments/#regular-expression-support">Fill in the Blank assessments</a></li>
+<li><code>[I] [ 1st]</code>: Fix issue with roles when inviting teachers to organisation</li>
+<li><code>[I] [ 1st]</code>: Fix layout of expand/collapse arrows shown in dialogs</li>
+</ul>
+<p><strong>June 2020</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Improve handling of multiple incorrect login password attempts</li>
+<li><code>[I] [30th]</code>: Update naming of code playback tabs</li>
+<li><code>[I] [22nd]</code>: Improve handling of teachers accessing students completed assignments</li>
+<li><code>[I] [22nd]</code>: Enhance Autograde scripting functions. See <a href="/courses/classes/#example-python-grading-script">here</a> and <a href="/courses/assessments/#partial-points">here</a> for more information and examples</li>
+<li><code>[I] [22nd]</code>: Improve loading of large courses lists</li>
+<li><code>[I] [22nd]</code>: Optimise messaging for teachers when accessing students assignments</li>
+<li><code>[I] [22nd]</code>: Fix issue with Project settings values of ALLOW PRIVATE STATIC PREVIEW and PROTECT DYNAMIC PORTS params not being correctly applied in student's assignment project</li>
+<li><code>[I] [19th]</code>: Update <a href="/courses/assessments/#parsons-puzzle-assessments">Parsons Puzzle</a> assessment</li>
+<li><code>[I] [17th]</code>: Allow users to be <a href="/courses/classes/#enabling-teachers-to-be-student-in-a-course">teacher and student</a> in same course</li>
+<li><code>[F] [15th]</code>: <a href="/courses/grading/#code-playback">Code Playback</a> allowing teachers to playback students steps</li>
+<li><code>[I] [15th]</code>: Improve messages in empty archived courses</li>
+<li><code>[I] [12th]</code>: Make jupyter lock cell editing flag value as true by default</li>
+<li><code>[I] [11th]</code>: Fix problem with loading course listings</li>
+<li><code>[I] [10th]</code>: Update logic handling renewal dates for <a href="/dashboard/account/#organisation-billing">self invoicing</a></li>
+<li><code>[I] [10th]</code>: Replace fonts.com and typekit.net fonts with Google fonts</li>
+<li><code>[I] [ 9th]</code>: Fix problem when deleting last page in guides </li>
+<li><code>[I] [ 8th]</code>: Fix problem with guides fonts</li>
+<li><code>[I] [ 5th]</code>: Improve naming of preview tabs</li>
+<li><code>[I] [ 5th]</code>: Fix problem for teachers opening students jupyter notebook files</li>
+<li><code>[I] [ 3rd]</code>: Fix issue with formatting of <code>.md</code> files downloaded from projects/assignments</li>
+<li><code>[I] [ 3rd]</code>: Fix problem with jupyter assignment feedback for multiple submissions and/or publishes</li>
+<li><code>[I] [ 1st]</code>: Fix problem with deployment functions</li>
+<li><code>[I] [ 1st]</code>: Update behaviour of 4 panel guides layout</li>
+</ul>
+<p><strong>May 2020</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Update content in $CODIO_AUTOGRADE_ENV variable</li>
+<li><code>[I] [29th]</code>: Fix problem running autograde scripts on archived assignments</li>
+<li><code>[I] [28th]</code>: Improve messaging when errors in autograde scripts</li>
+<li><code>[I] [28th]</code>: Update message shown when users try to access others projects without permission</li>
+<li><code>[I] [27th]</code>: Fix issue with incorrect redirection when pressing enter on assessment name creation</li>
+<li><code>[I] [27th]</code>: Fix problem with 3 blue dot menu not being accessible on disabled assignments</li>
+<li><code>[I] [27th]</code>: Update search in documentation so Enter key no longer clears search field</li>
+<li><code>[I] [27th]</code>: Fix problem with assignment of partial points</li>
+<li><code>[I] [27th]</code>: Improve messaging for autograde script issues</li>
+<li><code>[I] [27th]</code>: Fix problem with visibility on completed</li>
+<li><code>[I] [26th]</code>: Fix issue where users can be added twice to project permissions</li>
+<li><code>[I] [26th]</code>: Update students assignments on next run if Gigabox settings are changed in the course</li>
+<li><code>[I] [26th]</code>: Improve message when users credentials not passed</li>
+<li><code>[I] [22nd]</code>: Improve messaging for students creating account from LMS</li>
+<li><code>[I] [21st]</code>: Upgrade user password requirements - min length to 8 symbols</li>
+<li><code>[I] [21st]</code>: Update messaging if user tries to open url of existing project of another user without permission</li>
+<li><code>[I] [21st]</code>: Fix problem with Blockly blocks in assignments</li>
+<li><code>[I] [19th]</code>: Fix problem accessing assignments from test student accounts</li>
+<li><code>[I] [18th]</code>: Fix problem creating similarly named assignments in different coursers</li>
+<li><code>[I] [15th]</code>: Improve <a href="/courses/classes/#pinunpin-units">Pin</a> function to allow multiple assignments to be pinned</li>
+<li><code>[I] [15th]</code>: Recommended stacks updated to use Ubuntu 18.04</li>
+<li><code>[F] [15th]</code>: <a href="/dashboard/support/#feedback">Codio Feedback</a> released where you can raise new feature requests and vote/comment on ideas raised by others</li>
+<li><code>[I] [14th]</code>: Fix problem with lack of context options when mouse right click on file tree root</li>
+<li><code>[I] [14th]</code>: Accessibility fixes/improvements</li>
+<li><code>[I] [13th]</code>: Fix problem with release grade switch showing incorrect status</li>
+<li><code>[F] [09th]</code>: Add <a href="/courses/classes/#exam-proctoring">Exam Mode Options</a> for course assignments</li>
+<li><code>[I] [08th]</code>: Update handling of archived courses showing in LMS's</li>
+<li><code>[I] [07th]</code>: Fix problem with searching/finding users/orgs/groups when adding permissions to projects/assignments</li>
+<li><code>[F] [07th]</code>: Update project/assignment creation to include configured .codio file and sample files</li>
+<li><code>[I] [06th]</code>: Update default Readme.md files created with new projects/assignments</li>
+<li><code>[I] [06th]</code>: Improve presentation of <a href="/project/ide/features/#creating-and-managing-debug-targets">Debug menu</a></li>
+</ul>
+<p><strong>April 2020</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Improve error messaging in Parsons Puzzle</li>
+<li><code>[I] [24th]</code>: Fix issue deleting tabs saved in course</li>
+<li><code>[I] [22nd]</code>: Improve handling of LMS roles passing to Codio </li>
+<li><code>[F] [21st]</code>: Add function to allow teachers to <a href="/courses/grading/#previewing-assignments">preview</a> assignments in courses</li>
+<li><code>[F] [20th]</code>: Add function to <a href="/courses/classes/#adding-new-assignments-from-master-to-child-courses">Add new assignments from Master to Child courses</a></li>
+<li><code>[F] [14th]</code>: Show assignment end date (where set) to students in their recently used cards in their <a href="/students/#courses">dashboard</a></li>
+<li><code>[I] [14th]</code>: Fix issue with mark as completed button not showing on frame reload</li>
+<li><code>[I] [14th]</code>: Update message to students when trying to start assignments in LTI enabled courses</li>
+<li><code>[I] [14th]</code>: Add Rubric feedback to students when viewing their grades</li>
+<li><code>[I] [14th]</code>: Add functions to allow pull to child courses at course module level</li>
+<li><code>[I] [14th]</code>: Improve updating child courses showing pull option for child of child courses</li>
+<li><code>[I] [13th]</code>: Added 'Number of started' and 'Number of completed' to student tab <a href="/courses/grading/#accessing-student-work">order by</a> field</li>
+<li><code>[I] [ 9th]</code>: <a href="https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10">Onboarding Guide</a> updated for new IDE</li>
+<li><code>[I] [ 8th]</code>: Fix issue in My Projects - Shared with Me</li>
+<li><code>[F] [ 8th]</code>: Add feature to set teachers as <strong>Read Only</strong> at <a href="/dashboard/organisations/#organisation-read-only-teachers">Organisation</a> and/or <a href="/courses/classes/#adding-teachers-to-a-course">Course</a> level</li>
+<li><code>[I] [ 8th]</code>: Accessing <a href="/resources/Codio-Resources/">Codio Resources</a> from IDE now opens in new tab</li>
+<li><code>[I] [ 7th]</code>: Improve updating child courses from master to only show pull button when updates available</li>
+<li><code>[I] [ 6th]</code>: Fix issue with incorrect format for <a href="/courses/grading/#download-csv-summary">download csv</a></li>
+<li><code>[I] [ 6th]</code>: Add functionality to allow updates to assignments in a master course to be <a href="/courses/classes/#working-with-masterchild-courses">pulled</a> to cloned courses</li>
+<li><code>[I] [ 3rd]</code>: Fix loading of guides content in <a href="https://www.codio.com/resources/intro-python">CS: Introduction in Python</a></li>
+<li><code>[I] [ 3rd]</code>: Rename <a href="/courses/grading/#the-grading-process">filter option names</a> for student grading</li>
+<li><code>[I] [ 2nd]</code>: Fix problem with LTI course integration parameter</li>
+<li><code>[I] [ 1st]</code>: Fix problem when trying to add <a href="https://www.codio.com/resources/intro-python">CS: Introduction in Python</a> resource to account</li>
+<li><code>[I] [ 1st]</code>: Fix problem filtering students by 'Not Graded' in a course</li>
+<li><code>[F] [ 1st]</code>: Release of new IDE improving Teacher section</li>
+<li><code>[F] [ 1st]</code>: Update internal IDE links to new documentation </li>
+</ul>
+<p><strong>January 2020</strong></p>
+<ul>
+<li><code>[I] [08th]</code>: Remove Firefox performance warning as earlier issues now addressed in latest FF versions</li>
+</ul>
+<p><strong>December 2019</strong></p>
+<ul>
+<li><code>[I] [17th]</code>: Update Phonegap API</li>
+<li><code>[I] [12th]</code>: Review handling of .git in authors units to improve collaboration</li>
+</ul>
+<p><strong>November 2019</strong></p>
+<ul>
+<li><code>[I] [22nd]</code>: Improve visibility of assessment id to list of assessments</li>
+<li><code>[I] [21st]</code>: Fix problem uploading images to stacks/packs/units/books/course/modules</li>
+<li><code>[I] [19th]</code>: Fix problem with assessment button not showing</li>
+<li><code>[F] [17th]</code>: Add support for LTI 1.3 integration</li>
+<li><code>[I] [11th]</code>: Fix problem connecting to BitBucket repo's</li>
+<li><code>[I] [06th]</code>: Update messaging when unable to publish jupyter based units</li>
+<li><code>[I] [05th]</code>: Update handling of users signing up through LMS</li>
+</ul>
+<p><strong>October 2019</strong></p>
+<ul>
+<li><code>[F] [16th]</code>: Add function to allow Classes to be sorted by begin date of class</li>
+<li><code>[I] [02nd]</code>: Fix problem with AOB allocation for self pay organisations</li>
+</ul>
+<p><strong>September 2019</strong></p>
+<ul>
+<li><code>[I] [27th]</code>: Improve handling of autograde scripts for large units</li>
+<li><code>[I] [24th]</code>: Improve accessibility function in Find panel</li>
+<li><code>[I] [19th]</code>: Fix problem opening files in same tab as guides</li>
+<li><code>[I] [11th]</code>: Fix problem with SSH connections</li>
+<li><code>[I] [09th]</code>: Fix problem with handling of answer/rationale for free text assessment</li>
+<li><code>[F] [04th]</code>: Add support for the standard input when debugging C/C++, node.js and GDB programs.</li>
+</ul>
+<p><strong>August 2019</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Fix problem with marking units as completed</li>
+<li><code>[I] [28th]</code>: Update handling of grade book comments</li>
+<li><code>[I] [28th]</code>: Improve stack creation when creating from an older stack</li>
+<li><code>[F] [28th]</code>: Add Codio Global Assessment library</li>
+<li><code>[I] [27th]</code>: Add hint to student tab in classes for number of students</li>
+<li><code>[I] [27th]</code>: Update handling of answer/rationale showing for students</li>
+<li><code>[F] [20th]</code>: Add Assessments Library to allow sharing of assessments</li>
+<li><code>[I] [15th]</code>: Fix issue with navigation after searching in guides</li>
+<li><code>[F] [15th]</code>: Add support for self pay students to purchase through institutions bookstores</li>
+<li><code>[I] [09th]</code>: Fix problem accessing projects in 'Shared with Me' area</li>
+<li><code>[I] [02nd]</code>: Fix problem deleting modules in course</li>
+</ul>
+<p><strong>July 2019</strong></p>
+<ul>
+<li><code>[I] [31st]</code>: Update handling ofviewing Git repo's in Codio account</li>
+<li><code>[I] [30th]</code>: Add <code>currentPage</code> and <code>totalNumberofPages</code> parameters for custom scripts</li>
+<li><code>[I] [30th]</code>: Fix problem with contact URL settings in IDE chat area</li>
+<li><code>[I] [29th]</code>: Fix issue with sorting of new classes being added</li>
+<li><code>[I] [25th]</code>: Fix issue with guides section list not correctly showing for completed unit</li>
+<li><code>[I] [23rd]</code>: Fix problem with focus on guides pages</li>
+<li><code>[I] [23rd]</code>: Redesign dialog pages for assessments</li>
+<li><code>[I] [19th]</code>: Add user cues when using git remote</li>
+<li><code>[I] [11th]</code>: Improve handling of long class names</li>
+<li><code>[I] [11th]</code>: Fix problem with color picker</li>
+<li><code>[I] [02nd]</code>: Update Class Dashboard pages and other menus for better accessibility</li>
+</ul>
+<p><strong>June 2019</strong></p>
+<ul>
+<li><code>[I] [19th]</code>: Update Dashboard pages for better accessibility</li>
+<li><code>[I] [17th]</code>: Improve handling of publication of large units</li>
+<li><code>[I] [11th]</code>: Fix issue with showing/hiding folders in guides</li>
+</ul>
+<p><strong>May 2019</strong></p>
+<ul>
+<li><code>[I] [17th]</code>: Fix guides navigation problem causing layout to be incorrect</li>
+<li><code>[I] [07th]</code>: Fix issue with library path not saving correctly in JUnit settings</li>
+<li><code>[I] [07th]</code>: Fix issue with debugger with Node 11</li>
+<li><code>[F] [06th]</code>: Add additional configuration options for nbgrader/jupyter units</li>
+<li><code>[I] [03rd]</code>: Improve handling of autograder custom scripts</li>
+</ul>
+<p><strong>April 2019</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Add <code>python working directory</code> parameter for Advanced Code Test to support python unit tests running from dot folders</li>
+<li><code>[I] [23rd]</code>: Update clike codemirror plugin for better handling of objective c files</li>
+<li><code>[I] [23rd]</code>: Fix layout problem for pull/push buttons in desktop app</li>
+<li><code>[I] [23rd]</code>: Fix problem with updating Jupyter Notebook units to a class</li>
+<li><code>[I] [22nd]</code>: Improve layout of private/public icon in class</li>
+<li><code>[I] [18th]</code>: Fix problem with autograde scripts where units are read only</li>
+<li><code>[F] [18th]</code>: Add support to extend timeout for nbgrader/jupyter units</li>
+<li><code>[I] [17th]</code>: Improve messaging where assessment submissions unable to complete correctly</li>
+<li><code>[I] [17th]</code>: Improve handling of code assessment submissions files</li>
+<li><code>[I] [16th]</code>: Update handling of test students to show correct class logged into</li>
+<li><code>[I] [15th]</code>: Fix problem with handling of grading templates for class units</li>
+<li><code>[I] [ 9th]</code>: Fix problem with changing theme in guides</li>
+<li><code>[I] [10th]</code>: Remove grading button when unit is opened as teacher</li>
+<li><code>[I] [10th]</code>: Fix problem with saving panel layout on submission</li>
+<li><code>[F] [10th]</code>: Add support for secure assessment script execution</li>
+<li><code>[I] [10th]</code>: Improve handling of copying links/tokens to show confirmation</li>
+<li><code>[F] [10th]</code>: Add assessment attempts count into download csvfiles</li>
+<li><code>[I] [10th]</code>: Fix problem with partial points for advanced code test not showing correctly in dashboard</li>
+<li><code>[F] [10th]</code>: Add custom script to allow third-party systems to track/help students.</li>
+<li><code>[I] [ 9th]</code>: Improve standard code feedback field text handling</li>
+<li><code>[I] [ 9th]</code>: Fix problem with changing theme in guides</li>
+<li><code>[F] [ 9th]</code>: Add sense.network] assessment to offer feedbackdback to students on code submissions</li>
+<li><code>[I] [ 7th]</code>: Improve visibility of keyboard focus</li>
+<li><code>[I] [ 7th]</code>: Change wording <code>Upgrade</code> to <code>Update</code> for consistency of language</li>
+<li><code>[F] [ 6th]</code>: Add ability to exclude files from students units in a class</li>
+<li><code>[I] [ 4th]</code>: Update handling of teacher only pages in books</li>
+</ul>
+<p><strong>March 2019</strong></p>
+<ul>
+<li><code>[F] [31st]</code>: Empty Stack set to use Ubuntu 18.04.</li>
+<li><code>[F] [29th]</code>: Add ability to clone class from main class dashboard</li>
+<li><code>[I] [27th]</code>: Fix terminal scrolling problem when unit run in iframe</li>
+<li><code>[I] [26th]</code>: Update messaging to students marking units as completed</li>
+<li><code>[I] [26th]</code>: Minor dashboard text changes</li>
+<li><code>[I] [22nd]</code>: Fix problem with handling of read only projects where external services are used (e.g. Jupyter/RStudio)</li>
+<li><code>[I] [21st]</code>: Fix problem with storage of guides layout settings in units</li>
+<li><code>[I] [20th]</code>: Improve handling of adding teachers to class</li>
+<li><code>[I] [19th]</code>: Fix problem with teachers not able to access students projects after deadline passed</li>
+<li><code>[I] [15th]</code>: Fix problem for student feedback when unit running in iframe</li>
+<li><code>[I] [15th]</code>: Fix issue with students able to start units after deadline is past</li>
+<li><code>[I] [15th]</code>: Remove menu item "Submit Jupyter assessments" from jupyter units</li>
+<li><code>[I] [14th]</code>: Improve handling of test autograde script</li>
+<li><code>[F] [11th]</code>: Improve organisation and class contact url for students, allowing multiple contact urls to be defined.</li>
+<li><code>[I] [ 7th]</code>: Improve layout for unit penalty screen</li>
+<li><code>[F] [ 7th]</code>: Add <code>Education&gt;Validate Jupyter</code> menu item to allow authors to validate and check Jupyter projects before publishing</li>
+<li><code>[I] [ 7th]</code>: Update guides page navigation handing to mitigate content synchronisation issues</li>
+<li><code>[I] [ 6th]</code>: Improve handling of submit jupyter assessments button</li>
+<li><code>[I] [ 6th]</code>: Fix issue with show expected answer in html pages</li>
+<li><code>[I] [ 5th]</code>: Improve validation to detect errors better in .codio-menu file</li>
+<li><code>[I] [ 4th]</code>: Fix issue with symbols used in guides TOC</li>
+<li><code>[I] [ 4th]</code>: Fix problem with Tools&gt;Guides&gt;Remotes menu item</li>
+<li><code>[F] [ 4th]</code>: Add support to provide additional feedback to students when test fails in standard code test</li>
+<li><code>[I] [ 1st]</code>: Improve messaging when stack used in class unit is deleted where unit was not re published</li>
+</ul>
+<p><strong>February 2019</strong></p>
+<ul>
+<li><code>[I] [28th]</code>: Fix issue in upgrade course where long names used in module and/or units</li>
+<li><code>[I] [28th]</code>: Fix layout issue in standard code test assessment in html type of page</li>
+<li><code>[I] [26th]</code>: Improve messaging when connecting project in desktop app</li>
+<li><code>[I] [26th]</code>: Fix issue with Book permissions if a user is deleted</li>
+<li><code>[I] [26th]</code>: Improve handling of redirection when unit run in LMS when students mark the unit as completed</li>
+<li><code>[I] [26th]</code>: Add refresh button to visualisation assessment</li>
+<li><code>[I] [26th]</code>: Fix problem for students being unable to view the content of the unit when marked as complete and visibility set to read only</li>
+<li><code>[I] [26th]</code>: Update Light reading theme drop down in guides global settings to read only</li>
+<li><code>[I] [26th]</code>: Make course/module owner brighter</li>
+<li><code>[F] [25th]</code>: Add visualisation assessment support in guides</li>
+<li><code>[F] [21st]</code>: Add support for promotion codes in Self Invoicing</li>
+<li><code>[I] [20th]</code>: Update handling of soft tabs for python that were not handling backspace and delete buttons actions correctly</li>
+<li><code>[I] [20th]</code>: Improve messaging on stack version creation if user has no access</li>
+<li><code>[I] [19th]</code>: Improve messaging when publishing unit in a module that the user hasn't previously opened</li>
+<li><code>[I] [18th]</code>: Improve handling of course upgradein class where there is a mix of public and private modules</li>
+<li><code>[I] [15th]</code>: Enlarge size of confirmation dialogs text for better accessibility</li>
+<li><code>[I] [15th]</code>: Remove project settings from desktop app</li>
+<li><code>[I] [15th]</code>: Improve messaging display when invalid dates entered for a class</li>
+<li><code>[I] [15th]</code>: Update download csv to remove data of students removed from the class</li>
+<li><code>[I] [15th]</code>: Improve guides settings to save and close from one click</li>
+<li><code>[F] [15th]</code>: Add new guides layout including file tree with guides presented on the left hand side</li>
+<li><code>[F] [14th]</code>: Add new assessment type: Parson's puzzle</li>
+<li><code>[I] [12th]</code>: Review button colours on Class Admin screen</li>
+<li><code>[I] [12th]</code>: Fix problem with returned grade score for book based units</li>
+<li><code>[I] [12th]</code>: Fix issue with one attempt only message for assessments showing incorrectly when not enabled</li>
+<li><code>[I] [12th]</code>: Fix problem with dark theme in FF65 on MacOS</li>
+<li><code>[I] [11th]</code>: Improve handling of invitation of teachers into classes</li>
+<li><code>[F] [ 6th]</code>: Fix problem with exporting project as zip</li>
+<li><code>[I] [ 5th]</code>: Increase inactive timeout period to 60mins</li>
+<li><code>[F] [ 4th]</code>: Add course permissions feature to restrict access to courses for teachers/students</li>
+</ul>
+<p><strong>January 2019</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Improve handling of project preview when waiting for services to start</li>
+<li><code>[F] [29th]</code>: Add statistical collection for teachers/instructors to export class activity</li>
+<li><code>[I] [25th]</code>: Fix issue with changing stack in project</li>
+<li><code>[I] [25th]</code>: Improve handling for Brightspace D2L integration where by if you have
+<code>resource_link_id</code>field an endping URL of <code>https://apollo.codio.com/lti/link_endpoint</code> can be used</li>
+<li><code>[I] [24th]</code>: Fix problem with unit ordering in course module when adding new units</li>
+<li><code>[I] [23rd]</code>: Fix problem updating students units in class when archived</li>
+<li><code>[I] [23rd]</code>: Fix problem with partial points implemented in Advanced Code Test assessment</li>
+<li><code>[F] [21st]</code>: Add new guides layout for '3 panels without tree' with guides presented on the left hand side</li>
+<li><code>[I] [21st]</code>: Fix problem with book settings not applied to class units</li>
+<li><code>[F] [18th]</code>: Add ability to clone content of existing class into a new class</li>
+<li><code>[F] [18th]</code>: Add new Custom Button function to all users to restore current files in guides</li>
+<li><code>[F] [17th]</code>: Add new guides layout for '2 panels without tree' with guides presented on the left hand side</li>
+<li><code>[F] [16th]</code>: Add new global setting in guides to restrict students from opening/closing tabs in unit</li>
+<li><code>[I] [16th]</code>: Fix problem with handling of .codiomenu on guides being closed</li>
+<li><code>[I] [16th]</code>: Fix problem for self-pay students agreeing to Student Consent</li>
+<li><code>[I] [11th]</code>: Fix problem with grade feedback dialogs not opening for students</li>
+<li><code>[I] [ 8th]</code>: Improve contrast colour for confirmation code dialogs</li>
+<li><code>[I] [ 8th]</code>: Update <a href="https://codio.com/home/stacks/dd949669-ae2d-480b-b2b7-44f69476a07c?tab=details">RStudio</a> stack to be loginless</li>
+<li><code>[I] [ 6th]</code>: Improve handling of syncronisation in  desktop app</li>
+</ul>
+<p><strong>December 2018</strong></p>
+<ul>
+<li><code>[I] [28th]</code>: Improve accessibility handling of next/previous buttons in guides</li>
+<li><code>[I] [26th]</code>: Improve handling of user authentication when allow private static preview is enabled</li>
+<li><code>[I] [24th]</code>: Improve handling of .git folder if it is in .guides/secure folder</li>
+<li><code>[I] [17th]</code>: Add setting to manage students access to project based units when completed</li>
+<li><code>[I] [14th]</code>: Fix problem with event listener</li>
+<li><code>[I] [14th]</code>: Add jupyter preview to student's grade feedback preview</li>
+<li><code>[I] [14th]</code>: Improve guides for visually impaired users</li>
+<li><code>[I] [14th]</code>: Add additional fields for students answers into the download csv</li>
+<li><code>[I] [11th]</code>: Improve handling of gigabox allocation when run from a course</li>
+<li><code>[I] [10th]</code>: Fix problem with Advanced Code Test with Custom language type and Allow Partial Points</li>
+<li><code>[I] [ 7th]</code>: Add answer and rationale fields to grading feedback for student dashboard</li>
+<li><code>[I] [ 6th]</code>: Fix problem with global scripts in guides</li>
+<li><code>[I] [ 5th]</code>: Improve grading feedback for student dashboard</li>
+<li><code>[I] [ 4th]</code>: Improve messaging when synchronising of files pulled/pushed to desktop app</li>
+</ul>
+<p><strong>November 2018</strong></p>
+<ul>
+<li><code>[F] [29th]</code>: Add grading feedback for student dashboard</li>
+<li><code>[F] [29th]</code>: Pass grading feedback URL to LMS systems</li>
+<li><code>[I] [29th]</code>: Improve handling of line delimiters in .codio-menu file</li>
+<li><code>[I] [29th]</code>: Improve synchronisation of files pulled/pushed to desktop app</li>
+<li><code>[F] [22nd]</code>: Allow files/folders to be excluded from synchronisation with desktop app</li>
+<li><code>[I] [22nd]</code>: Fix problem with customizing in books</li>
+<li><code>[F] [22nd]</code>: Add support for <code>python3</code> in unit tests</li>
+<li><code>[F] [21st]</code>: Add separate fields for first and last name to download csv</li>
+<li><code>[I] [21st]</code>: Fix problem with first time execution of advanced code test assessments</li>
+<li><code>[I] [20th]</code>: Fix problem trying to start unit from a course</li>
+<li><code>[I] [16th]</code>: Fix problem with delete confirmation dialog showing in error when deleting owned module</li>
+<li><code>[I] [15th]</code>: Improve highlighting of differences in standard code text</li>
+<li><code>[I] [14th]</code>: Improve sorting when accented characters used</li>
+<li><code>[I] [13th]</code>: Fix problem with project permissions not updating when project renamed</li>
+<li><code>[I] [12th]</code>: Update handling of autograde scripts in .guides/secure folder</li>
+<li><code>[I] [ 9th]</code>: Improve handling of Public/Private Settings</li>
+<li><code>[I] [ 9th]</code>: Improve messaging for Allow Box Cloning</li>
+<li><code>[I] [ 8th]</code>: Fix problem with scrolling in guides with assessments</li>
+<li><code>[I] [ 6th]</code>: Fix problem with handling of spaces in Standard Code Test output</li>
+<li><code>[I] [ 6th]</code>: Fix sorting of modules</li>
+<li><code>[I] [ 6th]</code>: Update message shown when units already graded by another teacher</li>
+<li><code>[F] [ 5th]</code>: Add Autograde Free Text assessment</li>
+</ul>
+<p><strong>October 2018</strong></p>
+<ul>
+<li><code>[I] [31st]</code>: Update guidelines for privacy settings for Safari 12.0 browser</li>
+<li><code>[I] [29th]</code>: Fix problem accessing grading in students units</li>
+<li><code>[F] [29th]</code>: Allow use of accented characters</li>
+<li><code>[I] [26th]</code>: Fix issue with users able to update project settings when not having admin rights</li>
+<li><code>[I] [26th]</code>: Improve handling of guide editor</li>
+<li><code>[I] [24th]</code>: Fix focus problem when adding assessments to guides page</li>
+<li><code>[I] [24th]</code>: Improve tab handling in pop up dialogs</li>
+<li><code>[I] [23rd]</code>: Add function to hide Codio logo icon when customizing top menus for students</li>
+<li><code>[I] [19th]</code>: Fix rendering of bold text in guides for Firefox browser</li>
+<li><code>[I] [19th]</code>: Fix problem using tabs in Firefox</li>
+<li><code>[F] [18th]</code>: Add new user/project preference <code>navigateWithinSoftTabs</code> to simplify navigation when soft tabs are used</li>
+<li><code>[I] [18th]</code>: Fix problem with loss of focus when in split view mode editing guides</li>
+<li><code>[I] [18th]</code>: Fix problem in guides saving close tab state</li>
+<li><code>[I] [18th]</code>: Add text description that is visible on mouse over when the icon gets focus.</li>
+<li><code>[I] [18th]</code>: Fix problem rendering output of code tests on Mac OS</li>
+<li><code>[I] [15th]</code>: Fix problem unpacking projects</li>
+<li><code>[I] [15th]</code>: Fix problem with page focus in guides</li>
+<li><code>[I] [15th]</code>: Improve menu handling when customizing top menus for students</li>
+<li><code>[F] [10th]</code>: Add function to automatically release grades in new classes. See organisation release grades for more information</li>
+<li><code>[F] [ 9th]</code>: Add ability to change all students completed unit to incomplete. See force marked as complete for more information.</li>
+<li><code>[I] [ 3rd]</code>: Fix problem when executing commands in Guides that contain brackets</li>
+<li><code>[F] [ 3rd]</code>: Add organisation and class contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)</li>
+<li><code>[F] [ 3rd]</code>: Add ability to sort students in classes by first or last names</li>
+</ul>
+<p><strong>September 2018</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Fix problem with Multiple Choice assessments not showing students correct answers on submission</li>
+<li><code>[I] [26th]</code>: Fix layout of media page in guides settings</li>
+<li><code>[F] [26th]</code>: Add feature for IDE top menu to be customized for student view when running guides</li>
+<li><code>[I] [24th]</code>: Fix problem with Self Invoicing</li>
+<li><code>[I] [24th]</code>: Improve messaging of local file changes when disconnecting project in desktop application</li>
+<li><code>[I] [20th]</code>: Fix problem embedding content in Canvas</li>
+<li><code>[I] [20th]</code>: Improve download csv content adding students email address</li>
+<li><code>[I] [20th]</code>: Remove character limitation for grading comments</li>
+<li><code>[I] [15th]</code>: Improve download csv content, adding 2 new fields for Points and Max Points</li>
+<li><code>[I] [13th]</code>: Fix problem for book based units when disabling units in class module</li>
+<li><code>[F] [13th]</code>: Add ability for 'mark as completed' to be disabled for individual units in classes</li>
+<li><code>[I] [12th]</code>: Remove https preview warning to avoid confusion for students</li>
+<li><code>[I] [12th]</code>: Improve handling of fullscreen button in frames</li>
+<li><code>[I] [12th]</code>: Improve Usability handling in menus</li>
+<li><code>[I] [11th]</code>: Fix problem with changing state of 'use submit buttons' setting in guides</li>
+<li><code>[I] [11th]</code>: Fix problem when adding projects to module with reserved words</li>
+<li><code>[I] [10th]</code>: Update explanatory text for Visibility Summary for Course and Modules</li>
+<li><code>[I] [10th]</code>: Fix problem with Guides Table of Contents</li>
+<li><code>[I] [10th]</code>: Improve handling of LTI full screen support</li>
+<li><code>[I] [10th]</code>: Improve handling of empty points field in Grade book assessment</li>
+<li><code>[I] [ 5th]</code>: Add example bash script for autograding on completion</li>
+<li><code>[I] [ 5th]</code>: Improve handling of duplicate file warning</li>
+<li><code>[I] [ 4th]</code>: Improve colour contrast on Quick Open and Command Bar</li>
+<li><code>[I] [ 4th]</code>: Fix problem with handling of cancel button actions in project settings area</li>
+<li><code>[I] [ 3rd]</code>: Add support for <code>lis_course_offering_sourcedid</code> as a unique course identifier in LMS systems</li>
+</ul>
+<p><strong>August 2018</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Update handling of panel widths when guides is collapsed/reopened when in 3 column layout</li>
+<li><code>[I] [29th]</code>: Fix problem with Quick Open handling in screen readers</li>
+<li><code>[F] [29th]</code>: Added Self Invoicing for University and School organisation</li>
+<li><code>[F] [29th]</code>: Added support for LTI Constant URLs and LTI Class fork</li>
+<li><code>[F] [22nd]</code>: Added Codio LTI App to improve ease of integrating Codio with LMS systems</li>
+<li><code>[I] [16th]</code>: Fix issue with Custom Buttons incorrectly handling</li>
+<li><code>[F] [ 9th]</code>: Add ability to use current file in debugger targets</li>
+<li><code>[I] [ 7th]</code>: update handling of Crunch projects</li>
+<li><code>[I] [ 7th]</code>: Improve visibility of form elements and handling of Quick Open dialog</li>
+<li><code>[I] [ 7th]</code>: Update menu handling for screen readers</li>
+<li><code>[F] [ 7th]</code>: Add additional 3 column layout options</li>
+<li><code>[I] [ 4th]</code>: Fix problem with terminal opening in guides</li>
+<li><code>[I] [ 2nd]</code>: Add support for manual grading for nbgrader</li>
+</ul>
+<p><strong>July 2018</strong></p>
+<ul>
+<li><code>[I] [26th]</code>: Improve handling of Book deletion</li>
+<li><code>[F] [26th]</code>: Add typescript support for desktop application</li>
+<li><code>[F] [18th]</code>: Improve handling of enabling/disabling of class units</li>
+<li><code>[F] [17th]</code>: Fix issue with cloning Partial Point Rubric in IE browser</li>
+<li><code>[F] [13th]</code>: Add support for nbgrader</li>
+<li><code>[I] [12th]</code>: Improve handing of copy file actions</li>
+<li><code>[I] [11th]</code>: Improve handling of cookie consent</li>
+<li><code>[I] [11th]</code>: Fix issue in counter for grading of book based units</li>
+<li><code>[F] [10th]</code>: Allow Partial Point Rubric to be cloned from other units</li>
+<li><code>[I] [ 3rd]</code>: Update handling of Edge browser integration with LMS systems</li>
+<li><code>[I] [ 3rd]</code>: Improve Plagiarism checker adding new filters that can be set</li>
+<li><code>[I] [ 2nd]</code>: Fix problem with tab focus being lost in guides</li>
+<li><code>[I] [ 2nd]</code>: Fix problem when removing units from module/course in a class</li>
+</ul>
+<p><strong>June 2018</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Improve visibility of active buttons in tabs</li>
+<li><code>[I] [29th]</code>: Improve export class data to better handle any archived units</li>
+<li><code>[I] [29th]</code>: Fix problem with layout for manual grading in IE browser</li>
+<li><code>[I] [27th]</code>: Fix problem with adding user project permissions</li>
+<li><code>[F] [22nd]</code>: Add STACK file type in Math assessment authoring and YAML validation.</li>
+<li><code>[I] [21st]</code>: Improve error message handling of publishing of books with broken .json files</li>
+<li><code>[I] [21st]</code>: Improve teacher view of pinned units</li>
+<li><code>[F] [20th]</code>: Add Partial Point Rubric for manual grading</li>
+<li><code>[I] [19th]</code>: Improve behaviour of free text assessment</li>
+<li><code>[I] [19th]</code>: Update unit publishing to ignore assessmentsAnswers.json file</li>
+<li><code>[I] [19th]</code>: Update handling of assessment submiit button</li>
+<li><code>[F] [15th]</code>: Add collapse on start for guides</li>
+<li><code>[I] [15th]</code>: Improve handling of exporting class data</li>
+<li><code>[I] [13th]</code>: Improve support for keyboard and screen readers</li>
+<li><code>[I] [13th]</code>: Update handling of dynamic port protection</li>
+<li><code>[I] [ 5th]</code>: Add overview video for desktop application</li>
+<li><code>[I] [ 4th]</code>: Improve handling of mark as completed process for students</li>
+</ul>
+<p><strong>May 2018</strong></p>
+<ul>
+<li><code>[I] [31st]</code>: Improve handling of autocomplete when searching for users to share projects</li>
+<li><code>[I] [28th]</code>: Improve handling of local deleted files and folders in desktop application</li>
+<li><code>[I] [28th]</code>: Improve handling of assessment points if changed when updating unit in class</li>
+<li><code>[I] [28th]</code>: Fix issue with plagiarism in book based units</li>
+<li><code>[I] [24th]</code>: Improve handling of <code>exit</code> terminal commands</li>
+<li><code>[I] [21st]</code>: Fix problem with teachers opening own last version of unit in courses</li>
+<li><code>[I] [21st]</code>: Fix issue with restarting guides after changing settings</li>
+<li><code>[I] [21st]</code>: Improve message handling of errors in debugger</li>
+<li><code>[I] [21st]</code>: Fix issue for students opening list of units</li>
+<li><code>[I] [18th]</code>: Fix issue with updating stack causing issue publishing new version of course unit</li>
+<li><code>[F] [18th]</code>: Add support for timeout period in advanced code tests</li>
+<li><code>[I] [18th]</code>: Improve layout for student grading screens</li>
+<li><code>[I] [18th]</code>: Update subscription information shown when plan expires</li>
+<li><code>[I] [16th]</code>: Teachers in Self-Pay organisations no longer require subscription</li>
+<li><code>[F] [14th]</code>: Restrict preview of box url to owners of the box. See Project Settings for more information</li>
+<li><code>[I] [14th]</code>: Improve handling of file and directory names in desktop application</li>
+<li><code>[F] [ 8th]</code>: Add support for Python and Javascript in advanced code tests</li>
+<li><code>[F] [ 4th]</code>: Improve handling of tab focus when returning to a unit</li>
+<li><code>[I] [ 4th]</code>: Fix issue with project list last accessed sorting</li>
+<li><code>[F] [ 4th]</code>: Add Grade Book assessment</li>
+</ul>
+<p><strong>April 2018</strong></p>
+<ul>
+<li><code>[F] [27th]</code>: Add support for Java and Ruby in advanced code tests</li>
+<li><code>[I] [27th]</code>: Improve handling of downloading files in private projects</li>
+<li><code>[I] [27th]</code>: Improve handling for language server protocol</li>
+<li><code>[I] [24th]</code>: Improve accessibility to support dialog actions accessible from keyboard</li>
+<li><code>[I] [24th]</code>: Fix issue with replace in projects</li>
+<li><code>[I] [20th]</code>: Fix grading issue with rubric templates</li>
+<li><code>[I] [20th]</code>: Improve messaging for errors when synchronising units in desktop application</li>
+<li><code>[I] [19th]</code>: Fix problem with invite teacher process</li>
+<li><code>[I] [16th]</code>: Improve handling of unit/project descriptions in desktop application</li>
+<li><code>[I] [14th]</code>: New desktop application allowing a local code workspace to synchronize with a Codio box.</li>
+<li><code>[I] [13th]</code>: Improve performance of X-server</li>
+<li><code>[I] [13th]</code>: Improve handling of double clicking on submission of assessments</li>
+<li><code>[I] [ 4th]</code>: Improve visualisation of navigation options in teacher dashboard</li>
+<li><code>[I] [ 2nd]</code>: Update IDE shortcut key for accessing menu (to F10)</li>
+<li><code>[I] [ 2nd]</code>: Update handling of download csv to better handle characters in grading comments</li>
+</ul>
+<p><strong>March 2018</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Update handling of books requiring guides before publishing</li>
+<li><code>[I] [27th]</code>: Improve IDE menu items for better keyboard accessibility</li>
+<li><code>[I] [27th]</code>: Update structure of exporting class data</li>
+<li><code>[I] [27th]</code>: Improve memory handling for language server protocol</li>
+<li><code>[I] [23rd]</code>: Improve handling of focus when switching panels using keyboard shortcuts</li>
+<li><code>[I] [20th]</code>: Improve messaging when stack/pack owner is changed</li>
+<li><code>[F] [20th]</code>: Allow adjustment of unit penalties for individual students</li>
+<li><code>[I] [19th]</code>: Fix sorting of units in classes</li>
+<li><code>[I] [16th]</code>: Fix problem starting Plagiarism tool</li>
+<li><code>[I] [15th]</code>: Fix problem with export class data for old classes</li>
+<li><code>[I] [12th]</code>: Fix issue with image handling when editing/creating starter packs</li>
+<li><code>[I] [ 7th]</code>: Improve handling of course updates in classes</li>
+<li><code>[I] [ 7th]</code>: Fix issue with class dashboard in IE browser</li>
+<li><code>[F] [ 6th]</code>: Add support for searching/filtering of classes</li>
+<li><code>[I] [ 6th]</code>: Fix problem for teachers opening latest version of books</li>
+<li><code>[I] [ 5th]</code>: Improve handling for opening of large project warning</li>
+<li><code>[I] [ 5th]</code>: Fix issue with terminal reconnections</li>
+</ul>
+<p><strong>Febuary 2018</strong></p>
+<ul>
+<li><code>[I] [28th]</code>: Update handling of book unit switching</li>
+<li><code>[I] [26th]</code>: Fix issue with unit reloading for students</li>
+<li><code>[F] [26th]</code>: Expand Gigabox options to include 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.</li>
+<li><code>[I] [26th]</code>: Fix issue with regrade complete</li>
+<li><code>[I] [13th]</code>: Fix issue with MCQ]/FITB assessments not showing correct answers</li>
+<li><code>[I] [13th]</code>: Fix issue with undo/redo</li>
+<li><code>[I] [12th]</code>: Fix issue with file tree not updating correctly when files created via terminal</li>
+<li><code>[I] [12th]</code>: Fix issue with unit settings changing when Upgrade Course is run</li>
+<li><code>[I] [12th]</code>: Fix issue with icon handling</li>
+<li><code>[F] [ 9th]</code>: Exporting LTI settings</li>
+<li><code>[I] [ 9th]</code>: Fix problem with txt files not opening correctly</li>
+<li><code>[F] [ 8th]</code>: Export class data enabling all class data, including students workspaces to be exported.</li>
+<li><code>[I] [ 5th]</code>: Fix issue with book units</li>
+<li><code>[I] [ 5th]</code>: Fix issue publishing books after changing stack</li>
+<li><code>[I] [ 1st]</code>: Fix issue with content being lost when switching browsers</li>
+</ul>
+<p><strong>January 2018</strong></p>
+<ul>
+<li><code>[I] [24th]</code>: Fix problem with Test students in Self-Pay organisations</li>
+<li><code>[I] [24th]</code>: Update handling of Autocomplete in Language Server Protocol</li>
+<li><code>[I] [22nd]</code>: Improve Run Button so that the command name is used for run button command as terminal name</li>
+<li><code>[I] [22nd]</code>: Fix issue with [stack exclusions](/project/stacks/exclusions/</li>
+<li><code>[I] [22nd]</code>: Fix issue when the wrong students answer is shown when switching between students projects</li>
+<li><code>[I] [19th]</code>: Fix issue with assessments on Reset Unit</li>
+<li><code>[I] [19th]</code>: Implement completion and hover support for Language Server Protocol</li>
+<li><code>[I] [16th]</code>: Fix problem for teachers not being able to edit course/module units</li>
+<li><code>[I] [15th]</code>: Always use tabs regardless of user/project settings when using Makefile</li>
+<li><code>[I] [ 4th]</code>: Fix issue with guides table of contents focus on open</li>
+<li><code>[I] [ 4th]</code>: Improve handling of books when switching between book units</li>
+</ul>
+<p><strong>December 2017</strong></p>
+<ul>
+<li><code>[I] [21st]</code>: Fix problem with advanced code test output</li>
+<li><code>[I] [20th]</code>: Update guides table of contents so current selection is always visible in large tree</li>
+<li><code>[I] [18th]</code>: Executing <code>exit</code> command in terminal or guides content will automatically close the terminal tab</li>
+<li><code>[I] [14th]</code>: Improve handling of application of grades for large classes</li>
+<li><code>[I] [11th]</code>: Update handling of Free Text Assessment submissions</li>
+<li><code>[I] [11th]</code>: Update handling of Upgrade Course for Firefox browser</li>
+<li><code>[I] [ 8th]</code>: Fix duplicate messaging issue when deleting units in course modules</li>
+<li><code>[I] [ 6th]</code>: Improve handling of Unit Penalties</li>
+<li><code>[I] [ 4th]</code>: Update messaging when removing modules from courses</li>
+<li><code>[I] [ 1st]</code>: Update helper text for stack version change in units</li>
+<li><code>[I] [ 1st]</code>: Update handling of layout change</li>
+<li><code>[I] [ 1st]</code>: Fix issue with changes to metadata.json files not saving correctly</li>
+</ul>
+<p><strong>November 2017</strong></p>
+<ul>
+<li><code>[I] [30th]</code>: Update definition of incorrect points for multiple choice assessments</li>
+<li><code>[I] [30th]</code>: Improve messaging highlighting Public/Private Settings when creating Courses/Modules/Books/Projects/Stacks/Starter Packs</li>
+<li><code>[I] [28th]</code>: Fix XSS image issue</li>
+<li><code>[I] [28th]</code>: Improve handling of teachers joining class as student through LTI</li>
+<li><code>[I] [28th]</code>: Simplify creation of book based units</li>
+<li><code>[I] [28th]</code>: Update Unit Duration</li>
+<li><code>[I] [28th]</code>: Improve student submission options</li>
+<li><code>[I] [28th]</code>: Update Guides global settings</li>
+<li><code>[F] [27th]</code>: Add functionality to change/review JUnit timeout settings</li>
+<li><code>[F] [24th]</code>: Unit Penalties to allow teachers/instructors to specify grading deadlines and associated penalties</li>
+<li><code>[I] [24th]</code>: Update Book publishing to allow pages to be selected</li>
+<li><code>[I] [15th]</code>: Fix issue when changing stack for ad-hoc projects in a class</li>
+<li><code>[I] [15th]</code>: Update guides collapse button handling when layout set to 1 panel</li>
+<li><code>[I] [14th]</code>: Fix handling of book based units opening for students</li>
+<li><code>[I] [14th]</code>: Block deletion of a course that contains modules</li>
+<li><code>[I] [14th]</code>: Improve warnings when deleting units and modules</li>
+<li><code>[I] [13th]</code>: Fix issue publishing units in IE browser</li>
+<li><code>[I] [13th]</code>: Fix icon for Advanced Code Tests</li>
+<li><code>[I] [13th]</code>: Fix handling for teachers opening students project assessments</li>
+<li><code>[I] [09th]</code>: Fix TOC scrolling issue in guides for Firefox and IE browsers</li>
+<li><code>[I] [07th]</code>: Improve Mark as Completed process to provide warning of assessments in the unit not completed</li>
+<li><code>[I] [07th]</code>: Update teacher dashboard for grading, allowing teachers to filter to find students and by status of unit. See Grading project work for more information</li>
+<li><code>[I] [03rd]</code>: Fix terminal light theme to show cursor</li>
+<li><code>[I] [03rd]</code>: Fix problem where teachers are not always able to view content of 3 blue dot menu in the students listing</li>
+<li><code>[I] [03rd]</code>: Update Codemirror components and fix soft tabs</li>
+<li><code>[I] [02nd]</code>: Fix problem when Guides TOC opened and closed to cause terminal to resize incorrectly</li>
+</ul>
+<p><strong>October 2017</strong></p>
+<ul>
+<li><code>[I] [26th]</code>: Update message handling for change stack for units in a course</li>
+<li><code>[I] [25th]</code>: Improve stack creation from the IDE</li>
+<li><code>[I] [24th]</code>: Update unit action to also update codio files (e.g .codio, .settings)</li>
+<li><code>[I] [18th]</code>: Update saving of draft free text assessments</li>
+<li><code>[I] [16th]</code>: Fix problem for students answering assessments</li>
+<li><code>[I] [16th]</code>: Fix problem with custom assessment grades not being passed correctly</li>
+<li><code>[I] [13th]</code>: Improve grading for Free text assessments supporting comment field and easy navigation to other students and other assessments for the currently selected student</li>
+<li><code>[I] [12th]</code>: Update handling of symbols in free text assessment previewing</li>
+<li><code>[I] [12th]</code>: Improve class navigation for teachers, click units tab to return to main unit listing</li>
+<li><code>[F] [11th]</code>: Unify guides/books table of contents</li>
+<li><code>[I] [11th]</code>: Fix issue with creating projects importing from zip file</li>
+<li><code>[I] [10th]</code>: Fix problem with books upgrade to class</li>
+<li><code>[I] [10th]</code>: Improve handling of size of free text assessment field for student</li>
+<li><code>[I] [09th]</code>: Show points assigned for free text assessments to students within the unit when grades released</li>
+<li><code>[F] [06th]</code>: Add user preference editor setting to show a vertical ruler in files. <code>[ruler]=xx</code></li>
+<li><code>[I] [06th]</code>: Improve handling of unit ordering when adding or updating a course in a class to match the order set in the course</li>
+<li><code>[I] [05th]</code>: Improve warnings for unsaved changes when authoring guides</li>
+<li><code>[I] [05th]</code>: Ignore .git and .hg files in search and replace actions</li>
+<li><code>[I] [04th]</code>: Improve handling of students ability to amend answer submissions during completion of a unit</li>
+<li><code>[I] [04th]</code>: Fix problem so students can not create courses,modules and units</li>
+<li><code>[I] [04th]</code>: Improve grading free text to show confirmation message when applying</li>
+<li><code>[I] [04th]</code>: Improve stack handling when publishing units</li>
+<li><code>[I] [04th]</code>: Improve upgrade course process</li>
+<li><code>[F] [02nd]</code>: Release of books</li>
+<li><code>[I] [02nd]</code>: Allow LMS students to access already started units from Codio dashboard</li>
+<li><code>[I] [02nd]</code>: Redirect LMS users back to their LMS when marking unit as complete</li>
+</ul>
+<p><strong>September 2017</strong></p>
+<ul>
+<li><code>[I] [29th]</code>: Update Recommended Course content to resolve reported issues in assessments</li>
+<li><code>[I] [29th]</code>: Update messaging if cookies not allowed.</li>
+<li><code>[I] [28th]</code>: Reorganization of documentation structure.</li>
+<li><code>[F] [27th]</code>: Changes to terms of use</li>
+<li><code>[I] [22nd]</code>: Improve handling for publishing new stack versions</li>
+<li><code>[I] [21st]</code>: Improve handling of student output in standard code assessment</li>
+<li><code>[I] [21st]</code>: Improve handling of students starting units while new stack version is being updated</li>
+<li><code>[I] [21st]</code>: Update the handling of student data when removing modules from classes</li>
+<li><code>[F] [19th]</code>: Update documentation to advise on cookie requirements</li>
+<li><code>[I] [18th]</code>: Fix students seeing grading stats before grades are released</li>
+<li><code>[I] [18th]</code>: Fix Teacher Invitation list in classes showing test students</li>
+<li><code>[I] [15th]</code>: Update handling of Upgrade course for IE11 browser</li>
+<li><code>[I] [14th]</code>: Improve teacher dashboard view to show date students completed units and answers submitted</li>
+<li><code>[I] [14th]</code>: Improve handling for accessing binary files</li>
+<li><code>[I] [12th]</code>: Allow teachers to grade draft answers</li>
+<li><code>[I] [12th]</code>: Improve create stack from current project process</li>
+<li><code>[I] [12th]</code>: Improve the updating of manual grading actions for teachers</li>
+<li><code>[I] [11th]</code>: Improve message handling if student working with stack unit they do not have access to.</li>
+<li><code>[I] [11th]</code>: Refactor Guides buttons changing Settings to smaller gear icon</li>
+<li><code>[I] [08th]</code>: Remove version entry field from stack version and just auto-increment</li>
+<li><code>[F] [08th]</code>: Added preview type for free text assessments</li>
+<li><code>[I] [07th]</code>: Update teacher dashboard for free text assessment grading</li>
+<li><code>[I] [07th]</code>: Add confirmation step when unit is marked as complete by students.</li>
+<li><code>[F] [02nd]</code>: Add student IP consent</li>
+<li><code>[I] [01st]</code>: Improvement to publishing units allowing for simpler handling of stack changes.</li>
+<li><code>[F] [01st]</code>: Upgrade course. If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version within the class. Update unit option removed from courses in a class.</li>
+</ul>
+<p><strong>August 2017</strong></p>
+<ul>
+<li><code>[F] [30th]</code>: Support pug for syntax highlighting (mapping to jade).</li>
+<li><code>[I] [25th]</code>: Review field ordering for assessments</li>
+<li><code>[I] [25th]</code>: Change public/private settings to private by default.</li>
+<li><code>[F] [23rd]</code>: Add <strong>go to line</strong> hotkey (default <strong>Alt+G</strong>).</li>
+<li><code>[I] [17th]</code>: Invite teachers into a class with email invitation.</li>
+<li><code>[I] [16th]</code>: Update guide icons and add new callout blocks.</li>
+</ul>
+<p>We implemented the changelog page in August, 2017 so this is as far back as we go.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

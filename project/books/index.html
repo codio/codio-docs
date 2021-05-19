@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/project/books/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Books - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../courses/assessments-library/" class="dropdown-item">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../../courses/settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Books</a>
+</li>
+                                    
+<li>
+    <a href="../packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../dashboard/support/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../packs/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#recommendations" class="nav-link">Recommendations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#limitations-restrictions-and-when-not-to-use-a-book" class="nav-link">Limitations, restrictions and when not to use a book</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#courses" class="nav-link">Courses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#assessments" class="nav-link">Assessments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#limitations-and-restrictions" class="nav-link">Limitations and restrictions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-and-managing-books" class="nav-link">Creating and managing books</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#creating-a-new-book" class="nav-link">Creating a new book</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#editing-a-book-in-the-ide" class="nav-link">Editing a book in the IDE</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#editing-a-books-settings" class="nav-link">Editing a book's settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#deleting-a-book" class="nav-link">Deleting a book</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#table-of-contents" class="nav-link">Table of contents</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#editing-page-content" class="nav-link">Editing page content</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#publishing-and-the-stack" class="nav-link">Publishing and the stack</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#later-book-modifications" class="nav-link">Later book modifications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#course-mapping" class="nav-link">Course mapping</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#permissions-and-collaboration" class="nav-link">Permissions and collaboration</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#private-public-visibility" class="nav-link">Private / Public visibility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#permissions-and-collaboration_1" class="nav-link">Permissions and collaboration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#creating-course-assignments" class="nav-link">Creating course assignments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link"></a></h2>
+<p>Codio Books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to assignments in courses.</p>
+<p>A Codio book still sits on top of a Codio box so you have the same capabilities that projects and assignments have. Before we introduced books, switching assignments wasted time as a new assignment needed to load, which took several seconds. If you frequently switch assignments (for instance during student revision) this delay becomes irritating. With a book, there is no delay and the student can freely access all parts of the book irrespective of which assignment they are accessing.</p>
+<h3 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link"></a></h3>
+<p>We strongly recommend you have a thorough understanding of the following before embarking on large scale books.</p>
+<ul>
+<li><a href="/courses/authoring/">Content authoring</a></li>
+<li><a href="/courses/coursemanagement/">Courses</a>, especially how <a href="/courses/coursemanagement/#adding-assignments">courses map to books</a></li>
+<li><a href="/courses/classes/#assign-resource-modules-to-the-course">Assigning content to courses</a></li>
+<li>Limitations (see below)</li>
+</ul>
+<h3 id="limitations-restrictions-and-when-not-to-use-a-book">Limitations, restrictions and when not to use a book<a class="headerlink" href="#limitations-restrictions-and-when-not-to-use-a-book" title="Permanent link"></a></h3>
+<p>There are cases where authoring your content in a book is not appropriate. For more information on this, please refer to <a href="/project/books/#limitations-and-restrictions">limitations and restrictions</a> below.</p>
+<h3 id="courses">Courses<a class="headerlink" href="#courses" title="Permanent link"></a></h3>
+<p>Rather than assign a Book to a course, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and assignments and assign these to a course.</p>
+<h3 id="assessments">Assessments<a class="headerlink" href="#assessments" title="Permanent link"></a></h3>
+<p>Although it is entirely up to the book author, a book will usually contains a number of assessments. When you map a course assignment to a section of the book, any assessments that fall within that assignment are shown in the course dashboard.</p>
+<p>You should make a decision as to when assessments should be in the book and when they are better suited to a project assignment. Generally speaking, standard assessments that are used to monitor student engagement with content belong in the book.</p>
+<p>Questions that are assigned to a course for homework or lab assessments could also go in a book but are usually better in a course project assignment. Please refer to limitations and restrictions below for a discussion on cheating related risks to putting assessments in a book.</p>
+<h2 id="limitations-and-restrictions">Limitations and restrictions<a class="headerlink" href="#limitations-and-restrictions" title="Permanent link"></a></h2>
+<p>When you map book content to a course assignment, you should be aware that certain features may not work as expected.</p>
+<p>Because a book sits on a single Codio box, if the student is able to access the terminal window or is able to see the file tree, they can effectively access parts of the book that are outside the scope of the assignment. In many cases, this does not matter, but you should be aware of it.</p>
+<p>Here are some specific things to be aware of.</p>
+<ul>
+<li><strong>Auto grade script</strong>: in <a href="/courses/classes/#autograde-method">assignment settings</a>, you can specify an auto grade script to execute when the student makes the assignment as complete. You can still use this but if the script you are executing needs to be assignment specific, then you should include an argument that is passed to your script so it knows the assignment context.</li>
+<li><strong>Plagiarism</strong> - plagiarism detection makes little sense in books. If you have are doing coding assignments, then you should use a <a href="/courses/coursemanagement/#adding-assignments">project assignment</a> within a course.</li>
+<li><strong>Mark as complete</strong>: this works as expected but, unlike course project assignments and projects, it cannot set the project to be read-only as the book project can be mapped to other assignments which will require access to the box.</li>
+<li><strong>Secure assessments</strong>: if you want to minimize the risk of student cheating, then you should understand that students may be able to access the terminal window and access all parts of the underlying box. As a result, we would recommend that more <a href="/courses/classes/#secure-scripts">secure assessments</a> are placed in project assignments rather than book based assignments. This also allows full disabling of the box by setting a project to read-only after being marked as complete.</li>
+</ul>
+<h2 id="creating-and-managing-books">Creating and managing books<a class="headerlink" href="#creating-and-managing-books" title="Permanent link"></a></h2>
+<h3 id="creating-a-new-book">Creating a new book<a class="headerlink" href="#creating-a-new-book" title="Permanent link"></a></h3>
+<p>Creating a new book is done from the main books screen. Press the large blue <strong>New Book</strong> button.</p>
+<p>You will get the same options for creating a book as for a project, so you can start from scratch or import from a project or a Git repo. You also have control over visibility as with projects and courses.</p>
+<h3 id="editing-a-book-in-the-ide">Editing a book in the IDE<a class="headerlink" href="#editing-a-book-in-the-ide" title="Permanent link"></a></h3>
+<p>Once the book has been created, you can edit the book in the IDE by clicking on the book.</p>
+<h3 id="editing-a-books-settings">Editing a book's settings<a class="headerlink" href="#editing-a-books-settings" title="Permanent link"></a></h3>
+<p>Modify a book's settings by clicking on the gear icon.</p>
+<h3 id="deleting-a-book">Deleting a book<a class="headerlink" href="#deleting-a-book" title="Permanent link"></a></h3>
+<p>You can delete a book by clicking on the gear icon and then pressing the <strong>Delete</strong> button.</p>
+<h2 id="table-of-contents">Table of contents<a class="headerlink" href="#table-of-contents" title="Permanent link"></a></h2>
+<p>The table of contents is edited using the Codio Guide authoring capability. This is the same functionality as available for authoring project and project assignment content.</p>
+<p>Please <a href="/courses/authoring/#table-of-contents-management">click here</a> for full details.</p>
+<h2 id="editing-page-content">Editing page content<a class="headerlink" href="#editing-page-content" title="Permanent link"></a></h2>
+<p>The page content is edited using the Codio Guide authoring capability. This is the same functionality as available for authoring project and project assignment content.</p>
+<p>Please <a href="/courses/authoring/#page-editing-overview">click here</a> for full details.</p>
+<h2 id="publishing-and-the-stack">Publishing and the stack<a class="headerlink" href="#publishing-and-the-stack" title="Permanent link"></a></h2>
+<p>It is important to understand how and why a book is published.</p>
+<p>Until you publish a book, it behaves exactly as a project does. You can open it up and work with it but it cannot be accessed by anyone or mapped to a course until it has been published. After a book is published, you can continue to work on the book without the published version being affected.</p>
+<p>Please note the following.</p>
+<ol>
+<li>Publishing creates a snapshot of the book and creates a new version.</li>
+<li>You can continue work on the book without affecting the published version.</li>
+<li>When you map a course assignment to a book, it will only pull from a published version.</li>
+</ol>
+<p>When you press the <strong>Publish</strong> button, the following screen will appear where you can add details of the changes made. This will then be available to see from the <strong>versions</strong> tab</p>
+<p><img alt="versions" src="/img/book_publish.png" /></p>
+<h3 id="later-book-modifications">Later book modifications<a class="headerlink" href="#later-book-modifications" title="Permanent link"></a></h3>
+<p>If, after publishing, you make further changes to your book then you will need to re-publish when you want those changes to be available to courses. This will not happen automatically. You will need to update the project assignment within your course to pull the published version. See  <a href="/courses/coursemanagement/#editing-a-book-assignment">Editing a book assignment</a> for more information.</p>
+<h3 id="course-mapping">Course mapping<a class="headerlink" href="#course-mapping" title="Permanent link"></a></h3>
+<p>A book cannot be assigned to a course without mapping it through a course. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures.</p>
+<p>You can map the entire book through a single course assignment if you are not concerned about detailed assignment mappings.</p>
+<p>Please refer to <a href="/courses/coursemanagement/#new-book-assignment">Creating book based course assignments</a> page for details on how to do this.</p>
+<h2 id="permissions-and-collaboration">Permissions and collaboration<a class="headerlink" href="#permissions-and-collaboration" title="Permanent link"></a></h2>
+<p>By default, a book is only available to you for editing purposes and only you can create courses from a Book.</p>
+<p>You can change permissions to allow others</p>
+<ul>
+<li>to edit your book</li>
+<li>to create courses from your book.</li>
+</ul>
+<p>To modify the permissions, goto <strong>Books</strong> from the dashboard. Then select the settings icon.</p>
+<p><img alt="Book settings" src="/img/booksettings.png" /></p>
+<h3 id="private-public-visibility">Private / Public visibility<a class="headerlink" href="#private-public-visibility" title="Permanent link"></a></h3>
+<p>If the book is set to <strong>Private</strong>, unless you override the permissions, only you can modify a book contents and create course assignments from it. Private books cannot be assigned to public courses.</p>
+<p>If the book is set to <strong>Public</strong>, then any Codio user inside or outside your organization can create courses from your book but they will not be able to edit it.  The default organization setting restricts the ability to create Public books. To allow this, see <a href="/dashboard/organisations/#publicprivate-settings">Public/Private Settings</a>.</p>
+<p><img alt="Book settings page" src="/img/booksettingspage.png" /></p>
+<h3 id="permissions-and-collaboration_1">Permissions and collaboration<a class="headerlink" href="#permissions-and-collaboration_1" title="Permanent link"></a></h3>
+<p>If you want 2 or more people to collaborate on a book, you need to understand how Codio manages this process.</p>
+<p><strong>It is recommended that you connect your assignments to a remote repo (GitHub/BitBucket etc)</strong> where you can push your work. As well as giving you full versioning control it also allows you to </p>
+<ul>
+<li>
+<p>easily update assignments where you may use the same content in different courses as you can make the changes in one assignment, push to the repo and then pull in the changes to the other assignments to publish.</p>
+</li>
+<li>
+<p>collaborate with colleagues who can create their own 'project' by importing from the repo and push their changes to the repo for review before they are pulled into the course assignment and published.</p>
+</li>
+</ul>
+<p>If you wish to do this within Codio however, you need to give explicit permission to other users or to an organization and apply write permissions.</p>
+<p>The permissions can be changed by selecting the <strong>Permissions</strong> tab on the book settings screen. You should first specify which user or organization you want to grant permissions to. You need to know the precise organization or user name and this is case sensitive. We do not support lookups as the potential for incorrect assignment is too great.</p>
+<p><img alt="Book permissions" src="/img/book-permissions.png" /></p>
+<p>You can grant the following permissions.</p>
+<ul>
+<li><strong>Read</strong> : this allows the user or organization specified to create course assignments from your book.</li>
+<li><strong>Write</strong> : this allows the user or organization to create course assignments and to edit your book. If you want to co-author/collaborate with another user on a book, then you an either follow the process described below or you can use git and a remote git repo.</li>
+</ul>
+<p>It is important to understand that each user editing a book is not actually editing the same physical project. Codio uses snapshotting of the latest published version. If using the basic collaboration approach described below and not git, then you should remember that <strong>only one user should make changes at a time</strong>.</p>
+<p>If User A and User B want to collaborate, then they each need to inform the other when they are working on the content. If they fail to do so, then one person will have to surrender their changes at some point.</p>
+<p>Let's say User A has created a book and authored some content. User A now wants User B to be able to work on the content. User A should first <a href="/project/books/#publishing-and-the-stack">publish</a> the book. Be aware that if User A does not publish the book, then User B will start with an empty book.</p>
+<p>When User B accesses the book (from the <strong>Shared with me</strong> tab on the main books listing), Codio will take a snapshot of the published book and User B can start work on it. In other words, User B is <strong>not</strong> editing User A's book, User B is now working on a clone of the published book.</p>
+<p>User B now makes changes to the book. When done, User B should publish the book and inform User A that the changes are complete and published. At this point, when User A opens the project, a dialog will appear showing that User B has published new changes. User A can now update her own version of the book from this published version. And so the cycle continues.</p>
+<p><img alt="Book New Version" src="/img/bookversion.png" /></p>
+<p>You can do this with as many users as you like, provided that only one user is making changes at a time.</p>
+<h2 id="creating-course-assignments">Creating course assignments<a class="headerlink" href="#creating-course-assignments" title="Permanent link"></a></h2>
+<p>Books cannot be accessed directly by students. Once your book is <a href="/project/books/#publishing-and-the-stack">published</a>, you need to <a href="/courses/coursemanagement/#new-book-assignment">map parts of it to one or more course assignments</a>, which can then be <a href="/courses/classes/#assign-resource-modules-to-the-course">assigned to a course</a>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

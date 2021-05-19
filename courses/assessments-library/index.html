@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Codio team">
+        <link rel="canonical" href="https://docs.codio.com/courses/assessments-library/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Assessments Library - Codio</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javscript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-39233819-4', 'docs.codio.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Codio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../students/" class="nav-link">Students</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Assessments Library</a>
+</li>
+                                    
+<li>
+    <a href="../assessments/" class="dropdown-item">Codio Assessments</a>
+</li>
+                                    
+<li>
+    <a href="../authoring/" class="dropdown-item">Content Authoring with Guides</a>
+</li>
+                                    
+<li>
+    <a href="../classes/" class="dropdown-item">Understanding Courses</a>
+</li>
+                                    
+<li>
+    <a href="../coursemanagement/" class="dropdown-item">Coursemanagement</a>
+</li>
+                                    
+<li>
+    <a href="../google-classroom/" class="dropdown-item">Integrating with Google Classrooms</a>
+</li>
+                                    
+<li>
+    <a href="../grading/" class="dropdown-item">Grading and accessing student projects</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_0/" class="dropdown-item">Integrating with LTI 1.1 systems</a>
+</li>
+                                    
+<li>
+    <a href="../lti1_3/" class="dropdown-item">Integrating with LTI 1.3 systems</a>
+</li>
+                                    
+<li>
+    <a href="../plagiarism/" class="dropdown-item">Plagiarism Checker</a>
+</li>
+                                    
+<li>
+    <a href="../settings-actions/" class="dropdown-item">Guides Settings and Page actions</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dashboard <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dashboard/account/" class="dropdown-item">Account</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/desktopapp/" class="dropdown-item">Desktop App</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/navigation/" class="dropdown-item">Navigation</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/organisations/" class="dropdown-item">Organizations</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../dashboard/support/" class="dropdown-item">Support</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Project <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../project/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../project/packs/" class="dropdown-item">How to use starter packs</a>
+</li>
+                                    
+<li>
+    <a href="../../project/projects/" class="dropdown-item">Project Templates</a>
+</li>
+                                    
+<li>
+    <a href="../../project/stacks/" class="dropdown-item">Stacks</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Ide</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/boxes/" class="dropdown-item">Accessing a Box</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/editing/" class="dropdown-item">Code Editing</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/features/" class="dropdown-item">Advanced IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/introduction/" class="dropdown-item">Introduction</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/navigation/" class="dropdown-item">Basic IDE Features</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/panels/" class="dropdown-item">Panels & Tabs</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/settings/" class="dropdown-item">Settings</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../project/ide/tools/deployment/" class="dropdown-item">Deployment</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ghapi/" class="dropdown-item">Git Hub API</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/guides/" class="dropdown-item">Guides</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/phonegap/" class="dropdown-item">Phonegap</a>
+</li>
+            
+<li>
+    <a href="../../project/ide/tools/ssh/" class="dropdown-item">Remote SSH Terminal Access</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../resources/Codio-Resources/" class="dropdown-item">Codio Resources</a>
+</li>
+                                    
+<li>
+    <a href="../../resources/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Resource Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../resources/Resource-Tools/crunch/" class="dropdown-item">Crunch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/flode/" class="dropdown-item">Flode</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/jeroo/" class="dropdown-item">Jeroo</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/lexikon/" class="dropdown-item">Lexikon</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pencilcode/" class="dropdown-item">Pencil Code</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/pyret/" class="dropdown-item">Pyret</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/scratch/" class="dropdown-item">Scratch</a>
+</li>
+            
+<li>
+    <a href="../../resources/Resource-Tools/tkinter/" class="dropdown-item">Tkinter</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../students/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../assessments/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/codio/codio-docs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#adding-questions-to-an-assessments-library" class="nav-link">Adding Questions to an Assessments Library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#codios-global-assessments-library" class="nav-link">Codio's Global Assessments Library</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#features-of-global-assessments-library" class="nav-link">Features of Global Assessments Library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#using-the-global-assessments-library" class="nav-link">Using the Global Assessments Library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#remixing-questions-from-the-global-assessments-library" class="nav-link">Remixing questions from the Global Assessments Library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#bugs" class="nav-link">Bugs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#unlinking-and-updating-assessments-from-library" class="nav-link">Unlinking and Updating Assessments from Library</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#updating-an-existing-assessment" class="nav-link">Updating an Existing Assessment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#unlinking-an-assessment" class="nav-link">Unlinking an Assessment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#searching-and-adding-questions-from-the-assessments-library" class="nav-link">Searching and Adding questions from the Assessments Library</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#searching-assessments-library" class="nav-link">Searching Assessments Library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#previewing-question" class="nav-link">Previewing Question</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#saving-searches" class="nav-link">Saving Searches</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#using-saved-searches" class="nav-link">Using Saved Searches</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#deleting-saved-searches" class="nav-link">Deleting Saved Searches</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#adding-questions-from-assessments-library" class="nav-link">Adding Questions from Assessments Library</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#simple-vs-complex-layouts" class="nav-link">Simple vs Complex Layouts</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#how-do-you-tell-the-difference" class="nav-link">How do you tell the difference?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link"></a></h2>
+<p>An <strong>assessment library</strong> in Codio is a collection of existing assessment items.</p>
+<p>You can <a href="/dashboard/organisations/#create-an-organization-assessments-library">create assessments libraries within your organization</a>. You can organize your libraries by course number, programming language, department, etc.</p>
+<p>You can <a href="/courses/assessments-library/#codios-global-assessments-library">use existing assessments from Codio's Global library.</a></p>
+<p>To navigate through an assessments library, <a href="/courses/assessments-library/#searching-and-adding-questions-from-the-assessments-library">you filter based on tags.</a> The Codio assessments library has a number of tags - your organization can come up with a convention that works for you!</p>
+<h2 id="adding-questions-to-an-assessments-library">Adding Questions to an Assessments Library<a class="headerlink" href="#adding-questions-to-an-assessments-library" title="Permanent link"></a></h2>
+<p>Once an assessment is added to an assessment library, it can be accessed later and added to a project or course with ease. Adding assessments to an assessment library has a few simple steps. Before you begin, you or someone else in your organization with <a href="/dashboard/organisations/#administrator-role">adminstrator access</a> needs to <a href="/dashboard/organisations/#create-an-organization-assessments-library">create an organization assessments library</a> if you do not already have one.</p>
+<ol>
+<li>
+<p>The first step is creating the assessment. It is similar to how you <a href="/courses/assessments/#assessments">normally create an assessment</a> with a few things you should note:</p>
+</li>
+<li>
+<p>Assessments on pages set to the <a href="/courses/settings-actions/#layout"><em>1 Panel without tree</em> layout</a> will be saved with a <a href="/courses/assessments-library/#simple-vs-complex-layouts">simple layout</a>.</p>
+</li>
+<li>
+<p>Use <a href="/courses/assessments/#metadata">the metadata tab</a> to tag your assessment so it appears when the <a href="/courses/assessments-library/#searching-assessments-library">assessments library is searched</a></p>
+</li>
+<li>
+<p>Use <a href="/courses/assessments/#files">the files tab</a> to ensure all dependent files such as grading scripts, images used in the guides pane, etc. are associated with the assessment so it works properly when added from the library</p>
+</li>
+</ol>
+<p>Once the assessment is written, we can add it to an assessment library. Click the <strong>"SAVE IN LIBRARY"</strong> button on the bottom right of the window:
+   <img alt="Save to library" src="/img/guides/assessment-save-to-library.png" /></p>
+<ol>
+<li>A window will appear with a dropdown menu of all the available libraries that the question can be added to. Choose the desired library from the dropdown menu.</li>
+</ol>
+<p><img alt="Library selection" src="/img/guides/assessment-library-selection-menu.png" /></p>
+<ol>
+<li>Once the desired library has been chosen, press the <strong>"ADD"</strong> button.</li>
+</ol>
+<p><img alt="Selecting library" src="/img/guides/assessment-library-selection.png" /></p>
+<p>The assessment has now been added to the chosen library.</p>
+<p>If you get an error message, you may not have <a href="/dashboard/organisations/#add-collaborators-to-an-assessments-library">write access to your organization's assessment library</a>.</p>
+<p>Once a question has been added, <a href="/courses/assessments-library/#unlinking-and-updating-assessments-from-library">follow these steps to update the assessment in your organization's library.</a></p>
+<p>Additionally, you can <a href="/courses/assessments-library/#unlinking-an-assessment">disconnnect questions</a> from <a href="/courses/assessments-library/#codios-global-assessments-library">Codio's global assessments library</a>, modify them, and then add your version using the steps above!</p>
+<h2 id="codios-global-assessments-library">Codio's Global Assessments Library<a class="headerlink" href="#codios-global-assessments-library" title="Permanent link"></a></h2>
+<p>The Global Assessments Library is an assessment library that all Codio users have read-only access to. The library contains auto-graded assessment questions covering a wide variety of topics, difficulties, and assessment types. We are currently populating it with assessments in:</p>
+<ul>
+<li>Java</li>
+<li>C / C++</li>
+<li>Python</li>
+<li>JavaScript</li>
+<li>Data Structures (in Java)</li>
+</ul>
+<h3 id="features-of-global-assessments-library">Features of Global Assessments Library<a class="headerlink" href="#features-of-global-assessments-library" title="Permanent link"></a></h3>
+<p>All assessments in the global library are auto-graded, there is no manual grading necessary. All assessments also contain example solutions and answer explanations for the student. Some will also have teacher notes to help better convey the intended learning objective of the assessment.</p>
+<h3 id="using-the-global-assessments-library">Using the Global Assessments Library<a class="headerlink" href="#using-the-global-assessments-library" title="Permanent link"></a></h3>
+<p>Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the <strong>Codio Main</strong> under "Library Name".</p>
+<p><a href="/courses/assessments-library/#searching-and-adding-questions-from-the-assessments-library">You can filter through the different assessments</a> by:</p>
+<ul>
+<li>Name</li>
+<li>Programming language</li>
+<li>Assessment type</li>
+<li>Category (topic-level)</li>
+<li>Content (sub-topic level)</li>
+<li>Learning Objective (in SWBAT form - "Students will be able to....")</li>
+<li>Bloom's Taxonomy level
+   <img alt="Blooms Taxonomy" src="/img/bloomsTax.png" /></li>
+</ul>
+<p>Here is an example of the tags in a Codio library assessment:
+<img alt="Codio library" src="/img/CodioLibTags.png" /></p>
+<p><em>Assessment type is auto-detected and not manually specified.</em></p>
+<p><a href="/courses/assessments-library/#previewing-question">You can even get a small preview of the question text!</a> Once you find a suitable assessment, <a href="/courses/assessments-library/#adding-questions-from-assessments-library">add it to your project</a>.</p>
+<h3 id="remixing-questions-from-the-global-assessments-library">Remixing questions from the Global Assessments Library<a class="headerlink" href="#remixing-questions-from-the-global-assessments-library" title="Permanent link"></a></h3>
+<p>If you like an assessment in our assessments library but want to add your own twist to it, you can <a href="/courses/assessments-library/#unlinking-an-assessment">disconnect the question from the library</a>.</p>
+<p>Then, simply modify the assessment as you'd like!</p>
+<p>Additionally, you can then <a href="/courses/assessments-library/#adding-questions-to-an-assessments-library">add your version of the assessments to your organization's assessment library</a>.</p>
+<h3 id="bugs">Bugs<a class="headerlink" href="#bugs" title="Permanent link"></a></h3>
+<p>If you find a bug or error with an assessment, please <a href="/dashboard/support">contact us</a></p>
+<h2 id="unlinking-and-updating-assessments-from-library">Unlinking and Updating Assessments from Library<a class="headerlink" href="#unlinking-and-updating-assessments-from-library" title="Permanent link"></a></h2>
+<h3 id="updating-an-existing-assessment">Updating an Existing Assessment<a class="headerlink" href="#updating-an-existing-assessment" title="Permanent link"></a></h3>
+<ol>
+<li>
+<p>Click on the "Add Assessment Icon"
+<img alt="Create assessment" src="/img/CreateAssessment.png" /></p>
+</li>
+<li>
+<p>Click on the assessment you want to edit in the "Edit assessments" portion of the dropdown menu
+<img alt="Edit assessment" src="/img/EditAssessmsent.png" /></p>
+</li>
+<li>
+<p>Change whatever it is you want to change</p>
+</li>
+<li>
+<p>Click "Update In Library"
+<img alt="Update library" src="/img/UpdateInLib.png" /></p>
+</li>
+</ol>
+<p><a name="unlinkingAssessment"></a></p>
+<h3 id="unlinking-an-assessment">Unlinking an Assessment<a class="headerlink" href="#unlinking-an-assessment" title="Permanent link"></a></h3>
+<ol>
+<li>
+<p>Click on the "Add Assessment Icon"
+<img alt="Create assessment" src="/img/CreateAssessment.png" /></p>
+</li>
+<li>
+<p>Click on the assessment you want to disconnect in the "Edit assessments" portion of the dropdown menu
+<img alt="Edit assessment" src="/img/EditAssessmsent.png" /></p>
+</li>
+<li>
+<p>Click "disconnect"
+<img alt="Disconnect" src="/img/DisconnectFromlib.png" /></p>
+</li>
+<li>
+<p>Codio will display a message confirming that the assessment has been successfully disconnected from the appropriate library. You should also notice the link icon is no longer present next to the assessment in the "Edit assessments" portion of the dropdown menu</p>
+</li>
+</ol>
+<h2 id="searching-and-adding-questions-from-the-assessments-library">Searching and Adding questions from the Assessments Library<a class="headerlink" href="#searching-and-adding-questions-from-the-assessments-library" title="Permanent link"></a></h2>
+<p>Regardless of whether you are using <a href="/courses/assessments-library/#codios-global-assessments-library">Codio's global assessments library</a> or <a href="/dashboard/organisations/#organization-assessments-library">your organization's assessment library</a>, the steps for searching for and adding assessments from them are the same.</p>
+<h3 id="searching-assessments-library">Searching Assessments Library<a class="headerlink" href="#searching-assessments-library" title="Permanent link"></a></h3>
+<p>From the assessments drop down, select the "Assessment Library" option.
+<img alt="Searching" src="/img/addFromLib.png" /></p>
+<p>Use the drop down on the left to indicate which assessments library you want to search.
+<img alt="Select library" src="/img/selectLib.png" /></p>
+<p>To narrow down the assessments, input a tag and value pair. For example, you can search by the "Programming Language" (tag) and indicate you want "Python" (value) questions. The search is <strong>not</strong> case-sensitive. You will notice that Codio tries to help you by presenting auto-complete suggestions.
+<img alt="Autocomplete" src="/img/autoComplete.png" /></p>
+<p>You can also click on any of the tag fields you see in the current results and it will automatically filter to those and add a new row to your search query</p>
+<p>Once you have completed inputting the tag and value pair, you will get a list of results.
+<img alt="Search results" src="/img/searchResults.png" /></p>
+<p>You can add as many additional tag and value pairs or by clicking on tag:value pair currently shown to narrow your results by clicking the plus sign to the right of the value box.
+<img alt="Add tags" src="/img/doubleTags.png" /></p>
+<p>To navigate through your search results, you can use the scroll bar on the right to scroll through assessments on a page. Once you reach the bottom, you can use the page navigation in the top left to move backwards/forwards a page or jump to a certain page of results.
+<img alt="Scroll results" src="/img/scrollThrough.png" /></p>
+<p><a name="previewQuestion"></a></p>
+<h3 id="previewing-question">Previewing Question<a class="headerlink" href="#previewing-question" title="Permanent link"></a></h3>
+<p>You can get a sneak peek of the question text by clicking within a listed assessment's white box. The question text will appear below the listed value/tag pairs.
+<img alt="Previewing" src="/img/previewQuestion1.png" /></p>
+<p>If you preview a second question, the first preview will collapse.
+<img alt="More previewing" src="/img/previewQuestion2.png" /></p>
+<h3 id="saving-searches">Saving Searches<a class="headerlink" href="#saving-searches" title="Permanent link"></a></h3>
+<p>If you find a set of particular search parameters you want to save, you can do so by simply clicking the "Save" button to the right of the tags and values boxes.
+<img alt="authtoken" src="/img/doubleTags2.png" /></p>
+<p>A prompt will ask you for the "Search Name" - this is how it will be listed in your saved search list.
+<img alt="Search name" src="/img/nameSearch.png" /></p>
+<h3 id="using-saved-searches">Using Saved Searches<a class="headerlink" href="#using-saved-searches" title="Permanent link"></a></h3>
+<p>To use a saved search, you click on the "Saved" drop down to the right of the tags and values boxes. Select the search you want to use by clicking on it's name.
+<img alt="Saved searches" src="/img/savedSearch.png" /></p>
+<p>You will then be able to see all the parameters you saved previously. You can edit these search parameters freely without changing your saved search.</p>
+<p>If you find a set of search parameters you like better, you can simply save the new set and delete your old search.</p>
+<h3 id="deleting-saved-searches">Deleting Saved Searches<a class="headerlink" href="#deleting-saved-searches" title="Permanent link"></a></h3>
+<p>To remove a saved search, you click on the "Saved" drop down to the right of the tags and values boxes. Delete the saved search by clicking on the red "x" to the right of it's name.
+<img alt="Delete saved search" src="/img/savedSearchDelete.png" /></p>
+<p><a name="addQuestion"></a></p>
+<h2 id="adding-questions-from-assessments-library">Adding Questions from Assessments Library<a class="headerlink" href="#adding-questions-from-assessments-library" title="Permanent link"></a></h2>
+<p>Once you have found an assessment you would like to add to, simply press the "Add" button to the right.
+<img alt="Select question" src="/img/selectQuestion.png" /></p>
+<p>Please note the difference between layouts to know how it will be inserted.</p>
+<p><a name="simpleComplex"></a></p>
+<h3 id="simple-vs-complex-layouts">Simple vs Complex Layouts<a class="headerlink" href="#simple-vs-complex-layouts" title="Permanent link"></a></h3>
+<p>In Codio's assessments libraries, there are two types of layouts:</p>
+<ul>
+<li><strong>Simple</strong></li>
+</ul>
+<p>An assessment in the library has a <strong>simple</strong> layout if it was added with the <a href="/courses/settings-actions/#page"><em>1 Panel without tree</em> layout</a>. When adding a simple layout question to your project or book, the assessment will be inserted into the current page at your cursor's location.</p>
+<ul>
+<li><strong>Complex</strong></li>
+</ul>
+<p>An assessment in the library has a <strong>complex</strong> layout if it was added with any layout besides 1 Panel without tree. When adding a complex layout question to your project or book, the assessment will be inserted on a new page directly after the current page.</p>
+<h3 id="how-do-you-tell-the-difference">How do you tell the difference?<a class="headerlink" href="#how-do-you-tell-the-difference" title="Permanent link"></a></h3>
+<p>When you are filtering the assessments library, you will notice the "complex layout" icon on assessments saved with a complex layout. All assessments without the icon are simple layout assessments.
+<img alt="Layout icon" src="/img/complexLayoutIcon.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020 Codio Inc.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../javascripts/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
